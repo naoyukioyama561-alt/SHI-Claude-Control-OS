@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Control OS for AI Assistants — Failure Modes, Controls, and Incident Ledger"
+type: software
+authors:
+  - family-names: "Oyama"
+    given-names: "Naoyuki"
+identifiers:
+  - type: url
+    value: "https://ssrn.com/abstract=6299258"
+    description: "Related SHI theory paper"
+abstract: >
+  A public-safe, high-impact playbook for controlling AI assistants (including coding agents) in real work:
+  failure mode taxonomy (FM-01..FM-40), operational controls (Control OS), a shareable incident ledger format,
+  and a 4+1 layer quality system design. Based on 14 days of hands-on governance with Claude Code.
+keywords:
+  - "AI assistants"
+  - "governance"
+  - "failure modes"
+  - "operational controls"
+  - "incident ledger"
+  - "quality system"
+  - "Claude Code"
+license: "CC-BY-4.0 AND MIT"
+repository-code: "https://github.com/nao-oyama/control-os-for-ai-assistants"
+version: "0.1.0"
+date-released: "2026-03-20"
+preferred-citation:
+  type: article
+  title: "Control OS for AI Assistants — Failure Modes, Controls, and Incident Ledger"
+  authors:
+    - family-names: "Oyama"
+      given-names: "Naoyuki"
+  year: 2026
+  version: "0.1.0"
+  url: "https://github.com/nao-oyama/control-os-for-ai-assistants"

@@ -1,6 +1,39 @@
+# Dual License (Documentation + Code)
+
+This repository is licensed under a dual license model to maximize reuse while keeping attribution clear.
+
+- **Documentation / text content** (Markdown, diagrams, non-code assets unless noted):
+  Licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+
+- **Source code** (any scripts, programs, or code snippets explicitly marked as code):
+  Licensed under the **MIT License** (full text below).
+
+If a file declares a different license header, that file's header takes precedence.
+
+---
+
+## A. Documentation License (CC BY 4.0) — Notice
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a reference to the license name (CC BY 4.0), and indicate if changes were made.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Attribution guidance (recommended):
+- Title: "Control OS for AI Assistants — Failure Modes, Controls, and Incident Ledger"
+- Author: Naoyuki Oyama
+- Canonical: https://github.com/nao-oyama/control-os-for-ai-assistants
+
+---
+
+## B. MIT License (for source code)
+
 MIT License
 
-Copyright (c) 2026 naoyukioyama561-alt
+Copyright (c) 2026 Naoyuki Oyama
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
