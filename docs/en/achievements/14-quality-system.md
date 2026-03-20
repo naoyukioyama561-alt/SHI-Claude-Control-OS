@@ -27,7 +27,7 @@ Additional components:
 
 | Image | Description |
 |-------|-------------|
-| ![8-point verification](../../assets/masked/IMG_035.png) | P-26-EXIT improvement: 8-point verification set in action |
+| ![Spreadsheet data](../../images/14-quality-system/IMG_102.png) | Spreadsheet-format data list (quality improvement comment perspective) |
 
 ## Key Insight (考え方のポイント)
 

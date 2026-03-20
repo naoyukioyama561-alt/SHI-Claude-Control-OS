@@ -23,8 +23,10 @@ This is not a bulk template — it is a structural decomposition of each individ
 
 | Image | Description |
 |-------|-------------|
-| ![FM verification](../../assets/masked/IMG_035.png) | P-26-EXIT improvement: 8-point verification set table |
-| ![Verification files](../../assets/masked/IMG_055.png) | Improvement verification: files-to-check list table |
+| ![FM verification](../../images/01-failure-modes/IMG_035.png) | P-26-EXIT improvement: 8-point verification set table |
+| ![Pattern detection](../../images/01-failure-modes/IMG_037.png) | Pattern detection bar chart (EVIDENCE_DROPOUT, etc.) |
+| ![Verification files](../../images/01-failure-modes/IMG_055.png) | Improvement verification: files-to-check list table |
+| ![Missing items](../../images/01-failure-modes/IMG_060.png) | Missing items table (behavioral_patterns.md diff read priority) |
 
 ## Key Insight (考え方のポイント)
 

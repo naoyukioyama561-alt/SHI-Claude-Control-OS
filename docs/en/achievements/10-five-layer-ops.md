@@ -22,7 +22,9 @@ The operational structure was expanded from a conventional 3-layer model to a **
 
 | Image | Description |
 |-------|-------------|
-| ![5-layer chain](../../assets/masked/IMG_062.png) | 5-layer operational chain with correspondence to quality system |
+| ![5-layer architecture](../../images/10-five-layer-ops/IMG_085.png) | 5-layer AI architecture + smart functions (automation, learning, monitoring) |
+| ![Category levels](../../images/10-five-layer-ops/IMG_076.png) | Stage 1 category comprehension levels (system configuration, etc.) |
+| ![Summary + gaps](../../images/10-five-layer-ops/IMG_117.png) | Summary info table + missing items (Stage 2 diff reading required) |
 
 ## Key Insight (考え方のポイント)
 

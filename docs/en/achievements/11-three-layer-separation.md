@@ -20,8 +20,7 @@ A **three-layer role separation architecture** that divides work not by volume, 
 
 | Image | Description |
 |-------|-------------|
-| ![Three-Layer Table](../../assets/masked/IMG_016.png) | Three-layer role separation table — the core visual of this project |
-| ![Role separation in practice](../../assets/masked/IMG_023.png) | cc_dialogue.md showing role separation in action (watcher_infra + behavior_check) |
+| ![Permission separation](../../images/11-three-layer-separation/IMG_074.png) | Permission separation complete (write: cc_dialogue.md only, deny: rm, mv, cp, etc.) |
 
 ## Key Insight (考え方のポイント)
 

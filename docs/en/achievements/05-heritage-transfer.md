@@ -19,8 +19,12 @@ A system where the **first-generation CC (Senior CC) serves as a permanent teach
 
 | Image | Description |
 |-------|-------------|
-| ![Senior CC review](../../assets/masked/IMG_062.png) | Context externalization analysis + Senior CC's review directives |
-| ![Permission separation](../../assets/masked/IMG_074.png) | Permission separation: write limited to cc_dialogue.md only, dangerous commands denied |
+| ![CC self-evaluation](../../images/05-heritage-transfer/IMG_071.png) | CC self-evaluation + predecessor learning trajectory analysis |
+| ![Personality diff](../../images/05-heritage-transfer/IMG_073.png) | 02_cc_personality.md diff (structural reflection additions) |
+| ![Growth patterns](../../images/05-heritage-transfer/IMG_090.png) | Predecessor growth pattern analysis + cc_personality.md read |
+| ![Learning trajectory](../../images/05-heritage-transfer/IMG_118.png) | Predecessor learning trajectory + 3 reflection rewrites |
+| ![Personality content](../../images/05-heritage-transfer/IMG_120.png) | 01_cc_personality.md content (judgment norms, crash recovery records) |
+| ![Stage 2 requirements](../../images/05-heritage-transfer/IMG_105.png) | Stage 2 completion: key read points (CC personality, user values, etc.) |
 
 ## Key Insight (考え方のポイント)
 

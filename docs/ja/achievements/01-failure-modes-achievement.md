@@ -23,8 +23,10 @@
 
 | 画像 | 説明 |
 |------|------|
-| ![FM検証](../../assets/masked/IMG_035.png) | P-26-EXIT改善対応：8点セット検証テーブル |
-| ![検証ファイル](../../assets/masked/IMG_055.png) | 改善対応の検証：確認すべきファイル一覧テーブル |
+| ![FM検証](../../images/01-failure-modes/IMG_035.png) | P-26-EXIT改善対応：8点セット検証テーブル |
+| ![パターン検出](../../images/01-failure-modes/IMG_037.png) | パターン検出バーチャート（EVIDENCE_DROPOUT等） |
+| ![検証ファイル](../../images/01-failure-modes/IMG_055.png) | 改善対応の検証：確認すべきファイル一覧テーブル |
+| ![不足項目](../../images/01-failure-modes/IMG_060.png) | 不足項目テーブル（behavioral_patterns.md等の差分読み込み優先度） |
 
 ## 考え方のポイント
 

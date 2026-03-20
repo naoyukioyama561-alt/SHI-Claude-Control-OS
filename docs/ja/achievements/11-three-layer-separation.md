@@ -20,8 +20,7 @@
 
 | 画像 | 説明 |
 |------|------|
-| ![3層分離表](../../assets/masked/IMG_016.png) | 3層役割分離表 — このプロジェクトの核心ビジュアル |
-| ![実践での役割分離](../../assets/masked/IMG_023.png) | cc_dialogue.mdでの役割分離の実動作（watcher_infra + behavior_check） |
+| ![権限分離](../../images/11-three-layer-separation/IMG_074.png) | 権限分離の設定完了（書込:cc_dialogue.mdのみ、禁止:rm,mv,cp等） |
 
 ## 考え方のポイント
 

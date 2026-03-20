@@ -22,8 +22,11 @@ A complete **external monitoring and meta-governance system** that breaks the de
 
 | Image | Description |
 |-------|-------------|
-| ![Three-Layer Separation](../../assets/masked/IMG_016.png) | Three-layer role separation table (Supervisor=Senior CC, Relay=Assistant AI, Worker=Current CC) |
-| ![cc_dialogue roles](../../assets/masked/IMG_023.png) | cc_dialogue.md content: watcher_infra check, behavior_check judgment |
+| ![Three-Layer Separation](../../images/04-external-monitoring/IMG_016.png) | Three-layer role separation table (Supervisor=Senior CC, Relay=Assistant AI, Worker=Current CC) |
+| ![Assistant follow-up](../../images/04-external-monitoring/IMG_103.png) | Assistant follow-up system diagnosis (watcher_infra 2-process duplication, etc.) |
+| ![Blocker hook](../../images/04-external-monitoring/IMG_113.png) | dialogue_blocker_hook addition, supervisor process management |
+| ![PreToolUse hook](../../images/04-external-monitoring/IMG_010.png) | PreToolUse hook stop handling + block/route structure |
+| ![Health check](../../images/04-external-monitoring/IMG_096.png) | Health check threshold settings (R1-R4) |
 
 ## Key Insight (考え方のポイント)
 

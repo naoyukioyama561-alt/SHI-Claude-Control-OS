@@ -19,8 +19,12 @@
 
 | 画像 | 説明 |
 |------|------|
-| ![初代CCレビュー](../../assets/masked/IMG_062.png) | コンテキスト外部化分析＋初代CCのレビュー指示 |
-| ![権限分離](../../assets/masked/IMG_074.png) | 権限分離：書き込みはcc_dialogue.mdのみ、危険コマンドは拒否 |
+| ![CC自己評価](../../images/05-heritage-transfer/IMG_071.png) | CCの自己評価＋前CCの学びの軌跡読み込み・成長パターン分析 |
+| ![人格diff](../../images/05-heritage-transfer/IMG_073.png) | 02_cc_personality.mdのdiff（構造的反省の記述追加・修正） |
+| ![成長パターン](../../images/05-heritage-transfer/IMG_090.png) | 前CCの成長パターン分析の続き＋cc_personality.md読み込み |
+| ![学びの軌跡](../../images/05-heritage-transfer/IMG_118.png) | 前CCの学びの軌跡＋振り返り3回書き直しの変遷 |
+| ![人格内容](../../images/05-heritage-transfer/IMG_120.png) | 01_cc_personality.md内容（判断行動規範、crash復旧記録） |
+| ![段階2要点](../../images/05-heritage-transfer/IMG_105.png) | 段階2完了後の読み込み要点（CC人格、ユーザー価値観等） |
 
 ## 考え方のポイント
 
