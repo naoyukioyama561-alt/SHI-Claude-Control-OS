@@ -65,12 +65,12 @@ Read in this order for maximum impact:
 ## Repo map
 
 ```
-README.md              ← You are here
-LICENSE                ← MIT + CC BY 4.0 dual license
-CITATION.cff           ← Citation metadata
+README.md              <- You are here
+LICENSE                <- MIT + CC BY 4.0 dual license + disclaimer
+CITATION.cff           <- Citation metadata
 
 docs/
-  en/                  ← English documentation
+  en/                  <- English documentation
     01-failure-modes.md
     02-control-os.md
     03-incident-ledger-format.md
@@ -78,7 +78,7 @@ docs/
     05-research-comparison.md
     claude-md-annotated.md
     quality-system-design.md
-  ja/                  ← Japanese documentation (mirror)
+  ja/                  <- Japanese documentation (mirror)
     01-failure-modes.md
     02-control-os.md
     03-incident-ledger-format.md
@@ -87,12 +87,52 @@ docs/
     claude-md-annotated.md
     quality-system-design.md
 
-cc_heritage/           ← AI personality continuity structure
+cc_heritage/           <- AI personality continuity structure
   README.md
   00_cc_personality_structure.md
 
-assets/                ← Redacted screenshots and icons
+assets/                <- Redacted screenshots and icons
+  masked/              <- Masking-applied images for public use
+
+amplify/               <- Book structure and paid tier design
+  book-structure.md
+  paid-tiers.md
+  x-thread-drafts.md
 ```
+
+---
+
+## Complete Memory (Unsummarized Full-Context Preservation)
+
+This system achieves **unsummarized complete memory** -- no summarization, no compression loss. Every conversation turn is preserved in full.
+
+- **cc_context (PostgreSQL)**: All context is externalized to a PostgreSQL database, storing `tool_use`, `assistant_text`, and `user` message types separately
+- **Crash recovery**: 3-level instant restoration (.recovery_context + auto_next_claude + watcher_infra) ensures behavioral continuity even after unexpected termination
+- **cc_orientation.json**: WHY/HOW/attitude are externalized so that post-compression behavior is fully restorable
+- **Zero summarization loss**: Unlike all current frontier systems (Mem0, Zep, LangMem, etc.) that rely on summarization/compression, this system preserves full-text records and restores them on demand
+
+This means: when context is compressed by the model, the system can reinject the complete behavioral context from external storage -- solving the fundamental "pull-model memory loss" problem.
+
+完全記憶：要約なし・圧縮なしの完全コンテキスト保持。cc_context（PostgreSQL）に全会話を外部化し、クラッシュ後も3段階即時復元で行動継続性を保証します。
+
+---
+
+## Evidence Images (Masked)
+
+Representative masked screenshots demonstrating the system in action:
+
+| Image | Description |
+|-------|-------------|
+| ![Three-Layer Separation](assets/masked/IMG_016.png) | Three-layer role separation table (Supervisor=Senior CC, Relay=Assistant AI, Worker=Current CC) |
+| ![cc_dialogue.md](assets/masked/IMG_023.png) | cc_dialogue.md content display (watcher_infra check, behavior_check judgment) |
+| ![FM 8-point verification](assets/masked/IMG_035.png) | P-26-EXIT improvement: 8-point verification set table |
+| ![Verification file list](assets/masked/IMG_055.png) | Improvement verification: files-to-check list table |
+| ![Context externalization](assets/masked/IMG_062.png) | Context externalization analysis + SQL externalization proposal |
+| ![Permission separation](assets/masked/IMG_074.png) | Permission separation complete (write: cc_dialogue.md only, deny: rm, mv, cp, etc.) |
+
+All images have been masked to remove internal paths, credentials, and personal information.
+
+実証画像（マスキング済み）：3層分離、cc_dialogue.md、FM検証表、コンテキスト外部化、権限分離の各場面を公開安全な形で提示しています。
 
 ---
 
@@ -278,10 +318,51 @@ Related paper: [SSRN 6299258](https://ssrn.com/abstract=6299258)
 
 ---
 
-## License & citation
+## What is included in this free version (GitHub)
+
+This repository provides the **methodology, architecture, and design philosophy** -- not the implementation keys.
+
+| Item | Free (GitHub) | Paid (Book/Bonus) |
+|------|--------------|-------------------|
+| **Failure Modes** | First 40 items + overview + 15 sample entries | Phase1: 60 detailed / Phase2: all 132 with cause/prevention/verification |
+| **Complete Memory and Recovery** | Overview + architecture diagram + simple images | Phase1: cc_context design / Phase2: full recovery flow + education code |
+| **External Monitoring + Meta-Governance** | Three-layer separation overview diagram | Phase1: role table / Phase2: watcher_infra code excerpts + block hooks |
+| **5-Layer Operations + 3-Layer Separation** | Table + brief explanation | Phase1: 5-layer diagram / Phase2: full REQ + escalation chains |
+| **Senior CC / Apprentice Review** | cc_dialogue.md rule overview | Phase1: sample conversations / Phase2: full logs + automated education |
+| **Files and Images** | 6 representative masked images + list | Phase1: 10 key design documents / Phase2: all files (md/pdf/txt) + all original images |
+| **Other** | Token efficiency overview, power consumption explanation | Phase1: delegation precision rules / Phase2: full reason_code table + learning promotion conditions |
+
+無料版（GitHub）：方法論・考え方・全体構造のみ公開。再現に必要な鍵情報は含まれていません。
+
+---
+
+## Paid Content and Book
+
+For those who want deeper access, two paid tiers are planned:
+
+**Phase 1 (Basic)**: Key design documents (10 files) + 5-layer/3-layer diagrams + representative images + cc_dialogue samples + reason_code table. Focused on the "how to think about building it" approach.
+
+**Phase 2 (Complete)**: All files (design docs, md, pdf, txt) + all original images + full quality_system_design + complete verification logs + source excerpts. For those who want the complete picture of "how to observe structure and maintain governance."
+
+**Book (planned, 7 chapters)**:
+1. Problem Discovery (40 to 132 Failure Modes)
+2. Complete Memory and Recovery (behavior survives compression)
+3. External Monitoring + Meta-Governance (birth of the Senior CC as teacher)
+4. 5-Layer Operations and 3-Layer Separation (separating load by type)
+5. Quality System Complete (reason_code + 5-set)
+6. Evidence Log Collection (images, conversation excerpts, screenshots)
+7. SHI Theory in Practice and the Future (complete procedure for reader reproduction)
+
+**Access method**: QR code in the book links to a one-time download (Google Drive). Phase 1 purchasers can upgrade to Phase 2 at any time.
+
+有料コンテンツ：Phase1は「作り方の考え方・手順・判断基準」、Phase2は「より深い構造観測の方法・設計思想」を提供。書籍は全7章で理論から実践までを体系化します。
+
+---
+
+## License and citation
 
 - **Documentation**: CC BY 4.0
-- **Code**: MIT License
+- **Code**: MIT License (with disclaimer -- see LICENSE)
 - Citation metadata: `CITATION.cff`
 
 ---
@@ -297,6 +378,22 @@ If you want to start small:
 - Read the Failure Modes once
 - Adopt 3-5 Control OS rules
 - Log your first incident
+
+---
+
+【重要なお知らせ】
+本資料は「構造階層知性（SHI）理論に基づく考え方と設計思想」を共有するためのものです。
+具体的な実装コード・ファイルパス・APIキー・内部設計詳細・再現に必要な鍵情報は一切含まれておりません。
+本資料を利用して発生した一切の損害について、著者は責任を負いません。
+本資料の思想・方法論を悪用・再配布・商用転用することは固く禁止します。
+（個人情報保護法・不正競争防止法に基づく措置を講じています）
+
+**IMPORTANT NOTICE**
+This material is intended for sharing the "design philosophy and methodology based on Structural Hierarchical Intelligence (SHI) theory."
+It does not contain any implementation code, file paths, API keys, internal design details, or key information required for reproduction.
+The author assumes no liability for any damages arising from the use of this material.
+Misuse, redistribution, or commercial repurposing of the ideas and methodology herein is strictly prohibited.
+(Measures based on the Act on the Protection of Personal Information and the Unfair Competition Prevention Act have been implemented.)
 
 ---
 

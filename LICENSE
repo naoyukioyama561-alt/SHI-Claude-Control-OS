@@ -52,3 +52,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## C. Disclaimer / Acknowledgment of Purpose
+
+This repository is provided for the purpose of sharing ideas and methodology
+based on Structural Hierarchical Intelligence (SHI) theory.
+
+It does NOT guarantee implementation or reproduction of the described system.
+No implementation code, file paths, API keys, internal design details, or
+key information required for reproduction is included.
+
+The author assumes no liability for any damages arising from the use of
+this material.
+
+Misuse, redistribution, or commercial repurposing of the ideas and methodology
+herein is strictly prohibited.
+
+(Measures based on the Act on the Protection of Personal Information and
+the Unfair Competition Prevention Act have been implemented.)
+
+本リポジトリは「思想・方法論の共有」を目的として提供されます。
+実装・再現を保証するものではありません。
+具体的な実装コード・ファイルパス・APIキー・内部設計詳細・再現に必要な鍵情報は
+一切含まれておりません。
+本資料を利用して発生した一切の損害について、著者は責任を負いません。

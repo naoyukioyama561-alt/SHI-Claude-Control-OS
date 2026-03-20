@@ -2,7 +2,31 @@
 
 ---
 
-## 有料本の章立て案 / Paid Book Chapter Plan
+## 書籍構成（全7章） / Book Structure (7 Chapters)
+
+質問書の整理に基づく書籍のコア構成です。
+
+**タイトル案**: 『Claude Codeをここまで統治した記録 -- 5層分業と痛み継承のAI統治OS』
+**English title draft**: "Governing AI by Structure -- The Control OS Born from SHI Theory and 132 Failure Modes"
+
+| 章 / Chapter | タイトル | Title | 概要 |
+|--------------|---------|-------|------|
+| 1 | 問題発見 | Problem Discovery | 40件から132件への道。失敗傾向をどう観測し分類したか |
+| 2 | 完全記憶と復元 | Complete Memory and Recovery | 圧縮後も行動が消えない。cc_context PostgreSQL + 3段階即時復元 |
+| 3 | 外部監視とメタ統治 | External Monitoring + Meta-Governance | 初代CCという教師の誕生。watcher_infra + Gemini外部監視 |
+| 4 | 5層運用と3層分離 | 5-Layer Operations + 3-Layer Separation | 負荷の質を分ける。監督/中継/作業の構造設計 |
+| 5 | 品質管理システム完全版 | Quality System Complete | reason_code + 5セット + 対応チェーン |
+| 6 | 実証ログ集 | Evidence Log Collection | 画像・会話抜粋・スクショ満載 |
+| 7 | SHI理論の実践と未来 | SHI Theory in Practice | 読者が自分で再現するための完全手順 |
+
+**進め方**:
+- まず無料GitHubで「概要+サンプル」を公開
+- 有料特典購入者に「書籍先行予約割引」を付ける
+- 書籍はNote有料版+Kindle同時発売で、特典購入者は電子版無料プレゼント
+
+---
+
+## 有料本の章立て案（詳細版） / Paid Book Chapter Plan (Detailed)
 
 ### 日本語版
 
