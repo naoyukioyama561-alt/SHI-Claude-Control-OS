@@ -6,7 +6,7 @@ Ask your AI whether it remembers yesterday's discussion. In the author's environ
 
 ## What Was Observed
 
-A **complete memory system with zero summarization loss** using PostgreSQL-based external storage:
+A PostgreSQL-based memory design intended to avoid summarization loss in the author's environment while preserving full-text storage at the database layer:
 
 - **[internal database table]**: PostgreSQL database preserving every tool_use, assistant_text, and user message without summarization
 - **[internal database table]**: Dedicated table for persisting user instructions across sessions
@@ -17,7 +17,7 @@ Unlike standard AI sessions where context is compressed or lost, this system ret
 ## What Was Observed to Hold
 
 - In the author's observation, standard AI context summarization causes **systematic knowledge loss** — details that seem unimportant at compression time often prove critical later
-- External PostgreSQL storage eliminates the compression/loss tradeoff entirely
+- In the author's environment, external PostgreSQL storage was used to avoid the usual compression/loss tradeoff found in in-context-only memory handling
 - The [internal database table] table design demonstrates that **user preferences and directives can be structurally persisted** rather than relying on in-context repetition
 
 ## Key Insight
@@ -29,3 +29,5 @@ The methodology: externalize everything to a structured database, then let the A
 ---
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).

@@ -34,3 +34,5 @@ This methodology can be applied to any AI system. The 40 initial patterns are pu
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 ![Dashboard structure](../../../images/diagrams/dashboard-overview-en.svg)
+
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).

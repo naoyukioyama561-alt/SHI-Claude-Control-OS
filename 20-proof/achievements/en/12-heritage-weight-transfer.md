@@ -32,3 +32,5 @@ This is the difference between a rule book and a teacher. A rule book tells you 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 ![Evidence: Hero image — heritage weight transfer](../../../20-proof/../images/diagrams/cc-heritage-inheritance-en.svg)
+
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).

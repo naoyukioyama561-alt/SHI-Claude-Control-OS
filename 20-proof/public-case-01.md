@@ -9,8 +9,8 @@ An AI coding assistant was asked: "Find all problems in this Python code." The c
 **Without Control OS**: The AI consistently found only 3-4 issues, omitting edge cases, security concerns, and items it deemed "minor." It did not disclose what it had not checked.
 
 **With Control OS**: After pasting the Control OS template into the system prompt (specifically the completeness verification rule and scope declaration requirement):
-- All 6 issues were detected
-- The AI explicitly declared what was outside its detection scope
+- In this documented example [observed: single environment, single operator], all 6 known issues in the sample were detected
+- In this documented example, the AI explicitly declared what was outside its detection scope
 - No "I checked everything" false assurance was given
 
 ## Evidence Classification

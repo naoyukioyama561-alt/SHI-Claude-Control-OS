@@ -81,7 +81,7 @@ This allows **each CC/AI to operate only in its strongest cognitive mode**, stru
 A single CC held "judgment + routine + work" simultaneously, context filled up, and quality degraded on handover.
 
 **After:**
-The 5-layer loop (observation, correction, detection, pre-control, inheritance fixation) runs continuously, with **load-type role separation (Supervisor / Relay / Worker)** embedded within it — In the author's environment [observed: single environment, N undisclosed], this produced **near-zero human intervention and major load reduction without a reported quality drop across the observed period**. This is an observed result in one documented environment, not a universal benchmark claim.
+The 5-layer loop (observation, correction, detection, pre-control, inheritance fixation) runs continuously, with **load-type role separation (Supervisor / Relay / Worker)** embedded within it — In the author's environment [observed: single environment, N undisclosed], this was associated with **substantially lower human intervention and lower operating load, with no reported quality drop during the observed period**. This is an observed result in one documented environment, not a universal benchmark claim.
 
 This is no longer just "improvement of a single AI" — it is a **governance structure for AI collectives**.
 
