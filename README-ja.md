@@ -54,11 +54,9 @@
 
 ### 動いている形を見る（公開安全な静的デモ・1分）
 
-**[公開安全なインタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)**
-- 日本語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
-- 英語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
+**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](docs/dashboard.html)
 
-*このデモはあなたの個人環境とは**完全に独立**した静的ページです。ボタン・検索・フィルタなど実際に操作できます。*
+*実環境とは完全に独立した静的ページです。表示データはすべてサンプルです。*
 
 ---
 

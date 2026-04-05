@@ -1,5 +1,7 @@
 # 成果No.14: トークン効率化 -- 20分の1削減（設計値）
 
+> **これは理論上の設計目標であり、計測結果ではありません。** 20倍という数字はアーキテクチャ上の目標です。実測データはPhase 2で公開予定です。
+
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## 何が観測されたか
