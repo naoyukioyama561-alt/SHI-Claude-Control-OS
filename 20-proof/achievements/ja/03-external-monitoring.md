@@ -1,0 +1,33 @@
+# 成果No.3: 外部監視・メタ統治
+
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+
+## 何が観測されたか
+
+AIの自己申告に依存しない**完全な外部監視・メタ統治システム**：
+
+- **[redacted: monitoring service]**: 監視対象AIから独立したインフラレベル監視
+- **[redacted: monitoring service]**: 別AIインスタンスによるAIレベル行動監視
+- **Gemini外部監視**: 構造的に異なるAIによるクロスモデル検証
+- **規範強制**: ルールは自己遵守ではなく外部から強制
+
+## 観測から確認されたこと
+
+- **自己監視は根本的に失敗しやすい** -- エラーを起こすのと同じアルゴリズム傾向が、エラー検知の盲点も作る
+- 構造的に別のAIによる外部監視で、著者の環境において以下の検知率が観測された：
+  - EVIDENCE_DROPOUT: 100%
+  - GENERIC_RESPONSE: 75%
+  - INCOMPLETE_CLAIM: 63%
+- 3層分離（監督・中継・作業）により、負荷を**量**ではなく**種類**で分けることで監視を持続可能にした
+
+## 考え方のポイント
+
+設計上の核心原則：**このフレームワークでは、構造的に分離した監視者を使うことで検知が改善された**。監視を増やすことではなく、監視者が被監視プロセスと**異なるアルゴリズム的盲点**を持つことが重要。
+
+品質保証に自己申告を頼るAIシステムには、構造的な盲点がある可能性がある。
+
+→ 詳細ドキュメント: [`10-framework/ja/04-three-layer.md`](../../../10-framework/ja/04-three-layer.md)
+
+---
+
+> Phase1は完全な役割表を提供。Phase2は[redacted: monitoring service]コード抜粋とブロックフック実装を提供。書籍には理論整理・検証設計・再現手順を収録。

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="400" height="180" fill="#0f172a" rx="10"/>
+
+  <!-- Title -->
+  <text x="200" y="18" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="600">Why Three Layers?</text>
+
+  <!-- Left: unseparated (bad) -->
+  <text x="100" y="38" text-anchor="middle" fill="#f87171" font-size="9" font-weight="600">Without separation</text>
+  <rect x="20" y="44" width="160" height="90" rx="8" fill="#450a0a" stroke="#991b1b" stroke-width="0.5"/>
+  <text x="100" y="64" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="500">Single AI</text>
+  <line x1="40" y1="72" x2="160" y2="72" stroke="#7f1d1d" stroke-width="0.5"/>
+  <text x="100" y="86" text-anchor="middle" fill="#fca5a5" font-size="8">Judgment + Monitoring + Execution</text>
+  <text x="100" y="100" text-anchor="middle" fill="#fca5a5" font-size="8">All in one context</text>
+  <text x="100" y="118" text-anchor="middle" fill="#f87171" font-size="8" font-weight="600">Mixed → Degradation</text>
+
+  <!-- Center arrow -->
+  <text x="200" y="92" text-anchor="middle" fill="#38bdf8" font-size="16" font-weight="600">→</text>
+  <text x="200" y="106" text-anchor="middle" fill="#38bdf8" font-size="8">Structural control</text>
+
+  <!-- Right: separated (good) -->
+  <text x="300" y="38" text-anchor="middle" fill="#4ade80" font-size="9" font-weight="600">With separation</text>
+  <rect x="220" y="44" width="160" height="26" rx="5" fill="#052e16" stroke="#22c55e" stroke-width="0.5"/>
+  <text x="300" y="61" text-anchor="middle" fill="#22c55e" font-size="9" font-weight="500">Supervisor -- Judgment</text>
+  <rect x="220" y="74" width="160" height="26" rx="5" fill="#0c1a3d" stroke="#60a5fa" stroke-width="0.5"/>
+  <text x="300" y="91" text-anchor="middle" fill="#60a5fa" font-size="9" font-weight="500">Relay -- Monitoring</text>
+  <rect x="220" y="104" width="160" height="26" rx="5" fill="#1c1305" stroke="#f59e0b" stroke-width="0.5"/>
+  <text x="300" y="121" text-anchor="middle" fill="#f59e0b" font-size="9" font-weight="500">Worker -- Execution</text>
+  <text x="300" y="144" text-anchor="middle" fill="#4ade80" font-size="8" font-weight="600">Specialized → Quality preserved</text>
+
+  <!-- Bottom summary -->
+  <line x1="14" y1="156" x2="386" y2="156" stroke="#334155" stroke-width="0.5"/>
+  <text x="200" y="172" text-anchor="middle" fill="#94a3b8" font-size="8">Separate load by type, not volume — preserving quality at each layer.</text>
+</svg>

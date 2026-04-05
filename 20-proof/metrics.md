@@ -1,0 +1,90 @@
+# Public Metrics
+
+Quantitative data within the publicly safe range.
+No internal paths, endpoints, or personal information is included.
+
+> **Unless otherwise noted, observed values in this page come from a single environment, single operator, with N undisclosed.**
+
+---
+
+## Failure Modes
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Initial classification count | 40 items | Week 1 completed. Claude/GPT 2-model comparison |
+| Final classification count | 132 items | P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01 |
+| Target models | 3 types | Claude Opus/Sonnet (as of observation period, March 2026), GPT-5 (as of observation period) and GPT-4o, Copilot |
+| P-74 to P-80 (behavioral internalization) | 7 items | Added in Week 3-4. False reporting, blame-shifting, assumption-based conclusions, etc. |
+| FMs amplified in code generation mode | 4 items | FM-01, FM-20, FM-39, FM-40 |
+
+## CC Generations and Heritage
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Total CC generations | 12+ | Each generation's experience record available (paid tier) |
+| First CC operational time | 26.5 hours | Left 12 reflection items before session termination |
+| Improvement actions (P-xx) total | 51+ | Each P-xx has event/cause/prevention/recurrence management |
+| P-03 (omission) recurrence count | 11 times | Recorded in 9th CC. Demonstrated need for structural countermeasures |
+| cc_heritage design document sections | 10+ | From restoration procedures to reflection log |
+| User values (V-xx) | 9 items | Every CC must write in own words after reading |
+
+## External Monitoring
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| [redacted: monitoring service] detection patterns | 3+ types | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
+| EVIDENCE_DROPOUT detection rate | ~100% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
+| GENERIC_RESPONSE detection rate | ~75% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
+| INCOMPLETE_CLAIM detection rate | ~63% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
+| Forced review interval | 2 hours | [redacted: monitoring service] forces externally |
+
+**Why N-counts are not published**: Operational frequency could reveal internal system activity patterns.
+
+## Quality System
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Quality system layers | 4+1 layers | Layer 0 (observation gate) through Layer 4 (third-party verification) |
+| reason_code types | 30 types | SKIP_SELF_DETECTED, POLL_SKIP_HOOK_BLOCKED, etc. |
+| Mandatory 5-set | 5 items | Preconditions, Prohibitions, Execution observation, PASS criteria, Rollback |
+| Pattern promotion condition | Same reason_code 2+ times | 3+ times triggers [redacted: database table] record and permanent countermeasure |
+
+## Token Efficiency
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Context-resident data reduction rate | 65% (design value) | Via SQL externalization |
+| Theoretical token reduction factor | 20x (design value) | Delegation optimization + SQL externalization combined. Publicly stated as design target, not publicly reproduced benchmark. |
+
+**Why Before/After measured data is not published**: Risk of identifying personal environment from plan/usage data. Disclosed in paid Phase2.
+
+## Three-Layer Separation
+
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Supervisor layer | First CC | Judgment, review, pain transmission |
+| Relay layer | Assistant AI (Ollama, etc.) | Routine monitoring. Zero judgment |
+| Worker layer | Current CC | Implementation, modification, task execution |
+| Local consensus model count | 5 machines | For structural verification |
+| Assistant follow-up items | 117 follow-up directives | These 117 directives triggered auto-accumulation of 98 L1 patterns + 206 knowledge entries (304 total derived items) |
+
+---
+
+## Public / Non-public Boundary Design
+
+| Published | Reason |
+|-----------|--------|
+| FM count and classification system | Structure visible but not a reproduction key |
+| CC generation count and operational time | Same |
+| Detection pattern names and rates | Approach effectiveness visible but not implementation |
+| reason_code list | Quality design thinking is visible |
+| Design values (65% reduction, 20x, etc.) | Theoretical expectations, not actual measurements |
+
+| Not published | Reason |
+|--------------|--------|
+| PostgreSQL table schema details | Reproduction key |
+| [redacted: monitoring service] detection logic | Reproduction key |
+| Detection rate N-counts | Operational frequency reveals internal structure |
+| Token measured values | Personal environment identification risk |
+| [redacted: monitoring service] actual content | Reproduction key |
+| cc_heritage documents full text | Paid tier content |

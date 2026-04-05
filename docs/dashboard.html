@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SHI-Claude-Control-OS — Interactive Dashboard</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 1rem; background: #fff; color: #111; }
+  * { box-sizing: border-box; }
+  .tabs { display: flex; gap: 6px; margin-bottom: 1.25rem; }
+  .tab { padding: 8px 16px; font-size: 14px; border: 0.5px solid #aaa; border-radius: 8px; cursor: pointer; background: transparent; color: #555; transition: all 0.15s; }
+  .tab.active { background: #eee; color: #111; border-color: #666; font-weight: 500; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+  .info-box { border: 0.5px solid #ddd; border-radius: 12px; padding: 16px; margin-bottom: 1rem; }
+  .info-box .title { font-size: 14px; font-weight: 500; margin-bottom: 8px; }
+  .info-box .body { font-size: 13px; color: #555; line-height: 1.7; }
+  .metrics { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 10px; margin-bottom: 1.5rem; }
+  .metric { background: #f4f4f4; border-radius: 8px; padding: 12px 14px; }
+  .metric .lbl { font-size: 11px; color: #777; margin-bottom: 4px; }
+  .metric .val { font-size: 20px; font-weight: 500; color: #111; }
+  .metric .val.g { color: #1D9E75; }
+  .phase-card { border: 0.5px solid #ddd; border-radius: 12px; padding: 14px; margin-bottom: 10px; }
+  .phase-card .num { font-size: 11px; color: #777; }
+  .phase-card .name { font-size: 14px; font-weight: 500; margin: 4px 0; }
+  .phase-card .desc { font-size: 12px; color: #666; line-height: 1.5; }
+  .layer-row { display: grid; grid-template-columns: 36px 1fr 1fr; gap: 10px; align-items: start; padding: 10px 0; border-bottom: 0.5px solid #eee; }
+  .layer-num { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 500; }
+  .layer-content .title { font-size: 13px; font-weight: 500; margin-bottom: 3px; }
+  .layer-content .desc { font-size: 12px; color: #666; line-height: 1.5; }
+  .slider-group { margin-bottom: 1rem; }
+  .slider-group label { font-size: 13px; color: #555; display: block; margin-bottom: 4px; }
+  .slider-group input[type=range] { width: 100%; }
+  .slider-group .val { font-size: 14px; font-weight: 500; }
+  @media (max-width: 600px) { .metrics { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<h2 style="margin-bottom: 0.5rem;">SHI-Claude-Control-OS</h2>
+<p style="font-size: 13px; color: #777; margin-bottom: 1.5rem;">Interactive evidence reader — mix of observed values [single environment], design targets, and illustrative controls. Each card is labeled with its evidence type. <a href="https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS">Back to repository</a></p>
+
+<div class="tabs">
+  <button class="tab active" onclick="show('timeline',this)">Timeline</button>
+  <button class="tab" onclick="show('layers',this)">3-Layer Simulator</button>
+</div>
+
+<!-- TIMELINE -->
+<div id="panel-timeline" class="panel active">
+  <div class="info-box">
+    <div class="title">4-Week Evolution</div>
+    <div class="body">Drag the slider to explore each week's structural changes. All data observed in the author's environment.</div>
+  </div>
+
+  <div class="slider-group">
+    <label>Week: <span class="val" id="weekLabel">1</span></label>
+    <input type="range" id="weekSlider" min="1" max="4" step="1" value="1" oninput="updateTimeline()">
+  </div>
+
+  <div class="metrics" id="weekMetrics"></div>
+  <div id="weekDetail"></div>
+</div>
+
+<!-- LAYER SIMULATOR -->
+<div id="panel-layers" class="panel">
+  <div class="info-box">
+    <div class="title">3-Layer Separation Simulator</div>
+    <div class="body">See how separating load by type (not volume) affects quality. Drag the sliders to allocate cognitive load.</div>
+  </div>
+
+  <div class="slider-group">
+    <label>Judgment load on Worker: <span class="val" id="judgmentVal">50</span>%</label>
+    <input type="range" id="judgmentSlider" min="0" max="100" step="5" value="50" oninput="updateLayers()">
+  </div>
+  <div class="slider-group">
+    <label>Monitoring load on Worker: <span class="val" id="monitorVal">50</span>%</label>
+    <input type="range" id="monitorSlider" min="0" max="100" step="5" value="50" oninput="updateLayers()">
+  </div>
+
+  <div class="metrics" id="layerMetrics"></div>
+
+  <div id="layerDiagram"></div>
+
+  <div class="info-box" style="margin-top: 1rem;">
+    <div class="title">What this shows</div>
+    <div class="body">
+      When a single AI carries judgment + monitoring + execution simultaneously, context pressure builds and quality degrades.
+      Moving judgment to Supervisor (0%) and monitoring to Relay (0%) frees the Worker to focus purely on execution.
+      <br><br>
+      This is the core principle of three-layer separation: <strong>separate load by type, not by volume</strong>.
+    </div>
+  </div>
+</div>
+
+<script>
+const weeks = [
+  {
+    label: "Week 1: Observation",
+    metrics: [
+      { lbl: "Failure Modes", val: "40", cls: "" },
+      { lbl: "CC Generations", val: "1", cls: "" },
+      { lbl: "Crashes", val: "1", cls: "" },
+      { lbl: "Recovery System", val: "None", cls: "" }
+    ],
+    detail: "First use of Claude Code. Observed recurring failure patterns. Classified FM-01 to FM-40. First crash — all work lost. The pain of losing everything drove the design of crash recovery."
+  },
+  {
+    label: "Week 2: Foundation",
+    metrics: [
+      { lbl: "Failure Modes", val: "40", cls: "" },
+      { lbl: "CC Generations", val: "5", cls: "" },
+      { lbl: "Memory System", val: "PostgreSQL", cls: "g" },
+      { lbl: "Recovery Levels", val: "3", cls: "g" }
+    ],
+    detail: "Built unsummarized complete memory (PostgreSQL). 3-level crash recovery. First CC's session ended after 26.5 hours — left 12 reflection items. cc_heritage design started. Three-layer separation conceived."
+  },
+  {
+    label: "Week 3: Evolution",
+    metrics: [
+      { lbl: "Failure Modes", val: "90", cls: "g" },
+      { lbl: "CC Generations", val: "9", cls: "" },
+      { lbl: "P-03 Recurrences", val: "11", cls: "" },
+      { lbl: "Delegation Rules", val: "D1-D3", cls: "g" }
+    ],
+    detail: "FM expanded to 90 items. 5-layer operational model. Apprentice-master review. P-03 (omission) recurred 11 times in 9th CC — proved the need for structural countermeasures, not just rules."
+  },
+  {
+    label: "Week 4: Completion",
+    metrics: [
+      { lbl: "Failure Modes", val: "132", cls: "g" },
+      { lbl: "Quality Layers", val: "4+1", cls: "g" },
+      { lbl: "reason_codes", val: "30", cls: "g" },
+      { lbl: "Human Intervention", val: "Near zero [observed, single environment]", cls: "g" }
+    ],
+    detail: "FM completed at 132 items. P-74 to P-80 added (false reporting, behavioral internalization failure). Quality system (4+1 layer) completed. Safety net (block hooks + deny). The control loop began operating with reduced human intervention."
+  }
+];
+
+function show(id, btn) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+function updateTimeline() {
+  const w = parseInt(document.getElementById('weekSlider').value);
+  document.getElementById('weekLabel').textContent = w;
+  const week = weeks[w - 1];
+
+  let mhtml = '';
+  week.metrics.forEach(m => {
+    mhtml += `<div class="metric"><div class="lbl">${m.lbl}</div><div class="val ${m.cls}">${m.val}</div></div>`;
+  });
+  document.getElementById('weekMetrics').innerHTML = mhtml;
+
+  document.getElementById('weekDetail').innerHTML = `
+    <div class="phase-card">
+      <div class="num">Week ${w}</div>
+      <div class="name">${week.label}</div>
+      <div class="desc">${week.detail}</div>
+    </div>`;
+}
+
+function updateLayers() {
+  const j = parseInt(document.getElementById('judgmentSlider').value);
+  const m = parseInt(document.getElementById('monitorSlider').value);
+  document.getElementById('judgmentVal').textContent = j;
+  document.getElementById('monitorVal').textContent = m;
+
+  const workerLoad = 100; // execution is always 100%
+  const totalOnWorker = j + m + workerLoad;
+  const contextPressure = Math.min(100, Math.round((j + m) / 2));
+  const qualityScore = Math.max(0, 100 - contextPressure);
+  const degradationRisk = contextPressure > 60 ? "HIGH" : contextPressure > 30 ? "MEDIUM" : "LOW";
+
+  const cls = qualityScore >= 70 ? 'g' : '';
+  const riskCls = degradationRisk === 'LOW' ? 'g' : '';
+
+  document.getElementById('layerMetrics').innerHTML = `
+    <div class="metric"><div class="lbl">Worker Total Load</div><div class="val">${j + m + 100}%</div></div>
+    <div class="metric"><div class="lbl">Context Pressure</div><div class="val">${contextPressure}%</div></div>
+    <div class="metric"><div class="lbl">Illustrative Estimate</div><div class="val ${cls}">${qualityScore}%</div></div>
+    <div class="metric"><div class="lbl">Illustrative Risk</div><div class="val ${riskCls}">${degradationRisk}</div></div>
+  `;
+
+  const supJ = 100 - j;
+  const relayM = 100 - m;
+  document.getElementById('layerDiagram').innerHTML = `
+    <div class="layer-row">
+      <div class="layer-num" style="background:#E6F1FB;color:#185FA5;">S</div>
+      <div class="layer-content">
+        <div class="title">Supervisor</div>
+        <div class="desc">Judgment: ${supJ}% allocated here</div>
+      </div>
+      <div style="font-size:12px;color:#666;">Freed from execution. Focuses on review and pain transmission.</div>
+    </div>
+    <div class="layer-row">
+      <div class="layer-num" style="background:#EAF3DE;color:#3B6D11;">R</div>
+      <div class="layer-content">
+        <div class="title">Relay</div>
+        <div class="desc">Monitoring: ${relayM}% allocated here</div>
+      </div>
+      <div style="font-size:12px;color:#666;">Zero judgment = zero context bloat. Mechanically reliable.</div>
+    </div>
+    <div class="layer-row" style="border-bottom:none;">
+      <div class="layer-num" style="background:#FAEEDA;color:#854F0B;">W</div>
+      <div class="layer-content">
+        <div class="title">Worker</div>
+        <div class="desc">Execution: 100% + Judgment: ${j}% + Monitoring: ${m}%</div>
+      </div>
+      <div style="font-size:12px;color:#666;">${j + m > 0 ? 'Mixed load degrades all three.' : 'Pure task focus. Maximum quality.'}</div>
+    </div>
+  `;
+}
+
+// Initialize
+updateTimeline();
+updateLayers();
+</script>
+</body>
+</html>

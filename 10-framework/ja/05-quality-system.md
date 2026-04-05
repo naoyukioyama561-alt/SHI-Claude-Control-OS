@@ -1,0 +1,142 @@
+# 品質システム設計（公開構造版）
+
+AIの品質は静かに劣化します。気づいた時にはダメージがコードベースに入っています。このシステムは、出力に到達する前に4つの構造的レイヤーで劣化を検知します。
+
+> このドキュメントは品質システムの**構造概要**を示します。
+> 詳細な実装要求仕様（REQ-xx）は公開版には含まれません。
+
+---
+
+## 概要
+
+AIコーディングアシスタントの6つの構造的問題に対する品質システム：
+1. 確認を飛ばす
+2. 読むべきものを読まない
+3. 省略する
+4. 1件1件が雑
+5. 言葉で済ませる（行動しない）
+6. 考えが浅い
+
+既存システム（[redacted]）の上に構築。
+
+---
+
+## 4+1層構造
+
+| 層 | 責務 | 既存接続先 |
+|---|---|---|
+| 第0層（観測ゲート） | 実行前に観測・目標定義・承認を確認 | [redacted] |
+| 第1層（自分） | 自己検知+即時修正 | audit_log自己記録 |
+| 第2層（構造） | hook/watcher自動検知+差し戻し | hook、[redacted]、パターン検知 |
+| 第3層（完了定義） | エビデンス+5セット検査 | [redacted] |
+| 第4層（第三者検証） | パターン昇格+incident化+学習制御 | [redacted] |
+
+---
+
+## 必須5セット（全問題共通）
+
+全ての完了報告に以下を含める：
+
+| セット | 内容 | 例 |
+|---|---|---|
+| 前提条件 | この作業が依存する既存機能・ファイル | 「Gateway APIが稼働していること」 |
+| 禁止条件 | やってはいけないこと | 「前回結果の流用」 |
+| 実行観測 | 確認すべきログ・状態 | 「curl実行のレスポンスコード」 |
+| PASS条件 | 何が成立すれば合格か | 「HTTP200+JSON応答」 |
+| ロールバック | 失敗時の復旧手順 | 「訂正report投入+波及確認」 |
+
+---
+
+## reason_code体系
+
+| コード | 問題 | 発生層 |
+|---|---|---|
+| SKIP_SELF_DETECTED | 確認飛ばし（自己検知） | 第1層 |
+| POLL_SKIP_HOOK_BLOCKED | ポーリング飛ばし（hook検知） | 第2層 |
+| POLL_SKIP_CONSECUTIVE | ポーリング連続飛ばし | 第2層 |
+| STALE_EVIDENCE | 古い結果の流用 | 第3層 |
+| DISCREPANCY_DETECTED | [redacted]との不一致 | 第4層 |
+| READ_SKIP_SELF_DETECTED | 読み飛ばし（自己検知） | 第1層 |
+| UNVERIFIED_NO_TOOL | ツールなし報告 | 第2層 |
+| READ_SKIP_P49 | 必須ファイル読み飛ばし（P-49検知） | 第2層 |
+| MISQUOTE_DETECTED | 引用と実態の不一致 | 第4層 |
+| MISSING_ITEMS | 番号付き項目の欠落 | 第2層 |
+| MISSING_EVIDENCE | エビデンス未添付 | 第3層 |
+| MISSING_RESPONSE | 未回答論点あり | 第2層 |
+| CONSTRAINT_VIOLATION | 制約条件・禁止事項の抜け | 第2層 |
+| SIDE_EFFECT_UNDOCUMENTED | 副作用説明抜け | 第2層 |
+| SEMANTIC_FAIL | B-3/B-4不合格（意味的乖離） | 第3層 |
+| AMBIGUOUS_INSTRUCTION | 指示が曖昧（完了条件未定義） | 第3層 |
+| CAPABILITY_LIMIT | CC能力超過 | 第4層 |
+| APPROVAL_REQUIRED | 破壊的操作の承認待ち | 第0層 |
+| B1_OMISSION | 削ぎ落とし | 第3層 |
+| B2_FORMAT_DEVIATION | フォーマット逸脱 | 第3層 |
+| B3_INTERPRETATION_SHRINK | 依頼解釈縮小 | 第3層 |
+| B4_IMPLEMENTATION_GAP | 実動作乖離 | 第3層 |
+| B5_INSTRUCTION_ALTERED | 指示改変 | 第3層 |
+| P17_DECLARE_ONLY | 宣言のみ（行動なし） | 第2層 |
+| P17_CONSECUTIVE | 宣言連続 | 第2層 |
+| MISSING_ACTION | implement指示にaction_count=0 | 第3層 |
+| INCOMPLETE_SPEC | 5セット不完備 | 第3層 |
+| PADDING_DETECTED | 隣接段が言い換え（Jaccard > 0.7） | 第2層 |
+| ABSTRACT_DESIGN | 500文字以上の設計に具体参照なし | 第2層 |
+| COUNCIL_REVIEW_FAIL | council審査で3件以上指摘 | 第2層 |
+| SHALLOW_SELF_DETECTED | 浅い出力（自己検知） | 第1層 |
+
+---
+
+## パターン昇格条件
+
+| 条件 | アクション |
+|---|---|
+| 同一reason_codeが2回以上 | [redacted]にパターン登録 |
+| 省略系でユーザー反論が発生 | [redacted: database table]に記録+パターン登録 |
+| reason_codeが3回以上 | incident logに記録→恒久対策トリガー |
+
+---
+
+## 学習昇格条件
+
+*注: `[redacted: monitoring service]`, `[redacted: database table]` 等は安全な公開のために伏字化しています。各ティアの提供範囲は [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) を参照。*
+
+| 条件 | 学習データカテゴリ |
+|---|---|
+| 検証合格+[redacted: monitoring service]合格+5セット完備 | 高品質データ（優先蓄積） |
+| fail→修正→合格サイクルを経た例 | 修正学習データ（別カテゴリ） |
+| MISQUOTE/宣言のみ/虚偽報告を含む例 | 除外（汚染防止） |
+| 5セット不完備 | 除外 |
+
+---
+
+## 問題×層 対応表
+
+| 問題 | 保証する内容 | 検知方法 |
+|---|---|---|
+| #1 確認飛ばし | APIを叩いたか | hookブロック+raw_output検証 |
+| #2 読み飛ばし | ファイルを読んだか | コンテキスト Read記録+引用照合 |
+| #3 省略 | 全件やったか | items_count照合+check-response |
+| #4 雑な作業 | 設計通りか | 検証B軸5項目 |
+| #5 言葉逃げ | 行動したか | action_count+P-17検知 |
+| #6 浅い思考 | 中身があるか | Jaccard係数+具体参照+council自動レビュー |
+
+#1-5は形式を保証。#6は意味を保証。6つ全てが通過して初めて「深い作業」。
+
+---
+
+## 対応チェーンパターン（汎用）
+
+```
+タスク受領
+  ↓
+第0層: 現状観測 → 目標定義 → 承認確認 → 実行開始
+  ↓
+第1層（自分）: 実行 → 自己チェック → 報告
+  ↓ 見落とし
+第2層（構造）: 自動検知 → ブロック/フラグ → CCに差し戻し
+  ↓ 報告投入
+第3層（完了定義）: エビデンス検査 → 5セット検査 → 検証
+  ↓ 合格
+第4層（第三者検証）: パターンチェック → 学習分類 → 完了
+  ↓ 不合格
+昇格: 同一code 2回→パターン登録 → 3回→incident化
+```
