@@ -18,7 +18,7 @@ Every claim in this repository falls into one of the following verification cate
 | **Publicly inspectable** | Design documents and methodology are fully public | Read and assess: [10-framework/](10-framework/) |
 | **Publicly challengeable** | Claims are stated with evidence; you can dispute them | Challenge via [Issues](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues) |
 | **Publicly reproducible** | Methodology is documented enough to attempt reproduction | Build in your environment using [templates](30-adoption/templates/) |
-| **Privately evidenced** | Evidence exists but is in paid tiers (design docs, logs, images) | Available in Phase1/Phase2 |
+| **Privately evidenced** | Evidence exists but is outside the public repository (design docs, logs, images) | Public boundary only; not required to test the free repository |
 | **Conceptual only** | Theoretical framework without direct operational evidence | Assess on logical merit |
 
 For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md -- Display Rules](SCOPE-MATRIX.md#display-rules-for-github-5-points).

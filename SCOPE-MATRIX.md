@@ -38,34 +38,34 @@
 ### What the free edition does NOT try to do (5 points)
 
 1. Provide full implementation details (that is Phase1/Phase2)
-2. Prove everything quantitatively (some N-counts are in paid tiers)
+2. Prove everything quantitatively (some N-counts are outside the public repository)
 3. Replace hands-on experience (you must try it yourself)
 4. Cover personal history (this is about methodology, not biography)
 5. Guarantee results (verify in your own environment)
 
 ---
 
-## Paid Phase1: Skeleton Edition
+## Phase 1: Non-public reference material (Skeleton)
 
 **Focus**: Methodology, step-by-step thinking, judgment criteria, case studies.
 
-**Role**: Teach methodology, provide judgment criteria, show design rationale, enable adaptation.
+**Role**: Show how the system was designed, beyond what is needed for public evaluation.
 
 Includes: 10 design documents + FM 60 items + 5-layer/3-layer diagrams + sample conversations + reason_code table + representative images with annotations + N-counts and detection rates.
 
 Does NOT include: Full 132 FM items, full source code, full operational logs, reproduction keys.
 
-## Paid Phase2: Full Edition
+## Phase 2: Non-public reference material (Full)
 
 **Focus**: Deeper structural observation methods, complete analysis, full evidence.
 
-**Role**: Complete structural observation, maintenance methodology, deep analysis, full evidence base.
+**Role**: Document the full evidence base and maintenance methodology, beyond what is needed for public evaluation.
 
 Includes: All 132 FM items + all design files + all images + full quality system (600+ lines) + verification logs + source excerpts + structural observation methodology + full generational logs.
 
 Does NOT include: Reproduction keys (paths, API keys, credentials), personal information, full source code for production deployment.
 
-Phase1 purchasers can upgrade at the price difference.
+Phase 1 and Phase 2 are described here only to clarify the public boundary. The free repository remains the primary evaluation surface.
 
 ## Book: Systematic Treatment
 
@@ -85,7 +85,7 @@ Does NOT include: Actual code or scripts, reproduction keys, raw operational dat
 2. No internal paths, endpoints, or personal information in any public file
 3. Star ratings are defined by public verifiability, not author assessment
 4. "Observed in the author's environment" replaces "proven" for unverified claims
-5. Paid tier content is described by what it contains, never by excerpting the content itself
+5. Non-public reference material is described by what it contains, never by excerpting the content itself
 
 ---
 
@@ -96,7 +96,7 @@ This repository invites you to:
 2. **Verify** whether the methodology works in your environment
 3. **Challenge** any claim you find unsupported
 4. **Build** your own governance system using the templates and methodology
-5. **Decide** whether the paid tiers add value *after* evaluating the free tier
+5. **Decide** whether the public repository already gives you enough to apply, challenge, or adapt the methodology
 
 ---
 

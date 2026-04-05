@@ -17,7 +17,7 @@ This project is actively maintained. Below is the current direction.
 - Diagrams, sample conversations, and reason_code table
 - Quantitative data for Level B achievements
 
-Release timing is not yet announced. Watch this repository or follow the author (see CITATION.cff) for updates.
+Release timing is not yet announced. Watch this repository for updates.
 
 ## Future: Phase 2
 

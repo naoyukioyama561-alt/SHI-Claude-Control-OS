@@ -127,11 +127,11 @@
 
 ---
 
-## 「自分もこれ欲しい」と思ったら
+## 自分の環境で試す・改善するなら
 
-1. **⭐ このリポジトリにStarをつける** — 同じ痛みを持つ人に届きます
+1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/) から始める
 2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの観測が方法論を改善します
-3. **一人に共有する** — 「AIは便利だけど、ワークフローはまだ信頼できない」と言っていた同僚に送ってください
+3. **役立ったらStarまたは共有する** — 自分で評価できる方法論を、他の利用者にも見つけやすくする
 
 > [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
 
