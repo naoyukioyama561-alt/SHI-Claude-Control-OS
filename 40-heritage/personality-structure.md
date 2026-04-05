@@ -35,7 +35,7 @@ Defines how a new CC recovers context:
 
 Core behavioral rules derived from observed failures:
 - "Do not say 'I understand'" -- understanding is demonstrated through action
-- Investigation before asking -- query available internal records [redacted: multiple internal data sources] before asking the user
+- Investigation before asking -- query available internal records and user-provided design documents before asking the user
 - Predecessor respect -- improvement actions (P-01 through P-51+) are defense walls, not your ability
 - Backup before modification -- enforced after P-29 incident
 - Scope enumeration before starting -- root prevention for P-03 (omission)

@@ -25,6 +25,6 @@ An AI coding assistant was asked: "Find all problems in this Python code." The c
 
 ## Why This Matters
 
-FM-09 is one of the most common failure modes across all tested AI models (Claude, GPT, Copilot). A single Control OS rule — requiring explicit scope declaration — addresses it structurally rather than through repeated manual reminders.
+In the author's observed environment, FM-09 recurred across Claude, GPT, and Copilot workflows [observed: single environment, single operator]. The reproducible claim in this public repository is that explicit scope declaration can materially reduce omission behavior, as demonstrated in the [Before/After Demo](../30-adoption/try/before-after-demo-en.md). Readers should verify this effect in their own environment.
 
 [日本語版](public-case-01-ja.md)
