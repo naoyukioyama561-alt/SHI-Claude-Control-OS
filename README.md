@@ -56,11 +56,12 @@ Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)
 
 ### See the system in action
 
-**[Open the interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)**
-- English demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
-- Japanese demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
+**[Open the live interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)**
+- English live demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
+- Japanese live demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
+- Offline static dashboard file: [docs/dashboard.html](docs/dashboard.html)
 
-*This demo is a public-safe static page, completely independent from any live environment. Buttons, search, and filters all work — try them.*
+*The GitHub Pages demo and the local docs/dashboard.html file are both public-safe static artifacts. They are completely independent from any live environment. All displayed data is illustrative; buttons, search, and filters are intentionally interactive for evaluation.*
 
 ---
 
@@ -117,7 +118,7 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 
 - [START-HERE](START-HERE.md) — 3-minute orientation
 - [PROVE-IT](PROVE-IT.md) — verify every claim yourself
-- [Interactive Dashboard](docs/dashboard.html) (Download and open in browser, or [enable GitHub Pages](https://docs.github.com/en/pages))
+- [Offline Static Dashboard File](docs/dashboard.html) — download and open locally in a browser
 - [SCOPE-MATRIX](SCOPE-MATRIX.md) — free vs. paid breakdown
 - [GLOSSARY](GLOSSARY.md) — key terms and definitions
 - [CONTRIBUTING](CONTRIBUTING.md) — how to report observations and contribute
