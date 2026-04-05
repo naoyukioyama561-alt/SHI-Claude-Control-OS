@@ -1,6 +1,7 @@
 # Failure Modes Taxonomy (Claude vs ChatGPT)
 
 > **Observation period**: late 2025 – March 2026. All model names refer to versions available during this period.
+> **Scope**: All behavior ratings (Low/Medium/High) are observations from a single environment, single operator. They are not benchmarks. Treat them as testable hypotheses.
 
 
 Claude vs ChatGPT — observable failure patterns, using a shared 40-item index.
@@ -61,6 +62,8 @@ Scope:
 *FM-01 through FM-06 are disclosed in full detail below. FM-07 onward are summarized here; full details are available in Phase1.*
 
 *Model-scope note for FM-07 onward: unless a specific model is named on a given line, the public page is intentionally withholding the per-model breakdown. Summary statements indicate model-dependent variation observed during the same observation period, with full model-by-model details provided in Phase1.*
+
+> **Note**: "Phase 1" = a future open release phase, not a paid tier. FM-07 through FM-40 are listed here as a stable index. For why per-model detail is withheld, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 ### FM-07 Strong claims from weak evidence (弱証拠強断定)
 - Impact varies by model (Medium to High). Details available in Phase1.

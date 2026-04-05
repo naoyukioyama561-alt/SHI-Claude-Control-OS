@@ -33,7 +33,7 @@ This glossary defines terms as they are used **in this specific repository**. So
 | Three-layer separation vs. 5-layer loop | Three-layer = role split (who does what). 5-layer = governance cycle (how quality improves over time). They describe different dimensions of the same system. |
 | Control OS vs. methodology | Control OS = a copy-paste template for immediate use. Methodology = the full structural framework including FM taxonomy, monitoring, heritage, and quality systems. |
 | Observed vs. design target | Observed = actually happened in the author's environment. Design target = the architecture's intended capability, not yet independently measured. |
-| Free-tier vs. public | Free-tier = all content in this GitHub repository. Public = visible to anyone. The distinction matters because some evidence is summarized in the free tier but detailed in non-public material. |
+| Public repository vs. non-public reference material | Public repository = everything available in this GitHub repository. Non-public reference material = materials intentionally outside this repository's public evaluation surface. |
 
 ---
 

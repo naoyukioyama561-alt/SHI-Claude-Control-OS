@@ -1,4 +1,4 @@
-# SCOPE MATRIX -- Free / Phase1 / Phase2 / Book
+# Public Scope Matrix
 
 ## Basic Policy
 
@@ -8,6 +8,8 @@
 | **Phase1** | Skeleton -- how to think about building it | "Here's how we designed it, step by step." |
 | **Phase2** | Full -- how to observe structure | "Here's everything, with structural observation methodology." |
 | **Book** | Systematic treatment via SHI theory | "The evolution from failure to governance, told as a 7-chapter journey." |
+
+> **Clarification**: Phase 1, Phase 2, and Book are planned future public releases — not paid tiers. No payment is required to access this repository. When Phase 1 becomes available, it will be announced in [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
