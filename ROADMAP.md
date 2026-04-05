@@ -32,6 +32,8 @@ This project is actively maintained. Below is the current direction.
 
 ## How to influence the roadmap
 
+Community-reported observations from Issues may be incorporated into the FM taxonomy. Contributing users will be credited in CHANGELOG.md.
+
 - [Open an Observation Report](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md) — share what you observed in your environment
 - [Challenge a claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md) — help us improve the evidence
 - [Open an Issue](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues) — ask questions, propose ideas, or start a methodology discussion

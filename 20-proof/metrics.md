@@ -33,7 +33,7 @@ No internal paths, endpoints, or personal information is included.
 | Metric | Value | Notes |
 |--------|-------|-------|
 | [external monitoring hook] detection patterns | 3+ types | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
-| EVIDENCE_DROPOUT detection rate | ~100% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
+| EVIDENCE_DROPOUT detection rate | ~100% [single environment, N undisclosed; not a product claim] | Observed in author's controlled environment via pattern matching; not a generalization benchmark. N-count withheld. |
 | GENERIC_RESPONSE detection rate | ~75% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
 | INCOMPLETE_CLAIM detection rate | ~63% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
 | Forced review interval | 2 hours | [external monitoring hook] forces externally |

@@ -33,7 +33,7 @@
 | 指標 | 値 | 注記 |
 |------|---|------|
 | [external monitoring hook]検知パターン | 3種類以上 | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
-| EVIDENCE_DROPOUT検出率 | ~100% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
+| EVIDENCE_DROPOUT検出率 | ~100% [単一環境、N未公開; 製品としての保証ではありません] | 著者の管理環境でのパターンマッチングによる観測値であり、汎化ベンチマークではありません。N数は非公開。 |
 | GENERIC_RESPONSE検出率 | ~75% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
 | INCOMPLETE_CLAIM検出率 | ~63% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
 | 強制レビュー間隔 | 2時間 | [external monitoring hook]が外部から強制 |
