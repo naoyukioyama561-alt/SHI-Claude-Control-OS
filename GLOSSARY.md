@@ -23,7 +23,7 @@ This glossary defines terms as they are used **in this specific repository**. So
 | `[observed: single environment, single operator, N undisclosed]` | Measured in the author's operating environment. Not a public benchmark. Sample size is withheld. |
 | `[design target: not a public benchmark]` | Intended architecture outcome. Not measured or independently reproduced. |
 | `[illustrative example: not measured]` | Explanatory scenario for conceptual understanding. Not data. |
-| `[paid-tier evidence: public summary only]` | Detailed implementation or measurement is intentionally withheld from the public version. |
+| `[non-public evidence: public summary only]` | Detailed implementation or measurement is intentionally withheld from the public version. |
 | `[publicly inspectable in this repo]` | You can verify this directly from files in this repository. |
 
 ## Frequently Confused Terms
@@ -33,7 +33,7 @@ This glossary defines terms as they are used **in this specific repository**. So
 | Three-layer separation vs. 5-layer loop | Three-layer = role split (who does what). 5-layer = governance cycle (how quality improves over time). They describe different dimensions of the same system. |
 | Control OS vs. methodology | Control OS = a copy-paste template for immediate use. Methodology = the full structural framework including FM taxonomy, monitoring, heritage, and quality systems. |
 | Observed vs. design target | Observed = actually happened in the author's environment. Design target = the architecture's intended capability, not yet independently measured. |
-| Free-tier vs. public | Free-tier = all content in this GitHub repository. Public = visible to anyone. The distinction matters because some evidence is summarized in the free tier but detailed in paid tiers. |
+| Free-tier vs. public | Free-tier = all content in this GitHub repository. Public = visible to anyone. The distinction matters because some evidence is summarized in the free tier but detailed in non-public material. |
 
 ---
 

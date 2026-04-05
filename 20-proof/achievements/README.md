@@ -12,9 +12,9 @@ Items are ordered by understanding difficulty (easiest first).
 |----|------------|---------------|--------------------|--------|------|
 | 1 | **Failure Modes Taxonomy (40 to 132)** | Level A | Free | [EN](en/01-failure-modes-132.md) / [JA](ja/01-failure-modes-132.md) | FM-40 fully public. Verifiable in your own environment |
 | 2 | **Three-Layer Role Separation** | Level A | Free | [EN](en/02-role-separation.md) / [JA](ja/02-role-separation.md) | Complete design philosophy public |
-| 3 | **External Monitoring & Meta-Governance** | Level B | Free | [EN](en/03-external-monitoring.md) / [JA](ja/03-external-monitoring.md) | Detection rates published. N-counts in paid tier |
-| 4 | **Quality System** (4+1 Layer) | Level B | Free | [EN](en/04-quality-system.md) / [JA](ja/04-quality-system.md) | reason_code taxonomy public. Catch/miss stats in paid tier |
-| 5 | **Operational Structure Expansion** (3 to 5 Layers) | Level B | Free | [EN](en/05-five-layer-ops.md) / [JA](ja/05-five-layer-ops.md) | 5-layer design public. Layer 4-5 independent operation evidence in paid tier |
+| 3 | **External Monitoring & Meta-Governance** | Level B | Free | [EN](en/03-external-monitoring.md) / [JA](ja/03-external-monitoring.md) | Detection rates published. N-counts in Phase 1 |
+| 4 | **Quality System** (4+1 Layer) | Level B | Free | [EN](en/04-quality-system.md) / [JA](ja/04-quality-system.md) | reason_code taxonomy public. Catch/miss stats in Phase 1 |
+| 5 | **Operational Structure Expansion** (3 to 5 Layers) | Level B | Free | [EN](en/05-five-layer-ops.md) / [JA](ja/05-five-layer-ops.md) | 5-layer design public. Layer 4-5 independent operation evidence in Phase 1 |
 | 6 | **Self-Restraint & Safety Net** | Level B | Free (summary) | [EN](en/06-safety-net.md) / [JA](ja/06-safety-net.md) | Block hook concept public. Deeper operational data in Phase1 |
 | 7 | **Crash Recovery** (3-level) | Level B | Free (summary) | [EN](en/07-crash-recovery.md) / [JA](ja/07-crash-recovery.md) | 3-level design public. Recovery success-rate data in Phase1 |
 | 8 | **Unsummarized Complete Memory** | Level B | Free (summary) | [EN](en/08-full-memory.md) / [JA](ja/08-full-memory.md) | Design philosophy public. Schema details in Phase1 |

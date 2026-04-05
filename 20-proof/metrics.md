@@ -21,7 +21,7 @@ No internal paths, endpoints, or personal information is included.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total CC generations | 12+ | Named Claude Code worker sessions, each inheriting behavior from its predecessor. Records available in paid tier. |
+| Total CC generations | 12+ | Named Claude Code worker sessions, each inheriting behavior from its predecessor. Records outside public repository. |
 | First CC operational time | 26.5 hours | Left 12 reflection items before session termination |
 | Improvement actions (P-xx) total | 51+ | Each P-xx has event/cause/prevention/recurrence management |
 | P-03 (omission) recurrence count | 11 times | Recorded in 9th CC. Demonstrated need for structural countermeasures |
@@ -56,7 +56,7 @@ No internal paths, endpoints, or personal information is included.
 | Context-resident data reduction rate | 65% (design value) | Via SQL externalization |
 | Theoretical token reduction factor | 20x (design value) | Delegation optimization + SQL externalization combined. Publicly stated as design target, not publicly reproduced benchmark. |
 
-**Why Before/After measured data is not published**: Risk of identifying personal environment from plan/usage data. Disclosed in paid Phase2.
+**Why Before/After measured data is not published**: Risk of identifying personal environment from plan/usage data. Disclosed in Phase 2.
 
 ## Three-Layer Separation
 
@@ -87,4 +87,4 @@ No internal paths, endpoints, or personal information is included.
 | Detection rate N-counts | Operational frequency reveals internal structure |
 | Token measured values | Personal environment identification risk |
 | [external monitoring hook] actual content | Reproduction key |
-| cc_heritage documents full text | Paid tier content |
+| cc_heritage documents full text | Non-public content |

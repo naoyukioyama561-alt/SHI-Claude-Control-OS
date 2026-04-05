@@ -9,7 +9,7 @@ All notable changes to this project will be documented in this file.
 - Control OS templates for Claude, GPT, and Copilot (en/ja)
 - 15 documented achievements with verification levels
 - PROVE-IT verification protocol
-- SCOPE-MATRIX public/paid boundary definition
+- SCOPE-MATRIX public/non-public boundary definition
 - Interactive dashboard (docs/dashboard.html)
 - GLOSSARY with evidence label definitions (en/ja)
 - SECURITY.md with adversarial considerations

@@ -55,9 +55,9 @@ Each numbered file records one CC generation's experience:
 ## What is NOT published here
 
 The following are **not included** in the public version:
-- Full content of heritage documents (generational experience records) -- available as paid supplement
-- [apprentice review file] (raw user corrections) -- available as paid supplement
-- heritage document files -- available as paid supplement
+- Full content of heritage documents (generational experience records) -- available as non-public supplement
+- [apprentice review file] (raw user corrections) -- available as non-public supplement
+- heritage document files -- available as non-public supplement
 - Backup files (.bak) -- not published
 
 What IS published:

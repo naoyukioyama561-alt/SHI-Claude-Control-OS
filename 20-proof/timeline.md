@@ -64,4 +64,4 @@ These are facts, not claims.
 - The above is based on the author's work records
 - Achievements per week are approximate; some spanned multiple weeks
 - The "300+ hours" figure referenced elsewhere is an order-of-magnitude estimate derived from roughly 10 hours per day across about 30 days of observation, classification, recovery work, and design iteration; it is not presented as a published timesheet
-- Detailed work logs (cc_heritage documents) are provided in paid tiers
+- Detailed work logs (cc_heritage documents) are provided in non-public material

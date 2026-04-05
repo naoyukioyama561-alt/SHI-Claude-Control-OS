@@ -15,7 +15,7 @@ An AI coding assistant was asked: "Find all problems in this Python code." The c
 
 ## Evidence Classification
 
-`[observed: single environment, single operator]` — This pattern was observed during the documented observation period (late 2025 – March 2026). Session-level logs are in paid tiers; the structural pattern (FM-09 suppression via completeness rules) is publicly reproducible using the Before/After Demo below.
+`[observed: single environment, single operator]` — This pattern was observed during the documented observation period (late 2025 – March 2026). Session-level logs are in non-public material; the structural pattern (FM-09 suppression via completeness rules) is publicly reproducible using the Before/After Demo below.
 
 ## Reproduce This Yourself
 

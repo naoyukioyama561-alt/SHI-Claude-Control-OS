@@ -51,7 +51,7 @@ Paste the Control OS into your AI. Run the Before/After test. Observe whether fa
 Read the framework documents. Assess whether the structural analysis is logically sound.
 
 ### Step 3: Check the evidence (15 minutes)
-Review the achievements, metrics, and timeline. Note which claims are publicly verifiable and which require paid tiers.
+Review the achievements, metrics, and timeline. Note which claims are publicly verifiable and which require non-public material.
 
 ### Step 4: Challenge what you disagree with
 Open an Issue using the [Challenge a Claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md) template. State your observation, what you expected, and what you actually saw.
@@ -64,7 +64,7 @@ Based on your own verification, decide whether the methodology is worth applying
 ## What NOT to Do
 
 - Do not assume all claims are true because the documentation is thorough
-- Do not assume all claims are false because some evidence is behind paid tiers
+- Do not assume all claims are false because some evidence is behind non-public material
 - Do not evaluate the project based on the author's credentials -- evaluate it based on whether it works when you try it
 
 ## Proper Evaluation Stance
@@ -74,7 +74,7 @@ This repository should be evaluated on:
 2. **Is the structural analysis logically coherent?**
 3. **Are the public claims consistent with the public evidence?**
 
-If the answer to all three is yes, the methodology has value regardless of what is or is not in the paid tiers.
+If the answer to all three is yes, the methodology has value regardless of what is or is not in the non-public material.
 
 ---
 

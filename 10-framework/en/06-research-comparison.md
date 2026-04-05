@@ -25,13 +25,13 @@ A reference point for comparing the maturity of your own AI governance system ag
 
 | Unsolved Problem | This Repository's Response | Public Disclosure Level |
 |-----------------|---------------------------|------------------------|
-| Unsummarized complete memory | Full-text retention system | Design philosophy public, schema in paid version |
-| Crash/amnesia automatic recovery | 3-level recovery + automatic context injection | 3-level design public, implementation details in paid version |
-| External monitoring + meta-governance | [redacted] + separate-AI monitoring + forced reflection | Design philosophy public, detection logic in paid version |
+| Unsummarized complete memory | Full-text retention system | Design philosophy public, schema in non-public version |
+| Crash/amnesia automatic recovery | 3-level recovery + automatic context injection | 3-level design public, implementation details in non-public version |
+| External monitoring + meta-governance | [redacted] + separate-AI monitoring + forced reflection | Design philosophy public, detection logic in non-public version |
 | Normative/weight inheritance | cc_heritage + verification gates + mandatory onboarding | Design fully public |
-| Multi-cause automatic analysis | 5-why analysis + predecessor CC reference + [redacted] | Concept public, automation in paid version |
-| Self-reflection / habit formation | 2-hour forced check + effectiveness verification loop | Design philosophy public, loop implementation in paid version |
-| Delegation quality degradation | 18-rule set + 12 mandatory items + self-audit | Concept public, before/after comparison in paid version |
+| Multi-cause automatic analysis | 5-why analysis + predecessor CC reference + [redacted] | Concept public, automation in non-public version |
+| Self-reflection / habit formation | 2-hour forced check + effectiveness verification loop | Design philosophy public, loop implementation in non-public version |
+| Delegation quality degradation | 18-rule set + 12 mandatory items + self-audit | Concept public, before/after comparison in non-public version |
 
 ## Position of SHI Theory
 

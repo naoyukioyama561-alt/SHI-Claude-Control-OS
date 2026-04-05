@@ -25,7 +25,7 @@ This is not a bulk template — it is a structural decomposition of each individ
 
 The key structural shift was not in collecting more failure modes — it was in **changing the observation granularity**. Instead of treating failures as categories, each failure was treated as an individual structural event with its own cause chain.
 
-This methodology can be applied to any AI system. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in the paid tiers.
+This methodology can be applied to any AI system. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in Phase 1/Phase 2.
 
 → Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../../10-framework/en/01-failure-modes.md)
 

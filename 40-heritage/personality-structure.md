@@ -125,7 +125,7 @@ Integration with:
 
 ### Section 13: Reflection Log
 
-> `[NOTE]` This section contains the actual reflection entries written by each CC generation. Classified as paid supplement content.
+> `[NOTE]` This section contains the actual reflection entries written by each CC generation. Classified as non-public reference content.
 
 Generational reflection entries documenting:
 - What was learned

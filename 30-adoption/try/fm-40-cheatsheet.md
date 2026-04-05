@@ -58,4 +58,4 @@ AIが「こういう失敗をする」という観測可能な40パターン。
 影響度: 低 / 中 / 高 / 極高
 
 → 各FMの詳細・原因・対策: [10-framework/ja/01-failure-modes.md](../../10-framework/ja/01-failure-modes.md)
-→ 132件の完全版（P系90+ALGO系40+他）: 有料版で提供
+→ 132件の完全版（P系90+ALGO系40+他）: Phase1/Phase2で提供
