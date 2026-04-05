@@ -4,9 +4,9 @@
 
 AIコーディングアシスタントは同じ種類の失敗を繰り返す。プレッシャー下でコンテキストを忘れる。セッションをまたぐと痛みを忘れる。プロンプトだけでは構造的な問題は解決しない。
 
-## 答え
+## 一つの答え
 
-本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提供する。約1か月の集中的な観察 [observed: single environment, single operator] と132の分類された失敗モード [observed: single environment, N undisclosed; → metrics](20-proof/metrics-ja.md) から生まれたものである。
+本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提案する。約1か月の集中的な観察 [observed: single environment, single operator] と132の分類された失敗モード [observed: single environment; 件数の詳細は本公開リポジトリの範囲外; → metrics](20-proof/metrics-ja.md) をもとに整理したものである。
 
 | コンポーネント | 何をするか | 所要時間 |
 |-----------|-------------|-------------|

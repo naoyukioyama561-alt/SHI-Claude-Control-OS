@@ -64,15 +64,15 @@ Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)
 
 ## Why this exists
 
-Most AI projects don't fail because the model is weak.
-They fail because the **control layer** is weak.
+Many AI projects fail not because the model is weak, but because the **control layer** is weak, missing, or left implicit.
+This repository focuses on that layer because it is the part most teams can inspect, redesign, and verify.
 
 - Instructions live in scattered chats
 - Fixes depend on memory instead of structure
 - One person becomes the only person who knows how it works
 - Small errors quietly become operational debt
 
-**This project breaks that pattern** — not by asking you to trust AI harder, but by giving you a way to define control points, verify behavior, and make the workflow legible to other humans.
+**This project is one attempt to break that pattern** — not by asking you to trust AI harder, but by giving you a way to define control points, verify behavior, and make the workflow legible to other humans.
 
 ---
 

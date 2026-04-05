@@ -4,9 +4,9 @@
 
 AI coding assistants repeat the same types of failures. They forget context under pressure. They forget pain across sessions. Prompting alone does not fix structural problems.
 
-## The Answer
+## A Proposed Answer
 
-This project provides a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation [observed: single environment, single operator] and 132 classified failure modes [observed: single environment, N undisclosed; → metrics](20-proof/metrics.md).
+This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation [observed: single environment, single operator] and 132 classified failure modes [observed: single environment; full sample counts are outside this public repository; → metrics](20-proof/metrics.md).
 
 | Component | What it does | Time to try |
 |-----------|-------------|-------------|

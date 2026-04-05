@@ -49,7 +49,7 @@ Your observation directly improves the methodology for everyone who uses it.
 - Broken link fixes
 - Translation improvements (must maintain en/ja mirror integrity)
 
-Methodology core content is author-curated. Documentation fixes are welcome.
+Methodology core content is author-curated for the canonical version, but validation work is collaborative by design. Documentation fixes, translation improvements, broken-link fixes, and public-safe demo polish are welcome as Pull Requests.
 
 ## What We Do Not Accept
 

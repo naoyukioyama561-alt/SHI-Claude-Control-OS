@@ -126,7 +126,7 @@ The SHI approach (SQL externalization + [redacted] + external delegation optimiz
 - Automated "don't do everything yourself" decisions (delegation flow)
 - WHY/HOW behavioral context preserved even after compression
 
-Result observed in the author's environment [observed, single environment]: **same work at 1/20th the token consumption [design target]**.
+In the author's environment, some workflows were observed to use substantially fewer tokens after structural delegation and externalization; **"20x" should be read here as a design target / illustrative upper-bound summary, not as a public benchmark reproduced in this repository**.
 (20x = overall efficiency improvement factor [design target], combining delegation optimization and SQL externalization.)
 
 Physical power equivalent [design target, illustrative scenario, not verified]:
@@ -138,7 +138,7 @@ Impact of 20x overall efficiency improvement factor [design target]:
 - **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario, not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, the reduction would be equivalent to a major country's entire annual power consumption.
 - **Environmental impact**: CO2 emissions reduced proportionally by 1/20. With data center power demand straining grids, this is significant as a climate change measure.
 
-The "token efficiency = power efficiency" perspective is, to our observation, **an angle barely discussed even in the research community**.
+The "token efficiency = power efficiency" perspective is offered here as a practical framing for evaluation; this repository does **not** claim a comprehensive literature survey.
 
 ---
 
