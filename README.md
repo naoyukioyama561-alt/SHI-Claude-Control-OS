@@ -57,7 +57,7 @@ Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)
 
 ---
 
-### See the system in action
+### See the system in action (public-safe static demo, 1 minute)
 
 **[Open the live interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)**
 - English live demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
@@ -132,9 +132,13 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 
 ## If you want to test or improve this in your environment
 
+You do not need to write code to contribute. The most valuable contribution is a real observation from your own AI environment.
+
 1. **Try it first** — start with [30-adoption/try/](30-adoption/try/)
-2. **[Report an observation](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — your observation improves the methodology
-3. **Star or share if it was useful** — help other builders find a methodology they can evaluate for themselves
+2. **[Report an observation](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — share what happened in your environment
+3. **[Challenge a claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — if something feels overstated, dispute it directly
+4. **Suggest one structural improvement** — open an Issue if the evaluation flow felt unclear or hard to follow
+5. **Star or share if it was useful** — help other builders find a methodology they can evaluate for themselves
 
 > [Why I built this →](40-heritage/why-i-am-doing-this.md)
 

@@ -55,7 +55,7 @@
 
 ---
 
-### 今すぐ確認できる実際の動き
+### 動いている形を見る（公開安全な静的デモ・1分）
 
 **[公開安全なインタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)**
 - 日本語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
@@ -129,9 +129,13 @@
 
 ## 自分の環境で試す・改善するなら
 
+コードを書かなくても貢献できます。いちばん価値が高いのは、あなたのAI環境で実際に何が起きたかという観測です。
+
 1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/) から始める
-2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの観測が方法論を改善します
-3. **役立ったらStarまたは共有する** — 自分で評価できる方法論を、他の利用者にも見つけやすくする
+2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの環境で起きたことを共有する
+3. **[主張に異議を出す](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — 強すぎる表現だと感じたらそのまま指摘する
+4. **構造改善を提案する** — 評価導線がわかりにくかった箇所をIssueで伝える
+5. **役立ったらStarまたは共有する** — 自分で評価できる方法論を、他の利用者にも見つけやすくする
 
 > [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
 
