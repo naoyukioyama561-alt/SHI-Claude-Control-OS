@@ -69,13 +69,13 @@ Control OSをAIのシステムプロンプトにコピペしてください。[B
   |
   |-- 「試したい」               --> 30-adoption/ja/try/     （30秒）
   |-- 「証拠を見たい」            --> PROVE-IT-ja.md          （15分）
-  |-- 「なぜ効くのか知りたい」     --> 10-framework/           （30分）
-  |-- 「実績データが見たい」       --> 20-proof/               （じっくり）
+  |-- 「なぜ効くのか知りたい」     --> 10-framework/ja/           （30分）
+  |-- 「実績データが見たい」       --> 20-proof/ja/               （じっくり）
   |-- 「自分の環境で作りたい」     --> 30-adoption/ja/templates/ （あなたの環境で）
   |
   さらに深く:
   |-- 継承と哲学                 --> 40-heritage/
-  |-- スコープとエディション       --> 50-boundary/
+  |-- スコープとエディション       --> 50-boundary/ [EN]
   |-- 詳細なスコープ表            --> SCOPE-MATRIX-ja.md
 ```
 
@@ -109,10 +109,10 @@ Control OSをAIのシステムプロンプトにコピペしてください。[B
 
 ---
 
-![Dashboard](images/diagrams/dashboard-overview-en.svg)
+![Dashboard](images/diagrams/dashboard-overview.svg)
 
 
-→ [実例を見る](20-proof/public-case-01.md)
+→ [実例を見る](20-proof/public-case-01-ja.md)
 
 > [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
 

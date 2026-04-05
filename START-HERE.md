@@ -72,3 +72,5 @@ The 40 Failure Modes in this repository are a starting point. Observe your own A
 ---
 
 > Next: [Try it now](30-adoption/try/) | [Verify claims](PROVE-IT.md) | [Back to README](README.md)
+
+[日本語版 / Japanese](START-HERE-ja.md)

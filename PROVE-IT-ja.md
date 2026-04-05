@@ -15,7 +15,7 @@
 | **公開利用可** | 今すぐコピペして自分でテストできる | 試す: [30-adoption/ja/try/](30-adoption/ja/try/) |
 | **公開検査可** | 設計文書と方法論が完全に公開されている | 読んで評価: [10-framework/](10-framework/) |
 | **公開異議可** | 主張は証拠とともに明示; 異議を申し立て可能 | [Issues](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues)で異議 |
-| **公開再現可** | 方法論が再現を試みるのに十分なレベルで文書化 | [テンプレート](30-adoption/templates/)を使い自分の環境で構築 |
+| **公開再現可** | 方法論が再現を試みるのに十分なレベルで文書化 | [テンプレート](30-adoption/ja/templates/)を使い自分の環境で構築 |
 | **非公開証拠** | 証拠は存在するが有料ティア内（設計文書、ログ、画像） | Phase1/Phase2で利用可能 |
 | **概念のみ** | 直接的な運用証拠のない理論的フレームワーク | 論理的妥当性で判断 |
 
@@ -29,8 +29,8 @@
 | 2 | Control OSはよくある失敗モードを抑制する | **公開利用可** | [Before/Afterデモ](30-adoption/ja/try/before-after-demo.md) -- 自分でテスト実行 |
 | 3 | 132の失敗モードが分類された | **公開検査可**（40項目公開分類体系、FM-01〜FM-06詳細開示） / **非公開証拠**（全132） | [01-failure-modes](10-framework/ja/01-failure-modes.md) |
 | 4 | 3層分離が監視品質を向上させる | **公開検査可** | [3層設計](10-framework/ja/04-three-layer.md) |
-| 5 | 外部監視は自己監視より高い検知率を達成する | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics.md) |
-| 6 | 継承システムがセッション横断の行動継続性を実現する | **公開検査可** | [Heritage](40-heritage/personality-structure.md) |
+| 5 | 外部監視は自己監視より高い検知率を達成する | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics-ja.md) |
+| 6 | 継承システムがセッション横断の行動継続性を実現する | **公開検査可** | [Heritage](40-heritage/ja/personality-structure.md) |
 | 7 | 4+1層品質システムが品質障害を低減する | **公開検査可** | [品質システム](10-framework/ja/05-quality-system.md) |
 | 8 | SHI理論がAI統治の基盤を提供する | **概念のみ** | [研究比較](10-framework/ja/06-research-comparison.md) |
 

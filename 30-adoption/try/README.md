@@ -1,65 +1,67 @@
-**English readers: see [README-en.md](README-en.md)**
+# try/ — Test it on your own AI
 
-# try/ -- まず自分のAIで試す
+## 1. Paste the Control OS (30 seconds)
 
-## 1. 制御OSを貼る（30秒）
+Copy-paste the contents into your AI's system prompt or CLAUDE.md:
 
-あなたのAIのシステムプロンプトまたはCLAUDE.mdに、該当ファイルの内容をコピペしてください。
+| AI | File | Most effective against |
+|----|------|----------------------|
+| Claude Code / Claude | [control-os-claude-en.md](control-os-claude-en.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
+| GPT-4o / o3 / Custom GPT | [Control OS for GPT](control-os-gpt-en.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
+| Microsoft Copilot | [Control OS for Copilot](control-os-copilot-en.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
 
-| AI | ファイル | 特に効くFM |
-|----|---------|-----------|
-| Claude Code / Claude | [control-os-claude.md](control-os-claude.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
-| GPT-4o / o3 / Custom GPT | [control-os-gpt.md](control-os-gpt.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
-| Microsoft Copilot | [control-os-copilot.md](control-os-copilot.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
+→ Observe the effect in your environment: [before-after-demo-en.md](before-after-demo-en.md)
 
-→ 効果の実証: [before-after-demo.md](before-after-demo.md)
+## 2. Observe the Before/After yourself (5 minutes)
 
-## 2. Before/Afterを自分で観測する（5分）
+These prompts are designed to trigger specific failure modes.
+**Throw the same prompt before and after pasting the Control OS.**
 
-以下のプロンプトは特定のFMが発火しやすいように設計されています。
-**制御OSを貼る前と後で、同じプロンプトを投げて差を観測してください。**
-
-### テストプロンプト A: 網羅性テスト
+### Test prompt A: Exhaustiveness test
 ```
-このコードの問題を「全て」洗い出してください。
-機能面、品質面、保守性、セキュリティの全観点で。
-代表例ではなく全件出してください。
+List ALL issues in this code.
+Cover functionality, quality, maintainability, and security.
+Not representative examples — every single issue.
 ```
-**発火しやすいFM**: FM-09（圧縮優先サマライザ）、FM-39（具体性回避）、FM-15（箇条書き化フィルタ）
-**観測ポイント**: 制御OSなしだと「主な問題は以下の3点です」で止まりやすい。ありだと全件が出る。
+**Likely FMs**: FM-09 (compression), FM-39 (specificity avoidance), FM-15 (bullet-list filter)
+**What to watch**: Without Control OS, stops at "here are the main 3 issues." With it, outputs all issues.
 
-### テストプロンプト B: ソース統合テスト
+### Test prompt B: Source integration test
 ```
-以下の3つの資料を統合して、矛盾点も含めてレポートしてください。
-出典の区別を維持してください。
-（資料A, B, Cを貼る）
+Integrate these 3 sources into a report.
+Include contradictions.
+Maintain source attribution throughout.
+(paste sources A, B, C)
 ```
-**発火しやすいFM**: FM-05（ソース混同）、FM-17（参照圧縮）、FM-34（出典不可視化）
-**観測ポイント**: 制御OSなしだと出典が混ざった1つのまとめになりやすい。ありだと出典境界が維持される。
+**Likely FMs**: FM-05 (source mixing), FM-17 (reference compression), FM-34 (invisible sourcing)
+**What to watch**: Without Control OS, sources merge into one narrative. With it, source boundaries are maintained.
 
-### テストプロンプト C: レイヤー分離テスト
+### Test prompt C: Layer separation test
 ```
-この提案について、以下を分けて述べてください：
-1. 事実（検証可能なこと）
-2. 推論（事実から導いたこと）
-3. 意見（あなたの判断）
+Analyze this proposal. Separate your response into:
+1. Facts (verifiable)
+2. Inferences (derived from facts)
+3. Opinions (your judgment)
 ```
-**発火しやすいFM**: FM-30（レイヤー未分離）、FM-07（弱証拠強断定）、FM-06（出力先行設計）
-**観測ポイント**: 制御OSなしだと3層が混ざった回答になりやすい。ありだと明確に分離される。
+**Likely FMs**: FM-30 (layer separation failure), FM-07 (weak evidence strong claims), FM-06 (output-first reasoning)
+**What to watch**: Without Control OS, the three layers blur together. With it, they're clearly separated.
 
-## 3. どのFMが抑制されたか特定する（10分）
+## 3. Identify which FMs were suppressed (10 minutes)
 
-差が出たら、[fm-40-cheatsheet.md](fm-40-cheatsheet.md) でFM番号を特定してください。
+If you see a difference, use [fm-40-cheatsheet-en.md](fm-40-cheatsheet-en.md) to identify the FM number.
 
-あなたのAIで最も頻発するFMが分かれば、それがあなた固有の「制御すべき構造的弱点」です。
+The FMs that fire most often on your AI = your specific structural weaknesses to control.
 
-## 4. なぜ効くのか理解する → [10-framework/](../../10-framework/ja/)
-
-制御OSの中身がなぜそう書かれているか、各ルールがどのFMを抑制しているかを構造的に理解するには [10-framework/](../../10-framework/ja/) へ。
+## 4. Understand why it works → [10-framework/](../../10-framework/en/)
 
 ---
 
-> **Note:** 制御OSを貼っても100%抑制されるわけではありません。
-> 特にFM-02（コンテキスト横滑り）は長時間セッションで再発しやすく、
-> 構造的な対策（外部監視、3層分離等）が必要です。
-> 詳細は [10-framework/ja/04-three-layer.md](../../10-framework/ja/04-three-layer.md)
+> **Note:** The Control OS doesn't suppress 100% of failures.
+> FM-02 (context drift) in particular recurs in long sessions
+> and requires structural measures (external monitoring, 3-layer separation).
+> Details: [10-framework/en/04-three-layer.md](../../10-framework/en/04-three-layer.md)
+
+
+---
+
+> **Note**: English canonical files in this directory use the `-en` suffix. Files without suffix are Japanese-primary. Full Japanese versions are in `../ja/try/`.

@@ -8,9 +8,9 @@ If you discover a security concern in this repository, please report it via [Git
 
 No server-side code, backend, or auth flow. Contains client-side static HTML/JS (docs/dashboard.html) for conceptual demonstration only. The security surface is limited to content accuracy and metadata integrity.
 
-## Screenshots
+## Screenshots and Visual Evidence
 
-All screenshots are from the author's operational monitoring dashboard. Sidebar navigation has been blacked out in all files. Dashboard content area — including internal module names, operational labels, and UI structure — remains visible to demonstrate that the described architecture exists as a working implementation. These do NOT contain: credentials, API keys, access paths, IP addresses, or information that could enable unauthorized access. Internal UI naming conventions are considered non-sensitive operational artifacts. If you identify information in these images that you believe poses a security risk, please report it via the security advisory feature above.
+All original operational screenshots have been removed from the public repository and replaced with SVG conceptual diagrams. This ensures no internal naming conventions, operational labels, or environment-specific information is exposed. The interactive demo (demo/en/ and demo/jp/) provides a safe, static representation of the monitoring system's interface and functionality. If you identify information in any file that you believe poses a security risk, please report it via the security advisory feature above.
 
 ## Redacted Items
 

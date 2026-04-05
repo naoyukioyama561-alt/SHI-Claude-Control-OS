@@ -79,3 +79,5 @@ If the answer to all three is yes, the methodology has value regardless of what 
 ---
 
 > See also: [SCOPE-MATRIX](SCOPE-MATRIX.md) | [START-HERE](START-HERE.md) | [Back to README](README.md)
+
+[日本語版 / Japanese](PROVE-IT-ja.md)
