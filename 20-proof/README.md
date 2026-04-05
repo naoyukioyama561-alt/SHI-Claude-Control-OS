@@ -56,7 +56,7 @@ Phase1 purchasers can upgrade to Phase2 at the price difference at any time.
 | [achievements/](achievements/) | Detailed documentation for each achievement (with images) |
 | [timeline.md](timeline.md) | Development timeline of facts |
 | [metrics.md](metrics.md) | Publicly safe quantitative data |
-| [../images/screenshots/](../images/screenshots/) | Operational screenshot evidence referenced from achievement files |
+| [../images/evidence images/](../images/evidence images/) | Operational screenshot evidence referenced from achievement files |
 
 ---
 

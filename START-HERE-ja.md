@@ -43,7 +43,7 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 ## 有料ティアについて
 
-エディションの境界と有料ティアの詳細は [SCOPE-MATRIX.md](SCOPE-MATRIX.md)（英語版のみ）を参照。
+エディションの境界と有料ティアの詳細は [SCOPE-MATRIX-ja.md](SCOPE-MATRIX-ja.md)を参照。
 
 ## 想定する読者
 
