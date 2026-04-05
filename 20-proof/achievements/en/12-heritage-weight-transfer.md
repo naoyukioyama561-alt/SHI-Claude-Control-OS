@@ -2,7 +2,7 @@
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
-Every time you start a new AI session, your predecessor's hard-won lessons reset to zero. This system makes pain transfer structurally permanent.
+Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
 ## What Was Observed
 
