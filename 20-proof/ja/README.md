@@ -21,7 +21,7 @@
 
 ## 無料版 / 有料版の範囲
 
-各成果の範囲分けの詳細は [achievements/README.md](../achievements/README.md) の「Full Achievement List」を参照。
+各成果の範囲分けの詳細は [成果一覧](../achievements/README.md) を参照（英語版テーブル、EN/JA両リンク付き）。
 
 | レベル | 目的 | 含まれるもの |
 |--------|------|------------|
@@ -39,12 +39,12 @@ Phase1購入者は差額でPhase2にいつでもアップグレード可能。
 ## ファイル一覧
 | ファイル | 内容 |
 |---------|------|
-| [achievements/](../achievements/) | 各成果の詳細ドキュメント |
-| [timeline.md](../timeline.md) | 開発の時系列事実 |
-| [metrics.md](../metrics.md) | 公開可能な定量データ |
+| [achievements/ja/](../achievements/ja/) | 各成果の詳細ドキュメント（日本語） |
+| [timeline-ja.md](../timeline-ja.md) | 開発の時系列事実（日本語） |
+| [metrics-ja.md](../metrics-ja.md) | 公開可能な定量データ（日本語） |
 
 ---
 
-→ **Next**: [30-adoption/try/](../../30-adoption/try/) — 自分で試す
+→ **次**: [30-adoption/ja/try/](../../30-adoption/ja/try/) — 自分で試す
 
-→ See also: [10-framework/](../../10-framework/) — なぜ効くか理解する | [READMEに戻る](../../README.md)
+→ 関連: [10-framework/ja/](../../10-framework/ja/) — なぜ効くか理解する | [READMEに戻る](../../README-ja.md)

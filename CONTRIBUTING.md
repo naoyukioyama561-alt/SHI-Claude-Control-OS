@@ -59,7 +59,18 @@ Methodology core content is author-curated. Documentation fixes are welcome.
 
 ## Developer Notes
 
-- **File naming**: English-specific files use `-en` suffix (e.g., `control-os-claude-en.md`). Files without suffix serve both languages or are Japanese-primary.
+### Language Policy
+- **Root-level files**: English is primary (`README.md`). Japanese counterparts use `-ja` suffix (`README-ja.md`)
+- **Directory-level**: Each directory's `README.md` is English. Japanese subdirectories (`ja/`) have their own `README.md` in Japanese
+- **Content files**: English in `en/` subdirectory, Japanese in `ja/` subdirectory
+- **Principle**: A reader who starts in one language should be able to reach all content without switching languages. Links from Japanese files point to Japanese files; links from English files point to English files
+- **`[EN]` annotation**: Used only when a Japanese equivalent genuinely does not exist (e.g., release-checklist). Must be explicitly marked
+
+### File Naming
+- English-specific files use `-en` suffix (e.g., `control-os-claude-en.md`)
+- Japanese-specific files use `-ja` suffix at root level (e.g., `README-ja.md`)
+- Files without suffix in `ja/` directories are Japanese-primary
+- Files without suffix in root or `en/` directories are English-primary
 
 ## License & Workflow
 
