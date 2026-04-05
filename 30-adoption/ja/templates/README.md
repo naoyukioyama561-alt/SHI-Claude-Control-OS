@@ -22,4 +22,4 @@
 
 ---
 
-> [30-adoption/](../../README-ja.md) に戻る | [README](../../README-ja.md)
+> [30-adoption/](../../../README-ja.md) に戻る | [README](../../../README-ja.md)
