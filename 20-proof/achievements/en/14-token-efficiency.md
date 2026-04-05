@@ -8,7 +8,7 @@
 
 **Design target**: A 20x reduction in token consumption while maintaining or improving operational quality.
 
-**Observed**: In the author's environment, a reduction of this magnitude was observed [single environment, N not disclosed].
+**Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
 
 - **MAX to Pro downgrade analysis**: Systematic evaluation of which operations truly require MAX-tier and which can run on Pro-tier
 - **Category-based dependency analysis**: Each operational category assessed for MAX-dependency level and impact
@@ -20,7 +20,7 @@
 - The majority of AI operations **do not require maximum-capability models** — routine tasks run equally well (or better) on lower-tier models
 - Structured analysis reveals that MAX-tier dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
 - SQL externalization alone achieves significant token reduction by moving large data structures out of context
-- The 20x figure is a design target corresponds to reduced computational cost and power consumption
+- The 20x figure is a design target; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption
 
 ## Key Insight
 

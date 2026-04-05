@@ -57,7 +57,7 @@
 Impact: Low / Med / High / V.High
 
 → Detailed analysis per FM (15 samples): [10-framework/en/01-failure-modes.md](../../10-framework/en/01-failure-modes.md)
-→ Full 132 items (P-series 90 + ALGO-series 40 + others): available in paid tiers
+→ Full 132-item structural decomposition is outside this public repository; this repo provides the 40-item entry map and the verification path
 
 
 ---

@@ -1,6 +1,6 @@
 # Achievement Index -- All 15 Documented Results
 
-This repository documents 15 achievements in total, and **all 15 have public pages in this repository**. Of those, 6 are full Free-tier achievement pages; the remaining 9 are public summary pages, with deeper design details and quantitative evidence expanded in paid tiers.
+This repository documents 15 achievements in total, and **all 15 have public pages in this repository**. Of those, 6 are full public achievement pages; the remaining 9 are public summary pages with clearly labeled evidence boundaries.
 
 Items are ordered by understanding difficulty (easiest first).
 
@@ -26,7 +26,7 @@ Items are ordered by understanding difficulty (easiest first).
 | 14 | **Token Efficiency** 20x (design target) | Level C | Free (summary) | [EN](en/14-token-efficiency.md) / [JA](ja/14-token-efficiency.md) | Theoretical values public. Before/After measured data in Phase2 |
 | 15 | **Other Key Achievements** | Level C | Free (summary) | [EN](en/15-other-achievements.md) / [JA](ja/15-other-achievements.md) | Supplementary achievement summaries public. Deeper supporting material in Phase2 |
 
-Note: "Free (summary)" = a public summary page is freely available in this repository; deeper design details and quantitative evidence are provided in the paid tier stated in the Note column.
+Note: "Free (summary)" = a public summary page is freely available in this repository; where deeper material is out of public scope, the boundary is labeled explicitly without sales wording.
 
 Verification level definitions: see [../README.md](../README.md)
 

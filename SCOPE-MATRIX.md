@@ -81,7 +81,7 @@ Does NOT include: Actual code or scripts, reproduction keys, raw operational dat
 
 ## Display Rules for GitHub (5 Points)
 
-1. Every public claim links to its evidence or states "paid tier"
+1. Every public claim links to its evidence or explicitly labels its public evidence boundary
 2. No internal paths, endpoints, or personal information in any public file
 3. Star ratings are defined by public verifiability, not author assessment
 4. "Observed in the author's environment" replaces "proven" for unverified claims
@@ -107,8 +107,8 @@ This repository invites you to:
 
 ---
 
-## How to Access Paid Tiers
+## Scope Boundary Notes
 
-This methodology is fully usable with the free tier alone. Paid tiers provide deeper evidence and full implementation details for those who want to go further. Availability will be announced via this repository.
+This methodology is fully usable with the public repository alone. Some deeper operational material is intentionally kept out of the public repository; this section exists only to clarify that boundary. Availability will be announced via this repository.
 
 For updates, watch this repository or follow the author on the platforms listed in CITATION.cff.

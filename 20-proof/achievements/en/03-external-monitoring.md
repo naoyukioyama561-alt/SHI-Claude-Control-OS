@@ -16,7 +16,7 @@ A complete **external monitoring and meta-governance system** that breaks the de
 ## What Was Observed to Hold
 
 - **Self-monitoring was observed to be structurally unreliable** because the same algorithmic tendencies that cause errors also cause blind spots in detecting those errors
-- External monitoring with structurally separate AI achieves detection rates not achievable through self-reporting alone in our observation:
+- In the author's single observed environment only, structurally separate monitoring showed higher detection than self-reporting alone:
   - EVIDENCE_DROPOUT: 100% [observed, single environment] (N-counts disclosed in paid tier)
   - GENERIC_RESPONSE: 75% [observed, single environment] (N-counts disclosed in paid tier)
   - INCOMPLETE_CLAIM: 63% [observed, single environment] (N-counts disclosed in paid tier)

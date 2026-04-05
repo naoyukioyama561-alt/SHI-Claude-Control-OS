@@ -21,7 +21,7 @@ This project provides a **structural governance methodology** for AI assistants,
 - **40 Failure Modes** classified across Claude, GPT, and Copilot
 - **Control OS templates** for 3 AI models (copy-paste ready)
 - **Framework documents** explaining why the Control OS works
-- **15 documented achievements** [→ achievements](20-proof/achievements/README.md): all 15 have public pages in this repository; 6 are full Free-tier pages, and the other 9 are public summary pages with deeper design details and quantitative evidence in paid tiers
+- **15 documented achievements** [→ achievements](20-proof/achievements/README.md): all 15 have public pages in this repository; 6 are full public pages, and the other 9 are public summary pages with clearly labeled evidence boundaries
 - **Before/After demonstrations**
 - **Transfer templates** for your own environment
 
