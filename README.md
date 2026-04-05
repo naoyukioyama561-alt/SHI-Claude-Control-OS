@@ -89,8 +89,7 @@ YOU ARE HERE
   |
   Deeper:
   |-- Heritage & philosophy       --> 40-heritage/
-  |-- Scope & editions            --> 50-boundary/
-  |-- Detailed scope breakdown    --> SCOPE-MATRIX.md
+  |-- Scope breakdown             --> SCOPE-MATRIX.md
 ```
 
 <details>
@@ -100,27 +99,6 @@ YOU ARE HERE
 
 Three-layer separation (role split) ≠ 4+1 quality system (quality stack) ≠ 5-layer loop (governance cycle). They describe different dimensions of the same system.
 </details>
-
----
-
-## The research behind it
-
-This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** theory. The framework emerged from approximately one month of full-time observation [observed: single environment, single operator] producing 132 classified failure modes [→ metrics](20-proof/metrics.md) and a governance architecture documented in a research paper.
-
-> Oyama, N. (2025). *Structural Hierarchical Intelligence for AI Governance* (SSRN preprint, posted 2025). Available at SSRN: [https://ssrn.com/abstract=6299258](https://ssrn.com/abstract=6299258). Repository published: 2026.
-
----
-
-## Quick links
-
-- [START-HERE](START-HERE.md) — 3-minute orientation
-- [PROVE-IT](PROVE-IT.md) — verify every claim yourself
-- [Offline Static Dashboard File](docs/dashboard.html) — download and open locally in a browser
-- [SCOPE-MATRIX](SCOPE-MATRIX.md) — public boundary map (what is here, what is intentionally out of public scope)
-- [GLOSSARY](GLOSSARY.md) — key terms and definitions
-- [CONTRIBUTING](CONTRIBUTING.md) — how to report observations and contribute
-- [CITATION](CITATION.cff) — how to cite this work
-- [CHANGELOG](CHANGELOG.md) — version history
 
 ---
 
@@ -136,8 +114,6 @@ Testing this repository requires no sign-in. A GitHub account is only needed if 
 4. **Suggest one structural improvement** — open an Issue if the evaluation flow felt unclear or hard to follow
 5. **Star or share if it was useful** — help other builders find a methodology they can evaluate for themselves
 
-> [Why I built this →](40-heritage/why-i-am-doing-this.md)
-
 ---
 
 <sub>
@@ -146,6 +122,6 @@ Testing this repository requires no sign-in. A GitHub account is only needed if 
 
 **Disclaimer**: All effects described in this repository were observed in the author's environment. Results may vary depending on AI model, usage context, and configuration. Verify all claims in your own environment before drawing conclusions. This project provides a methodology, not guaranteed outcomes.
 
-**Language**: [日本語版はこちら / Japanese version](README-ja.md)
+**Language**: [日本語版はこちら / Japanese version](README-ja.md) · **Background**: [Why I built this](40-heritage/why-i-am-doing-this.md) · **Research**: [SSRN preprint](https://ssrn.com/abstract=6299258)
 
 </sub>

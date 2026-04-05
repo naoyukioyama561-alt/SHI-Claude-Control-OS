@@ -87,8 +87,7 @@
   |
   さらに深く:
   |-- 継承と哲学                 --> 40-heritage/ja/
-  |-- スコープとエディション       --> 50-boundary/
-  |-- 詳細なスコープ表            --> SCOPE-MATRIX-ja.md
+  |-- スコープ表                 --> SCOPE-MATRIX-ja.md
 ```
 
 <details>
@@ -98,27 +97,6 @@
 
 3層分離（役割分担）≠ 4+1品質システム（品質管理スタック）≠ 5層ループ（統治サイクル）。同じシステムの別次元。
 </details>
-
----
-
-## 研究的背景
-
-本方法論は**構造的階層型知能（SHI）** 理論に基づいています。約1ヶ月のフルタイム観測 [観測値：単一環境・単一運用者] から132件の失敗モード [→ メトリクス](20-proof/metrics-ja.md) を分類し、ガバナンスアーキテクチャを研究論文として文書化しました。
-
-> Oyama, N. (2025). *Structural Hierarchical Intelligence for AI Governance* (SSRNプレプリント、2025年投稿). SSRN: [https://ssrn.com/abstract=6299258](https://ssrn.com/abstract=6299258). リポジトリ公開: 2026年.
-
----
-
-## クイックリンク
-
-- [START-HERE](START-HERE-ja.md) — 3分でわかるオリエンテーション
-- [PROVE-IT](PROVE-IT-ja.md) — すべての主張を自分で検証
-- [インタラクティブ・ダッシュボード](docs/dashboard.html)（ファイルをダウンロードしてブラウザで開く、または[GitHub Pagesを有効化](https://docs.github.com/en/pages)）
-- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) — 公開境界マップ（ここにあるもの / 意図的に公開範囲外にしているもの）
-- [GLOSSARY-ja](GLOSSARY-ja.md) — 用語集
-- [CONTRIBUTING-ja](CONTRIBUTING-ja.md) — 観測報告の出し方。あなたの観測がFM分類の改訂に直接つながります
-- [CITATION](CITATION.cff) — 引用方法
-- [CHANGELOG](CHANGELOG-ja.md) — 変更履歴
 
 ---
 
@@ -134,8 +112,6 @@
 4. **構造改善を提案する** — 評価導線がわかりにくかった箇所をIssueで伝える
 5. **役立ったらStarまたは共有する** — 自分で評価できる方法論を、他の利用者にも見つけやすくする
 
-> [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
-
 ---
 
 <sub>
@@ -144,6 +120,6 @@
 
 **免責事項**: 本リポジトリに記載されたすべての効果は著者の環境で観察されたものです。AIモデル、利用コンテキスト、設定によって結果は異なる場合があります。結論を出す前に、すべての主張をご自身の環境で検証してください。本プロジェクトは方法論を提供するものであり、結果を保証するものではありません。
 
-**Language**: [English version](README.md)
+**Language**: [English version](README.md) · **背景**: [なぜ作ったのか](40-heritage/ja/why-i-am-doing-this.md) · **研究**: [SSRNプレプリント](https://ssrn.com/abstract=6299258)
 
 </sub>
