@@ -105,10 +105,3 @@ This repository invites you to:
 [日本語版](SCOPE-MATRIX-ja.md)
 
 
----
-
-## Scope Boundary Notes
-
-This methodology is fully usable with the public repository alone. Some deeper operational material is intentionally kept out of the public repository; this section exists only to clarify that boundary. Availability will be announced via this repository.
-
-For updates, watch this repository or follow the author on the platforms listed in CITATION.cff.

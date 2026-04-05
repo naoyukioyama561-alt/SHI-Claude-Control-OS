@@ -15,11 +15,8 @@
 This repository exists for that moment — when you realize AI is useful but still too fragile, too forgetful, and too dependent on you remembering everything.
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
-> **What you can do with the public repository right now**: try it, challenge it, adapt it, and inspect the evidence boundary without installing anything.
-> **Public evidence key**: **132 failure modes** = observed in a single documented environment; **65% reduction** = design value (not measured benchmark); **20x token reduction** = design target, not a reproduced public benchmark.
-> **Verification path**: [PROVE-IT.md](PROVE-IT.md) → [20-proof/metrics.md](20-proof/metrics.md) → [30-adoption/try/](30-adoption/try/)
->
-> **[→ See it live: Interactive Demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
+> **No installation required** — copy, paste, and test. Try it, challenge it, adapt it.
+> **[→ See it live: Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html) · [Verify claims →](PROVE-IT.md)
 
 ---
 
@@ -59,12 +56,9 @@ Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)
 
 ### See the system in action (public-safe static demo, 1 minute)
 
-**[Open the live interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)**
-- English live demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
-- Japanese live demo: [Click here](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
-- Offline static dashboard file: [docs/dashboard.html](docs/dashboard.html)
+**[Open the interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html) · [Offline version](docs/dashboard.html)
 
-*The GitHub Pages demo and the local docs/dashboard.html file are both public-safe static artifacts. They are completely independent from any live environment. All displayed data is illustrative; buttons, search, and filters are intentionally interactive for evaluation.*
+*Public-safe static pages — completely independent from any live environment. All displayed data is illustrative.*
 
 ---
 
