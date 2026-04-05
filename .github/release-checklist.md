@@ -19,7 +19,7 @@ This checklist applies the repository's own quality management system
 
 ## Prohibitions
 
-- [ ] No internal IPs, absolute paths, personal information, or API keys remain (`grep -rn 'http://[0-9]' --include='*.md'`)
+- [ ] No internal IPs, hostnames, absolute paths, personal information, secrets, or service fingerprints remain (`grep -rnE '(http://[0-9]|:[0-9]{4,5}\b|127\.0\.0\.1|localhost)' --include='*.md' --include='*.html'`)
 - [ ] No unqualified superlatives ("world's first" appears at most once, with caveat)
 - [ ] No quantitative claims without basis ("X years ahead", "only person who...")
 - [ ] amplify/ folder is not in the repository (.gitignore confirmed)

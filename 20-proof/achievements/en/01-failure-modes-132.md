@@ -10,7 +10,7 @@ The initial 40-item Failure Modes Taxonomy was expanded to **132 items** (P-seri
 - **Concrete case** (real example)
 - **Root cause** (why it happened)
 - **Prevention measure** (how to stop it)
-- **Effectiveness verification** (proof it works)
+- **Effectiveness check** (verification record under stated conditions)
 - **Recurrence management** (how to prevent it from coming back)
 
 This is not a bulk template — it is a structural decomposition of each individual failure pattern.
