@@ -21,7 +21,7 @@ No internal paths, endpoints, or personal information is included.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total CC generations | 12+ | Each generation's experience record available (paid tier) |
+| Total CC generations | 12+ | Named Claude Code worker sessions, each inheriting behavior from its predecessor. Records available in paid tier. |
 | First CC operational time | 26.5 hours | Left 12 reflection items before session termination |
 | Improvement actions (P-xx) total | 51+ | Each P-xx has event/cause/prevention/recurrence management |
 | P-03 (omission) recurrence count | 11 times | Recorded in 9th CC. Demonstrated need for structural countermeasures |
