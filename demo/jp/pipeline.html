@@ -28,7 +28,7 @@
 .throughput .val{color:#4ade80;font-weight:500}
 @media(max-width:768px){nav{display:none}.sub-pipes{grid-template-columns:1fr}}
 </style></head><body>
-<nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html" class="active">🔀 パイプライン</a></nav>
+<nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html" class="active">🔀 パイプライン</a></nav>
 <main>
 <h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:24px">パイプライン可視化</h2>
 
@@ -79,7 +79,7 @@
 <div class="throughput">スループット: <span class="val" id="v-learn">200 gate/日</span></div>
 </div>
 <div class="pipe-card">
-<h4>OpenClaw Standby</h4>
+<h4>Supervisor Agent Standby</h4>
 <div class="pipe-flow">
 <span class="pipe-node active">Scheduler</span>→<span class="pipe-node active">Module Select</span>→<span class="pipe-node active">Execute</span>→<span class="pipe-node active">Audit Log</span>
 </div>

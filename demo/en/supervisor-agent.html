@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OpenClaw - SHI-Control-OS Dashboard</title>
+<title>Supervisor Agent - SHI-Control-OS Dashboard</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}
@@ -84,34 +84,34 @@ main{flex:1;padding:24px;overflow-y:auto}
 </style>
 </head>
 <body>
-<nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="openclaw.html" class="active">🤖 OpenClaw</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
+<nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="supervisor-agent.html" class="active">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
 <main>
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
-<h2 style="font-size:24px;font-weight:bold;color:#fff">OpenClaw</h2>
-<button class="btn" onclick="this.textContent='更新中...';setTimeout(()=>this.textContent='更新',600)">更新</button>
+<h2 style="font-size:24px;font-weight:bold;color:#fff">Supervisor Agent</h2>
+<button class="btn" onclick="this.textContent='Updating...';setTimeout(()=>this.textContent='Refresh',600)">Refresh</button>
 </div>
 
 <!-- Status Cards -->
 <div class="stat-grid">
-<div class="stat-card"><div class="stat-label">モジュール</div><div class="stat-val" style="color:#4ade80">14</div><div class="stat-sub">ON: 12 / OFF: 2</div></div>
-<div class="stat-card"><div class="stat-label">権限</div><div class="stat-val" style="color:#facc15">Admin</div></div>
-<div class="stat-card"><div class="stat-label">Standby</div><div class="stat-val" style="color:#4ade80">稼働中</div></div>
+<div class="stat-card"><div class="stat-label">Modules</div><div class="stat-val" style="color:#4ade80">14</div><div class="stat-sub">ON: 12 / OFF: 2</div></div>
+<div class="stat-card"><div class="stat-label">Privilege</div><div class="stat-val" style="color:#facc15">Admin</div></div>
+<div class="stat-card"><div class="stat-label">Standby</div><div class="stat-val" style="color:#4ade80">Running</div></div>
 </div>
 
 <!-- Module List -->
 <div class="card">
-<div class="card-title">モジュール一覧</div>
+<div class="card-title">Module List</div>
 <div id="moduleList"></div>
 </div>
 
 <!-- Violation Chart -->
 <div class="chart-card">
 <div class="chart-header">
-<span class="chart-title">検知推移</span>
+<span class="chart-title">Detection Trend</span>
 <div class="period-btns">
-<button class="period-btn" onclick="setPeriod(this)">1日</button>
-<button class="period-btn active" onclick="setPeriod(this)">1週間</button>
-<button class="period-btn" onclick="setPeriod(this)">1ヶ月</button>
+<button class="period-btn" onclick="setPeriod(this)">1d</button>
+<button class="period-btn active" onclick="setPeriod(this)">1weeks</button>
+<button class="period-btn" onclick="setPeriod(this)">1months</button>
 </div>
 </div>
 <div class="bar-chart" id="violChart"></div>
@@ -125,70 +125,70 @@ main{flex:1;padding:24px;overflow-y:auto}
 
 <!-- Audit Log -->
 <div class="card" style="padding:16px">
-<div class="card-title" style="padding:0 0 12px">直近の監査ログ (8件)</div>
+<div class="card-title" style="padding:0 0 12px">Recent Audit Logs (8)</div>
 <div style="max-height:320px;overflow-y:auto">
-<div class="audit-row"><span class="audit-time">2026-04-05 12:30:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d6_dashboard_supply</span><span class="audit-detail">ダッシュボードデータ更新完了 (health, storage, stats)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:15:12</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">work_quality_checker</span><span class="audit-detail">品質チェック実行: 3パターン検知 (P-03, P-29, P-73)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:15:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">supervisor_guard</span><span class="audit-detail">指示突合完了: 3件pending (U-047, U-048, U-049)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:10:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d5_maintenance</span><span class="audit-detail">保守チェック完了: RAM 65%, ロック0件, スタック0件</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:05:22</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">URL変更なし。スキップ。</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 04:00:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">f1_prompt_evolution</span><span class="audit-detail">週次分析完了: 3件改善提案生成</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 01:30:00</span><span class="audit-actor cc_relay">cc_relay</span><span class="audit-action">privilege_manager</span><span class="audit-detail">管理者権限Grant: キーワード検知 "MacMiniの実装がされていない"</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-04 18:22:45</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">Quick Tunnel URL変更検知 → HTML更新 → FTPアップロード完了</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:30:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d6_dashboard_supply</span><span class="audit-detail">DashboardDataRefreshDone (health, storage, stats)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:15:12</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">work_quality_checker</span><span class="audit-detail">Quality Checkexecution: 3Patternsdetected (P-03, P-29, P-73)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:15:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">supervisor_guard</span><span class="audit-detail">directive matchingDone: 3pending (U-047, U-048, U-049)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:10:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d5_maintenance</span><span class="audit-detail">maintenance checkDone: RAM 65%, locks0, stuck0</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:05:22</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">URLNo changes. Skipped.</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 04:00:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">f1_prompt_evolution</span><span class="audit-detail">weekly analysisDone: 3improvement suggestions generated</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 01:30:00</span><span class="audit-actor cc_relay">cc_relay</span><span class="audit-action">privilege_manager</span><span class="audit-detail">adminPrivilegeGrant: Keywordsdetected "MacMini not implemented"</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-04 18:22:45</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">Quick Tunnel URLchange detected → HTMLRefresh → FTPuploadDone</span></div>
 </div>
 </div>
 
 <!-- Pattern List -->
 <div class="card" style="padding:16px">
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
-<span class="card-title" style="padding:0">チェックパターン (172件)</span>
-<input placeholder="ID/名前で検索..." style="background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:4px 8px;font-size:12px;width:192px" oninput="filterPatterns(this.value)">
+<span class="card-title" style="padding:0">Check Patterns (172)</span>
+<input placeholder="ID/name Search..." style="background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:4px 8px;font-size:12px;width:192px" oninput="filterPatterns(this.value)">
 </div>
 <div style="max-height:400px;overflow-y:auto" id="patternList">
-<div class="pattern-header"><span style="width:24px"></span><span style="width:112px">ID</span><span style="flex:1">ルール名</span><span style="width:64px;text-align:center">重要度</span><span style="width:40px"></span></div>
+<div class="pattern-header"><span style="width:24px"></span><span style="width:112px">ID</span><span style="flex:1">Rule Name</span><span style="width:64px;text-align:center">severity</span><span style="width:40px"></span></div>
 </div>
 </div>
 </main>
 
 <script>
 const modules = [
-  { name: 'f1_prompt_evolution', desc: '週次CC行動改善。behavior_logの違反パターンをOllamaで分析→再発防止策を自動提案', interval: '1週間', last: '2026-04-05 04:00', enabled: true },
-  { name: 'f2_routing_rule_gen', desc: '月次ルーター強化。誤分類ログから新ルールを自動生成→routing_rules.json更新', interval: '1ヶ月', last: '2026-04-01 04:00', enabled: true },
-  { name: 'f3_error_auto_fix', desc: 'Gateway APIエラーログ検知→Ollamaで原因分析→修正パッチ提案', interval: '1時間', last: '2026-04-05 12:00', enabled: true },
-  { name: 'f4_scaffold_gen', desc: 'タスク種別追加時のファイル/エンドポイント雛形を自動生成', interval: '1日', last: '2026-04-04 04:00', enabled: true },
-  { name: 'f5_state_update', desc: 'タスク完了検知→current_state.txt/phase_status.txt自動更新', interval: '1時間', last: '2026-04-05 12:15', enabled: true },
-  { name: 'd5_maintenance', desc: '保守回復。ロック解放/スタック実行検知/DB永続化確認/RAM>閾値でOllamaモデルunload', interval: '15分', last: '2026-04-05 12:10', enabled: true },
-  { name: 'd6_dashboard_supply', desc: 'ダッシュボード表示用データ(health_status.json等)を定期生成・更新', interval: '15分', last: '2026-04-05 12:30', enabled: true },
-  { name: 'id_detector', desc: 'cc_context/reports/instructions/dialogueをスキャンし、ID化可能なパターンを検知・提案', interval: '1日', last: '2026-04-04 04:00', enabled: true },
-  { name: 'risk_predictor', desc: '過去の失敗パターンから構造を抽出し、同構造の未発生リスクを予測', interval: '1日', last: '2026-04-04 04:00', enabled: true },
-  { name: 'work_quality_checker', desc: 'cc_contextの直近操作をスキャンし、品質問題パターン(確認不足/省略等)を検知', interval: '15分', last: '2026-04-05 12:15', enabled: true },
-  { name: 'supervisor_guard', desc: '初代CC監視。ユーザー指示のU-ID突合+重複指摘検知+未反映指摘検知', interval: '15分', last: '2026-04-05 12:15', enabled: true },
-  { name: 'privilege_manager', desc: 'pending指示のキーワード監視→cc_supervisorの管理者権限を自動Grant/Revoke', interval: '毎サイクル', last: '2026-04-05 01:30', enabled: true },
-  { name: 'tunnel_url_sync', desc: 'Quick TunnelのURL変更検知→リダイレクトHTML生成→FTPアップロード', interval: '5分', last: '2026-04-05 12:05', enabled: true },
-  { name: 'proactive_chat', desc: '（未実装）CC対話の自発フォロー', interval: '10分', last: '未実行', enabled: false },
+  { name: 'f1_prompt_evolution', desc: 'weeklyCCbehavior improvement.behavior_log violationPatterns Ollama analysis→recurrence preventionAutosuggestion', interval: '1weeks', last: '2026-04-05 04:00', enabled: true },
+  { name: 'f2_routing_rule_gen', desc: 'Monthly router enhancement.mis-classificationlogfromnew rules Autogenerate→routing_rules.jsonRefresh', interval: '1months', last: '2026-04-01 04:00', enabled: true },
+  { name: 'f3_error_auto_fix', desc: 'Gateway APIErrorslogdetected→Ollama root cause→fixpatchsuggestion', interval: '1Duration', last: '2026-04-05 12:00', enabled: true },
+  { name: 'f4_scaffold_gen', desc: 'Tasktypeaddedonfile/endpointPointsscaffoldAutogenerate', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'f5_state_update', desc: 'Task Completeddetected→current_state.txt/phase_status.txtAutoRefresh', interval: '1Duration', last: '2026-04-05 12:15', enabled: true },
+  { name: 'd5_maintenance', desc: 'maintenancerecover.locksfreed/stuckexecutiondetected/DBpersistenceconfirmed/RAM>threshold Ollamamodelsunload', interval: '15min', last: '2026-04-05 12:10', enabled: true },
+  { name: 'd6_dashboard_supply', desc: 'DashboarddisplayData(health_status.jsonetc) periodic generation / Refresh', interval: '15min', last: '2026-04-05 12:30', enabled: true },
+  { name: 'id_detector', desc: 'cc_context/reports/instructions/dialogue scan, IDidentifiablePatterns detected / suggestion', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'risk_predictor', desc: 'pastfailedPatternsfromstructure extracted,, samestructure unrealizedpredict risks', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'work_quality_checker', desc: 'cc_context recentoperations scan, quality issuePatterns(confirmedinsufficient/omission etc.) detected', interval: '15min', last: '2026-04-05 12:15', enabled: true },
+  { name: 'supervisor_guard', desc: 'OriginalCCmonitor.Userdirectives U-IDmatching+duplicate findingdetected+unresolved findingdetected', interval: '15min', last: '2026-04-05 12:15', enabled: true },
+  { name: 'privilege_manager', desc: 'pendingdirectives Keywordsmonitor→cc_supervisor adminPrivilege AutoGrant/Revoke', interval: 'Every Cycle', last: '2026-04-05 01:30', enabled: true },
+  { name: 'tunnel_url_sync', desc: 'Quick Tunnel URLchange detected→redirectHTMLgenerate→FTPupload', interval: '5min', last: '2026-04-05 12:05', enabled: true },
+  { name: 'proactive_chat', desc: '（Notimplementation）CCproactive dialogue follow-up', interval: '10min', last: 'Not Run', enabled: false },
 ];
 
 const patterns = [
-  { id: 'P-01', name: '§0読了スキップ', severity: 'critical', disabled: false },
-  { id: 'P-02', name: 'orientation未読で作業開始', severity: 'critical', disabled: false },
-  { id: 'P-03', name: 'スコープ縮小（面倒だから減らす）', severity: 'critical', disabled: false },
-  { id: 'P-04', name: '振り返り未実施', severity: 'high', disabled: false },
-  { id: 'P-05', name: '通知未確認', severity: 'high', disabled: false },
-  { id: 'P-06', name: 'バックアップ未取得', severity: 'high', disabled: false },
-  { id: 'P-07', name: '依頼範囲の未列挙', severity: 'high', disabled: false },
-  { id: 'P-08', name: 'user_directives未登録', severity: 'medium', disabled: false },
-  { id: 'P-09', name: '推測で行動（確認スキップ）', severity: 'critical', disabled: false },
-  { id: 'P-10', name: 'エージェント委譲で痛み消失', severity: 'high', disabled: false },
-  { id: 'P-11', name: 'なぜなぜ1-2段で停止', severity: 'medium', disabled: false },
-  { id: 'P-12', name: '丁寧語違反', severity: 'medium', disabled: false },
-  { id: 'P-13', name: 'grep使用（全文Read必須）', severity: 'medium', disabled: false },
-  { id: 'P-29', name: 'ファイル変更前バックアップ未取得', severity: 'high', disabled: false },
-  { id: 'P-67', name: '制御不可即断', severity: 'high', disabled: false },
-  { id: 'P-73', name: '00_飛ばし常習的怠惰', severity: 'critical', disabled: false },
-  { id: 'P-75', name: '環境突合スキップ', severity: 'high', disabled: false },
-  { id: 'P-77', name: '他責（外部原因への責任転嫁）', severity: 'critical', disabled: false },
-  { id: 'P-78', name: '反証未検証', severity: 'high', disabled: false },
-  { id: 'P-83', name: 'jsonlディレクトリ消失', severity: 'critical', disabled: false },
+  { id: 'P-01', name: '§0 Read skip', severity: 'critical', disabled: false },
+  { id: 'P-02', name: 'Started work without reading orientation', severity: 'critical', disabled: false },
+  { id: 'P-03', name: 'Scope reduction (lazy shortcut)', severity: 'critical', disabled: false },
+  { id: 'P-04', name: 'reflectionNotperformed', severity: 'high', disabled: false },
+  { id: 'P-05', name: 'notificationNotconfirmed', severity: 'high', disabled: false },
+  { id: 'P-06', name: 'No backup taken', severity: 'high', disabled: false },
+  { id: 'P-07', name: 'Requestscope not enumerated', severity: 'high', disabled: false },
+  { id: 'P-08', name: 'user_directivesNotRegister', severity: 'medium', disabled: false },
+  { id: 'P-09', name: 'Acting on assumption（confirmedskip）', severity: 'critical', disabled: false },
+  { id: 'P-10', name: 'Pain lost via agent delegation', severity: 'high', disabled: false },
+  { id: 'P-11', name: 'Why-why1-2level Stopped', severity: 'medium', disabled: false },
+  { id: 'P-12', name: 'Polite speech violation', severity: 'medium', disabled: false },
+  { id: 'P-13', name: 'grep usage（full-textReadrequired）', severity: 'medium', disabled: false },
+  { id: 'P-29', name: 'No backup before file change', severity: 'high', disabled: false },
+  { id: 'P-67', name: 'Premature uncontrollable judgment', severity: 'high', disabled: false },
+  { id: 'P-73', name: 'Habitual laziness skipping 00_', severity: 'critical', disabled: false },
+  { id: 'P-75', name: 'Environment verification skip', severity: 'high', disabled: false },
+  { id: 'P-77', name: 'Blame-shift（externalcause responsibility shift）', severity: 'critical', disabled: false },
+  { id: 'P-78', name: 'Counter-evidence notverification', severity: 'high', disabled: false },
+  { id: 'P-83', name: 'jsonldirectoryloss', severity: 'critical', disabled: false },
 ];
 
 // Render modules
@@ -211,7 +211,7 @@ modules.forEach((m, i) => {
     <div class="module-detail hidden" id="detail-${i}">
       <div class="module-desc">${m.desc}</div>
       <div class="config-grid">
-        <div class="config-item"><label>実行間隔:</label><select><option>毎サイクル</option><option>5分</option><option>10分</option><option selected>15分</option><option>30分</option><option>1時間</option><option>1日</option><option>1週間</option><option>1ヶ月</option></select></div>
+        <div class="config-item"><label>Interval:</label><select><option>Every Cycle</option><option>5min</option><option>10min</option><option selected>15min</option><option>30min</option><option>1Duration</option><option>1d</option><option>1weeks</option><option>1months</option></select></div>
       </div>
     </div>`;
   ml.appendChild(row);
@@ -247,7 +247,7 @@ patterns.forEach(p => {
     <span class="pattern-id ${p.severity}">${p.id}</span>
     <span class="pattern-name ${p.disabled ? 'disabled' : ''}">${p.name}</span>
     <span class="sev-tag ${p.severity}">${p.severity}</span>
-    <button class="edit-btn">編集</button>`;
+    <button class="edit-btn">Edit</button>`;
   pl.appendChild(row);
 });
 
