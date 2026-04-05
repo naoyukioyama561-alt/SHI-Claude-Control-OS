@@ -26,6 +26,7 @@
 input[type=text],select{background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:6px 12px;font-size:13px}
 @media(max-width:768px){nav{display:none}.term-def{display:none}}
 </style></head><body>
+<div style="background:#0f172a;color:#64748b;padding:4px 12px;font-size:11px;text-align:center;border-bottom:1px solid #1e293b">公開安全な静的デモ。すべての名称・数値・ラベルは例示です。</div>
 <nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html" class="active">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
 <main>
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
@@ -74,7 +75,7 @@ const T=[
 {id:'dash-kn',t:'ナレッジ詳細ページ',c:'ダッシュボード',y:'ナレッジ',df:'Qdrantナレッジ詳細閲覧・検索。ベクトル検索・メタデータ・コレクション。',dt:'',sr:'[app-dir]/knowledge-detail/page.tsx',rl:['qdrant','rag'],cx:'ナレッジベース確認・検索。'},
 {id:'dash-tasks',t:'タスク一覧ページ',c:'ダッシュボード',y:'ナレッジ',df:'タスクキュー一覧。状態別表示。フィルタ・ソート。',dt:'[internal-state-file]読取。',sr:'[app-dir]/tasks/page.tsx',rl:['task-queue-txt'],cx:''},
 {id:'progress',t:'進捗モニタ',c:'ダッシュボード',y:'ナレッジ',df:'タスク状態をリアルタイム表示。10秒ポーリング。プログレスバー・経過時間・エラー理由。',dt:'API: /api/progress (5秒TTLキャッシュ、非同期I/O)。',sr:'[app-dir]/progress/page.tsx',rl:['[internal-state-file]','API Gateway'],cx:'volume mount (state/:ro) で直接読み取り。'},
-{id:'api-health',t:'/api/health',c:'ダッシュボード',y:'ナレッジ',df:'ヘルスチェックAPI。health_status.json返却。',dt:'state/health_status.json読取→JSON返却。',sr:'[app-dir]/api/health/route.ts',rl:['health-status-json'],cx:'/healthのデータソース。'},
+{id:'api-health',t:'[health-endpoint]',c:'ダッシュボード',y:'ナレッジ',df:'ヘルスチェックAPI。health_status.json返却。',dt:'state/health_status.json読取→JSON返却。',sr:'[app-dir][health-endpoint]/route.ts',rl:['health-status-json'],cx:'/healthのデータソース。'},
 {id:'state-dir',t:'state/ ディレクトリ',c:'運用',y:'ナレッジ',df:'SHI-Control-OS のシステム状態管理ディレクトリ。tool/ スクリプトのみが更新権限を持つ。',dt:'[internal-state-file], [internal-state-file], [internal-state-file], [internal-state-file]等。',sr:'[internal-doc]',rl:['workflow-engine v5 契約'],cx:'v5 契約の中核。直接編集禁止、tool/ 経由のみ。'},
 {id:'trace',t:'trace_id',c:'運用',y:'ナレッジ',df:'リクエストの一意識別子。Core Pipeline で自動生成され、全WFノードに伝搬。',dt:'Set_TraceId ノードで生成。feedback_log テーブルに記録。',sr:'Core Pipeline WF',rl:['Core Pipeline','feedback_log'],cx:'実行指示→分類→応答→監査の全過程を追跡可能。'},
 {id:'op-know',t:'operational_knowledge.jsonl',c:'運用',y:'ナレッジ',df:'運用ナレッジ蓄積。障害対応・設定変更等のJSONL記録。',dt:'event_type, description, resolution, timestamp。',sr:'[internal-state-file]',rl:['material-library'],cx:'運用経験の構造化蓄積。'},
