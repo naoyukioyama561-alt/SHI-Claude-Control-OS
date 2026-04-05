@@ -27,3 +27,5 @@ We address these risks through:
 - Open publication of the methodology (anyone can audit the approach)
 - Clear scope limitation (this is for AI governance, not human surveillance)
 - PROVE-IT.md verification protocol (all claims are challengeable)
+
+[日本語版](SECURITY-ja.md)

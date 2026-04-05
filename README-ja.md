@@ -74,7 +74,7 @@ Control OSをAIのシステムプロンプトにコピペしてください。[B
   さらに深く:
   |-- 継承と哲学                 --> 40-heritage/
   |-- スコープとエディション       --> 50-boundary/
-  |-- 詳細なスコープ表            --> SCOPE-MATRIX.md（英語版のみ）
+  |-- 詳細なスコープ表            --> SCOPE-MATRIX-ja.md
 ```
 
 | 層 | 1つの認知仕事 | 中身 |
@@ -100,7 +100,7 @@ Control OSをAIのシステムプロンプトにコピペしてください。[B
 - [START-HERE](START-HERE-ja.md) -- 3分でわかるオリエンテーション
 - [PROVE-IT](PROVE-IT-ja.md) -- すべての主張を自分で検証
 - [インタラクティブ・ダッシュボード](docs/dashboard.html)（ファイルをダウンロードしてブラウザで開く、またはGitHub Pagesを有効化）-- タイムライン + レイヤーシミュレーター
-- [SCOPE-MATRIX](SCOPE-MATRIX.md)（英語版のみ）-- 無料版と有料版の詳細な範囲分け
+- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) -- 無料版と有料版の詳細な範囲分け
 - [CITATION](CITATION.cff) -- 引用方法
 - [GLOSSARY-ja](GLOSSARY-ja.md) -- 用語集
 - [CONTRIBUTING-ja](CONTRIBUTING-ja.md) -- 観測報告の出し方。あなたの観測がFM分類や検証導線の改訂に直接つながります

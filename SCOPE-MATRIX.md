@@ -101,3 +101,5 @@ This repository invites you to:
 ---
 
 > See also: [PROVE-IT](PROVE-IT.md) | [START-HERE](START-HERE.md) | [Back to README](README.md)
+
+[日本語版](SCOPE-MATRIX-ja.md)

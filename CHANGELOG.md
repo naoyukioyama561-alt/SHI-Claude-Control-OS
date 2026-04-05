@@ -14,3 +14,5 @@ All notable changes to this project will be documented in this file.
 - GLOSSARY with evidence label definitions (en/ja)
 - SECURITY.md with adversarial considerations
 - CONTRIBUTING guide with Issues-first workflow (en/ja)
+
+[日本語版](CHANGELOG-ja.md)

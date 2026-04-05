@@ -26,3 +26,5 @@ An AI coding assistant was asked: "Find all problems in this Python code." The c
 ## Why This Matters
 
 FM-09 is one of the most common failure modes across all tested AI models (Claude, GPT, Copilot). A single Control OS rule — requiring explicit scope declaration — addresses it structurally rather than through repeated manual reminders.
+
+[日本語版](public-case-01-ja.md)
