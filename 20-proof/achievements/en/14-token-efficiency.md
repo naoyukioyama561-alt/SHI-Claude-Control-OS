@@ -10,14 +10,14 @@
 
 **Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
 
-- **MAX to Pro downgrade analysis**: Systematic evaluation of which operations truly require MAX-tier and which can run on Pro-tier
+- **Capability-tier analysis**: Evaluation of which operations require higher-capability models vs. which can run on standard models
 - **Category-based dependency analysis**: Each operational category assessed for MAX-dependency level and impact
 - **Context compression countermeasures**: Implementation priority table for SQL externalization and context size reduction
 - **Physical power consumption reduction**: Observed association between token efficiency and energy savings
 
 ## What Was Observed to Hold
 
-- The majority of AI operations **do not require maximum-capability models** — routine tasks run equally well (or better) on lower-tier models
+- In the observed environment, many AI operations ran equally well on standard-capability models — higher-tier models were concentrated in complex multi-step reasoning tasks
 - Structured analysis reveals that MAX-tier dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
 - SQL externalization alone achieves significant token reduction by moving large data structures out of context
 - The 20x figure is a design target; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption

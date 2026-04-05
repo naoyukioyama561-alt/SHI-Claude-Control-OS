@@ -104,7 +104,7 @@ Every completion report must include:
 | Contains MISQUOTE / declaration-only / false report | Excluded (contamination prevention) |
 | 5-set incomplete | Excluded |
 
-*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for what is available in each tier.*
+*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ---
 
