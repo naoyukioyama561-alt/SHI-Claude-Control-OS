@@ -1,6 +1,6 @@
 # Achievement No.15: Other Key Achievements
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 The 14 achievements above depend on supporting systems. This page is a public summary of those supporting structures, with deeper implementation detail intentionally outside the repository.
 

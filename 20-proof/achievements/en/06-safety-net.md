@@ -1,6 +1,6 @@
 # Achievement No.6: Self-Restraint & Safety Net (Block Hooks + Deny Rules)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
 ## What Was Observed
 

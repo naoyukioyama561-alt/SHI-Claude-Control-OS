@@ -1,6 +1,6 @@
 # Achievement No.10: Compound Factor Auto-Analysis (5-Why + [internal database table])
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
 

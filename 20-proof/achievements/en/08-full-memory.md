@@ -1,6 +1,6 @@
 # Achievement No.8: Unsummarized Complete Memory ([internal database table] PostgreSQL)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
 

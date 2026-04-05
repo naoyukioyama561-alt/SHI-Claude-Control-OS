@@ -136,7 +136,7 @@ Physical power equivalent [design target, illustrative scenario, not verified]:
 Impact of 20x overall efficiency improvement factor [design target]:
 - **Individual level**: Heavy Claude Code user (1,300Wh/day example) [illustrative scenario, not verified] → 65Wh/day. Electricity cost also 1/20.
 - **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario, not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, the reduction would be equivalent to a major country's entire annual power consumption.
-- **Environmental impact**: CO2 emissions reduced proportionally by 1/20. With data center power demand straining grids, this is significant as a climate change measure.
+- **Environmental impact**: CO2 emissions would reduce proportionally [illustrative extrapolation from design target, not verified] — included here to show the potential scale of the approach, not as a verified projection.
 
 The "token efficiency = power efficiency" perspective is offered here as a practical framing for evaluation; this repository does **not** claim a comprehensive literature survey.
 

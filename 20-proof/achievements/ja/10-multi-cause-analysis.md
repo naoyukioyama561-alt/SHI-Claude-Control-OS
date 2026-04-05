@@ -1,6 +1,6 @@
 # 成果No.10: 複合要因自動解析（なぜなぜ5段＋[internal database table]）
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 AIが同じミスをする本当の原因は、あなたが思っている原因とは違います。複合要因分析は、単一イベントのデバッグでは見えない構造的パターンを明らかにします。
 
