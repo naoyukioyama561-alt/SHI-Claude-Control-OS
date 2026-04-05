@@ -126,6 +126,8 @@
 
 コードを書かなくても貢献できます。いちばん価値が高いのは、あなたのAI環境で実際に何が起きたかという観測です。
 
+このリポジトリを試すだけならサインインは不要です。Issue や PR を出すときだけ GitHub アカウントが必要です。
+
 1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/) から始める
 2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの環境で起きたことを共有する
 3. **[主張に異議を出す](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — 強すぎる表現だと感じたらそのまま指摘する

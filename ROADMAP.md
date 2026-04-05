@@ -2,7 +2,9 @@
 
 This project is actively maintained. Below is the current direction.
 
-## Current (Free tier — this repository)
+## Current public repository
+
+> Phase 1 / Phase 2 are future open release phases, not pricing tiers. Everything listed in "Current" is already freely available in this repository.
 
 - 40 publicly classified failure modes across Claude, GPT, and Copilot
 - Control OS templates (copy-paste ready)

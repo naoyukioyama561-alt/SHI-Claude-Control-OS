@@ -128,6 +128,8 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 
 You do not need to write code to contribute. The most valuable contribution is a real observation from your own AI environment.
 
+Testing this repository requires no sign-in. A GitHub account is only needed if you want to open an Issue or PR.
+
 1. **Try it first** — start with [30-adoption/try/](30-adoption/try/)
 2. **[Report an observation](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — share what happened in your environment
 3. **[Challenge a claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — if something feels overstated, dispute it directly
