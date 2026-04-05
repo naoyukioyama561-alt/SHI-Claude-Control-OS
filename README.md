@@ -16,6 +16,8 @@ For people whose AI repeats mistakes, loses context, or says it understood and t
 
 > **Free tier is sufficient to try, verify, and challenge the methodology.** No installation required — copy, paste, and test.
 
+> **See the system in action:** [Live Demo (EN)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) — interactive health monitoring, pipeline visualization, quality checks, glossary management. Every button works. Click, filter, search — this is what structural AI governance looks like when it's running.
+
 It provides a Control OS template you can copy into your AI's system prompt today, plus a failure mode taxonomy, external monitoring design, and cross-session heritage framework to build on.
 
 ---
