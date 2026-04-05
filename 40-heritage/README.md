@@ -8,7 +8,7 @@ cc_heritage is an **institutional memory system** for AI coding assistants that 
 
 ## Structure
 
-### Core design document: `[redacted: design document name]`
+### Core design document: `[internal design document]`
 
 This file is the **design document** that every new CC must read before starting work. It contains:
 
@@ -56,7 +56,7 @@ Each numbered file records one CC generation's experience:
 
 The following are **not included** in the public version:
 - Full content of heritage documents (generational experience records) -- available as paid supplement
-- [redacted: monitoring service] (raw user corrections) -- available as paid supplement
+- [apprentice review file] (raw user corrections) -- available as paid supplement
 - heritage document files -- available as paid supplement
 - Backup files (.bak) -- not published
 

@@ -1,6 +1,6 @@
 # 成果No.14: トークン効率化 -- 20分の1削減（設計値）
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase2](https://img.shields.io/badge/availability-Phase2-orange) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## 何が観測されたか
 
@@ -24,4 +24,4 @@
 
 ---
 
-> これは**有料版の成果**（Phase2）です。考え方の方法論をここで共有しています。
+> このページは**公開版の概要ページ**です。考え方の方法論をここで共有し、Before/Afterの実測データとより深い詳細はPhase2で提供します。

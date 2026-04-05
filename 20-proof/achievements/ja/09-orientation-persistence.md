@@ -1,12 +1,12 @@
-# 成果No.9: 圧縮後行動永続化（[redacted: monitoring service]＋SQL外部化）
+# 成果No.9: 圧縮後行動永続化（[behavior orientation file]＋SQL外部化）
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## 何が観測されたか
 
 コンテキスト圧縮後も**行動パターンが永続する**システム。要約後にAIが「どう振る舞うか」を忘れる根本問題を解決：
 
-- **[redacted: monitoring service].json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
+- **[behavior orientation file].json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
 - **SQL外部化**: 重要な行動データをPostgreSQLに格納、コンテキスト圧縮の影響を受けない
 - **WHAT/WHY/HOW 3層モデル**: 何をするか知っている、なぜか理解している、身についている自動行動、の3つを区別
 - **圧縮耐性設計**: 圧縮後のセッションが自動的に行動基盤をリロード
@@ -15,7 +15,7 @@
 
 - コンテキスト圧縮は**行動の退行**を引き起こすことが観測された -- 事実だけでなく行動パターンも失われる（1セッション内で2時間振り返りの忘失4回を観測）
 - 3層内面化モデル（WHAT/WHY/HOW）が、圧縮を生き残る行動と生き残らない行動を予測する傾向
-- SQL外部化＋[redacted: monitoring service].jsonにより、圧縮イベント後の行動復元が大幅に改善
+- SQL外部化＋[behavior orientation file].jsonにより、圧縮イベント後の行動復元が大幅に改善
 
 ## 考え方のポイント
 
@@ -25,4 +25,4 @@
 
 ---
 
-> これは**有料版の成果**（Phase1）です。考え方の方法論と3層モデルをここで共有しています。
+> このページは**公開版の概要ページ**です。考え方の方法論と3層モデルをここで共有し、実装詳細はPhase1で提供します。

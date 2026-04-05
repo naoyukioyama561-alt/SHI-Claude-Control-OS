@@ -1,20 +1,20 @@
 # Achievement No.7: Crash Recovery — Auto-Detection + 3-Level Restoration
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
 ## What Was Observed
 
 A **crash auto-detection and 3-level instant restoration system** that ensures no work is lost when Claude Code crashes:
 
-- **Level 1 — [redacted: monitoring service]**: Lightweight file-based recovery that captures the essential state before crash
-- **Level 2 — [redacted: monitoring service]**: Automated next-session bootstrapping that restores operational context
-- **Level 3 — [redacted: monitoring service]**: Infrastructure-level monitoring that detects crashes independently and triggers recovery
+- **Level 1 — [recovery checkpoint file]**: Lightweight file-based recovery that captures the essential state before crash
+- **Level 2 — [behavior orientation file]**: Automated next-session bootstrapping that restores operational context
+- **Level 3 — [infrastructure health monitor]**: Infrastructure-level monitoring that detects crashes independently and triggers recovery
 
 ## What Was Observed to Hold
 
 - Claude Code crashes are **not rare edge cases** — they are a regular operational reality (3.8MB+ JSONL files, context pressure, memory exhaustion)
 - Without structured crash recovery, post-crash sessions start from zero — losing hours of accumulated context and in-progress work
-- The 3-level approach ensures recovery even when individual levels fail: if [redacted: monitoring service] is corrupted, [redacted: monitoring service] still works; if both fail, [redacted: monitoring service] catches it externally
+- The 3-level approach ensures recovery even when individual levels fail: if [recovery checkpoint file] is corrupted, [behavior orientation file] still works; if both fail, [infrastructure health monitor] catches it externally
 
 ## Key Insight
 

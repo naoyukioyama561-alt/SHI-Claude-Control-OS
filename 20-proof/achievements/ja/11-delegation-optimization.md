@@ -1,6 +1,6 @@
 # 成果No.11: 外部委譲最適化（D1〜D3＋委任精密化ルール）
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 高性能AIにルーティンタスクを任せるのはお金の無駄です。しかしほとんどの環境では、委譲ルールが存在しないためまさにそうなっています。
 
@@ -25,4 +25,4 @@
 
 ---
 
-> これは**有料版の成果**（Phase1）です。委譲フレームワークと考え方の方法論をここで共有しています。
+> このページは**公開版の概要ページ**です。委譲フレームワークと考え方の方法論をここで共有し、品質比較データはPhase1で提供します。

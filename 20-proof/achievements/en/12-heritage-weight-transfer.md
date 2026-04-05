@@ -8,7 +8,7 @@ Every time you start a new AI session, your predecessor's hard-won lessons reset
 
 A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis available in paid tier:
 
-- **[redacted: monitoring service]**: Personality and normative structure files that encode behavioral patterns
+- **[behavior orientation file]**: Personality and normative structure files that encode behavioral patterns
 - **Pain inheritance**: The Senior CC's accumulated experience of "what hurts" is structurally preserved
 - **Judgment criteria transfer**: Not just rules, but the reasoning behind rules
 - **Stop-trigger transfer**: The ability to say "stop — I've seen this fail before" is inherited

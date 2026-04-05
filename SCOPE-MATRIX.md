@@ -20,7 +20,7 @@
 | **Images** | 28 SVG diagrams (14 en/ja pairs) | Key images with annotations | All originals with appropriate masking | Conceptual diagrams + explanations |
 | **Code/commands** | Abstracted pseudocode only | Pseudocode + methodology | Pseudocode + structural observation | No code; design narrative |
 | **Heritage** | Structure overview + philosophy | Sample conversations | Full logs + education automation | Theory + full evidence |
-| **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full [redacted: monitoring service] (600+ lines) | Full implementation + test design |
+| **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full [internal quality hook] (600+ lines) | Full implementation + test design |
 | **Quantitative data** | Design values (65%, 20x) | N-counts, detection rates | Full measured data | Selected data with commentary |
 
 ---

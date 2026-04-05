@@ -6,10 +6,10 @@
 
 A complete **external monitoring and meta-governance system** that breaks the dependency on AI self-reporting:
 
-*Note: `[redacted: monitoring service]`, `[redacted: database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for what is available in each tier.*
+*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for what is available in each tier.*
 
-- **[redacted: monitoring service]**: Infrastructure-level monitoring that operates independently of the monitored AI
-- **[redacted: monitoring service]**: AI-level behavioral monitoring using separate AI instances
+- **[infrastructure health monitor]**: Infrastructure-level monitoring that operates independently of the monitored AI
+- **[external monitoring hook]**: AI-level behavioral monitoring using separate AI instances
 - **Gemini external monitoring**: Cross-model verification using a structurally different AI
 - **Normative enforcement**: Rules are enforced externally, not by self-compliance
 

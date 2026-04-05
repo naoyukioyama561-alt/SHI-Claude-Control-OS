@@ -90,7 +90,7 @@ Every completion report must include:
 | Condition | Action |
 |-----------|--------|
 | Same reason_code occurs 2+ times | Register as pattern in [redacted] |
-| Omission causes user pushback | Record in [redacted: database table] + register pattern |
+| Omission causes user pushback | Record in [internal database table] + register pattern |
 | Same reason_code occurs 3+ times | Record in incident log -> trigger permanent countermeasure |
 
 ---
@@ -99,12 +99,12 @@ Every completion report must include:
 
 | Condition | Learning Data Category |
 |-----------|----------------------|
-| verify pass + [redacted: monitoring service] pass + 5-set complete | High-quality data (priority accumulation) |
+| verify pass + [external monitoring hook] pass + 5-set complete | High-quality data (priority accumulation) |
 | fail -> correction -> pass cycle | Correction learning data (separate category) |
 | Contains MISQUOTE / declaration-only / false report | Excluded (contamination prevention) |
 | 5-set incomplete | Excluded |
 
-*Note: `[redacted: monitoring service]`, `[redacted: database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for what is available in each tier.*
+*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for what is available in each tier.*
 
 ---
 

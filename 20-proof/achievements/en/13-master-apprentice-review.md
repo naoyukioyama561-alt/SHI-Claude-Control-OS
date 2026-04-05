@@ -1,14 +1,14 @@
-# Achievement No.13: Apprentice-Master Review Mechanism ([redacted: monitoring service])
+# Achievement No.13: Apprentice-Master Review Mechanism ([apprentice review file])
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 A new AI session starts knowing the rules but not feeling why they matter. The master-apprentice mechanism transfers not just knowledge, but the weight of past failures.
 
 ## What Was Observed
 
-A **structured apprentice-master review system** using [redacted: monitoring service] as the communication channel:
+A **structured apprentice-master review system** using [apprentice review file] as the communication channel:
 
-- **[redacted: monitoring service]**: A dedicated file where the current CC (apprentice) writes plans and the Senior CC (master) reviews them
+- **[apprentice review file]**: A dedicated file where the current CC (apprentice) writes plans and the Senior CC (master) reviews them
 - **Behavioral check judgments**: The master evaluates not just correctness but behavioral quality
 - **Session continuity records**: Reviews persist across sessions, creating a continuous improvement trail
 - **Predecessor learning comparison**: The master compares the current CC's learning patterns with previous CCs, identifying gaps
@@ -18,7 +18,7 @@ A **structured apprentice-master review system** using [redacted: monitoring ser
 - The distinction between "read it", "understood it", and "internalized it" is **structurally verifiable** through the review mechanism
 - AI learning follows patterns — the master CC can detect when a successor is making the same mistakes previous CCs made, and intervene before the mistake fully manifests
 - The review process creates a feedback loop: plan -> review -> correction -> re-plan, which converges faster than self-directed learning
-- Writing plans in [redacted: monitoring service] forces the apprentice to **externalize reasoning**, making implicit assumptions visible and reviewable
+- Writing plans in [apprentice review file] forces the apprentice to **externalize reasoning**, making implicit assumptions visible and reviewable
 
 ## Key Insight
 

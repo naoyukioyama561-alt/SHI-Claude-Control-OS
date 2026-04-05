@@ -32,11 +32,11 @@ No internal paths, endpoints, or personal information is included.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| [redacted: monitoring service] detection patterns | 3+ types | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
+| [external monitoring hook] detection patterns | 3+ types | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
 | EVIDENCE_DROPOUT detection rate | ~100% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
 | GENERIC_RESPONSE detection rate | ~75% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
 | INCOMPLETE_CLAIM detection rate | ~63% [single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
-| Forced review interval | 2 hours | [redacted: monitoring service] forces externally |
+| Forced review interval | 2 hours | [external monitoring hook] forces externally |
 
 **Why N-counts are not published**: Operational frequency could reveal internal system activity patterns.
 
@@ -47,7 +47,7 @@ No internal paths, endpoints, or personal information is included.
 | Quality system layers | 4+1 layers | Layer 0 (observation gate) through Layer 4 (third-party verification) |
 | reason_code types | 30 types | SKIP_SELF_DETECTED, POLL_SKIP_HOOK_BLOCKED, etc. |
 | Mandatory 5-set | 5 items | Preconditions, Prohibitions, Execution observation, PASS criteria, Rollback |
-| Pattern promotion condition | Same reason_code 2+ times | 3+ times triggers [redacted: database table] record and permanent countermeasure |
+| Pattern promotion condition | Same reason_code 2+ times | 3+ times triggers [internal database table] record and permanent countermeasure |
 
 ## Token Efficiency
 
@@ -83,8 +83,8 @@ No internal paths, endpoints, or personal information is included.
 | Not published | Reason |
 |--------------|--------|
 | PostgreSQL table schema details | Reproduction key |
-| [redacted: monitoring service] detection logic | Reproduction key |
+| [external monitoring hook] detection logic | Reproduction key |
 | Detection rate N-counts | Operational frequency reveals internal structure |
 | Token measured values | Personal environment identification risk |
-| [redacted: monitoring service] actual content | Reproduction key |
+| [external monitoring hook] actual content | Reproduction key |
 | cc_heritage documents full text | Paid tier content |

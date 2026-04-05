@@ -1,6 +1,6 @@
 # Achievement No.15: Other Key Achievements
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase2](https://img.shields.io/badge/availability-Phase2-orange) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 The 14 achievements above rest on a foundation of supporting systems. These are the structural underpinnings that make everything else work.
 
@@ -25,9 +25,9 @@ A collection of **significant supporting achievements** that underpin the main 1
 - **Theoretical framework**: Foundation for the entire governance approach
 
 ### Task Management & Operational Logs
-- **[redacted: monitoring service]**: design proposals + SQL query integration
+- **[notification system]**: design proposals + SQL query integration
 - **Task completion reporting**: Structured reports with rule compliance self-verification
-- **[redacted: monitoring service]**: execution flow via API Gateway
+- **[external supervisor process]**: execution flow via API Gateway
 - **Session history tracking**: Context compression events, 2-hour rule violations
 - **Knowledge injection checklists**: Phase-based subtask expansion (Phase 1-10)
 

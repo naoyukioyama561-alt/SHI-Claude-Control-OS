@@ -1,6 +1,6 @@
 # Achievement No.11: External Delegation Optimization (D1-D3 + Precision Rules)
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 Running your most expensive AI model on routine tasks is wasting money. But most setups do exactly that because delegation rules do not exist.
 

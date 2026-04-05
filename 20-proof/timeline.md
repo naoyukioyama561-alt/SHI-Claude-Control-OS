@@ -21,9 +21,9 @@ These are facts, not claims.
 
 ## Week 2 (Day 8-14) -- Foundation Building
 
-- Deployed [redacted: database table] PostgreSQL (unsummarized complete memory)
-- Initial [redacted: monitoring service] version (external monitoring)
-- Crash recovery 3-level design ([redacted: monitoring service] / [redacted: monitoring service] / [redacted: monitoring service])
+- Deployed [internal database table] PostgreSQL (unsummarized complete memory)
+- Initial [external monitoring hook] version (external monitoring)
+- Crash recovery 3-level design ([recovery checkpoint file] / [behavior orientation file] / [infrastructure health monitor])
 - First CC session terminated (26.5 hours of operation, left 12 reflection items)
 - cc_heritage design started (AI personality continuity system)
 - Three-layer separation conceived and implemented
@@ -36,8 +36,8 @@ These are facts, not claims.
 
 - FM expanded from 40 to 90 items (P-series pattern refinement)
 - 5-layer operational model design (observe -> correct -> detect -> pre-empt -> lock)
-- Apprentice-master review mechanism implemented ([redacted: monitoring service])
-- [redacted: monitoring service] design (post-compression behavior persistence)
+- Apprentice-master review mechanism implemented ([apprentice review file])
+- [behavior orientation file] design (post-compression behavior persistence)
 - P-03 (omission) recurred 11 times in 9th CC -- demonstrated need for structural countermeasures
 - External delegation framework (D1-D3) designed
 

@@ -4,7 +4,7 @@
 
 ---
 
-注: 角括弧プレースホルダー（例: `[redacted: monitoring service]`, `[redacted]`）は安全な公開リリースのための意図的な伏字である。内容の欠落ではない。
+注: 角括弧プレースホルダー（例: `[external monitoring hook]`, `[internal database table]`, `[redacted]`）は安全な公開リリースのための意図的な伏字である。内容の欠落ではない。
 
 ## 検証ルール
 

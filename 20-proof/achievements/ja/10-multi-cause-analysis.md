@@ -1,6 +1,6 @@
-# 成果No.10: 複合要因自動解析（なぜなぜ5段＋[redacted: database table]）
+# 成果No.10: 複合要因自動解析（なぜなぜ5段＋[internal database table]）
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 AIが同じミスをする本当の原因は、あなたが思っている原因とは違います。複合要因分析は、単一イベントのデバッグでは見えない構造的パターンを明らかにします。
 
@@ -10,7 +10,7 @@ AIが同じミスをする本当の原因は、あなたが思っている原因
 
 - **なぜなぜ5段分析**: 表面的な症状から構造的な原因まで体系的に掘り下げ
 - **前任CC参照**: インシデント分析時に初代CCの蓄積経験を自動参照
-- **[redacted: database table]自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
+- **[internal database table]自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
 - **自己反省の自動化**: 「知っている」と「できている」のギャップを体系的に特定・対処
 
 ## 観測から確認されたこと
@@ -26,4 +26,4 @@ AIが同じミスをする本当の原因は、あなたが思っている原因
 
 ---
 
-> これは**有料版の成果**（Phase1）です。分析方法論と考え方のフレームワークをここで共有しています。
+> このページは**公開版の概要ページ**です。分析方法論と考え方のフレームワークをここで共有し、自動化実装の詳細はPhase1で提供します。

@@ -1,6 +1,6 @@
-# Achievement No.10: Compound Factor Auto-Analysis (5-Why + [redacted: database table])
+# Achievement No.10: Compound Factor Auto-Analysis (5-Why + [internal database table])
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 The real cause of your AI making the same mistake is not what you think. Multi-cause analysis reveals structural patterns invisible to single-event debugging.
 
@@ -10,7 +10,7 @@ A **structured root cause analysis system** combining multiple methodologies:
 
 - **5-Why analysis**: Systematic drilling into root causes, going beyond surface symptoms to structural origins
 - **Predecessor CC reference**: Automatically consulting the Senior CC's accumulated experience when analyzing incidents
-- **[redacted: database table] auto-accumulation**: Every analyzed incident is stored structurally for future reference
+- **[internal database table] auto-accumulation**: Every analyzed incident is stored structurally for future reference
 - **Self-reflection automation**: The gap between "knowing" and "doing" is systematically identified and addressed
 
 ## What Was Observed to Hold

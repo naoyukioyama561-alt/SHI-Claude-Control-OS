@@ -4,7 +4,7 @@
 
 The verification levels in this repository are defined by **how far a reader can verify using only the free version**. These levels are defined by the degree of public verifiability: Level A = fully reproducible from public files, Level B = design publicly inspectable but quantitative data in paid tier, Level C = summary public with details in paid tier.
 
-Availability badges (Free / Phase1 / Phase2) indicate which tier provides the core content of each achievement. Verification levels indicate the level of public verifiability.
+Availability labels below indicate **where the deeper detail lives**, not whether a public page exists. **All 15 achievements have public pages in this repository.** Verification levels indicate the level of public verifiability.
 
 | Level | Definition | What you can do |
 |-------|-----------|----------------|
@@ -36,7 +36,7 @@ For per-item scope breakdown, see [achievements/README.md](achievements/README.m
 
 | Level | Purpose | Includes |
 |-------|---------|----------|
-| **Free** | Experience + methodology | 40-item public FM taxonomy + 6 Free-tier achievement pages + structural explanations in 10-framework/ + representative images |
+| **Free** | Experience + methodology | 40-item public FM taxonomy + 15 public achievement pages (6 full + 9 summary) + structural explanations in 10-framework/ + representative SVG diagrams |
 | **Phase1** | How to think about building it | 10 design documents + FM 60 items detailed + diagrams + sample conversations + reason_code table |
 | **Phase2** | How to observe structure | All files + all images + all 132 FM items + verification logs + source excerpts |
 | **Book** | AI governance via SHI theory | All 7 chapters + reproduction procedures (no concrete keys) |
@@ -56,7 +56,7 @@ Phase1 purchasers can upgrade to Phase2 at the price difference at any time.
 | [achievements/](achievements/) | Detailed documentation for each achievement (with images) |
 | [timeline.md](timeline.md) | Development timeline of facts |
 | [metrics.md](metrics.md) | Publicly safe quantitative data |
-| [../images/evidence images/](../images/evidence images/) | Operational screenshot evidence referenced from achievement files |
+| [../images/screenshots/README.md](../images/screenshots/README.md) | Explains why operational screenshots are removed from the public repository and where the safe SVG substitutes live |
 
 ---
 

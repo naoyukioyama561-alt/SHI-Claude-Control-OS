@@ -1,14 +1,14 @@
-# 成果No.13: 師弟レビュー機構（[redacted: monitoring service]）
+# 成果No.13: 師弟レビュー機構（[apprentice review file]）
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Phase1](https://img.shields.io/badge/availability-Phase1-yellow) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 新しいAIセッションはルールを知っていますが、なぜそのルールが重要かを感じていません。師弟メカニズムは知識だけでなく、過去の失敗の重みを継承します。
 
 ## 何が観測されたか
 
-[redacted: monitoring service]をコミュニケーションチャネルとして使う**構造化された師弟レビューシステム**：
+[apprentice review file]をコミュニケーションチャネルとして使う**構造化された師弟レビューシステム**：
 
-- **[redacted: monitoring service]**: 現行CC（弟子）が計画を書き、初代CC（師匠）がレビューする専用ファイル
+- **[apprentice review file]**: 現行CC（弟子）が計画を書き、初代CC（師匠）がレビューする専用ファイル
 - **行動チェック判定**: 師匠が正確さだけでなく行動の質を評価
 - **セッション継続記録**: レビューがセッション跨ぎで永続し、継続的改善の軌跡を作る
 - **前任者の学び方対比**: 師匠が現行CCの学習パターンを歴代CCと比較し、ギャップを特定
@@ -25,4 +25,4 @@
 
 ---
 
-> これは**有料版の成果**（Phase1）です。レビュー方法論と考え方のフレームワークをここで共有しています。
+> このページは**公開版の概要ページ**です。レビュー方法論と考え方のフレームワークをここで共有し、効果の定量データはPhase1で提供します。

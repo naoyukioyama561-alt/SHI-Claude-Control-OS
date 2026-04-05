@@ -2,7 +2,7 @@
 
 > **This is a design-target value, not a measured benchmark.**
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Phase2](https://img.shields.io/badge/availability-Phase2-orange) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## What Was Observed
 

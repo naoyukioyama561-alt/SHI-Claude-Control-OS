@@ -32,11 +32,11 @@
 
 | 指標 | 値 | 注記 |
 |------|---|------|
-| [redacted: monitoring service]検知パターン | 3種類以上 | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
+| [external monitoring hook]検知パターン | 3種類以上 | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
 | EVIDENCE_DROPOUT検出率 | ~100% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
 | GENERIC_RESPONSE検出率 | ~75% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
 | INCOMPLETE_CLAIM検出率 | ~63% [単一環境、N未公開] | 著者環境での観測値。N数は公開版では非公開。 |
-| 強制レビュー間隔 | 2時間 | [redacted: monitoring service]が外部から強制 |
+| 強制レビュー間隔 | 2時間 | [external monitoring hook]が外部から強制 |
 
 **N数を非公開にする理由**: 運用頻度から内部システムの活動パターンが推定されるリスク。
 
@@ -47,7 +47,7 @@
 | 品質システム層数 | 4+1層 | Layer 0（観測ゲート）〜Layer 4（第三者検証） |
 | reason_code種別 | 30種類 | SKIP_SELF_DETECTED, POLL_SKIP_HOOK_BLOCKED 等 |
 | 必須5セット | 5項目 | 前提条件、禁止事項、実行観測、合格基準、ロールバック |
-| パターン昇格条件 | 同一reason_code 2回以上 | 3回以上で[redacted: database table]に記録し恒久対策 |
+| パターン昇格条件 | 同一reason_code 2回以上 | 3回以上で[internal database table]に記録し恒久対策 |
 
 ## トークン効率化
 
@@ -83,10 +83,10 @@
 | 非公開のもの | 理由 |
 |-------------|------|
 | PostgreSQLテーブルスキーマ詳細 | 再現鍵 |
-| [redacted: monitoring service]検知ロジック | 再現鍵 |
+| [external monitoring hook]検知ロジック | 再現鍵 |
 | 検出率のN数 | 運用頻度から内部構造が推定される |
 | トークン計測値 | 個人環境特定リスク |
-| [redacted: monitoring service]実コンテンツ | 再現鍵 |
+| [external monitoring hook]実コンテンツ | 再現鍵 |
 | cc_heritage文書全文 | 有料版コンテンツ |
 
 ---

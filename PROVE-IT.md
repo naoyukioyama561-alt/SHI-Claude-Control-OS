@@ -4,7 +4,7 @@ This document exists not to convince you, but to help you **evaluate how far you
 
 ---
 
-Note: Square-bracket placeholders (e.g., `[redacted: monitoring service]`, `[redacted]`) are intentional redactions for safe public release. They are not incomplete content.
+Note: Square-bracket placeholders (e.g., `[external monitoring hook]`, `[internal database table]`, `[redacted]`) are intentional redactions for safe public release. They are not incomplete content.
 
 Throughout this repository, `[redacted]` labels mark specific implementation details -- such as service names, database tables, or monitoring logic -- that have been withheld to prevent reproduction of the paid-tier system from public information alone. The surrounding context (design rationale, metrics, methodology) remains fully public so that readers can evaluate the approach without needing access to the redacted specifics.
 

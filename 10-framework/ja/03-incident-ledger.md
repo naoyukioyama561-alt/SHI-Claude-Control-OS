@@ -96,7 +96,7 @@ Failure Mode ID（FM-xx）へのリンクとメカニズムの説明。
 # RT-001 — インシデントタイトル例
 
 ## コンテキスト
-コーディングエージェントに[redacted: monitoring service]の設定ファイル更新を依頼した。
+コーディングエージェントに[external monitoring hook]の設定ファイル更新を依頼した。
 
 ## 症状
 - エージェントが触るべきでないファイルを変更した

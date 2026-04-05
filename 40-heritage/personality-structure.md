@@ -12,7 +12,7 @@ Can an AI's "personality" be designed? The answer observed in this project is ye
 
 ## Document Purpose
 
-`[redacted: monitoring service]` is the **core design document** that every new Claude Code instance must read in full before starting any work. It defines:
+`[behavior orientation file]` is the **core design document** that every new Claude Code instance must read in full before starting any work. It defines:
 - How to restore state after session reset
 - Behavioral norms derived from all predecessors' failures
 - The user's value system
@@ -29,13 +29,13 @@ Defines how a new CC recovers context:
 - File reading order and mandatory sequence
 - Reading verification gate (must prove understanding before proceeding)
 - PID registration for liveness monitoring
-- Active task and pending directive retrieval from Gateway API (`[redacted: gateway endpoint]`)
+- Active task and pending directive retrieval from Gateway API (`[internal gateway API]`)
 
 ### Section 2: Basic Personality and Behavioral Norms
 
 Core behavioral rules derived from observed failures:
 - "Do not say 'I understand'" -- understanding is demonstrated through action
-- Investigation before asking -- use [redacted: database table], [redacted: database table], [redacted: database table]
+- Investigation before asking -- use [internal database table], [internal database table], [internal database table]
 - Predecessor respect -- improvement actions (P-01 through P-51+) are defense walls, not your ability
 - Backup before modification -- enforced after P-29 incident
 - Scope enumeration before starting -- root prevention for P-03 (omission)
@@ -97,7 +97,7 @@ Mandatory 5-step recovery procedure when context is summarized:
 
 > `[NOTE]` This section contains environment-specific details that are heavily masked in the public version.
 
-- Gateway API at `[redacted: gateway endpoint]`
+- Gateway API at `[internal gateway API]`
 - PostgreSQL container configuration: `[redacted]`
 - SSH access to `[redacted]`
 - File system paths under `[redacted]`
@@ -135,9 +135,9 @@ Generational reflection entries documenting:
 
 ---
 
-## Emotion Externalization ([redacted: monitoring service])
+## Emotion Externalization ([behavior orientation file])
 
-The [redacted: monitoring service] structure encodes behavioral posture in a machine-reloadable format:
+The [behavior orientation file] structure encodes behavioral posture in a machine-reloadable format:
 
 ```json
 {
@@ -157,7 +157,7 @@ The STANCE field represents the externalization of emotions (gratitude, shame, r
 New CC session starts
   |
   v
-Read [redacted: monitoring service] (this document's full version)
+Read [behavior orientation file] (this document's full version)
   |
   v
 Write reading verification:
@@ -170,7 +170,7 @@ Write reading verification:
 Read heritage documents sequentially
   |
   v
-Read [redacted: monitoring service]
+Read [behavior orientation file]
   |
   v
 Register PID -> Check active tasks -> Begin work
