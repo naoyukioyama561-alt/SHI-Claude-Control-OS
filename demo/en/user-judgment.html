@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>User Judgment - n8n-AI</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}.card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;margin-bottom:16px}.jcard{border:1px solid #155e75;background:rgba(6,182,212,.05);border-radius:8px;padding:16px;margin-bottom:12px}.jcard h4{color:#22d3ee;margin-bottom:8px;font-size:14px}.jcard p{color:#94a3b8;font-size:13px;line-height:1.5;margin-bottom:8px}.btn-row{display:flex;gap:8px}.btn{padding:6px 16px;border-radius:6px;font-size:13px;border:none;cursor:pointer;transition:all .15s}.btn-g{background:#16a34a;color:#fff}.btn-g:hover{background:#15803d}.btn-r{background:#dc2626;color:#fff}.btn-r:hover{background:#b91c1c}.btn-s{background:#334155;color:#cbd5e1}.btn-s:hover{background:#475569}.pulse{animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}@media(max-width:768px){nav{display:none}}</style></head><body>
+<nav><h1>n8n-AI</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html" class="active">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<main>
+<h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:4px">User Judgment</h2>
+<p style="color:#94a3b8;font-size:13px;margin-bottom:16px">AI AutoQueue for items requiring user confirmation <span class="pulse" style="color:#22d3ee" id="v-cnt">2 pending</span></p>
+
+<div class="jcard" id="j1">
+<h4>Design Decision: Final confirmation of backup design</h4>
+<p>implementationSpecv2 layered design（A-E） and implementation safety measures6 items into procedure docCreated. Proceed with these policies?？</p>
+<p style="color:#fff;font-size:12px;background:rgba(15,23,42,.5);padding:8px;border-radius:4px;font-family:monospace">
+- D→A→B→E  execution order<br>
+- Independent layer execution（set -euo not used）<br>
+- 14-day cycle + Daily incremental<br>
+- C-Layer: Dailybase + 10mindelta
+</p>
+<div class="btn-row">
+<button class="btn btn-g" onclick="approve(this,'j1')">Approve</button>
+<button class="btn btn-r" onclick="reject(this,'j1')">Reject</button>
+<button class="btn btn-s" onclick="defer(this,'j1')">Defer</button>
+</div>
+</div>
+
+<div class="jcard" id="j2">
+<h4>Privilege Decision: OpenClawadminPrivilege continuation</h4>
+<p>privilege_manager Keywords"MacMini not implemented" detected,cc_supervisor AdminPrivilege Grant done.this Privilege. Continue?？</p>
+<p style="font-size:12px;color:#64748b">GrantTime: 2026-04-05 01:30 | elapsed: 11Duration | Timeout: 30min (exceeded）</p>
+<div class="btn-row">
+<button class="btn btn-g" onclick="approve(this,'j2')">Continue</button>
+<button class="btn btn-r" onclick="reject(this,'j2')">Revoke</button>
+</div>
+</div>
+
+<div class="card" style="opacity:.6">
+<h3 style="color:#94a3b8;font-weight:600;margin-bottom:8px;font-size:14px">Processed (Recent)</h3>
+<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">✅ routing_rules.jsonnew rulesadded → Approve (04/04 18:00)</div>
+<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">❌ QdrantCollectionrebuild → Reject (04/04 12:00)</div>
+<div style="font-size:12px;color:#64748b;padding:4px 0">✅ f1improvement proposal3 apply → Approve (04/03 10:00)</div>
+</div>
+</main>
+<script>
+function approve(btn,id){const c=document.getElementById(id);c.style.borderColor='#16a34a';c.style.background='rgba(34,197,94,.08)';btn.parentElement.innerHTML='<span style="color:#4ade80;font-size:13px">✅ Approved</span>';updateCount();}
+function reject(btn,id){const c=document.getElementById(id);c.style.borderColor='#991b1b';c.style.background='rgba(239,68,68,.05)';btn.parentElement.innerHTML='<span style="color:#f87171;font-size:13px">❌ Rejected</span>';updateCount();}
+function defer(btn,id){btn.parentElement.innerHTML='<span style="color:#facc15;font-size:13px">⏸ Deferred</span>';}
+function updateCount(){const n=document.querySelectorAll('.jcard .btn-g').length;document.getElementById('v-cnt').textContent=n+' pending';}
+</script></body></html>

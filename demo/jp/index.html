@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>n8n-AI Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}.card{background:#1e293b;border:1px solid #334155;border-radius:8px;overflow:hidden}.group-title{font-size:11px;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;padding:12px 16px 4px}.section{display:block;padding:12px 16px;transition:background .15s;text-decoration:none;color:inherit;cursor:pointer}.section:hover{background:rgba(51,65,85,.5)}.section-header{display:flex;align-items:center;gap:8px;margin-bottom:4px}.section-header .title{font-size:14px;font-weight:600;color:#fff}.section-grid{margin-left:28px;display:grid;grid-template-columns:repeat(4,1fr);gap:2px 16px;font-size:12px}.kv{color:#94a3b8}.kv .v{color:#e2e8f0}.kv .g{color:#4ade80}.kv .r{color:#f87171}.kv .y{color:#facc15}.kv .b{color:#60a5fa}.kv .c{color:#22d3ee}.kv .o{color:#fb923c}.kv .e{color:#34d399}.kv .p{color:#c084fc}.divider{border-top:1px solid rgba(51,65,85,.5)}
+@media(max-width:768px){nav{display:none}main{padding:12px}.section-grid{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<nav><h1>n8n-AI</h1><a href="index.html" class="active">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
+<main>
+<div style="margin-bottom:8px"><h2 style="font-size:20px;font-weight:bold;color:#fff;padding:0 16px">概要</h2></div>
+<div class="card">
+
+<div class="group-title">システム状態</div>
+<a href="health.html" class="section"><div class="section-header"><span>💚</span><span class="title">ヘルスチェック</span></div><div class="section-grid">
+<span class="kv"><span class="g">20/22 正常</span></span><span class="kv"><span class="r">1件異常</span></span><span class="kv"><span class="y">1件警告</span></span><span class="kv">最終: <span class="v" id="h-t">12:34</span></span>
+</div></a><div class="divider"></div>
+<a href="local_ai.html" class="section"><div class="section-header"><span>🧠</span><span class="title">Local AI</span></div><div class="section-grid">
+<span class="kv">Ollama: <span class="g">3モデル</span></span><span class="kv">推論: <span class="g" id="x1">847文字</span></span><span class="kv">Qdrant: <span class="v" id="x2">12,458pt</span></span><span class="kv">合議: <span class="v" id="x3">48回</span></span>
+</div></a><div class="divider"></div>
+<a href="storage.html" class="section"><div class="section-header"><span>📈</span><span class="title">リソースモニタ</span></div><div class="section-grid">
+<span class="kv">CPU: <span class="g" id="x4">12%</span></span><span class="kv">RAM: <span class="g">5.2/8.0GB</span></span><span class="kv">内部: <span class="g">142/460GB</span></span><span class="kv">外付SSD: <span class="g">293/954GB</span></span>
+</div></a>
+
+<div class="group-title">AI自動運用</div>
+<a href="openclaw.html" class="section"><div class="section-header"><span>🤖</span><span class="title">OpenClaw</span></div><div class="section-grid">
+<span class="kv">モジュール: <span class="v">14個</span></span><span class="kv">権限: <span class="y">granted</span></span><span class="kv">Standby: <span class="g">稼働</span></span>
+</div></a><div class="divider"></div>
+<a href="supervisor.html" class="section"><div class="section-header"><span>👁️</span><span class="title">監督状況</span></div><div class="section-grid">
+<span class="kv">指示: <span class="v">8件</span></span><span class="kv">Pending: <span class="y">3</span></span><span class="kv">完了: <span class="g">5</span></span>
+</div></a>
+
+<div class="group-title">実行・進捗</div>
+<a href="execute.html" class="section"><div class="section-header"><span>▶️</span><span class="title">実行指示</span></div><div class="section-grid">
+<span class="kv">本日: <span class="b" id="x5">8</span></span><span class="kv">累計: <span class="v">1,247</span></span><span class="kv">エラー率: <span class="v">0.96%</span></span>
+</div></a><div class="divider"></div>
+<a href="design-verify.html" class="section"><div class="section-header"><span>📋</span><span class="title">設計照合</span></div><div class="section-grid">
+<span class="kv">完了: <span class="g">7</span></span><span class="kv">全体: <span class="v">10</span></span><span class="kv">SKIP: <span class="v">2</span></span><span class="kv">進捗: <span class="b">70%</span></span>
+</div></a><div class="divider"></div>
+<a href="tasks.html" class="section"><div class="section-header"><span>📌</span><span class="title">タスク進捗</span></div><div class="section-grid">
+<span class="kv">アクティブ: <span class="b">3</span></span><span class="kv">完了(本日): <span class="g">5</span></span><span class="kv">DBサイズ: <span class="v">248MB</span></span>
+</div></a>
+
+<div class="group-title">品質・監視</div>
+<a href="quality.html" class="section"><div class="section-header"><span>✅</span><span class="title">品質チェック</span></div><div class="section-grid">
+<span class="kv">チェック数: <span class="v">342</span></span><span class="kv">エラー率: <span class="v">0.96%</span></span>
+</div></a><div class="divider"></div>
+<a href="localai-check.html" class="section"><div class="section-header"><span>⚡</span><span class="title">LocalAI Check</span></div><div class="section-grid">
+<span class="kv">監視: <span class="v">172パターン</span></span><span class="kv">検知: <span class="o" id="x6">3</span></span>
+</div></a><div class="divider"></div>
+<a href="user-judgment.html" class="section"><div class="section-header"><span>👤</span><span class="title">ユーザー判定</span></div><div class="section-grid">
+<span class="kv">判定待ち: <span class="c">2件</span></span>
+</div></a>
+
+<div class="group-title">通知・追跡</div>
+<a href="notifications.html" class="section"><div class="section-header"><span>🔔</span><span class="title">通知管理</span></div><div class="section-grid">
+<span class="kv">全件: <span class="v">8</span></span><span class="kv">未読: <span class="r">4</span></span>
+</div></a>
+
+<div class="group-title">ナレッジ・学習</div>
+<a href="learning.html" class="section"><div class="section-header"><span>📚</span><span class="title">学習管理</span></div><div class="section-grid">
+<span class="kv">総件数: <span class="e">234</span></span><span class="kv">カテゴリ: <span class="v">12</span></span><span class="kv">パターン: <span class="v" id="x7">34</span></span>
+</div></a><div class="divider"></div>
+<a href="glossary.html" class="section"><div class="section-header"><span>📓</span><span class="title">用語管理</span></div><div class="section-grid">
+<span class="kv">登録: <span class="v">40語</span></span><span class="kv">v3.2</span>
+</div></a>
+
+<div class="group-title">その他</div>
+<a href="tokens.html" class="section"><div class="section-header"><span>🪙</span><span class="title">トークン監視</span></div><div class="section-grid">
+<span class="kv">Anthropic: <span class="v" id="x8">42</span>回 $<span class="v" id="x9">2.18</span></span><span class="kv">Gemini: <span class="v" id="xa">89</span>回</span>
+</div></a><div class="divider"></div>
+<a href="claudecode.html" class="section"><div class="section-header"><span>💻</span><span class="title">Claude Code</span></div><div class="section-grid">
+<span class="kv">メッセージ: <span class="v" id="xb">2,847</span></span><span class="kv">セッション: <span class="g">Active</span></span>
+</div></a><div class="divider"></div>
+<a href="features.html" class="section"><div class="section-header"><span>⭐</span><span class="title">機能一覧</span></div><div class="section-grid">
+<span class="kv">実装済: <span class="g" id="xc">87</span></span><span class="kv">全機能: <span class="v">104</span></span><span class="kv">実装率: <span class="v" id="xd">84%</span></span>
+</div></a><div class="divider"></div>
+<a href="pipeline.html" class="section"><div class="section-header"><span>🔀</span><span class="title">パイプライン</span></div><div class="section-grid">
+<span class="kv">Core: n8n WF</span><span class="kv">Task: API GW</span><span class="kv">学習: L1-L4</span>
+</div></a>
+
+</div></main>
+<script>
+const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
+function A(){const n=Date.now()/1000,v=P[Math.floor(n%60/15)%4]((n%15)/15);
+const c=5+Math.round(v*25);document.getElementById('x4').textContent=c+'%';document.getElementById('x4').className=c>80?'r':c>50?'y':'g';
+document.getElementById('x1').textContent=(600+Math.round(v*500))+'文字';
+document.getElementById('x2').textContent=(12e3+Math.round(v*900)).toLocaleString()+'pt';
+document.getElementById('x3').textContent=(45+Math.round(v*8))+'回';
+document.getElementById('x5').textContent=6+Math.round(v*5);
+document.getElementById('x6').textContent=2+Math.round(v*3);
+document.getElementById('x7').textContent=30+Math.round(v*8);
+const a=35+Math.round(v*15);document.getElementById('x8').textContent=a;document.getElementById('x9').textContent=(a*.052).toFixed(2);
+document.getElementById('xa').textContent=70+Math.round(v*30);
+document.getElementById('xb').textContent=(2840+Math.round(v*20)).toLocaleString();
+const fd=85+Math.round(v*5);document.getElementById('xc').textContent=fd;document.getElementById('xd').textContent=Math.round(fd/104*100)+'%';
+requestAnimationFrame(A);}A();
+</script></body></html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quality Check - n8n-AI Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}
+nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}
+nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}
+nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}
+nav a:hover,nav a.active{background:#334155;color:#fff}
+main{flex:1;padding:24px;overflow-y:auto}
+.btn{padding:6px 12px;border-radius:6px;font-size:13px;border:none;cursor:pointer;transition:all .15s}
+.btn-blue{background:#2563eb;color:#fff}.btn-blue:hover{background:#1d4ed8}
+.btn-sm{font-size:12px;padding:4px 8px}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}
+.stat-card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;text-align:center}
+.stat-label{font-size:12px;color:#94a3b8;margin-bottom:4px}
+.stat-val{font-size:28px;font-weight:bold}
+.stat-sub{font-size:11px;color:#64748b;margin-top:4px}
+.card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;margin-bottom:16px}
+.card-title{font-size:16px;font-weight:600;color:#fff;margin-bottom:12px}
+table{width:100%;font-size:13px;border-collapse:collapse}
+th{text-align:left;padding:8px;color:#94a3b8;border-bottom:1px solid #334155;position:sticky;top:0;background:#1e293b}
+td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
+tr:hover{background:rgba(51,65,85,.2)}
+.q-tag{padding:2px 8px;border-radius:4px;font-size:11px;font-weight:500}
+.q-good{background:rgba(34,197,94,.15);color:#4ade80}
+.q-acceptable{background:rgba(59,130,246,.15);color:#60a5fa}
+.q-poor{background:rgba(239,68,68,.15);color:#f87171}
+.q-pending{background:rgba(234,179,8,.15);color:#facc15}
+.filter-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.filter-bar select,.filter-bar input{background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:6px 12px;font-size:12px}
+.suggestion{background:rgba(15,23,42,.5);border:1px solid #334155;border-radius:6px;padding:12px;margin-bottom:8px}
+.suggestion-title{font-size:13px;color:#fff;font-weight:500;margin-bottom:4px}
+.suggestion-body{font-size:12px;color:#94a3b8;line-height:1.5}
+.suggestion-risk{font-size:11px;color:#fb923c;margin-top:4px}
+.retry-badge{font-size:10px;background:rgba(234,179,8,.15);color:#facc15;padding:1px 6px;border-radius:999px;margin-left:4px}
+@media(max-width:768px){nav{display:none}.stat-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<nav><h1>n8n-AI</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html" class="active">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<main>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+<h2 style="font-size:24px;font-weight:bold;color:#fff">Quality Check</h2>
+<div style="display:flex;gap:8px">
+<button class="btn btn-blue btn-sm">CSV</button>
+<button class="btn btn-blue btn-sm">JSON</button>
+</div>
+</div>
+
+<!-- Stats -->
+<div class="stat-grid">
+<div class="stat-card"><div class="stat-label">Good</div><div class="stat-val" style="color:#4ade80">218</div><div class="stat-sub">63.7%</div></div>
+<div class="stat-card"><div class="stat-label">Acceptable</div><div class="stat-val" style="color:#60a5fa">89</div><div class="stat-sub">26.0%</div></div>
+<div class="stat-card"><div class="stat-label">Poor</div><div class="stat-val" style="color:#f87171">28</div><div class="stat-sub">8.2% <span class="retry-badge">retry 12</span></div></div>
+<div class="stat-card"><div class="stat-label">Pending</div><div class="stat-val" style="color:#facc15">7</div><div class="stat-sub">2.0%</div></div>
+</div>
+
+<!-- Filter -->
+<div class="filter-bar">
+<select id="qFilter" onchange="filterQuality()">
+<option value="all">All Levels</option>
+<option value="good">Good</option>
+<option value="acceptable">Acceptable</option>
+<option value="poor">Poor</option>
+<option value="pending">Pending</option>
+</select>
+<input type="date" value="2026-04-05" style="color-scheme:dark">
+<span style="font-size:12px;color:#64748b" id="qCount">342</span>
+</div>
+
+<!-- Quality Log Table -->
+<div class="card">
+<div class="card-title">Quality Check Log</div>
+<div style="max-height:400px;overflow-y:auto">
+<table>
+<thead><tr><th>Date/Time</th><th>Task</th><th>Quality</th><th>Details</th><th>Retry</th></tr></thead>
+<tbody id="qBody">
+<tr data-q="good"><td style="color:#64748b">2026-04-05 12:30</td><td style="color:#fff">storage/page.tsx Growth Trendadded</td><td><span class="q-tag q-good">good</span></td><td style="color:#94a3b8">As designed. Tests passed.</td><td>0</td></tr>
+<tr data-q="good"><td style="color:#64748b">2026-04-05 11:45</td><td style="color:#fff">api_gateway.py /storage/growthadded</td><td><span class="q-tag q-good">good</span></td><td style="color:#94a3b8">endpointPointsNormalRunning.</td><td>0</td></tr>
+<tr data-q="acceptable"><td style="color:#64748b">2026-04-05 10:20</td><td style="color:#fff">backup_d.sh D-layer scriptCreated</td><td><span class="q-tag q-acceptable">acceptable</span></td><td style="color:#94a3b8">Works butErrorserror handling needs improvement.</td><td>0</td></tr>
+<tr data-q="poor"><td style="color:#64748b">2026-04-05 09:15</td><td style="color:#fff">daily_20260330 runaway copy</td><td><span class="q-tag q-poor">poor</span></td><td style="color:#f87171">188GBRunaway. No size limit check.</td><td style="color:#facc15">3</td></tr>
+<tr data-q="good"><td style="color:#64748b">2026-04-05 08:30</td><td style="color:#fff">health/page.tsx Thresholdstab</td><td><span class="q-tag q-good">good</span></td><td style="color:#94a3b8">Design VerifyOK.</td><td>0</td></tr>
+<tr data-q="pending"><td style="color:#64748b">2026-04-05 08:00</td><td style="color:#fff">backup_a.sh A-layer script</td><td><span class="q-tag q-pending">pending</span></td><td style="color:#94a3b8">Notverification.Manualtestwaiting.</td><td>0</td></tr>
+<tr data-q="good"><td style="color:#64748b">2026-04-04 23:50</td><td style="color:#fff">notifications/page.tsx filteradded</td><td><span class="q-tag q-good">good</span></td><td style="color:#94a3b8">source/levelfilterworksconfirmed done.</td><td>0</td></tr>
+<tr data-q="acceptable"><td style="color:#64748b">2026-04-04 22:30</td><td style="color:#fff">openclaw/page.tsx PatternsEditUI</td><td><span class="q-tag q-acceptable">acceptable</span></td><td style="color:#94a3b8">UI Works butSaveAPI Errorsprocessinsufficient.</td><td>0</td></tr>
+<tr data-q="poor"><td style="color:#64748b">2026-04-04 18:00</td><td style="color:#fff">backup_mirror rsyncrunaway</td><td><span class="q-tag q-poor">poor</span></td><td style="color:#f87171">InternalSSD 24GBconsumed.excludePatternsdeficiency.</td><td style="color:#facc15">2</td></tr>
+<tr data-q="good"><td style="color:#64748b">2026-04-04 15:00</td><td style="color:#fff">execute/page.tsx pollingimplementation</td><td><span class="q-tag q-good">good</span></td><td style="color:#94a3b8">asyncTask CompletednotificationNormal.</td><td>0</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- Daily Review -->
+<div class="card">
+<div class="card-title">Daily Review Recommendations</div>
+<div class="suggestion">
+<div class="suggestion-title">backupprocess size limitcheck introduction</div>
+<div class="suggestion-body">daily_20260330 188GBrunaway occurred.allbackup-layersize limitcheck(MAX_SIZE_MB) incorporated, exceeded, ABORT mechanism needed.implementation planv2 Phase 3-1, 4-1, 5-1 supportplanned.</div>
+<div class="suggestion-risk">Risk: size limitwithout Operations, then, External SSD (954GB)  1day may be exhausted</div>
+</div>
+<div class="suggestion">
+<div class="suggestion-title">rsyncexcludePatterns unified mgmt</div>
+<div class="suggestion-body">backup_mirror .git, node_modules, __pycache__ exclude not applied,24GBcopy.common across all scripts excludelistfile  referencing design.</div>
+<div class="suggestion-risk">Risk: Missing exclusions cause several GB to tens of GB of wasteful copies each time</div>
+</div>
+<div class="suggestion">
+<div class="suggestion-title">concurrency preventionlock standardization</div>
+<div class="suggestion-body">Concurrentexecution risk of integrity breakdown.allbackup-layerflock + PIDcheck  introduced.stale lockdetected included.</div>
+</div>
+</div>
+</main>
+
+<script>
+function filterQuality() {
+  const val = document.getElementById('qFilter').value;
+  let count = 0;
+  document.querySelectorAll('#qBody tr').forEach(tr => {
+    const show = val === 'all' || tr.dataset.q === val;
+    tr.style.display = show ? '' : 'none';
+    if (show) count++;
+  });
+  document.getElementById('qCount').textContent = count + '';
+}
+</script>
+</body>
+</html>

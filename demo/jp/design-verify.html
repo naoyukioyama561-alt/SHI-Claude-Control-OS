@@ -1,0 +1,36 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>設計照合 - n8n-AI</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}.card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;margin-bottom:16px}.sg{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-bottom:16px}.sc{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;text-align:center}.sl{font-size:12px;color:#94a3b8}.sv{font-size:28px;font-weight:bold;margin:4px 0}.prog{height:8px;background:#334155;border-radius:99px;overflow:hidden;margin-bottom:16px}.pf{height:100%;border-radius:99px;background:#3b82f6;transition:width 1s ease}table{width:100%;font-size:13px;border-collapse:collapse}th{text-align:left;padding:8px;color:#94a3b8;border-bottom:1px solid #334155}td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}.tag{font-size:11px;padding:2px 8px;border-radius:4px}.tag-ok{background:rgba(34,197,94,.15);color:#4ade80}.tag-ng{background:rgba(239,68,68,.15);color:#f87171}.tag-skip{background:#334155;color:#94a3b8}.tag-run{background:rgba(59,130,246,.15);color:#60a5fa}@media(max-width:768px){nav{display:none}.sg{grid-template-columns:repeat(2,1fr)}}</style></head><body>
+<nav><h1>n8n-AI</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html" class="active">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
+<main>
+<h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:16px">設計照合</h2>
+<div class="sg">
+<div class="sc"><div class="sl">完了</div><div class="sv" style="color:#4ade80">7</div></div>
+<div class="sc"><div class="sl">全体</div><div class="sv" style="color:#fff">10</div></div>
+<div class="sc"><div class="sl">NG</div><div class="sv" style="color:#f87171">0</div></div>
+<div class="sc"><div class="sl">SKIP</div><div class="sv" style="color:#94a3b8">2</div></div>
+<div class="sc"><div class="sl">進捗</div><div class="sv" style="color:#60a5fa">70%</div></div>
+</div>
+<div class="prog"><div class="pf" style="width:70%"></div></div>
+<div class="card">
+<h3 style="color:#fff;font-weight:600;margin-bottom:12px">照合ステップ</h3>
+<table><thead><tr><th>#</th><th>検証項目</th><th>設計書</th><th>結果</th><th>備考</th></tr></thead>
+<tbody>
+<tr><td style="color:#64748b">1</td><td style="color:#fff">A層ディレクトリ構造</td><td style="color:#94a3b8">v2 §5</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">base/daily/cycle確認</td></tr>
+<tr><td style="color:#64748b">2</td><td style="color:#fff">D層実行順序 (D→A)</td><td style="color:#94a3b8">v2 §6.1</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">pg_dump先行確認</td></tr>
+<tr><td style="color:#64748b">3</td><td style="color:#fff">C層10分増分</td><td style="color:#94a3b8">v2 §3.2</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">delta生成確認</td></tr>
+<tr><td style="color:#64748b">4</td><td style="color:#fff">B層A_mirror日次</td><td style="color:#94a3b8">v2 §3.4</td><td><span class="tag tag-run">検証中</span></td><td style="color:#94a3b8">rsync --delete動作確認中</td></tr>
+<tr><td style="color:#64748b">5</td><td style="color:#fff">並走防止(lockファイル)</td><td style="color:#94a3b8">手順書 §0-1</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">PID確認+stale lock検知</td></tr>
+<tr><td style="color:#64748b">6</td><td style="color:#fff">暴走検知(サイズ上限)</td><td style="color:#94a3b8">手順書 §0-6</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">MAX_SIZE_MB超過でABORT</td></tr>
+<tr><td style="color:#64748b">7</td><td style="color:#fff">完了フラグ書込み</td><td style="color:#94a3b8">手順書 §0-3</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">.done_YYYYMMDDファイル</td></tr>
+<tr><td style="color:#64748b">8</td><td style="color:#fff">エラーログ握りつぶし禁止</td><td style="color:#94a3b8">手順書 §0-5</td><td><span class="tag tag-ok">OK</span></td><td style="color:#94a3b8">2>/dev/null排除確認</td></tr>
+<tr><td style="color:#64748b">9</td><td style="color:#fff">E層Windows SSH疎通</td><td style="color:#94a3b8">v2 §3.5</td><td><span class="tag tag-skip">SKIP</span></td><td style="color:#94a3b8">後日対応</td></tr>
+<tr><td style="color:#64748b">10</td><td style="color:#fff">旧データ整理手順</td><td style="color:#94a3b8">v2 §8</td><td><span class="tag tag-skip">SKIP</span></td><td style="color:#94a3b8">Phase 10で実施</td></tr>
+</tbody></table>
+</div>
+</main>
+<script>
+const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
+function anim(){const now=Date.now()/1000;const v=P[Math.floor(now%60/15)%4]((now%15)/15);
+// counts are static: 10 total, 7 OK, 0 NG, 2 SKIP, 1 running = 70%
+requestAnimationFrame(anim);}anim();
+</script></body></html>
