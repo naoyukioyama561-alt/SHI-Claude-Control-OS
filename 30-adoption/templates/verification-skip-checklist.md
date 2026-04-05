@@ -44,4 +44,4 @@ Every completed task must pass all 5 checks. If any check fails, the task is not
 
 ---
 
-> Reference: [10-framework/05-quality-system](../../10-framework/ja/05-quality-system.md)
+> Reference: [10-framework/05-quality-system](../../10-framework/en/05-quality-system.md)

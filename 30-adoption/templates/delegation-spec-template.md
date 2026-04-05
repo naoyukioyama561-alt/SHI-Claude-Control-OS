@@ -41,4 +41,4 @@ Fill in all 12 items before delegating. Missing items lead to scope creep, permi
 
 ---
 
-> Reference: [Achievement No.11: Delegation Optimization](../../20-proof/achievements/ja/11-delegation-optimization.md)
+> Reference: [Achievement No.11: Delegation Optimization](../../20-proof/achievements/en/11-delegation-optimization.md)

@@ -42,4 +42,4 @@ Use this template to name and classify AI failures you observe in your own envir
 
 ---
 
-> Reference: [FM-40 Cheatsheet](../try/fm-40-cheatsheet.md) | [10-framework/01-failure-modes](../../10-framework/ja/01-failure-modes.md)
+> Reference: [FM-40 Cheatsheet](../try/fm-40-cheatsheet.md) | [10-framework/01-failure-modes](../../10-framework/en/01-failure-modes.md)

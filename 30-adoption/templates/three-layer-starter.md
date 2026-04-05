@@ -55,4 +55,4 @@ If full three-layer separation is too complex for your current setup, start with
 
 ---
 
-> Reference: [10-framework/04-three-layer](../../10-framework/ja/04-three-layer.md) | [Achievement No.2: Role Separation](../../20-proof/achievements/ja/02-role-separation.md)
+> Reference: [10-framework/04-three-layer](../../10-framework/en/04-three-layer.md) | [Achievement No.2: Role Separation](../../20-proof/achievements/en/02-role-separation.md)

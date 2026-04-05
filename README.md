@@ -48,7 +48,7 @@ Copy the Control OS into your AI's system prompt. Run the [Before/After test](30
 | ChatGPT (GPT-4o / GPT-5) | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30 sec |
 
-English quick-start is available for all three platforms. Full Japanese versions are also available in [30-adoption/ja/try/](30-adoption/ja/try/).
+English quick-start is available for all three platforms. Full Japanese versions are also available in [30-adoption/ja/try/](30-adoption/ja/try/) (for Japanese readers).
 
 Then check the [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet-en.md) -- 40 failure modes you can observe in any AI assistant today.
 
