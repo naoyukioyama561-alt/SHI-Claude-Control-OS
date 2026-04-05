@@ -108,7 +108,8 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 - [PROVE-IT](PROVE-IT.md) -- verify every claim yourself
 - [Interactive Dashboard](docs/dashboard.html) (Download the file and open in browser, or enable GitHub Pages) -- Timeline + Layer Simulator
 - [SCOPE-MATRIX](SCOPE-MATRIX.md) -- free vs. paid breakdown
-- [GLOSSARY](GLOSSARY.md) -- key terms and definitions
+- [GLOSSARY](GLOSSARY.md)
+- [CONTRIBUTING](CONTRIBUTING.md) — how to report observations and contribute -- key terms and definitions
 - [CITATION](CITATION.cff) -- how to cite this work
 
 > *"In this framework, recurrent AI failures are treated as structural, observable, classifiable, and preventable -- when you approach them structurally."* -- [START-HERE](START-HERE.md)

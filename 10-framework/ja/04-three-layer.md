@@ -163,9 +163,9 @@ SHIアプローチ（SQL外部化＋[redacted]＋外部委譲最適化）で：
 - アルゴリズム挙動可視化のリアルタイムダッシュボード
 
 著者の環境での検出率：
-- EVIDENCE_DROPOUT: 100%
-- GENERIC_RESPONSE: 75%
-- INCOMPLETE_CLAIM: 63%
+- EVIDENCE_DROPOUT: ~100% [単一環境、N未公開]
+- GENERIC_RESPONSE: ~75% [単一環境、N未公開]
+- INCOMPLETE_CLAIM: ~63% [単一環境、N未公開]
 
 直近ログに「いつ・どのタスクで・どのパターンが出たか」全部記録。すべて自動。
 

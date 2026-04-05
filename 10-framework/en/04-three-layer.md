@@ -159,9 +159,9 @@ The system uses:
 - Real-time dashboard for algorithmic behavior visualization
 
 Detection rates [observed, single environment]:
-- EVIDENCE_DROPOUT: 100%
-- GENERIC_RESPONSE: 75%
-- INCOMPLETE_CLAIM: 63%
+- EVIDENCE_DROPOUT: ~100% [single environment, N undisclosed]
+- GENERIC_RESPONSE: ~75% [single environment, N undisclosed]
+- INCOMPLETE_CLAIM: ~63% [single environment, N undisclosed]
 
 Direct logs record "when, on which task, which pattern appeared" — all automatically.
 
