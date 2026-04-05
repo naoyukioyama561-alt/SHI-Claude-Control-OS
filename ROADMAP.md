@@ -34,6 +34,6 @@ This project is actively maintained. Below is the current direction.
 
 - [Open an Observation Report](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md) — share what you observed in your environment
 - [Challenge a claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md) — help us improve the evidence
-- [Start a Discussion](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/discussions) — talk about the methodology, ask questions, propose ideas
+- [Open an Issue](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues) — ask questions, propose ideas, or start a methodology discussion
 
 > Back to [README](README.md)

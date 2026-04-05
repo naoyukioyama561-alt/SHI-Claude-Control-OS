@@ -41,7 +41,7 @@ For per-item scope breakdown, see [achievements/README.md](achievements/README.m
 | **Phase2** | How to observe structure | All files + all images + all 132 FM items + verification logs + source excerpts |
 | **Book** | AI governance via SHI theory | All 7 chapters + reproduction procedures (no concrete keys) |
 
-Phase1 purchasers can upgrade to Phase2 at the price difference at any time.
+Phase1 / Phase2 are listed here only to clarify scope boundaries. The free repository is intended to stand on its own for trial, challenge, and adaptation.
 
 ## Notes
 

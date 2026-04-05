@@ -34,6 +34,6 @@
 
 - [観測レポートを提出](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md) — あなたの環境で観測したことを共有
 - [主張への挑戦](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md) — エビデンスの改善に貢献
-- [Discussionを始める](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/discussions) — 方法論について議論、質問、アイデア提案
+- [Issueを開く](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues) — 質問、アイデア提案、方法論に関する議論を始める
 
 > [README-ja.md](README-ja.md) に戻る
