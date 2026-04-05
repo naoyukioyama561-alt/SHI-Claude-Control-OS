@@ -109,6 +109,6 @@ This repository invites you to:
 
 ## How to Access Paid Tiers
 
-Paid tier availability is being prepared. Details will be announced via this repository.
+This methodology is fully usable with the free tier alone. Paid tiers provide deeper evidence and full implementation details for those who want to go further. Availability will be announced via this repository.
 
 For updates, watch this repository or follow the author on the platforms listed in CITATION.cff.

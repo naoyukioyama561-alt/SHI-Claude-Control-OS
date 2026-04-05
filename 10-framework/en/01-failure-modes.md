@@ -1,5 +1,8 @@
 # Failure Modes Taxonomy (Claude vs ChatGPT)
 
+> **Observation period**: late 2025 – March 2026. All model names refer to versions available during this period.
+
+
 Claude vs ChatGPT — observable failure patterns, using a shared 40-item index.
 
 > **Quick start**: If you want the big picture first, read FM-01 through FM-10. These cover the most commonly observed patterns across all AI models. The remaining FM-11 through FM-40 provide deeper structural coverage.
