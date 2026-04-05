@@ -8,7 +8,7 @@
 Copy the Control OS into your AI's system prompt and run the Before/After test.
 
 → [try/](try/) — Control OS templates for Claude, GPT, and Copilot + FM-40 cheatsheet + Before/After demo
-→ [English quick-start guide](try/README-en.md) — step-by-step instructions for testing the Control OS
+→ [English quick-start guide](try/) — step-by-step instructions for testing the Control OS
 
 </details>
 

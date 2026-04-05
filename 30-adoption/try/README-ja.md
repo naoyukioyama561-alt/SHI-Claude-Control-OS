@@ -1,4 +1,4 @@
-**English readers: see [README-en.md](README-en.md)**
+**English readers: see [README.md (English)](README.md)**
 
 # try/ -- まず自分のAIで試す
 
