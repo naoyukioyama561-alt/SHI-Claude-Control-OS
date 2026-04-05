@@ -20,7 +20,7 @@
 - The majority of AI operations **do not require maximum-capability models** — routine tasks run equally well (or better) on lower-tier models
 - Structured analysis reveals that MAX-tier dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
 - SQL externalization alone achieves significant token reduction by moving large data structures out of context
-- The 20x efficiency gain (observed in the author's environment) corresponds to reduced computational cost and power consumption
+- The 20x figure is a design target corresponds to reduced computational cost and power consumption
 
 ## Key Insight
 
