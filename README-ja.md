@@ -17,6 +17,8 @@
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
 > **無料で得られるもの**: 40の失敗モード分類、3つのAIモデル用Control OSテンプレート、Before/Afterデモ、インタラクティブダッシュボード、検証プロトコル。
 > **無料版だけで試行・検証・反証が完結します。** インストール不要——コピーして貼り付けてテストするだけ。
+>
+> **[→ 動いている形を見る: インタラクティブデモ（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
 
 ---
 

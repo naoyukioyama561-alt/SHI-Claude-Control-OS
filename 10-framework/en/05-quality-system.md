@@ -110,7 +110,7 @@ Every completion report must include:
 
 ## Problem-Layer Mapping
 
-| Problem | What it guarantees | Detection method |
+| Problem | What it checks | Detection method |
 |---------|-------------------|-----------------|
 | #1 No skipping verification | Did you call the API? | Hook block + raw_output verification |
 | #2 Read what needs reading | Did you read the file? | Context read record + quote matching |
@@ -119,7 +119,7 @@ Every completion report must include:
 | #5 Action, not words | Did you take action? | action_count + P-17 detection |
 | #6 Deep thinking | Is there substance? | Jaccard coefficient + concrete references + council auto-review |
 
-Problems #1-5 guarantee form. Problem #6 guarantees meaning. All 6 must pass for "deep work."
+Problems #1-5 check for form. Problem #6 checks for meaning. All 6 must pass for "deep work."
 
 ---
 

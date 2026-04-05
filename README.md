@@ -17,6 +17,8 @@ This repository exists for that moment — when you realize AI is useful but sti
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
 > **What you get free**: 40 classified failure modes, Control OS templates for 3 AI models, a Before/After demo, an interactive dashboard, and a verification protocol.
 > **Free tier is sufficient to try, verify, and challenge the methodology.** No installation required — copy, paste, and test.
+>
+> **[→ See it live: Interactive Demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
 
 ---
 

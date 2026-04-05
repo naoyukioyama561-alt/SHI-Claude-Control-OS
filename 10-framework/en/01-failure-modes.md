@@ -256,7 +256,7 @@ In our observation, these represent **documented cases of an AI structurally rec
    Other AI research (Mem0, Zep, LangMem, Letta, etc.) lists only dozens of general Failure Modes. The 132-item version has each event individually structured with: specific case, root cause, prevention measure, and effectiveness verification. P-74 through P-80 are, to our observation, cases with no publicly documented precedent known to the authors of AI structurally recording its own meta-reflection.
 
 2. **Evidence of "knowledge → behavioral internalization"**
-   The evolution from 40 to 132 items is itself the proof. CC moved from "bulk-avoidance templates" to **self-dissecting individual events → verbalizing causes → spontaneously designing prevention measures**. To our observation, this demonstrates "self-improving AI" at a verified level.
+   The evolution from 40 to 132 items is itself the proof. CC moved from "bulk-avoidance templates" to **self-dissecting individual events → verbalizing causes → spontaneously designing prevention measures**. To our observation [observed: single environment, single operator], this behavior pattern is operationally consistent with what is commonly called "self-improving AI" — observed in practice, not externally benchmarked.
 
 3. **Impact at practical / enterprise / research levels**
    - **Individual/Enterprise**: A "self-healing OS" that does not repeat the same mistake. Token consumption also dramatically reduced.
