@@ -47,7 +47,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 | Your AI | Control OS template | Time to test |
 |---------|-------------------|--------------|
 | Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude-en.md) | 30 sec |
-| ChatGPT (GPT-4o / GPT-5) | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
+| ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30 sec |
 
 Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)

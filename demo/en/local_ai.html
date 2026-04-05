@@ -7,15 +7,15 @@
 <main>
 <h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:16px">Local AI</h2>
 <div class="sg">
-<div class="sc"><div class="sl">Ollamamodels</div><div class="sv" style="color:#4ade80">3</div><div class="ss">gemma2, llama3.1, codellama</div></div>
+<div class="sc"><div class="sl">Ollama Models</div><div class="sv" style="color:#4ade80">3</div><div class="ss">gemma2, llama3.1, codellama</div></div>
 <div class="sc"><div class="sl">Inference Response</div><div class="sv" style="color:#60a5fa" id="v-inference">847</div><div class="ss">chars (recent)</div></div>
-<div class="sc"><div class="sl">QdrantPoints</div><div class="sv" style="color:#8b5cf6" id="v-qdrant">12,458</div><div class="ss">8Collection</div></div>
+<div class="sc"><div class="sl">Qdrant Points</div><div class="sv" style="color:#8b5cf6" id="v-qdrant">12,458</div><div class="ss">8 collections</div></div>
 <div class="sc"><div class="sl">Council Rounds</div><div class="sv" style="color:#22d3ee" id="v-council">48</div><div class="ss">Agreement <span id="v-agree">87.3</span>%</div></div>
 </div>
 
 <div class="card">
-<h3 style="color:#fff;font-weight:600;margin-bottom:12px">OllamamodelsStatus</h3>
-<table><thead><tr><th>models</th><th>Size</th><th>Status</th><th>Last Inference</th><th>Adoption Rate</th></tr></thead>
+<h3 style="color:#fff;font-weight:600;margin-bottom:12px">Ollama ModelsStatus</h3>
+<table><thead><tr><th>Model</th><th>Size</th><th>Status</th><th>Last Inference</th><th>Adoption Rate</th></tr></thead>
 <tbody>
 <tr><td style="color:#fff;font-family:monospace">gemma2:9b</td><td>5.4GB</td><td><span class="dot g"></span> loaded</td><td id="v-gem-t">12:34:56</td><td><div style="display:flex;align-items:center;gap:8px"><div class="bar" style="width:120px"><div class="bf" style="width:65%;background:#8b5cf6" id="v-gem-bar"></div></div><span id="v-gem-pct">65%</span></div></td></tr>
 <tr><td style="color:#fff;font-family:monospace">llama3.1:8b</td><td>4.7GB</td><td><span class="dot g"></span> loaded</td><td id="v-llm-t">12:30:12</td><td><div style="display:flex;align-items:center;gap:8px"><div class="bar" style="width:120px"><div class="bf" style="width:25%;background:#3b82f6" id="v-llm-bar"></div></div><span id="v-llm-pct">25%</span></div></td></tr>
@@ -37,16 +37,16 @@
 <div class="card">
 <h3 style="color:#fff;font-weight:600;margin-bottom:12px">L1 Learning Cache</h3>
 <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
-<div class="sc"><div class="sl">cache count</div><div class="sv" style="color:#4ade80;font-size:22px" id="v-l1c">156</div></div>
-<div class="sc"><div class="sl">Patternscount</div><div class="sv" style="color:#facc15;font-size:22px" id="v-l1p">34</div></div>
+<div class="sc"><div class="sl">Cache Count</div><div class="sv" style="color:#4ade80;font-size:22px" id="v-l1c">156</div></div>
+<div class="sc"><div class="sl">Pattern count</div><div class="sv" style="color:#facc15;font-size:22px" id="v-l1p">34</div></div>
 <div class="sc"><div class="sl">Hit Rate</div><div class="sv" style="color:#60a5fa;font-size:22px" id="v-l1h">78%</div></div>
 </div>
 </div>
 </main>
 <script>
-const councilTopics=['routingclassificationaccuracy improvement','Errorshandling policy','backupfrequency optimization','notificationthreshold adjustment','Patternsdetected sensitivitysettings','inferencemodelsselection criteria','Quality CheckAutoscope','Knowledgestructure policy'];
+const councilTopics=['Routing classification accuracy improvement','Error handling policy','Backup frequency optimization','Notification threshold adjustment','Pattern detection sensitivity settings','Inference model selection criteria','Quality check auto-scope','Knowledge structure policy'];
 const models=['gemma2','llama3.1','codellama'];
-const assistMsgs=['delegation spec checkDone: 12/12itemsOK','QualityPatternsP-03detected: Scope reduction sign','UserdirectivesU-049 to [context-store]Register','reflectiontemplate generatedDone','health_monitorthresholdexceededWarning notificationto queueadded','routing_rules.jsonRefreshsuggestion generated','[behavior-store]fromweeklygenerating summary','Qdrantindexintegrity checkDone'];
+const assistMsgs=['Delegation spec check done: 12/12 items OK','Quality pattern P-03 detected: Scope reduction sign','User directive U-049 registered to [context-store]','Reflection template generated','health_monitor threshold exceeded, warning notification added to queue','routing_rules.json refresh suggestion generated','Generating weekly summary from [behavior-store]','Qdrant index integrity check done'];
 function rnd(a,b){return Math.floor(Math.random()*(b-a+1))+a}
 function initCouncil(){const b=document.getElementById('councilBody');for(let i=0;i<6;i++){const h=12-i;const m=rnd(0,59);const agree=rnd(70,98);const tr=document.createElement('tr');tr.innerHTML=`<td style="color:#64748b">#${48-i}</td><td style="color:#fff">${councilTopics[i%councilTopics.length]}</td><td style="color:#c084fc;font-family:monospace">${models[rnd(0,2)]}</td><td><span style="color:${agree>85?'#4ade80':'#facc15'}">${agree}%</span></td><td style="color:#64748b">${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}</td>`;b.appendChild(tr);}}
 function initAssist(){const d=document.getElementById('assistLogs');for(let i=0;i<8;i++){const h=12-Math.floor(i/2);const m=rnd(0,59);const el=document.createElement('div');el.style.cssText='padding:6px 8px;border-bottom:1px solid rgba(51,65,85,.3);display:flex;gap:8px';el.innerHTML=`<span style="color:#64748b;width:48px;flex-shrink:0">${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}</span><span style="color:#cbd5e1">${assistMsgs[i]}</span>`;d.appendChild(el);}}

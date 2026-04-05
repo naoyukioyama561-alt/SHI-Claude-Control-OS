@@ -12,26 +12,26 @@
 <div class="card">
 <h3 style="color:#fff;font-weight:600;margin-bottom:12px">Detection Log (Real-time)</h3>
 <div id="logArea" style="max-height:500px;overflow-y:auto">
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:34:56</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-03</span><span style="color:#fb923c;width:100px;flex-shrink:0">critical</span><span style="color:#fff">Scope reduction detected: "All files" directive but only5files processed</span></div>
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:30:12</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-29</span><span style="color:#fb923c;width:100px;flex-shrink:0">high</span><span style="color:#fff">No backup before file change: backup_all.shduring modification</span></div>
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:28:45</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-73</span><span style="color:#fb923c;width:100px;flex-shrink:0">critical</span><span style="color:#fff">00_cc_personality.mdReadskip detected</span></div>
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:15:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 169/172patterns clear</span></div>
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:00:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 170/172patterns clear</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:34:56</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-03</span><span style="color:#fb923c;width:100px;flex-shrink:0">critical</span><span style="color:#fff">Scope reduction detected: "All files" directive but only 5 files processed</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:30:12</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-29</span><span style="color:#fb923c;width:100px;flex-shrink:0">high</span><span style="color:#fff">No backup before file change: backup_all.sh modified without backup</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:28:45</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-73</span><span style="color:#fb923c;width:100px;flex-shrink:0">critical</span><span style="color:#fff">00_cc_personality.md read skip detected</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:15:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 169/172 patterns clear</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">12:00:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 170/172 patterns clear</span></div>
 <div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">11:45:00</span><span class="tag tag-d" style="width:50px;text-align:center;flex-shrink:0">P-75</span><span style="color:#fb923c;width:100px;flex-shrink:0">high</span><span style="color:#fff">Environment verification skip: Possibly answered from general knowledge</span></div>
-<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">11:30:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 171/172patterns clear</span></div>
+<div class="log"><span style="color:#64748b;width:80px;flex-shrink:0">11:30:00</span><span class="tag tag-ok" style="width:50px;text-align:center;flex-shrink:0">PASS</span><span style="color:#4ade80;width:100px;flex-shrink:0">-</span><span style="color:#94a3b8">Periodic check done: 171/172 patterns clear</span></div>
 </div>
 </div>
 </main>
 <script>
 const msgs=[
   {p:'P-03',s:'critical',m:'Scope reduction sign: Files outside list omitted'},
-  {p:'PASS',s:'-',m:'Periodic check done: 170/172patterns clear'},
-  {p:'P-29',s:'high',m:'No backup taken: config.jsonRefreshprev'},
-  {p:'PASS',s:'-',m:'Periodic check done: 171/172patterns clear'},
-  {p:'P-73',s:'critical',m:'§0Read formalization detected'},
-  {p:'PASS',s:'-',m:'Periodic check done: 172/172patterns clear'},
+  {p:'PASS',s:'-',m:'Periodic check done: 170/172 patterns clear'},
+  {p:'P-29',s:'high',m:'No backup taken: config.json modified without prior backup'},
+  {p:'PASS',s:'-',m:'Periodic check done: 171/172 patterns clear'},
+  {p:'P-73',s:'critical',m:'Section 0 read formalization detected'},
+  {p:'PASS',s:'-',m:'Periodic check done: 172/172 patterns clear'},
   {p:'P-75',s:'high',m:'Factual answer without env verification'},
-  {p:'PASS',s:'-',m:'Periodic check done: 169/172patterns clear'},
+  {p:'PASS',s:'-',m:'Periodic check done: 169/172 patterns clear'},
 ];
 let idx=0;
 setInterval(()=>{

@@ -64,14 +64,14 @@ main{flex:1;display:flex;flex-direction:column;padding:24px;overflow:hidden}
 
 <div class="chat-area" id="chatArea">
 <!-- Demo messages -->
-<div class="msg user"><div class="bubble user">storagepage layout and addGrowth Trendgrowth charts</div></div>
+<div class="msg user"><div class="bubble user">Update storage page layout and add Growth Trend charts</div></div>
 <div class="msg assistant">
 <div class="bubble assistant">
 <strong>Task Accepted</strong><br><br>
-storagepage with the following changes：<br>
-<code>storage/page.tsx</code>  Growth Trendsection added<br>
-- DB Growth Forecast（90d/365d）<br>
-- By Directorygrowth rateTOP10<br><br>
+Updating storage page with the following changes:<br>
+<code>storage/page.tsx</code> Growth Trend section added<br>
+- DB Growth Forecast (90d/365d)<br>
+- Growth rate TOP 10 by directory<br><br>
 Running...
 <div class="meta">
 <span>task: exec-2026040512</span>
@@ -80,7 +80,7 @@ Running...
 <a href="#">Progress Tab</a>
 </div>
 <div class="intent-bar">
-<span>classification(rule_match)incorrect？</span>
+<span>Classification (rule_match) incorrect?</span>
 <button class="intent-btn" onclick="correctIntent(this,'status')">status</button>
 <button class="intent-btn" onclick="correctIntent(this,'followup')">followup</button>
 <button class="intent-btn" onclick="correctIntent(this,'chat')">chat</button>
@@ -91,31 +91,31 @@ Running...
 <div class="msg assistant">
 <div class="bubble success">
 <strong>Task Completed</strong> (exec-2026040512)<br><br>
-<code>storage/page.tsx</code>  Refresh done：<br>
-- Growth Trendsection added（DB Growth Forecast + directoryTOP10）<br>
-- <code>/api/storage/growth</code> endpointPointsadded<br>
-- 1Duration intervalAutoRefreshsettings<br><br>
+<code>storage/page.tsx</code> refresh done:<br>
+- Growth Trend section added (DB Growth Forecast + directory TOP 10)<br>
+- <code>/api/storage/growth</code> endpoint added<br>
+- 1-hour interval auto-refresh configured<br><br>
 ---<br>
 <strong>Follow-up actions required:</strong><br>
 - Dashboard rebuild: <code>npm run build</code>
 <div class="action-area">
 <p>Follow-up action confirmation:</p>
 <div class="action-row">
-<button class="action-btn" onclick="execAction(this)">Dashboardrebuild</button>
-<span style="font-size:12px;color:#94a3b8">npm run build  execution</span>
+<button class="action-btn" onclick="execAction(this)">Dashboard rebuild</button>
+<span style="font-size:12px;color:#94a3b8">npm run build execution</span>
 </div>
 </div>
 </div>
 </div>
 
-<div class="msg user"><div class="bubble user">Status?？</div></div>
+<div class="msg user"><div class="bubble user">Status?</div></div>
 <div class="msg assistant">
 <div class="bubble assistant">
 <strong>Current Status:</strong><br><br>
-&#x2705; storagepagefix - <strong>Done</strong><br>
-&#x1F7E1; Dashboardrebuild - <strong>Awaiting follow-up</strong><br><br>
+&#x2705; Storage page fix - <strong>Done</strong><br>
+&#x1F7E1; Dashboard rebuild - <strong>Awaiting follow-up</strong><br><br>
 Active Tasks: 1<br>
-Today execution: 8 / Errors: 0
+Today's executions: 8 / Errors: 0
 <div class="meta">
 <span>task: status-check</span>
 <span>route: status</span>
@@ -133,10 +133,10 @@ Today execution: 8 / Errors: 0
 
 <script>
 const demoResponses = [
-  { input: /health|health/i, response: '**Health CheckResult:**\n\n🟢 18/21 Normal\n🔴 1Error: Qdrant-reindex\n🟡 2Warning: Swap, Tunnel\n\nLast Check: 12:34', route: 'status' },
-  { input: /backup|backup/i, response: '**backupstatus:**\n\n- A-Layer: Normal（Last 04:00）\n- C-Layer: Normal（10min interval, Last 12:30）\n- D-Layer: pg_dumpDone（161MB）\n- B-Layer: mirrorRefresh done\n\nExternal SSDRemaining: 661GB', route: 'status' },
-  { input: /Errors|error/i, response: '**recent Errors:**\n\n1. Qdrant-reindexStopped (12:15)\n2. OllamaInference timeout (yesterday 15:22)\n\nAuto Recovery: 1/2success\nError Rate: 0.96%', route: 'status' },
-  { input: /.+/, response: '**Task Accepted** (exec-demo)\n\nContent analyzed,, appropriateprocess execution.\nRunning...', route: 'execute' },
+  { input: /health|health/i, response: '**Health Check Result:**\n\n🟢 18/21 Normal\n🔴 1 Error: Qdrant-reindex\n🟡 2 Warnings: Swap, Tunnel\n\nLast Check: 12:34', route: 'status' },
+  { input: /backup|backup/i, response: '**Backup Status:**\n\n- A-Layer: Normal (Last 04:00)\n- C-Layer: Normal (10min interval, Last 12:30)\n- D-Layer: pg_dump done (161MB)\n- B-Layer: Mirror refresh done\n\nExternal SSD remaining: 661GB', route: 'status' },
+  { input: /Errors|error/i, response: '**Recent Errors:**\n\n1. Qdrant-reindex stopped (12:15)\n2. Ollama inference timeout (yesterday 15:22)\n\nAuto Recovery: 1/2 successful\nError Rate: 0.96%', route: 'status' },
+  { input: /.+/, response: '**Task Accepted** (exec-demo)\n\nContent analyzed, executing appropriate process.\nRunning...', route: 'execute' },
 ];
 
 function sendDemo() {
@@ -181,7 +181,7 @@ function handleKey(e) {
 }
 
 function resetChat() {
-  document.getElementById('chatArea').innerHTML = '<div class="placeholder"><p>Enter your instruction</p><p class="hint">e.g. "storagepage layout change ", "new APIendpointPoints added "</p><p class="hint">statusconfirmed:"Status?？", "previous Taskhow did it go？"</p></div>';
+  document.getElementById('chatArea').innerHTML = '<div class="placeholder"><p>Enter your instruction</p><p class="hint">e.g. "Change storage page layout", "Add new API endpoint"</p><p class="hint">Check status: "Status?", "How did the previous task go?"</p></div>';
 }
 
 function toggleMic() {
@@ -201,7 +201,7 @@ function execAction(btn) {
     const area = document.getElementById('chatArea');
     const div = document.createElement('div');
     div.className = 'msg assistant';
-    div.innerHTML = '<div class="bubble success"><strong>Dashboardrebuild</strong>  Done done.</div>';
+    div.innerHTML = '<div class="bubble success"><strong>Dashboard rebuild</strong> completed.</div>';
     area.appendChild(div);
     area.scrollTop = area.scrollHeight;
   }, 2000);

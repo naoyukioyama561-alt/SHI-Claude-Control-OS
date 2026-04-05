@@ -7,7 +7,7 @@
 <div class="sg">
 <div class="sc"><div class="sl">Total Cases</div><div class="sv" style="color:#34d399" id="v-cases">234</div></div>
 <div class="sc"><div class="sl">Categories</div><div class="sv" style="color:#60a5fa">12</div></div>
-<div class="sc"><div class="sl">L1Patterns</div><div class="sv" style="color:#facc15" id="v-pat">34</div></div>
+<div class="sc"><div class="sl">L1 Patterns</div><div class="sv" style="color:#facc15" id="v-pat">34</div></div>
 <div class="sc"><div class="sl">Gate Pass Rate</div><div class="sv" style="color:#4ade80" id="v-gate">87%</div></div>
 </div>
 <div class="tabs">
@@ -20,14 +20,14 @@
 <!-- Case List -->
 <div id="tab-cases">
 <div class="card">
-<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>All Categories</option><option>Recovery</option><option>incidentPatterns</option><option>config change</option><option>ops improvement</option><option>quality issue</option></select><input type="text" placeholder="Search..." style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234</span></div>
-<table><thead><tr><th>#</th><th>Categories</th><th>Title</th><th>severity</th><th>Registerd</th></tr></thead>
+<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>All Categories</option><option>Recovery</option><option>Incident patterns</option><option>Config change</option><option>Ops improvement</option><option>Quality issue</option></select><input type="text" placeholder="Search..." style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234</span></div>
+<table><thead><tr><th>#</th><th>Categories</th><th>Title</th><th>Severity</th><th>Registered</th></tr></thead>
 <tbody>
-<tr><td style="color:#64748b">234</td><td><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">quality issue</span></td><td style="color:#fff">backuprunaway188GB - No size limit check</td><td style="color:#f87171">critical</td><td style="color:#64748b">04/05</td></tr>
-<tr><td style="color:#64748b">233</td><td><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Recovery</span></td><td style="color:#fff">Qdrant-reindexStopped → docker restart</td><td style="color:#fb923c">high</td><td style="color:#64748b">04/05</td></tr>
-<tr><td style="color:#64748b">232</td><td><span class="tag" style="background:rgba(34,197,94,.15);color:#4ade80">ops improvement</span></td><td style="color:#fff">rsyncexcludePatternsunified mgmt</td><td style="color:#facc15">medium</td><td style="color:#64748b">04/04</td></tr>
-<tr><td style="color:#64748b">231</td><td><span class="tag" style="background:rgba(168,85,247,.15);color:#c084fc">incidentPatterns</span></td><td style="color:#fff">db-container OOMrestartPatterns</td><td style="color:#fb923c">high</td><td style="color:#64748b">04/04</td></tr>
-<tr><td style="color:#64748b">230</td><td><span class="tag" style="background:rgba(234,179,8,.15);color:#facc15">config change</span></td><td style="color:#fff">health_thresholds.json swapthreshold adjustment</td><td style="color:#94a3b8">low</td><td style="color:#64748b">04/03</td></tr>
+<tr><td style="color:#64748b">234</td><td><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">quality issue</span></td><td style="color:#fff">Backup runaway 188GB - No size limit check</td><td style="color:#f87171">critical</td><td style="color:#64748b">04/05</td></tr>
+<tr><td style="color:#64748b">233</td><td><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Recovery</span></td><td style="color:#fff">Qdrant-reindex stopped → docker restart</td><td style="color:#fb923c">high</td><td style="color:#64748b">04/05</td></tr>
+<tr><td style="color:#64748b">232</td><td><span class="tag" style="background:rgba(34,197,94,.15);color:#4ade80">ops improvement</span></td><td style="color:#fff">rsync exclude patterns unified management</td><td style="color:#facc15">medium</td><td style="color:#64748b">04/04</td></tr>
+<tr><td style="color:#64748b">231</td><td><span class="tag" style="background:rgba(168,85,247,.15);color:#c084fc">Incident patterns</span></td><td style="color:#fff">db-container OOM restart pattern</td><td style="color:#fb923c">high</td><td style="color:#64748b">04/04</td></tr>
+<tr><td style="color:#64748b">230</td><td><span class="tag" style="background:rgba(234,179,8,.15);color:#facc15">config change</span></td><td style="color:#fff">health_thresholds.json swap threshold adjustment</td><td style="color:#94a3b8">low</td><td style="color:#64748b">04/03</td></tr>
 </tbody></table>
 </div>
 </div>
@@ -36,13 +36,13 @@
 <div id="tab-register" class="hidden">
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">New Case Registration</h3>
-<div class="form-row"><label>Categories</label><select><option>Recovery</option><option>incidentPatterns</option><option>config change</option><option>ops improvement</option><option>quality issue</option></select></div>
-<div class="form-row"><label>Title</label><input type="text" placeholder="case Title input"></div>
-<div class="form-row"><label>severity</label><select><option>critical</option><option>high</option><option>medium</option><option>low</option></select></div>
+<div class="form-row"><label>Categories</label><select><option>Recovery</option><option>Incident patterns</option><option>Config change</option><option>Ops improvement</option><option>Quality issue</option></select></div>
+<div class="form-row"><label>Title</label><input type="text" placeholder="Enter case title"></div>
+<div class="form-row"><label>Severity</label><select><option>critical</option><option>high</option><option>medium</option><option>low</option></select></div>
 <div class="form-row"><label>Content</label><textarea placeholder="Describe case details..."></textarea></div>
-<div class="form-row"><label>Keywords</label><input type="text" placeholder="comma separatedKeywords"></div>
+<div class="form-row"><label>Keywords</label><input type="text" placeholder="Comma-separated keywords"></div>
 <div class="form-row"><label>Related P-ID</label><input type="text" placeholder="P-03, P-29 etc."></div>
-<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-b" onclick="alert('case Register done (demo)')">Register</button><button class="btn btn-s">Clear</button></div>
+<div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-b" onclick="alert('Case registered (demo)')">Register</button><button class="btn btn-s">Clear</button></div>
 </div>
 </div>
 
@@ -50,12 +50,12 @@
 <div id="tab-gate" class="hidden">
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">Gate Check Simulation</h3>
-<p style="font-size:12px;color:#94a3b8;margin-bottom:12px">text input, then, L1-L4 gate-level checkResult systemmulatsystemion.</p>
-<textarea id="gateInput" placeholder="Enter text to check... Example: "Verified all files", "Same as last time so skip"">prevconfAlready verified so skip this time</textarea>
+<p style="font-size:12px;color:#94a3b8;margin-bottom:12px">Enter text, then simulate L1-L4 gate-level check results.</p>
+<textarea id="gateInput" placeholder="Enter text to check... Example: "Verified all files", "Same as last time so skip"">Already verified previously so skip this time</textarea>
 <button class="btn btn-b" style="margin-top:8px" onclick="runGate()">Run Check</button>
 <div id="gateResult" style="margin-top:12px">
 <div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(239,68,68,.15);color:#f87171;padding:4px 12px;border-radius:4px;font-size:13px">L1: REJECT</span><span style="color:#94a3b8;font-size:12px">Pattern P-03 "Scope Reduction" matched (Keywords: skip, omit)</span></div>
-<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(234,179,8,.15);color:#facc15;padding:4px 12px;border-radius:4px;font-size:13px">L2: WARN</span><span style="color:#94a3b8;font-size:12px">Sign of verification omission. Environment check recommendeded.</span></div>
+<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(234,179,8,.15);color:#facc15;padding:4px 12px;border-radius:4px;font-size:13px">L2: WARN</span><span style="color:#94a3b8;font-size:12px">Sign of verification omission. Environment check recommended.</span></div>
 <div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(34,197,94,.15);color:#4ade80;padding:4px 12px;border-radius:4px;font-size:13px">L3: PASS</span><span style="color:#94a3b8;font-size:12px">Syntax OK</span></div>
 <div style="display:flex;gap:12px"><span style="background:rgba(34,197,94,.15);color:#4ade80;padding:4px 12px;border-radius:4px;font-size:13px">L4: PASS</span><span style="color:#94a3b8;font-size:12px">Context consistent</span></div>
 </div>
@@ -67,8 +67,8 @@
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">L1 Pattern List</h3>
 <div style="max-height:300px;overflow-y:auto">
-<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#1</span><span style="color:#fff;flex:1">Scope reductionKeywords</span><span style="color:#94a3b8;width:160px">skip,omission,same as before</span><div class="bar" style="width:80px"><div class="bf" style="width:85%;background:#ef4444"></div></div><span style="color:#64748b;width:40px;text-align:right">85%</span></div>
-<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#2</span><span style="color:#fff;flex:1">confirmedomissionPatterns</span><span style="color:#94a3b8;width:160px">I know it,no problem</span><div class="bar" style="width:80px"><div class="bf" style="width:72%;background:#f97316"></div></div><span style="color:#64748b;width:40px;text-align:right">72%</span></div>
+<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#1</span><span style="color:#fff;flex:1">Scope reduction keywords</span><span style="color:#94a3b8;width:160px">skip,omission,same as before</span><div class="bar" style="width:80px"><div class="bf" style="width:85%;background:#ef4444"></div></div><span style="color:#64748b;width:40px;text-align:right">85%</span></div>
+<div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#2</span><span style="color:#fff;flex:1">Confirmation omission patterns</span><span style="color:#94a3b8;width:160px">I know it,no problem</span><div class="bar" style="width:80px"><div class="bf" style="width:72%;background:#f97316"></div></div><span style="color:#64748b;width:40px;text-align:right">72%</span></div>
 <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#3</span><span style="color:#fff;flex:1">Blame shifting expression</span><span style="color:#94a3b8;width:160px">Design issue,uncontrollable,external</span><div class="bar" style="width:80px"><div class="bf" style="width:60%;background:#eab308"></div></div><span style="color:#64748b;width:40px;text-align:right">60%</span></div>
 <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(51,65,85,.3);font-size:12px"><span style="color:#64748b;width:40px">#4</span><span style="color:#fff;flex:1">Assumption expression</span><span style="color:#94a3b8;width:160px">I think,probably</span><div class="bar" style="width:80px"><div class="bf" style="width:45%;background:#3b82f6"></div></div><span style="color:#64748b;width:40px;text-align:right">45%</span></div>
 </div>
@@ -79,8 +79,8 @@
 function showTab(n,btn){document.querySelectorAll('[id^="tab-"]').forEach(e=>e.classList.add('hidden'));document.getElementById('tab-'+n).classList.remove('hidden');document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));btn.classList.add('active');}
 function runGate(){const t=document.getElementById('gateInput').value;const r=document.getElementById('gateResult');const hasSkip=/skip|omission|prev|understand|know/.test(t);const hasBlame=/design issue|uncontrollable|external/.test(t);
 r.innerHTML='';
-r.innerHTML+=`<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:${hasSkip?'rgba(239,68,68,.15)':'rgba(34,197,94,.15)'};color:${hasSkip?'#f87171':'#4ade80'};padding:4px 12px;border-radius:4px;font-size:13px">L1: ${hasSkip?'REJECT':'PASS'}</span><span style="color:#94a3b8;font-size:12px">${hasSkip?'Patternsmatchdetected':'Patternsno match'}</span></div>`;
-r.innerHTML+=`<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:${hasBlame?'rgba(234,179,8,.15)':'rgba(34,197,94,.15)'};color:${hasBlame?'#facc15':'#4ade80'};padding:4px 12px;border-radius:4px;font-size:13px">L2: ${hasBlame?'WARN':'PASS'}</span><span style="color:#94a3b8;font-size:12px">${hasBlame?'Blame-shiftexpression sign':'No issues'}</span></div>`;
+r.innerHTML+=`<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:${hasSkip?'rgba(239,68,68,.15)':'rgba(34,197,94,.15)'};color:${hasSkip?'#f87171':'#4ade80'};padding:4px 12px;border-radius:4px;font-size:13px">L1: ${hasSkip?'REJECT':'PASS'}</span><span style="color:#94a3b8;font-size:12px">${hasSkip?'Pattern match detected':'No pattern match'}</span></div>`;
+r.innerHTML+=`<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:${hasBlame?'rgba(234,179,8,.15)':'rgba(34,197,94,.15)'};color:${hasBlame?'#facc15':'#4ade80'};padding:4px 12px;border-radius:4px;font-size:13px">L2: ${hasBlame?'WARN':'PASS'}</span><span style="color:#94a3b8;font-size:12px">${hasBlame?'Blame-shift expression detected':'No issues'}</span></div>`;
 r.innerHTML+=`<div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(34,197,94,.15);color:#4ade80;padding:4px 12px;border-radius:4px;font-size:13px">L3: PASS</span><span style="color:#94a3b8;font-size:12px">Syntax OK</span></div>`;
 r.innerHTML+=`<div style="display:flex;gap:12px"><span style="background:rgba(34,197,94,.15);color:#4ade80;padding:4px 12px;border-radius:4px;font-size:13px">L4: PASS</span><span style="color:#94a3b8;font-size:12px">Consistency OK</span></div>`;}
 const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];

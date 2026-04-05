@@ -4,16 +4,16 @@
 <nav><h1>SHI-Control-OS</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html" class="active">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
 <main>
 <h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:4px">User Judgment</h2>
-<p style="color:#94a3b8;font-size:13px;margin-bottom:16px">AI AutoQueue for items requiring user confirmation <span class="pulse" style="color:#22d3ee" id="v-cnt">2 pending</span></p>
+<p style="color:#94a3b8;font-size:13px;margin-bottom:16px">AI auto-queue for items requiring user confirmation <span class="pulse" style="color:#22d3ee" id="v-cnt">2 pending</span></p>
 
 <div class="jcard" id="j1">
 <h4>Design Decision: Final confirmation of backup design</h4>
-<p>implementationSpecv2 layered design（A-E） and implementation safety measures6 items into procedure docCreated. Proceed with these policies?？</p>
+<p>Implementation spec v2 layered design (A-E) and 6 implementation safety measures incorporated into procedure doc. Proceed with these policies?</p>
 <p style="color:#fff;font-size:12px;background:rgba(15,23,42,.5);padding:8px;border-radius:4px;font-family:monospace">
 - D→A→B→E  execution order<br>
-- Independent layer execution（set -euo not used）<br>
-- 14-day cycle + Daily incremental<br>
-- C-Layer: Dailybase + 10mindelta
+- Independent layer execution (set -euo not used)<br>
+- 14-day cycle + daily incremental<br>
+- C-Layer: Daily base + 10min delta
 </p>
 <div class="btn-row">
 <button class="btn btn-g" onclick="approve(this,'j1')">Approve</button>
@@ -23,9 +23,9 @@
 </div>
 
 <div class="jcard" id="j2">
-<h4>Privilege Decision: Supervisor AgentadminPrivilege continuation</h4>
-<p>privilege_manager Keywords"MacMini not implemented" detected,cc_supervisor AdminPrivilege Grant done.this Privilege. Continue?？</p>
-<p style="font-size:12px;color:#64748b">GrantTime: 2026-04-05 01:30 | elapsed: 11Duration | Timeout: 30min (exceeded）</p>
+<h4>Privilege Decision: Supervisor Agent admin privilege continuation</h4>
+<p>privilege_manager detected keyword "MacMini not implemented", cc_supervisor admin privilege granted. Continue this privilege?</p>
+<p style="font-size:12px;color:#64748b">Grant time: 2026-04-05 01:30 | Elapsed: 11h | Timeout: 30min (exceeded)</p>
 <div class="btn-row">
 <button class="btn btn-g" onclick="approve(this,'j2')">Continue</button>
 <button class="btn btn-r" onclick="reject(this,'j2')">Revoke</button>
@@ -34,9 +34,9 @@
 
 <div class="card" style="opacity:.6">
 <h3 style="color:#94a3b8;font-weight:600;margin-bottom:8px;font-size:14px">Processed (Recent)</h3>
-<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">✅ routing_rules.jsonnew rulesadded → Approve (04/04 18:00)</div>
-<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">❌ QdrantCollectionrebuild → Reject (04/04 12:00)</div>
-<div style="font-size:12px;color:#64748b;padding:4px 0">✅ f1improvement proposal3 apply → Approve (04/03 10:00)</div>
+<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">✅ routing_rules.json new rules added → Approve (04/04 18:00)</div>
+<div style="font-size:12px;color:#64748b;padding:4px 0;border-bottom:1px solid rgba(51,65,85,.3)">❌ Qdrant collection rebuild → Reject (04/04 12:00)</div>
+<div style="font-size:12px;color:#64748b;padding:4px 0">✅ f1 improvement proposal #3 apply → Approve (04/03 10:00)</div>
 </div>
 </main>
 <script>

@@ -47,7 +47,7 @@
 | あなたのAI | Control OSテンプレート | テスト所要時間 |
 |-----------|---------------------|-------------|
 | Claude Code / Claude | [control-os-claude](30-adoption/ja/try/control-os-claude.md) | 30秒 |
-| ChatGPT（GPT-4o / GPT-5） | [Control OS for GPT](30-adoption/ja/try/control-os-gpt.md) | 30秒 |
+| ChatGPT | [Control OS for GPT](30-adoption/ja/try/control-os-gpt.md) | 30秒 |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/ja/try/control-os-copilot.md) | 30秒 |
 
 ---

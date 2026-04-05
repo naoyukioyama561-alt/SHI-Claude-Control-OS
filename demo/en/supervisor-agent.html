@@ -111,8 +111,8 @@ main{flex:1;padding:24px;overflow-y:auto}
 <span class="chart-title">Detection Trend</span>
 <div class="period-btns">
 <button class="period-btn" onclick="setPeriod(this)">1d</button>
-<button class="period-btn active" onclick="setPeriod(this)">1weeks</button>
-<button class="period-btn" onclick="setPeriod(this)">1months</button>
+<button class="period-btn active" onclick="setPeriod(this)">1w</button>
+<button class="period-btn" onclick="setPeriod(this)">1mo</button>
 </div>
 </div>
 <div class="bar-chart" id="violChart"></div>
@@ -128,14 +128,14 @@ main{flex:1;padding:24px;overflow-y:auto}
 <div class="card" style="padding:16px">
 <div class="card-title" style="padding:0 0 12px">Recent Audit Logs (8)</div>
 <div style="max-height:320px;overflow-y:auto">
-<div class="audit-row"><span class="audit-time">2026-04-05 12:30:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d6_dashboard_supply</span><span class="audit-detail">DashboardDataRefreshDone (health, storage, stats)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:15:12</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">work_quality_checker</span><span class="audit-detail">Quality Checkexecution: 3Patternsdetected (P-03, P-29, P-73)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:15:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">supervisor_guard</span><span class="audit-detail">directive matchingDone: 3pending (U-047, U-048, U-049)</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:10:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d5_maintenance</span><span class="audit-detail">maintenance checkDone: RAM 65%, locks0, stuck0</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 12:05:22</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">URLNo changes. Skipped.</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 04:00:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">f1_prompt_evolution</span><span class="audit-detail">weekly analysisDone: 3improvement suggestions generated</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-05 01:30:00</span><span class="audit-actor cc_relay">cc_relay</span><span class="audit-action">privilege_manager</span><span class="audit-detail">adminPrivilegeGrant: Keywordsdetected "MacMini not implemented"</span></div>
-<div class="audit-row"><span class="audit-time">2026-04-04 18:22:45</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">Quick Tunnel URLchange detected → HTMLRefresh → FTPuploadDone</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:30:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d6_dashboard_supply</span><span class="audit-detail">Dashboard data refresh done (health, storage, stats)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:15:12</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">work_quality_checker</span><span class="audit-detail">Quality check execution: 3 patterns detected (P-03, P-29, P-73)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:15:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">supervisor_guard</span><span class="audit-detail">Directive matching done: 3 pending (U-047, U-048, U-049)</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:10:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">d5_maintenance</span><span class="audit-detail">Maintenance check done: RAM 65%, locks 0, stuck 0</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 12:05:22</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">URL no changes. Skipped.</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 04:00:00</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">f1_prompt_evolution</span><span class="audit-detail">Weekly analysis done: 3 improvement suggestions generated</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-05 01:30:00</span><span class="audit-actor cc_relay">cc_relay</span><span class="audit-action">privilege_manager</span><span class="audit-detail">Admin privilege grant: keyword detected "MacMini not implemented"</span></div>
+<div class="audit-row"><span class="audit-time">2026-04-04 18:22:45</span><span class="audit-actor openclaw">openclaw</span><span class="audit-action">tunnel_url_sync</span><span class="audit-detail">Quick Tunnel URL change detected → HTML refresh → FTP upload done</span></div>
 </div>
 </div>
 
@@ -146,50 +146,50 @@ main{flex:1;padding:24px;overflow-y:auto}
 <input placeholder="ID/name Search..." style="background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:4px 8px;font-size:12px;width:192px" oninput="filterPatterns(this.value)">
 </div>
 <div style="max-height:400px;overflow-y:auto" id="patternList">
-<div class="pattern-header"><span style="width:24px"></span><span style="width:112px">ID</span><span style="flex:1">Rule Name</span><span style="width:64px;text-align:center">severity</span><span style="width:40px"></span></div>
+<div class="pattern-header"><span style="width:24px"></span><span style="width:112px">ID</span><span style="flex:1">Rule Name</span><span style="width:64px;text-align:center">Severity</span><span style="width:40px"></span></div>
 </div>
 </div>
 </main>
 
 <script>
 const modules = [
-  { name: 'f1_prompt_evolution', desc: 'weeklyCCbehavior improvement.[behavior-store] violationPatterns Ollama analysis→recurrence preventionAutosuggestion', interval: '1weeks', last: '2026-04-05 04:00', enabled: true },
-  { name: 'f2_routing_rule_gen', desc: 'Monthly router enhancement.mis-classificationlogfromnew rules Autogenerate→routing_rules.jsonRefresh', interval: '1months', last: '2026-04-01 04:00', enabled: true },
-  { name: 'f3_error_auto_fix', desc: 'Gateway APIErrorslogdetected→Ollama root cause→fixpatchsuggestion', interval: '1Duration', last: '2026-04-05 12:00', enabled: true },
-  { name: 'f4_scaffold_gen', desc: 'Tasktypeaddedonfile/endpointPointsscaffoldAutogenerate', interval: '1d', last: '2026-04-04 04:00', enabled: true },
-  { name: 'f5_state_update', desc: 'Task Completeddetected→current_state.txt/phase_status.txtAutoRefresh', interval: '1Duration', last: '2026-04-05 12:15', enabled: true },
-  { name: 'd5_maintenance', desc: 'maintenancerecover.locksfreed/stuckexecutiondetected/DBpersistenceconfirmed/RAM>threshold Ollamamodelsunload', interval: '15min', last: '2026-04-05 12:10', enabled: true },
-  { name: 'd6_dashboard_supply', desc: 'DashboarddisplayData(health_status.jsonetc) periodic generation / Refresh', interval: '15min', last: '2026-04-05 12:30', enabled: true },
-  { name: 'id_detector', desc: '[context-store]/reports/instructions/dialogue scan, IDidentifiablePatterns detected / suggestion', interval: '1d', last: '2026-04-04 04:00', enabled: true },
-  { name: 'risk_predictor', desc: 'pastfailedPatternsfromstructure extracted,, samestructure unrealizedpredict risks', interval: '1d', last: '2026-04-04 04:00', enabled: true },
-  { name: 'work_quality_checker', desc: '[context-store] recentoperations scan, quality issuePatterns(confirmedinsufficient/omission etc.) detected', interval: '15min', last: '2026-04-05 12:15', enabled: true },
-  { name: 'supervisor_guard', desc: 'OriginalCCmonitor.Userdirectives U-IDmatching+duplicate findingdetected+unresolved findingdetected', interval: '15min', last: '2026-04-05 12:15', enabled: true },
-  { name: 'privilege_manager', desc: 'pendingdirectives Keywordsmonitor→cc_supervisor adminPrivilege AutoGrant/Revoke', interval: 'Every Cycle', last: '2026-04-05 01:30', enabled: true },
-  { name: 'tunnel_url_sync', desc: 'Quick Tunnel URLchange detected→redirectHTMLgenerate→FTPupload', interval: '5min', last: '2026-04-05 12:05', enabled: true },
-  { name: 'proactive_chat', desc: '（Notimplementation）CCproactive dialogue follow-up', interval: '10min', last: 'Not Run', enabled: false },
+  { name: 'f1_prompt_evolution', desc: 'Weekly CC behavior improvement. Ollama analyzes [behavior-store] violation patterns → auto-suggests recurrence prevention', interval: '1w', last: '2026-04-05 04:00', enabled: true },
+  { name: 'f2_routing_rule_gen', desc: 'Monthly router enhancement. Auto-generates new rules from mis-classification logs → routing_rules.json refresh', interval: '1mo', last: '2026-04-01 04:00', enabled: true },
+  { name: 'f3_error_auto_fix', desc: 'Gateway API error log detected → Ollama root cause analysis → fix patch suggestion', interval: '1h', last: '2026-04-05 12:00', enabled: true },
+  { name: 'f4_scaffold_gen', desc: 'Auto-generates file/endpoint scaffolds when new task types are added', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'f5_state_update', desc: 'Task completion detected → auto-refresh current_state.txt / phase_status.txt', interval: '1h', last: '2026-04-05 12:15', enabled: true },
+  { name: 'd5_maintenance', desc: 'Maintenance recovery. Free locks / detect stuck executions / confirm DB persistence / unload Ollama models when RAM > threshold', interval: '15min', last: '2026-04-05 12:10', enabled: true },
+  { name: 'd6_dashboard_supply', desc: 'Periodically generate/refresh dashboard display data (health_status.json etc.)', interval: '15min', last: '2026-04-05 12:30', enabled: true },
+  { name: 'id_detector', desc: 'Scan [context-store]/reports/instructions/dialogues for identifiable ID patterns and suggest fixes', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'risk_predictor', desc: 'Extract failure pattern structures from past incidents, predict unrealized risks with same structure', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'work_quality_checker', desc: 'Scan recent [context-store] operations for quality issue patterns (insufficient confirmation, omissions, etc.)', interval: '15min', last: '2026-04-05 12:15', enabled: true },
+  { name: 'supervisor_guard', desc: 'Original CC monitor. User directives U-ID matching + duplicate detection + unresolved detection', interval: '15min', last: '2026-04-05 12:15', enabled: true },
+  { name: 'privilege_manager', desc: 'Monitor pending directive keywords → auto grant/revoke cc_supervisor admin privilege', interval: 'Every Cycle', last: '2026-04-05 01:30', enabled: true },
+  { name: 'tunnel_url_sync', desc: 'Detect Quick Tunnel URL change → generate redirect HTML → FTP upload', interval: '5min', last: '2026-04-05 12:05', enabled: true },
+  { name: 'proactive_chat', desc: '(Not implemented) CC proactive dialogue follow-up', interval: '10min', last: 'Not Run', enabled: false },
 ];
 
 const patterns = [
   { id: 'P-01', name: '§0 Read skip', severity: 'critical', disabled: false },
   { id: 'P-02', name: 'Started work without reading orientation', severity: 'critical', disabled: false },
   { id: 'P-03', name: 'Scope reduction (lazy shortcut)', severity: 'critical', disabled: false },
-  { id: 'P-04', name: 'reflectionNotperformed', severity: 'high', disabled: false },
-  { id: 'P-05', name: 'notificationNotconfirmed', severity: 'high', disabled: false },
+  { id: 'P-04', name: 'Reflection not performed', severity: 'high', disabled: false },
+  { id: 'P-05', name: 'Notification not confirmed', severity: 'high', disabled: false },
   { id: 'P-06', name: 'No backup taken', severity: 'high', disabled: false },
-  { id: 'P-07', name: 'Requestscope not enumerated', severity: 'high', disabled: false },
-  { id: 'P-08', name: 'user_directivesNotRegister', severity: 'medium', disabled: false },
-  { id: 'P-09', name: 'Acting on assumption（confirmedskip）', severity: 'critical', disabled: false },
+  { id: 'P-07', name: 'Request scope not enumerated', severity: 'high', disabled: false },
+  { id: 'P-08', name: 'user_directives not registered', severity: 'medium', disabled: false },
+  { id: 'P-09', name: 'Acting on assumption (confirmation skipped)', severity: 'critical', disabled: false },
   { id: 'P-10', name: 'Pain lost via agent delegation', severity: 'high', disabled: false },
-  { id: 'P-11', name: 'Why-why1-2level Stopped', severity: 'medium', disabled: false },
+  { id: 'P-11', name: 'Why-why analysis stopped at 1-2 levels', severity: 'medium', disabled: false },
   { id: 'P-12', name: 'Polite speech violation', severity: 'medium', disabled: false },
-  { id: 'P-13', name: 'grep usage（full-textReadrequired）', severity: 'medium', disabled: false },
+  { id: 'P-13', name: 'grep usage (full-text read required)', severity: 'medium', disabled: false },
   { id: 'P-29', name: 'No backup before file change', severity: 'high', disabled: false },
   { id: 'P-67', name: 'Premature uncontrollable judgment', severity: 'high', disabled: false },
   { id: 'P-73', name: 'Habitual laziness skipping 00_', severity: 'critical', disabled: false },
   { id: 'P-75', name: 'Environment verification skip', severity: 'high', disabled: false },
-  { id: 'P-77', name: 'Blame-shift（externalcause responsibility shift）', severity: 'critical', disabled: false },
-  { id: 'P-78', name: 'Counter-evidence notverification', severity: 'high', disabled: false },
-  { id: 'P-83', name: 'jsonldirectoryloss', severity: 'critical', disabled: false },
+  { id: 'P-77', name: 'Blame-shift (external cause responsibility shift)', severity: 'critical', disabled: false },
+  { id: 'P-78', name: 'Counter-evidence not verified', severity: 'high', disabled: false },
+  { id: 'P-83', name: 'JSONL directory loss', severity: 'critical', disabled: false },
 ];
 
 // Render modules
@@ -212,7 +212,7 @@ modules.forEach((m, i) => {
     <div class="module-detail hidden" id="detail-${i}">
       <div class="module-desc">${m.desc}</div>
       <div class="config-grid">
-        <div class="config-item"><label>Interval:</label><select><option>Every Cycle</option><option>5min</option><option>10min</option><option selected>15min</option><option>30min</option><option>1Duration</option><option>1d</option><option>1weeks</option><option>1months</option></select></div>
+        <div class="config-item"><label>Interval:</label><select><option>Every Cycle</option><option>5min</option><option>10min</option><option selected>15min</option><option>30min</option><option>1h</option><option>1d</option><option>1w</option><option>1mo</option></select></div>
       </div>
     </div>`;
   ml.appendChild(row);
