@@ -16,7 +16,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
 > **What you can do with the public repository right now**: try it, challenge it, adapt it, and inspect the evidence boundary without installing anything.
-> **Public evidence key**: **132 failure modes** = observed in a single documented environment; **65% reduction** = design value; **20x token reduction** = design target, not a reproduced public benchmark.
+> **Public evidence key**: **132 failure modes** = observed in a single documented environment; **65% reduction** = design value (not measured benchmark); **20x token reduction** = design target, not a reproduced public benchmark.
 > **Verification path**: [PROVE-IT.md](PROVE-IT.md) → [20-proof/metrics.md](20-proof/metrics.md) → [30-adoption/try/](30-adoption/try/)
 >
 > **[→ See it live: Interactive Demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)

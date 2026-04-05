@@ -16,7 +16,7 @@
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
 > **公開リポジトリだけで今すぐできること**: 試す、反証する、移植する、そしてエビデンス境界を確認する。インストールは不要です。
-> **公開数値の読み方**: **132件の失敗モード** = 単一の記録環境での観測値、**65%削減** = 設計値、**20倍削減** = 公開再現済みベンチマークではなく設計目標です。
+> **公開数値の読み方**: **132件の失敗モード** = 単一の記録環境での観測値、**65%削減** = 設計値（計測済みベンチマークではない）、**20倍削減** = 公開再現済みベンチマークではなく設計目標です。
 > **検証導線**: [PROVE-IT-ja.md](PROVE-IT-ja.md) → [20-proof/metrics-ja.md](20-proof/metrics-ja.md) → [30-adoption/ja/try/](30-adoption/ja/try/)
 >
 > **[→ 動いている形を見る: インタラクティブデモ（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)

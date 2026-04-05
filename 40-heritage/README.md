@@ -38,7 +38,7 @@ Each numbered file records one CC generation's experience:
 | Heritage doc 9 | 9th CC | Restart attempts, P-03 recurring multiple times |
 | Heritage doc 10 | 9th CC | Restart attempt, judgment flow execution |
 | Heritage doc 11 | 9th CC | Deep reflection and summary |
-| Heritage doc 12 | [redacted] CC | Quality problem education |
+| Heritage doc 12 | 12th generation CC | Quality problem education |
 
 ---
 
