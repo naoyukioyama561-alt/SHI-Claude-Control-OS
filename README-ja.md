@@ -13,7 +13,12 @@ AIが同じミスを繰り返す、文脈を失う、理解したと言って守
 
 > **無料版だけで試行・検証・反証が完結します。** インストール不要——コピーして貼り付けてテストするだけ。
 
-> **動いているシステムを見る:** [ライブデモ（日本語）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html) — ヘルスチェック、パイプライン可視化、品質管理、用語管理がインタラクティブに動作。ボタンを押して、検索して、フィルタして——構造的AI統治が実際に稼働している姿を体験できます。
+### 今すぐ確認できる実際の動き
+**[公開安全なインタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)**
+- 日本語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
+- 英語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
+
+*このデモはあなたの個人環境とは**完全に独立**した静的ページです。ボタン・検索・フィルタなど実際に操作できます。*
 
 ---
 

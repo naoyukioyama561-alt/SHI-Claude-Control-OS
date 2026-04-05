@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Health Check - n8n-AI Dashboard</title>
+<title>Health Check - workflow-engine-AI Dashboard</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}
@@ -65,7 +65,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 </style>
 </head>
 <body>
-<nav><h1>n8n-AI</h1><a href="index.html">🏠 Overview</a><a href="health.html" class="active">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<nav><h1>workflow-engine-AI</h1><a href="index.html">🏠 Overview</a><a href="health.html" class="active">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="openclaw.html">🤖 OpenClaw</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
 <main>
 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
 <div style="display:flex;align-items:center;gap:12px">
@@ -128,8 +128,8 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 </button>
 <div id="cat-A1">
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">Docker Engine</span><span class="status" style="color:#4ade80">running</span><span class="detail">12 containers up</span></div>
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">n8n-postgres-1</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">n8n-n8n-1</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">db-container</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">workflow-engine-1</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
 </div>
 </div>
 <div>
@@ -139,7 +139,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span>A2. Network</span>
 </button>
 <div id="cat-A2" class="hidden">
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">SSHConnection</span><span class="status" style="color:#4ade80">running</span><span class="detail">192.168.100.15 OK</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">SSHConnection</span><span class="status" style="color:#4ade80">running</span><span class="detail">10.x.x.x OK</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">API Gateway</span><span class="status" style="color:#4ade80">running</span><span class="detail">port 9190</span></div>
 </div>
 </div>
@@ -161,7 +161,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span>B1. Core Services</span>
 </button>
 <div id="cat-B1">
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">n8n Workflow</span><span class="status" style="color:#4ade80">running</span><span class="detail">port 5678</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">workflow-engine Workflow</span><span class="status" style="color:#4ade80">running</span><span class="detail">port 5678</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">Dashboard</span><span class="status" style="color:#4ade80">running</span><span class="detail">port 3010</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">OpenClaw Standby</span><span class="status" style="color:#4ade80">running</span><span class="detail">14 modules</span></div>
 </div>
@@ -241,7 +241,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span>D1. Cloudflare Tunnel</span>
 </button>
 <div id="cat-D1">
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">tunnel-n8n</span><span class="status" style="color:#4ade80">running</span><span class="detail">active</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">tunnel-wfe</span><span class="status" style="color:#4ade80">running</span><span class="detail">active</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">tunnel-dash</span><span class="status" style="color:#4ade80">running</span><span class="detail">active</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">tunnel-voiceapp</span><span class="status" style="color:#4ade80">running</span><span class="detail">active</span></div>
 </div>
@@ -267,9 +267,9 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <div class="knowledge-card">
 <h3 style="color:#fff;font-weight:500;margin-bottom:12px">Recent Incidents</h3>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">C2-3</span><span style="color:#fff;flex:1">QdrantConnection timeout</span><span class="text-xs text-slate-500">12s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/05 08:12</span></div>
-<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">A1-2</span><span style="color:#fff;flex:1">n8n-postgres OOMrestart</span><span class="text-xs text-slate-500">45s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/04 23:41</span></div>
+<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">A1-2</span><span style="color:#fff;flex:1">db-container OOMrestart</span><span class="text-xs text-slate-500">45s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/04 23:41</span></div>
 <div class="incident-row"><span style="color:#f87171">&#x2717;</span><span style="color:#cbd5e1;width:64px">B2-1</span><span style="color:#fff;flex:1">OllamaInference timeout(30sexceeded)</span><span class="text-xs text-slate-500">0s</span><span class="tag tag-manual">Manual</span><span class="text-xs text-slate-500">2026/04/04 15:22</span></div>
-<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">D1-1</span><span style="color:#fff;flex:1">tunnel-n8nConnectiondown</span><span class="text-xs text-slate-500">8s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/03 19:55</span></div>
+<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">D1-1</span><span style="color:#fff;flex:1">tunnel-wfeConnectiondown</span><span class="text-xs text-slate-500">8s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/03 19:55</span></div>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">C1-1</span><span style="color:#fff;flex:1">PostgreSQLConnectionpool exhaustion</span><span class="text-xs text-slate-500">3s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/03 07:14</span></div>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">A1-3</span><span style="color:#fff;flex:1">MinIOHealth Checkfailed</span><span class="text-xs text-slate-500">15s</span><span class="tag tag-auto">Auto</span><span class="text-xs text-slate-500">2026/04/02 11:30</span></div>
 </div>
@@ -296,9 +296,9 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <thead><tr><th>Code</th><th>Incident</th><th>Recovery</th><th>Result</th><th>Duration</th><th>Reuse</th><th>Auto</th></tr></thead>
 <tbody id="kn-body">
 <tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">QdrantConnection timeout</td><td class="text-xs text-slate-500">docker restart qdrant</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
-<tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">n8n-postgres OOMrestart</td><td class="text-xs text-slate-500">docker restart n8n-postgres</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">db-container OOMrestart</td><td class="text-xs text-slate-500">docker restart db-container</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">B2-1</td><td style="color:#fff">OllamaInference timeout</td><td class="text-xs text-slate-500">ollama serve restart</td><td><span style="background:rgba(239,68,68,.15);color:#f87171" class="tag">failed</span></td><td>0s</td><td>0</td><td><input type="checkbox"></td></tr>
-<tr><td style="color:#cbd5e1">D1-1</td><td style="color:#fff">tunnel-n8nConnectiondown</td><td class="text-xs text-slate-500">cloudflared restart</td><td><span class="tag tag-auto">success</span></td><td>8s</td><td>7</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">D1-1</td><td style="color:#fff">tunnel-wfeConnectiondown</td><td class="text-xs text-slate-500">cloudflared restart</td><td><span class="tag tag-auto">success</span></td><td>8s</td><td>7</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">C1-1</td><td style="color:#fff">PostgreSQLConnectionpool exhaustion</td><td class="text-xs text-slate-500">pg_terminate idle conn</td><td><span class="tag tag-auto">success</span></td><td>3s</td><td>2</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">A1-3</td><td style="color:#fff">MinIOHealth Checkfailed</td><td class="text-xs text-slate-500">docker restart minio</td><td><span class="tag tag-auto">success</span></td><td>15s</td><td>1</td><td><input type="checkbox" checked></td></tr>
 </tbody>
@@ -369,8 +369,8 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 </div>
 <span class="text-xs text-slate-500">2026/04/04 23:41:18</span>
 </div>
-<div style="color:#cbd5e1;font-size:13px;margin-top:4px">n8n-postgres-1 OOM Killeddetected.Autorestart.</div>
-<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">recovery: docker restart n8n-postgres-1 (45sec)</div>
+<div style="color:#cbd5e1;font-size:13px;margin-top:4px">db-container OOM Killeddetected.Autorestart.</div>
+<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">recovery: docker restart db-container (45sec)</div>
 </div>
 <div style="border:1px solid #991b1b;background:rgba(239,68,68,.04);border-radius:8px;padding:12px;margin-bottom:8px">
 <div style="display:flex;align-items:center;justify-content:space-between">
