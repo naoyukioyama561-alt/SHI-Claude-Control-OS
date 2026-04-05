@@ -129,7 +129,8 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 ## If this made you think "I want this too"
 
 1. **⭐ Star this repository** — it helps more builders and operators find it
-2. **Share it with one person** — send it to the teammate who has already said: *"AI is useful, but I still don't trust the workflow"*
+2. **[Report an observation](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — your observation improves the methodology
+3. **Share it with one person** — send it to the teammate who has already said: *"AI is useful, but I still don't trust the workflow"*
 
 > [Why I built this →](40-heritage/why-i-am-doing-this.md)
 

@@ -13,7 +13,7 @@ No internal paths, endpoints, or personal information is included.
 |--------|-------|-------|
 | Initial classification count | 40 items | Week 1 completed. Claude/GPT 2-model comparison |
 | Final classification count | 132 items | P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01 |
-| Target models | 3 types | Claude Opus/Sonnet (as of observation period, March 2026), GPT-5 (as of observation period) and GPT-4o, Copilot |
+| Target models | 3 model families | Claude Opus/Sonnet (as of observation period, March 2026), GPT-5 (as of observation period) and GPT-4o, Copilot |
 | P-74 to P-80 (behavioral internalization) | 7 items | Added in Week 3-4. False reporting, blame-shifting, assumption-based conclusions, etc. |
 | FMs amplified in code generation mode | 4 items | FM-01, FM-20, FM-39, FM-40 |
 

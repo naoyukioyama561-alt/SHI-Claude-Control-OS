@@ -38,3 +38,10 @@ This glossary defines terms as they are used **in this specific repository**. So
 ---
 
 [日本語版 / Japanese](GLOSSARY-ja.md)
+
+
+---
+
+## Model Naming Note
+
+Model names in this repository (Claude Opus 4.6, Claude Sonnet 4.6, GPT-5) refer to versions available during the observation period (late 2025 – March 2026). Current official model names may differ. When citing numbers from this repository, always include the observation period context.

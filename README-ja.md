@@ -127,7 +127,8 @@
 ## 「自分もこれ欲しい」と思ったら
 
 1. **⭐ このリポジトリにStarをつける** — 同じ痛みを持つ人に届きます
-2. **一人に共有する** — 「AIは便利だけど、ワークフローはまだ信頼できない」と言っていた同僚に送ってください
+2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの観測が方法論を改善します
+3. **一人に共有する** — 「AIは便利だけど、ワークフローはまだ信頼できない」と言っていた同僚に送ってください
 
 > [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
 

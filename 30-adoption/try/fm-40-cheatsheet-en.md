@@ -58,3 +58,8 @@ Impact: Low / Med / High / V.High
 
 → Detailed analysis per FM (15 samples): [10-framework/en/01-failure-modes.md](../../10-framework/en/01-failure-modes.md)
 → Full 132 items (P-series 90 + ALGO-series 40 + others): available in paid tiers
+
+
+---
+
+*Note: The "Claude" column covers both Claude Opus and Claude Sonnet observations. The "GPT (4o/5)" column covers GPT-4o and GPT-5 as of the observation period (late 2025 – March 2026).*
