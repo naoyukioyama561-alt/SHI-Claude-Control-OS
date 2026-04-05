@@ -1,19 +1,59 @@
 # SHI-Claude-Control-OS
 
+**AIをスロットマシンではなく、システムとして動かす。**
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
-*昨日AIにコードレビューを頼んだ。今日も同じミスをする。ルールを説明し直す。「理解しました」と言って、1時間後に破る。心当たりはありませんか？*
+[English version](README.md)
 
-**あなたのAIは、昨日やらかした失敗を今日もう覚えていない。このプロジェクトは、それに構造的に対処する。**
-AIが同じミスを繰り返す、文脈を失う、理解したと言って守らない——そんな経験がある人へ。
+---
+
+*昨日AIにコードレビューを頼んだ。今日も同じミスをする。ルールを説明し直す。「理解しました」と言って、1時間後に破る。*
+
+**心当たりはありませんか？**
+
+このリポジトリは、そんな瞬間のために存在します——AIは便利だけど、まだ脆くて、すぐ忘れて、あなたが全部覚えていないと回らない、と気づいた瞬間のために。
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
-> **無料で得られるもの**: 40の失敗モード分類、3つのAIモデル用Control OSテンプレート、Before/Afterデモ、検証プロトコル。
-> **最初の30秒**: 1. [Control OSをコピー](30-adoption/ja/try/control-os-claude.md) → 2. [Before/Afterテストを実行](30-adoption/ja/try/before-after-demo.md) → 3. [主張をPROVE-ITで確認](PROVE-IT-ja.md)
-
+> **無料で得られるもの**: 40の失敗モード分類、3つのAIモデル用Control OSテンプレート、Before/Afterデモ、インタラクティブダッシュボード、検証プロトコル。
 > **無料版だけで試行・検証・反証が完結します。** インストール不要——コピーして貼り付けてテストするだけ。
 
+---
+
+## 導入後に何が変わるか
+
+| Before | After |
+|--------|-------|
+| 同じバグ、また発生。AIは謝る。明日また同じことをする | 失敗モードとして分類され、構造的にブロック |
+| 月曜朝：新セッション。金曜の積み上げがゼロ | 継承システムが「痛み」をセッションを超えて保持 |
+| 「ルールを理解しました」——同じ作業サイクル内で違反 | 外部モニターがリリース前に違反を検知 |
+| プレッシャー下で品質が静かに劣化 | 4+1層品質システムが基準を維持 |
+| しばらく離れて戻ると、文脈の継続性が失われている | 後継AIがルールだけでなく判断を継承 |
+
+<p align="center">
+  <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: 構造的ガバナンスの有無によるAI行動の違い" width="720">
+</p>
+
+→ [実例を見る](20-proof/public-case-01-ja.md)
+
+---
+
+## 今すぐ試す（30秒）
+
+1. **コピー**: [Control OS](30-adoption/ja/try/control-os-claude.md)をAIのシステムプロンプトに貼り付ける
+2. **テスト**: [Before/Afterデモ](30-adoption/ja/try/before-after-demo.md)で違いを確認（5分）
+3. **検証**: [PROVE-IT-ja.md](PROVE-IT-ja.md)で主張を確認（15分）
+
+| あなたのAI | Control OSテンプレート | テスト所要時間 |
+|-----------|---------------------|-------------|
+| Claude Code / Claude | [control-os-claude](30-adoption/ja/try/control-os-claude.md) | 30秒 |
+| ChatGPT（GPT-4o / GPT-5） | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30秒 |
+| GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30秒 |
+
+---
+
 ### 今すぐ確認できる実際の動き
+
 **[公開安全なインタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)**
 - 日本語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
 - 英語版デモ: [こちらをクリック](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
@@ -22,102 +62,72 @@ AIが同じミスを繰り返す、文脈を失う、理解したと言って守
 
 ---
 
-## いま、あなたのAIの中で起きていること
+## なぜ存在するのか
 
-| | 構造制御なし | Control OS導入後 |
-|---|---|---|
-| 同じバグ、また発生 | AIは謝る。明日また同じことをする | 失敗モードとして分類され、構造的にブロック |
-| 月曜朝：新セッション | 金曜の積み上げがゼロ | 継承システムが「痛み」をセッションを超えて保持 |
-| 「ルールは理解しました」 | 同じ作業サイクル内で違反する | 外部監視が出荷前に違反を検知 |
-| 負荷がかかると | コンテキスト増加とともに品質が静かに劣化 | 4+1層品質システムが基準を維持 |
-| しばらく離れて戻ると | 文脈の継続性が失われている | 後継AIがルールだけでなく「判断」を継承 |
+ほとんどのAIプロジェクトは、モデルが弱いから失敗するのではない。
+**制御層**が弱いから失敗する。
 
-<p align="center">
-  <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: 構造的統治あり・なしのAI行動比較" width="720">
-</p>
+- 指示がバラバラのチャットに散在
+- 修正が構造ではなく記憶に依存
+- 一人だけが動かし方を知っている
+- 小さなエラーが静かに運用負債になる
+
+**このプロジェクトはそのパターンを断ち切る**——AIをもっと信じろと言うのではなく、制御点を定義し、行動を検証し、ワークフローを他の人間にも読めるようにする方法を提供する。
 
 ---
-
-## 今すぐ試す（30秒）
-
-Control OSをAIのシステムプロンプトにコピペしてください。[Before/Afterテスト](30-adoption/ja/try/before-after-demo.md)を実行してください。違いを確認してください。
-
-| あなたのAI | Control OSテンプレート | テスト所要時間 |
-|---------|-------------------|--------------|
-| Claude Code / Claude | [control-os-claude](30-adoption/ja/try/control-os-claude.md) | 30秒 |
-| ChatGPT（GPT-4o / GPT-5） | [control-os-gpt](30-adoption/ja/try/control-os-gpt.md) | 30秒 |
-| GitHub Copilot | [control-os-copilot](30-adoption/ja/try/control-os-copilot.md) | 30秒 |
-
-[FM-40チートシート](30-adoption/ja/try/fm-40-cheatsheet.md)も確認してください -- どのAIアシスタントでも今日から観察できる40の失敗モードです。
-
----
-
-<details>
-<summary><strong>エビデンスラベルと用語</strong> — 本リポジトリの数値・用語の読み方</summary>
-
-**エビデンスラベル**: `[観測値：単一環境]` = 単一環境で計測。`[設計目標]` = 設計上の目標、ベンチマークではない。`[例示値]` = 説明用、データではない。詳細は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
-
-**用語**: 3層分離（役割分担）≠ 4+1品質システム（品質管理スタック）≠ 5層ループ（統治サイクル）。同じシステムの別次元。詳細は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
-
-主要な主張には検証経路を付しています。検証手順は [PROVE-IT-ja.md](PROVE-IT-ja.md) に記載。
-</details>
-
-> **概念マップ**（この6つを覚えれば読める）:
-> FM = 失敗の名前 | 制御OS = その場の抑制 | 3層分離 = 役割分担 | 4+1 = 品質管理 | 5層ループ = 統治サイクル | SHI = 理論的基盤
 
 ## リポジトリマップ
-
-各層に1つの認知仕事だけを与えています。今の目的に合う層を選んでください。
 
 ```
 いまここ
   |
   |-- 「試したい」               --> 30-adoption/ja/try/     （30秒）
   |-- 「証拠を見たい」            --> PROVE-IT-ja.md          （15分）
-  |-- 「なぜ効くのか知りたい」     --> 10-framework/ja/           （30分）
-  |-- 「実績データが見たい」       --> 20-proof/ja/               （じっくり）
+  |-- 「なぜ効くのか知りたい」     --> 10-framework/ja/        （30分）
+  |-- 「実績データが見たい」       --> 20-proof/ja/            （じっくり）
   |-- 「自分の環境で作りたい」     --> 30-adoption/ja/templates/ （あなたの環境で）
   |
   さらに深く:
-  |-- 継承と哲学                 --> 40-heritage/
+  |-- 継承と哲学                 --> 40-heritage/ja/
   |-- スコープとエディション       --> 50-boundary/ [EN]
   |-- 詳細なスコープ表            --> SCOPE-MATRIX-ja.md
 ```
 
-| 層 | 1つの認知仕事 | 中身 |
-|-------|------------------|-------------------|
-| **10-framework/** | 方法論を理解する | 失敗モード分類体系、Control OS設計、3層分離、品質システム、SHI理論 |
-| **20-proof/** | 主張を検証する | 実証付き15の成果、ヒーロー画像、メトリクス、タイムライン |
-| **30-adoption/** | 自分で使う | コピペ用Control OS、FM-40チートシート、Before/Afterデモ、移植テンプレート |
-| **40-heritage/** | 哲学を知る | このプロジェクトが存在する理由、CC継承構造 |
-| **50-boundary/** | 範囲を把握する | 無料/有料エディション定義、Avoidance OS |
+<details>
+<summary><strong>エビデンスラベルと用語</strong></summary>
+
+`[観測値：単一環境]` = 単一環境で計測。`[設計目標]` = 設計上の目標、ベンチマークではない。`[例示値]` = 説明用、データではない。詳細は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
+
+3層分離（役割分担）≠ 4+1品質システム（品質管理スタック）≠ 5層ループ（統治サイクル）。同じシステムの別次元。
+</details>
 
 ---
 
-## 背景にある研究
+## 研究的背景
 
-この方法論は**SHI（Structural Hierarchical Intelligence：構造的階層知能）理論**に基づいています。AIの失敗をランダムなノイズではなく、観察可能で、分類可能で、構造的に予防可能な現象として扱います。約1か月の集中的な観察 [観測値：単一環境・単一運用者・N未公開] から132の失敗モード [観測値：単一環境・単一運用者・N未公開] を分類し、統治アーキテクチャとして体系化しました。
+本方法論は**構造的階層型知能（SHI）** 理論に基づいています。約1ヶ月のフルタイム観測 [観測値：単一環境・単一運用者] から132件の失敗モード [→ メトリクス](20-proof/metrics-ja.md) を分類し、ガバナンスアーキテクチャを研究論文として文書化しました。
 
-> Oyama, N. (2025). *Structural Hierarchical Intelligence for AI Governance*. SSRN: [https://ssrn.com/abstract=6299258](https://ssrn.com/abstract=6299258)
+> Oyama, N. (2025). *Structural Hierarchical Intelligence for AI Governance* (SSRNプレプリント、2025年投稿). SSRN: [https://ssrn.com/abstract=6299258](https://ssrn.com/abstract=6299258). リポジトリ公開: 2026年.
 
 ---
 
 ## クイックリンク
 
-- [START-HERE](START-HERE-ja.md) -- 3分でわかるオリエンテーション
-- [PROVE-IT](PROVE-IT-ja.md) -- すべての主張を自分で検証
-- [インタラクティブ・ダッシュボード](docs/dashboard.html)（ファイルをダウンロードしてブラウザで開く、またはGitHub Pagesを有効化）-- タイムライン + レイヤーシミュレーター
-- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) -- 無料版と有料版の詳細な範囲分け
-- [CITATION](CITATION.cff) -- 引用方法
-- [GLOSSARY-ja](GLOSSARY-ja.md) -- 用語集
-- [CONTRIBUTING-ja](CONTRIBUTING-ja.md) -- 観測報告の出し方。あなたの観測がFM分類や検証導線の改訂に直接つながります
+- [START-HERE](START-HERE-ja.md) — 3分でわかるオリエンテーション
+- [PROVE-IT](PROVE-IT-ja.md) — すべての主張を自分で検証
+- [インタラクティブ・ダッシュボード](docs/dashboard.html)（ファイルをダウンロードしてブラウザで開く、または[GitHub Pagesを有効化](https://docs.github.com/en/pages)）
+- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) — 無料版と有料版の詳細な範囲分け
+- [GLOSSARY-ja](GLOSSARY-ja.md) — 用語集
+- [CONTRIBUTING-ja](CONTRIBUTING-ja.md) — 観測報告の出し方。あなたの観測がFM分類の改訂に直接つながります
+- [CITATION](CITATION.cff) — 引用方法
+- [CHANGELOG](CHANGELOG-ja.md) — 変更履歴
 
 ---
 
-![Dashboard](images/diagrams/dashboard-overview.svg)
+## 「自分もこれ欲しい」と思ったら
 
-
-→ [実例を見る](20-proof/public-case-01-ja.md)
+1. **⭐ このリポジトリにStarをつける** — 同じ痛みを持つ人に届きます
+2. **一人に共有する** — 「AIは便利だけど、ワークフローはまだ信頼できない」と言っていた同僚に送ってください
 
 > [なぜ作ったのか →](40-heritage/ja/why-i-am-doing-this.md)
 
@@ -125,12 +135,9 @@ Control OSをAIのシステムプロンプトにコピペしてください。[B
 
 <sub>
 
-**ライセンス**: [MIT](LICENSE) -- 自由に使用・改変・再配布できます。
+**ライセンス**: [MIT](LICENSE) — 自由に使用・改変・再配布できます。
 
-⭐ 役に立ったらStarをお願いします — AI統治への構造的アプローチを求めている人に届きます。
-[![Star this repo](https://img.shields.io/github/stars/naoyukioyama561-alt/SHI-Claude-Control-OS?style=social)](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS)
-
-**免責事項**: 本リポジトリに記載されたすべての効果は著者の環境で観察されたものです。AIモデル、利用コンテキスト、設定によって結果は異なる場合があります。結論を出す前に、すべての主張をご自身の環境で検証してください。本プロジェクトは方法論を提供するものであり、結果を保証するものではありません。本リポジトリの内容は専門的助言を構成しません。
+**免責事項**: 本リポジトリに記載されたすべての効果は著者の環境で観察されたものです。AIモデル、利用コンテキスト、設定によって結果は異なる場合があります。結論を出す前に、すべての主張をご自身の環境で検証してください。本プロジェクトは方法論を提供するものであり、結果を保証するものではありません。
 
 **Language**: [English version](README.md)
 
