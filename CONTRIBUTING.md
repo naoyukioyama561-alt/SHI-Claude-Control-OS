@@ -1,6 +1,6 @@
 # Contributing
 
-You can fork, adapt, and build freely under MIT. Issues are the primary channel for contributing to the canonical version.
+You can fork, adapt, and build freely under MIT. You do not need to submit code to contribute: observation reports, reproduction notes, claim challenges, broken-link fixes, and translation improvements are all first-class contributions. Issues are the primary channel for contributing to the canonical version.
 
 This repository documents a **methodology**, not a software product. Contributions are welcome — and most valuable — through Issues.
 

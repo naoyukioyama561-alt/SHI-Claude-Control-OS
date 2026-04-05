@@ -41,9 +41,9 @@ You are here: START-HERE.md
   +--> Want to check scope?         --> SCOPE-MATRIX.md
 ```
 
-## What Is NOT Free
+## Public Boundary
 
-For edition boundaries and paid-tier details, see [SCOPE-MATRIX.md](SCOPE-MATRIX.md).
+This repository is the primary evaluation surface. You can try, challenge, and adapt the methodology using only the public files here. [SCOPE-MATRIX.md](SCOPE-MATRIX.md) exists to show what is intentionally out of public scope, not to gate the core evaluation experience.
 
 <details>
 <summary><strong>Who This Is For</strong></summary>

@@ -15,8 +15,9 @@
 このリポジトリは、そんな瞬間のために存在します——AIは便利だけど、まだ脆くて、すぐ忘れて、あなたが全部覚えていないと回らない、と気づいた瞬間のために。
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
-> **無料で得られるもの**: 40の失敗モード分類、3つのAIモデル用Control OSテンプレート、Before/Afterデモ、インタラクティブダッシュボード、検証プロトコル。
-> **無料版だけで試行・検証・反証が完結します。** インストール不要——コピーして貼り付けてテストするだけ。
+> **公開リポジトリだけで今すぐできること**: 試す、反証する、移植する、そしてエビデンス境界を確認する。インストールは不要です。
+> **公開数値の読み方**: **132件の失敗モード** = 単一の記録環境での観測値、**65%削減** = 設計値、**20倍削減** = 公開再現済みベンチマークではなく設計目標です。
+> **検証導線**: [PROVE-IT-ja.md](PROVE-IT-ja.md) → [20-proof/metrics-ja.md](20-proof/metrics-ja.md) → [30-adoption/ja/try/](30-adoption/ja/try/)
 >
 > **[→ 動いている形を見る: インタラクティブデモ（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)
 
@@ -118,7 +119,7 @@
 - [START-HERE](START-HERE-ja.md) — 3分でわかるオリエンテーション
 - [PROVE-IT](PROVE-IT-ja.md) — すべての主張を自分で検証
 - [インタラクティブ・ダッシュボード](docs/dashboard.html)（ファイルをダウンロードしてブラウザで開く、または[GitHub Pagesを有効化](https://docs.github.com/en/pages)）
-- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) — 無料版と有料版の詳細な範囲分け
+- [SCOPE-MATRIX](SCOPE-MATRIX-ja.md) — 公開境界マップ（ここにあるもの / 意図的に公開範囲外にしているもの）
 - [GLOSSARY-ja](GLOSSARY-ja.md) — 用語集
 - [CONTRIBUTING-ja](CONTRIBUTING-ja.md) — 観測報告の出し方。あなたの観測がFM分類の改訂に直接つながります
 - [CITATION](CITATION.cff) — 引用方法

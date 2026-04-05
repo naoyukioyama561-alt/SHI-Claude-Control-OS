@@ -15,8 +15,9 @@
 This repository exists for that moment — when you realize AI is useful but still too fragile, too forgetful, and too dependent on you remembering everything.
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
-> **What you get free**: 40 classified failure modes, Control OS templates for 3 AI models, a Before/After demo, an interactive dashboard, and a verification protocol.
-> **Free tier is sufficient to try, verify, and challenge the methodology.** No installation required — copy, paste, and test.
+> **What you can do with the public repository right now**: try it, challenge it, adapt it, and inspect the evidence boundary without installing anything.
+> **Public evidence key**: **132 failure modes** = observed in a single documented environment; **65% reduction** = design value; **20x token reduction** = design target, not a reproduced public benchmark.
+> **Verification path**: [PROVE-IT.md](PROVE-IT.md) → [20-proof/metrics.md](20-proof/metrics.md) → [30-adoption/try/](30-adoption/try/)
 >
 > **[→ See it live: Interactive Demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)
 
@@ -121,7 +122,7 @@ This methodology is grounded in **Structural Hierarchical Intelligence (SHI)** t
 - [START-HERE](START-HERE.md) — 3-minute orientation
 - [PROVE-IT](PROVE-IT.md) — verify every claim yourself
 - [Offline Static Dashboard File](docs/dashboard.html) — download and open locally in a browser
-- [SCOPE-MATRIX](SCOPE-MATRIX.md) — free vs. paid breakdown
+- [SCOPE-MATRIX](SCOPE-MATRIX.md) — public boundary map (what is here, what is intentionally out of public scope)
 - [GLOSSARY](GLOSSARY.md) — key terms and definitions
 - [CONTRIBUTING](CONTRIBUTING.md) — how to report observations and contribute
 - [CITATION](CITATION.cff) — how to cite this work

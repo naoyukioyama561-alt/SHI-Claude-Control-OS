@@ -4,9 +4,9 @@ This document exists not to convince you, but to help you **evaluate how far you
 
 ---
 
-Note: Square-bracket placeholders (e.g., `[external monitoring hook]`, `[internal database table]`, `[redacted]`) are intentional redactions for safe public release. They are not incomplete content.
+Note: Square-bracket placeholders (e.g., `[external monitoring hook]`, `[internal database table]`, `[redacted]`) are intentional redactions for safe public release. They do not indicate missing argumentation.
 
-Throughout this repository, `[redacted]` labels mark specific implementation details -- such as service names, database tables, or monitoring logic -- that have been withheld to prevent reproduction of the paid-tier system from public information alone. The surrounding context (design rationale, metrics, methodology) remains fully public so that readers can evaluate the approach without needing access to the redacted specifics.
+Throughout this repository, `[redacted]` labels mark implementation details that function as reproduction keys or environment identifiers. They are withheld to keep the public repository safe while preserving the evaluation surface: design rationale, public metrics, methodology, and challenge points remain available here.
 
 ## Verification Rule
 
