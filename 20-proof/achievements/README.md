@@ -26,7 +26,7 @@ Items are ordered by understanding difficulty (easiest first).
 | 14 | **Token Efficiency** 20x (design target) | Level C | Free (summary) | [EN](en/14-token-efficiency.md) / [JA](ja/14-token-efficiency.md) | Theoretical values public. Before/After measured data in Phase2 |
 | 15 | **Other Key Achievements** | Level C | Free (summary) | [EN](en/15-other-achievements.md) / [JA](ja/15-other-achievements.md) | Supplementary achievement summaries public. Deeper supporting material in Phase2 |
 
-Note: "Free (summary)" = a public summary page is freely available in this repository; where deeper material is out of public scope, the boundary is labeled explicitly without sales wording.
+> **Phase 1 / Phase 2 = future release phases, not pricing tiers.** All 15 achievement pages are freely available in this repository right now. "Free (summary)" means a public summary page exists here; deeper detail will be released in future open phases.
 
 Verification level definitions: see [../README.md](../README.md)
 
