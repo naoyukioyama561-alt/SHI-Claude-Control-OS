@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "SHI-Claude-Control-OS: Structural Hierarchical Intelligence for AI Governance"
 message: "If you use this methodology, please cite it as below."
-type: dataset
+type: software
 authors:
   - family-names: Oyama
     given-names: Naoyuki

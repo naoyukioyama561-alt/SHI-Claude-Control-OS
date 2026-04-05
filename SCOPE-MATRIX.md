@@ -103,3 +103,12 @@ This repository invites you to:
 > See also: [PROVE-IT](PROVE-IT.md) | [START-HERE](START-HERE.md) | [Back to README](README.md)
 
 [日本語版](SCOPE-MATRIX-ja.md)
+
+
+---
+
+## How to Access Paid Tiers
+
+Paid tier availability is being prepared. Details will be announced via this repository.
+
+For updates, watch this repository or follow the author on the platforms listed in CITATION.cff.
