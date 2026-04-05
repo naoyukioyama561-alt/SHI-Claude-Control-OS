@@ -2,7 +2,7 @@
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
-The 14 achievements above rest on a foundation of supporting systems. These are the structural underpinnings that make everything else work.
+The 14 achievements above depend on supporting systems. This page is a public summary of those supporting structures, with deeper implementation detail intentionally outside the repository.
 
 ## What Was Observed
 

@@ -8,7 +8,7 @@ cc_heritage is an **institutional memory system** for AI coding assistants that 
 
 ## Structure
 
-### Core design document: `[internal design document]`
+### Core design document (redacted for public release)
 
 This file is the **design document** that every new CC must read before starting work. It contains:
 

@@ -4,7 +4,7 @@
 
 ## What Was Observed
 
-A **crash auto-detection and 3-level instant restoration system** that ensures no work is lost when Claude Code crashes:
+A **crash auto-detection and 3-level restoration design** intended to prevent work loss when Claude Code crashes:
 
 - **Level 1 — [recovery checkpoint file]**: Lightweight file-based recovery that captures the essential state before crash
 - **Level 2 — [behavior orientation file]**: Automated next-session bootstrapping that restores operational context

@@ -4,7 +4,7 @@
 
 ## What Was Observed
 
-A system ensuring **behavioral patterns persist even after context compression**, solving the fundamental problem of AI "forgetting how to act" after summarization:
+A system designed to preserve **behavioral patterns after context compression**, addressing the problem of AI "forgetting how to act" after summarization:
 
 - **[behavior orientation file].json**: Encodes WHY (purpose), HOW (methods), and STANCE (behavioral posture) — the three layers of behavioral internalization
 - **SQL externalization**: Critical behavioral data stored in PostgreSQL, immune to context compression

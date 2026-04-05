@@ -2,7 +2,7 @@
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-Running your most expensive AI model on routine tasks is wasting money. But most setups do exactly that because delegation rules do not exist.
+When delegation rules are absent, routine tasks often run on higher-cost models than necessary. This page describes the observed design pattern and its public evidence boundary.
 
 ## What Was Observed
 

@@ -2,7 +2,7 @@
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-The real cause of your AI making the same mistake is not what you think. Multi-cause analysis reveals structural patterns invisible to single-event debugging.
+Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
 
 ## What Was Observed
 

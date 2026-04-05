@@ -4,7 +4,7 @@
 
 ## What Was Observed
 
-A **multi-layer safety system** preventing AI from executing dangerous operations:
+A **multi-layer safety system** designed to block dangerous operations before execution:
 
 - **PreToolUse block hooks**: Intercept and block dangerous tool invocations before they execute
 - **Dangerous command deny**: Complete denial of rm, mv, cp, and other destructive commands

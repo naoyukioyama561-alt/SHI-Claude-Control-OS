@@ -2,7 +2,7 @@
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20(summary)-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
-A new AI session starts knowing the rules but not feeling why they matter. The master-apprentice mechanism transfers not just knowledge, but the weight of past failures.
+A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
 
 ## What Was Observed
 
