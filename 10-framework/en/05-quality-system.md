@@ -4,6 +4,7 @@ AI quality degrades silently. By the time you notice, the damage is already in y
 
 > This document shows the **structural overview** of the quality system.
 > Detailed implementation requirements (REQ-xx) are not included in the public version.
+> *Bracketed labels such as `[external monitoring hook]` mark redacted internal names. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ---
 

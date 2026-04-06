@@ -6,6 +6,8 @@ Most AI memory and governance tools solve one piece of the puzzle — persistenc
 
 A reference point for comparing the maturity of your own AI governance system against the research and commercial landscape as of March 2026.
 
+> *Bracketed labels such as `[redacted]` mark internal names withheld for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).*
+
 **Note**: This comparison is the author's own assessment. Independent third-party verification remains a future goal.
 
 ---
