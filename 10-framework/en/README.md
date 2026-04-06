@@ -12,6 +12,20 @@ This directory contains the English framework documents. Read them in the order 
 | 6 | [06-research-comparison.md](06-research-comparison.md) | Research comparison — SHI vs. existing AI governance approaches |
 | 7 | [07-shi-citations.md](07-shi-citations.md) | SHI theory citations and academic references |
 
+### How to use these documents
+
+For each document, ask yourself:
+
+1. **01 Failure Modes** — Can you name the 3 failure modes your AI triggers most?
+2. **02 Control OS** — Can you explain how the control rules suppress those 3 modes?
+3. **03 Incident Ledger** — Can you find a real failure event similar to what you've experienced?
+4. **04 Three-Layer** — Can you sketch Supervisor / Relay / Worker for your own environment?
+5. **05 Quality System** — Can you apply the 5-set completion check to your last output?
+6. **06 Research Comparison** — Can you articulate how this differs from existing approaches?
+7. **07 SHI Citations** — Can you identify which theoretical claim is most relevant to your work?
+
+> "Read" and "internalized" are different. If you cannot answer the question above, re-read the document.
+
 ---
 
 > Back to [README](../../README.md)
