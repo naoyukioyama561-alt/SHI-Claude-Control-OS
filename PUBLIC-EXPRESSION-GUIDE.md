@@ -1,6 +1,6 @@
 # Public Expression Guide — 公開表現定義集
 
-Version: 4.0 | Last updated: 2026-04-07
+Version: 4.1 | Last updated: 2026-04-07
 
 This document is the single source of truth for every expression used in this public repository.
 
@@ -263,7 +263,7 @@ When a new expression is needed:
 |-----------|---------|------------|
 | EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
-| SVG (conceptual) | `concept-name-en.svg` / `-ja.svg` | `image1.svg`, `fig-01` |
+| SVG (conceptual) | `concept-name-en.svg` (EN) / `concept-name.svg` (JA) | `image1.svg`, `fig-01`, `-ja.svg` |
 | Demo HTML | `demo/en/page.html`, `demo/jp/page.html` | `demo_en.html` |
 | Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
 
@@ -360,6 +360,25 @@ Before any commit:
 - [ ] Code comments checked for Section 3 violations (Section 12)
 - [ ] HTML meta/OGP tags pass SNS crop test (Section 13)
 - [ ] New expressions checked against Section 10
+- [ ] All internal links resolve (no broken links)
+- [ ] LICENSE, CITATION.cff, badges, and GitHub About description are consistent with Section 1
+- [ ] No TODO, placeholder, "coming soon", or draft markers in public files
+- [ ] Badge text follows Section 1 and Section 6 (no "Free tier" in badge labels)
+
+---
+
+## 17.5. Link, Asset & Metadata Integrity
+
+| Check | Rule |
+|-------|------|
+| Internal markdown links | All `[text](path)` must resolve to existing files |
+| Image references | All `![alt](path)` must point to files listed in Section 8 |
+| EN↔JA cross-links | EN file links to JA equivalent must exist, and vice versa |
+| LICENSE | Must say MIT, consistent with CITATION.cff `license:` field |
+| CITATION.cff | `title`, `authors`, `date-released`, `license` must match repo reality |
+| GitHub repo description | Must follow Section 1 (methodology, not product) |
+| Badge text | Shields.io URLs must not contain prohibited terms from Section 6 |
+| Placeholder artifacts | No `TODO`, `FIXME`, `coming soon`, `placeholder`, `draft` in any public file |
 
 ---
 
@@ -376,13 +395,23 @@ When sending this repository for external AI review:
 
 ### 5 Items and their governing sections
 
-| Item | Primary sections | ◎ condition |
+| Item | Primary sections | ◎ condition (all must pass) |
 |------|-----------------|-------------|
-| 初見3秒理解 | 1, 4 (first-impression test) | Pain → solution → try-now in 3 scrolls; reader wants to try and share |
-| 信頼阻害要因ゼロ | 3, 4, 5, 6, 7 | No page causes "what's this?" — brackets explained, no sales language, EN/JA symmetric |
-| 公開安全性 | 0, 5, 8, 13 | No secrets; safety visible as design |
-| OSS受容性 | 1, 6, 9 | No sales feel; participation path clear; "want to contribute" |
-| 誤読耐性 | 2, 3, 4, 7, 13 | Every number labeled; every assertion scoped; SNS crop safe |
+| 初見3秒理解 | 1, 4 | (a) README H1 states project identity per Section 1 (b) Pain statement within first 5 lines (c) "What this is" within first 20 lines (d) "Try it" section with time estimate within first 3 scrolls (e) Interactive demo link within first 3 scrolls |
+| 信頼阻害要因ゼロ | 3, 4, 5, 6, 7 | (a) Zero bracket notation in titles/UI per Section 5 (b) Every page with brackets has a Note: explanation (c) Zero Section 6 prohibited terms (d) EN/JA parity per Section 16 (e) Zero broken internal links |
+| 公開安全性 | 0, 5, 8, 13 | (a) Zero IP/email/token/password in all files per Section 0 surfaces (b) SECURITY.md explains safety design (c) All images registered in Section 8 (d) Demo banners present in first viewport |
+| OSS受容性 | 1, 6, 9 | (a) LICENSE/CONTRIBUTING/CODE_OF_CONDUCT/SECURITY/CITATION exist (b) CONTRIBUTING states non-code contribution welcome (c) Issue templates provide observation/challenge paths (d) Zero Section 6 prohibited terms in entry documents |
+| 誤読耐性 | 2, 3, 4, 7, 13 | (a) Every number has evidence label per Section 2 (b) Every assertion has tone marker per Section 3 (c) Zero Section 3 prohibited patterns (d) EN/JA impression parity per Section 16 (e) SVG text passes Section 2+3 |
+
+### Review output template
+
+For each item, output:
+```
+## [Item name]: ◎ or ○
+Conditions checked: (a)✅ (b)✅ (c)✅ (d)✗ (e)✅
+If ○: Section X, condition (d) violated at [file:line]: "quoted text"
+Proposed fix: [修正案]
+```
 
 ---
 
