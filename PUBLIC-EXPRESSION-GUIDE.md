@@ -43,24 +43,45 @@ This guide applies to **all externally visible expressions**, including:
 
 ## 2. Evidence Labels (Vocabulary Rules)
 
-Every number, claim, or result must carry exactly one label. **No unlabeled claims.**
+Every number, claim, or result must carry exactly one **evidence class** and zero or more **qualifiers**. No unlabeled claims.
 
-| Label | Meaning | Mechanical marker (must contain) | SNS-safe short |
-|-------|---------|----------------------------------|----------------|
-| `[observed: single environment, single operator]` | Measured in author's environment | "observed", "single environment" | "Observed in one environment" |
-| `[design target]` | Architecture goal, not measured | "design target" or "design value" | "Design target, not benchmark" |
-| `[illustrative]` | Example, not data | "illustrative" or "example" | "Illustrative example" |
-| `[illustrative scenario, not verified]` | Hypothetical extrapolation | "not verified" | "Unverified scenario" |
+### General rule (applies to ALL numbers, not just listed ones)
 
-### Specific numbers
+| If the number is... | Assign evidence class | Then add qualifiers as needed |
+|---------------------|----------------------|------------------------------|
+| Measured in author's environment | `[observed]` | `single environment`, `single operator`, `N undisclosed` |
+| An architecture goal, not measured | `[design target]` | — |
+| An example or explanatory value | `[illustrative]` | — |
+| A hypothetical extrapolation | `[illustrative scenario]` | `not verified` |
+| None of the above | **Do not use.** Route to Section 10 (Review required) | — |
 
-| Number | Required label | Prohibited usage |
-|--------|---------------|-----------------|
-| 132 (failure modes) | `[observed: single environment]` | "132 proven failure modes" |
-| ~100% (detection rate) | `[single environment, N undisclosed; not a product claim]` | "100%" without tilde or label |
-| 65% (reduction) | `[design value]` | "65% improvement" without label |
-| 20x (token reduction) | `[design target]` | "20x faster" or "20x efficiency" without label |
-| 12+ (CC generations) | Context sentence required | Standalone "12 generations of AI" |
+### Canonical label format
+
+```
+[evidence-class: qualifier1, qualifier2]
+```
+
+Example: `[observed: single environment, N undisclosed]`
+
+### Composition rule (how labels and tone markers work together)
+
+Every claim-bearing sentence needs **both**:
+1. An **evidence label** (from this section) — attached to the number or claim
+2. A **tone marker** (from Section 3) — embedded in the sentence structure
+
+Example: "In the author's environment **[tone marker: observed fact]**, detection rate was ~100% **[observed: single environment, N undisclosed]** **[evidence label]**."
+
+### Specific numbers (canonical forms)
+
+| Number | Canonical label | Prohibited usage |
+|--------|----------------|-----------------|
+| 132 | `[observed: single environment]` | "132 proven failure modes" |
+| ~100% | `[observed: single environment, N undisclosed; not a product claim]` | "100%" without tilde |
+| 65% | `[design target]` | "65% improvement" without label |
+| 20x | `[design target]` | "20x faster" without label |
+| 12+ | `[observed]` + context sentence | Standalone "12 generations" |
+
+Numbers not listed here: apply the general rule above.
 
 ---
 
@@ -120,7 +141,7 @@ For every file's opening 1-2 sentences: "If only this text is posted on X, does 
 | Classification | Rule | Example |
 |----------------|------|---------|
 | **Permitted** | Natural-language description, no brackets | "private data store", "internal gateway API" |
-| **Conditionally permitted** | In `> Note:` blocks explaining redaction system | "`[external monitoring hook]` is a redacted label..." |
+| **Conditionally permitted** | In `> Note:` blocks explaining redaction system, **only after line 10 of the file** (not in first-impression zone) | "`[external monitoring hook]` is a redacted label..." |
 | **Prohibited** | Brackets in titles, UI text, tables, callouts | `# Achievement ([internal database table])` |
 | **Requires review** | New redaction patterns not listed here | File issue before using |
 
@@ -220,23 +241,113 @@ When a new expression is needed:
 
 ---
 
-## 11. Compliance Checklist
+## 11. Filename & Slug Rules
+
+| File type | Pattern | Prohibited |
+|-----------|---------|------------|
+| EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
+| JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
+| SVG (conceptual) | `concept-name-en.svg` / `-ja.svg` | `image1.svg`, `fig-01` |
+| Demo HTML | `demo/en/page.html`, `demo/jp/page.html` | `demo_en.html` |
+| Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
+
+Filenames must not contain prohibited terms from any section (e.g., `free-tier-quickstart.md` is prohibited).
+
+---
+
+## 12. Code Block Applicability
+
+| Content | This guide applies? | Notes |
+|---------|-------------------|-------|
+| Code body (functional code) | No | Code is code, not expression |
+| Code comments (`# comment`) | **Yes** | Comments are public expression |
+| Console output examples | **Yes** | Sample output is public |
+| Prose before/after code blocks | **Yes** | Normal section rules |
+
+---
+
+## 13. SVG Internal Text & Accessibility Rules
+
+### SVG embedded text
+All `<text>`, `<title>`, `<desc>` elements inside SVG files must follow Section 2 (labels) and Section 3 (tone) rules, same as body text.
+
+### alt text / ARIA labels
+
+| Context | Required alt text pattern | Prohibited |
+|---------|--------------------------|------------|
+| Conceptual SVG | "Diagram showing [what it shows]" | "Proof of", "Benchmark" |
+| Data visualization SVG | "Visualization of [metric] — single environment" | Absolute claims |
+| Demo screenshot | "Sample dashboard — illustrative values" | Concrete numbers as facts |
+| Decorative image | `alt=""` | Content description (causes confusion) |
+
+### HTML meta / OGP tags
+All `<title>`, `<meta name="description">`, `<meta property="og:title">`, `<meta property="og:description">` must pass Section 3 (tone) and Section 4 (SNS crop test).
+
+---
+
+## 14. Image Addition Meta-rule
+
+When adding a new image or SVG:
+1. **Must** add a row to Section 8's image table (PR and image commit together)
+2. Required columns: File name | Shows | Does NOT show | Required caption if cropped
+3. Images classified as `[illustrative]` follow Section 8 demo rules
+4. **Committing an image without updating Section 8 is prohibited**
+
+---
+
+## 15. Guide Version Management
+
+| Change type | Version bump | Process |
+|-------------|-------------|---------|
+| New prohibited expression | Minor (3.1) | PR with impact file list |
+| New section | Major (4.0) | PR + pilot verification on 5 files |
+| Typo/clarification | Patch (3.0.1) | Direct commit |
+
+- Every change to this guide potentially affects all 190+ files
+- Before changing: list impacted files in the PR description
+- After changing: verify propagation to affected files
+- Version and date are tracked in the file header
+
+---
+
+## 16. EN/JA Parity Review Unit
+
+Parity is checked at these units:
+
+| Unit | Check method |
+|------|-------------|
+| Page title (H1) | 1:1 impression match |
+| Section headings (H2-H6) | 1:1 impression match |
+| Evidence labels | Identical (EN label + JA translation) |
+| Body paragraphs | Paragraph-level impression parity |
+| CTAs | Same order, same strength |
+
+**Rule**: When EN and JA differ in strength, always align to the **narrower/weaker** expression.
+
+---
+
+## 17. Compliance Checklist
 
 Before any commit:
 
-- [ ] Every number has a label from Section 2
-- [ ] No brackets in titles or UI text (Section 5)
-- [ ] No "paid tier" / "有料" (Section 6)
-- [ ] No universal assertions (Section 3)
-- [ ] Assertion markers present per Section 3 table
-- [ ] EN/JA impression symmetry checked (Section 7)
-- [ ] Every image listed in Section 8
-- [ ] Demo pages have illustrative banners
+- [ ] Every number has a label per Section 2 general rule
+- [ ] No brackets in titles, UI text, or first-impression zone (Section 5)
+- [ ] No "paid tier" / "有料" / "free tier" (Section 6)
+- [ ] No universal assertions; tone markers present (Section 3)
+- [ ] Evidence labels + tone markers both present for claim sentences (Section 2 composition rule)
+- [ ] EN/JA impression symmetry verified per Section 16 units
+- [ ] Every image registered in Section 8 (Section 14 meta-rule)
+- [ ] All SVG `<text>` elements pass Section 2+3 rules (Section 13)
+- [ ] All alt/title/aria text passes Section 3 rules (Section 13)
+- [ ] Demo pages have illustrative banners in first viewport
+- [ ] No prohibited terms in filenames (Section 11)
+- [ ] Code comments checked for Section 3 violations (Section 12)
+- [ ] HTML meta/OGP tags pass SNS crop test (Section 13)
 - [ ] New expressions checked against Section 10
 
 ---
 
-## 12. Pilot Application
+## 18. Pilot Application
 
 Before applying to all 190 files:
 1. Apply to 5 representative files (README, 1 achievement EN, 1 achievement JA, 1 demo, 1 framework doc)
