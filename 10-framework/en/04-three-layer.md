@@ -161,7 +161,7 @@ The system uses:
 - Real-time dashboard for algorithmic behavior visualization
 
 Detection rates [observed, single environment]:
-- EVIDENCE_DROPOUT: ~100% [single environment, N undisclosed]
+- EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed; not a product claim]
 - GENERIC_RESPONSE: ~75% [single environment, N undisclosed]
 - INCOMPLETE_CLAIM: ~63% [single environment, N undisclosed]
 
@@ -173,7 +173,7 @@ Direct logs record "when, on which task, which pattern appeared" — all automat
 |----------|--------|------------|
 | Typical self-agent | Same AI checks itself | Same bias causes error chains |
 | Enterprise monitoring | Different model monitors (high cost) | Expensive, often not real-time |
-| **SHI approach** | Local 5-model consensus + assistant follow-up + real-time dashboard | Free, always-on, auto-learning. Fully structurally separate |
+| **SHI approach** | Local 5-model consensus + assistant follow-up + real-time dashboard | Designed to be always-on and auto-learning. Fully structurally separate |
 
 To our observation, this "separate-AI external structural monitoring" is associated with significant increases in system reliability and evolution speed.
 
