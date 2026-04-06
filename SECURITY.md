@@ -10,7 +10,7 @@ No server-side code, backend, or auth flow. Contains client-side static HTML/JS 
 
 ## Screenshots and Visual Evidence
 
-All original operational screenshots have been removed from the public repository and replaced with SVG conceptual diagrams. This ensures no internal naming conventions, operational labels, or environment-specific information is exposed. The interactive demo (demo/en/ and demo/jp/) provides a safe, static representation of the monitoring system's interface and functionality. If you identify information in any file that you believe poses a security risk, please report it via the security advisory feature above.
+All original operational screenshots have been removed from the public repository and replaced with SVG conceptual diagrams. This is designed to prevent internal naming conventions, operational labels, or environment-specific information from being exposed. The interactive demo (demo/en/ and demo/jp/) provides a safe, static representation of the monitoring system's interface and functionality. If you identify information in any file that you believe poses a security risk, please report it via the security advisory feature above.
 
 ## Redacted Items
 

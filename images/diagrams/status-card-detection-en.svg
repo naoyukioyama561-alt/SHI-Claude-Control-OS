@@ -4,7 +4,7 @@
   <text x="24" y="52" fill="#94a3b8" font-size="9">EVIDENCE_DROPOUT</text>
   <rect x="160" y="40" width="130" height="14" fill="#334155" rx="3"/>
   <rect x="160" y="40" width="130" height="14" fill="#22c55e" rx="3"/>
-  <text x="298" y="52" text-anchor="end" fill="#22c55e" font-size="10" font-weight="600">100%</text>
+  <text x="298" y="52" text-anchor="end" fill="#22c55e" font-size="10" font-weight="600">~100% [observed]</text>
   <text x="24" y="78" fill="#94a3b8" font-size="9">GENERIC_RESPONSE</text>
   <rect x="160" y="66" width="130" height="14" fill="#334155" rx="3"/>
   <rect x="160" y="66" width="98" height="14" fill="#60a5fa" rx="3"/>

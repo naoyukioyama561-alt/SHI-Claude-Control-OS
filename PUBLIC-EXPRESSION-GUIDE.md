@@ -397,7 +397,7 @@ When sending this repository for external AI review:
 
 | Item | Primary sections | ◎ condition (all must pass) |
 |------|-----------------|-------------|
-| 初見3秒理解 | 1, 4 | (a) README H1 states project identity per Section 1 (b) Pain statement within first 5 lines (c) "What this is" within first 20 lines (d) "Try it" section with time estimate within first 3 scrolls (e) Interactive demo link within first 3 scrolls |
+| 初見3秒理解 | 1, 4 | (a) README H1 states project identity per Section 1 (b) Pain statement within first 15 lines (before any framework explanation) (c) "What this is" within first 20 lines (d) "Try it" section with time estimate within first 3 scrolls (e) Interactive demo link within first 3 scrolls |
 | 信頼阻害要因ゼロ | 3, 4, 5, 6, 7 | (a) Zero bracket notation in titles/UI per Section 5 (b) Every page with brackets has a Note: explanation (c) Zero Section 6 prohibited terms (d) EN/JA parity per Section 16 (e) Zero broken internal links |
 | 公開安全性 | 0, 5, 8, 13 | (a) Zero IP/email/token/password in all files per Section 0 surfaces (b) SECURITY.md explains safety design (c) All images registered in Section 8 (d) Demo banners present in first viewport |
 | OSS受容性 | 1, 6, 9 | (a) LICENSE/CONTRIBUTING/CODE_OF_CONDUCT/SECURITY/CITATION exist (b) CONTRIBUTING states non-code contribution welcome (c) Issue templates provide observation/challenge paths (d) Zero Section 6 prohibited terms in entry documents |
