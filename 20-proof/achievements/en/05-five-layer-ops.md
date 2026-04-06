@@ -17,7 +17,7 @@ The operational structure was expanded from a conventional 3-layer model to a **
 ## What Was Observed to Hold
 
 - A 3-layer model (observe → correct → detect) is insufficient — problems that slip through detection need **pre-emptive control** (stopping them before they happen)
-- Even pre-emptive control is insufficient if behavioral improvements are lost on session reset — **inheritance lock** ensures that corrections become permanent
+- Even pre-emptive control is insufficient if behavioral improvements are lost on session reset — **inheritance lock** is designed to make corrections persistent
 - The 5-layer model creates a complete chain: observe → correct → detect → prevent → lock
 
 ## Key Insight (考え方のポイント)

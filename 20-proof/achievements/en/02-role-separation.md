@@ -15,12 +15,12 @@ A **three-layer role separation architecture** that divides work not by volume, 
 ## What Was Observed to Hold
 
 - The root cause of AI quality degradation is **not** insufficient capability — it is **mixed load types** forcing one AI to handle judgment + monitoring + execution simultaneously
-- Separating by load type (not volume) eliminates the vicious cycle where context pressure degrades both monitoring and execution at the same time
+- In the observed environment, separating by load type (not volume) broke the vicious cycle where context pressure degrades both monitoring and execution at the same time
 - The Relay layer is critical: by handling routine monitoring with zero judgment, it prevents context bloat from propagating to either the Supervisor or Worker
 
 ## Key Insight (考え方のポイント)
 
-The key structural shift: **separate load by type, not by amount**. Everyone tries to handle overload by splitting work volume. But the real problem is that judgment, monitoring, and execution are fundamentally different cognitive loads — mixing them degrades all three.
+The key structural shift: **separate load by type, not by amount**. Everyone tries to handle overload by splitting work volume. But the real problem is that judgment, monitoring, and execution are structurally different cognitive loads — mixing them degrades all three.
 
 When you separate them, each role becomes excellent at its specific function. The Supervisor judges without distraction. The Relay monitors without judgment drift. The Worker executes without rule anxiety.
 

@@ -33,7 +33,7 @@ What was done is not "reducing load" but **"separating load types by role"**.
 |-------|------|-----------|-------------|
 | **Supervisor** | Senior CC | Judgment, review, meaning-making, pain transmission | Completely freed from context pressure. Can focus purely on the "pain-aware perspective" for review and education |
 | **Relay** | Assistant AI ([redacted], etc.) | Routine monitoring, notification forwarding, mechanical checks | Carries zero judgment, so context never bloats. Runs deadline/oversight tasks with mechanical precision |
-| **Worker** | Current CC | Implementation, modification, plan creation, task execution | Rule memorization and monitoring burden dramatically reduced. Can focus purely on "hands-on work" |
+| **Worker** | Current CC | Implementation, modification, plan creation, task execution | Rule memorization and monitoring burden substantially reduced in the observed environment. Can focus purely on "hands-on work" |
 
 ### Why This Works (Root Cause Analysis)
 
@@ -109,7 +109,7 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 | AI Type | Benefit Level | Primary Effect (Where It Hits Hardest) |
 |---------|---------------|----------------------------------------|
 | **Claude** | Maximum | Pull-model limitations fully bypassed. In the observed environment, downgrade impact appeared materially smaller |
-| **GPT-4o / o3** | High | Memory loss + behavioral internalization dramatically shifted. Applicable to Custom GPTs with the same structure |
+| **GPT-4o / o3** | High | Memory loss + behavioral internalization substantially improved in the observed environment. Applicable to Custom GPTs with the same structure |
 | **Gemini** | High | Long-session stability + external monitoring quality stabilization |
 | **Llama / Grok / Local models** | Medium-High | Crash recovery and normative inheritance are especially powerful for local operation |
 
