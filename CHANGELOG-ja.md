@@ -9,7 +9,7 @@
 - Claude、GPT、Copilot用Control OSテンプレート（英/日）
 - 検証レベル付き15の実証済み成果
 - PROVE-IT検証プロトコル
-- SCOPE-MATRIX 公開/有料境界定義
+- SCOPE-MATRIX 公開範囲の境界定義
 - インタラクティブ・ダッシュボード（docs/dashboard.html）
 - エビデンスラベル定義付きGLOSSARY（英/日）
 - 悪用考慮事項付きSECURITY.md
