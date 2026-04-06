@@ -6,6 +6,8 @@
 
 A **crash auto-detection and 3-level restoration design** intended to prevent work loss when Claude Code crashes:
 
+*Note: `[recovery checkpoint file]`, `[behavior orientation file]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+
 - **Level 1 — [recovery checkpoint file]**: Lightweight file-based recovery that captures the essential state before crash
 - **Level 2 — [behavior orientation file]**: Automated next-session bootstrapping that restores operational context
 - **Level 3 — [infrastructure health monitor]**: Infrastructure-level monitoring that detects crashes independently and triggers recovery
