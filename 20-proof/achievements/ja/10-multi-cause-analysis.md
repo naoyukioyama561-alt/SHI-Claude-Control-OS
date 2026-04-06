@@ -1,4 +1,4 @@
-# 成果No.10: 複合要因自動解析（なぜなぜ5段＋[internal database table]）
+# 成果No.10: 複合要因自動解析（なぜなぜ5段＋非公開インシデント蓄積基盤）
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 

@@ -26,7 +26,7 @@ A complete **external monitoring and meta-governance system** that breaks the de
 
 The critical design principle: **In this framework, using a structurally separate monitor improved detection**. This is not about adding more monitoring — it is about ensuring the monitor has different algorithmic blind spots than the monitored process.
 
-Any AI system that relies on self-reporting for quality assurance has a structural blind spot.
+In this framework, AI systems that relied mainly on self-reporting showed a structural blind spot; readers should verify in their own environment.
 
 → Full documentation: [`10-framework/04-three-layer.md`](../../../10-framework/en/04-three-layer.md)
 

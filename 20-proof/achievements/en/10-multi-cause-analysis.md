@@ -1,4 +1,4 @@
-# Achievement No.10: Compound Factor Auto-Analysis (5-Why + [internal database table])
+# Achievement No.10: Compound Factor Auto-Analysis (5-Why + private incident store)
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 

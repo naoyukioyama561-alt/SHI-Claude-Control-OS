@@ -14,7 +14,7 @@ A **multi-layer safety system** designed to block dangerous operations before ex
 
 ## What Was Observed to Hold
 
-- AI self-restraint is **fundamentally unreliable** — an AI that decides to be careful is only as careful as its current context allows, which degrades under pressure
+- In the author's observed environment, AI self-restraint **was not reliable enough** for safety-critical operation — an AI that decides to be careful is only as careful as its current context allows, which was observed to degrade under pressure
 - External enforcement (hooks, blocks, deny rules) is structurally superior because it **cannot be overridden by the AI's own reasoning**
 - The permission separation (write only [designated write target], deny all destructive commands) creates a safe sandbox where the AI can operate freely within strict boundaries
 - Block hooks that operate at the tool-use level prevent damage before it occurs, rather than detecting it after
