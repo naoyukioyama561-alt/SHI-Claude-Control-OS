@@ -109,7 +109,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <!-- Remediation -->
 <div class="remediation">
 <div style="color:#fb923c;font-weight:bold;font-size:13px;margin-bottom:8px">対策提示（関連障害グループ）</div>
-<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">Qdrantコンテナ再起動 → docker restart qdrant</div>
+<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">Qdrantコンテナ再起動 → docker restart [vector-db]</div>
 </div>
 
 <!-- Tree -->
@@ -129,7 +129,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 </button>
 <div id="cat-A1">
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">Docker Engine</span><span class="status" style="color:#4ade80">running</span><span class="detail">12 containers up</span></div>
-<div class="item-row"><span>&#x1F7E2;</span><span class="name">db-container</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
+<div class="item-row"><span>&#x1F7E2;</span><span class="name">database-service</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
 <div class="item-row"><span>&#x1F7E2;</span><span class="name">workflow-engine-1</span><span class="status" style="color:#4ade80">running</span><span class="detail">uptime 14d</span></div>
 </div>
 </div>
@@ -268,7 +268,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <div class="knowledge-card">
 <h3 style="color:#fff;font-weight:500;margin-bottom:12px">最近のインシデント</h3>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">C2-3</span><span style="color:#fff;flex:1">Qdrant接続タイムアウト</span><span class="text-xs text-slate-500">12s</span><span class="tag tag-auto">自動</span><span class="text-xs text-slate-500">2026/04/05 08:12</span></div>
-<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">A1-2</span><span style="color:#fff;flex:1">db-container OOM再起動</span><span class="text-xs text-slate-500">45s</span><span class="tag tag-auto">自動</span><span class="text-xs text-slate-500">2026/04/04 23:41</span></div>
+<div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">A1-2</span><span style="color:#fff;flex:1">database-service OOM再起動</span><span class="text-xs text-slate-500">45s</span><span class="tag tag-auto">自動</span><span class="text-xs text-slate-500">2026/04/04 23:41</span></div>
 <div class="incident-row"><span style="color:#f87171">&#x2717;</span><span style="color:#cbd5e1;width:64px">B2-1</span><span style="color:#fff;flex:1">Ollama推論タイムアウト(30s超過)</span><span class="text-xs text-slate-500">0s</span><span class="tag tag-manual">手動</span><span class="text-xs text-slate-500">2026/04/04 15:22</span></div>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">D1-1</span><span style="color:#fff;flex:1">tunnel-wfe接続断</span><span class="text-xs text-slate-500">8s</span><span class="tag tag-auto">自動</span><span class="text-xs text-slate-500">2026/04/03 19:55</span></div>
 <div class="incident-row"><span style="color:#4ade80">&#x2713;</span><span style="color:#cbd5e1;width:64px">C1-1</span><span style="color:#fff;flex:1">PostgreSQL接続プール枯渇</span><span class="text-xs text-slate-500">3s</span><span class="tag tag-auto">自動</span><span class="text-xs text-slate-500">2026/04/03 07:14</span></div>
@@ -296,8 +296,8 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <table>
 <thead><tr><th>コード</th><th>障害内容</th><th>復旧手順</th><th>結果</th><th>時間</th><th>再利用</th><th>自動化</th></tr></thead>
 <tbody id="kn-body">
-<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant接続タイムアウト</td><td class="text-xs text-slate-500">docker restart qdrant</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
-<tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">db-container OOM再起動</td><td class="text-xs text-slate-500">docker restart db-container</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant接続タイムアウト</td><td class="text-xs text-slate-500">docker restart [vector-db]</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">database-service OOM再起動</td><td class="text-xs text-slate-500">docker restart database-service</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">B2-1</td><td style="color:#fff">Ollama推論タイムアウト</td><td class="text-xs text-slate-500">ollama serve restart</td><td><span style="background:rgba(239,68,68,.15);color:#f87171" class="tag">failed</span></td><td>0s</td><td>0</td><td><input type="checkbox"></td></tr>
 <tr><td style="color:#cbd5e1">D1-1</td><td style="color:#fff">tunnel-wfe接続断</td><td class="text-xs text-slate-500">cloudflared restart</td><td><span class="tag tag-auto">success</span></td><td>8s</td><td>7</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">C1-1</td><td style="color:#fff">PostgreSQL接続プール枯渇</td><td class="text-xs text-slate-500">pg_terminate idle conn</td><td><span class="tag tag-auto">success</span></td><td>3s</td><td>2</td><td><input type="checkbox" checked></td></tr>
@@ -359,7 +359,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span class="text-xs text-slate-500">2026/04/05 08:12:34</span>
 </div>
 <div style="color:#cbd5e1;font-size:13px;margin-top:4px">Qdrant接続タイムアウト検知。コンテナ再起動実施。</div>
-<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart qdrant (12秒)</div>
+<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart [vector-db] (12秒)</div>
 </div>
 <div style="border:1px solid #166534;background:rgba(34,197,94,.04);border-radius:8px;padding:12px;margin-bottom:8px">
 <div style="display:flex;align-items:center;justify-content:space-between">
@@ -370,8 +370,8 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 </div>
 <span class="text-xs text-slate-500">2026/04/04 23:41:18</span>
 </div>
-<div style="color:#cbd5e1;font-size:13px;margin-top:4px">db-container OOM Killed検知。自動再起動。</div>
-<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart db-container (45秒)</div>
+<div style="color:#cbd5e1;font-size:13px;margin-top:4px">database-service OOM Killed検知。自動再起動。</div>
+<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart database-service (45秒)</div>
 </div>
 <div style="border:1px solid #991b1b;background:rgba(239,68,68,.04);border-radius:8px;padding:12px;margin-bottom:8px">
 <div style="display:flex;align-items:center;justify-content:space-between">
