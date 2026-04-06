@@ -153,16 +153,16 @@ main{flex:1;padding:24px;overflow-y:auto}
 
 <script>
 const modules = [
-  { name: 'f1_prompt_evolution', desc: 'Weekly CC behavior improvement. Ollama analyzes [behavior-store] violation patterns → auto-suggests recurrence prevention', interval: '1w', last: '2026-04-05 04:00', enabled: true },
+  { name: 'f1_prompt_evolution', desc: 'Weekly CC behavior improvement. Ollama analyzes behavior archive violation patterns → auto-suggests recurrence prevention', interval: '1w', last: '2026-04-05 04:00', enabled: true },
   { name: 'f2_routing_rule_gen', desc: 'Monthly router enhancement. Auto-generates new rules from mis-classification logs → routing_rules.json refresh', interval: '1mo', last: '2026-04-01 04:00', enabled: true },
   { name: 'f3_error_auto_fix', desc: 'Gateway API error log detected → Ollama root cause analysis → fix patch suggestion', interval: '1h', last: '2026-04-05 12:00', enabled: true },
   { name: 'f4_scaffold_gen', desc: 'Auto-generates file/endpoint scaffolds when new task types are added', interval: '1d', last: '2026-04-04 04:00', enabled: true },
   { name: 'f5_state_update', desc: 'Task completion detected → auto-refresh current_state.txt / phase_status.txt', interval: '1h', last: '2026-04-05 12:15', enabled: true },
   { name: 'd5_maintenance', desc: 'Maintenance recovery. Free locks / detect stuck executions / confirm DB persistence / unload Ollama models when RAM > threshold', interval: '15min', last: '2026-04-05 12:10', enabled: true },
   { name: 'd6_dashboard_supply', desc: 'Periodically generate/refresh dashboard display data (health_status.json etc.)', interval: '15min', last: '2026-04-05 12:30', enabled: true },
-  { name: 'id_detector', desc: 'Scan [context-store]/reports/instructions/dialogues for identifiable ID patterns and suggest fixes', interval: '1d', last: '2026-04-04 04:00', enabled: true },
+  { name: 'id_detector', desc: 'Scan context archive/reports/instructions/dialogues for identifiable ID patterns and suggest fixes', interval: '1d', last: '2026-04-04 04:00', enabled: true },
   { name: 'risk_predictor', desc: 'Extract failure pattern structures from past incidents, predict unrealized risks with same structure', interval: '1d', last: '2026-04-04 04:00', enabled: true },
-  { name: 'work_quality_checker', desc: 'Scan recent [context-store] operations for quality issue patterns (insufficient confirmation, omissions, etc.)', interval: '15min', last: '2026-04-05 12:15', enabled: true },
+  { name: 'work_quality_checker', desc: 'Scan recent context archive operations for quality issue patterns (insufficient confirmation, omissions, etc.)', interval: '15min', last: '2026-04-05 12:15', enabled: true },
   { name: 'supervisor_guard', desc: 'Original CC monitor. User directives U-ID matching + duplicate detection + unresolved detection', interval: '15min', last: '2026-04-05 12:15', enabled: true },
   { name: 'privilege_manager', desc: 'Monitor pending directive keywords → auto grant/revoke cc_supervisor admin privilege', interval: 'Every Cycle', last: '2026-04-05 01:30', enabled: true },
   { name: 'tunnel_url_sync', desc: 'Detect Quick Tunnel URL change → generate redirect HTML → FTP upload', interval: '5min', last: '2026-04-05 12:05', enabled: true },

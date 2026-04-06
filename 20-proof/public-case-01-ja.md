@@ -25,6 +25,6 @@ AIコーディングアシスタントに「このPythonコードの問題をす
 
 ## なぜ重要か
 
-FM-09はテスト済みの全AIモデル（Claude、GPT、Copilot）で最も一般的な失敗モードの一つである。Control OSの単一ルール（明示的スコープ宣言の要求）が、手動での繰り返し指摘ではなく構造的にこれに対処する。
+著者の観測環境では [observed: single environment, single operator]、FM-09はClaude、GPT、Copilotのワークフローで繰り返し観測された。本リポジトリで再現可能な主張は、明示的スコープ宣言がBefore/Afterデモで省略行動を減らせるかどうかであり、読者は自身の環境で検証すべきである。
 
 [English version](public-case-01.md)

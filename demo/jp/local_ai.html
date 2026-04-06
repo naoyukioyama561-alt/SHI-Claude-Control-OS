@@ -46,7 +46,7 @@
 <script>
 const councilTopics=['ルーティング分類精度改善','エラーハンドリング方針','バックアップ頻度の最適化','通知閾値の調整','パターン検知の感度設定','推論モデル選択基準','品質チェック自動化範囲','ナレッジ構造化方針'];
 const models=['gemma2','llama3.1','codellama'];
-const assistMsgs=['委任仕様チェック完了: 12/12項目OK','品質パターンP-03検知: スコープ縮小の兆候','ユーザー指示U-049を[context-store]に登録','振り返りテンプレート生成完了','health_monitor閾値超過警告を通知キューに追加','routing_rules.json更新提案を生成','[behavior-store]から週次サマリ生成中','Qdrantインデックス整合性チェック完了'];
+const assistMsgs=['委任仕様チェック完了: 12/12項目OK','品質パターンP-03検知: スコープ縮小の兆候','ユーザー指示U-049をコンテキスト保管領域に登録','振り返りテンプレート生成完了','health_monitor閾値超過警告を通知キューに追加','routing_rules.json更新提案を生成','行動ログ保管領域から週次サマリ生成中','Qdrantインデックス整合性チェック完了'];
 function rnd(a,b){return Math.floor(Math.random()*(b-a+1))+a}
 function initCouncil(){const b=document.getElementById('councilBody');for(let i=0;i<6;i++){const h=12-i;const m=rnd(0,59);const agree=rnd(70,98);const tr=document.createElement('tr');tr.innerHTML=`<td style="color:#64748b">#${48-i}</td><td style="color:#fff">${councilTopics[i%councilTopics.length]}</td><td style="color:#c084fc;font-family:monospace">${models[rnd(0,2)]}</td><td><span style="color:${agree>85?'#4ade80':'#facc15'}">${agree}%</span></td><td style="color:#64748b">${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}</td>`;b.appendChild(tr);}}
 function initAssist(){const d=document.getElementById('assistLogs');for(let i=0;i<8;i++){const h=12-Math.floor(i/2);const m=rnd(0,59);const el=document.createElement('div');el.style.cssText='padding:6px 8px;border-bottom:1px solid rgba(51,65,85,.3);display:flex;gap:8px';el.innerHTML=`<span style="color:#64748b;width:48px;flex-shrink:0">${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}</span><span style="color:#cbd5e1">${assistMsgs[i]}</span>`;d.appendChild(el);}}

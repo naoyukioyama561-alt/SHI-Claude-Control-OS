@@ -12,7 +12,7 @@
 </div>
 <div class="card">
 <h3 style="color:#fff;font-weight:600;margin-bottom:4px">セッションログ</h3>
-<p style="font-size:12px;color:#64748b;margin-bottom:12px">[context-store]から取得した直近の操作記録</p>
+<p style="font-size:12px;color:#64748b;margin-bottom:12px">コンテキスト保管領域から取得した直近の操作記録</p>
 <div id="ccLogs" style="max-height:450px;overflow-y:auto">
 <div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:49</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">quality.html作成 (品質チェックデモページ)</span></div>
 <div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:48</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">supervisor-agent.html作成 (Supervisor Agentデモページ)</span></div>
@@ -34,7 +34,7 @@
 </main>
 <script>
 const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
-const ops=['Read orientation.json','Grep [context-store]','Write demo page','Read page.tsx','Bash docker ps','Agent Explore codebase'];
+const ops=['Read orientation.json','Grep コンテキスト保管領域','Write demo page','Read page.tsx','Bash docker ps','Agent Explore codebase'];
 let msgCount=2847;
 function anim(){const now=Date.now()/1000;const v=P[Math.floor(now%60/15)%4]((now%15)/15);
 document.getElementById('v-msg').textContent=(msgCount+Math.round(v*20)).toLocaleString();

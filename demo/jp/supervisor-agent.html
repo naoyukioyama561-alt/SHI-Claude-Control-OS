@@ -153,16 +153,16 @@ main{flex:1;padding:24px;overflow-y:auto}
 
 <script>
 const modules = [
-  { name: 'f1_prompt_evolution', desc: '週次CC行動改善。[behavior-store]の違反パターンをOllamaで分析→再発防止策を自動提案', interval: '1週間', last: '2026-04-05 04:00', enabled: true },
+  { name: 'f1_prompt_evolution', desc: '週次CC行動改善。行動ログ保管領域の違反パターンをOllamaで分析→再発防止策を自動提案', interval: '1週間', last: '2026-04-05 04:00', enabled: true },
   { name: 'f2_routing_rule_gen', desc: '月次ルーター強化。誤分類ログから新ルールを自動生成→routing_rules.json更新', interval: '1ヶ月', last: '2026-04-01 04:00', enabled: true },
   { name: 'f3_error_auto_fix', desc: 'Gateway APIエラーログ検知→Ollamaで原因分析→修正パッチ提案', interval: '1時間', last: '2026-04-05 12:00', enabled: true },
   { name: 'f4_scaffold_gen', desc: 'タスク種別追加時のファイル/エンドポイント雛形を自動生成', interval: '1日', last: '2026-04-04 04:00', enabled: true },
   { name: 'f5_state_update', desc: 'タスク完了検知→current_state.txt/phase_status.txt自動更新', interval: '1時間', last: '2026-04-05 12:15', enabled: true },
   { name: 'd5_maintenance', desc: '保守回復。ロック解放/スタック実行検知/DB永続化確認/RAM>閾値でOllamaモデルunload', interval: '15分', last: '2026-04-05 12:10', enabled: true },
   { name: 'd6_dashboard_supply', desc: 'ダッシュボード表示用データ(health_status.json等)を定期生成・更新', interval: '15分', last: '2026-04-05 12:30', enabled: true },
-  { name: 'id_detector', desc: '[context-store]/reports/instructions/dialogueをスキャンし、ID化可能なパターンを検知・提案', interval: '1日', last: '2026-04-04 04:00', enabled: true },
+  { name: 'id_detector', desc: 'コンテキスト保管領域/reports/instructions/dialogueをスキャンし、ID化可能なパターンを検知・提案', interval: '1日', last: '2026-04-04 04:00', enabled: true },
   { name: 'risk_predictor', desc: '過去の失敗パターンから構造を抽出し、同構造の未発生リスクを予測', interval: '1日', last: '2026-04-04 04:00', enabled: true },
-  { name: 'work_quality_checker', desc: '[context-store]の直近操作をスキャンし、品質問題パターン(確認不足/省略等)を検知', interval: '15分', last: '2026-04-05 12:15', enabled: true },
+  { name: 'work_quality_checker', desc: 'コンテキスト保管領域の直近操作をスキャンし、品質問題パターン(確認不足/省略等)を検知', interval: '15分', last: '2026-04-05 12:15', enabled: true },
   { name: 'supervisor_guard', desc: '初代CC監視。ユーザー指示のU-ID突合+重複指摘検知+未反映指摘検知', interval: '15分', last: '2026-04-05 12:15', enabled: true },
   { name: 'privilege_manager', desc: 'pending指示のキーワード監視→cc_supervisorの管理者権限を自動Grant/Revoke', interval: '毎サイクル', last: '2026-04-05 01:30', enabled: true },
   { name: 'tunnel_url_sync', desc: 'Quick TunnelのURL変更検知→リダイレクトHTML生成→FTPアップロード', interval: '5分', last: '2026-04-05 12:05', enabled: true },
