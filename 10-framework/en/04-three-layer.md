@@ -115,7 +115,7 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 
 Claude showed the maximum effect, but **other AI systems applying similar structures may see comparable improvements**.
 
-The essence is completing an **OS layer portable to any AI** that achieves "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
+The essence is completing an **OS layer portable to any AI** designed to enable "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
 
 ### Token Efficiency = Power Efficiency
 
@@ -123,7 +123,7 @@ The token consumption efficiency improvement has a direct physical impact on pow
 
 AI power consumption is overwhelmingly (80-90%) in **inference** (rough industry estimate). A single query costs several Wh to tens of Wh (approximately 4Wh for a typical Claude Opus query) [illustrative scenario, not verified].
 
-The SHI approach (SQL externalization + [redacted] + external delegation optimization) achieves:
+The SHI approach (SQL externalization + [redacted] + external delegation optimization) is designed to enable:
 - Massive compression of context-resident data (65% context-resident data reduction via PostgreSQL externalization [design value])
 - Automated "don't do everything yourself" decisions (delegation flow)
 - WHY/HOW behavioral context preserved even after compression
