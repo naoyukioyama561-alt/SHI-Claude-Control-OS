@@ -13,7 +13,7 @@ A system designed to preserve **behavioral patterns after context compression**,
 
 ## What Was Observed to Hold
 
-- Context compression causes **behavioral regression** — the AI loses not just facts but behavioral patterns (verified: 4 instances of 2-hour review forgetting in a single session)
+- Context compression causes **behavioral regression** — the AI loses not just facts but behavioral patterns (in the author's environment, 4 instances [observed: single environment] of 2-hour review forgetting were recorded within a single session)
 - The 3-layer internalization model (WHAT/WHY/HOW) correctly predicts which behaviors survive compression and which don't
 - In the author's observed environment, SQL externalization + [behavior orientation file].json together were associated with **near-complete behavioral restoration** after compression events
 
