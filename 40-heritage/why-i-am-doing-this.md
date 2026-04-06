@@ -20,7 +20,7 @@ These observations led to a question: **Can AI governance be designed as a struc
 
 ## Why This Methodology Matters Beyond My Environment
 
-The failure modes I observed are not unique to my setup. FM-09 (compression-first summarizer), FM-03 (zero-hit completion), FM-20 (safety sanitization) -- these are structural tendencies of large language models. Many users of AI coding assistants encounter similar patterns.
+Several of the observed patterns appear consistent with commonly reported LLM behaviors. FM-09 (compression-first summarizer), FM-03 (zero-hit completion), FM-20 (safety sanitization) -- these are structural tendencies of large language models. Their frequency and severity should be verified in each environment.
 
 What I built is not a product. It is a **methodology for observing, classifying, and structurally preventing AI failures**. The 40 initial failure modes, the control OS templates, and the three-layer separation design are all freely available for anyone to test in their own environment.
 

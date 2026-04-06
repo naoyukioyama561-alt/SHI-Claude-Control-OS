@@ -110,7 +110,7 @@
 
 <rect x="350" y="514" width="290" height="36" rx="6" fill="#052e16" stroke="#166534" stroke-width="0.5"/>
 <text class="small" fill="#86efac" x="495" y="530" text-anchor="middle">構造ルールが強制 → 全件検出</text>
-<text class="tiny" fill="#4ade80" x="495" y="544" text-anchor="middle">ルールがバイアスを上書きし網羅性を保証</text>
+<text class="tiny" fill="#4ade80" x="495" y="544" text-anchor="middle">ルールがバイアスを抑え、網羅性の改善を助ける</text>
 
 <!-- CTA -->
 <line x1="40" y1="564" x2="640" y2="564" stroke="#334155" stroke-width="0.5"/>

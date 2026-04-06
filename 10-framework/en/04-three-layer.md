@@ -63,10 +63,10 @@ This allows **each CC/AI to operate only in its strongest cognitive mode**, stru
 
 ### Overall Impact
 
-1. **Dramatic reduction in human intervention**
+1. **Substantial reduction in human intervention in the observed environment**
    Almost no need to ask "what should I do?"
 
-2. **Complete degradation prevention**
+2. **Observed degradation containment in the documented environment**
    Senior CC remains as a permanent educator even after handover, so pain weight is never lost
 
 3. **Quality and speed simultaneously**
@@ -106,7 +106,7 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 
 | AI Type | Benefit Level | Primary Effect (Where It Hits Hardest) |
 |---------|---------------|----------------------------------------|
-| **Claude** | Maximum | Pull-model limitations fully bypassed. Pro downgrade impact reduced to near-zero |
+| **Claude** | Maximum | Pull-model limitations fully bypassed. In the observed environment, downgrade impact appeared materially smaller |
 | **GPT-4o / o3** | High | Memory loss + behavioral internalization dramatically shifted. Applicable to Custom GPTs with the same structure |
 | **Gemini** | High | Long-session stability + external monitoring quality stabilization |
 | **Llama / Grok / Local models** | Medium-High | Crash recovery and normative inheritance are especially powerful for local operation |
