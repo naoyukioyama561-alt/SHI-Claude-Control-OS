@@ -1,6 +1,6 @@
 # Public Expression Guide — 公開表現定義集
 
-Version: 3.0 | Last updated: 2026-04-06
+Version: 4.0 | Last updated: 2026-04-07
 
 This document is the single source of truth for every expression used in this public repository.
 
@@ -201,12 +201,24 @@ Every image and demo page is a standalone public artifact.
 
 ### Images
 
-| Image file | Shows | Does NOT show | Required caption if cropped |
+| Image file (EN/JA pair) | Shows | Does NOT show | Required caption if cropped |
 |-----------|-------|--------------|----------------------------|
-| before-after-comparison-en.svg | Conceptual before/after | Not measured data | "Conceptual — verify with PROVE-IT.md" |
-| status-card-detection-en.svg | Detection rate visualization | Not benchmark | "Single environment — see metrics.md" |
-| three-layer-separation-en.svg | Architecture diagram | Not deployment guide | "Design architecture" |
-| dashboard-overview-en.svg | Dashboard layout concept | Not live dashboard | "Illustrative layout — all values are samples" |
+| before-after-comparison | Conceptual before/after of behavior | Not measured data | "Conceptual — verify with PROVE-IT.md" |
+| cc-heritage-inheritance | Heritage weight transfer concept | Not operational data | "Conceptual design — verify in your environment" |
+| dashboard-overview | Dashboard layout concept | Not live dashboard | "Illustrative layout — all values are samples" |
+| detection-trend-comparison | Detection trend visualization | Not benchmark | "Single environment trend — see metrics.md" |
+| mini-quality-layers | Quality system overview (compact) | Not implementation spec | "Design overview" |
+| mini-shi-propositions | SHI theory propositions (compact) | Not proven theory | "Theoretical framework overview" |
+| mini-three-layer | Three-layer architecture (compact) | Not deployment guide | "Design architecture" |
+| quality-system-4plus1 | 4+1 quality layer diagram | Not operational data | "Design architecture" |
+| session-continuity-card | Session continuity concept | Not measured data | "Design concept" |
+| status-card-detection | Detection rate card | Not benchmark | "Single environment — see metrics.md" |
+| status-card-health | Health check card | Not live status | "Illustrative status" |
+| status-card-quality | Quality metrics card | Not benchmark | "Illustrative metrics" |
+| status-card-structure | Structure overview card | Not deployment | "Design overview" |
+| three-layer-separation | Three-layer architecture (full) | Not deployment guide | "Design architecture" |
+
+Each image exists as `-en.svg` (English) and `.svg` (Japanese). Both must follow the same rules.
 
 ### Demo pages
 - Classification: `[illustrative]`
@@ -351,7 +363,30 @@ Before any commit:
 
 ---
 
-## 18. Pilot Application
+## 18. External AI Review Procedure
+
+When sending this repository for external AI review:
+
+1. **Include this file (PUBLIC-EXPRESSION-GUIDE.md) in the zip**
+2. **Instruction to reviewer**: "Read PUBLIC-EXPRESSION-GUIDE.md first. It is the single source of truth. Judge each of the 5 items (初見3秒理解, 信頼阻害要因ゼロ, 公開安全性, OSS受容性, 誤読耐性) as ◎ or ○ based solely on whether this guide's conditions are met."
+3. **◎**: All conditions in this guide are satisfied
+4. **○**: One or more conditions in this guide are violated. Reviewer must cite the Section number, condition, file path, and line
+5. **Additional proposals**: Reviewer may suggest improvements beyond this guide's scope, but these do not affect ◎/○ judgment
+6. **Prohibited**: Judging ○ for reasons not defined in this guide
+
+### 5 Items and their governing sections
+
+| Item | Primary sections | ◎ condition |
+|------|-----------------|-------------|
+| 初見3秒理解 | 1, 4 (first-impression test) | Pain → solution → try-now in 3 scrolls; reader wants to try and share |
+| 信頼阻害要因ゼロ | 3, 4, 5, 6, 7 | No page causes "what's this?" — brackets explained, no sales language, EN/JA symmetric |
+| 公開安全性 | 0, 5, 8, 13 | No secrets; safety visible as design |
+| OSS受容性 | 1, 6, 9 | No sales feel; participation path clear; "want to contribute" |
+| 誤読耐性 | 2, 3, 4, 7, 13 | Every number labeled; every assertion scoped; SNS crop safe |
+
+---
+
+## 19. Pilot Application
 
 Before applying to all 190 files:
 1. Apply to 5 representative files (README, 1 achievement EN, 1 achievement JA, 1 demo, 1 framework doc)
