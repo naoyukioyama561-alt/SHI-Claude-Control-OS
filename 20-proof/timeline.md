@@ -3,6 +3,8 @@
 Observation period: late 2025 -- March 2026. Observation and documentation proceeded in parallel; the SSRN paper was initially posted during the early observation phase and updated as the work progressed. Paper published on SSRN: 2025.
 
 A chronological record of what was observed when, over approximately one month.
+
+> *Bracketed labels such as `[internal database table]` mark redacted internal names. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).*
 These are facts, not claims.
 
 ---
