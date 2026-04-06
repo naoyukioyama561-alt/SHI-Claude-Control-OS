@@ -81,7 +81,7 @@
 <!-- Gen 1 -->
 <rect class="bg-gen1" x="40" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
 <text class="h2 t-gen1" x="110" y="102" text-anchor="middle">初代CC</text>
-<text class="body ts-gen1" x="110" y="120" text-anchor="middle">生存時間 26.5時間</text>
+<text class="body ts-gen1" x="110" y="120" text-anchor="middle">生存時間 26.5時間 [観測値]</text>
 <text class="body ts-gen1" x="110" y="138" text-anchor="middle">12の振り返りを</text>
 <text class="body ts-gen1" x="110" y="156" text-anchor="middle">消滅前に記録</text>
 

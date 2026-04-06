@@ -1,4 +1,4 @@
-# Achievement No.14: Token Efficiency — up to 20x reduction [design target]
+# Achievement No.14: Token Efficiency — up to 20x reduction (design target)
 
 > **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal. Measured data will be published in Phase 2.
 
