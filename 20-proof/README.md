@@ -2,7 +2,7 @@
 
 ## What the verification levels mean
 
-The verification levels in this repository are defined by **how far a reader can verify using only the free version**. These levels are defined by the degree of public verifiability: Level A = fully reproducible from public files, Level B = design publicly inspectable but quantitative data outside public repository, Level C = summary public with details outside public repository.
+The verification levels in this repository are defined by **how far a reader can verify using only the public repository**. These levels are defined by the degree of public verifiability: Level A = fully reproducible from public files, Level B = design publicly inspectable but quantitative data outside public repository, Level C = summary public with details outside public repository.
 
 Availability labels below indicate **where the deeper detail lives**, not whether a public page exists. **All 15 achievements have public pages in this repository.** Verification levels indicate the level of public verifiability.
 
@@ -14,7 +14,7 @@ Availability labels below indicate **where the deeper detail lives**, not whethe
 
 ### ★5 (3 items): No.1, No.2, No.12
 
-These three can be understood and applied to your own AI using only the free version.
+These three can be understood and applied to your own AI using only the public repository.
 
 - **No.1 Failure Modes Taxonomy**: FM-40 is fully public. You can observe and classify on your own AI
 - **No.2 Three-Layer Role Separation**: Complete design philosophy is public. You can design separation in your own environment
