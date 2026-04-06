@@ -1,6 +1,6 @@
 # Control OS for Copilot — Minimal Version
 
-> This is a minimal English adaptation. Full FM-specific countermeasures are in the [Japanese version](control-os-copilot.md).
+> This English version is fully functional for testing. A Japanese version with additional FM-specific countermeasures is also available:(control-os-copilot.md).
 
 [日本語版 / Japanese](control-os-copilot.md)
 
@@ -29,4 +29,4 @@ Paste these rules into Copilot's system prompt or custom instructions:
 
 ---
 
-> Based on the SHI failure-mode taxonomy. Full Japanese version with FM-specific countermeasures: [control-os-copilot.md](control-os-copilot.md)
+> Based on the SHI failure-mode taxonomy. Japanese version with additional FM-specific countermeasures: [control-os-copilot.md](control-os-copilot.md)

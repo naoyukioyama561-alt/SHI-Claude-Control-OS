@@ -1,6 +1,6 @@
 # Control OS for GPT — Minimal Version
 
-> This is a minimal English adaptation. Full FM-specific countermeasures are in the [Japanese version](control-os-gpt.md).
+> This English version is fully functional for testing. A Japanese version with additional FM-specific countermeasures is also available: [control-os-gpt.md](control-os-gpt.md).
 
 [日本語版 / Japanese](control-os-gpt.md)
 
@@ -29,4 +29,4 @@ Paste these rules into GPT's Custom Instructions or system prompt:
 
 ---
 
-> Based on the SHI failure-mode taxonomy. Full Japanese version with FM-specific countermeasures: [control-os-gpt.md](control-os-gpt.md)
+> Based on the SHI failure-mode taxonomy. Japanese version with additional FM-specific countermeasures: [control-os-gpt.md](control-os-gpt.md)
