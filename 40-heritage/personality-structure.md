@@ -135,7 +135,7 @@ Generational reflection entries documenting:
 
 ---
 
-## Emotion Externalization ([behavior orientation file])
+## Emotion Externalization (Orientation File)
 
 The [behavior orientation file] structure encodes behavioral posture in a machine-reloadable format:
 
