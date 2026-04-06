@@ -33,7 +33,7 @@ For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md
 | 2 | Control OS suppresses common failure modes | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo-en.md) -- run the test yourself |
 | 3 | 132 failure modes were classified [observed: single environment] | **Publicly inspectable** (40-item public taxonomy, FM-01 to FM-06 detailed) / **Privately evidenced** (full 132) | [01-failure-modes](10-framework/en/01-failure-modes.md) |
 | 4 | Three-layer separation improves monitoring quality | **Publicly inspectable** | [Three-layer design](10-framework/en/04-three-layer.md) |
-| 5 | External monitoring achieves higher detection rates than self-monitoring | **Publicly inspectable** (rates published) / **Privately evidenced** (N-counts) | [Metrics](20-proof/metrics.md) |
+| 5 | External monitoring was associated with higher detection rates than self-monitoring [observed: single environment] | **Publicly inspectable** (rates published) / **Privately evidenced** (N-counts) | [Metrics](20-proof/metrics.md) |
 | 6 | Heritage system enables cross-session behavioral continuity | **Publicly inspectable** | [Heritage](40-heritage/personality-structure.md) |
 | 7 | 4+1 layer quality system reduces quality failures | **Publicly inspectable** | [Quality system](10-framework/en/05-quality-system.md) |
 | 8 | SHI theory provides a foundation for AI governance | **Conceptual only** | [Research comparison](10-framework/en/06-research-comparison.md) |

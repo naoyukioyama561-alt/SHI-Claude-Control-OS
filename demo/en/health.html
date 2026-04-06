@@ -109,7 +109,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <!-- Remediation -->
 <div class="remediation">
 <div style="color:#fb923c;font-weight:bold;font-size:13px;margin-bottom:8px">Remediation (Related Failure Group)</div>
-<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">QdrantContainer restart → docker restart [vector-db]</div>
+<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">QdrantContainer restart → docker restart qdrant-server</div>
 </div>
 
 <!-- Tree -->
@@ -296,7 +296,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <table>
 <thead><tr><th>Code</th><th>Incident</th><th>Recovery</th><th>Result</th><th>Duration</th><th>Reuse</th><th>Auto</th></tr></thead>
 <tbody id="kn-body">
-<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant connection timeout</td><td class="text-xs text-slate-500">docker restart [vector-db]</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant connection timeout</td><td class="text-xs text-slate-500">docker restart qdrant-server</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">database-service OOM restart</td><td class="text-xs text-slate-500">docker restart database-service</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">B2-1</td><td style="color:#fff">Ollama inference timeout</td><td class="text-xs text-slate-500">ollama serve restart</td><td><span style="background:rgba(239,68,68,.15);color:#f87171" class="tag">failed</span></td><td>0s</td><td>0</td><td><input type="checkbox"></td></tr>
 <tr><td style="color:#cbd5e1">D1-1</td><td style="color:#fff">tunnel-wfe connection down</td><td class="text-xs text-slate-500">cloudflared restart</td><td><span class="tag tag-auto">success</span></td><td>8s</td><td>7</td><td><input type="checkbox" checked></td></tr>
@@ -359,7 +359,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span class="text-xs text-slate-500">2026/04/05 08:12:34</span>
 </div>
 <div style="color:#cbd5e1;font-size:13px;margin-top:4px">Qdrant connection timeout detected. Container restart performed.</div>
-<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">recovery: docker restart [vector-db] (12sec)</div>
+<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">recovery: docker restart qdrant-server (12sec)</div>
 </div>
 <div style="border:1px solid #166534;background:rgba(34,197,94,.04);border-radius:8px;padding:12px;margin-bottom:8px">
 <div style="display:flex;align-items:center;justify-content:space-between">

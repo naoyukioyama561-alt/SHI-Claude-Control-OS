@@ -109,7 +109,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <!-- Remediation -->
 <div class="remediation">
 <div style="color:#fb923c;font-weight:bold;font-size:13px;margin-bottom:8px">対策提示（関連障害グループ）</div>
-<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">Qdrantコンテナ再起動 → docker restart [vector-db]</div>
+<div style="background:rgba(249,115,22,.05);border-radius:6px;padding:8px;font-size:13px;color:#fdba74">Qdrantコンテナ再起動 → docker restart qdrant-server</div>
 </div>
 
 <!-- Tree -->
@@ -296,7 +296,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <table>
 <thead><tr><th>コード</th><th>障害内容</th><th>復旧手順</th><th>結果</th><th>時間</th><th>再利用</th><th>自動化</th></tr></thead>
 <tbody id="kn-body">
-<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant接続タイムアウト</td><td class="text-xs text-slate-500">docker restart [vector-db]</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
+<tr><td style="color:#cbd5e1">C2-3</td><td style="color:#fff">Qdrant接続タイムアウト</td><td class="text-xs text-slate-500">docker restart qdrant-server</td><td><span class="tag tag-auto">success</span></td><td>12s</td><td>5</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">A1-2</td><td style="color:#fff">database-service OOM再起動</td><td class="text-xs text-slate-500">docker restart database-service</td><td><span class="tag tag-auto">success</span></td><td>45s</td><td>3</td><td><input type="checkbox" checked></td></tr>
 <tr><td style="color:#cbd5e1">B2-1</td><td style="color:#fff">Ollama推論タイムアウト</td><td class="text-xs text-slate-500">ollama serve restart</td><td><span style="background:rgba(239,68,68,.15);color:#f87171" class="tag">failed</span></td><td>0s</td><td>0</td><td><input type="checkbox"></td></tr>
 <tr><td style="color:#cbd5e1">D1-1</td><td style="color:#fff">tunnel-wfe接続断</td><td class="text-xs text-slate-500">cloudflared restart</td><td><span class="tag tag-auto">success</span></td><td>8s</td><td>7</td><td><input type="checkbox" checked></td></tr>
@@ -359,7 +359,7 @@ td{padding:8px;border-bottom:1px solid rgba(51,65,85,.5)}
 <span class="text-xs text-slate-500">2026/04/05 08:12:34</span>
 </div>
 <div style="color:#cbd5e1;font-size:13px;margin-top:4px">Qdrant接続タイムアウト検知。コンテナ再起動実施。</div>
-<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart [vector-db] (12秒)</div>
+<div style="color:#64748b;font-size:12px;margin-top:4px;font-family:monospace">復旧: docker restart qdrant-server (12秒)</div>
 </div>
 <div style="border:1px solid #166534;background:rgba(34,197,94,.04);border-radius:8px;padding:12px;margin-bottom:8px">
 <div style="display:flex;align-items:center;justify-content:space-between">

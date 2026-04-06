@@ -66,7 +66,7 @@ const T=[
 {id:'chat-interval',t:'ChatIntervalAdjuster',c:'Voice App（例示）',y:'ナレッジ',df:'返信間隔パターン分析でproactive会話タイミングを最適化するサービス。',dt:'過去の返信間隔統計から最適な話しかけタイミング算出。',sr:'伏字化サービスディレクトリ/chatIntervalAdjuster.ts',rl:['proactive-chat'],cx:'proactive会話の空気読み機能。'},
 {id:'voice-app-db',t:'Voice App DBテーブル一覧',c:'Voice App（例示）',y:'ナレッジ',df:'SQLite全テーブル。17+テーブル。users, conversations, emotion_history, memories等。',dt:'user_settings, cached_responses, weekly_sessions, session_rules, ai_usage_logs, user_voice_prefs, behavior_feedback, user_happiness_log, open_loops, topic_knowledge。',sr:'伏字化サービスディレクトリ/database.ts',rl:['sqlite'],cx:'サービスごとにテーブル追加。'},
 {id:'ssl',t:'自己証明書 (SSL)',c:'Voice App（例示）',y:'ナレッジ',df:'伏字化した音声サービス HTTPS エンドポイント用の自己署名証明書。RSA 2048bit、有効期限365日。',dt:'ホスト識別子は意図的に伏字化しています。マイク使用 (getUserMedia) には HTTPS が必須です。',sr:'redacted certificate path',rl:['redacted voice-service'],cx:'ブラウザ初回アクセス時に証明書警告を手動承認する場合があります。'},
-{id:'mem-policy',t:'memory_policy.json',c:'Voice App（例示）',y:'ナレッジ',df:'記憶統合ルール定義。短期→長期記憶の昇格条件・期限切れルール。',dt:'short_term_ttl_hours, long_term_ttl_days, promotion_threshold, max_open_loops。',sr:'[config-path]',rl:['memory-consolidation'],cx:'記憶の重要度に基づく自動昇格・削除制御。'},
+{id:'mem-policy',t:'memory_policy.json',c:'Voice App（例示）',y:'ナレッジ',df:'記憶統合ルール定義。短期→長期記憶の昇格条件・期限切れルール。',dt:'short_term_ttl_hours, long_term_ttl_days, promotion_threshold, max_open_loops。',sr:'config/',rl:['memory-consolidation'],cx:'記憶の重要度に基づく自動昇格・削除制御。'},
 {id:'proactive',t:'proactive会話（自発会話）',c:'機能',y:'チャット機能',df:'ユーザーの沈黙が5分続いた時にシアから自発的に話しかける機能。',dt:'伏字化APIエンドポイントエンドポイント。cooldown5分、Gemini優先+ChatGPTフォールバック。',sr:'redacted internal reference',rl:['redacted backend service','gemini'],cx:''},
 {id:'three-layer',t:'三層AI役割分担',c:'設計契約',y:'ナレッジ',df:'Claude Code の作業効率化ルール。Explore→Plan→Main の3層構造。',dt:'第1層: Task(Explore) - ログスキャン。第2層: Task(Plan) - 設計ドラフト。第3層: Main - 最終判断・実装。',sr:'CLAUDE.md',rl:['Token最小化'],cx:'5ファイル以上の横断読み込みは必ず第1層に委譲。'},
 {id:'result-t',t:'Result<T> パターン',c:'設計契約',y:'ナレッジ',df:'サービス層の戻り値型契約。{ok:true, value:T} | {ok:false, error:AppError}。throw 禁止。',dt:'services/types.ts で定義。ok<T>() と fail<T>() ヘルパー。ErrorCode: VALIDATION/NOT_FOUND/CONFLICT/DB/INTERNAL。',sr:'伏字化サービスディレクトリ/types.ts',rl:['AppError','DTO'],cx:'新規サービスから Result<T> に移行。'},
@@ -79,7 +79,7 @@ const T=[
 {id:'state-dir',t:'state/ ディレクトリ',c:'運用',y:'ナレッジ',df:'SHI-Claude-Control-OS のシステム状態管理ディレクトリ。tool/ スクリプトのみが更新権限を持つ。',dt:'redacted state file, redacted state file, redacted state file, redacted state file等。',sr:'redacted internal document',rl:['workflow-engine v5 契約'],cx:'v5 契約の中核。直接編集禁止、tool/ 経由のみ。'},
 {id:'trace',t:'trace_id',c:'運用',y:'ナレッジ',df:'リクエストの一意識別子。Core Pipeline で自動生成され、全WFノードに伝搬。',dt:'Set_TraceId ノードで生成。feedback_log テーブルに記録。',sr:'Core Pipeline WF',rl:['Core Pipeline','feedback_log'],cx:'実行指示→分類→応答→監査の全過程を追跡可能。'},
 {id:'op-know',t:'operational_knowledge.jsonl',c:'運用',y:'ナレッジ',df:'運用ナレッジ蓄積。障害対応・設定変更等のJSONL記録。',dt:'event_type, description, resolution, timestamp。',sr:'redacted state file',rl:['material-library'],cx:'運用経験の構造化蓄積。'},
-{id:'chat-queue',t:'chat_send_queue.json',c:'運用',y:'ナレッジ',df:'チャット送信キュー。SHI-Claude-Control-OS→Voice App送信待ちメッセージ管理。キュー形式で蓄積→順次送信。',dt:'',sr:'[state-path]',rl:['api-gateway','chat-sync'],cx:'非同期メッセージバッファ。'},
+{id:'chat-queue',t:'chat_send_queue.json',c:'運用',y:'ナレッジ',df:'チャット送信キュー。SHI-Claude-Control-OS→Voice App送信待ちメッセージ管理。キュー形式で蓄積→順次送信。',dt:'',sr:'state/',rl:['api-gateway','chat-sync'],cx:'非同期メッセージバッファ。'},
 ];
 
 const TYPE_CLS={'用語':'type-用語','ナレッジ':'type-ナレッジ','チャット機能':'type-チャット機能','機能':'type-機能'};

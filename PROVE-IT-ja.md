@@ -31,7 +31,7 @@
 | 2 | Control OSはよくある失敗モードを抑制する | **公開利用可** | [Before/Afterデモ](30-adoption/ja/try/before-after-demo.md) -- 自分でテスト実行 |
 | 3 | 132の失敗モードが分類された | **公開検査可**（40項目公開分類体系、FM-01〜FM-06詳細開示） / **非公開証拠**（全132） | [01-failure-modes](10-framework/ja/01-failure-modes.md) |
 | 4 | 3層分離が監視品質を向上させる | **公開検査可** | [3層設計](10-framework/ja/04-three-layer.md) |
-| 5 | 外部監視は自己監視より高い検知率を達成する | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics-ja.md) |
+| 5 | 外部監視は自己監視より高い検知率と関連が観測された [observed: 単一環境] | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics-ja.md) |
 | 6 | 継承システムがセッション横断の行動継続性を実現する | **公開検査可** | [Heritage](40-heritage/ja/personality-structure.md) |
 | 7 | 4+1層品質システムが品質障害を低減する | **公開検査可** | [品質システム](10-framework/ja/05-quality-system.md) |
 | 8 | SHI理論がAI統治の基盤を提供する | **概念のみ** | [研究比較](10-framework/ja/06-research-comparison.md) |
