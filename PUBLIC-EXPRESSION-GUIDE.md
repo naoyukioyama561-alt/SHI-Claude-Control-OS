@@ -28,6 +28,8 @@ This guide applies to **all externally visible expressions**, including:
 
 **Not in scope**: Code logic itself (functional code, not comments).
 
+**Safety scan clarification**: "Token" in security context means authentication tokens, API keys, secrets — NOT general English words like "Token Monitor" (a dashboard page title) or "token consumption" (a methodology term).
+
 ---
 
 ## 1. Project Identity

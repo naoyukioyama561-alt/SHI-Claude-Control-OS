@@ -54,7 +54,7 @@ const T=[
 {id:'embed',t:'Embedding（埋め込み）',c:'AI層',y:'用語',df:'テキストを固定長の数値ベクトルに変換する処理。意味的な類似度計算に使用。',dt:'OpenAI text-embedding-3-small (1536次元)。Knowledge_Ingest/Search WF で呼び出し。',sr:'OpenAI API',rl:['Qdrant','RAG','Cosine'],cx:'ナレッジ投入時にベクトル化してQdrantに格納。'},
 {id:'dashboard',t:'SHI-Claude-Control-OS Dashboard',c:'インフラ',y:'ナレッジ',df:'SHI-Claude-Control-OS環境の管理ダッシュボード。',dt:'standalone ビルド。リバースプロキシ経由で外部公開。',sr:'伏字化アプリディレクトリ/',rl:['Docker Compose'],cx:'state/ を ro マウントして進捗表示。'},
 {id:'qdrant',t:'Qdrant',c:'インフラ',y:'用語',df:'ベクトルデータベース。ナレッジの埋め込みベクトルを格納し、類似度検索を提供。',dt:'Dockerコンテナ（ローカルベクトルDBエンドポイント）。コレクション設定は例示値。',sr:'公式: qdrant.tech',rl:['RAG','embedding'],cx:'SHI-Claude-Control-OS のナレッジ基盤。'},
-{id:'systemd',t:'systemd',c:'インフラ',y:'用語',df:'Linuxサービス管理。プロセス永続化。[system-service], health_monitor.service等。',dt:'',sr:'systemctl',rl:['redacted backend service'],cx:'VM再起動時の自動起動保証。'},
+{id:'systemd',t:'systemd',c:'インフラ',y:'用語',df:'Linuxサービス管理。プロセス永続化。システムサービスによるプロセス永続化。',dt:'',sr:'systemctl',rl:['redacted backend service'],cx:'VM再起動時の自動起動を支援する設計。'},
 {id:'pg-qdrant',t:'PostgreSQL + Qdrant',c:'データベース',y:'ナレッジ',df:'SHI-Claude-Control-OSのデュアルDB構成。PostgreSQLがリレーショナル、Qdrantがベクトルデータを担当。',dt:'PostgreSQL: [例示スキーマ]。Qdrant: [例示ベクトル設定]。',sr:'例示参照',rl:['PostgreSQL','Qdrant','RAG'],cx:'構造化データはPostgreSQL、非構造化ナレッジはQdrant。'},
 {id:'cosine',t:'Cosine Similarity',c:'技術用語',y:'用語',df:'ベクトル類似度。0-1(1=完全一致)。Qdrant距離関数。',dt:'ローカルキャッシュbigram類似度にも使用。',sr:'',rl:['embedding','qdrant'],cx:'RAG検索+キャッシュマッチ。'},
 {id:'charm',t:'CharmMixer',c:'Voice App（例示）',y:'ナレッジ',df:'状態に応じた魅力要素(cute/bright/calm/care/special)の比率を計算し応答トーンを調整。',dt:'getCharmRatio(stateName)で状態別比率取得。personalizeCharm()でパーソナライズ。',sr:'伏字化サービスディレクトリ/charmMixer.ts',rl:['stateConfig'],cx:'9状態に5要素比率定義。'},
