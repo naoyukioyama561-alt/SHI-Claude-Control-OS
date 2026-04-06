@@ -88,6 +88,7 @@ Numbers not listed here: apply the general rule above.
 ### Exceptions (no label required)
 - **Conceptual comparisons without numbers** (e.g., Before/After tables describing behavior changes) — these are `[illustrative]` by nature and do not need inline labels
 - **Section/heading structure numbers** (e.g., "3-layer", "4+1", "5-layer") — these are structural names, not claims
+- **Time estimates for reader actions** (e.g., "30 seconds", "5 minutes", "15 minutes") — these are usage guidance, not measured claims
 
 ---
 
