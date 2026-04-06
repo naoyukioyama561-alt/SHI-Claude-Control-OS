@@ -8,8 +8,8 @@ Ask your AI whether it remembers yesterday's discussion. In the author's environ
 
 A PostgreSQL-based memory design intended to avoid summarization loss in the author's environment while preserving full-text storage at the database layer:
 
-- **[internal database table]**: PostgreSQL database preserving every tool_use, assistant_text, and user message without summarization
-- **[internal database table]**: Dedicated table for persisting user instructions across sessions
+- **private data store**: PostgreSQL database preserving every tool_use, assistant_text, and user message without summarization
+- **private data store**: Dedicated table for persisting user instructions across sessions
 - **SQL externalization**: Five-category efficiency improvement (context size reduction, query speed, session continuity, crash resilience, cross-session search)
 
 Unlike standard AI sessions where context is compressed or lost, this system retains the **full conversational and operational history** — enabling any successor CC to operate with complete knowledge.
@@ -18,7 +18,7 @@ Unlike standard AI sessions where context is compressed or lost, this system ret
 
 - In the author's observation, standard AI context summarization causes **systematic knowledge loss** — details that seem unimportant at compression time often prove critical later
 - In the author's environment, external PostgreSQL storage was used to avoid the usual compression/loss tradeoff found in in-context-only memory handling
-- The [internal database table] table design demonstrates that **user preferences and directives can be structurally persisted** rather than relying on in-context repetition
+- The private data store table design demonstrates that **user preferences and directives can be structurally persisted** rather than relying on in-context repetition
 
 ## Key Insight
 
