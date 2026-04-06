@@ -83,6 +83,10 @@ Example: "In the author's environment **[tone marker: observed fact]**, detectio
 
 Numbers not listed here: apply the general rule above.
 
+### Exceptions (no label required)
+- **Conceptual comparisons without numbers** (e.g., Before/After tables describing behavior changes) — these are `[illustrative]` by nature and do not need inline labels
+- **Section/heading structure numbers** (e.g., "3-layer", "4+1", "5-layer") — these are structural names, not claims
+
 ---
 
 ## 3. Meaning Rules (What may be claimed)
@@ -141,7 +145,7 @@ For every file's opening 1-2 sentences: "If only this text is posted on X, does 
 | Classification | Rule | Example |
 |----------------|------|---------|
 | **Permitted** | Natural-language description, no brackets | "private data store", "internal gateway API" |
-| **Conditionally permitted** | In `> Note:` blocks explaining redaction system, **only after line 10 of the file** (not in first-impression zone) | "`[external monitoring hook]` is a redacted label..." |
+| **Conditionally permitted** | In `> Note:` blocks explaining redaction system, **only after the first heading + opening description** (not in the first-impression zone — title, badges, and opening sentence must be bracket-free) | "`[external monitoring hook]` is a redacted label..." |
 | **Prohibited** | Brackets in titles, UI text, tables, callouts | `# Achievement ([internal database table])` |
 | **Requires review** | New redaction patterns not listed here | File issue before using |
 

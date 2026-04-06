@@ -15,7 +15,7 @@ A complete **external monitoring and meta-governance system** that breaks the de
 
 ## What Was Observed to Hold
 
-- **Self-monitoring was observed to be structurally unreliable** because the same algorithmic tendencies that cause errors also cause blind spots in detecting those errors
+- **In the author's observed environment, self-monitoring was not reliable enough** because the same algorithmic tendencies that cause errors also create blind spots in detecting those errors
 - In the author's single observed environment only, structurally separate monitoring showed higher detection than self-reporting alone:
   - EVIDENCE_DROPOUT: ~100% [observed, single environment, N undisclosed] (N-counts disclosed in Phase 1)
   - GENERIC_RESPONSE: 75% [observed, single environment] (N-counts disclosed in Phase 1)
