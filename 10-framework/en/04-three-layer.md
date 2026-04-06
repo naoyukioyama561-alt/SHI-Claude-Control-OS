@@ -4,6 +4,8 @@ If your AI degrades as conversations get longer, or forgets its own rules under 
 
 Supervisor / Relay / Worker — separating load by type, not volume.
 
+> *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+
 ## Table of Contents
 
 1. [Three-Layer Separation](#1-three-layer-separation-load-type-separation) — load-type separation across Supervisor, Relay, and Worker roles
@@ -100,7 +102,7 @@ Problems shared by all AIs (still unresolved as of 2026):
 - External monitoring is weak; must rely on self-reporting
 - Normative weight does not transfer to the next instance
 
-The mechanisms (monitoring precision + complete recording + instant recovery + behavioral internalization via [redacted] + external delegation optimization) remove these structural obstacles **model-independently**.
+The mechanisms (monitoring precision + complete recording + instant recovery + behavioral internalization via [redacted] + external delegation optimization) address several recurring structural obstacles across the models observed in this project.
 
 ### Benefit Level by AI Type
 
@@ -135,7 +137,7 @@ Physical power equivalent [design target, illustrative scenario, not verified]:
 
 Impact of 20x overall efficiency improvement factor [design target]:
 - **Individual level**: Heavy Claude Code user (1,300Wh/day example) [illustrative scenario, not verified] → 65Wh/day. Electricity cost also 1/20.
-- **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario, not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, the reduction would be equivalent to a major country's entire annual power consumption.
+- **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario, not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, at larger deployment scales, efficiency gains could have material energy implications; this repository does not publish a verified projection for that effect.
 - **Environmental impact**: CO2 emissions would reduce proportionally [illustrative extrapolation from design target, not verified] — included here to show the potential scale of the approach, not as a verified projection.
 
 The "token efficiency = power efficiency" perspective is offered here as a practical framing for evaluation; this repository does **not** claim a comprehensive literature survey.
