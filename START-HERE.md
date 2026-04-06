@@ -16,7 +16,7 @@ This project proposes a **structural governance methodology** for AI assistants,
 
 > **Terminology**: Three-layer (role split) ≠ 4+1 (quality stack) ≠ 5-layer (governance cycle). See [GLOSSARY.md](GLOSSARY.md) for definitions.
 
-## What You Get for Free (This GitHub Repository)
+## What You Get from This Public Repository
 
 - **40 Failure Modes** classified across Claude, GPT, and Copilot
 - **Control OS templates** for 3 AI models (copy-paste ready)

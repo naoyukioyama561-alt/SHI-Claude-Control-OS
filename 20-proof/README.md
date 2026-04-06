@@ -30,13 +30,13 @@ Design philosophy is understandable, but quantitative data is provided outside t
 
 Concept is public, but both detailed design and quantitative data are outside this public repository.
 
-## Free / Non-public scope
+## Public / Non-public scope
 
 For per-item scope breakdown, see [achievements/README.md](achievements/README.md).
 
 | Level | Purpose | Includes |
 |-------|---------|----------|
-| **Free** | Experience + methodology | 40-item public FM taxonomy + 15 public achievement pages (6 full + 9 summary) + structural explanations in 10-framework/ + representative SVG diagrams |
+| **Public** | Experience + methodology | 40-item public FM taxonomy + 15 public achievement pages (6 full + 9 summary) + structural explanations in 10-framework/ + representative SVG diagrams |
 | **Phase1** | How to think about building it | 10 design documents + FM 60 items detailed + diagrams + sample conversations + reason_code table |
 | **Phase2** | How to observe structure | All files + all images + all 132 FM items + verification logs + source excerpts |
 | **Book** | AI governance via SHI theory | All 7 chapters + reproduction procedures (no concrete keys) |

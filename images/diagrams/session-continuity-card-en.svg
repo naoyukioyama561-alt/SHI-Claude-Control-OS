@@ -39,10 +39,10 @@
 
   <rect x="530" y="174" width="130" height="72" fill="#22c55e" fill-opacity="0.1" rx="8" stroke="#22c55e" stroke-width="1"/>
   <text x="595" y="196" text-anchor="middle" fill="#94a3b8" font-size="10">Reduction (observed)</text>
-  <text x="595" y="222" text-anchor="middle" fill="#22c55e" font-size="22" font-weight="700">97%</text>
+  <text x="595" y="222" text-anchor="middle" fill="#22c55e" font-size="22" font-weight="700">97% [observed]</text>
 
   <text x="340" y="272" text-anchor="middle" fill="#475569" font-size="9">session: 0a78cdcd-f5a2-4ad1-83d0-ace8257f48bf</text>
 
-  <text x="340" y="292" text-anchor="middle" fill="#64748b" font-size="10">PostgreSQL externalization reduced context-resident data by 97%. Session became self-managing.</text>
+  <text x="340" y="292" text-anchor="middle" fill="#64748b" font-size="10">In the observed environment, PostgreSQL externalization reduced context-resident data by 97% [observed].</text>
   <text x="340" y="308" text-anchor="middle" fill="#475569" font-size="9">Observed in author's environment. Verify in yours.</text>
 </svg>

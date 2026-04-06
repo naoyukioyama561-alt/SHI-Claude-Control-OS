@@ -4,7 +4,7 @@
 
 | Edition | Role | One-line summary |
 |---------|------|-----------------|
-| **Free (GitHub)** | Public verification surface | "Does this methodology work? Try it and see." |
+| **Public (GitHub)** | Public verification surface | "Does this methodology work? Try it and see." |
 | **Phase1** | Skeleton -- how to think about building it | "Here's how we designed it, step by step." |
 | **Phase2** | Full -- how to observe structure | "Here's everything, with structural observation methodology." |
 | **Book** | Systematic treatment via SHI theory | "The evolution from failure to governance, told as a 7-chapter journey." |
@@ -15,7 +15,7 @@
 
 ## Scope Breakdown (7 Categories x 4 Editions)
 
-| Category | Free (GitHub) | Phase1 | Phase2 | Book |
+| Category | Public (GitHub) | Phase1 | Phase2 | Book |
 |----------|--------------|--------|--------|------|
 | **Failure Modes** | 40-item public taxonomy (FM-01 to FM-06 detailed on page, FM-07 onward summarized) | 60 items with event/cause/prevention | All 132 + cause/prevention/effectiveness | All 132 + evidence screenshots + evolution |
 | **Design documents** | Methodology and thinking only | 10 key design files | All files (md/pdf/txt) | Narrative treatment, no raw files |
@@ -27,9 +27,9 @@
 
 ---
 
-## Free Edition: What It Does and Does Not Do
+## Public Edition: What It Does and Does Not Do
 
-### What the free edition provides (5 points)
+### What the public edition provides (5 points)
 
 1. Immediate hands-on experience (Control OS -- 30 seconds to try)
 2. Complete structural methodology (10-framework/ -- why it works)
@@ -37,7 +37,7 @@
 4. Transfer kit (templates -- build in your environment)
 5. Clear scope boundaries (this document -- know what you are getting)
 
-### What the free edition does NOT try to do (5 points)
+### What the public edition does NOT try to do (5 points)
 
 1. Provide full implementation details (that is Phase1/Phase2)
 2. Prove everything quantitatively (some N-counts are outside the public repository)
@@ -67,7 +67,7 @@ Includes: All 132 FM items + all design files + all images + full quality system
 
 Does NOT include: Reproduction keys (paths, API keys, credentials), personal information, full source code for production deployment.
 
-Phase 1 and Phase 2 are described here only to clarify the public boundary. The free repository remains the primary evaluation surface.
+Phase 1 and Phase 2 are described here only to clarify the public boundary. The public repository remains the primary evaluation surface.
 
 ## Book: Systematic Treatment
 
