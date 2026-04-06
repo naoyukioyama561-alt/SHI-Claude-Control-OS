@@ -1,6 +1,32 @@
 # Public Expression Guide — 公開表現定義集
 
-This document is the single source of truth for every expression used in this public repository. All files — text, images, demos, titles — must conform to these definitions.
+Version: 3.0 | Last updated: 2026-04-06
+
+This document is the single source of truth for every expression used in this public repository.
+
+---
+
+## 0. Applicability Surface
+
+This guide applies to **all externally visible expressions**, including:
+
+| Surface | Examples | Sections that apply |
+|---------|----------|-------------------|
+| Markdown body text (EN/JA) | README, achievements, framework docs | 1,2,3,4,5,6,7 |
+| Headings / titles (H1-H6) | Page titles, section headings | 1,3,5 (no brackets) |
+| Demo HTML (UI-visible text) | demo/en/*.html, demo/jp/*.html | 3,4,8 |
+| SVG embedded text | `<text>`, `<title>`, `<desc>`, legends | 2,3,8 |
+| alt text / ARIA labels | `alt=""`, `aria-label=""` | 3,4 |
+| HTML meta / OGP tags | `<title>`, `<meta og:title>`, `<meta description>` | 1,3,4 (SNS crop test) |
+| File names / URL slugs | `01-failure-modes.md`, anchor IDs | Filename rules (below) |
+| Code block comments | `# comment text` | 3 (comments only, not code) |
+| Code block output examples | Fenced block sample output | 3 |
+| CITATION.cff fields | `abstract:`, `keywords:` | 1,3 |
+| Issue/PR templates | `.github/ISSUE_TEMPLATE/*.md` | 3,9 |
+| GitHub repo description | About field | 1 |
+| Badges | shields.io URLs | Filename rules |
+
+**Not in scope**: Code logic itself (functional code, not comments).
 
 ---
 
