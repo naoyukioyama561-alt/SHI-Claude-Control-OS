@@ -4,7 +4,7 @@ AI quality degrades silently. By the time you notice, the damage is already in y
 
 > This document shows the **structural overview** of the quality system.
 > Detailed implementation requirements (REQ-xx) are not included in the public version.
-> *Bracketed labels such as `[external monitoring hook]` mark redacted internal names. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+> *Bracketed labels such as `external monitoring hook` mark redacted internal names. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ---
 
@@ -18,7 +18,7 @@ A quality system addressing 6 structural problems in AI coding assistants:
 5. Declaring instead of acting
 6. Shallow thinking
 
-Operates on top of existing subsystems ([internal subsystems]).
+Operates on top of existing subsystems (internal subsystems).
 
 ---
 
@@ -26,11 +26,11 @@ Operates on top of existing subsystems ([internal subsystems]).
 
 | Layer | Responsibility | Existing Integration |
 |-------|---------------|---------------------|
-| Layer 0 (Observation Gate) | Pre-execution: observe, define target, confirm approval | [external scheduling hook] |
+| Layer 0 (Observation Gate) | Pre-execution: observe, define target, confirm approval | external scheduling hook |
 | Layer 1 (Self) | Self-detection + immediate correction | audit_log self-recording |
-| Layer 2 (Structure) | Hook/watcher auto-detection + rollback | hooks, [external monitoring hook], pattern detection |
-| Layer 3 (Completion Definition) | Evidence + 5-set inspection | [quality verification checklist] |
-| Layer 4 (Third-party Verification) | Pattern escalation + incident logging + learning control | [behavioral pattern database] |
+| Layer 2 (Structure) | Hook/watcher auto-detection + rollback | hooks, external monitoring hook, pattern detection |
+| Layer 3 (Completion Definition) | Evidence + 5-set inspection | quality verification checklist |
+| Layer 4 (Third-party Verification) | Pattern escalation + incident logging + learning control | behavioral pattern database |
 
 ---
 
@@ -56,7 +56,7 @@ Every completion report must include:
 | POLL_SKIP_HOOK_BLOCKED | Polling skip (hook detected) | Layer 2 |
 | POLL_SKIP_CONSECUTIVE | Consecutive polling skip | Layer 2 |
 | STALE_EVIDENCE | Reused old results | Layer 3 |
-| DISCREPANCY_DETECTED | Mismatch with [behavioral pattern database] | Layer 4 |
+| DISCREPANCY_DETECTED | Mismatch with behavioral pattern database | Layer 4 |
 | READ_SKIP_SELF_DETECTED | Skipped reading (self-detected) | Layer 1 |
 | UNVERIFIED_NO_TOOL | Report without tool usage | Layer 2 |
 | READ_SKIP_P49 | Mandatory file read skipped (P-49) | Layer 2 |
@@ -90,8 +90,8 @@ Every completion report must include:
 
 | Condition | Action |
 |-----------|--------|
-| Same reason_code occurs 2+ times | Register as pattern in [behavioral pattern database] |
-| Omission causes user pushback | Record in [internal database table] + register pattern |
+| Same reason_code occurs 2+ times | Register as pattern in behavioral pattern database |
+| Omission causes user pushback | Record in private data store + register pattern |
 | Same reason_code occurs 3+ times | Record in incident log -> trigger permanent countermeasure |
 
 ---
@@ -100,12 +100,12 @@ Every completion report must include:
 
 | Condition | Learning Data Category |
 |-----------|----------------------|
-| verify pass + [external monitoring hook] pass + 5-set complete | High-quality data (priority accumulation) |
+| verify pass + external monitoring hook pass + 5-set complete | High-quality data (priority accumulation) |
 | fail -> correction -> pass cycle | Correction learning data (separate category) |
 | Contains MISQUOTE / declaration-only / false report | Excluded (contamination prevention) |
 | 5-set incomplete | Excluded |
 
-*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+*Note: `external monitoring hook`, `private data store` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ---
 

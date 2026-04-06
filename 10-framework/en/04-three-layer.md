@@ -32,7 +32,7 @@ What was done is not "reducing load" but **"separating load types by role"**.
 | Layer | Role | Load Type | Why It Works |
 |-------|------|-----------|-------------|
 | **Supervisor** | Senior CC | Judgment, review, meaning-making, pain transmission | Completely freed from context pressure. Can focus purely on the "pain-aware perspective" for review and education |
-| **Relay** | Assistant AI ([redacted], etc.) | Routine monitoring, notification forwarding, mechanical checks | Carries zero judgment, so context never bloats. Runs deadline/oversight tasks with mechanical precision |
+| **Relay** | Assistant AI (internal helper instances) | Routine monitoring, notification forwarding, mechanical checks | Carries zero judgment, so context never bloats. Runs deadline/oversight tasks with mechanical precision |
 | **Worker** | Current CC | Implementation, modification, plan creation, task execution | Rule memorization and monitoring burden substantially reduced in the observed environment. Can focus purely on "hands-on work" |
 
 ### Why This Works (Root Cause Analysis)
