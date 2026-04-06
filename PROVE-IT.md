@@ -31,7 +31,7 @@ For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md
 |---|-------|-------------------|-----------------|
 | 1 | AI failure modes are observable and classifiable | **Publicly usable** | [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet-en.md) -- test on your own AI |
 | 2 | Control OS suppresses common failure modes | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo-en.md) -- run the test yourself |
-| 3 | 132 failure modes were classified | **Publicly inspectable** (40-item public taxonomy, FM-01 to FM-06 detailed) / **Privately evidenced** (full 132) | [01-failure-modes](10-framework/en/01-failure-modes.md) |
+| 3 | 132 failure modes were classified [observed: single environment] | **Publicly inspectable** (40-item public taxonomy, FM-01 to FM-06 detailed) / **Privately evidenced** (full 132) | [01-failure-modes](10-framework/en/01-failure-modes.md) |
 | 4 | Three-layer separation improves monitoring quality | **Publicly inspectable** | [Three-layer design](10-framework/en/04-three-layer.md) |
 | 5 | External monitoring achieves higher detection rates than self-monitoring | **Publicly inspectable** (rates published) / **Privately evidenced** (N-counts) | [Metrics](20-proof/metrics.md) |
 | 6 | Heritage system enables cross-session behavioral continuity | **Publicly inspectable** | [Heritage](40-heritage/personality-structure.md) |

@@ -50,7 +50,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 | ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30 sec |
 
-Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/)
+Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/README.md)
 
 ---
 
@@ -108,7 +108,7 @@ You do not need to write code to contribute. The most valuable contribution is a
 
 Testing this repository requires no sign-in. A GitHub account is only needed if you want to open an Issue or PR.
 
-1. **Try it first** — start with [30-adoption/try/](30-adoption/try/)
+1. **Try it first** — start with [30-adoption/try/](30-adoption/try/README.md)
 2. **[Report an observation](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — share what happened in your environment
 3. **[Challenge a claim](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — if something feels overstated, dispute it directly
 4. **Suggest one structural improvement** — open an Issue if the evaluation flow felt unclear or hard to follow

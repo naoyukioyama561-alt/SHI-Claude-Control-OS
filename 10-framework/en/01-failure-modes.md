@@ -229,7 +229,7 @@ This is a shared, model-agnostic control skeleton (expanded in Control OS):
 
 ## Evolution: 40 → 132 Failure Modes (GC03)
 
-The initial 40-item taxonomy above has evolved to **132 items** in the author's operational environment:
+The initial 40-item taxonomy above has evolved to **132 items** [observed: single environment, single operator] in the author's operational environment:
 
 - **P-series**: 90 items (behavioral failure patterns)
 - **ALGO-series**: 40 items (algorithmic behavior patterns)

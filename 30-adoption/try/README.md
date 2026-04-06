@@ -52,7 +52,9 @@ If you see a difference, use [fm-40-cheatsheet-en.md](fm-40-cheatsheet-en.md) to
 
 The FMs that fire most often on your AI = your specific structural weaknesses to control.
 
-## 4. Understand why it works → [10-framework/](../../10-framework/en/)
+## 4. Understand why it works
+
+Continue to [10-framework/en/](../../10-framework/en/README.md) for the structural explanation.
 
 ---
 

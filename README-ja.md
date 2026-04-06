@@ -70,7 +70,7 @@
 - 一人だけが動かし方を知っている
 - 小さなエラーが静かに運用負債になる
 
-**このプロジェクトは、そのパターンを断ち切るための一つの方法を提示する**——AIをもっと信じろと言うのではなく、制御点を定義し、行動を検証し、ワークフローを他の人間にも読めるようにする方法を提供する。
+**このプロジェクトは、そのパターンを断ち切るための一つの試みである**——AIをもっと信じろと言うのではなく、制御点を定義し、行動を検証し、ワークフローを他の人間にも読めるようにする方法を提供する。
 
 ---
 
@@ -106,7 +106,7 @@
 
 このリポジトリを試すだけならサインインは不要です。Issue や PR を出すときだけ GitHub アカウントが必要です。
 
-1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/) から始める
+1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/README.md) から始める
 2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの環境で起きたことを共有する
 3. **[主張に異議を出す](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — 強すぎる表現だと感じたらそのまま指摘する
 4. **構造改善を提案する** — 評価導線がわかりにくかった箇所をIssueで伝える

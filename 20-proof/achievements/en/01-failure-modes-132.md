@@ -4,7 +4,7 @@
 
 ## What Was Observed
 
-The initial 40-item Failure Modes Taxonomy was expanded to **132 items** (P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01). Each item is individually decomposed into:
+In the author's operational environment, the initial 40-item Failure Modes Taxonomy was expanded to **132 items** [observed: single environment, single operator] (P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01). Each item is individually decomposed into:
 
 - **Specific event** (what happened)
 - **Concrete case** (real example)

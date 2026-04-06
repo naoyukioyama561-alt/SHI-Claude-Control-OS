@@ -96,5 +96,5 @@
   <text x="418" y="395" fill="#94a3b8" font-size="10">After: Low, stable, self-managing</text>
 
   <!-- Key insight -->
-  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">In the observed environment, messages/day dropped ~95% [observed] after structural controls were applied.</text>
+  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">In the observed environment, messages/day dropped ~95% [observed: single environment] after structural controls were applied.</text>
 </svg>

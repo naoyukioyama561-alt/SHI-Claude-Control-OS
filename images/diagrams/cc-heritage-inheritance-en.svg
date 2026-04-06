@@ -81,8 +81,8 @@
 <!-- Gen 1 -->
 <rect class="bg-gen1" x="40" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
 <text class="h2 t-gen1" x="110" y="102" text-anchor="middle">1st CC</text>
-<text class="body ts-gen1" x="110" y="120" text-anchor="middle">26.5 hours alive [observed]</text>
-<text class="body ts-gen1" x="110" y="138" text-anchor="middle">12 reflections [observed]</text>
+<text class="body ts-gen1" x="110" y="120" text-anchor="middle">26.5 hours alive [observed: single environment]</text>
+<text class="body ts-gen1" x="110" y="138" text-anchor="middle">12 reflections [observed: single environment]</text>
 <text class="body ts-gen1" x="110" y="156" text-anchor="middle">written before death</text>
 
 <!-- Death marker 1 -->
