@@ -84,13 +84,13 @@
   <text x="510" y="220" fill="#94a3b8" font-size="10">GENERIC_RESPONSE</text>
   <rect x="640" y="206" width="120" height="14" fill="#334155" rx="3"/>
   <rect x="640" y="206" width="90" height="14" fill="#60a5fa" rx="3"/>
-  <text x="770" y="218" text-anchor="end" fill="#ffffff" font-size="11" font-weight="600">~75%</text>
+  <text x="770" y="218" text-anchor="end" fill="#ffffff" font-size="11" font-weight="600">~75% [observed: 単一環境]</text>
 
   <rect x="504" y="232" width="268" height="28" fill="none"/>
   <text x="510" y="252" fill="#94a3b8" font-size="10">INCOMPLETE_CLAIM</text>
   <rect x="640" y="238" width="120" height="14" fill="#334155" rx="3"/>
   <rect x="640" y="238" width="76" height="14" fill="#f59e0b" rx="3"/>
-  <text x="770" y="250" text-anchor="end" fill="#ffffff" font-size="11" font-weight="600">~63%</text>
+  <text x="770" y="250" text-anchor="end" fill="#ffffff" font-size="11" font-weight="600">~63% [observed: 単一環境]</text>
 
   <text x="638" y="280" text-anchor="middle" fill="#475569" font-size="9">N-counts: metrics-ja.md参照</text>
 

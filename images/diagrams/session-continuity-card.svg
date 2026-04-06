@@ -52,5 +52,5 @@
 
   <!-- Footer -->
   <text x="340" y="292" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、PostgreSQL外部化によりコンテキスト常駐データが97%削減 [observed: 単一環境]。</text>
-  <text x="340" y="308" text-anchor="middle" fill="#475569" font-size="9">Observed in author's environment. Verify in yours.</text>
+  <text x="340" y="308" text-anchor="middle" fill="#475569" font-size="9">著者の環境での観測値。ご自身の環境で検証してください。</text>
 </svg>

@@ -24,7 +24,7 @@ A complete **external monitoring and meta-governance system** that breaks the de
 
 ## Key Insight (考え方のポイント)
 
-The critical design principle: **In this framework, using a structurally separate monitor improved detection**. This is not about adding more monitoring — it is about ensuring the monitor has different algorithmic blind spots than the monitored process.
+The critical design principle: **In the author's observed environment, using a structurally separate monitor improved detection**. This is not about adding more monitoring — it is about ensuring the monitor has different algorithmic blind spots than the monitored process.
 
 In this framework, AI systems that relied mainly on self-reporting showed a structural blind spot; readers should verify in their own environment.
 

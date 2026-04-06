@@ -14,6 +14,6 @@
   <rect x="160" y="92" width="82" height="14" fill="#f59e0b" rx="3"/>
   <text x="298" y="104" text-anchor="end" fill="#f59e0b" font-size="10" font-weight="600">~63% [observed: 単一環境]</text>
   <line x1="16" y1="120" x2="304" y2="120" stroke="#334155" stroke-width="0.5"/>
-  <text x="160" y="138" text-anchor="middle" fill="#94a3b8" font-size="9">FM 132件分類済み [observed: 単一環境]。reason_code 30種。</text>
+  <text x="160" y="138" text-anchor="middle" fill="#94a3b8" font-size="9">FM 132件分類済み [observed: 単一環境]。reason_code 30種 [observed: 単一環境]。</text>
   <text x="160" y="152" text-anchor="middle" fill="#475569" font-size="8">単一環境・N未公開。詳細注記は metrics-ja.md を参照。</text>
 </svg>

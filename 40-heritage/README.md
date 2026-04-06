@@ -55,6 +55,9 @@ Each numbered file records one CC generation's experience:
 ## What is NOT published here
 
 The following are **not included** in the public version:
+
+*Note: `[bracketed names]` are redacted for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
+
 - Full content of heritage documents (generational experience records) -- available as non-public supplement
 - [apprentice review file] (raw user corrections) -- available as non-public supplement
 - heritage document files -- available as non-public supplement
