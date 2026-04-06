@@ -2,7 +2,7 @@
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-高性能AIにルーティンタスクを任せるのはお金の無駄です。しかしほとんどの環境では、委譲ルールが存在しないためまさにそうなっています。
+委譲ルールが存在しない環境では、ルーティンタスクに不必要な高性能AIを使うことになりがちです。コストだけの問題ではなく、質のミスマッチでもあります。
 
 ## 何が観測されたか
 

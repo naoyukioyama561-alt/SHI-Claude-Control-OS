@@ -2,7 +2,7 @@
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-AIが同じミスをする本当の原因は、あなたが思っている原因とは違います。複合要因分析は、単一イベントのデバッグでは見えない構造的パターンを明らかにします。
+単発のデバッグでは見えにくい構造的パターンがあります。著者の環境では、複合要因分析により一回限りのレビューでは表面化しなかったパターンが検出されました。
 
 ## 何が観測されたか
 

@@ -2,11 +2,11 @@
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-あなたのAIに昨日の議論を覚えているか聞いてみてください。答えはおそらくNoです。このシステムは、その答えを恒久的にYesにします。
+著者の環境では、この設計によりセッションを超えた記憶の永続化が確認されました [observed: single environment, single operator]。
 
 ## 何が観測されたか
 
-PostgreSQLベースの外部ストレージを使用した**要約損失ゼロの完全記憶システム**：
+PostgreSQLベースの外部ストレージを使用した**要約損失を設計上排除した完全記憶システム**（著者環境での設計）：
 
 - **[internal database table]**: tool_use、assistant_text、userメッセージを要約なしで全て保持するPostgreSQLデータベース
 - **[internal database table]**: ユーザー指示をセッション跨ぎで永続化する専用テーブル
