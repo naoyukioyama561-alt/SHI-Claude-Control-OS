@@ -1,4 +1,4 @@
-# Achievement No.9: Post-Compression Behavior Persistence ([behavior orientation file] + SQL Externalization)
+# Achievement No.9: Post-Compression Behavior Persistence (Orientation File + SQL)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 

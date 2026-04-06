@@ -1,4 +1,4 @@
-# 成果No.9: 圧縮後行動永続化（[behavior orientation file]＋SQL外部化）
+# 成果No.9: 圧縮後行動永続化（行動指針ファイル＋SQL外部化）
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 

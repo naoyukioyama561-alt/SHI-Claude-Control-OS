@@ -1,4 +1,4 @@
-# 成果No.8: 要約なし完全記憶（[internal database table] PostgreSQL）
+# 成果No.8: 要約なし完全記憶（PostgreSQLベース）
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 

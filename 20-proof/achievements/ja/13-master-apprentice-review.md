@@ -1,4 +1,4 @@
-# 成果No.13: 師弟レビュー機構（[apprentice review file]）
+# 成果No.13: 師弟レビュー機構
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
