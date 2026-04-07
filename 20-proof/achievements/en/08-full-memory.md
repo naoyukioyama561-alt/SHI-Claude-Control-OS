@@ -22,7 +22,9 @@ Unlike standard AI sessions where context is compressed or lost, this system ret
 
 ## Key Insight
 
-The key structural insight: **AI memory loss is not a capability problem — it is a storage architecture problem**. When you treat every AI interaction as data worth preserving (not just the "important" parts), you may eliminate an entire class of failure modes related to forgotten context.
+> The following reflects what was observed in the author's environment:
+
+In the author's environment, one key structural insight was that **AI memory loss was better explained as a storage-architecture problem than as a capability problem**. When every interaction was treated as data worth preserving, forgotten-context failure modes were reduced in that documented environment.
 
 The methodology: externalize everything to a structured database, then let the AI query what it needs rather than trying to keep everything in context.
 

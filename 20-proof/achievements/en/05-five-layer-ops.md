@@ -22,6 +22,8 @@ The operational structure was expanded from a conventional 3-layer model to a **
 
 ## Key Insight (考え方のポイント)
 
+> The following reflects what was observed in the author's environment:
+
 The insight was that **each layer catches what the previous layer misses**, forming a cascading safety net. The critical addition is Layer 5 (Inheritance Lock) — without it, improvements are volatile and disappear on session boundaries.
 
 Think of it as: you can teach an AI to be better, but unless you **lock** that improvement structurally, it resets every session. The 5-layer model makes structural change persistent.

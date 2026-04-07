@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Segoe UI, Arial, sans-serif">
+  <desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: 単一環境] です。ご自身の環境で検証してください。</desc>
   <defs>
     <linearGradient id="before-grad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ef4444" stop-opacity="0.3"/>
@@ -13,7 +14,8 @@
   <rect width="720" height="420" fill="#0f172a" rx="12"/>
 
   <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">検知推移 — 構造制御の導入前後</text>
-  <text x="360" y="50" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション、クラッシュ0回。</text>
+  <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">著者の環境での観測</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション、クラッシュ0回。</text>
 
   <line x1="80" y1="70" x2="80" y2="340" stroke="#334155" stroke-width="1"/>
   <text x="75" y="78" text-anchor="end" fill="#64748b" font-size="10">10K</text>
@@ -33,10 +35,12 @@
 
   <rect x="95" y="152" width="45" height="188" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="118" y="145" text-anchor="middle" fill="#fca5a5" font-size="9">6,990</text>
+  <text x="118" y="154" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
   <text x="118" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">3/7</text>
 
   <rect x="155" y="58" width="45" height="282" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="178" y="52" text-anchor="middle" fill="#fca5a5" font-size="9">10,488</text>
+  <text x="178" y="61" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
   <text x="178" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">3/8</text>
 
   <path d="M220 200 L260 200" stroke="#facc15" stroke-width="2" stroke-dasharray="4,3"/>

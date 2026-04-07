@@ -2,6 +2,8 @@
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
+> *Note: `[designated write target]` and `[external monitoring hook]` are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+
 ## What Was Observed
 
 A **multi-layer safety system** designed to block dangerous operations before execution:
@@ -20,6 +22,8 @@ A **multi-layer safety system** designed to block dangerous operations before ex
 - Block hooks that operate at the tool-use level prevent damage before it occurs, rather than detecting it after
 
 ## Key Insight
+
+> The design principle applied here was:
 
 The critical design principle: **safety constraints must be external to the constrained entity**. An AI cannot reliably constrain itself because the same reasoning process that might lead to a dangerous action can also rationalize overriding its own safety rules.
 

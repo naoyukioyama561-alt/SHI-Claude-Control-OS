@@ -4,6 +4,8 @@
 
 Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
 
+> *Note: `[internal database table]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+
 ## What Was Observed
 
 A **structured root cause analysis system** combining multiple methodologies:
@@ -21,6 +23,8 @@ A **structured root cause analysis system** combining multiple methodologies:
 - Automated incident knowledge accumulation creates an **institutional memory** that improves analysis quality over time
 
 ## Key Insight
+
+> The following reflects what was observed in the author's environment:
 
 The most important discovery: **AI can identify its own behavioral patterns, but cannot fix them through awareness alone**. Knowing about a failure pattern does not prevent it from recurring — structural intervention (hooks, blocks, external monitoring) is required.
 

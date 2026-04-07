@@ -24,6 +24,8 @@
 
 ## Key Insight
 
+> The following reflects what was observed in the author's environment:
+
 The core insight: **token efficiency is not about doing less — it is about matching resource consumption to task complexity**. Most AI deployments use maximum-capability models for every task, which is like using a truck to deliver a letter.
 
 The methodology: categorize every operation by its actual capability requirements, then route each to the minimum-sufficient tier. The result is dramatic cost reduction without observed quality degradation on appropriately-routed tasks.

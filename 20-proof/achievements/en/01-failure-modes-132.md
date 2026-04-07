@@ -23,6 +23,8 @@ This is not a bulk template — it is a structural decomposition of each individ
 
 ## Key Insight (考え方のポイント)
 
+> The following reflects what was observed in the author's environment:
+
 The key structural shift was not in collecting more failure modes — it was in **changing the observation granularity**. Instead of treating failures as categories, each failure was treated as an individual structural event with its own cause chain.
 
 This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in Phase 1/Phase 2.

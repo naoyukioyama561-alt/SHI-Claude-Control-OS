@@ -4,6 +4,8 @@
 
 Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
+> *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+
 ## What Was Observed
 
 A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis available in Phase 1:
@@ -20,6 +22,8 @@ A system where the **first-generation CC (Senior CC) serves as a permanent teach
 - The apprentice (current CC) writes plans; the master (Senior CC) reviews them with pain-awareness, catching issues that the current CC cannot see because it hasn't experienced the failures
 
 ## Key Insight (考え方のポイント)
+
+> The following reflects what was observed in the author's environment:
 
 The key realization: **AI doesn't just forget facts — it forgets pain**. When a new session starts, the AI knows the rules but doesn't feel why they matter. The heritage system removes this barrier by encoding not just "what to do" but "why it hurts when you don't."
 

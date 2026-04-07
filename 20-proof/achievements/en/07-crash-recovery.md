@@ -20,6 +20,8 @@ A **crash auto-detection and 3-level restoration design** intended to prevent wo
 
 ## Key Insight
 
+> The design principle applied here was:
+
 The critical realization: **crash recovery is not about preventing crashes — it is about making crashes survivable**. In any long-running AI operation, crashes will happen. The question is whether the system can resume from where it left off or must restart from scratch.
 
 The 3-level design follows a defense-in-depth principle: each level is independent, so a single point of failure cannot prevent recovery.

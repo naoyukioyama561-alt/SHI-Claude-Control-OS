@@ -115,7 +115,7 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 
 Claude showed the maximum effect, but **other AI systems applying similar structures may see comparable improvements**.
 
-The essence is completing an **OS layer portable to any AI** designed to enable "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
+The essence is completing an **OS layer intended to be portable across AI systems — validate in each environment** designed to enable "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
 
 ### Token Efficiency = Power Efficiency
 

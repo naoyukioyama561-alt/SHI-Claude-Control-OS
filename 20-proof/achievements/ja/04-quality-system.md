@@ -2,6 +2,8 @@
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
+> *注: `[internal quality hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+
 ## 何が観測されたか
 
 **4+1層アーキテクチャ**に基づく品質システム：
@@ -26,6 +28,8 @@
 - 5セット検査により「完了」を客観的に検証可能にし、エビデンスなしの「できたと思う」という一般的な失敗を低減
 
 ## 考え方のポイント
+
+> 以下は著者の観測環境で確認されたことを示します：
 
 品質システムは理論的に設計されたのではない -- **実際の失敗を通じて進化**した。各層は、実際のインシデントが前の層の不十分さを示したことで追加された。
 

@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Segoe UI, Arial, sans-serif">
+  <desc>Observed in the author's single environment, single operator, N undisclosed. All metrics shown are [observed: single environment] unless individually labeled [design target] or [illustrative]. Verify in your own environment.</desc>
   <defs>
     <linearGradient id="before-grad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ef4444" stop-opacity="0.3"/>
@@ -15,7 +16,8 @@
 
   <!-- Title -->
   <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">Detection Trend — Before vs After Structural Control</text>
-  <text x="360" y="50" text-anchor="middle" fill="#94a3b8" font-size="11">Observed in author's environment. 22-day session, 0 crashes.</text>
+  <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">Observed in author's environment. 22-day session, 0 crashes.</text>
 
   <!-- Chart area -->
   <!-- Y axis -->
@@ -41,10 +43,12 @@
   <!-- Bars: Before (Mar 7-8) -->
   <rect x="95" y="152" width="45" height="188" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="118" y="145" text-anchor="middle" fill="#fca5a5" font-size="9">6,990</text>
+  <text x="118" y="154" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
   <text x="118" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">Mar 7</text>
 
   <rect x="155" y="58" width="45" height="282" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="178" y="52" text-anchor="middle" fill="#fca5a5" font-size="9">10,488</text>
+  <text x="178" y="61" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
   <text x="178" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">Mar 8</text>
 
   <!-- Transition arrow -->

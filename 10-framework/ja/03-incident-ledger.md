@@ -14,6 +14,8 @@
 公開安全：
 - エンドポイント／絶対パス／識別子はすべて置換。
 
+> *注: `[external monitoring hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+
 ---
 
 ## 1. 実例ログの格納場所

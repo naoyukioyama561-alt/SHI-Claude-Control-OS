@@ -4,6 +4,8 @@
 
 A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
 
+> *Note: `[apprentice review file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+
 ## What Was Observed
 
 A **structured apprentice-master review system** using [apprentice review file] as the communication channel:
@@ -21,6 +23,8 @@ A **structured apprentice-master review system** using [apprentice review file] 
 - Writing plans in [apprentice review file] forces the apprentice to **externalize reasoning**, making implicit assumptions visible and reviewable
 
 ## Key Insight
+
+> The following reflects what was observed in the author's environment:
 
 The fundamental principle: **AI cannot evaluate the quality of its own learning** — it needs an external evaluator who has experienced the failures that the current AI hasn't yet encountered.
 

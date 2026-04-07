@@ -2,6 +2,8 @@
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
+> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+
 ## 何が観測されたか
 
 コンテキスト圧縮後も**行動パターンが永続する**システム。要約後にAIが「どう振る舞うか」を忘れる根本問題を解決：
@@ -18,6 +20,8 @@
 - 著者の観測環境では、SQL外部化＋[behavior orientation file].jsonにより、圧縮イベント後の行動復元が大幅に改善する傾向が観測された
 
 ## 考え方のポイント
+
+> 以下は著者の観測環境で確認されたことを示します：
 
 **AI行動はAI知識よりも脆い**。事実は外部ソースから再学習できるが、行動パターン -- 「どう振る舞うか」の知識 -- は暗黙のコンテキストとして存在するため、圧縮で破壊されやすい。
 

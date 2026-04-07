@@ -20,6 +20,8 @@ A **three-layer role separation architecture** that divides work not by volume, 
 
 ## Key Insight (考え方のポイント)
 
+> The following reflects what was observed in the author's environment:
+
 The key structural shift: **separate load by type, not by amount**. Everyone tries to handle overload by splitting work volume. But the real problem is that judgment, monitoring, and execution are structurally different cognitive loads — mixing them degrades all three.
 
 When you separate them, each role becomes excellent at its specific function. The Supervisor judges without distraction. The Relay monitors without judgment drift. The Worker executes without rule anxiety.

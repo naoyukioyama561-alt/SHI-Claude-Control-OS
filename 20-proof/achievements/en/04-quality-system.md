@@ -27,6 +27,8 @@ Additional components:
 
 ## Key Insight (考え方のポイント)
 
+> The following reflects what was observed in the author's environment:
+
 The quality system was not designed theoretically — it **evolved through actual failures**. Each layer was added because real incidents proved the previous layers were insufficient.
 
 The most important insight: **quality is not a checklist — it is a multi-layer defense** where each layer has a structurally different detection mechanism. Self-monitoring catches obvious errors; structural hooks catch what self-monitoring misses; completion definitions catch what hooks miss; third-party verification catches systemic patterns.

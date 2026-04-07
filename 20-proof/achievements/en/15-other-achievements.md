@@ -33,6 +33,8 @@ A collection of **significant supporting achievements** that underpin the main 1
 
 ## Key Insight
 
+> The following reflects what was observed in the author's environment:
+
 These supporting achievements demonstrate that **AI governance is not a single system — it is an ecosystem**. The monitoring dashboards, local AI fallbacks, task pipelines, and theoretical framework all reinforce each other.
 
 The most underappreciated achievement here is the **disaster fallback system**: when all external APIs fail, the local AI instances take over. This is infrastructure-level resilience that most AI deployments completely lack.

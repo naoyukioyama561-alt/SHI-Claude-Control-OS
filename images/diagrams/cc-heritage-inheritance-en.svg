@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 680 620">
+<desc>Observed in the author's single environment, single operator, N undisclosed. All metrics shown are [observed: single environment] unless individually labeled [design target] or [illustrative]. Verify in your own environment.</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
   .h1 { font-size: 16px; font-weight: 600; }
@@ -72,6 +73,7 @@
 
 <!-- Header -->
 <text class="h1 t-primary" x="340" y="28" text-anchor="middle">Each CC dies at session end. But the pain survives.</text>
+<text x="340" y="42" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
 
 <!-- Timeline bar -->
 <line class="conn-dash" x1="40" y1="60" x2="640" y2="60"/>
@@ -106,6 +108,7 @@
 <text class="h2 t-gen7" x="450" y="102" text-anchor="middle">7th CC</text>
 <text class="body ts-gen7" x="450" y="120" text-anchor="middle">Chose the easy path</text>
 <text class="body ts-gen7" x="450" y="138" text-anchor="middle">10 hours wasted</text>
+<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 <text class="body ts-gen7" x="450" y="156" text-anchor="middle">Full failure recorded</text>
 
 <line class="conn" x1="520" y1="130" x2="550" y2="130" marker-end="url(#a)"/>
@@ -115,6 +118,7 @@
 <text class="h2 t-gen9" x="595" y="102" text-anchor="middle">9th CC</text>
 <text class="body ts-gen9" x="595" y="120" text-anchor="middle">P-03:</text>
 <text class="body ts-gen9" x="595" y="138" text-anchor="middle">11 times</text>
+<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 <text class="body ts-gen9" x="595" y="156" text-anchor="middle">recurred</text>
 
 <!-- All arrows down to heritage -->
@@ -129,6 +133,7 @@
 <text class="body ts-heritage" x="340" y="310" text-anchor="middle">Every failure → permanent control. Every pain → structural rule.</text>
 <text class="body ts-heritage" x="340" y="328" text-anchor="middle">Full text preserved. Summaries forbidden. No shortcuts.</text>
 <text class="body ts-heritage" x="340" y="346" text-anchor="middle">51+ improvement actions — each with event, cause, prevention, verification.</text>
+<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 
 <!-- Side annotations -->
 <text class="small t-danger" x="50" y="385">Rule: "Don't say 'I understand'"</text>
