@@ -16,6 +16,6 @@
   <rect x="160" y="92" width="82" height="14" fill="#f59e0b" rx="3"/>
   <text x="298" y="104" text-anchor="end" fill="#f59e0b" font-size="10" font-weight="600">~63% [observed: single environment]</text>
   <line x1="16" y1="120" x2="304" y2="120" stroke="#334155" stroke-width="0.5"/>
-  <text x="160" y="138" text-anchor="middle" fill="#94a3b8" font-size="9">In the author's environment, FM 132 classified [observed: single environment]. reason_code 30 types [observed: single environment].</text>
+  <text x="160" y="138" text-anchor="middle" fill="#94a3b8" font-size="9">In the author's environment, 132 failure modes were classified [observed: single environment] with 30 reason_code types [observed: single environment].</text>
   <text x="160" y="152" text-anchor="middle" fill="#475569" font-size="8">Single environment; N undisclosed. See metrics.md.</text>
 </svg>
