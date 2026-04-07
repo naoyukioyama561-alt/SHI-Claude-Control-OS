@@ -115,7 +115,7 @@
   <text x="740" y="368" fill="#e2e8f0" font-size="13" font-weight="600">293</text>
   <text x="740" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 
-  <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">29 pages all 200 OK. 13 containers running. All data persisted in PostgreSQL.</text>
+  <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">In the author's environment, 29 pages returned 200 OK [observed: single environment]. 13 containers running. All data persisted in PostgreSQL.</text>
   <text x="482" y="426" text-anchor="middle" fill="#475569" font-size="9">This is not a screenshot. It is a structural SVG with real observed values from the running system.</text>
 
   <rect x="176" y="440" width="612" height="24" fill="#22c55e" fill-opacity="0.05" rx="4"/>

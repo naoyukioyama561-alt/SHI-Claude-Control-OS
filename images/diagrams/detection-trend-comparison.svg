@@ -15,7 +15,7 @@
 
   <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">検知推移 — 構造制御の導入前後</text>
   <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">著者の環境での観測</text>
-  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション、クラッシュ0回。</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション [observed: 単一環境]、クラッシュ0回 [observed: 単一環境]。</text>
 
   <line x1="80" y1="70" x2="80" y2="340" stroke="#334155" stroke-width="1"/>
   <text x="75" y="78" text-anchor="end" fill="#64748b" font-size="10">10K</text>

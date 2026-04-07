@@ -124,7 +124,7 @@
   <text x="740" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <!-- Footer -->
-  <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">29ページ全て200 OK。13コンテナ稼働中。全データはPostgreSQLに永続化。</text>
+  <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、29ページ全て200 OK [observed: 単一環境]。13コンテナ稼働中。全データはPostgreSQLに永続化。</text>
   <text x="482" y="426" text-anchor="middle" fill="#475569" font-size="9">This is not a screenshot. It is a structural SVG with real observed values from the running system.</text>
 
   <!-- Observed label -->

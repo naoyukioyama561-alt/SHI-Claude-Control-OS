@@ -162,8 +162,8 @@ The system uses:
 
 Detection rates [observed: single environment]:
 - EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed; not a product claim]
-- GENERIC_RESPONSE: ~75% [single environment, N undisclosed]
-- INCOMPLETE_CLAIM: ~63% [single environment, N undisclosed]
+- GENERIC_RESPONSE: ~75% [observed: single environment, N undisclosed]
+- INCOMPLETE_CLAIM: ~63% [observed: single environment, N undisclosed]
 
 Direct logs record "when, on which task, which pattern appeared" — all automatically.
 

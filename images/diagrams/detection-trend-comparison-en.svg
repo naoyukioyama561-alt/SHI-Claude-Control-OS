@@ -17,7 +17,7 @@
   <!-- Title -->
   <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">Detection Trend — Before vs After Structural Control</text>
   <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
-  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">Observed in author's environment. 22-day session, 0 crashes.</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">Observed in author's environment. 22-day session [observed: single environment], 0 crashes [observed: single environment].</text>
 
   <!-- Chart area -->
   <!-- Y axis -->
