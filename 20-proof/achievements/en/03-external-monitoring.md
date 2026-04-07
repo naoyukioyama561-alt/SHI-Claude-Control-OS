@@ -17,9 +17,9 @@ A complete **external monitoring and meta-governance system** that breaks the de
 
 - **In the author's observed environment, self-monitoring was not reliable enough** because the same algorithmic tendencies that cause errors also create blind spots in detecting those errors
 - In the author's single observed environment only, structurally separate monitoring showed higher detection than self-reporting alone:
-  - EVIDENCE_DROPOUT: ~100% [observed, single environment, N undisclosed] (N-counts disclosed in Phase 1)
-  - GENERIC_RESPONSE: 75% [observed, single environment] (N-counts disclosed in Phase 1)
-  - INCOMPLETE_CLAIM: 63% [observed, single environment] (N-counts disclosed in Phase 1)
+  - EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed] (N-counts disclosed in Phase 1)
+  - GENERIC_RESPONSE: 75% [observed: single environment] (N-counts disclosed in Phase 1)
+  - INCOMPLETE_CLAIM: 63% [observed: single environment] (N-counts disclosed in Phase 1)
 - The three-layer separation (Supervisor / Relay / Worker) makes monitoring sustainable by separating load by **type**, not volume
 
 ## Key Insight (考え方のポイント)

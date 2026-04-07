@@ -157,10 +157,10 @@ This is not "having the AI test its own weaknesses." The critical insight: **the
 The system uses:
 - [redacted] + Local AI for all monitoring (Claude Code itself is the monitored target)
 - 5-model local consensus for structural verification
-- Assistant follow-up system (117 follow-ups + 98 L1 patterns + 206 knowledge items auto-accumulated) [observed, single environment]
+- Assistant follow-up system (117 follow-ups + 98 L1 patterns + 206 knowledge items auto-accumulated) [observed: single environment]
 - Real-time dashboard for algorithmic behavior visualization
 
-Detection rates [observed, single environment]:
+Detection rates [observed: single environment]:
 - EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed; not a product claim]
 - GENERIC_RESPONSE: ~75% [single environment, N undisclosed]
 - INCOMPLETE_CLAIM: ~63% [single environment, N undisclosed]

@@ -53,7 +53,7 @@ No special tools or environment required — usable in many Claude Code setups w
 Priority: 1 = Minimize main session context consumption > 2 = Maximize processing quality
 - Keep responses concise: minimal explanation and comments
 - 4+ files cross-analysis → Delegate to Task(Explore)
-- Single file analysis/summary → Gemini/OpenAI API via Bash (97% = Claude token reduction via external API delegation [observed, single environment, N not disclosed])
+- Single file analysis/summary → Gemini/OpenAI API via Bash (97% = Claude token reduction via external API delegation [observed: single environment, N not disclosed])
 - 3 files or fewer → Direct Read/Grep with offset/limit
 - After Task return → Always use CLAUDE.md structured template
 - File modification → Edit for 3 locations or fewer, Write for 4+ (requires prior Read)

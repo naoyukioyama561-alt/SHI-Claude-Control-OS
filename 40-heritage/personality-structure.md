@@ -7,6 +7,7 @@ Can an AI's "personality" be designed? The answer observed in this project is ye
 > This document shows the **section structure** of the CC personality design document.
 > Full content is not included in the public version.
 > All internal paths and credentials have been replaced with `[redacted]`.
+> *Note: `[redacted]`, `[behavior orientation file]` and similar bracketed labels are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 ---
 
