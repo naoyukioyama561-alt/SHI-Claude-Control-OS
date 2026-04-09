@@ -104,23 +104,23 @@
   <text x="482" y="324" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="500">PostgreSQL 実データ統計（observed）</text>
 
   <text x="220" y="350" fill="#94a3b8" font-size="10">会話ログ</text>
-  <text x="220" y="368" fill="#e2e8f0" font-size="13" font-weight="600">50,831行</text>
+  <text x="220" y="366" fill="#e2e8f0" font-size="13" font-weight="600">50,831行</text>
   <text x="220" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <text x="350" y="350" fill="#94a3b8" font-size="10">行動ログ</text>
-  <text x="350" y="368" fill="#e2e8f0" font-size="13" font-weight="600">11,265行</text>
+  <text x="350" y="366" fill="#e2e8f0" font-size="13" font-weight="600">11,265行</text>
   <text x="350" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <text x="480" y="350" fill="#94a3b8" font-size="10">ユーザー指示</text>
-  <text x="480" y="368" fill="#e2e8f0" font-size="13" font-weight="600">2,891件</text>
+  <text x="480" y="366" fill="#e2e8f0" font-size="13" font-weight="600">2,891件</text>
   <text x="480" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <text x="610" y="350" fill="#94a3b8" font-size="10">監査ログ</text>
-  <text x="610" y="368" fill="#e2e8f0" font-size="13" font-weight="600">8,397件</text>
+  <text x="610" y="366" fill="#e2e8f0" font-size="13" font-weight="600">8,397件</text>
   <text x="610" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <text x="740" y="350" fill="#94a3b8" font-size="10">ナレッジ</text>
-  <text x="740" y="368" fill="#e2e8f0" font-size="13" font-weight="600">293件</text>
+  <text x="740" y="366" fill="#e2e8f0" font-size="13" font-weight="600">293件</text>
   <text x="740" y="378" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
 
   <!-- Footer -->
@@ -132,5 +132,5 @@
   <text x="482" y="456" text-anchor="middle" fill="#22c55e" font-size="9">All values observed in the author's environment. Verify in yours.</text>
 
   <!-- 会話ログの内訳注 -->
-  <text x="220" y="380" fill="#475569" font-size="8">(cc01: 28,274 + win: 22,557)</text>
+  <text x="220" y="390" fill="#475569" font-size="8">(cc01: 28,274 + win: 22,557)</text>
 </svg>
