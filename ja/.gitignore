@@ -1,0 +1,18 @@
+# Marketing / amplification materials (local only)
+amplify/
+
+# Migration artifacts
+migrate.sh
+README-old.md
+*-INTERNAL.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/

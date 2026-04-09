@@ -1,0 +1,10 @@
+{
+  "ignorePatterns": [
+    { "pattern": "^https://ssrn.com" },
+    { "pattern": "^https://github.com/naoyukioyama561-alt" },
+    { "pattern": "^https://naoyukioyama561-alt.github.io" },
+    { "pattern": "^https://docs.github.com" }
+  ],
+  "timeout": "10s",
+  "retryOn429": true
+}
