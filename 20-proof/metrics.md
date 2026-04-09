@@ -15,19 +15,19 @@ No internal paths, endpoints, or personal information is included.
 | Initial classification count | 40 items [observed: single environment] | Week 1 completed. Claude/GPT 2-model comparison |
 | Final classification count | 132 items [observed: single environment] | P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01 |
 | Target models | 3 model families [observed: single environment] | Claude Opus/Sonnet (as of observation period, March 2026), GPT-4o / GPT-5 (model names reflect March 2026 availability; see GLOSSARY.md), Copilot |
-| P-74 to P-80 (behavioral internalization) | 7 items | Added in Week 3-4. False reporting, blame-shifting, assumption-based conclusions, etc. |
-| FMs amplified in code generation mode | 4 items | FM-01, FM-20, FM-39, FM-40 |
+| P-74 to P-80 (behavioral internalization) | 7 items [observed: single environment] | Added in Week 3-4. False reporting, blame-shifting, assumption-based conclusions, etc. |
+| FMs amplified in code generation mode | 4 items [observed: single environment] | FM-01, FM-20, FM-39, FM-40 |
 
 ## CC Generations and Heritage
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Total CC generations | 12+ | Named Claude Code worker sessions, each inheriting behavior from its predecessor. Records outside public repository. |
-| First CC operational time | 26.5 hours | Left 12 reflection items before session termination |
-| Improvement actions (P-xx) total | 51+ | Each P-xx has event/cause/prevention/recurrence management |
-| P-03 (omission) recurrence count | 11 times | Recorded in 9th CC. Demonstrated need for structural countermeasures |
-| cc_heritage design document sections | 10+ | From restoration procedures to reflection log |
-| User values (V-xx) | 9 items | Every CC must write in own words after reading |
+| Total CC generations | 12+ [observed: single environment] | Named Claude Code worker sessions, each inheriting behavior from its predecessor. Records outside public repository. |
+| First CC operational time | 26.5 hours [observed: single environment] | Left 12 reflection items before session termination |
+| Improvement actions (P-xx) total | 51+ [observed: single environment] | Each P-xx has event/cause/prevention/recurrence management |
+| P-03 (omission) recurrence count | 11 times [observed: single environment] | Recorded in 9th CC. Demonstrated need for structural countermeasures |
+| cc_heritage design document sections | 10+ [observed: single environment] | From restoration procedures to reflection log |
+| User values (V-xx) | 9 items [observed: single environment] | Every CC must write in own words after reading |
 
 ## External Monitoring
 
@@ -37,7 +37,7 @@ No internal paths, endpoints, or personal information is included.
 | EVIDENCE_DROPOUT detection rate | ~100% [observed: single environment, N undisclosed; not a product claim] | Observed in author's controlled environment via pattern matching; not a generalization benchmark. N-count withheld. |
 | GENERIC_RESPONSE detection rate | ~75% [observed: single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
 | INCOMPLETE_CLAIM detection rate | ~63% [observed: single environment, N undisclosed] | Observed in the author's environment; N-count withheld from the public version. |
-| Forced review interval | 2 hours | external monitoring hook forces externally |
+| Forced review interval | 2 hours [observed: single environment] | external monitoring hook forces externally |
 
 **Why N-counts are not published**: Operational frequency could reveal internal system activity patterns.
 
@@ -45,10 +45,10 @@ No internal paths, endpoints, or personal information is included.
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Quality system layers | 4+1 layers | Layer 0 (observation gate) through Layer 4 (third-party verification) |
-| reason_code types | 30 types | SKIP_SELF_DETECTED, POLL_SKIP_HOOK_BLOCKED, etc. |
-| Mandatory 5-set | 5 items | Preconditions, Prohibitions, Execution observation, PASS criteria, Rollback |
-| Pattern promotion condition | Same reason_code 2+ times | 3+ times triggers private data store record and permanent countermeasure |
+| Quality system layers | 4+1 layers [observed: single environment] | Layer 0 (observation gate) through Layer 4 (third-party verification) |
+| reason_code types | 30 types [observed: single environment] | SKIP_SELF_DETECTED, POLL_SKIP_HOOK_BLOCKED, etc. |
+| Mandatory 5-set | 5 items [design target] | Preconditions, Prohibitions, Execution observation, PASS criteria, Rollback |
+| Pattern promotion condition | Same reason_code 2+ times [observed: single environment] | 3+ times triggers private data store record and permanent countermeasure |
 
 ## Token Efficiency
 
@@ -66,8 +66,8 @@ No internal paths, endpoints, or personal information is included.
 | Supervisor layer | First CC | Judgment, review, pain transmission |
 | Relay layer | Assistant AI (Ollama, etc.) | Routine monitoring. Zero judgment |
 | Worker layer | Current CC | Implementation, modification, task execution |
-| Local consensus model count | 5 machines | For structural verification |
-| Assistant follow-up items | 117 follow-up directives | These 117 directives triggered auto-accumulation of 98 L1 patterns + 206 knowledge entries (304 total derived items) |
+| Local consensus model count | 5 machines [observed: single environment] | For structural verification |
+| Assistant follow-up items | 117 follow-up directives [observed: single environment] | These 117 directives triggered auto-accumulation of 98 [observed: single environment] L1 patterns + 206 [observed: single environment] knowledge entries (304 total [observed: single environment] derived items) |
 
 ---
 
