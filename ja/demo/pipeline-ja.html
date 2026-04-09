@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>パイプライン - SHI-Claude-Control-OS</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}
+.pipeline{display:flex;flex-direction:column;gap:24px}
+.stage{display:flex;align-items:center;gap:16px}
+.stage-box{background:#1e293b;border:2px solid #334155;border-radius:12px;padding:16px 24px;min-width:180px;text-align:center;position:relative;transition:all .3s}
+.stage-box.active{border-color:#3b82f6;box-shadow:0 0 20px rgba(59,130,246,.2)}
+.stage-box.pulse{animation:boxpulse 2s infinite}
+@keyframes boxpulse{0%,100%{box-shadow:0 0 5px rgba(59,130,246,.1)}50%{box-shadow:0 0 25px rgba(59,130,246,.3)}}
+.stage-name{font-size:14px;font-weight:600;color:#fff;margin-bottom:4px}
+.stage-tech{font-size:11px;color:#94a3b8}
+.stage-stat{font-size:12px;margin-top:6px;font-weight:500}
+.arrow{color:#475569;font-size:20px;display:flex;align-items:center}
+.arrow.flow{animation:arrowflow 1.5s infinite}
+@keyframes arrowflow{0%{opacity:.3}50%{opacity:1}100%{opacity:.3}}
+.flow-line{position:relative;flex:1;height:2px;background:#334155;overflow:hidden;flex-wrap:wrap}
+.flow-dot{position:absolute;width:8px;height:8px;border-radius:50%;background:#3b82f6;top:-3px;animation:flowmove 2s infinite linear}
+@keyframes flowmove{0%{left:0}100%{left:calc(100% - 8px)}}
+.layer{margin-bottom:32px}
+.layer-title{font-size:18px;font-weight:600;color:#fff;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.layer-title .dot{width:10px;height:10px;border-radius:50%}
+.sub-pipes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.pipe-card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px}
+.pipe-card h4{color:#fff;font-size:14px;margin-bottom:8px}
+.pipe-flow{display:flex;align-items:center;gap:4px;font-size:11px;color:#94a3b8;flex-wrap:wrap}
+.pipe-node{background:#334155;padding:2px 8px;border-radius:4px;color:#cbd5e1;white-space:nowrap}
+.pipe-node.active{background:rgba(59,130,246,.2);border:1px solid #3b82f6;color:#60a5fa}
+.throughput{font-size:12px;color:#64748b;margin-top:8px;display:flex;align-items:center;gap:4px}
+.throughput .val{color:#4ade80;font-weight:500}
+@media(max-width:768px){nav{display:none}.sub-pipes{grid-template-columns:1fr}}
+</style></head><body>
+<div style="background:#0f172a;color:#64748b;padding:4px 12px;font-size:11px;text-align:center;border-bottom:1px solid #1e293b">公開安全な静的デモ。すべての名称・数値・ラベルは例示です。</div>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html" class="active">🔀 パイプライン</a></nav>
+<main style="margin-top:50px">
+<h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:24px">パイプライン可視化</h2>
+
+<!-- メインフロー -->
+<div class="layer">
+<div class="layer-title"><span class="dot" style="background:#3b82f6"></span>メインデータフロー</div>
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:16px">
+<div class="stage-box active pulse"><div class="stage-name">ユーザー入力</div><div class="stage-tech">Dashboard / Voice / CLI</div><div class="stage-stat" style="color:#60a5fa" id="v-input">134 req/日</div></div>
+<div class="flow-line"><div class="flow-dot"></div></div>
+<div class="stage-box active"><div class="stage-name">Gateway API</div><div class="stage-tech">local gateway endpoint</div><div class="stage-stat" style="color:#4ade80" id="v-gw">50+ endpoints</div></div>
+<div class="flow-line"><div class="flow-dot" style="animation-delay:.5s"></div></div>
+<div class="stage-box active"><div class="stage-name">workflow-engine Workflow</div><div class="stage-tech">ローカルワークフローエンドポイント</div><div class="stage-stat" style="color:#facc15" id="v-wf">12 active</div></div>
+<div class="flow-line"><div class="flow-dot" style="animation-delay:1s"></div></div>
+<div class="stage-box active"><div class="stage-name">PostgreSQL</div><div class="stage-tech">ローカルリレーショナルDB</div><div class="stage-stat" style="color:#c084fc" id="v-pg">248MB</div></div>
+</div>
+</div>
+
+<!-- サブパイプライン -->
+<div class="layer">
+<div class="layer-title"><span class="dot" style="background:#22c55e"></span>サブパイプライン</div>
+<div class="sub-pipes">
+<div class="pipe-card">
+<h4>Core workflow-engine WF</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">Webhook</span>→<span class="pipe-node active">Router</span>→<span class="pipe-node active">Executor</span>→<span class="pipe-node">Result</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-core">47 exec/h</span></div>
+</div>
+<div class="pipe-card">
+<h4>Task API GW</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">Request</span>→<span class="pipe-node active">Classify</span>→<span class="pipe-node active">Delegate</span>→<span class="pipe-node active">Progress</span>→<span class="pipe-node">Report</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-task">8 tasks/h</span></div>
+</div>
+<div class="pipe-card">
+<h4>Voice App</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">Audio</span>→<span class="pipe-node active">Whisper</span>→<span class="pipe-node active">NLU</span>→<span class="pipe-node active">VOICEVOX</span>→<span class="pipe-node">Response</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-voice">3 conv/h</span></div>
+</div>
+<div class="pipe-card">
+<h4>Learning L1-L4</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">L1 Cache</span>→<span class="pipe-node active">L2 Analyze</span>→<span class="pipe-node">L3 Structure</span>→<span class="pipe-node">L4 Archive</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-learn">200 gate/日</span></div>
+</div>
+<div class="pipe-card">
+<h4>Supervisor Agent Standby</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">Scheduler</span>→<span class="pipe-node active">Module Select</span>→<span class="pipe-node active">Execute</span>→<span class="pipe-node active">Audit Log</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-oc">14 mod/cycle</span></div>
+</div>
+<div class="pipe-card">
+<h4>Health Monitor</h4>
+<div class="pipe-flow">
+<span class="pipe-node active">Check</span>→<span class="pipe-node active">Evaluate</span>→<span class="pipe-node active">Alert</span>→<span class="pipe-node">Recover</span>
+</div>
+<div class="throughput">スループット: <span class="val" id="v-hm">21 items/min</span></div>
+</div>
+</div>
+</div>
+
+<!-- 外部連携 -->
+<div class="layer">
+<div class="layer-title"><span class="dot" style="background:#8b5cf6"></span>外部連携</div>
+<div style="display:flex;gap:12px;flex-wrap:wrap">
+<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px 20px;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#4ade80"></span><span style="color:#fff;font-size:13px">Cloudflare Tunnel</span><span style="font-size:11px;color:#64748b">x3 active</span></div>
+<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px 20px;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#4ade80"></span><span style="color:#fff;font-size:13px">Qdrant Vector DB</span><span style="font-size:11px;color:#64748b" id="v-qdrant">12,458 pts</span></div>
+<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px 20px;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#4ade80"></span><span style="color:#fff;font-size:13px">MinIO Object Storage</span></div>
+<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px 20px;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#4ade80"></span><span style="color:#fff;font-size:13px">SearXNG Search</span></div>
+<div style="background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px 20px;display:flex;align-items:center;gap:8px"><span style="width:8px;height:8px;border-radius:50%;background:#4ade80"></span><span style="color:#fff;font-size:13px">Ollama LLM</span><span style="font-size:11px;color:#64748b">3 models</span></div>
+</div>
+</div>
+</main>
+<script>
+const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
+function anim(){const now=Date.now()/1000;const v=P[Math.floor(now%60/15)%4]((now%15)/15);
+document.getElementById('v-input').textContent=(120+Math.round(v*30))+' req/日';
+document.getElementById('v-core').textContent=(40+Math.round(v*20))+' exec/h';
+document.getElementById('v-task').textContent=(5+Math.round(v*8))+' tasks/h';
+document.getElementById('v-voice').textContent=(1+Math.round(v*5))+' conv/h';
+document.getElementById('v-learn').textContent=(180+Math.round(v*40))+' gate/日';
+document.getElementById('v-oc').textContent=(12+Math.round(v*4))+' mod/cycle';
+document.getElementById('v-hm').textContent=(18+Math.round(v*6))+' items/min';
+document.getElementById('v-qdrant').textContent=(12000+Math.round(v*800)).toLocaleString()+' pts';
+document.getElementById('v-pg').textContent=(240+Math.round(v*20))+'MB';
+
+// Animate active nodes
+document.querySelectorAll('.pipe-node').forEach((n,i)=>{
+  if(n.classList.contains('active')){
+    const brightness=0.8+Math.sin(now*2+i*.5)*.2;
+    n.style.opacity=brightness;
+  }
+});
+requestAnimationFrame(anim);}anim();
+</script></body></html>

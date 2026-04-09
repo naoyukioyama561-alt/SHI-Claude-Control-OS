@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Execute - SHI-Claude-Control-OS Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}
+nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}
+nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}
+nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}
+nav a:hover,nav a.active{background:#334155;color:#fff}
+main{flex:1;display:flex;flex-direction:column;padding:24px;overflow:hidden;flex-wrap:wrap}
+.chat-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.chat-area{flex:1;overflow-y:auto;padding-right:4px;margin-bottom:12px}
+.msg{display:flex;margin-bottom:12px}
+.msg.user{justify-content:flex-end}
+.msg.assistant{justify-content:flex-start}
+.bubble{max-width:80%;border-radius:8px;padding:12px 16px;font-size:14px;line-height:1.6}
+.bubble.user{background:#2563eb;color:#fff}
+.bubble.assistant{background:#1e293b;border:1px solid #334155;color:#e2e8f0}
+.bubble.success{background:rgba(34,197,94,.1);border:1px solid #166534;color:#e2e8f0}
+.bubble.fail{background:rgba(239,68,68,.1);border:1px solid #991b1b;color:#e2e8f0}
+.bubble strong{color:#fff}
+.bubble code{color:#60a5fa;background:#0f172a;padding:1px 4px;border-radius:3px;font-size:13px}
+.meta{margin-top:8px;padding-top:8px;border-top:1px solid #475569;font-size:11px;color:#94a3b8;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.meta .poll{color:#facc15;animation:pulse 1.5s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+.meta a{color:#60a5fa;text-decoration:underline}
+.intent-bar{margin-top:4px;padding-top:4px;border-top:1px solid #334155;display:flex;align-items:center;gap:4px;font-size:10px;color:#64748b}
+.intent-btn{padding:2px 6px;border-radius:4px;border:1px solid #334155;background:transparent;color:#64748b;cursor:pointer;font-size:10px}
+.intent-btn:hover{border-color:#64748b;color:#cbd5e1}
+.action-area{margin-top:12px;padding-top:8px;border-top:1px solid #475569}
+.action-area p{font-size:12px;color:#facc15;font-weight:500;margin-bottom:8px}
+.action-row{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.action-btn{padding:4px 12px;background:#ea580c;color:#fff;border:none;border-radius:4px;font-size:12px;font-weight:500;cursor:pointer}
+.action-btn:hover{background:#c2410c}
+.placeholder{text-align:center;color:#64748b;font-size:14px;margin-top:80px}
+.placeholder .hint{margin-top:8px;font-size:12px;color:#475569}
+.input-area{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:12px;display:flex;gap:8px;align-items:flex-end}
+.input-area textarea{flex:1;background:#0f172a;border:1px solid #475569;border-radius:6px;padding:8px 12px;color:#fff;font-size:14px;resize:none;font-family:inherit;outline:none;min-height:40px;max-height:120px}
+.input-area textarea:focus{border-color:#3b82f6}
+.mic-btn{padding:8px 12px;border-radius:6px;border:none;cursor:pointer;font-size:14px;transition:all .15s}
+.mic-btn.off{background:#334155;color:#cbd5e1}.mic-btn.off:hover{background:#475569}
+.mic-btn.on{background:#dc2626;color:#fff;animation:pulse 1s infinite}
+.send-btn{padding:8px 20px;background:#2563eb;color:#fff;border:none;border-radius:6px;font-size:14px;font-weight:500;cursor:pointer}
+.send-btn:hover{background:#1d4ed8}
+.send-btn:disabled{background:#475569;cursor:not-allowed}
+.reset-btn{font-size:12px;color:#64748b;padding:4px 8px;border:1px solid #334155;border-radius:4px;background:transparent;cursor:pointer}
+.reset-btn:hover{color:#cbd5e1}
+.learned{font-size:10px;color:#22c55e;margin-top:4px}
+@media(max-width:768px){nav{display:none}}
+</style>
+</head>
+<body>
+<div style="background:#0f172a;color:#64748b;padding:4px 12px;font-size:11px;text-align:center;border-bottom:1px solid #1e293b">Public-safe static demo. All names, counts, and labels are illustrative.</div>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html" class="active">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<main style="margin-top:50px">
+<div class="chat-header">
+<h2 style="font-size:24px;font-weight:bold;color:#fff">Execute</h2>
+<button class="reset-btn" onclick="resetChat()">Reset Chat</button>
+</div>
+
+<div class="chat-area" id="chatArea">
+<!-- Demo messages -->
+<div class="msg user"><div class="bubble user">Update storage page layout and add Growth Trend charts</div></div>
+<div class="msg assistant">
+<div class="bubble assistant">
+<strong>Task Accepted</strong><br><br>
+Updating storage page with the following changes:<br>
+<code>storage/page.tsx</code> Growth Trend section added<br>
+- DB Growth Forecast (90d/365d)<br>
+- Growth rate TOP 10 by directory<br><br>
+Running...
+<div class="meta">
+<span>task: exec-2026040512</span>
+<span>route: execute</span>
+<span class="poll">Polling...</span>
+<a href="#">Progress Tab</a>
+</div>
+<div class="intent-bar">
+<span>Classification (rule_match) incorrect?</span>
+<button class="intent-btn" onclick="correctIntent(this,'status')">status</button>
+<button class="intent-btn" onclick="correctIntent(this,'followup')">followup</button>
+<button class="intent-btn" onclick="correctIntent(this,'chat')">chat</button>
+</div>
+</div>
+</div>
+
+<div class="msg assistant">
+<div class="bubble success">
+<strong>Task Completed</strong> (exec-2026040512)<br><br>
+<code>storage/page.tsx</code> refresh done:<br>
+- Growth Trend section added (DB Growth Forecast + directory TOP 10)<br>
+- <code>/api/storage/growth</code> endpoint added<br>
+- 1-hour interval auto-refresh configured<br><br>
+---<br>
+<strong>Follow-up actions required:</strong><br>
+- Dashboard rebuild: <code>npm run build</code>
+<div class="action-area">
+<p>Follow-up action confirmation:</p>
+<div class="action-row">
+<button class="action-btn" onclick="execAction(this)">Dashboard rebuild</button>
+<span style="font-size:12px;color:#94a3b8">npm run build execution</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="msg user"><div class="bubble user">Status?</div></div>
+<div class="msg assistant">
+<div class="bubble assistant">
+<strong>Current Status:</strong><br><br>
+&#x2705; Storage page fix - <strong>Done</strong><br>
+&#x1F7E1; Dashboard rebuild - <strong>Awaiting follow-up</strong><br><br>
+Active Tasks: 1<br>
+Today's executions: 8 / Errors: 0
+<div class="meta">
+<span>task: status-check</span>
+<span>route: status</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="input-area">
+<textarea id="chatInput" rows="2" placeholder="Type a message... (Shift+Enter for newline)" onkeydown="handleKey(event)"></textarea>
+<button class="mic-btn off" id="micBtn" onclick="toggleMic()">&#x1F3A4;</button>
+<button class="send-btn" id="sendBtn" onclick="sendDemo()">Send</button>
+</div>
+</main>
+
+<script>
+const demoResponses = [
+  { input: /health|health/i, response: '**Health Check Result:**\n\n🟢 18/21 Normal\n🔴 1 Error: Qdrant-reindex\n🟡 2 Warnings: Swap, Tunnel\n\nLast Check: 12:34', route: 'status' },
+  { input: /backup|backup/i, response: '**Backup Status:**\n\n- A-Layer: Normal (Last 04:00)\n- C-Layer: Normal (10min interval, Last 12:30)\n- D-Layer: pg_dump done (161MB)\n- B-Layer: Mirror refresh done\n\nExternal SSD remaining: 661GB', route: 'status' },
+  { input: /Errors|error/i, response: '**Recent Errors:**\n\n1. Qdrant-reindex stopped (12:15)\n2. Ollama inference timeout (yesterday 15:22)\n\nAuto Recovery: 1/2 successful\nError Rate: 0.96%', route: 'status' },
+  { input: /.+/, response: '**Task Accepted** (exec-demo)\n\nContent analyzed, executing appropriate process.\nRunning...', route: 'execute' },
+];
+
+function sendDemo() {
+  const input = document.getElementById('chatInput');
+  const text = input.value.trim();
+  if (!text) return;
+
+  const area = document.getElementById('chatArea');
+
+  // User message
+  const userDiv = document.createElement('div');
+  userDiv.className = 'msg user';
+  userDiv.innerHTML = `<div class="bubble user">${escapeHtml(text)}</div>`;
+  area.appendChild(userDiv);
+  input.value = '';
+
+  // Find matching response
+  const match = demoResponses.find(r => r.input.test(text));
+
+  // Loading
+  const loadDiv = document.createElement('div');
+  loadDiv.className = 'msg assistant';
+  loadDiv.innerHTML = '<div class="bubble assistant" style="color:#94a3b8"><span style="animation:pulse 1.5s infinite">Processing...</span></div>';
+  area.appendChild(loadDiv);
+  area.scrollTop = area.scrollHeight;
+
+  setTimeout(() => {
+    loadDiv.remove();
+    const assistDiv = document.createElement('div');
+    assistDiv.className = 'msg assistant';
+    const content = match.response.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/`(.*?)`/g, '<code>$1</code>').replace(/\n/g, '<br>');
+    assistDiv.innerHTML = `<div class="bubble assistant">${content}<div class="meta"><span>task: demo-${Date.now()}</span><span>route: ${match.route}</span></div></div>`;
+    area.appendChild(assistDiv);
+    area.scrollTop = area.scrollHeight;
+  }, 1200);
+
+  area.scrollTop = area.scrollHeight;
+}
+
+function handleKey(e) {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendDemo(); }
+}
+
+function resetChat() {
+  document.getElementById('chatArea').innerHTML = '<div class="placeholder"><p>Enter your instruction</p><p class="hint">e.g. "Change storage page layout", "Add new API endpoint"</p><p class="hint">Check status: "Status?", "How did the previous task go?"</p></div>';
+}
+
+function toggleMic() {
+  const btn = document.getElementById('micBtn');
+  if (btn.classList.contains('off')) {
+    btn.classList.remove('off'); btn.classList.add('on'); btn.innerHTML = '&#x25A0;';
+    setTimeout(() => { btn.classList.remove('on'); btn.classList.add('off'); btn.innerHTML = '&#x1F3A4;'; document.getElementById('chatInput').value += 'Voice input test'; }, 2000);
+  } else {
+    btn.classList.remove('on'); btn.classList.add('off'); btn.innerHTML = '&#x1F3A4;';
+  }
+}
+
+function execAction(btn) {
+  btn.textContent = 'Running...'; btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = 'Done'; btn.style.background = '#16a34a';
+    const area = document.getElementById('chatArea');
+    const div = document.createElement('div');
+    div.className = 'msg assistant';
+    div.innerHTML = '<div class="bubble success"><strong>Dashboard rebuild</strong> completed.</div>';
+    area.appendChild(div);
+    area.scrollTop = area.scrollHeight;
+  }, 2000);
+}
+
+function correctIntent(btn, intent) {
+  const bar = btn.parentElement;
+  bar.innerHTML = '<span class="learned">Learned: ' + intent + '</span>';
+}
+
+function escapeHtml(s) { return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+</script>
+</body>
+</html>

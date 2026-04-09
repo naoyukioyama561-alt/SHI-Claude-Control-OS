@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>SHI-Claude-Control-OS Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}.card{background:#1e293b;border:1px solid #334155;border-radius:8px;overflow:hidden}.group-title{font-size:11px;font-weight:600;color:#94a3b8;text-transform:uppercase;letter-spacing:.05em;padding:12px 16px 4px}.section{display:block;padding:12px 16px;transition:background .15s;text-decoration:none;color:inherit;cursor:pointer}.section:hover{background:rgba(51,65,85,.5)}.section-header{display:flex;align-items:center;gap:8px;margin-bottom:4px}.section-header .title{font-size:14px;font-weight:600;color:#fff}.section-grid{margin-left:28px;display:grid;grid-template-columns:repeat(4,1fr);gap:2px 16px;font-size:12px}.kv{color:#94a3b8}.kv .v{color:#e2e8f0}.kv .g{color:#4ade80}.kv .r{color:#f87171}.kv .y{color:#facc15}.kv .b{color:#60a5fa}.kv .c{color:#22d3ee}.kv .o{color:#fb923c}.kv .e{color:#34d399}.kv .p{color:#c084fc}.divider{border-top:1px solid rgba(51,65,85,.5)}
+@media(max-width:768px){nav{display:none}main{padding:12px}.section-grid{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<div style="width:100%;position:fixed;top:0;left:0;z-index:1000;background:#1a2332;color:#94a3b8;padding:8px 16px;font-size:12px;text-align:center;border-bottom:1px solid #334155">This is a public-safe static demo hosted on GitHub Pages. Completely independent from any live environment. All names, counts, times, capacities, statuses, and progress values shown here are illustrative UI samples, not measured benchmark claims. A cropped card or screenshot from this demo should not be treated as evidence by itself. Verify claims through PROVE-IT.md and 20-proof/metrics.md in the repository.</div>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html" class="active">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<main style="margin-top:50px">
+<div style="margin-bottom:8px"><h2 style="font-size:20px;font-weight:bold;color:#fff;padding:0 16px">Overview</h2></div>
+<div class="card">
+
+<div class="group-title">System Status</div>
+<a href="health.html" class="section"><div class="section-header"><span>💚</span><span class="title">Health Check</span></div><div class="section-grid">
+<span class="kv"><span class="g">20/22 Normal</span></span><span class="kv"><span class="r">1 Error</span></span><span class="kv"><span class="y">1 Warning</span></span><span class="kv">Last: <span class="v" id="h-t">12:34</span></span>
+</div></a><div class="divider"></div>
+<a href="local_ai.html" class="section"><div class="section-header"><span>🧠</span><span class="title">Local AI</span></div><div class="section-grid">
+<span class="kv">Ollama: <span class="g">3 models</span></span><span class="kv">Inference: <span class="g" id="x1">847 chars</span></span><span class="kv">Qdrant: <span class="v" id="x2">12,458 pts</span></span><span class="kv">Council: <span class="v" id="x3">48</span></span>
+</div></a><div class="divider"></div>
+<a href="storage.html" class="section"><div class="section-header"><span>📈</span><span class="title">Resource Monitor</span></div><div class="section-grid">
+<span class="kv">CPU: <span class="g" id="x4">12%</span></span><span class="kv">RAM: <span class="g">5.2/8.0GB</span></span><span class="kv">Internal: <span class="g">142/460GB</span></span><span class="kv">External SSD: <span class="g">293/954GB</span></span>
+</div></a>
+
+<div class="group-title">AI Auto-Operations</div>
+<a href="supervisor-agent.html" class="section"><div class="section-header"><span>🤖</span><span class="title">Supervisor Agent</span></div><div class="section-grid">
+<span class="kv">Modules: <span class="v">14</span></span><span class="kv">Privilege: <span class="y">granted</span></span><span class="kv">Standby: <span class="g">active</span></span>
+</div></a><div class="divider"></div>
+<a href="supervisor.html" class="section"><div class="section-header"><span>👁️</span><span class="title">Supervisor</span></div><div class="section-grid">
+<span class="kv">Directives: <span class="v">8</span></span><span class="kv">Pending: <span class="y">3</span></span><span class="kv">Done: <span class="g">5</span></span>
+</div></a>
+
+<div class="group-title">Execution / Progress</div>
+<a href="execute.html" class="section"><div class="section-header"><span>▶️</span><span class="title">Execute</span></div><div class="section-grid">
+<span class="kv">Today: <span class="b" id="x5">8</span></span><span class="kv">Total: <span class="v">1,247</span></span><span class="kv">Error Rate: <span class="v">0.96%</span></span>
+</div></a><div class="divider"></div>
+<a href="design-verify.html" class="section"><div class="section-header"><span>📋</span><span class="title">Design Verify</span></div><div class="section-grid">
+<span class="kv">Done: <span class="g">7</span></span><span class="kv">Total: <span class="v">10</span></span><span class="kv">SKIP: <span class="v">2</span></span><span class="kv">Progress: <span class="b">70%</span></span>
+</div></a><div class="divider"></div>
+<a href="tasks.html" class="section"><div class="section-header"><span>📌</span><span class="title">Task Progress</span></div><div class="section-grid">
+<span class="kv">Active: <span class="b">3</span></span><span class="kv">Done (Today): <span class="g">5</span></span><span class="kv">DB Size: <span class="v">248MB</span></span>
+</div></a>
+
+<div class="group-title">Quality & Monitor</div>
+<a href="quality.html" class="section"><div class="section-header"><span>✅</span><span class="title">Quality Check</span></div><div class="section-grid">
+<span class="kv">Checks: <span class="v">342</span></span><span class="kv">Error Rate: <span class="v">0.96%</span></span>
+</div></a><div class="divider"></div>
+<a href="localai-check.html" class="section"><div class="section-header"><span>⚡</span><span class="title">LocalAI Check</span></div><div class="section-grid">
+<span class="kv">Monitor: <span class="v">172 patterns</span></span><span class="kv">Detected: <span class="o" id="x6">3</span></span>
+</div></a><div class="divider"></div>
+<a href="user-judgment.html" class="section"><div class="section-header"><span>👤</span><span class="title">User Judgment</span></div><div class="section-grid">
+<span class="kv">Awaiting: <span class="c">2</span></span>
+</div></a>
+
+<div class="group-title">Notifications & Tracking</div>
+<a href="notifications.html" class="section"><div class="section-header"><span>🔔</span><span class="title">Notifications</span></div><div class="section-grid">
+<span class="kv">All: <span class="v">8</span></span><span class="kv">Unread: <span class="r">4</span></span>
+</div></a>
+
+<div class="group-title">Knowledge & Learning</div>
+<a href="learning.html" class="section"><div class="section-header"><span>📚</span><span class="title">Learning</span></div><div class="section-grid">
+<span class="kv">Total: <span class="e">234</span></span><span class="kv">Categories: <span class="v">12</span></span><span class="kv">Patterns: <span class="v" id="x7">34</span></span>
+</div></a><div class="divider"></div>
+<a href="glossary.html" class="section"><div class="section-header"><span>📓</span><span class="title">Glossary</span></div><div class="section-grid">
+<span class="kv">Register: <span class="v">40 terms</span></span><span class="kv">v3.2</span>
+</div></a>
+
+<div class="group-title">Others</div>
+<a href="tokens.html" class="section"><div class="section-header"><span>🪙</span><span class="title">Token Monitor</span></div><div class="section-grid">
+<span class="kv">Anthropic: <span class="v" id="x8">42</span> $<span class="v" id="x9">2.18</span></span><span class="kv">Gemini: <span class="v" id="xa">89</span></span>
+</div></a><div class="divider"></div>
+<a href="claudecode.html" class="section"><div class="section-header"><span>💻</span><span class="title">Claude Code</span></div><div class="section-grid">
+<span class="kv">Messages: <span class="v" id="xb">2,847</span></span><span class="kv">Session: <span class="g">Active</span></span>
+</div></a><div class="divider"></div>
+<a href="features.html" class="section"><div class="section-header"><span>⭐</span><span class="title">Features</span></div><div class="section-grid">
+<span class="kv">Implemented: <span class="g" id="xc">87</span></span><span class="kv">All features: <span class="v">104</span></span><span class="kv">Impl Rate: <span class="v" id="xd">84%</span></span>
+</div></a><div class="divider"></div>
+<a href="pipeline.html" class="section"><div class="section-header"><span>🔀</span><span class="title">Pipeline</span></div><div class="section-grid">
+<span class="kv">Core: workflow-engine WF</span><span class="kv">Task: API GW</span><span class="kv">Learning: L1-L4</span>
+</div></a>
+
+</div></main>
+<script>
+const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
+function A(){const n=Date.now()/1000,v=P[Math.floor(n%60/15)%4]((n%15)/15);
+const c=5+Math.round(v*25);document.getElementById('x4').textContent=c+'%';document.getElementById('x4').className=c>80?'r':c>50?'y':'g';
+document.getElementById('x1').textContent=(600+Math.round(v*500))+' chars';
+document.getElementById('x2').textContent=(12e3+Math.round(v*900)).toLocaleString()+' pts';
+document.getElementById('x3').textContent=(45+Math.round(v*8))+'';
+document.getElementById('x5').textContent=6+Math.round(v*5);
+document.getElementById('x6').textContent=2+Math.round(v*3);
+document.getElementById('x7').textContent=30+Math.round(v*8);
+const a=35+Math.round(v*15);document.getElementById('x8').textContent=a;document.getElementById('x9').textContent=(a*.052).toFixed(2);
+document.getElementById('xa').textContent=70+Math.round(v*30);
+document.getElementById('xb').textContent=(2840+Math.round(v*20)).toLocaleString();
+const fd=85+Math.round(v*5);document.getElementById('xc').textContent=fd;document.getElementById('xd').textContent=Math.round(fd/104*100)+'%';
+requestAnimationFrame(A);}A();
+</script></body></html>

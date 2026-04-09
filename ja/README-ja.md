@@ -17,7 +17,7 @@ Language: [English version](../README.md)
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
 > **インストール不要** — コピーして貼り付けてテスト。試す、反証する、移植する。
-> **[→ 動いている形を見る: インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [主張を検証する →](PROVE-IT-ja.md)
+> **[→ 動いている形を見る: インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [主張を検証する →](PROVE-IT-ja.md)
 
 ---
 
@@ -32,7 +32,7 @@ Language: [English version](../README.md)
 | しばらく離れて戻ると、文脈の継続性が失われている | 後継AIがルールだけでなく判断を継承 |
 
 <p align="center">
-  <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: 構造的ガバナンスの有無によるAI行動の違い" width="720">
+  <img src="images/diagrams/before-after-comparison-ja.svg" alt="Before/After: 構造的ガバナンスの有無によるAI行動の違い" width="720">
 </p>
 
 → [実例を見る](20-proof/public-case-01-ja.md)
@@ -55,7 +55,7 @@ Language: [English version](../README.md)
 
 ### 動いている形を見る（公開安全な静的デモ・1分）
 
-**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](../docs/dashboard.html)
+**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [オフライン版](../docs/dashboard.html)
 
 *実環境とは完全に独立した静的ページです。表示データはすべてサンプルです。*
 

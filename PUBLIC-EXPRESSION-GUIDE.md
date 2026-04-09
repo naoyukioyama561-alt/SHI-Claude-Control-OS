@@ -15,7 +15,7 @@ This guide applies to **all externally visible expressions**, including:
 |---------|----------|-------------------|
 | Markdown body text (EN/JA) | README, achievements, framework docs | 1,2,3,4,5,6,7 |
 | Headings / titles (H1-H6) | Page titles, section headings | 1,3,5 (no brackets) |
-| Demo HTML (UI-visible text) | demo/en/*.html, demo/ja/*.html | 3,4,8 |
+| Demo HTML (UI-visible text) | demo/*.html, ja/demo/*.html | 3,4,8 |
 | SVG embedded text | `<text>`, `<title>`, `<desc>`, legends | 2,3,8 |
 | alt text / ARIA labels | `alt=""`, `aria-label=""` | 3,4 |
 | HTML meta / OGP tags | `<title>`, `<meta og:title>`, `<meta description>` | 1,3,4 (SNS crop test) |
@@ -268,7 +268,7 @@ When a new expression is needed:
 | EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
 | SVG (conceptual) | `concept-name.svg` (EN in `/images/diagrams/`) / `concept-name-ja.svg` (JA in `/ja/images/diagrams/`) | `image1.svg`, `fig-01` |
-| Demo HTML | `demo/en/page.html`, `demo/ja/page.html` | `demo_en.html` |
+| Demo HTML | `demo/page.html`, `ja/demo/page.html` | `demo_en.html` |
 | Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
 
 Filenames must not contain prohibited terms from any section (e.g., `free-tier-quickstart.md` is prohibited).

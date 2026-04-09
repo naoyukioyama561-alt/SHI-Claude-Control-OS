@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Claude Code - SHI-Claude-Control-OS</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}.card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;margin-bottom:16px}.sg{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}.sc{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px;text-align:center}.sl{font-size:12px;color:#94a3b8}.sv{font-size:28px;font-weight:bold;margin:4px 0}.ss{font-size:11px;color:#64748b}.log{font-size:12px;padding:8px;border-bottom:1px solid rgba(51,65,85,.3);display:flex;gap:8px;align-items:flex-start}.log:hover{background:rgba(51,65,85,.15)}.tag{font-size:10px;padding:2px 6px;border-radius:4px;flex-shrink:0}.pulse{animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}@media(max-width:768px){nav{display:none}.sg{grid-template-columns:repeat(2,1fr)}}</style></head><body>
+<div style="background:#0f172a;color:#64748b;padding:4px 12px;font-size:11px;text-align:center;border-bottom:1px solid #1e293b">Public-safe static demo. All names, counts, and labels are illustrative.</div>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html">🏠 Overview</a><a href="health.html">💚 Health Check</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 Resource Monitor</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ Supervisor</a><a href="execute.html">▶️ Execute</a><a href="design-verify.html">📋 Design Verify</a><a href="tasks.html">📌 Task Progress</a><a href="quality.html">✅ Quality Check</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 User Judgment</a><a href="notifications.html">🔔 Notifications</a><a href="learning.html">📚 Learning</a><a href="glossary.html">📓 Glossary</a><a href="tokens.html">🪙 Token Monitor</a><a href="claudecode.html" class="active">💻 Claude Code</a><a href="features.html">⭐ Features</a><a href="pipeline.html">🔀 Pipeline</a></nav>
+<main style="margin-top:50px">
+<h2 style="font-size:24px;font-weight:bold;color:#fff;margin-bottom:16px">Claude Code</h2>
+<div class="sg">
+<div class="sc"><div class="sl">Total Messages</div><div class="sv" style="color:#c084fc" id="v-msg">2,847</div></div>
+<div class="sc"><div class="sl">Today</div><div class="sv" style="color:#60a5fa" id="v-td">134</div></div>
+<div class="sc"><div class="sl">Session</div><div class="sv pulse" style="color:#4ade80">Active</div><div class="ss" id="v-dur">2h 34m</div></div>
+<div class="sc"><div class="sl">CC Generation</div><div class="sv" style="color:#facc15">10th Gen</div><div class="ss">PID: 48291</div></div>
+</div>
+<div class="card">
+<h3 style="color:#fff;font-weight:600;margin-bottom:4px">Session Log</h3>
+<p style="font-size:12px;color:#64748b;margin-bottom:12px">context archive - Recent operation log from context archive</p>
+<div id="ccLogs" style="max-height:450px;overflow-y:auto">
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:49</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">quality.html created (Quality Check demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:48</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">supervisor-agent.html created (Supervisor Agent demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:47</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">notifications.html created (Notifications demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:46</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">execute.html created (Execute demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:44</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">storage.html created (Resource Monitor demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:43</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">health.html created (Health Check demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:39</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">index.html created (Overview demo page)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:37</span><span class="tag" style="background:rgba(34,197,94,.15);color:#4ade80">Read</span><span style="color:#fff">sidebar.tsx, layout.tsx read</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:35</span><span class="tag" style="background:rgba(34,197,94,.15);color:#4ade80">Read</span><span style="color:#fff">page.tsx x6 read (all source code review)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">12:34</span><span class="tag" style="background:rgba(168,85,247,.15);color:#c084fc">Agent</span><span style="color:#fff">Explore: Web pages and dashboards investigation done (32 pages identified)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">01:45</span><span class="tag" style="background:rgba(59,130,246,.15);color:#60a5fa">Write</span><span style="color:#fff">implementation_plan_backup_v2_20260402.md created</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">01:40</span><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">Bash</span><span style="color:#fff">Old scripts deleted (backup_all.sh, backup_jsonl.sh, backup_auto.py)</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">01:35</span><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">Bash</span><span style="color:#fff">Runaway data deleted (daily_20260326-20260401) 187GB freed</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">01:32</span><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">Bash</span><span style="color:#fff">crontab backup_jsonl.sh stopped, LaunchDaemon disabled</span></div>
+<div class="log"><span style="color:#64748b;width:56px;flex-shrink:0">01:25</span><span class="tag" style="background:rgba(34,197,94,.15);color:#4ade80">Read</span><span style="color:#fff">Backup redesign implementation spec v2.md + pre-impl observation commands.md read</span></div>
+</div>
+</div>
+</main>
+<script>
+const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
+const ops=['Read orientation.json','Grep context archive','Write demo page','Read page.tsx','Bash docker ps','Agent Explore codebase'];
+let msgCount=2847;
+function anim(){const now=Date.now()/1000;const v=P[Math.floor(now%60/15)%4]((now%15)/15);
+document.getElementById('v-msg').textContent=(msgCount+Math.round(v*20)).toLocaleString();
+document.getElementById('v-td').textContent=130+Math.round(v*15);
+const m=Math.floor((now%3600)/60);const h=Math.floor(now%86400/3600);
+document.getElementById('v-dur').textContent=Math.floor(h%12)+'h '+Math.floor(m)+'m';
+requestAnimationFrame(anim);}anim();
+setInterval(()=>{msgCount++;const area=document.getElementById('ccLogs');const d=new Date();const t=d.getHours().toString().padStart(2,'0')+':'+d.getMinutes().toString().padStart(2,'0');const op=ops[Math.floor(Math.random()*ops.length)];const colors={'Read':'rgba(34,197,94,.15);color:#4ade80','Write':'rgba(59,130,246,.15);color:#60a5fa','Bash':'rgba(239,68,68,.15);color:#f87171','Grep':'rgba(234,179,8,.15);color:#facc15','Agent':'rgba(168,85,247,.15);color:#c084fc'};const key=op.split(' ')[0];const el=document.createElement('div');el.className='log';el.style.animation='flash .5s';el.innerHTML=`<span style="color:#64748b;width:56px;flex-shrink:0">${t}</span><span class="tag" style="background:${colors[key]||colors.Read}">${key}</span><span style="color:#fff">${op}</span>`;area.insertBefore(el,area.firstChild);if(area.children.length>25)area.removeChild(area.lastChild);},8000);
+</script></body></html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>用語管理 - SHI-Claude-Control-OS</title>
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:auto}
+.row{background:#1e293b;border:1px solid #334155;border-radius:8px;overflow:hidden;margin-bottom:4px}
+.row-h{display:flex;align-items:center;gap:12px;padding:10px 16px;cursor:pointer;transition:background .15s}
+.row-h:hover{background:rgba(51,65,85,.5)}
+.type-tag{font-size:11px;padding:2px 8px;border-radius:4px;color:#fff;flex-shrink:0}
+.type-用語{background:#2563eb}.type-ナレッジ{background:#7c3aed}.type-チャット機能{background:#db2777}.type-機能{background:#059669}
+.cat{font-size:11px;flex-shrink:0;width:80px}
+.cat-AI層{color:#22d3ee}.cat-インフラ{color:#4ade80}.cat-WF{color:#facc15}.cat-Voice App{color:#f472b6}.cat-設計契約{color:#fb923c}.cat-運用{color:#94a3b8}.cat-ダッシュボード{color:#818cf8}.cat-データベース{color:#60a5fa}.cat-技術用語{color:#a78bfa}.cat-ツール{color:#4ade80}.cat-機能{color:#34d399}
+.term-name{color:#fff;font-weight:500;flex:1;font-size:14px}
+.term-def{color:#64748b;font-size:12px;max-width:400px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.arrow{color:#475569;font-size:11px;width:16px;text-align:center;transition:transform .2s;flex-shrink:0}
+.arrow.open{transform:rotate(90deg)}
+.row-body{display:none;padding:0 16px 12px;background:#0f172a;border-top:1px solid #334155;font-size:13px}
+.row-body.open{display:block}
+.row-body .field{margin-top:8px}
+.row-body .fl{color:#64748b;font-size:12px}
+.row-body .fv{color:#e2e8f0}
+.row-body .fd{color:#cbd5e1}
+.rel-tag{color:#60a5fa;font-size:12px;padding:2px 8px;background:rgba(59,130,246,.1);border-radius:4px;cursor:pointer;display:inline-block;margin:2px}
+.rel-tag:hover{background:rgba(59,130,246,.2)}
+.edit-btns{display:flex;gap:4px;margin-left:auto;flex-shrink:0}
+.eb{font-size:11px;padding:2px 8px;border-radius:4px;border:none;cursor:pointer}
+.eb-edit{background:rgba(59,130,246,.15);color:#60a5fa}.eb-edit:hover{background:rgba(59,130,246,.3)}
+.eb-del{background:rgba(239,68,68,.15);color:#f87171}.eb-del:hover{background:rgba(239,68,68,.3)}
+input[type=text],select{background:#334155;color:#fff;border:1px solid #475569;border-radius:6px;padding:6px 12px;font-size:13px}
+@media(max-width:768px){nav{display:none}.term-def{display:none}}
+</style></head><body>
+<div style="background:#0f172a;color:#64748b;padding:4px 12px;font-size:11px;text-align:center;border-bottom:1px solid #1e293b">公開安全な静的デモです。すべての名称・数値・ラベルは例示です。一部の出典ラベルは公開用に一般化しています。欠落ではなく、公開境界を保つための表記です。</div>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html" class="active">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
+<main style="margin-top:50px">
+<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px">
+<h2 style="font-size:24px;font-weight:bold;color:#fff">用語管理 (<span id="showCnt">40</span>/40件)</h2>
+<span style="font-size:13px;color:#64748b">最終更新: 2026-03-06</span>
+</div>
+<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+<input type="text" placeholder="検索..." style="width:200px" id="searchBox" oninput="filter()">
+<select id="catFilter" onchange="filter()"><option value="">全カテゴリ</option></select>
+</div>
+<div id="termList"></div>
+</main>
+<script>
+const T=[
+{id:'workflow-engine',t:'workflow-engine',c:'ツール',y:'用語',df:'オープンソースのワークフロー自動化プラットフォーム。ノードベースのビジュアルエディタで各種サービス・API・データベースを連携。',dt:'ワークフロー自動化プラットフォームをDocker運用（例示値）。Webhook受信→分類→処理→監査→応答のパイプライン構造。',sr:'公式: workflow-engine.io / docker-compose.yml',rl:['Core Pipeline','Docker Compose','API Gateway'],cx:'SHI-Claude-Control-OSシステムの中核。全ての実行指示はworkflow-engine WFパイプラインを通過する。'},
+{id:'core-pipeline',t:'Core Pipeline',c:'WF',y:'ナレッジ',df:'SHI-Claude-Control-OS のメインワークフロー。分類→処理→監査→応答の一連のパイプラインを実行。',dt:'8段階フロー: Webhook受信→TraceID付与→Regex分類→IF分岐→低確信度なら確認応答→ChatGPT応答→Gemini監査→最終応答。14ノード構成。',sr:'伏字化ワークフロー参照',rl:['Task Generic','Gemini','GPT-4o-mini','audit'],cx:'全ての実行指示はこのパイプラインを通過する。router_method でルーティング手法を記録。'},
+{id:'task-generic',t:'Task Generic',c:'WF',y:'ナレッジ',df:'汎用タスク処理WF。Core Pipeline から呼ばれ、RAG検索→プロンプト構築→ChatGPT応答→パースの流れ。',dt:'7ノード構成。Webhook→Extract→RAG Search→Build Prompt→ChatGPT→Parse Response→Respond。',sr:'伏字化ワークフロー参照',rl:['Core Pipeline','RAG','GPT-4o-mini'],cx:'Core Pipeline の task dispatch 先。'},
+{id:'dash-exec-wf',t:'Dashboard_Executions WF',c:'WF',y:'ナレッジ',df:'実行履歴WF。feedback_log一覧返却。ページネーション・フィルタ対応。',dt:'',sr:'伏字化ワークフロー参照',rl:['feedback-log'],cx:'伏字化APIエンドポイントバックエンド。'},
+{id:'consensus',t:'ConsensusClassifier',c:'AI層',y:'ナレッジ',df:'5モデル合議による意図分類エンジン。execute/status/followup/chatの4分類。',dt:'Gemini/OpenAI/Groq/Mistral/Cohere並列→多数決。classify_intent_consensus()。',sr:'tool/consensus_classifier.py',rl:['api-gateway','routing-rules'],cx:'API Gatewayの/intent/consensusで呼び出し。'},
+{id:'gemini',t:'Gemini Flash',c:'AI層',y:'用語',df:'Google の LLM。Layer1 として入力分類（regex 不一致時）と応答監査を担当。',dt:'Gemini 2.0 Flash 使用。分類時は confidence スコアを返し、低確信度(<0.6)なら確認応答に分岐。',sr:'Google AI Studio',rl:['Core Pipeline','audit'],cx:'コスト効率のため Flash モデルを採用。'},
+{id:'groq',t:'Groq',c:'AI層',y:'用語',df:'高速推論プロバイダ。llama-3.3-70b-versatile。日14400リクエスト。',dt:'Geminiフォールバック第2。',sr:'config/ai_providers.json',rl:['ai-providers','fallback-chain'],cx:''},
+{id:'council',t:'Council Engine',c:'AI層',y:'ナレッジ',df:'5ローカルLLMによる合議プロトコル。3フェーズ(独立回答→議論→最終判定)。',dt:'qwen3:8b(議長C-1), mistral-nemo:12b(批判者C-2), deepseek-r1:8b(C-3), phi4:14b(C-4), gemma3:12b(C-5)。',sr:'redacted internal script',rl:['ollama','l4-learning'],cx:'Ollama経由RTX 4060上実行。'},
+{id:'nomic',t:'nomic-embed-text',c:'AI層',y:'用語',df:'Nomic軽量Embeddingモデル。ローカルAI L2用。',dt:'Ollama経由。local_ai_knowledgeコレクション。',sr:'redacted internal learning module',rl:['qdrant'],cx:'OpenAI Embedding代替ローカル。'},
+{id:'mistral',t:'mistral-nemo:12b',c:'AI層',y:'用語',df:'Mistral Nemo 12B。合議批判者(C-2)。弱点・リスク抽出。',dt:'Ollama。VRAM 7500MB。',sr:'redacted internal script',rl:['council'],cx:'問題点指摘役。'},
+{id:'embed',t:'Embedding（埋め込み）',c:'AI層',y:'用語',df:'テキストを固定長の数値ベクトルに変換する処理。意味的な類似度計算に使用。',dt:'OpenAI text-embedding-3-small (1536次元)。Knowledge_Ingest/Search WF で呼び出し。',sr:'OpenAI API',rl:['Qdrant','RAG','Cosine'],cx:'ナレッジ投入時にベクトル化してQdrantに格納。'},
+{id:'dashboard',t:'SHI-Claude-Control-OS Dashboard',c:'インフラ',y:'ナレッジ',df:'SHI-Claude-Control-OS環境の管理ダッシュボード。',dt:'standalone ビルド。リバースプロキシ経由で外部公開。',sr:'伏字化アプリディレクトリ/',rl:['Docker Compose'],cx:'state/ を ro マウントして進捗表示。'},
+{id:'qdrant',t:'Qdrant',c:'インフラ',y:'用語',df:'ベクトルデータベース。ナレッジの埋め込みベクトルを格納し、類似度検索を提供。',dt:'Dockerコンテナ（ローカルベクトルDBエンドポイント）。コレクション設定は例示値。',sr:'公式: qdrant.tech',rl:['RAG','embedding'],cx:'SHI-Claude-Control-OS のナレッジ基盤。'},
+{id:'systemd',t:'systemd',c:'インフラ',y:'用語',df:'Linuxサービス管理。プロセス永続化。システムサービスによるプロセス永続化。',dt:'',sr:'systemctl',rl:['redacted backend service'],cx:'VM再起動時の自動起動を支援する設計。'},
+{id:'pg-qdrant',t:'PostgreSQL + Qdrant',c:'データベース',y:'ナレッジ',df:'SHI-Claude-Control-OSのデュアルDB構成。PostgreSQLがリレーショナル、Qdrantがベクトルデータを担当。',dt:'PostgreSQL: [例示スキーマ]。Qdrant: [例示ベクトル設定]。',sr:'例示参照',rl:['PostgreSQL','Qdrant','RAG'],cx:'構造化データはPostgreSQL、非構造化ナレッジはQdrant。'},
+{id:'cosine',t:'Cosine Similarity',c:'技術用語',y:'用語',df:'ベクトル類似度。0-1(1=完全一致)。Qdrant距離関数。',dt:'ローカルキャッシュbigram類似度にも使用。',sr:'',rl:['embedding','qdrant'],cx:'RAG検索+キャッシュマッチ。'},
+{id:'charm',t:'CharmMixer',c:'Voice App（例示）',y:'ナレッジ',df:'状態に応じた魅力要素(cute/bright/calm/care/special)の比率を計算し応答トーンを調整。',dt:'getCharmRatio(stateName)で状態別比率取得。personalizeCharm()でパーソナライズ。',sr:'伏字化サービスディレクトリ/charmMixer.ts',rl:['stateConfig'],cx:'9状態に5要素比率定義。'},
+{id:'voicevox',t:'VOICEVOX',c:'Voice App（例示）',y:'用語',df:'日本語音声合成エンジン。テキスト→音声変換。ローカルTTSエンドポイント。スピーカー設定は例示値。',dt:'合成後に RVC で声質変換する設計。',sr:'redacted config',rl:['RVC','voice'],cx:'テキスト→VOICEVOX→(RVC変換)→音声ファイル→クライアント再生。'},
+{id:'voice-style',t:'VoiceStyle',c:'Voice App（例示）',y:'ナレッジ',df:'VOICEVOX/RVCの音声パラメータをプリセット管理。normal/young/calmの3プリセット。',dt:'resolveVoicevoxParams()、resolveRvcParams()、resolveStateVoicevoxParams()。',sr:'伏字化サービスディレクトリ/voiceStyle.ts',rl:['voicevox','rvc'],cx:'状態に応じた声質変化対応。'},
+{id:'context-svc',t:'Context Service',c:'Voice App（例示）',y:'ナレッジ',df:'会話履歴からトピック検出・ユーザームード分析・要約を構築するサービス。',dt:'buildConversationSummary()、detectTopics()、detectUserMood()。',sr:'伏字化サービスディレクトリ/context.ts',rl:['chat.ts','memory.ts'],cx:'プロンプト構築時にコンテキスト情報を注入。'},
+{id:'mem-consol',t:'MemoryConsolidation',c:'Voice App（例示）',y:'ナレッジ',df:'短期記憶の長期記憶への昇格・期限切れ管理・オープンループ管理。',dt:'consolidateMemories()で昇格/期限切れ処理。addOpenLoop()/resolveLoop()。',sr:'伏字化サービスディレクトリ/memoryConsolidation.ts',rl:['memory.ts','context.ts'],cx:'memory_policy.json準拠。short_term(24h)→long_term(30d)昇格。'},
+{id:'empathy',t:'EmpathyEnhancer',c:'Voice App（例示）',y:'ナレッジ',df:'ユーザーの感情履歴を分析し共感的プロンプトを構築するサービス。',dt:'buildEmpathyPrompt()で感情状態に応じた共感指示生成。',sr:'伏字化サービスディレクトリ/empathyEnhancer.ts',rl:['emotion-learning'],cx:'感情の連続性を考慮した応答生成。'},
+{id:'chat-interval',t:'ChatIntervalAdjuster',c:'Voice App（例示）',y:'ナレッジ',df:'返信間隔パターン分析でproactive会話タイミングを最適化するサービス。',dt:'過去の返信間隔統計から最適な話しかけタイミング算出。',sr:'伏字化サービスディレクトリ/chatIntervalAdjuster.ts',rl:['proactive-chat'],cx:'proactive会話の空気読み機能。'},
+{id:'voice-app-db',t:'Voice App DBテーブル一覧',c:'Voice App（例示）',y:'ナレッジ',df:'SQLite全テーブル。17+テーブル。users, conversations, emotion_history, memories等。',dt:'user_settings, cached_responses, weekly_sessions, session_rules, ai_usage_logs, user_voice_prefs, behavior_feedback, user_happiness_log, open_loops, topic_knowledge。',sr:'伏字化サービスディレクトリ/database.ts',rl:['sqlite'],cx:'サービスごとにテーブル追加。'},
+{id:'ssl',t:'自己証明書 (SSL)',c:'Voice App（例示）',y:'ナレッジ',df:'伏字化した音声サービス HTTPS エンドポイント用の自己署名証明書。RSA 2048bit、有効期限365日。',dt:'ホスト識別子は意図的に伏字化しています。マイク使用 (getUserMedia) には HTTPS が必須です。',sr:'redacted certificate path',rl:['redacted voice-service'],cx:'ブラウザ初回アクセス時に証明書警告を手動承認する場合があります。'},
+{id:'mem-policy',t:'memory_policy.json',c:'Voice App（例示）',y:'ナレッジ',df:'記憶統合ルール定義。短期→長期記憶の昇格条件・期限切れルール。',dt:'short_term_ttl_hours, long_term_ttl_days, promotion_threshold, max_open_loops。',sr:'config/',rl:['memory-consolidation'],cx:'記憶の重要度に基づく自動昇格・削除制御。'},
+{id:'proactive',t:'proactive会話（自発会話）',c:'機能',y:'チャット機能',df:'ユーザーの沈黙が5分続いた時にシアから自発的に話しかける機能。',dt:'伏字化APIエンドポイントエンドポイント。cooldown5分、Gemini優先+ChatGPTフォールバック。',sr:'redacted internal reference',rl:['redacted backend service','gemini'],cx:''},
+{id:'three-layer',t:'三層AI役割分担',c:'設計契約',y:'ナレッジ',df:'Claude Code の作業効率化ルール。Explore→Plan→Main の3層構造。',dt:'第1層: Task(Explore) - ログスキャン。第2層: Task(Plan) - 設計ドラフト。第3層: Main - 最終判断・実装。',sr:'CLAUDE.md',rl:['Token最小化'],cx:'5ファイル以上の横断読み込みは必ず第1層に委譲。'},
+{id:'result-t',t:'Result<T> パターン',c:'設計契約',y:'ナレッジ',df:'サービス層の戻り値型契約。{ok:true, value:T} | {ok:false, error:AppError}。throw 禁止。',dt:'services/types.ts で定義。ok<T>() と fail<T>() ヘルパー。ErrorCode: VALIDATION/NOT_FOUND/CONFLICT/DB/INTERNAL。',sr:'伏字化サービスディレクトリ/types.ts',rl:['AppError','DTO'],cx:'新規サービスから Result<T> に移行。'},
+{id:'ai-prov',t:'ai_providers.json',c:'設計契約',y:'ナレッジ',df:'マルチAIプロバイダ設定。8プロバイダの接続・モデル・制限・ルーティング。',dt:'gemini/openai/groq/mistral/openrouter/cohere/tavily/claude_code。fallback_chain定義。',sr:'config/ai_providers.json',rl:['api-gateway','consensus-classifier'],cx:'gemini→groq→mistral→openrouter→openai。'},
+{id:'material',t:'素材庫',c:'設計契約',y:'機能',df:'AIが会話・問題解決・運用から蓄積した知識素材を管理・再利用する学習蓄積基盤。',dt:'ai_knowledge.json, PostgreSQL incident_knowledge, Qdrant knowledgeコレクション。glossary.jsonも素材庫の一部。',sr:'RT-08',rl:['RAG','Qdrant','embedding'],cx:'裏で機能学習に入れていくバックエンド学習蓄積機能。'},
+{id:'dash-kn',t:'ナレッジ詳細ページ',c:'ダッシュボード',y:'ナレッジ',df:'Qdrantナレッジ詳細閲覧・検索。ベクトル検索・メタデータ・コレクション。',dt:'',sr:'伏字化アプリディレクトリ/knowledge-detail/page.tsx',rl:['qdrant','rag'],cx:'ナレッジベース確認・検索。'},
+{id:'dash-tasks',t:'タスク一覧ページ',c:'ダッシュボード',y:'ナレッジ',df:'タスクキュー一覧。状態別表示。フィルタ・ソート。',dt:'redacted state file読取。',sr:'伏字化アプリディレクトリ/tasks/page.tsx',rl:['task-queue-txt'],cx:''},
+{id:'progress',t:'進捗モニタ',c:'ダッシュボード',y:'ナレッジ',df:'タスク状態をリアルタイム表示。10秒ポーリング。プログレスバー・経過時間・エラー理由。',dt:'API: /api/progress (5秒TTLキャッシュ、非同期I/O)。',sr:'伏字化アプリディレクトリ/progress/page.tsx',rl:['redacted state file','API Gateway'],cx:'volume mount (state/:ro) で直接読み取り。'},
+{id:'api-health',t:'ヘルスチェックエンドポイント',c:'ダッシュボード',y:'ナレッジ',df:'ヘルスチェックAPI。health_status.json返却。',dt:'state/health_status.json読取→JSON返却。',sr:'伏字化アプリディレクトリヘルスチェックエンドポイント/route.ts',rl:['health-status-json'],cx:'/healthのデータソース。'},
+{id:'state-dir',t:'state/ ディレクトリ',c:'運用',y:'ナレッジ',df:'SHI-Claude-Control-OS のシステム状態管理ディレクトリ。tool/ スクリプトのみが更新権限を持つ。',dt:'redacted state file, redacted state file, redacted state file, redacted state file等。',sr:'redacted internal document',rl:['workflow-engine v5 契約'],cx:'v5 契約の中核。直接編集禁止、tool/ 経由のみ。'},
+{id:'trace',t:'trace_id',c:'運用',y:'ナレッジ',df:'リクエストの一意識別子。Core Pipeline で自動生成され、全WFノードに伝搬。',dt:'Set_TraceId ノードで生成。feedback_log テーブルに記録。',sr:'Core Pipeline WF',rl:['Core Pipeline','feedback_log'],cx:'実行指示→分類→応答→監査の全過程を追跡可能。'},
+{id:'op-know',t:'operational_knowledge.jsonl',c:'運用',y:'ナレッジ',df:'運用ナレッジ蓄積。障害対応・設定変更等のJSONL記録。',dt:'event_type, description, resolution, timestamp。',sr:'redacted state file',rl:['material-library'],cx:'運用経験の構造化蓄積。'},
+{id:'chat-queue',t:'chat_send_queue.json',c:'運用',y:'ナレッジ',df:'チャット送信キュー。SHI-Claude-Control-OS→Voice App送信待ちメッセージ管理。キュー形式で蓄積→順次送信。',dt:'',sr:'state/',rl:['api-gateway','chat-sync'],cx:'非同期メッセージバッファ。'},
+];
+
+const TYPE_CLS={'用語':'type-用語','ナレッジ':'type-ナレッジ','チャット機能':'type-チャット機能','機能':'type-機能'};
+const CAT_CLS=c=>'cat-'+c;
+
+// Build category filter
+const cats=[...new Set(T.map(t=>t.c))].sort();
+const sel=document.getElementById('catFilter');
+cats.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o);});
+
+let expanded=null;
+
+function render(list){
+const el=document.getElementById('termList');el.innerHTML='';
+list.forEach((t,i)=>{
+const d=document.createElement('div');d.className='row';d.dataset.idx=i;
+d.innerHTML=`<div class="row-h" onclick="toggle('${t.id}')">
+<span class="type-tag ${TYPE_CLS[t.y]||'type-用語'}">${t.y}</span>
+<span class="cat ${CAT_CLS(t.c)}">${t.c}</span>
+<span class="term-name">${t.t}</span>
+<span class="term-def">${t.df}</span>
+<span class="arrow${expanded===t.id?' open':''}" id="arr-${t.id}">▶</span>
+</div>
+<div class="row-body${expanded===t.id?' open':''}" id="body-${t.id}">
+<div class="field"><span class="fl">定義:</span> <span class="fv">${t.df}</span></div>
+${t.dt?'<div class="field"><span class="fl">詳細:</span> <span class="fd">'+t.dt+'</span></div>':''}
+${t.cx?'<div class="field"><span class="fl">コンテキスト:</span> <span class="fd" style="color:#94a3b8">'+t.cx+'</span></div>':''}
+${t.sr?'<div class="field"><span class="fl">出典:</span> <span class="fd" style="color:#94a3b8">'+t.sr+'</span></div>':''}
+${t.rl&&t.rl.length?'<div class="field"><span class="fl">関連:</span> '+t.rl.map(r=>'<span class="rel-tag" onclick="searchRel(\''+r+'\')">'+r+'</span>').join('')+'</div>':''}
+<div style="margin-top:8px;display:flex;gap:4px"><button class="eb eb-edit" onclick="alert(\'編集モード (デモ)\')">編集</button><button class="eb eb-del" onclick="alert(\'削除確認 (デモ)\')">削除</button></div>
+</div>`;
+el.appendChild(d);});
+document.getElementById('showCnt').textContent=list.length;
+}
+
+function toggle(id){
+expanded=expanded===id?null:id;
+filter(); // re-render with expanded state
+}
+
+function searchRel(r){
+document.getElementById('searchBox').value=r;
+expanded=null;
+filter();
+}
+
+function filter(){
+const q=document.getElementById('searchBox').value.toLowerCase();
+const cat=document.getElementById('catFilter').value;
+const f=T.filter(t=>{
+if(cat&&t.c!==cat)return false;
+if(q&&!t.t.toLowerCase().includes(q)&&!t.df.toLowerCase().includes(q))return false;
+return true;});
+render(f);
+}
+
+render(T);
+</script></body></html>
