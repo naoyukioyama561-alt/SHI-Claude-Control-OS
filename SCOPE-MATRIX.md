@@ -42,7 +42,7 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 
 1. Provide full implementation details (that is Phase1/Phase2)
 2. Prove everything quantitatively (some N-counts are outside the public repository)
-3. Replace hands-on experience (you must try it yourself)
+3. Replace hands-on experience (readers should verify in their own environment)
 4. Cover personal history (this is about methodology, not biography)
 5. Guarantee results (verify in your own environment)
 

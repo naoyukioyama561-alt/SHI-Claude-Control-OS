@@ -7,16 +7,16 @@ Language: [English version](../ROADMAP.md)
 
 > Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。「現在」に書かれている内容は、すべてこのリポジトリで公開されています。
 
-- Claude、GPT、Copilotにまたがる40の失敗モード分類
+- Claude、GPT、Copilotにまたがる40 [observed: single environment] の失敗モード分類
 - Control OSテンプレート（コピペ対応）
-- 15件の成果ページ（6件詳細 + 9件概要）
+- 15件の成果ページ [observed: single environment]（6件詳細 + 9件概要）
 - インタラクティブデモ（GitHub Pages）
 - 方法論を説明するフレームワーク文書
 
 ## 次: Phase 1
 
-- 10件の詳細設計書
-- FM 60項目のより深い分類
+- 10件の詳細設計書 [design target]
+- FM 60項目 [design target] のより深い分類
 - 図、サンプル会話、reason_codeテーブル
 - Level B成果の定量データ
 
@@ -24,13 +24,13 @@ Language: [English version](../ROADMAP.md)
 
 ## 将来: Phase 2
 
-- 全132失敗モードの完全詳細
+- 全132失敗モード [observed: single environment] の完全詳細
 - 検証ログとソース抜粋の完全版
 - トークン効率化のBefore/After実測データ
 
 ## 将来: 書籍
 
-- SHI理論によるAI統治の全7章
+- SHI理論によるAI統治の全7章 [design target]
 - 再現手順（具体的な鍵は一切なし）
 
 ---

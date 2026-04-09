@@ -7,16 +7,16 @@ This project is actively maintained. Below is the current direction.
 
 > Phase 1 / Phase 2 are future open release phases, not pricing tiers. Everything listed in "Current" is already freely available in this repository.
 
-- 40 publicly classified failure modes across Claude, GPT, and Copilot
+- 40 [observed: single environment] publicly classified failure modes across Claude, GPT, and Copilot
 - Control OS templates (copy-paste ready)
-- 15 achievement pages (6 full + 9 summary)
+- 15 achievement pages [observed: single environment] (6 full + 9 summary)
 - Interactive demo (GitHub Pages)
 - Framework documents explaining the methodology
 
 ## Next: Phase 1
 
-- 10 detailed design documents
-- FM 60 items with deeper classification
+- 10 detailed design documents [design target]
+- FM 60 items [design target] with deeper classification
 - Diagrams, sample conversations, and reason_code table
 - Quantitative data for Level B achievements
 
@@ -24,13 +24,13 @@ Release timing is not yet announced. Watch this repository for updates.
 
 ## Future: Phase 2
 
-- All 132 failure modes with full detail
+- All 132 failure modes [observed: single environment] with full detail
 - Complete verification logs and source excerpts
 - Before/After measured data for token efficiency
 
 ## Future: Book
 
-- Full 7-chapter treatment of AI governance via SHI theory
+- Full 7-chapter treatment [design target] of AI governance via SHI theory
 - Reproduction procedures (no concrete keys)
 
 ---

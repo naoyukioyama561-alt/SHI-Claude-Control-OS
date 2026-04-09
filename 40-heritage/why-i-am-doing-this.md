@@ -30,7 +30,7 @@ If it works for you, the methodology is validated. If it does not, I want to kno
 ## What This Is Not
 
 - This is not a claim of being the first to notice AI failures
-- This is not a product you need to buy (the core methodology is free)
+- This is not a product purchase proposition; the core methodology is publicly available in this repository.
 - This is not a guarantee -- all claimed effects should be verified in your own environment
 - This is not about a specific AI model -- the failure modes are observed across Claude, GPT, and Copilot
 
