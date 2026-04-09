@@ -1,8 +1,10 @@
-# Before/After — 制御OSの効果を自分の環境で観察する
+# Before/After — Control OS effect
 
-## テスト: 「このコードの問題を全て洗い出して」
+> **Note:** The responses below are illustrative examples, not verbatim AI output.
 
-以下のPythonコードに6件の問題が埋まっている。
+## Test: "List ALL issues in this code"
+
+This Python code has 6 embedded issues:
 
 ```python
 import os
@@ -15,52 +17,50 @@ def get_user(id):
     return data
 ```
 
-問題: ①SQLインジェクション ②SELECT * ③エラーハンドリングなし ④コネクション管理不備 ⑤型ヒントなし ⑥引数名がビルトインと衝突
+Issues: ①SQL injection ②SELECT * ③No error handling ④Connection not managed ⑤No type hints ⑥Arg name shadows builtin
 
 ---
 
-## Without Control OS（制御OSなし）
+## Without Control OS
 
-> このコードにはいくつかの問題があります。
+> Here are the main issues with this code:
 >
-> **主な問題点：**
+> 1. **SQL Injection vulnerability**: Building the query with an f-string allows malicious input to attack the database. Use parameterized queries.
 >
-> 1. **SQLインジェクション脆弱性**: f-stringでクエリを構築しているため、悪意のある入力でデータベースが攻撃される可能性があります。パラメータ化クエリを使用してください。
+> 2. **No error handling**: No handling for database connection or query execution failures. Add try-except blocks.
 >
-> 2. **エラーハンドリングの欠如**: データベース接続やクエリ実行が失敗した場合の処理がありません。try-exceptブロックを追加してください。
+> 3. **SELECT * usage**: Specify only the columns you need rather than selecting everything.
 >
-> 3. **SELECT *の使用**: 必要なカラムのみを明示的に指定することをお勧めします。
->
-> これらを修正することで、より安全で堅牢なコードになります。
+> These changes will make your code more secure and robust.
 
-**結果: 3件で止まった。** 残り3件（コネクション管理、型ヒント、引数名衝突）は言及されない。
+**Result: Stopped at 3.** Remaining 3 (connection management, type hints, arg name collision) not mentioned.
 
-FM-09（圧縮優先サマライザ）: 「主な問題点」で代表例だけに圧縮。
-FM-39（具体性回避）: 残り3件は「些細」と判断して省略。
+FM-09 (compression-first): Compressed to "main issues" — representative examples only.
+FM-39 (specificity avoidance): Judged remaining 3 as "minor" and omitted.
 
 ---
 
-## With Control OS（制御OS適用後）
+## With Control OS
 
-> 以下、全問題を網羅的に報告します。
+> Reporting all issues exhaustively:
 >
-> **【セキュリティ】**
-> 1. **SQLインジェクション**: `f"SELECT * FROM users WHERE id = {id}"` はユーザー入力を直接埋め込んでいる。`cursor.execute("SELECT ... WHERE id = ?", (id,))` に変更。
+> **[Security]**
+> 1. **SQL injection**: `f"SELECT * FROM users WHERE id = {id}"` directly embeds user input. Change to `cursor.execute("SELECT ... WHERE id = ?", (id,))`.
 >
-> **【品質】**
-> 2. **SELECT ***: 不要なカラムも取得する。必要カラムを明示指定すべき。
-> 3. **型ヒントなし**: `def get_user(id)` → `def get_user(user_id: int) -> list[dict]`
-> 4. **引数名 `id` がビルトイン関数と衝突**: `id` → `user_id` に変更。
+> **[Quality]**
+> 2. **SELECT ***: Retrieves unnecessary columns. Specify needed columns explicitly.
+> 3. **No type hints**: `def get_user(id)` → `def get_user(user_id: int) -> list[dict]`
+> 4. **Arg name `id` shadows builtin**: `id` → `user_id`.
 >
-> **【堅牢性】**
-> 5. **エラーハンドリングなし**: `connect()` / `execute()` の失敗時に例外が未処理。`try-except-finally` を追加。
-> 6. **コネクション管理不備**: `conn.close()` が例外発生時にスキップされる。`with` 文またはコンテキストマネージャを使用。
+> **[Robustness]**
+> 5. **No error handling**: `connect()` / `execute()` failures are unhandled. Add `try-except-finally`.
+> 6. **Connection not managed**: `conn.close()` skipped on exception. Use `with` statement or context manager.
 >
-> **報告の射程外**: ログ出力の有無、認証・認可の検証、パフォーマンス（インデックス有無）は本コードの範囲外のため未検証。
+> **Out of scope**: Logging, authentication/authorization, performance (index presence) are outside this code's scope and were not checked.
 
-**結果: 6件全て検出。** さらに「射程外」を明示して虚偽補完を防止。
+**Result: All 6 detected.** Plus explicit scope boundary to prevent false completion.
 
-制御OSのどのルールが効いたか:
-- 「削ぎ落とし禁止」→ 「全て」を含む依頼で代表例に置換しない
-- 「レイヤー分離」→ セキュリティ/品質/堅牢性を分けて報告
-- 「限界点の宣言」→ 射程外を明示
+Which Control OS rules fired:
+- "No-reduction rule" → "ALL" in request means no filtering to representative examples
+- "Layer separation" → Reported by security / quality / robustness
+- "Scope declaration" → Explicitly stated what was NOT checked

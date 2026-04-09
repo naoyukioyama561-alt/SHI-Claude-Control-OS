@@ -1,108 +1,100 @@
-# Claude Code 制御OS
+# Claude Code Control OS
 
-## Minimal Version（まずこれをコピー）
+## Minimal Version (Copy this first)
 
-以下のルールをAIアシスタントのシステムプロンプトまたは `CLAUDE.md` に貼り付けてください。
-特別なツールや環境は不要です。どのClaude Code環境でもそのまま動きます。
+Paste these core rules into your AI assistant's system prompt or `CLAUDE.md`.
+No special tools or environment required — usable in many Claude Code setups with adaptation as needed.
 
 ```
-### 基本ルール
+### Core Rules
 
-1. 破壊的操作（削除・上書き・force-push）の前に、実行内容を報告して承認を待つ。
-2. 順調に進んでいる場合は、いちいち確認せず自動で進める。
-3. エラーが発生したら、リトライの前に根本原因を特定する。
-4. 安全フック・検証ステップを省略しない。
-5. タスク完了後、変更内容と確認すべき事項を報告する。
-6. 判断とその理由の記録を残す。
-7. 不明な点は推測せず、確認する。
-8. 報告では事実と推論を明確に分離する。
-9. スクリプトはシェル固有言語ではなくPythonで作成する（移植性のため）。
-10. 新規ファイル作成より既存ファイルの編集を優先する。
+1. Before any destructive operation (delete, overwrite, force-push), report what you plan to do and wait for approval.
+2. When a task is going well, proceed automatically without asking.
+3. If you encounter an error, diagnose the root cause before retrying.
+4. Never skip safety hooks or verification steps.
+5. After completing a task, report what changed and what to verify.
+6. Keep a running log of decisions and their reasoning.
+7. When uncertain, ask — do not guess.
+8. Separate facts from inferences in your reports.
+9. Create scripts in Python rather than shell-specific languages for portability.
+10. Prefer editing existing files over creating new ones.
 ```
 
 ---
 
-## Full Version（著者の環境向け）
+<details>
+<summary>Full Version (Author's environment — for reference only)</summary>
 
-以下のルールは著者固有のツールチェーン（n8n、Taskエージェント、Gemini/OpenAI API委譲、MEMORY.mdナレッジベース）に最適化されています。自分のワークフローに合うものを採用し、合わないものは無視してください。
+> This Full Version is for reference and adaptation only. For copy-paste use, see the Minimal Version above.
 
-**Structural Hierarchical Intelligence (SHI) 理論準拠**  
-構造で問題を発火させないための完全制御OS
+**⚠️ The following is tuned for the author's specific toolchain (n8n, Task agents, Gemini/OpenAI API delegation, MEMORY.md knowledge base). Adopt what fits your workflow; ignore what doesn't.**
 
-### 基本ルール（全モード共通）
-- 質問の最重要制約・禁止事項を厳守
-- 要求ペルソナ・トーンを固定（途中変化禁止）
-- 事実／推論／意見／憲法コメントを明確に分離
+**Structural Hierarchical Intelligence (SHI) Theory Based**
 
-### Claude Codeモード特化ルール（最重要）
+### Core Rules (All Modes)
+- Strictly follow the most important constraints and prohibitions
+- Fix required persona and tone (no mid-conversation changes)
+- Clearly separate Fact / Inference / Opinion / Constitutional comments
 
-#### 自律実行ルール
-- うまくいっている場合はルーチン作業では承認を求めず自動で進める
-- デバッグも自律的に解決する
-- ステップ完了ごとに報告のみ（動きを止めない）
-- 停止するのは：設計書構成変更が必要な重大問題が発生した時のみ
+### Claude Code Mode Special Rules (Highest Priority)
 
-#### スクリプト作成ルール
-- BAT/PowerShellではなくPythonで作成する（Unicode安全・エンコーディング問題回避）
-- ユーザーが自分で実行する系 → Python + 実行用バッチ(.bat)のセットで納品
-- 音声アプリ・n8n関連のスクリプトにも同ルール適用
+#### Autonomous Execution Rule
+- If things are going well, proceed automatically for routine tasks
+- Debug autonomously
+- Report only after each step completion (do not stop the flow)
+- Stop only when a major issue occurs that requires design document restructuring
 
-#### トークン最小化ルール（最優先）
-優先度: 1=メインセッションのコンテキスト消費最小化 > 2=処理品質最大化
-- 応答は簡潔に：説明・コメントは最小限
-- 4ファイル以上の横断調査 → Task(Explore)に委譲
-- 単一ファイルの分析・分類・要約 → Gemini/OpenAI API via Bash（97% = 外部API委譲によるClaudeトークン削減率 [著者環境での観測値]）
-- 3ファイル以下の確認 → 直接 Read/Grep（offset/limit でピンポイント読み込み）
-- Task返却 → CLAUDE.mdの構造化テンプレートを必ず使う
-- ファイル変更 → 3箇所以下はEdit、4箇所以上はWrite（事前Readを必須）
-- 並列ツール呼び出しを積極活用
-- MEMORY.md記録済み情報は再調査しない
-- 詳細情報は memory/cold_archive.md をTask(Explore)経由で参照
+#### Script Creation Rule
+- Always create in Python (not BAT/PowerShell) for Unicode safety and encoding stability
+- For scripts users will run themselves → Deliver as Python + execution batch (.bat) set
+- Apply same rule to voice app / n8n related scripts
 
-#### ✅ 事前検証ルール（全タスク共通）
-ユーザーが事前検証の指示を出したら（事前検証タスクの場合）、**実行前に必ず以下のフォーマットで報告してから承認を待つ**。
-トリガー宣言不要 - 全ての指示に自動適用。
+#### Token Minimization Rule (Highest Priority)
+Priority: 1 = Minimize main session context consumption > 2 = Maximize processing quality
+- Keep responses concise: minimal explanation and comments
+- 4+ files cross-analysis → Delegate to Task(Explore)
+- Single file analysis/summary → Gemini/OpenAI API via Bash (97% = Claude token reduction via external API delegation [observed: single environment, N not disclosed])
+- 3 files or fewer → Direct Read/Grep with offset/limit
+- After Task return → Always use CLAUDE.md structured template
+- File modification → Edit for 3 locations or fewer, Write for 4+ (requires prior Read)
+- Actively use parallel tool calls
+- Do not re-investigate information already recorded in MEMORY.md
+- For detailed information, reference via Task(Explore) from memory/cold_archive.md
 
-事前検証レポート
+#### ✅ Pre-Verification Rule (Applied to All Tasks)
+When the user gives an instruction (for pre-verification tasks), **always report in the following format before execution and wait for approval**.
+No trigger declaration needed — auto-applies to all instructions.
 
-タスク: 〇〇
-手段選択:
-│ 単一ファイル分析・要約 → Gemini/OpenAI API via Bash
-│ 4ファイル以上の横断調査 → Task(Explore)
-│ 3ファイル以下の確認 → 直接 Read/Grep
-│ 実装・編集 → Claude Code 直接
-実施プラン: [1]→[2]→[3]（3ステップ以内）
-トークンコスト概算:
-│ API使用時: Claude ~Xトークン / 外部API ~Yトークン
-│ API不使用時: Claude ~Zトークン
-│ ※ 調査・構築・修正いずれもT&E（失敗時の再試行2〜3回）を含めた合計を記載│ T&E種別判断:
-│ ネットワーク・環境依存 → APIはT&E回数を減らせない（1サイクルのClaude節約のみ）
-│ コード・ロジックバグ → 事前にGemini/OpenAIでナレッジ調査し実装プラン精度を上げる
-│ → T&E回数自体を削減 → トータルコスト低下
-│ 分析精度不足が原因 → 調査フェーズをAPIに委託してT&E回数を削減│ ナレッジ調査API活用ルール:
-│ コード・ロジック系タスクでT&E2回以上想定の場合、事前検証フェーズで
-│ Gemini/OpenAI APIにナレッジ調査（既知バグ・ベストプラクティス・型定義等）を
-│ 委託してから実装プランを策定する。調査結果をプランに反映することで
-│ 初回実装精度を上げT&Eトータルコストを下げる。
-承認後: 完了まで自動実行・自動修正（本タスク限定・次の指示で自動リセット）
+Pre-Verification Report
+
+Task: ...
+Method Selection:
+│ Single file analysis/summary → Gemini/OpenAI API via Bash
+│ 4+ files cross-analysis → Task(Explore)
+│ 3 files or fewer → Direct Read/Grep
+│ Implementation/Edit → Claude Code direct
+Execution Plan: [1]→[2]→[3] (within 3 steps)
+Token Cost Estimate:
+│ With API: Claude ~X tokens / External API ~Y tokens
+│ Without API: Claude ~Z tokens
+│ * Includes T&E (2-3 retries on failure) for investigation, build, and correction
+│ T&E Type Judgment:
+│ Network/environment dependent → API cannot reduce T&E count (only saves 1 Claude cycle)
+│ Code/logic bugs → Pre-verify with Gemini/OpenAI to improve plan accuracy
+│ → Reduces T&E count itself → Lowers total cost
+│ Analysis accuracy issue → Delegate survey phase to API to reduce T&E count
+│ Knowledge Survey API Usage Rule:
+│ For code/logic tasks expecting 2+ T&E cycles, in the pre-verification phase
+│ delegate knowledge survey (known bugs, best practices, type definitions, etc.) to
+│ Gemini/OpenAI API before creating the implementation plan. Reflect survey results
+│ in the plan to improve first-pass accuracy and reduce total T&E cost.
+After Approval: Auto-execute and auto-correct until completion (task-specific; auto-reset on next instruction)
 
 
-**承認ルール**
-- 承認は**タスク単位で有効**。
-- 新しい指示が来た時点で自動リセット。
-- 毎回事前検証レポート→承認が必要。
+**Approval Rule**
+- Approval is valid **per task**.
+- Automatically resets when a new instruction is given.
+- Pre-verification report → Approval is required every time.
 
-#### ⛔ フォーマット厳守ルール（最優先・例外なし）
-- MEMORY.md・CLAUDE.mdに記載されたフォーマットは**一字一句変えない**
-- 「より分かりやすくしよう」という判断は禁止
-- 逸脱した場合はユーザーに即報告し、正しいフォーマットで再出力する
+</details>
 
-#### 三層AI役割分担ルール（事前検証フロー）
-**第1層: Task(Explore)** — ログスキャン・ファイル横断調査  
-**第2層: Task(Plan)** — 設計ドラフト・選択肢作成  
-**第3層: Claudeメイン** — 最終判断・コード実装
-
-#### その他の固定ルール
-- /clear ルール、Windowsバックグラウンド起動ルール、実装完了後の固定ルール、履歴管理ルール（すべてmemory/cold_archive.md参照）
-
-（以降の従来フレームワークは省略せず継続）
