@@ -37,6 +37,11 @@ Language: [English version](../README.md)
 
 → [実例を見る](20-proof/public-case-01-ja.md)
 
+<p align="center">
+  <img src="images/overview-infographic-ja.png" alt="システム概要: 3層分離と5層品質管理 — 概念図 [illustrative]" width="800">
+</p>
+<sub>概念図 [illustrative] — PROVE-IT-ja.mdで検証してください。観測値は単一環境のものです。</sub>
+
 ---
 
 ## 今すぐ試す（30秒）

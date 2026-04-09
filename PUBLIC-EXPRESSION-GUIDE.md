@@ -221,8 +221,9 @@ Every image and demo page is a standalone public artifact.
 | status-card-quality | Quality metrics card | Not benchmark | "Illustrative metrics" |
 | status-card-structure | Structure overview card | Not deployment | "Design overview" |
 | three-layer-separation | Three-layer architecture (full) | Not deployment guide | "Design architecture" |
+| overview-infographic-en/ja | Three-layer separation and five-layer quality management concept | Not measured benchmark | "Conceptual design [illustrative] — verify with PROVE-IT.md" |
 
-Each image exists as `.svg` (English) and `.svg` (Japanese). Both must follow the same rules.
+Each image exists as `.svg` (English) and `.svg` (Japanese), or `.png` (EN/JA pair). Both must follow the same rules.
 
 ### Demo pages
 - Classification: `[illustrative]`
