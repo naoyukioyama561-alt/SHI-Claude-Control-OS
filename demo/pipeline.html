@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Pipeline - SHI-Claude-Control-OS</title>
-<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden;flex-wrap:wrap}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:scroll}
+<style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0f172a;color:#e2e8f0;display:flex;height:100vh;overflow:hidden}nav{width:224px;background:#1e293b;border-right:1px solid #334155;padding:16px;display:flex;flex-direction:column;gap:4px;overflow-y:auto;flex-shrink:0}nav h1{font-size:18px;font-weight:bold;color:#60a5fa;margin-bottom:16px;padding:0 8px}nav a{display:flex;align-items:center;gap:8px;padding:8px 12px;border-radius:6px;text-decoration:none;font-size:14px;color:#cbd5e1;transition:all .15s}nav a:hover,nav a.active{background:#334155;color:#fff}main{flex:1;padding:24px;overflow-y:scroll}
 .pipeline{display:flex;flex-direction:column;gap:24px}
 .stage{display:flex;align-items:center;gap:16px}
 .stage-box{background:#1e293b;border:2px solid #334155;border-radius:12px;padding:16px 24px;min-width:180px;text-align:center;position:relative;transition:all .3s}
@@ -12,7 +12,7 @@
 .arrow{color:#475569;font-size:20px;display:flex;align-items:center}
 .arrow.flow{animation:arrowflow 1.5s infinite}
 @keyframes arrowflow{0%{opacity:.3}50%{opacity:1}100%{opacity:.3}}
-.flow-line{position:relative;flex:1;height:2px;background:#334155;overflow:hidden;flex-wrap:wrap}
+.flow-line{position:relative;flex:1;height:2px;background:#334155;overflow:hidden}
 .flow-dot{position:absolute;width:8px;height:8px;border-radius:50%;background:#3b82f6;top:-3px;animation:flowmove 2s infinite linear}
 @keyframes flowmove{0%{left:0}100%{left:calc(100% - 8px)}}
 .layer{margin-bottom:32px}
@@ -21,7 +21,7 @@
 .sub-pipes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .pipe-card{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:16px}
 .pipe-card h4{color:#fff;font-size:14px;margin-bottom:8px}
-.pipe-flow{display:flex;align-items:center;gap:4px;font-size:11px;color:#94a3b8;flex-wrap:wrap}
+.pipe-flow{display:flex;align-items:center;gap:4px;font-size:11px;color:#94a3b8}
 .pipe-node{background:#334155;padding:2px 8px;border-radius:4px;color:#cbd5e1;white-space:nowrap}
 .pipe-node.active{background:rgba(59,130,246,.2);border:1px solid #3b82f6;color:#60a5fa}
 .throughput{font-size:12px;color:#64748b;margin-top:8px;display:flex;align-items:center;gap:4px}
