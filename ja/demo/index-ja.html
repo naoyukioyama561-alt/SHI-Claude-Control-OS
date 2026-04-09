@@ -4,76 +4,76 @@
 @media(max-width:768px){nav{display:none}main{padding:12px}.section-grid{grid-template-columns:repeat(2,1fr)}}
 </style></head><body>
 <div style="width:100%;position:fixed;top:0;left:0;z-index:1000;background:#1a2332;color:#94a3b8;padding:8px 16px;font-size:12px;text-align:center;border-bottom:1px solid #334155">これはGitHub Pages上の公開安全な静的デモです。あなたの環境とは完全に独立しています。表示される名称・件数・時刻・容量・状態・進捗はすべてUI例示であり、実測ベンチマークではありません。切り出したカードやスクリーンショット単体を証拠として扱わず、必ず PROVE-IT-ja.md と 20-proof/metrics-ja.md を併せて確認してください。</div>
-<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index.html" class="active">🏠 概要</a><a href="health.html">💚 ヘルスチェック</a><a href="local_ai.html">🧠 Local AI</a><a href="storage.html">📈 リソースモニタ</a><a href="supervisor-agent.html">🤖 Supervisor Agent</a><a href="supervisor.html">👁️ 監督状況</a><a href="execute.html">▶️ 実行指示</a><a href="design-verify.html">📋 設計照合</a><a href="tasks.html">📌 タスク進捗</a><a href="quality.html">✅ 品質チェック</a><a href="localai-check.html">⚡ LocalAI Check</a><a href="user-judgment.html">👤 ユーザー判定</a><a href="notifications.html">🔔 通知管理</a><a href="learning.html">📚 学習管理</a><a href="glossary.html">📓 用語管理</a><a href="tokens.html">🪙 トークン監視</a><a href="claudecode.html">💻 Claude Code</a><a href="features.html">⭐ 機能一覧</a><a href="pipeline.html">🔀 パイプライン</a></nav>
+<nav style="margin-top:50px"><h1>SHI-Claude-Control-OS</h1><a href="index-ja.html" class="active">🏠 概要</a><a href="health-ja.html">💚 ヘルスチェック</a><a href="local_ai-ja.html">🧠 Local AI</a><a href="storage-ja.html">📈 リソースモニタ</a><a href="supervisor-agent-ja.html">🤖 Supervisor Agent</a><a href="supervisor-ja.html">👁️ 監督状況</a><a href="execute-ja.html">▶️ 実行指示</a><a href="design-verify-ja.html">📋 設計照合</a><a href="tasks-ja.html">📌 タスク進捗</a><a href="quality-ja.html">✅ 品質チェック</a><a href="localai-check-ja.html">⚡ LocalAI Check</a><a href="user-judgment-ja.html">👤 ユーザー判定</a><a href="notifications-ja.html">🔔 通知管理</a><a href="learning-ja.html">📚 学習管理</a><a href="glossary-ja.html">📓 用語管理</a><a href="tokens-ja.html">🪙 トークン監視</a><a href="claudecode-ja.html">💻 Claude Code</a><a href="features-ja.html">⭐ 機能一覧</a><a href="pipeline-ja.html">🔀 パイプライン</a></nav>
 <main style="margin-top:50px">
 <div style="margin-bottom:8px"><h2 style="font-size:20px;font-weight:bold;color:#fff;padding:0 16px">概要</h2></div>
 <div class="card">
 
 <div class="group-title">システム状態</div>
-<a href="health.html" class="section"><div class="section-header"><span>💚</span><span class="title">ヘルスチェック</span></div><div class="section-grid">
+<a href="health-ja.html" class="section"><div class="section-header"><span>💚</span><span class="title">ヘルスチェック</span></div><div class="section-grid">
 <span class="kv"><span class="g">20/22 正常</span></span><span class="kv"><span class="r">1件異常</span></span><span class="kv"><span class="y">1件警告</span></span><span class="kv">最終: <span class="v" id="h-t">12:34</span></span>
 </div></a><div class="divider"></div>
-<a href="local_ai.html" class="section"><div class="section-header"><span>🧠</span><span class="title">Local AI</span></div><div class="section-grid">
+<a href="local_ai-ja.html" class="section"><div class="section-header"><span>🧠</span><span class="title">Local AI</span></div><div class="section-grid">
 <span class="kv">Ollama: <span class="g">3モデル</span></span><span class="kv">推論: <span class="g" id="x1">847文字</span></span><span class="kv">Qdrant: <span class="v" id="x2">12,458pt</span></span><span class="kv">合議: <span class="v" id="x3">48回</span></span>
 </div></a><div class="divider"></div>
-<a href="storage.html" class="section"><div class="section-header"><span>📈</span><span class="title">リソースモニタ</span></div><div class="section-grid">
+<a href="storage-ja.html" class="section"><div class="section-header"><span>📈</span><span class="title">リソースモニタ</span></div><div class="section-grid">
 <span class="kv">CPU: <span class="g" id="x4">12%</span></span><span class="kv">RAM: <span class="g">5.2/8.0GB</span></span><span class="kv">内部: <span class="g">142/460GB</span></span><span class="kv">外付SSD: <span class="g">293/954GB</span></span>
 </div></a>
 
 <div class="group-title">AI自動運用</div>
-<a href="supervisor-agent.html" class="section"><div class="section-header"><span>🤖</span><span class="title">Supervisor Agent</span></div><div class="section-grid">
+<a href="supervisor-agent-ja.html" class="section"><div class="section-header"><span>🤖</span><span class="title">Supervisor Agent</span></div><div class="section-grid">
 <span class="kv">モジュール: <span class="v">14個</span></span><span class="kv">権限: <span class="y">承認済</span></span><span class="kv">待機状態: <span class="g">有効</span></span>
 </div></a><div class="divider"></div>
-<a href="supervisor.html" class="section"><div class="section-header"><span>👁️</span><span class="title">監督状況</span></div><div class="section-grid">
+<a href="supervisor-ja.html" class="section"><div class="section-header"><span>👁️</span><span class="title">監督状況</span></div><div class="section-grid">
 <span class="kv">指示: <span class="v">8件</span></span><span class="kv">Pending: <span class="y">3</span></span><span class="kv">完了: <span class="g">5</span></span>
 </div></a>
 
 <div class="group-title">実行・進捗</div>
-<a href="execute.html" class="section"><div class="section-header"><span>▶️</span><span class="title">実行指示</span></div><div class="section-grid">
+<a href="execute-ja.html" class="section"><div class="section-header"><span>▶️</span><span class="title">実行指示</span></div><div class="section-grid">
 <span class="kv">本日: <span class="b" id="x5">8</span></span><span class="kv">累計: <span class="v">1,247</span></span><span class="kv">エラー率: <span class="v">0.96%</span></span>
 </div></a><div class="divider"></div>
-<a href="design-verify.html" class="section"><div class="section-header"><span>📋</span><span class="title">設計照合</span></div><div class="section-grid">
+<a href="design-verify-ja.html" class="section"><div class="section-header"><span>📋</span><span class="title">設計照合</span></div><div class="section-grid">
 <span class="kv">完了: <span class="g">7</span></span><span class="kv">全体: <span class="v">10</span></span><span class="kv">SKIP: <span class="v">2</span></span><span class="kv">進捗: <span class="b">70%</span></span>
 </div></a><div class="divider"></div>
-<a href="tasks.html" class="section"><div class="section-header"><span>📌</span><span class="title">タスク進捗</span></div><div class="section-grid">
+<a href="tasks-ja.html" class="section"><div class="section-header"><span>📌</span><span class="title">タスク進捗</span></div><div class="section-grid">
 <span class="kv">アクティブ: <span class="b">3</span></span><span class="kv">完了(本日): <span class="g">5</span></span><span class="kv">DBサイズ: <span class="v">248MB</span></span>
 </div></a>
 
 <div class="group-title">品質・監視</div>
-<a href="quality.html" class="section"><div class="section-header"><span>✅</span><span class="title">品質チェック</span></div><div class="section-grid">
+<a href="quality-ja.html" class="section"><div class="section-header"><span>✅</span><span class="title">品質チェック</span></div><div class="section-grid">
 <span class="kv">チェック数: <span class="v">342</span></span><span class="kv">エラー率: <span class="v">0.96%</span></span>
 </div></a><div class="divider"></div>
-<a href="localai-check.html" class="section"><div class="section-header"><span>⚡</span><span class="title">LocalAI Check</span></div><div class="section-grid">
+<a href="localai-check-ja.html" class="section"><div class="section-header"><span>⚡</span><span class="title">LocalAI Check</span></div><div class="section-grid">
 <span class="kv">監視: <span class="v">172パターン</span></span><span class="kv">検知: <span class="o" id="x6">3</span></span>
 </div></a><div class="divider"></div>
-<a href="user-judgment.html" class="section"><div class="section-header"><span>👤</span><span class="title">ユーザー判定</span></div><div class="section-grid">
+<a href="user-judgment-ja.html" class="section"><div class="section-header"><span>👤</span><span class="title">ユーザー判定</span></div><div class="section-grid">
 <span class="kv">判定待ち: <span class="c">2件</span></span>
 </div></a>
 
 <div class="group-title">通知・追跡</div>
-<a href="notifications.html" class="section"><div class="section-header"><span>🔔</span><span class="title">通知管理</span></div><div class="section-grid">
+<a href="notifications-ja.html" class="section"><div class="section-header"><span>🔔</span><span class="title">通知管理</span></div><div class="section-grid">
 <span class="kv">全件: <span class="v">8</span></span><span class="kv">未読: <span class="r">4</span></span>
 </div></a>
 
 <div class="group-title">ナレッジ・学習</div>
-<a href="learning.html" class="section"><div class="section-header"><span>📚</span><span class="title">学習管理</span></div><div class="section-grid">
+<a href="learning-ja.html" class="section"><div class="section-header"><span>📚</span><span class="title">学習管理</span></div><div class="section-grid">
 <span class="kv">総件数: <span class="e">234</span></span><span class="kv">カテゴリ: <span class="v">12</span></span><span class="kv">パターン: <span class="v" id="x7">34</span></span>
 </div></a><div class="divider"></div>
-<a href="glossary.html" class="section"><div class="section-header"><span>📓</span><span class="title">用語管理</span></div><div class="section-grid">
+<a href="glossary-ja.html" class="section"><div class="section-header"><span>📓</span><span class="title">用語管理</span></div><div class="section-grid">
 <span class="kv">登録: <span class="v">40語</span></span><span class="kv">v3.2</span>
 </div></a>
 
 <div class="group-title">その他</div>
-<a href="tokens.html" class="section"><div class="section-header"><span>🪙</span><span class="title">トークン監視</span></div><div class="section-grid">
+<a href="tokens-ja.html" class="section"><div class="section-header"><span>🪙</span><span class="title">トークン監視</span></div><div class="section-grid">
 <span class="kv">Anthropic: <span class="v" id="x8">42</span>回 $<span class="v" id="x9">2.18</span></span><span class="kv">Gemini: <span class="v" id="xa">89</span>回</span>
 </div></a><div class="divider"></div>
-<a href="claudecode.html" class="section"><div class="section-header"><span>💻</span><span class="title">Claude Code</span></div><div class="section-grid">
+<a href="claudecode-ja.html" class="section"><div class="section-header"><span>💻</span><span class="title">Claude Code</span></div><div class="section-grid">
 <span class="kv">メッセージ: <span class="v" id="xb">2,847</span></span><span class="kv">セッション: <span class="g">稼働中</span></span>
 </div></a><div class="divider"></div>
-<a href="features.html" class="section"><div class="section-header"><span>⭐</span><span class="title">機能一覧</span></div><div class="section-grid">
+<a href="features-ja.html" class="section"><div class="section-header"><span>⭐</span><span class="title">機能一覧</span></div><div class="section-grid">
 <span class="kv">実装済: <span class="g" id="xc">87</span></span><span class="kv">全機能: <span class="v">104</span></span><span class="kv">実装率: <span class="v" id="xd">84%</span></span>
 </div></a><div class="divider"></div>
-<a href="pipeline.html" class="section"><div class="section-header"><span>🔀</span><span class="title">パイプライン</span></div><div class="section-grid">
+<a href="pipeline-ja.html" class="section"><div class="section-header"><span>🔀</span><span class="title">パイプライン</span></div><div class="section-grid">
 <span class="kv">Core: workflow-engine WF</span><span class="kv">Task: API GW</span><span class="kv">学習: L1-L4</span>
 </div></a>
 
