@@ -267,7 +267,7 @@ When a new expression is needed:
 |-----------|---------|------------|
 | EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
-| SVG (conceptual) | `concept-name.svg` (EN) / `concept-name.svg` (JA) | `image1.svg`, `fig-01`, `-ja.svg` |
+| SVG (conceptual) | `concept-name.svg` (EN in `/images/diagrams/`) / `concept-name-ja.svg` (JA in `/ja/images/diagrams/`) | `image1.svg`, `fig-01` |
 | Demo HTML | `demo/en/page.html`, `demo/ja/page.html` | `demo_en.html` |
 | Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
 
