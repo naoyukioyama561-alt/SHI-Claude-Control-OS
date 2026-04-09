@@ -4,6 +4,8 @@ Language: [日本語版はこちら / Japanese version](../ja/.github/release-ch
 This checklist applies the repository's own quality management system
 (10-framework/05-quality-system.md) to its own publication process.
 
+> *Note: Angle-bracket placeholders such as `<INTERNAL_IP>` in this checklist are examples of patterns to check for, not actual internal values. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
+
 > "Apply to yourself what you teach others."
 > The existence of this checklist is itself evidence that the Control OS functions.
 

@@ -10,5 +10,5 @@
 <text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="68" text-anchor="middle" dominant-baseline="central">Layer 3: Completion definition</text>
 <rect fill="#a855f7" x="20" y="78" width="320" height="16" rx="4"/>
 <text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="86" text-anchor="middle" dominant-baseline="central">Layer 4: Third-party verification</text>
-<text font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#cbd5e1" x="180" y="108" text-anchor="middle">Each layer catches what the previous layer misses.</text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#cbd5e1" x="180" y="108" text-anchor="middle">Design goal: each layer is intended to catch what the previous layer may miss.</text>
 </svg>

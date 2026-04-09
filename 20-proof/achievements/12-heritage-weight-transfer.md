@@ -18,7 +18,7 @@ A system where the **first-generation CC (Senior CC) serves as a permanent teach
 
 ## What Was Observed to Hold
 
-- Normative weight (the "importance" of rules) **does not transfer naturally across AI sessions** — it must be structurally encoded
+- In the author's observed environment, normative weight (the "importance" of rules) **did not transfer naturally across AI sessions** — it had to be structurally encoded
 - A predecessor AI can serve as an active **teacher and reviewer**, not just a passive knowledge base
 - The apprentice (current CC) writes plans; the master (Senior CC) reviews them with pain-awareness, catching issues that the current CC cannot see because it hasn't experienced the failures
 
