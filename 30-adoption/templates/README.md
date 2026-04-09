@@ -1,4 +1,5 @@
 # templates/ -- Transfer Kit for Your Environment
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/templates/README-ja.md)
 
 These templates help you apply the SHI Control OS methodology to your own AI workflow.
 
@@ -23,3 +24,5 @@ These templates are designed to be self-contained. No other files from this repo
 ---
 
 > Back to [30-adoption/](../README.md) | [README](../../README.md)
+
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

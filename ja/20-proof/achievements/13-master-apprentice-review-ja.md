@@ -1,4 +1,5 @@
 # 成果No.13: 師弟レビュー機構
+Language: [English version](../../../20-proof/achievements/13-master-apprentice-review.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
@@ -32,3 +33,10 @@
 > このページは**公開版の概要ページ**です。レビュー方法論と考え方のフレームワークをここで共有し、効果の定量データはPhase1で提供します。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

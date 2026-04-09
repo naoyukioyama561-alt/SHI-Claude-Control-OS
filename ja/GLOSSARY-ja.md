@@ -1,4 +1,5 @@
 # 用語集 — 本リポジトリで使用するキーワード
+Language: [English version](../GLOSSARY.md)
 
 この用語集は**本リポジトリ内での定義**です。他のAI/ML文脈では異なる意味を持つ場合があります。
 
@@ -8,13 +9,13 @@
 
 | 用語 | 本リポジトリでの定義 | 他の文脈での一般的な意味 | 参照先 |
 |------|---------------------|----------------------|--------|
-| **失敗モード (FM)** | AIの観察可能な誤動作パターン。原因・防止策・検証付きで分類。バグ報告ではない | ソフトウェア障害の一般カテゴリ | 10-framework/ja/01-failure-modes.md |
+| **失敗モード (FM)** | AIの観察可能な誤動作パターン。原因・防止策・検証付きで分類。バグ報告ではない | ソフトウェア障害の一般カテゴリ | 10-framework/01-failure-modes-ja.md |
 | **制御OS (Control OS)** | AIのシステムプロンプトに貼り付けて既知のFMを構造的に抑制するルール集。OSではない | オペレーティングシステム | 30-adoption/try/control-os-*.md |
-| **3層分離** | 役割分離：監督層（判断）/ 中継層（監視）/ 作業層（実行）。ネットワーク構造ではない | ネットワークレイヤーモデル | 10-framework/ja/04-three-layer.md |
-| **4+1層品質システム** | 品質制御スタック：観測ゲート＋第1〜第4層。ソフトウェア品質モデルではない | ISO 9001, CMMI | 10-framework/ja/05-quality-system.md |
-| **5層ガバナンスループ** | ガバナンス循環：観測→修正→検知→事前制御→継承固定。3層分離や4+1とは別の次元 | — | 20-proof/achievements/ja/05-five-layer-ops.md |
+| **3層分離** | 役割分離：監督層（判断）/ 中継層（監視）/ 作業層（実行）。ネットワーク構造ではない | ネットワークレイヤーモデル | 10-framework/04-three-layer-ja.md |
+| **4+1層品質システム** | 品質制御スタック：観測ゲート＋第1〜第4層。ソフトウェア品質モデルではない | ISO 9001, CMMI | 10-framework/05-quality-system-ja.md |
+| **5層ガバナンスループ** | ガバナンス循環：観測→修正→検知→事前制御→継承固定。3層分離や4+1とは別の次元 | — | 20-proof/achievements/05-five-layer-ops-ja.md |
 | **Heritage (cc_heritage)** | 行動規範・判断基準・痛み認識をセッション間で継承するシステム。遺伝的継承ではない | MLモデル継承、転移学習 | 40-heritage/ |
-| **SHI理論** | 構造的階層型知能 — AIの失敗を構造的に観察可能な現象として扱う理論的枠組み | — | 10-framework/ja/07-shi-citations.md |
+| **SHI理論** | 構造的階層型知能 — AIの失敗を構造的に観察可能な現象として扱う理論的枠組み | — | 10-framework/07-shi-citations-ja.md |
 
 ## エビデンスラベル
 
@@ -37,3 +38,10 @@
 ---
 
 [English version](GLOSSARY.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

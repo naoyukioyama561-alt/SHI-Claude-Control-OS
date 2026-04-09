@@ -1,4 +1,5 @@
 # SHI-Claude-Control-OS
+Language: [English version](../README.md)
 
 **AIをスロットマシンではなく、システムとして動かす。**
 
@@ -16,7 +17,7 @@
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
 > **インストール不要** — コピーして貼り付けてテスト。試す、反証する、移植する。
-> **[→ 動いている形を見る: インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [主張を検証する →](PROVE-IT-ja.md)
+> **[→ 動いている形を見る: インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [主張を検証する →](PROVE-IT-ja.md)
 
 ---
 
@@ -40,21 +41,21 @@
 
 ## 今すぐ試す（30秒）
 
-1. **コピー**: [Control OS](30-adoption/ja/try/control-os-claude.md)をAIのシステムプロンプトに貼り付ける
-2. **テスト**: [Before/Afterデモ](30-adoption/ja/try/before-after-demo.md)で違いを確認（5分）
+1. **コピー**: [Control OS](30-adoption/try/control-os-claude-ja.md)をAIのシステムプロンプトに貼り付ける
+2. **テスト**: [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md)で違いを確認（5分）
 3. **検証**: [PROVE-IT-ja.md](PROVE-IT-ja.md)で主張を確認（15分）
 
 | あなたのAI | Control OSテンプレート | テスト所要時間 |
 |-----------|---------------------|-------------|
-| Claude Code / Claude | [control-os-claude](30-adoption/ja/try/control-os-claude.md) | 30秒 |
-| ChatGPT | [Control OS for GPT](30-adoption/ja/try/control-os-gpt.md) | 30秒 |
-| GitHub Copilot | [Control OS for Copilot](30-adoption/ja/try/control-os-copilot.md) | 30秒 |
+| Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude-ja.md) | 30秒 |
+| ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-ja.md) | 30秒 |
+| GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-ja.md) | 30秒 |
 
 ---
 
 ### 動いている形を見る（公開安全な静的デモ・1分）
 
-**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](docs/dashboard.html)
+**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](docs/dashboard.html)
 
 *実環境とは完全に独立した静的ページです。表示データはすべてサンプルです。*
 
@@ -79,14 +80,14 @@
 ```
 いまここ
   |
-  |-- 「試したい」               --> 30-adoption/ja/try/     （30秒）
+  |-- 「試したい」               --> 30-adoption/try/     （30秒）
   |-- 「証拠を見たい」            --> PROVE-IT-ja.md          （15分）
-  |-- 「なぜ効くのか知りたい」     --> 10-framework/ja/        （30分）
-  |-- 「実績データが見たい」       --> 20-proof/ja/            （じっくり）
-  |-- 「自分の環境で作りたい」     --> 30-adoption/ja/templates/ （あなたの環境で）
+  |-- 「なぜ効くのか知りたい」     --> 10-framework/            （30分）
+  |-- 「実績データが見たい」       --> 20-proof/               （じっくり）
+  |-- 「自分の環境で作りたい」     --> 30-adoption/templates/ （あなたの環境で）
   |
   さらに深く:
-  |-- 継承と哲学                 --> 40-heritage/ja/
+  |-- 継承と哲学                 --> 40-heritage/
   |-- スコープ表                 --> SCOPE-MATRIX-ja.md
 ```
 
@@ -106,7 +107,7 @@
 
 このリポジトリを試すだけならサインインは不要です。Issue や PR を出すときだけ GitHub アカウントが必要です。
 
-1. **まず試す** — [30-adoption/ja/try/](30-adoption/ja/try/README.md) から始める
+1. **まず試す** — [30-adoption/try/](30-adoption/try/README-ja.md) から始める
 2. **[観測を報告する](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=observation-report.md)** — あなたの環境で起きたことを共有する
 3. **[主張に異議を出す](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues/new?template=claim-challenge.md)** — 強すぎる表現だと感じたらそのまま指摘する
 4. **構造改善を提案する** — 評価導線がわかりにくかった箇所をIssueで伝える
@@ -120,6 +121,6 @@
 
 **免責事項**: 本リポジトリに記載されたすべての効果は著者の環境で観察されたものです。AIモデル、利用コンテキスト、設定によって結果は異なる場合があります。結論を出す前に、すべての主張をご自身の環境で検証してください。本プロジェクトは方法論を提供するものであり、結果を保証するものではありません。
 
-**Language**: [English version](README.md) · **背景**: [なぜ作ったのか](40-heritage/ja/why-i-am-doing-this.md) · **研究**: [SSRNプレプリント](https://ssrn.com/abstract=6299258)
+**Language**: [English version](README.md) · **背景**: [なぜ作ったのか](40-heritage/why-i-am-doing-this-ja.md) · **研究**: [SSRNプレプリント](https://ssrn.com/abstract=6299258)
 
 </sub>

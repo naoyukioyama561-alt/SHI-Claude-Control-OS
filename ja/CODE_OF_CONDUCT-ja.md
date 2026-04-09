@@ -1,4 +1,5 @@
 # 行動規範
+Language: [English version](../CODE_OF_CONDUCT.md)
 
 ## 私たちの誓い
 
@@ -28,3 +29,10 @@
 この行動規範は [Contributor Covenant](https://www.contributor-covenant.org/) バージョン2.1を基に作成されています。
 
 [English version](CODE_OF_CONDUCT.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

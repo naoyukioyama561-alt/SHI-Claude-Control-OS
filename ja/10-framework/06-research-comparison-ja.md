@@ -1,4 +1,5 @@
 # 研究比較マップ
+Language: [English version](../../10-framework/06-research-comparison.md)
 
 ## このファイルの目的
 
@@ -51,6 +52,8 @@ SHI理論の核心命題:
 
 論文: [SSRN 6299258](https://ssrn.com/abstract=6299258)
 
+
+→ [READMEに戻る](../README-ja.md)
 ---
 
 ## 読者への問い

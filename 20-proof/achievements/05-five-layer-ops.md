@@ -1,4 +1,5 @@
 # Achievement No.5: Operational Structure Expansion — 3 → 5 Layers
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/05-five-layer-ops-ja.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
@@ -28,10 +29,17 @@ The insight was that **each layer catches what the previous layer misses**, form
 
 Think of it as: you can teach an AI to be better, but unless you **lock** that improvement structurally, it resets every session. The 5-layer model makes structural change persistent.
 
-→ Full quality system: [`10-framework/05-quality-system.md`](../../../10-framework/en/05-quality-system.md)
+→ Full quality system: [`10-framework/05-quality-system.md`](../../../10-framework/05-quality-system.md)
 
 ---
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 ![Evidence: Hero image — 5-layer operations](../../../20-proof/../images/diagrams/mini-quality-layers-en.svg)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

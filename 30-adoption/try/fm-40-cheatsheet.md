@@ -1,4 +1,5 @@
 # Failure Modes cheatsheet (FM-01 to FM-40)
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/try/fm-40-cheatsheet-ja.md)
 
 40 observable patterns of "how AI fails." Use this to identify which FMs your AI triggers most.
 
@@ -56,10 +57,17 @@
 
 Impact: Low / Med / High / V.High
 
-→ Detailed analysis per FM (15 samples): [10-framework/en/01-failure-modes.md](../../10-framework/en/01-failure-modes.md)
+→ Detailed analysis per FM (15 samples): [10-framework/01-failure-modes.md](../../10-framework/01-failure-modes.md)
 → Full 132-item structural decomposition is outside this public repository; this repo provides the 40-item entry map and the verification path
 
 
 ---
 
 *Note: The "Claude" column covers both Claude Opus and Claude Sonnet observations. The "GPT (4o/5)" column covers GPT-4o and GPT-5 as of the observation period (late 2025 – March 2026).*
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

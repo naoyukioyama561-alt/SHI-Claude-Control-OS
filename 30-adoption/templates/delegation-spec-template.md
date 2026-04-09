@@ -1,4 +1,5 @@
 # Delegation Specification Template
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/templates/delegation-spec-template-ja.md)
 
 Use this template every time you delegate a task to a sub-agent or helper AI.
 
@@ -41,4 +42,11 @@ Fill in all 12 items before delegating. Missing items lead to scope creep, permi
 
 ---
 
-> Reference: [Achievement No.11: Delegation Optimization](../../20-proof/achievements/en/11-delegation-optimization.md)
+> Reference: [Achievement No.11: Delegation Optimization](../../20-proof/achievements/11-delegation-optimization.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

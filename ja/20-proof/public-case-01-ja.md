@@ -1,6 +1,7 @@
 # 公開ケーススタディ: FM-09（省略）の抑制
+Language: [English version](../../20-proof/public-case-01.md)
 
-> **これは要約版ケーススタディです。** コード、AI出力、分析を含む完全なBefore/After比較は [Before/Afterデモ](../30-adoption/ja/try/before-after-demo.md) を参照してください。
+> **これは要約版ケーススタディです。** コード、AI出力、分析を含む完全なBefore/After比較は [Before/Afterデモ](../30-adoption/try/before-after-demo-ja.md) を参照してください。
 
 ## 問題（FM-09: 省略）
 
@@ -19,12 +20,19 @@ AIコーディングアシスタントに「このPythonコードの問題をす
 
 ## 自分で再現する
 
-1. **コピー**: [Claude用Control OS](../30-adoption/ja/try/control-os-claude.md)（30秒）
-2. **実行**: [Before/Afterデモ](../30-adoption/ja/try/before-after-demo.md)（5分）
-3. **確認**: [FM-40チートシート](../30-adoption/ja/try/fm-40-cheatsheet.md) で自分のAIに影響するFMを特定
+1. **コピー**: [Claude用Control OS](../30-adoption/try/control-os-claude-ja.md)（30秒）
+2. **実行**: [Before/Afterデモ](../30-adoption/try/before-after-demo-ja.md)（5分）
+3. **確認**: [FM-40チートシート](../30-adoption/try/fm-40-cheatsheet-ja.md) で自分のAIに影響するFMを特定
 
 ## なぜ重要か
 
 著者の観測環境では [observed: single environment, single operator]、FM-09はClaude、GPT、Copilotのワークフローで繰り返し観測された。本リポジトリで再現可能な主張は、明示的スコープ宣言がBefore/Afterデモで省略行動を減らせるかどうかであり、読者は自身の環境で検証すべきである。
 
 [English version](public-case-01.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

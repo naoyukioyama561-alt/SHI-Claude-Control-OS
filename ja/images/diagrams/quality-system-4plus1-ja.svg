@@ -58,52 +58,52 @@
 
 <!-- Layer 0 -->
 <rect class="bg-l0" x="40" y="20" width="420" height="58" rx="10" stroke-width="0.5"/>
-<text class="title t-l0" x="60" y="43">Layer 0 — Observation gate</text>
-<text class="sub ts-l0" x="60" y="62">Observe → define target → get approval</text>
-<text class="catch-text" x="490" y="43">Prevents starting</text>
-<text class="catch-text" x="490" y="58">without understanding</text>
+<text class="title t-l0" x="60" y="43">第0層 — 観測ゲート</text>
+<text class="sub ts-l0" x="60" y="62">観察 → 対象定義 → 承認取得</text>
+<text class="catch-text" x="490" y="43">理解なき着手を</text>
+<text class="catch-text" x="490" y="58">防止する</text>
 
 <line class="arrow-line" x1="250" y1="78" x2="250" y2="98" marker-end="url(#a)"/>
 
 <!-- Layer 1 -->
 <rect class="bg-l1" x="40" y="98" width="420" height="58" rx="10" stroke-width="0.5"/>
-<text class="title t-l1" x="60" y="121">Layer 1 — Self-detection</text>
-<text class="sub ts-l1" x="60" y="140">AI catches its own obvious mistakes</text>
-<text class="catch-text" x="490" y="121">Catches obvious errors</text>
+<text class="title t-l1" x="60" y="121">第1層 — 自己検知</text>
+<text class="sub ts-l1" x="60" y="140">AIが自身の明白なミスを検出する</text>
+<text class="catch-text" x="490" y="121">明白なエラーを捕捉</text>
 
 <line class="arrow-line" x1="250" y1="156" x2="250" y2="176" marker-end="url(#a)"/>
 
 <!-- Layer 2 -->
 <rect class="bg-l2" x="40" y="176" width="420" height="58" rx="10" stroke-width="0.5"/>
-<text class="title t-l2" x="60" y="199">Layer 2 — Structural hooks + watchers</text>
-<text class="sub ts-l2" x="60" y="218">External auto-detect + block</text>
-<text class="catch-text" x="490" y="199">Catches what self-</text>
-<text class="catch-text" x="490" y="214">monitoring misses</text>
+<text class="title t-l2" x="60" y="199">第2層 — 構造フック + ウォッチャー</text>
+<text class="sub ts-l2" x="60" y="218">外部自動検知 + ブロック</text>
+<text class="catch-text" x="490" y="199">自己監視の</text>
+<text class="catch-text" x="490" y="214">見逃しを捕捉</text>
 
 <line class="arrow-line" x1="250" y1="234" x2="250" y2="254" marker-end="url(#a)"/>
 
 <!-- Layer 3 -->
 <rect class="bg-l3" x="40" y="254" width="420" height="58" rx="10" stroke-width="0.5"/>
-<text class="title t-l3" x="60" y="277">Layer 3 — Completion definition</text>
-<text class="sub ts-l3" x="60" y="296">Evidence + 5-set inspection</text>
-<text class="catch-text" x="490" y="277">Catches incomplete</text>
-<text class="catch-text" x="490" y="292">or unverified work</text>
+<text class="title t-l3" x="60" y="277">第3層 — 完了定義</text>
+<text class="sub ts-l3" x="60" y="296">エビデンス + 5点セット検査</text>
+<text class="catch-text" x="490" y="277">未完了・未検証の</text>
+<text class="catch-text" x="490" y="292">作業を捕捉</text>
 
 <line class="arrow-line" x1="250" y1="312" x2="250" y2="332" marker-end="url(#a)"/>
 
 <!-- Layer 4 -->
 <rect class="bg-l4" x="40" y="332" width="420" height="58" rx="10" stroke-width="0.5"/>
-<text class="title t-l4" x="60" y="355">Layer 4 — Third-party verification</text>
-<text class="sub ts-l4" x="60" y="374">Pattern escalation + incident logging</text>
-<text class="catch-text" x="490" y="355">Catches systemic</text>
-<text class="catch-text" x="490" y="370">patterns</text>
+<text class="title t-l4" x="60" y="355">第4層 — 第三者検証</text>
+<text class="sub ts-l4" x="60" y="374">パターンエスカレーション + インシデント記録</text>
+<text class="catch-text" x="490" y="355">システム的パターンを</text>
+<text class="catch-text" x="490" y="370">捕捉</text>
 
 <!-- Cascade annotation -->
 <path class="cascade" d="M470 40 Q478 210 470 375" fill="none"/>
 
 <!-- 5-set box -->
 <line class="divider" x1="40" y1="410" x2="640" y2="410"/>
-<text class="key-title" x="40" y="432">Required 5-set for every completion report:</text>
-<text class="key-text" x="40" y="450">Preconditions → Prohibitions → Execution observation → Pass criteria → Rollback procedure</text>
+<text class="key-title" x="40" y="432">完了報告に必須の5点セット:</text>
+<text class="key-text" x="40" y="450">前提条件 → 禁止事項 → 実行観察 → 合格基準 → ロールバック手順</text>
 
 </svg>

@@ -1,4 +1,5 @@
 # START HERE -- Understand in 3 Minutes
+Language: [日本語版はこちら / Japanese version](ja/START-HERE-ja.md)
 
 ## The Problem
 
@@ -74,3 +75,5 @@ The 40 Failure Modes in this repository are a starting point. Observe your own A
 > Next: [Try it now](30-adoption/try/) | [Verify claims](PROVE-IT.md) | [Back to README](README.md)
 
 [日本語版 / Japanese](START-HERE-ja.md)
+
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # Before/After — Control OS effect
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/try/before-after-demo-ja.md)
 
 > **Note:** The responses below are illustrative examples, not verbatim AI output.
 
@@ -64,3 +65,10 @@ Which Control OS rules fired:
 - "No-reduction rule" → "ALL" in request means no filtering to representative examples
 - "Layer separation" → Reported by security / quality / robustness
 - "Scope declaration" → Explicitly stated what was NOT checked
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

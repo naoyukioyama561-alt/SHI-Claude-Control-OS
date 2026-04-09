@@ -1,4 +1,5 @@
 # 20-proof/ — Evidence and Verification
+Language: [日本語版はこちら / Japanese version](../ja/20-proof/README-ja.md)
 
 ## What the verification levels mean
 

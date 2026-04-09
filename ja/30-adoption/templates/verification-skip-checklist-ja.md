@@ -1,4 +1,5 @@
 # 検証スキップ チェックリスト
+Language: [English version](../../../30-adoption/templates/verification-skip-checklist.md)
 
 AIの出力を「完了」として受け入れる前に使用してください。
 
@@ -44,4 +45,11 @@ AIの出力を「完了」として受け入れる前に使用してください
 
 ---
 
-> 参照: [10-framework/05-quality-system](../../../10-framework/ja/05-quality-system.md)
+> 参照: [10-framework/05-quality-system](../../10-framework/05-quality-system-ja.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

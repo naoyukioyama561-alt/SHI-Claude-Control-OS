@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Segoe UI, Arial, sans-serif">
-  <desc>Observed in the author's single environment, single operator, N undisclosed. All metrics shown are [observed: single environment] unless individually labeled [design target] or [illustrative]. Verify in your own environment.</desc>
+  <desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: 単一環境] です。ご自身の環境で検証してください。</desc>
   <defs>
     <linearGradient id="before-grad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ef4444" stop-opacity="0.3"/>
@@ -11,16 +11,12 @@
     </linearGradient>
   </defs>
 
-  <!-- Background -->
   <rect width="720" height="420" fill="#0f172a" rx="12"/>
 
-  <!-- Title -->
-  <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">Detection Trend — Before vs After Structural Control</text>
-  <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
-  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">Observed in author's environment. 22-day session [observed: single environment], 0 crashes [observed: single environment].</text>
+  <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">検知推移 — 構造制御の導入前後</text>
+  <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">著者の環境での観測</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション [observed: 単一環境]、クラッシュ0回 [observed: 単一環境]。</text>
 
-  <!-- Chart area -->
-  <!-- Y axis -->
   <line x1="80" y1="70" x2="80" y2="340" stroke="#334155" stroke-width="1"/>
   <text x="75" y="78" text-anchor="end" fill="#64748b" font-size="10">10K</text>
   <text x="75" y="148" text-anchor="end" fill="#64748b" font-size="10">7.5K</text>
@@ -28,40 +24,33 @@
   <text x="75" y="268" text-anchor="end" fill="#64748b" font-size="10">2.5K</text>
   <text x="75" y="338" text-anchor="end" fill="#64748b" font-size="10">0</text>
 
-  <!-- Grid lines -->
   <line x1="80" y1="148" x2="680" y2="148" stroke="#1e293b" stroke-width="0.5"/>
   <line x1="80" y1="208" x2="680" y2="208" stroke="#1e293b" stroke-width="0.5"/>
   <line x1="80" y1="268" x2="680" y2="268" stroke="#1e293b" stroke-width="0.5"/>
 
-  <!-- X axis -->
   <line x1="80" y1="340" x2="680" y2="340" stroke="#334155" stroke-width="1"/>
 
-  <!-- Before zone (Week 1: high volume, no structure) -->
   <rect x="80" y="60" width="130" height="280" fill="#ef4444" fill-opacity="0.06" rx="4"/>
-  <text x="145" y="365" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="500">Week 1 — No structure</text>
+  <text x="145" y="365" text-anchor="middle" fill="#ef4444" font-size="10" font-weight="500">第1週 — 構造なし</text>
 
-  <!-- Bars: Before (Mar 7-8) -->
   <rect x="95" y="152" width="45" height="188" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="118" y="145" text-anchor="middle" fill="#fca5a5" font-size="9">6,990</text>
   <text x="118" y="154" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
-  <text x="118" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">Mar 7</text>
+  <text x="118" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">3/7</text>
 
   <rect x="155" y="58" width="45" height="282" fill="#ef4444" fill-opacity="0.7" rx="3"/>
   <text x="178" y="52" text-anchor="middle" fill="#fca5a5" font-size="9">10,488</text>
   <text x="178" y="61" text-anchor="middle" fill="#94a3b8" font-size="7">[observed]</text>
-  <text x="178" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">Mar 8</text>
+  <text x="178" y="355" text-anchor="middle" fill="#94a3b8" font-size="9">3/8</text>
 
-  <!-- Transition arrow -->
   <path d="M220 200 L260 200" stroke="#facc15" stroke-width="2" stroke-dasharray="4,3"/>
   <polygon points="260,195 270,200 260,205" fill="#facc15"/>
   <text x="245" y="188" text-anchor="middle" fill="#facc15" font-size="9">Control OS</text>
-  <text x="245" y="218" text-anchor="middle" fill="#facc15" font-size="9">applied</text>
+  <text x="245" y="218" text-anchor="middle" fill="#facc15" font-size="9">導入</text>
 
-  <!-- After zone (Week 2+: stable, structured) -->
   <rect x="270" y="60" width="400" height="280" fill="#22c55e" fill-opacity="0.04" rx="4"/>
-  <text x="470" y="365" text-anchor="middle" fill="#22c55e" font-size="10" font-weight="500">Week 2-4 — Structural control active</text>
+  <text x="470" y="365" text-anchor="middle" fill="#22c55e" font-size="10" font-weight="500">第2〜4週 — 構造制御稼働中</text>
 
-  <!-- Bars: After (Mar 18-29) -->
   <rect x="285" y="313" width="32" height="27" fill="#22c55e" fill-opacity="0.7" rx="3"/>
   <text x="301" y="355" text-anchor="middle" fill="#94a3b8" font-size="8">18</text>
 
@@ -92,13 +81,11 @@
   <rect x="645" y="335" width="32" height="5" fill="#22c55e" fill-opacity="0.7" rx="2"/>
   <text x="661" y="355" text-anchor="middle" fill="#94a3b8" font-size="8">29</text>
 
-  <!-- Labels -->
   <rect x="100" y="385" width="12" height="12" fill="#ef4444" fill-opacity="0.7" rx="2"/>
-  <text x="118" y="395" fill="#94a3b8" font-size="10">Before: High volume, unstructured intervention</text>
+  <text x="118" y="395" fill="#94a3b8" font-size="10">Before: 大量・非構造的な介入</text>
 
   <rect x="400" y="385" width="12" height="12" fill="#22c55e" fill-opacity="0.7" rx="2"/>
-  <text x="418" y="395" fill="#94a3b8" font-size="10">After: Low, stable, self-managing</text>
+  <text x="418" y="395" fill="#94a3b8" font-size="10">After: 少量・安定・自己管理</text>
 
-  <!-- Key insight -->
-  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">In the observed environment, messages/day dropped ~95% [observed: single environment] after structural controls were applied.</text>
+  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、構造制御導入後にメッセージ数が約95%減少 [observed: 単一環境]。</text>
 </svg>

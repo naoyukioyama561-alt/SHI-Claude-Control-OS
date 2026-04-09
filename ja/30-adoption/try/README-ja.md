@@ -1,4 +1,5 @@
 # try/ — まず自分のAIで試す
+Language: [English version](../../../30-adoption/try/README.md)
 
 ## 1. 制御OSを貼る（30秒）
 
@@ -54,11 +55,18 @@
 
 ## 4. なぜ効くのか理解する
 
-制御OSの中身がなぜそう書かれているか、各ルールがどのFMを抑制しているかを構造的に理解するには [10-framework/ja/](../../../10-framework/ja/README.md) へ。
+制御OSの中身がなぜそう書かれているか、各ルールがどのFMを抑制しているかを構造的に理解するには [10-framework/](../../10-framework/README-ja.md) へ。
 
 ---
 
 > **Note:** 制御OSを貼っても100%抑制されるわけではありません。
 > 特にFM-02（コンテキスト横滑り）は長時間セッションで再発しやすく、
 > 構造的な対策（外部監視、3層分離等）が必要です。
-> 詳細は [10-framework/ja/04-three-layer.md](../../../10-framework/ja/04-three-layer.md)
+> 詳細は [10-framework/04-three-layer-ja.md](../../10-framework/04-three-layer-ja.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

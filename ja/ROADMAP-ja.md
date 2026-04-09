@@ -1,4 +1,5 @@
 # ロードマップ
+Language: [English version](../ROADMAP.md)
 
 本プロジェクトはアクティブに維持されています。以下が現在の方向性です。
 

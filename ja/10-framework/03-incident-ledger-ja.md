@@ -1,4 +1,5 @@
 # 実例ログ（Public Core）
+Language: [English version](../../10-framework/03-incident-ledger.md)
 
 現場の失敗を「共有できる学習単位」として蓄積し、再発防止を恒久化するための台帳です。
 
@@ -125,3 +126,10 @@ Failure Mode ID（FM-xx）へのリンクとメカニズムの説明。
 このパターンは複数のセッションで観測された。
 バックアップ要件はその後ハード禁止として正式化された。
 ```
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

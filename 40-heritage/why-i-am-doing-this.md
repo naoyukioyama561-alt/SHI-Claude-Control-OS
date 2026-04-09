@@ -1,4 +1,5 @@
 # Why I Am Doing This
+Language: [日本語版はこちら / Japanese version](../ja/40-heritage/why-i-am-doing-this-ja.md)
 
 ## The Problem That Started Everything
 
@@ -44,3 +45,10 @@ Whether this approach scales beyond a single practitioner's environment is an op
 ---
 
 > Citation: See [CITATION.cff](../CITATION.cff)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # 委任仕様テンプレート
+Language: [English version](../../../30-adoption/templates/delegation-spec-template.md)
 
 サブエージェントやヘルパーAIにタスクを委任するたびに、このテンプレートを使用してください。
 
@@ -41,4 +42,11 @@
 
 ---
 
-> 参照: [実績 No.11: 委任最適化](../../../20-proof/achievements/ja/11-delegation-optimization.md)
+> 参照: [実績 No.11: 委任最適化](../../20-proof/achievements/11-delegation-optimization-ja.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

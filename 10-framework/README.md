@@ -1,4 +1,5 @@
 # 10-framework/ — Structural Conditions for AI Governance
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/README-ja.md)
 
 ## Before you read
 
@@ -17,7 +18,7 @@ If you can't answer the gate questions in your own words, you haven't understood
 
 ### Step 1: Failure Modes taxonomy
 
-[EN](en/01-failure-modes.md) | [JA](ja/01-failure-modes.md)
+[EN](01-failure-modes.md) | [JA](../ja/10-framework/01-failure-modes-ja.md)
 
 40 observable patterns of "how AI fails." With impact ratings for Claude, GPT, and Copilot.
 
@@ -30,7 +31,7 @@ If you can't answer the gate questions in your own words, you haven't understood
 
 ### Step 2: Control OS
 
-[EN](en/02-control-os.md) | [JA](ja/02-control-os.md)
+[EN](02-control-os.md) | [JA](../ja/10-framework/02-control-os-ja.md)
 
 Operational controls to prevent failure modes. Core: the control loop (Contract → Execute → Verify → Log → Update).
 
@@ -43,7 +44,7 @@ Operational controls to prevent failure modes. Core: the control loop (Contract 
 
 ### Step 3: Incident ledger format
 
-[EN](en/03-incident-ledger.md) | [JA](ja/03-incident-ledger.md)
+[EN](03-incident-ledger.md) | [JA](../ja/10-framework/03-incident-ledger-ja.md)
 
 How to accumulate failures as "shareable learning units." One incident = one file.
 
@@ -55,7 +56,7 @@ How to accumulate failures as "shareable learning units." One incident = one fil
 
 ### Step 4: Three-layer separation
 
-[EN](en/04-three-layer.md) | [JA](ja/04-three-layer.md)
+[EN](04-three-layer.md) | [JA](../ja/10-framework/04-three-layer-ja.md)
 
 Supervisor / Relay / Worker — separating load by TYPE, not volume.
 
@@ -68,7 +69,7 @@ Supervisor / Relay / Worker — separating load by TYPE, not volume.
 
 ### Step 5: Quality system
 
-[EN](en/05-quality-system.md) | [JA](ja/05-quality-system.md)
+[EN](05-quality-system.md) | [JA](../ja/10-framework/05-quality-system-ja.md)
 
 4+1 layer architecture, reason_code taxonomy, mandatory 5-set inspection.
 
@@ -81,7 +82,7 @@ Supervisor / Relay / Worker — separating load by TYPE, not volume.
 
 ### Step 6: Research comparison
 
-[EN](en/06-research-comparison.md) | [JA](ja/06-research-comparison.md)
+[EN](06-research-comparison.md) | [JA](../ja/10-framework/06-research-comparison-ja.md)
 
 How this approach compares to the 2026 research and commercial landscape.
 
@@ -93,7 +94,7 @@ How this approach compares to the 2026 research and commercial landscape.
 
 ### Step 7: SHI theory citations
 
-[EN](en/07-shi-citations.md) | [JA](ja/07-shi-citations.md)
+[EN](07-shi-citations.md) | [JA](../ja/10-framework/07-shi-citations-ja.md)
 
 Key citations from the SHI theory papers underlying this framework.
 
@@ -107,3 +108,10 @@ Key citations from the SHI theory papers underlying this framework.
 → **Next**: [20-proof/](../20-proof/) — verify the evidence
 
 → See also: [40-heritage/](../40-heritage/) — understand the inheritance structure | [30-adoption/try/](../30-adoption/try/) — run the control loop on your own AI
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

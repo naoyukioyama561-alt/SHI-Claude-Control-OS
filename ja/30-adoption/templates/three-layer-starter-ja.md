@@ -1,4 +1,5 @@
 # 三層分離スターターキット
+Language: [English version](../../../30-adoption/templates/three-layer-starter.md)
 
 AIワークフローに三層ロール分離を導入するための最小限ガイドです。
 
@@ -55,4 +56,11 @@ AIワークフローに三層ロール分離を導入するための最小限ガ
 
 ---
 
-> 参照: [10-framework/04-three-layer](../../../10-framework/ja/04-three-layer.md) | [実績 No.2: ロール分離](../../../20-proof/achievements/ja/02-role-separation.md)
+> 参照: [10-framework/04-three-layer](../../10-framework/04-three-layer-ja.md) | [実績 No.2: ロール分離](../../20-proof/achievements/02-role-separation-ja.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

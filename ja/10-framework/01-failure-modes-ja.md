@@ -1,4 +1,5 @@
 # 失敗傾向の分類（Claude vs ChatGPT）
+Language: [English version](../../10-framework/01-failure-modes.md)
 
 > **観測期間**: 2025年後半〜2026年3月。すべてのモデル名はこの期間中に利用可能だったバージョンを指します。
 > **適用範囲**: すべての行動評価（Low/Medium/High）は単一環境・単一運用者による観測です。ベンチマークではありません。検証可能な仮説として扱ってください。
@@ -324,4 +325,7 @@ P-74〜P-80は特に重要で、以下をカバーする：
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+
+→ [READMEに戻る](../README-ja.md)
 ---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

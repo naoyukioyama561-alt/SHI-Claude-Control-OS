@@ -1,4 +1,5 @@
 # Failure Modes Taxonomy (Claude vs ChatGPT)
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/01-failure-modes-ja.md)
 
 > **Observation period**: late 2025 – March 2026. All model names refer to versions available during this period.
 > **Scope**: All behavior ratings (Low/Medium/High) are observations from a single environment, single operator. They are not benchmarks. Treat them as testable hypotheses.
@@ -325,4 +326,7 @@ The 40 failure modes are not random bugs. They map to **fundamental structural l
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+
+→ [Back to README](../README.md)
 ---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

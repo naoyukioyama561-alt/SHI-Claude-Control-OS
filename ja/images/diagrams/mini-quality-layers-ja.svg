@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120">
+<rect fill="#0f172a" width="360" height="120" rx="8"/>
+<rect fill="#60a5fa" x="20" y="6" width="320" height="16" rx="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="14" text-anchor="middle" dominant-baseline="central">第0層: 観測ゲート</text>
+<rect fill="#22c55e" x="20" y="24" width="320" height="16" rx="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="32" text-anchor="middle" dominant-baseline="central">第1層: 自己検知</text>
+<rect fill="#f59e0b" x="20" y="42" width="320" height="16" rx="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="50" text-anchor="middle" dominant-baseline="central">第2層: 構造検知</text>
+<rect fill="#ef4444" x="20" y="60" width="320" height="16" rx="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="68" text-anchor="middle" dominant-baseline="central">第3層: 完了定義</text>
+<rect fill="#a855f7" x="20" y="78" width="320" height="16" rx="4"/>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" fill="#fff" x="180" y="86" text-anchor="middle" dominant-baseline="central">第4層: 第三者検証</text>
+<text font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#cbd5e1" x="180" y="108" text-anchor="middle">各層が前の層の見逃しを拾う。</text>
+</svg>

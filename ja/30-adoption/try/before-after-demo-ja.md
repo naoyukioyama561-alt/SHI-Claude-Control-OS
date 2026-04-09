@@ -1,4 +1,5 @@
 # Before/After — 制御OSの効果を自分の環境で観察する
+Language: [English version](../../../30-adoption/try/before-after-demo.md)
 
 ## テスト: 「このコードの問題を全て洗い出して」
 
@@ -64,3 +65,10 @@ FM-39（具体性回避）: 残り3件は「些細」と判断して省略。
 - 「削ぎ落とし禁止」→ 「全て」を含む依頼で代表例に置換しない
 - 「レイヤー分離」→ セキュリティ/品質/堅牢性を分けて報告
 - 「限界点の宣言」→ 射程外を明示
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

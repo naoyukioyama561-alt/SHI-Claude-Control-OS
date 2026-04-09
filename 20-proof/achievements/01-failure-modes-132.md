@@ -1,4 +1,5 @@
 # Achievement No.1: Failure Modes Taxonomy — 40 → 132 Items
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/01-failure-modes-132-ja.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
 
@@ -29,7 +30,7 @@ The key structural shift was not in collecting more failure modes — it was in 
 
 This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in Phase 1/Phase 2.
 
-→ Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../../10-framework/en/01-failure-modes.md)
+→ Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../../10-framework/01-failure-modes.md)
 
 ---
 
@@ -38,3 +39,10 @@ This methodology is intended to be portable across AI systems, but applicability
 ![Dashboard structure](../../../images/diagrams/dashboard-overview-en.svg)
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

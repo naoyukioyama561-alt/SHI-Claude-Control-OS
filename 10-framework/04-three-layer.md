@@ -1,4 +1,5 @@
 # Three-Layer Separation Architecture
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/04-three-layer-ja.md)
 
 If your AI degrades as conversations get longer, or forgets its own rules under pressure, the problem is not the model — it is the load structure. One AI carrying judgment, monitoring, and execution simultaneously is a structural failure waiting to happen.
 
@@ -200,3 +201,10 @@ Even new patterns require minimal intervention. The system has logic for automat
 Related files:
 - [redacted] — User's quality methodology (gap-to-ideal response, structural observation, minimum 3 confirmations, next-day re-check)
 - [redacted] — CC judgment error patterns (P-01 onward), case-based, user values/thought patterns, implicit understandings
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

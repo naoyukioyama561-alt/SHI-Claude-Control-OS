@@ -1,4 +1,5 @@
 # Achievement No.15: Other Key Achievements
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/15-other-achievements-ja.md)
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
@@ -44,3 +45,10 @@ The most underappreciated achievement here is the **disaster fallback system**: 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # Achievement No.9: Post-Compression Behavior Persistence (Orientation File + SQL)
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/09-orientation-persistence-ja.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
@@ -32,3 +33,10 @@ The solution: make implicit behavioral patterns explicit by encoding them in a s
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

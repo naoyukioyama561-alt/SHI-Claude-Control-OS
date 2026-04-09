@@ -1,4 +1,5 @@
 # 成果No.11: 外部委譲最適化（D1〜D3＋委任精密化ルール）
+Language: [English version](../../../20-proof/achievements/11-delegation-optimization.md)
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
@@ -30,3 +31,10 @@
 > このページは**公開版の概要ページ**です。委譲フレームワークと考え方の方法論をここで共有し、品質比較データはPhase1で提供します。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

@@ -1,4 +1,5 @@
 # Code of Conduct
+Language: [日本語版はこちら / Japanese version](ja/CODE_OF_CONDUCT-ja.md)
 
 ## Our Pledge
 
@@ -28,3 +29,10 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
 
 [日本語版](CODE_OF_CONDUCT-ja.md)
+
+
+---
+
+→ [Back to README](README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

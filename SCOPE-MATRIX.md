@@ -1,4 +1,5 @@
 # Public Scope Matrix
+Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 
 ## Basic Policy
 
@@ -107,3 +108,4 @@ This repository invites you to:
 [日本語版](SCOPE-MATRIX-ja.md)
 
 
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

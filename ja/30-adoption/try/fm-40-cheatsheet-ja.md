@@ -1,4 +1,5 @@
 # Failure Modes 早見表（FM-01〜FM-40）
+Language: [English version](../../../30-adoption/try/fm-40-cheatsheet.md)
 
 AIが「こういう失敗をする」という観測可能な40パターン。
 あなたのAIで最も頻発するFMを特定し、制御OSの効果を観測するために使ってください。
@@ -57,5 +58,12 @@ AIが「こういう失敗をする」という観測可能な40パターン。
 
 影響度: 低 / 中 / 高 / 極高
 
-→ 各FMの詳細・原因・対策: [10-framework/ja/01-failure-modes.md](../../../10-framework/ja/01-failure-modes.md)
+→ 各FMの詳細・原因・対策: [10-framework/01-failure-modes-ja.md](../../10-framework/01-failure-modes-ja.md)
 → 132件の完全版は公開リポジトリの範囲外です。本リポジトリでは、40件の入口マップと検証導線を提供します
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

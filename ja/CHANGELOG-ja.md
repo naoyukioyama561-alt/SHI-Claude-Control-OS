@@ -1,4 +1,5 @@
 # 変更履歴
+Language: [English version](../CHANGELOG.md)
 
 本プロジェクトの主要な変更はすべてこのファイルに記録されます。
 
@@ -16,3 +17,10 @@
 - Issues-firstワークフローのCONTRIBUTINGガイド（英/日）
 
 [English version](CHANGELOG.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

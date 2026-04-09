@@ -1,4 +1,5 @@
 # 成果No.12: 規範重み継承 -- 初代CCが教師
+Language: [English version](../../../20-proof/achievements/12-heritage-weight-transfer.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
@@ -36,3 +37,10 @@
 > Phase1は師弟レビュープロセスのサンプル会話を提供。Phase2は全ログと教育自動化メカニズムを提供。書籍には理論整理・設計背景・再現手順を収録。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

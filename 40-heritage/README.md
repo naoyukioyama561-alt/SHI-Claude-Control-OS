@@ -1,4 +1,5 @@
 # cc_heritage -- AI Personality Continuity System
+Language: [日本語版はこちら / Japanese version](../ja/40-heritage/README-ja.md)
 
 ## What is cc_heritage?
 
@@ -90,3 +91,5 @@ Most AI governance approaches treat each session as independent. cc_heritage dem
 → **Next**: [50-boundary/](../50-boundary/) — scope and editions
 
 → See also: [20-proof/](../20-proof/) — evidence | [Back to README](../README.md)
+
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

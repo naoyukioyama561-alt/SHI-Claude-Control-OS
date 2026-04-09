@@ -1,4 +1,5 @@
 # Changelog
+Language: [日本語版はこちら / Japanese version](ja/CHANGELOG-ja.md)
 
 All notable changes to this project will be documented in this file.
 
@@ -16,3 +17,10 @@ All notable changes to this project will be documented in this file.
 - CONTRIBUTING guide with Issues-first workflow (en/ja)
 
 [日本語版](CHANGELOG-ja.md)
+
+
+---
+
+→ [Back to README](README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

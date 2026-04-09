@@ -1,4 +1,5 @@
 # Claude Code 制御OS（日本語版）
+Language: [English version](../../../30-adoption/try/control-os-claude.md)
 
 ## Minimal Version（まずこれをコピー）
 
@@ -102,3 +103,10 @@
 
 （以降の従来フレームワークは省略せず継続）
 </details>
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

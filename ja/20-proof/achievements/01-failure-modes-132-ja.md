@@ -1,4 +1,5 @@
 # 成果No.1: Failure Modes体系 -- 40件 → 132件
+Language: [English version](../../../20-proof/achievements/01-failure-modes-132.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
 
@@ -31,10 +32,17 @@
 
 この方法論は多くのAIシステムへ移植可能な形を目指していますが、適用可否は各環境で検証してください。最初の40パターンは公開版として提供中。全132件の詳細な原因/防止策/検証はPhase1/Phase2で提供。
 
-→ Failure Modes詳細ドキュメント: [`10-framework/ja/01-failure-modes.md`](../../../10-framework/ja/01-failure-modes.md)
+→ Failure Modes詳細ドキュメント: [`10-framework/01-failure-modes-ja.md`](../../10-framework/01-failure-modes-ja.md)
 
 ---
 
 > Phase1は60件の詳細を提供。Phase2は全132件の原因/防止策/検証チェーン全てを提供。書籍には理論整理・再現手順・設計背景を収録。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

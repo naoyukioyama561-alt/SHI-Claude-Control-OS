@@ -1,4 +1,5 @@
 # 成果No.4: 品質システム（4+1層アーキテクチャ）
+Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
@@ -33,10 +34,17 @@
 
 品質システムは理論的に設計されたのではない -- **実際の失敗を通じて進化**した。各層は、実際のインシデントが前の層の不十分さを示したことで追加された。
 
-→ 品質システム全体ドキュメント: [`10-framework/ja/05-quality-system.md`](../../../10-framework/ja/05-quality-system.md)
+→ 品質システム全体ドキュメント: [`10-framework/05-quality-system-ja.md`](../../10-framework/05-quality-system-ja.md)
 
 ---
 
 > Phase1はreason_code表と5セット検査の詳細を提供。Phase2は完全な[internal quality hook]を提供。書籍には実装思想・検証設計・再現手順を収録。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

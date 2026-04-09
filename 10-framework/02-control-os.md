@@ -1,4 +1,5 @@
 # Control OS (Public Core)
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/02-control-os-ja.md)
 
 Operational controls to prevent known failure modes and to keep governance reproducible.
 
@@ -171,3 +172,10 @@ If an OS rule is violated:
    - Control OS (new prohibition / new verification check)
    - Failure Modes taxonomy (if the mode was missing)
 4) Add a "verification step" so the same failure cannot recur silently
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

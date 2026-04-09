@@ -1,4 +1,5 @@
 # Development Timeline
+Language: [日本語版はこちら / Japanese version](../ja/20-proof/timeline-ja.md)
 
 Observation period: late 2025 -- March 2026. Observation and documentation proceeded in parallel; the SSRN paper was initially posted during the early observation phase and updated as the work progressed. Paper published on SSRN: 2025.
 
@@ -67,3 +68,10 @@ These are facts, not claims.
 - Achievements per week are approximate; some spanned multiple weeks
 - The "300+ hours" figure referenced elsewhere is an order-of-magnitude estimate derived from roughly 10 hours per day across about 30 days of observation, classification, recovery work, and design iteration; it is not presented as a published timesheet
 - Detailed work logs (cc_heritage documents) are provided in non-public material
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

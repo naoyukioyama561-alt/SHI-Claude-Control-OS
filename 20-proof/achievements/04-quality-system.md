@@ -1,4 +1,5 @@
 # Achievement No.4: Quality System (4+1 Layer Architecture)
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/04-quality-system-ja.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
@@ -33,10 +34,17 @@ The quality system was not designed theoretically — it **evolved through actua
 
 The most important insight: **quality is not a checklist — it is a multi-layer defense** where each layer has a structurally different detection mechanism. Self-monitoring catches obvious errors; structural hooks catch what self-monitoring misses; completion definitions catch what hooks miss; third-party verification catches systemic patterns.
 
-→ Full documentation: [`10-framework/05-quality-system.md`](../../../10-framework/en/05-quality-system.md)
+→ Full documentation: [`10-framework/05-quality-system.md`](../../../10-framework/05-quality-system.md)
 
 ---
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 ![Quality system](../../../images/diagrams/quality-system-4plus1-en.svg)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # 障害命名テンプレート
+Language: [English version](../../../30-adoption/templates/failure-naming-template.md)
 
 自環境で観察したAI障害を命名・分類するためのテンプレートです。
 
@@ -42,4 +43,11 @@
 
 ---
 
-> 参照: [FM-40 チートシート](../../ja/try/fm-40-cheatsheet.md) | [10-framework/01-failure-modes](../../../10-framework/ja/01-failure-modes.md)
+> 参照: [FM-40 チートシート](../try/fm-40-cheatsheet-ja.md) | [10-framework/01-failure-modes](../../10-framework/01-failure-modes-ja.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

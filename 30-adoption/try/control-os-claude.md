@@ -1,4 +1,5 @@
 # Claude Code Control OS
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/try/control-os-claude-ja.md)
 
 ## Minimal Version (Copy this first)
 
@@ -98,3 +99,9 @@ After Approval: Auto-execute and auto-correct until completion (task-specific; a
 
 </details>
 
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

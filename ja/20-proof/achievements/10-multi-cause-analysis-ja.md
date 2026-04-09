@@ -1,4 +1,5 @@
 # 成果No.10: 複合要因自動解析（なぜなぜ5段＋非公開インシデント蓄積基盤）
+Language: [English version](../../../20-proof/achievements/10-multi-cause-analysis.md)
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
@@ -33,3 +34,10 @@
 > このページは**公開版の概要ページ**です。分析方法論と考え方のフレームワークをここで共有し、自動化実装の詳細はPhase1で提供します。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

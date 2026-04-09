@@ -1,4 +1,5 @@
 # Contributing
+Language: [日本語版はこちら / Japanese version](ja/CONTRIBUTING-ja.md)
 
 You can fork, adapt, and build freely under MIT. You do not need to submit code to contribute: observation reports, reproduction notes, claim challenges, broken-link fixes, and translation improvements are all first-class contributions. Issues are the primary channel for contributing to the canonical version.
 
@@ -83,3 +84,10 @@ Be respectful. Focus on observations, not opinions. Disagree with evidence, not 
 ---
 
 See also: [Release Checklist](.github/release-checklist.md) — the project applies its own methodology to its release process.
+
+
+---
+
+→ [Back to README](README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

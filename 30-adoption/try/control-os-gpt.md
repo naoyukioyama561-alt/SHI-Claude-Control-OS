@@ -1,4 +1,5 @@
 # Control OS for GPT — Minimal Version
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/try/control-os-gpt-ja.md)
 
 > This English version is fully functional for testing. A Japanese version with additional FM-specific countermeasures is also available: [control-os-gpt.md](control-os-gpt.md).
 
@@ -30,3 +31,10 @@ Paste these rules into GPT's Custom Instructions or system prompt:
 ---
 
 > Based on the SHI failure-mode taxonomy. Japanese version with additional FM-specific countermeasures: [control-os-gpt.md](control-os-gpt.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

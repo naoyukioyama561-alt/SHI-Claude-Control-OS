@@ -1,4 +1,5 @@
 # Public Case Study: FM-09 (Omission) Suppression
+Language: [日本語版はこちら / Japanese version](../ja/20-proof/public-case-01-ja.md)
 
 > **This is a summary case study.** For the complete Before/After comparison with code, AI outputs, and analysis, see the [Before/After Demo](../30-adoption/try/before-after-demo-en.md).
 
@@ -28,3 +29,10 @@ An AI coding assistant was asked: "Find all problems in this Python code." The c
 In the author's observed environment, FM-09 recurred across Claude, GPT, and Copilot workflows [observed: single environment, single operator]. The reproducible claim in this public repository is that explicit scope declaration can materially reduce omission behavior, as demonstrated in the [Before/After Demo](../30-adoption/try/before-after-demo-en.md). Readers should verify this effect in their own environment.
 
 [日本語版](public-case-01-ja.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

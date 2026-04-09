@@ -1,4 +1,5 @@
 # Verification Skip Checklist
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/templates/verification-skip-checklist-ja.md)
 
 Use before accepting any AI output as "done."
 
@@ -44,4 +45,11 @@ Every completed task must pass all 5 checks. If any check fails, the task is not
 
 ---
 
-> Reference: [10-framework/05-quality-system](../../10-framework/en/05-quality-system.md)
+> Reference: [10-framework/05-quality-system](../../10-framework/05-quality-system.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

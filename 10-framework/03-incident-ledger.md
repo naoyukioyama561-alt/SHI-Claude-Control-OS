@@ -1,4 +1,5 @@
 # Incident Ledger (Public Core)
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/03-incident-ledger-ja.md)
 
 A ledger of real-world failures formatted as shareable, reproducible learning units.
 
@@ -126,3 +127,10 @@ The coding agent was asked to update a configuration file for a monitoring servi
 This pattern was observed across multiple sessions.
 The backup requirement was later formalized as a hard prohibition.
 ```
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

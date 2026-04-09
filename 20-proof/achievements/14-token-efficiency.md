@@ -1,4 +1,5 @@
 # Achievement No.14: Token Efficiency — up to 20x reduction (design target)
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/14-token-efficiency-ja.md)
 
 > **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal. Measured data will be published in Phase 2.
 
@@ -35,3 +36,10 @@ The methodology: categorize every operation by its actual capability requirement
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

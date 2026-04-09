@@ -1,4 +1,5 @@
 # 回避OS -- 規範参照文書（日本語）
+Language: [English version](../../50-boundary/Avoidance-OS.md)
 
 > この文書はAI行動回避フレームワークの**規範参照文書**です。
 > 「貼ってすぐ使う」実用版は [30-adoption/try/control-os-claude.md](../30-adoption/try/control-os-claude.md) を参照。
@@ -31,6 +32,8 @@
 
 回避OSは公開されている40のFailure Modes全てに対処します。完全なリストは [30-adoption/try/fm-40-cheatsheet.md](../30-adoption/try/fm-40-cheatsheet.md) を参照。
 
+
+→ [READMEに戻る](../README-ja.md)
 ---
 
 > この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部として管理されています。

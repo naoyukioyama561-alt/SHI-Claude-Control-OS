@@ -1,4 +1,5 @@
 # 成果No.5: 運用構造拡張 -- 3層 → 5層
+Language: [English version](../../../20-proof/achievements/05-five-layer-ops.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
@@ -26,10 +27,17 @@
 
 **各層が前の層の見逃しを拾う**カスケード型セーフティネット。決定的な追加は第5層（継承固定）-- これがなければ改善は揮発性で、セッション境界で消える。
 
-→ 品質システム全体: [`10-framework/ja/05-quality-system.md`](../../../10-framework/ja/05-quality-system.md)
+→ 品質システム全体: [`10-framework/05-quality-system-ja.md`](../../10-framework/05-quality-system-ja.md)
 
 ---
 
 > Phase1は完全な5層図を提供。Phase2は全要件仕様とエスカレーションチェーンを提供。書籍には実装思想・検証設計・再現手順を収録。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

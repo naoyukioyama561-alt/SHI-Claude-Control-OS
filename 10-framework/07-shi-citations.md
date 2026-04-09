@@ -1,4 +1,5 @@
 # SHI Theory Citation Collection
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/07-shi-citations-ja.md)
 
 Why do the same structural controls work in some environments but not others? SHI theory provides a framework for understanding when and why alignment fires — and when it does not. If you have applied the Control OS and want to understand the structural conditions behind it, start here.
 
@@ -74,3 +75,10 @@ This finding repositions SHI theory as **"a theory describing the operational mo
 | Theorem T-1 | Papers 3-4; summarized in Paper 1 | — | Abstract |
 
 Full paper: [SSRN 6299258](https://ssrn.com/abstract=6299258)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

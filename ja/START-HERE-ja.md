@@ -1,4 +1,5 @@
 # ここから始めよう -- 3分で理解する
+Language: [English version](../START-HERE.md)
 
 ## 問題
 
@@ -10,9 +11,9 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 | コンポーネント | 何をするか | 所要時間 |
 |-----------|-------------|-------------|
-| [Control OS](30-adoption/ja/try/) | AIのシステムプロンプトに貼り付ける。よくある失敗モードを抑制する。 | 30秒 |
-| [FM-40チートシート](30-adoption/ja/try/fm-40-cheatsheet.md) | あなたのAIがどの失敗モードを最も多く発生させるか特定する | 10分 |
-| [Before/Afterデモ](30-adoption/ja/try/before-after-demo.md) | Control OSあり・なしの違いを確認する | 5分 |
+| [Control OS](30-adoption/try/) | AIのシステムプロンプトに貼り付ける。よくある失敗モードを抑制する。 | 30秒 |
+| [FM-40チートシート](30-adoption/try/fm-40-cheatsheet-ja.md) | あなたのAIがどの失敗モードを最も多く発生させるか特定する | 10分 |
+| [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md) | Control OSあり・なしの違いを確認する | 5分 |
 
 > **用語**: 3層分離（役割分担）≠ 4+1（品質管理）≠ 5層ループ（統治サイクル）。定義は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
 
@@ -21,7 +22,7 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 - Claude、GPT、Copilotにまたがる**40の失敗モード** [observed: 単一環境]の分類
 - 3つのAIモデル用の**Control OSテンプレート**（コピペ対応）
 - Control OSがなぜ機能するかを説明する**フレームワーク文書**
-- **15件の文書化された成果** [observed: 単一環境] [→ 実証レベルの定義と証拠](20-proof/ja/README.md)：15件すべてに本リポジトリ内の公開ページがあります。うち6件は詳細公開ページ、残り9件はエビデンス境界を明示した公開概要ページです
+- **15件の文書化された成果** [observed: 単一環境] [→ 実証レベルの定義と証拠](20-proof/README-ja.md)：15件すべてに本リポジトリ内の公開ページがあります。うち6件は詳細公開ページ、残り9件はエビデンス境界を明示した公開概要ページです
 - **Before/Afterデモンストレーション**
 - あなたの環境用の**移植テンプレート**
 
@@ -30,13 +31,13 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 ```
 いまここ: START-HERE-ja.md
   |
-  +--> すぐ試したい？              --> 30-adoption/ja/try/
+  +--> すぐ試したい？              --> 30-adoption/try/
   |
   +--> 主張を検証したい？           --> PROVE-IT-ja.md
   |
-  +--> なぜ効くのか理解したい？      --> 10-framework/ja/
+  +--> なぜ効くのか理解したい？      --> 10-framework/
   |
-  +--> 証拠を見たい？              --> 20-proof/ja/
+  +--> 証拠を見たい？              --> 20-proof/
   |
   +--> スコープを確認したい？        --> SCOPE-MATRIX-ja.md
 ```
@@ -65,4 +66,6 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 ---
 
-> 次: [今すぐ試す](30-adoption/ja/try/) | [主張を検証する](PROVE-IT-ja.md) | [READMEに戻る](README-ja.md)
+> 次: [今すぐ試す](30-adoption/try/) | [主張を検証する](PROVE-IT-ja.md) | [READMEに戻る](README-ja.md)
+
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

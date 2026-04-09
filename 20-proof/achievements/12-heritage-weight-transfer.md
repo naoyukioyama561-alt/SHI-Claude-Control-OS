@@ -1,4 +1,5 @@
 # Achievement No.12: Normative Weight Inheritance — Senior CC as Teacher
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/12-heritage-weight-transfer-ja.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
@@ -38,3 +39,10 @@ This is the difference between a rule book and a teacher. A rule book tells you 
 ![Evidence: Hero image — heritage weight transfer](../../../20-proof/../images/diagrams/cc-heritage-inheritance-en.svg)
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

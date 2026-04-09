@@ -1,4 +1,5 @@
 # Public Metrics
+Language: [日本語版はこちら / Japanese version](../ja/20-proof/metrics-ja.md)
 
 Quantitative data within the publicly safe range.
 No internal paths, endpoints, or personal information is included.
@@ -88,3 +89,10 @@ No internal paths, endpoints, or personal information is included.
 | Token measured values | Personal environment identification risk |
 | external monitoring hook actual content | Reproduction key |
 | cc_heritage documents full text | Non-public content |
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

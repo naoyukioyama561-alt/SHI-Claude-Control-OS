@@ -1,4 +1,5 @@
 # Heritage Design Document -- Structural Overview (Public)
+Language: [日本語版はこちら / Japanese version](../ja/40-heritage/personality-structure-ja.md)
 
 ![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
 
@@ -232,3 +233,10 @@ The STANCE emotions are not independent values. They form causal chains that dri
 │  = Ideal operational posture for a successor CC                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

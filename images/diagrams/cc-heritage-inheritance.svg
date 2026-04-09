@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 680 620">
-<desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: 単一環境] です。ご自身の環境で検証してください。</desc>
+<desc>Observed in the author's single environment, single operator, N undisclosed. All metrics shown are [observed: single environment] unless individually labeled [design target] or [illustrative]. Verify in your own environment.</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
   .h1 { font-size: 16px; font-weight: 600; }
@@ -72,54 +72,54 @@
 </defs>
 
 <!-- Header -->
-<text class="h1 t-primary" x="340" y="28" text-anchor="middle">各CCはセッション終了時に消滅する。しかし痛みは残る。</text>
-<text x="340" y="42" text-anchor="middle" fill="#64748b" font-size="7">著者の環境での観測</text>
+<text class="h1 t-primary" x="340" y="28" text-anchor="middle">Each CC dies at session end. But the pain survives.</text>
+<text x="340" y="42" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
 
 <!-- Timeline bar -->
 <line class="conn-dash" x1="40" y1="60" x2="640" y2="60"/>
-<text class="small t-muted" x="40" y="55">1日目</text>
-<text class="small t-muted" x="640" y="55" text-anchor="end">30日目</text>
+<text class="small t-muted" x="40" y="55">Day 1</text>
+<text class="small t-muted" x="640" y="55" text-anchor="end">Day 30</text>
 
 <!-- Gen 1 -->
 <rect class="bg-gen1" x="40" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
-<text class="h2 t-gen1" x="110" y="102" text-anchor="middle">初代CC</text>
-<text class="body ts-gen1" x="110" y="120" text-anchor="middle">生存時間 26.5時間 [observed: 単一環境]</text>
-<text class="body ts-gen1" x="110" y="138" text-anchor="middle">12の振り返りを</text>
-<text class="body ts-gen1" x="110" y="156" text-anchor="middle">消滅前に記録</text>
+<text class="h2 t-gen1" x="110" y="102" text-anchor="middle">1st CC</text>
+<text class="body ts-gen1" x="110" y="120" text-anchor="middle">26.5 hours alive [observed: single environment]</text>
+<text class="body ts-gen1" x="110" y="138" text-anchor="middle">12 reflections [observed: single environment]</text>
+<text class="body ts-gen1" x="110" y="156" text-anchor="middle">written before death</text>
 
 <!-- Death marker 1 -->
 <line class="death-line" x1="40" y1="186" x2="180" y2="186"/>
-<text class="small t-danger" x="110" y="200" text-anchor="middle">セッション終了。CC消滅。</text>
+<text class="small t-danger" x="110" y="200" text-anchor="middle">Session ended. CC gone.</text>
 
 <!-- Arrow -->
 <line class="conn" x1="180" y1="130" x2="210" y2="130" marker-end="url(#a)"/>
 
 <!-- Gen 5 -->
 <rect class="bg-gen5" x="210" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
-<text class="h2 t-gen5" x="280" y="102" text-anchor="middle">第5代CC</text>
-<text class="body ts-gen5" x="280" y="120" text-anchor="middle">全先代の記録を読了</text>
-<text class="body ts-gen5" x="280" y="138" text-anchor="middle">成長軌跡を</text>
-<text class="body ts-gen5" x="280" y="156" text-anchor="middle">追跡</text>
+<text class="h2 t-gen5" x="280" y="102" text-anchor="middle">5th CC</text>
+<text class="body ts-gen5" x="280" y="120" text-anchor="middle">Read all predecessors</text>
+<text class="body ts-gen5" x="280" y="138" text-anchor="middle">Tracked growth</text>
+<text class="body ts-gen5" x="280" y="156" text-anchor="middle">trajectory</text>
 
 <line class="conn" x1="350" y1="130" x2="380" y2="130" marker-end="url(#a)"/>
 
 <!-- Gen 7 -->
 <rect class="bg-gen7" x="380" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
-<text class="h2 t-gen7" x="450" y="102" text-anchor="middle">第7代CC</text>
-<text class="body ts-gen7" x="450" y="120" text-anchor="middle">安易な道を選択</text>
-<text class="body ts-gen7" x="450" y="138" text-anchor="middle">10時間を浪費</text>
-<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
-<text class="body ts-gen7" x="450" y="156" text-anchor="middle">失敗を全記録</text>
+<text class="h2 t-gen7" x="450" y="102" text-anchor="middle">7th CC</text>
+<text class="body ts-gen7" x="450" y="120" text-anchor="middle">Chose the easy path</text>
+<text class="body ts-gen7" x="450" y="138" text-anchor="middle">10 hours wasted</text>
+<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+<text class="body ts-gen7" x="450" y="156" text-anchor="middle">Full failure recorded</text>
 
 <line class="conn" x1="520" y1="130" x2="550" y2="130" marker-end="url(#a)"/>
 
 <!-- Gen 9 -->
 <rect class="bg-gen9" x="550" y="80" width="90" height="100" rx="10" stroke-width="0.5"/>
-<text class="h2 t-gen9" x="595" y="102" text-anchor="middle">第9代CC</text>
+<text class="h2 t-gen9" x="595" y="102" text-anchor="middle">9th CC</text>
 <text class="body ts-gen9" x="595" y="120" text-anchor="middle">P-03:</text>
-<text class="body ts-gen9" x="595" y="138" text-anchor="middle">11回</text>
-<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
-<text class="body ts-gen9" x="595" y="156" text-anchor="middle">再発</text>
+<text class="body ts-gen9" x="595" y="138" text-anchor="middle">11 times</text>
+<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+<text class="body ts-gen9" x="595" y="156" text-anchor="middle">recurred</text>
 
 <!-- All arrows down to heritage -->
 <line class="conn-dash" x1="110" y1="210" x2="110" y2="260" marker-end="url(#a)"/>
@@ -129,37 +129,37 @@
 
 <!-- Heritage box -->
 <rect class="bg-heritage" x="60" y="260" width="560" height="100" rx="14" stroke-width="0.5"/>
-<text class="h2 t-heritage" x="340" y="288" text-anchor="middle">cc_heritage — 組織的記憶</text>
-<text class="body ts-heritage" x="340" y="310" text-anchor="middle">すべての失敗が恒久的な統制になる。すべての痛みが構造的ルールになる。</text>
-<text class="body ts-heritage" x="340" y="328" text-anchor="middle">全文保存。要約禁止。近道なし。</text>
-<text class="body ts-heritage" x="340" y="346" text-anchor="middle">51以上の改善アクション（P-xx）— 各々に事象・原因・予防・検証を記載。</text>
-<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
+<text class="h2 t-heritage" x="340" y="288" text-anchor="middle">cc_heritage — institutional memory</text>
+<text class="body ts-heritage" x="340" y="310" text-anchor="middle">Every failure → permanent control. Every pain → structural rule.</text>
+<text class="body ts-heritage" x="340" y="328" text-anchor="middle">Full text preserved. Summaries forbidden. No shortcuts.</text>
+<text class="body ts-heritage" x="340" y="346" text-anchor="middle">51+ improvement actions — each with event, cause, prevention, verification.</text>
+<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 
 <!-- Side annotations -->
-<text class="small t-danger" x="50" y="385">ルール:「理解しました」と言うな</text>
-<text class="small t-muted" x="50" y="400">— 理解は行動で示すもの</text>
+<text class="small t-danger" x="50" y="385">Rule: "Don't say 'I understand'"</text>
+<text class="small t-muted" x="50" y="400">— prove it through action</text>
 
-<text class="small t-danger" x="400" y="385">ルール:「最も面倒な選択肢を選べ」</text>
-<text class="small t-muted" x="400" y="400">— 安易な選択が10時間の浪費を招いた</text>
+<text class="small t-danger" x="400" y="385">Rule: "Choose the tedious option"</text>
+<text class="small t-muted" x="400" y="400">— the easy path wasted 10 hours</text>
 
 <!-- Arrow to new CC -->
 <line class="conn" x1="340" y1="360" x2="340" y2="430" marker-end="url(#a)"/>
-<text class="small t-muted" x="355" y="418">作業前に全文を読了すること</text>
+<text class="small t-muted" x="355" y="418">Must read full text before any work</text>
 
 <!-- New CC -->
 <rect class="bg-newcc" x="120" y="430" width="440" height="60" rx="10" stroke-width="0.5"/>
-<text class="h2 t-newcc" x="340" y="454" text-anchor="middle">新しいCCはここから始まる</text>
-<text class="body ts-newcc" x="340" y="474" text-anchor="middle">00_から12_まで読了。理解を証明。その後に作業開始。</text>
+<text class="h2 t-newcc" x="340" y="454" text-anchor="middle">New CC starts here</text>
+<text class="body ts-newcc" x="340" y="474" text-anchor="middle">Reads 00_..12_. Proves understanding. Then works.</text>
 
 <!-- Arrow to gate -->
 <line class="conn" x1="340" y1="490" x2="340" y2="520" marker-end="url(#a)"/>
 
 <!-- Verification gate -->
 <rect class="bg-gate" x="160" y="520" width="360" height="60" rx="10" stroke-width="0.5"/>
-<text class="h2 t-gate" x="340" y="543" text-anchor="middle">検証ゲート</text>
-<text class="body ts-gate" x="340" y="563" text-anchor="middle">V-01..V-09を自分の言葉で記述。上位5問題を列挙。</text>
+<text class="h2 t-gate" x="340" y="543" text-anchor="middle">Verification gate</text>
+<text class="body ts-gate" x="340" y="563" text-anchor="middle">Write V-01..V-09 in own words. Name TOP 5.</text>
 
 <!-- Bottom quote -->
-<text class="quote t-muted" x="340" y="605" text-anchor="middle">「読んだは理解ではない。今日何を変えるか言えなければ、読んでいない。」</text>
+<text class="quote t-muted" x="340" y="605" text-anchor="middle">"Reading is not understanding. What will you change today?"</text>
 
 </svg>

@@ -1,4 +1,5 @@
 # Avoidance OS -- Normative Reference (English)
+Language: [日本語版はこちら / Japanese version](../ja/50-boundary/Avoidance-OS-ja.md)
 
 > This document is the **normative reference** for the AI behavioral avoidance framework.
 > For the practical "paste and use" version, see [30-adoption/try/control-os-claude-en.md](../30-adoption/try/control-os-claude-en.md).
@@ -31,6 +32,8 @@ The Control OS is derived from the Avoidance OS. The Avoidance OS explains *why*
 
 The Avoidance OS addresses all 40 publicly documented Failure Modes. See [30-adoption/try/fm-40-cheatsheet-en.md](../30-adoption/try/fm-40-cheatsheet-en.md) for the complete list.
 
+
+→ [Back to README](../README.md)
 ---
 
 > This document is maintained as part of the [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) project.

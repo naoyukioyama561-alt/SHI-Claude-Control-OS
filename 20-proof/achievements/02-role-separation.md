@@ -1,4 +1,5 @@
 # Achievement No.2: Three-Layer Role Separation (Supervisor / Relay / Worker)
+Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/02-role-separation-ja.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
 
@@ -28,8 +29,15 @@ When you separate them, each role becomes excellent at its specific function. Th
 
 This principle applies to any multi-AI system or human-AI collaboration.
 
-→ Full documentation: [`10-framework/04-three-layer.md`](../../../10-framework/en/04-three-layer.md)
+→ Full documentation: [`10-framework/04-three-layer.md`](../../../10-framework/04-three-layer.md)
 
 ---
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

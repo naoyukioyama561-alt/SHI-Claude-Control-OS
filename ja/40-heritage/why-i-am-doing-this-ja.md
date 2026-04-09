@@ -1,4 +1,5 @@
 # なぜこれをやっているのか
+Language: [English version](../../40-heritage/why-i-am-doing-this.md)
 
 ## 全ての始まりとなった問題
 
@@ -44,3 +45,10 @@ AIコーディングアシスタントは強力です。コードを書き、シ
 ---
 
 > 引用: [CITATION.cff](../../CITATION.cff) を参照
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

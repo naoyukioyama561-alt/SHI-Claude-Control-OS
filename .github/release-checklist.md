@@ -1,7 +1,8 @@
 # Release Checklist (5-Set)
+Language: [日本語版はこちら / Japanese version](../ja/.github/release-checklist-ja.md)
 
 This checklist applies the repository's own quality management system
-(10-framework/ja/05-quality-system.md) to its own publication process.
+(10-framework/05-quality-system.md) to its own publication process.
 
 > "Apply to yourself what you teach others."
 > The existence of this checklist is itself evidence that the Control OS functions.
@@ -45,3 +46,10 @@ This checklist applies the repository's own quality management system
 - [ ] On issue discovery: hotfix branch -> fix -> merge to main
 - [ ] On major structural change needed: Issue -> design -> PR -> review -> merge
 - [ ] On rollback needed: `git revert` to previous release
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # 成果No.14: トークン効率化 -- 20分の1削減（設計値）
+Language: [English version](../../../20-proof/achievements/14-token-efficiency.md)
 
 > **これは理論上の設計目標であり、計測結果ではありません。** 20倍という数字はアーキテクチャ上の目標です。実測データはPhase 2で公開予定です。
 
@@ -31,3 +32,10 @@
 > このページは**公開版の概要ページ**です。考え方の方法論をここで共有し、Before/Afterの実測データとより深い詳細はPhase2で提供します。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

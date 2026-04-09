@@ -1,4 +1,5 @@
 # Failure Naming Template
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/templates/failure-naming-template-ja.md)
 
 Use this template to name and classify AI failures you observe in your own environment.
 
@@ -42,4 +43,11 @@ Use this template to name and classify AI failures you observe in your own envir
 
 ---
 
-> Reference: [FM-40 Cheatsheet](../try/fm-40-cheatsheet.md) | [10-framework/01-failure-modes](../../10-framework/en/01-failure-modes.md)
+> Reference: [FM-40 Cheatsheet](../try/fm-40-cheatsheet.md) | [10-framework/01-failure-modes](../../10-framework/01-failure-modes.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

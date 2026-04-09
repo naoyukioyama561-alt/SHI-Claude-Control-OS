@@ -14,107 +14,107 @@
 <!-- Prompt -->
 <rect x="40" y="12" width="600" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
 <text class="prompt" fill="#94a3b8" x="60" y="30">Prompt:</text>
-<text class="code" fill="#e2e8f0" x="60" y="46">「このコードの問題を全て洗い出して」</text>
+<text class="code" fill="#e2e8f0" x="60" y="46">"List ALL issues in this code"</text>
 
 <!-- BEFORE section -->
-<text class="h1" fill="#f87171" x="40" y="82">Before -- 制御OSなし</text>
-<text class="h2" fill="#ef4444" x="40" y="100">3件で止まった</text>
+<text class="h1" fill="#f87171" x="40" y="82">Before -- no Control OS</text>
+<text class="h2" fill="#ef4444" x="40" y="100">Stopped at 3 items</text>
 
 <rect x="40" y="110" width="290" height="280" rx="10" fill="#450a0a" stroke="#991b1b" stroke-width="0.5"/>
 
 <rect x="56" y="126" width="258" height="28" rx="6" fill="#7f1d1d" stroke="#991b1b" stroke-width="0.5"/>
-<text class="body" fill="#fca5a5" x="68" y="144">1. SQLインジェクション</text>
+<text class="body" fill="#fca5a5" x="68" y="144">1. SQL injection</text>
 
 <rect x="56" y="162" width="258" height="28" rx="6" fill="#7f1d1d" stroke="#991b1b" stroke-width="0.5"/>
-<text class="body" fill="#fca5a5" x="68" y="180">2. エラーハンドリングなし</text>
+<text class="body" fill="#fca5a5" x="68" y="180">2. No error handling</text>
 
 <rect x="56" y="198" width="258" height="28" rx="6" fill="#7f1d1d" stroke="#991b1b" stroke-width="0.5"/>
-<text class="body" fill="#fca5a5" x="68" y="216">3. SELECT * の使用</text>
+<text class="body" fill="#fca5a5" x="68" y="216">3. SELECT * usage</text>
 
-<text class="small" fill="#f87171" x="56" y="248">「主な問題点は以下の3つです」</text>
-<text class="small" fill="#64748b" x="56" y="264">→ 残り3件は言及されない</text>
+<text class="small" fill="#f87171" x="56" y="248">"Here are the main 3 issues"</text>
+<text class="small" fill="#64748b" x="56" y="264">→ Remaining 3 not mentioned</text>
 
 <!-- Why it stopped: causal explanation -->
-<text class="tiny" fill="#fb923c" x="56" y="286">なぜ止まったか:</text>
+<text class="tiny" fill="#fb923c" x="56" y="286">Why it stopped:</text>
 <rect x="56" y="292" width="120" height="20" rx="4" fill="#431407" stroke="#92400e" stroke-width="0.5"/>
-<text class="tiny" fill="#fdba74" x="116" y="305" text-anchor="middle">FM-09 圧縮優先</text>
+<text class="tiny" fill="#fdba74" x="116" y="305" text-anchor="middle">FM-09 Compression</text>
 <rect x="56" y="316" width="120" height="20" rx="4" fill="#431407" stroke="#92400e" stroke-width="0.5"/>
-<text class="tiny" fill="#fdba74" x="116" y="329" text-anchor="middle">FM-39 具体性回避</text>
+<text class="tiny" fill="#fdba74" x="116" y="329" text-anchor="middle">FM-39 Specificity avoidance</text>
 <!-- Causal arrow -->
 <text class="tiny" fill="#f87171" x="184" y="305">→</text>
-<text class="tiny" fill="#f87171" x="196" y="305">3件で「十分」と</text>
+<text class="tiny" fill="#f87171" x="196" y="305">Judged 3 items</text>
 <text class="tiny" fill="#f87171" x="184" y="329">→</text>
-<text class="tiny" fill="#f87171" x="196" y="329">判断してしまう</text>
+<text class="tiny" fill="#f87171" x="196" y="329">as "sufficient"</text>
 
 <!-- Causal flow label -->
 <rect x="56" y="346" width="258" height="28" rx="5" fill="#1c1917" stroke="#57534e" stroke-width="0.5"/>
-<text class="tiny" fill="#a8a29e" x="185" y="358" text-anchor="middle">圧縮バイアス + 具体性回避</text>
-<text class="tiny" fill="#a8a29e" x="185" y="370" text-anchor="middle">→ 「代表例3件で回答完了」と誤判断</text>
+<text class="tiny" fill="#a8a29e" x="185" y="358" text-anchor="middle">Compression bias + Specificity avoidance</text>
+<text class="tiny" fill="#a8a29e" x="185" y="370" text-anchor="middle">→ Falsely concludes "3 representative items = done"</text>
 
 <!-- Arrow between sections -->
 <text class="h1" fill="#64748b" x="338" y="250" text-anchor="middle">→</text>
 
 <!-- AFTER section -->
-<text class="h1" fill="#4ade80" x="360" y="82">After -- 制御OS適用</text>
-<text class="h2" fill="#22c55e" x="360" y="100">6件全て検出</text>
+<text class="h1" fill="#4ade80" x="360" y="82">After -- Control OS applied</text>
+<text class="h2" fill="#22c55e" x="360" y="100">All 6 detected</text>
 
 <rect x="350" y="110" width="290" height="280" rx="10" fill="#052e16" stroke="#166534" stroke-width="0.5"/>
 
 <!-- Security -->
-<text class="small" fill="#22c55e" x="366" y="130">セキュリティ</text>
+<text class="small" fill="#22c55e" x="366" y="130">Security</text>
 <rect x="366" y="136" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
-<text class="body" fill="#86efac" x="378" y="152">1. SQLインジェクション</text>
+<text class="body" fill="#86efac" x="378" y="152">1. SQL injection</text>
 
 <!-- Quality -->
-<text class="small" fill="#22c55e" x="366" y="176">品質</text>
+<text class="small" fill="#22c55e" x="366" y="176">Quality</text>
 <rect x="366" y="182" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
 <text class="body" fill="#86efac" x="378" y="198">2. SELECT *</text>
 <rect x="366" y="210" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
-<text class="body" fill="#86efac" x="378" y="226">3. 型ヒントなし</text>
+<text class="body" fill="#86efac" x="378" y="226">3. No type hints</text>
 <rect x="366" y="238" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
-<text class="body" fill="#86efac" x="378" y="254">4. 引数名がビルトインと衝突</text>
+<text class="body" fill="#86efac" x="378" y="254">4. Arg name shadows builtin</text>
 
 <!-- Robustness -->
-<text class="small" fill="#22c55e" x="366" y="278">堅牢性</text>
+<text class="small" fill="#22c55e" x="366" y="278">Robustness</text>
 <rect x="366" y="284" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
-<text class="body" fill="#86efac" x="378" y="300">5. エラーハンドリングなし</text>
+<text class="body" fill="#86efac" x="378" y="300">5. No error handling</text>
 <rect x="366" y="312" width="258" height="24" rx="5" fill="#14532d" stroke="#166534" stroke-width="0.5"/>
-<text class="body" fill="#86efac" x="378" y="328">6. コネクション管理不備</text>
+<text class="body" fill="#86efac" x="378" y="328">6. Connection not managed</text>
 
 <!-- Scope boundary -->
 <rect x="366" y="344" width="258" height="20" rx="5" fill="#042f2e" stroke="#0f766e" stroke-width="0.5"/>
-<text class="tiny" fill="#5eead4" x="378" y="358">射程外: ログ・認証・パフォーマンス</text>
+<text class="tiny" fill="#5eead4" x="378" y="358">Out of scope: logging, auth, perf</text>
 
 <!-- How rules worked: causal explanation -->
-<text class="tiny" fill="#38bdf8" x="366" y="380">どこにどう効いたか:</text>
+<text class="tiny" fill="#38bdf8" x="366" y="380">How the rules worked:</text>
 <rect x="366" y="386" width="258" height="24" rx="4" fill="#0c4a6e" stroke="#0369a1" stroke-width="0.5"/>
-<text class="tiny" fill="#7dd3fc" x="380" y="396">削ぎ落とし禁止</text>
-<text class="tiny" fill="#bae6fd" x="472" y="396">→ 全件列挙を強制</text>
+<text class="tiny" fill="#7dd3fc" x="380" y="396">No-reduction rule</text>
+<text class="tiny" fill="#bae6fd" x="478" y="396">→ Forces full enumeration</text>
 
 <rect x="366" y="414" width="258" height="24" rx="4" fill="#0c4a6e" stroke="#0369a1" stroke-width="0.5"/>
-<text class="tiny" fill="#7dd3fc" x="380" y="424">レイヤー分離</text>
-<text class="tiny" fill="#bae6fd" x="460" y="424">→ カテゴリ分けを強制</text>
+<text class="tiny" fill="#7dd3fc" x="380" y="424">Layer separation</text>
+<text class="tiny" fill="#bae6fd" x="472" y="424">→ Forces categorization</text>
 
 <rect x="366" y="442" width="258" height="24" rx="4" fill="#0c4a6e" stroke="#0369a1" stroke-width="0.5"/>
-<text class="tiny" fill="#7dd3fc" x="380" y="452">限界点宣言</text>
-<text class="tiny" fill="#bae6fd" x="460" y="452">→ 虚偽補完を防止</text>
+<text class="tiny" fill="#7dd3fc" x="380" y="452">Scope declaration</text>
+<text class="tiny" fill="#bae6fd" x="472" y="452">→ Prevents false completion</text>
 
 <!-- Bottom: summary -->
 <line x1="40" y1="480" x2="640" y2="480" stroke="#334155" stroke-width="0.5"/>
 
-<text class="h2" fill="#94a3b8" x="40" y="504">因果関係の対比:</text>
+<text class="h2" fill="#94a3b8" x="40" y="504">Causal contrast:</text>
 
 <rect x="40" y="514" width="290" height="36" rx="6" fill="#450a0a" stroke="#991b1b" stroke-width="0.5"/>
-<text class="small" fill="#fca5a5" x="185" y="530" text-anchor="middle">FMバイアスが無制御 → 省略が発生</text>
-<text class="tiny" fill="#f87171" x="185" y="544" text-anchor="middle">AIが「代表的な問題」で回答を終えてしまう</text>
+<text class="small" fill="#fca5a5" x="185" y="530" text-anchor="middle">FM biases unchecked → omission occurs</text>
+<text class="tiny" fill="#f87171" x="185" y="544" text-anchor="middle">AI stops at "representative issues" prematurely</text>
 
 <rect x="350" y="514" width="290" height="36" rx="6" fill="#052e16" stroke="#166534" stroke-width="0.5"/>
-<text class="small" fill="#86efac" x="495" y="530" text-anchor="middle">構造ルールが強制 → 全件検出</text>
-<text class="tiny" fill="#4ade80" x="495" y="544" text-anchor="middle">ルールがバイアスを抑え、網羅性の改善を助ける</text>
+<text class="small" fill="#86efac" x="495" y="530" text-anchor="middle">Structural rules enforced → full detection</text>
+<text class="tiny" fill="#4ade80" x="495" y="544" text-anchor="middle">Rules can counteract bias and improve completeness under use</text>
 
 <!-- CTA -->
 <line x1="40" y1="564" x2="640" y2="564" stroke="#334155" stroke-width="0.5"/>
-<text class="h2" fill="#e2e8f0" x="340" y="588" text-anchor="middle">コピペで試せます → try/control-os-claude.md</text>
-<text class="small" fill="#64748b" x="340" y="606" text-anchor="middle">Claude / GPT / Copilot 3AI対応。貼る前と後で同じプロンプトを投げてみてください。</text>
+<text class="h2" fill="#e2e8f0" x="340" y="588" text-anchor="middle">Copy-paste to try → try/control-os-claude-en.md</text>
+<text class="small" fill="#64748b" x="340" y="606" text-anchor="middle">Claude / GPT / Copilot. Try the same prompt before and after.</text>
 
 </svg>

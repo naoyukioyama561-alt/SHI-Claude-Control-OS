@@ -1,4 +1,5 @@
 # Three-Layer Separation Starter Kit
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/templates/three-layer-starter-ja.md)
 
 A minimal guide to implementing three-layer role separation in your AI workflow.
 
@@ -55,4 +56,11 @@ If full three-layer separation is too complex for your current setup, start with
 
 ---
 
-> Reference: [10-framework/04-three-layer](../../10-framework/en/04-three-layer.md) | [Achievement No.2: Role Separation](../../20-proof/achievements/en/02-role-separation.md)
+> Reference: [10-framework/04-three-layer](../../10-framework/04-three-layer.md) | [Achievement No.2: Role Separation](../../20-proof/achievements/02-role-separation.md)
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

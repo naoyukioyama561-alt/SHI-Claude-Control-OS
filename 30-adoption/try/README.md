@@ -1,4 +1,5 @@
 # try/ — Test it on your own AI
+Language: [日本語版はこちら / Japanese version](../../ja/30-adoption/try/README-ja.md)
 
 ## 1. Paste the Control OS (30 seconds)
 
@@ -54,16 +55,23 @@ The FMs that fire most often on your AI = your specific structural weaknesses to
 
 ## 4. Understand why it works
 
-Continue to [10-framework/en/](../../10-framework/en/README.md) for the structural explanation.
+Continue to [10-framework/](../../10-framework/README.md) for the structural explanation.
 
 ---
 
 > **Note:** The Control OS doesn't suppress 100% of failures.
 > FM-02 (context drift) in particular recurs in long sessions
 > and requires structural measures (external monitoring, 3-layer separation).
-> Details: [10-framework/en/04-three-layer.md](../../10-framework/en/04-three-layer.md)
+> Details: [10-framework/04-three-layer.md](../../10-framework/04-three-layer.md)
 
 
 ---
 
 > **Note**: English canonical files in this directory use the `-en` suffix. Files without suffix are Japanese-primary. Full Japanese versions are in `../ja/try/`.
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

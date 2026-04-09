@@ -1,4 +1,5 @@
 # templates/ -- 自環境への導入キット
+Language: [English version](../../../30-adoption/templates/README.md)
 
 これらのテンプレートは、SHI Control OS の方法論を自身のAIワークフローに適用するためのものです。
 
@@ -23,3 +24,5 @@
 ---
 
 > [30-adoption/](../../../README-ja.md) に戻る | [README](../../../README-ja.md)
+
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

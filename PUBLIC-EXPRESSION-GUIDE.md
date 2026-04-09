@@ -1,4 +1,5 @@
 # Public Expression Guide — 公開表現定義集
+Language: [日本語版はこちら / Japanese version](ja/PUBLIC-EXPRESSION-GUIDE-ja.md)
 
 Version: 4.1 | Last updated: 2026-04-07
 
@@ -14,7 +15,7 @@ This guide applies to **all externally visible expressions**, including:
 |---------|----------|-------------------|
 | Markdown body text (EN/JA) | README, achievements, framework docs | 1,2,3,4,5,6,7 |
 | Headings / titles (H1-H6) | Page titles, section headings | 1,3,5 (no brackets) |
-| Demo HTML (UI-visible text) | demo/en/*.html, demo/jp/*.html | 3,4,8 |
+| Demo HTML (UI-visible text) | demo/en/*.html, demo/ja/*.html | 3,4,8 |
 | SVG embedded text | `<text>`, `<title>`, `<desc>`, legends | 2,3,8 |
 | alt text / ARIA labels | `alt=""`, `aria-label=""` | 3,4 |
 | HTML meta / OGP tags | `<title>`, `<meta og:title>`, `<meta description>` | 1,3,4 (SNS crop test) |
@@ -267,7 +268,7 @@ When a new expression is needed:
 | EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
 | SVG (conceptual) | `concept-name-en.svg` (EN) / `concept-name.svg` (JA) | `image1.svg`, `fig-01`, `-ja.svg` |
-| Demo HTML | `demo/en/page.html`, `demo/jp/page.html` | `demo_en.html` |
+| Demo HTML | `demo/en/page.html`, `demo/ja/page.html` | `demo_en.html` |
 | Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
 
 Filenames must not contain prohibited terms from any section (e.g., `free-tier-quickstart.md` is prohibited).
@@ -425,3 +426,10 @@ Before applying to all 190 files:
 2. Have both AIs verify: "Does the pilot match the definitions?"
 3. Fix definition ambiguities found during pilot
 4. Then apply to remaining files in order: Entry points → Structure files → Demos → Deep content
+
+
+---
+
+→ [Back to README](README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

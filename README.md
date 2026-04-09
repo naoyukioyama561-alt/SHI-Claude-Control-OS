@@ -1,4 +1,5 @@
 # SHI-Claude-Control-OS
+Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 
 **Make AI work like a system, not a slot machine.**
 
@@ -16,7 +17,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
 > **No installation required** — copy, paste, and test. Try it, challenge it, adapt it.
-> **[→ See it live: Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html) · [Verify claims →](PROVE-IT.md)
+> **[→ See it live: Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html) · [Verify claims →](PROVE-IT.md)
 
 ---
 
@@ -50,13 +51,13 @@ This repository exists for that moment — when you realize AI is useful but sti
 | ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30 sec |
 
-Full Japanese versions: [30-adoption/ja/try/](30-adoption/ja/try/README.md)
+Full Japanese versions: [ja/30-adoption/try/](ja/30-adoption/try/README-ja.md)
 
 ---
 
 ### See the system in action (public-safe static demo, 1 minute)
 
-**[Open the interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/jp/index.html) · [Offline version](docs/dashboard.html)
+**[Open the interactive demo (GitHub Pages)](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html) · [Offline version](docs/dashboard.html)
 
 *Public-safe static pages — completely independent from any live environment. All displayed data is illustrative.*
 

@@ -1,4 +1,5 @@
 # Quality System Design (Public Structure)
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/05-quality-system-ja.md)
 
 AI quality degrades silently. By the time you notice, the damage is already in your codebase. This system catches degradation at four structural layers before it reaches your output.
 
@@ -141,3 +142,10 @@ Layer 4 (Third-party): Pattern check -> Learning categorization -> Complete
   | (fail)
 Escalation: 2x same code -> pattern registration -> 3x -> incident
 ```
+
+
+---
+
+→ [Back to README](../README.md)
+---
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # 30-adoption/ — Try It and Build Your Own
+Language: [日本語版はこちら / Japanese version](../ja/30-adoption/README-ja.md)
 
 ## Two paths from here
 
@@ -26,3 +27,5 @@ Use the transfer templates to adapt the methodology to your own AI setup.
 → **Next**: [10-framework/](../10-framework/) — understand why the Control OS works
 
 → See also: [PROVE-IT](../PROVE-IT.md) — verify every claim | [Back to README](../README.md)
+
+*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

@@ -1,4 +1,5 @@
 # Roadmap
+Language: [日本語版はこちら / Japanese version](ja/ROADMAP-ja.md)
 
 This project is actively maintained. Below is the current direction.
 

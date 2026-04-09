@@ -1,4 +1,5 @@
 # 20-proof/ -- 実証レベルの定義と証拠（日本語版）
+Language: [English version](../../20-proof/README.md)
 
 ## ★の意味
 
@@ -39,12 +40,14 @@
 ## ファイル一覧
 | ファイル | 内容 |
 |---------|------|
-| [achievements/ja/](../achievements/ja/) | 各成果の詳細ドキュメント（日本語） |
+| [achievements/](achievements/) | 各成果の詳細ドキュメント（日本語） |
 | [timeline-ja.md](../timeline-ja.md) | 開発の時系列事実（日本語） |
 | [metrics-ja.md](../metrics-ja.md) | 公開可能な定量データ（日本語） |
 
 ---
 
-→ **次**: [30-adoption/ja/try/](../../30-adoption/ja/try/) — 自分で試す
+→ **次**: [30-adoption/try/](../30-adoption/try/) — 自分で試す
 
-→ 関連: [10-framework/ja/](../../10-framework/ja/) — なぜ効くか理解する | [READMEに戻る](../../README-ja.md)
+→ 関連: [10-framework/](../10-framework/) — なぜ効くか理解する | [READMEに戻る](../README-ja.md)
+
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

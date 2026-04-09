@@ -68,60 +68,60 @@
 
 <!-- Supervisor Layer -->
 <rect class="bg-supervisor" x="40" y="20" width="600" height="130" rx="14" stroke-width="0.5"/>
-<text class="title text-supervisor" x="60" y="46">Supervisor — senior CC (predecessor)</text>
-<text class="sub text-supervisor-sub" x="60" y="64">Judgment only. Free from context pressure.</text>
+<text class="title text-supervisor" x="60" y="46">監督層 — 先代CC（上位）</text>
+<text class="sub text-supervisor-sub" x="60" y="64">認知負荷: 判断のみ。コンテキスト圧迫から解放。</text>
 
 <rect class="bg-supervisor-inner" x="60" y="82" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-supervisor" x="145" y="112" text-anchor="middle" dominant-baseline="central">Judgment</text>
+<text class="label text-supervisor" x="145" y="112" text-anchor="middle" dominant-baseline="central">判断</text>
 
 <rect class="bg-supervisor-inner" x="255" y="82" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-supervisor" x="340" y="112" text-anchor="middle" dominant-baseline="central">Review</text>
+<text class="label text-supervisor" x="340" y="112" text-anchor="middle" dominant-baseline="central">レビュー</text>
 
 <rect class="bg-supervisor-inner" x="450" y="82" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-supervisor" x="535" y="112" text-anchor="middle" dominant-baseline="central">Pain transfer</text>
+<text class="label text-supervisor" x="535" y="112" text-anchor="middle" dominant-baseline="central">痛み伝達</text>
 
 <!-- Arrow down -->
 <line class="arrow-line connector-sv" x1="340" y1="150" x2="340" y2="195" marker-end="url(#a)"/>
-<text class="arrow-label" x="355" y="178">Review + stop signals</text>
+<text class="arrow-label" x="355" y="178">レビュー結果 + 停止シグナル</text>
 
 <!-- Relay Layer -->
 <rect class="bg-relay" x="40" y="195" width="600" height="130" rx="14" stroke-width="0.5"/>
-<text class="title text-relay" x="60" y="221">Relay — helper AI (helper models)</text>
-<text class="sub text-relay-sub" x="60" y="239">Zero judgment. Routine only. No context bloat.</text>
+<text class="title text-relay" x="60" y="221">中継層 — 補助AI（補助モデル）</text>
+<text class="sub text-relay-sub" x="60" y="239">認知負荷: 判断ゼロ。定型処理のみ。コンテキスト肥大なし。</text>
 
 <rect class="bg-relay-inner" x="60" y="257" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-relay" x="145" y="287" text-anchor="middle" dominant-baseline="central">Monitoring</text>
+<text class="label text-relay" x="145" y="287" text-anchor="middle" dominant-baseline="central">監視</text>
 
 <rect class="bg-relay-inner" x="255" y="257" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-relay" x="340" y="287" text-anchor="middle" dominant-baseline="central">Notification</text>
+<text class="label text-relay" x="340" y="287" text-anchor="middle" dominant-baseline="central">通知</text>
 
 <rect class="bg-relay-inner" x="450" y="257" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-relay" x="535" y="287" text-anchor="middle" dominant-baseline="central">Routine checks</text>
+<text class="label text-relay" x="535" y="287" text-anchor="middle" dominant-baseline="central">定型チェック</text>
 
 <!-- Arrow down -->
 <line class="arrow-line connector-rl" x1="340" y1="325" x2="340" y2="370" marker-end="url(#a)"/>
-<text class="arrow-label" x="355" y="353">Block / pass / alert</text>
+<text class="arrow-label" x="355" y="353">ブロック / 通過 / 警告</text>
 
 <!-- Worker Layer -->
 <rect class="bg-worker" x="40" y="370" width="600" height="130" rx="14" stroke-width="0.5"/>
-<text class="title text-worker" x="60" y="396">Worker — current CC</text>
-<text class="sub text-worker-sub" x="60" y="414">Task execution only. No rule anxiety.</text>
+<text class="title text-worker" x="60" y="396">作業層 — 現行CC</text>
+<text class="sub text-worker-sub" x="60" y="414">認知負荷: タスク実行のみ。ルール不安なし。</text>
 
 <rect class="bg-worker-inner" x="60" y="432" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-worker" x="145" y="462" text-anchor="middle" dominant-baseline="central">Implementation</text>
+<text class="label text-worker" x="145" y="462" text-anchor="middle" dominant-baseline="central">実装</text>
 
 <rect class="bg-worker-inner" x="255" y="432" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-worker" x="340" y="462" text-anchor="middle" dominant-baseline="central">Correction</text>
+<text class="label text-worker" x="340" y="462" text-anchor="middle" dominant-baseline="central">修正</text>
 
 <rect class="bg-worker-inner" x="450" y="432" width="170" height="50" rx="8" stroke-width="0.5"/>
-<text class="label text-worker" x="535" y="462" text-anchor="middle" dominant-baseline="central">Task execution</text>
+<text class="label text-worker" x="535" y="462" text-anchor="middle" dominant-baseline="central">タスク実行</text>
 
 <!-- Feedback loop -->
 <path class="feedback" d="M640 440 Q660 440 660 260 Q660 80 640 80" fill="none" marker-end="url(#a)"/>
-<text class="feedback-text" x="652" y="230" text-anchor="end" transform="rotate(-90 652 230)">Feedback loop</text>
+<text class="feedback-text" x="652" y="230" text-anchor="end" transform="rotate(-90 652 230)">対話フィードバック</text>
 
 <!-- Key insight -->
 <line class="divider" x1="40" y1="520" x2="640" y2="520"/>
-<text class="key-title" x="340" y="536" text-anchor="middle">Key: load separated by TYPE, not volume — each role excels at its cognitive mode — each role excels at its specific cognitive mode</text>
+<text class="key-title" x="340" y="536" text-anchor="middle">核心: 負荷を「量」ではなく「種類」で分離 — 各役割が固有の認知モードに特化する</text>
 
 </svg>

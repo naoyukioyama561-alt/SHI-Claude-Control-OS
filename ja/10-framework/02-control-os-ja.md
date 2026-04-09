@@ -1,4 +1,5 @@
 # 制御OS（Public Core）
+Language: [English version](../../10-framework/02-control-os.md)
 
 既知の失敗傾向を発火させず、統治を再現可能にするための運用規約。
 
@@ -167,3 +168,10 @@
 2) 実例ログに1件追加（1件＝1ファイル）
 3) 制御OS／失敗分類に恒久パッチ
 4) 再発を検知できる検証ステップを追加
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

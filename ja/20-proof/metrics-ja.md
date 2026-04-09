@@ -1,4 +1,5 @@
 # 公開メトリクス
+Language: [English version](../../20-proof/metrics.md)
 
 公開安全な範囲の定量データ。
 内部パス、エンドポイント、個人情報は含まれていません。
@@ -92,3 +93,10 @@
 ---
 
 [English version](metrics.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

@@ -1,4 +1,5 @@
 # Research Comparison Map
+Language: [日本語版はこちら / Japanese version](../ja/10-framework/06-research-comparison-ja.md)
 
 ## Purpose of this file
 
@@ -51,6 +52,8 @@ Relationship to this repository:
 
 Paper: [SSRN 6299258](https://ssrn.com/abstract=6299258)
 
+
+→ [Back to README](../README.md)
 ---
 
 ## A Question for the Reader

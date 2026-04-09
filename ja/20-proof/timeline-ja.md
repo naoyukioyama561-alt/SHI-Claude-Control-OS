@@ -1,4 +1,5 @@
 # 開発タイムライン
+Language: [English version](../../20-proof/timeline.md)
 
 観測期間: 2025年後半〜2026年3月。観測と文書化は並行して進行。SSRN論文は観測初期にポストされ、作業の進展に伴い更新された。SSRN論文公開: 2025年。
 
@@ -71,3 +72,10 @@
 ---
 
 [English version](timeline.md)
+
+
+---
+
+→ [READMEに戻る](../README-ja.md)
+---
+*この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*
