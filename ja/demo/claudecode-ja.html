@@ -43,4 +43,7 @@ const m=Math.floor((now%3600)/60);const h=Math.floor(now%86400/3600);
 document.getElementById('v-dur').textContent=Math.floor(h%12)+'h '+Math.floor(m)+'m';
 requestAnimationFrame(anim);}anim();
 setInterval(()=>{msgCount++;const area=document.getElementById('ccLogs');const d=new Date();const t=d.getHours().toString().padStart(2,'0')+':'+d.getMinutes().toString().padStart(2,'0');const op=ops[Math.floor(Math.random()*ops.length)];const colors={'Read':'rgba(34,197,94,.15);color:#4ade80','Write':'rgba(59,130,246,.15);color:#60a5fa','Bash':'rgba(239,68,68,.15);color:#f87171','Grep':'rgba(234,179,8,.15);color:#facc15','Agent':'rgba(168,85,247,.15);color:#c084fc'};const key=op.split(' ')[0];const el=document.createElement('div');el.className='log';el.style.animation='flash .5s';el.innerHTML=`<span style="color:#64748b;width:56px;flex-shrink:0">${t}</span><span class="tag" style="background:${colors[key]||colors.Read}">${key}</span><span style="color:#fff">${op}</span>`;area.insertBefore(el,area.firstChild);if(area.children.length>25)area.removeChild(area.lastChild);},8000);
-</script></body></html>
+</script><div style="width:100%;text-align:center;padding:12px;background:#1e293b;border-top:1px solid #334155;font-size:12px">
+<a href="https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS" style="color:#60a5fa;text-decoration:none">← GitHubリポジトリに戻る</a>
+</div>
+</body></html>
