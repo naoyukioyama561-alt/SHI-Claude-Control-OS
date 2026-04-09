@@ -29,13 +29,13 @@ The insight was that **each layer catches what the previous layer misses**, form
 
 Think of it as: you can teach an AI to be better, but unless you **lock** that improvement structurally, it resets every session. The 5-layer model makes structural change persistent.
 
-→ Full quality system: [`10-framework/05-quality-system.md`](../../../10-framework/05-quality-system.md)
+→ Full quality system: [`10-framework/05-quality-system.md`](../../10-framework/05-quality-system.md)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Evidence: Hero image — 5-layer operations](../../../20-proof/../images/diagrams/mini-quality-layers-en.svg)
+![Evidence: Hero image — 5-layer operations](../../20-proof/../images/diagrams/mini-quality-layers.svg)
 
 
 ---

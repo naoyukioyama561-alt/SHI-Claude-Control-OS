@@ -222,7 +222,7 @@ Every image and demo page is a standalone public artifact.
 | status-card-structure | Structure overview card | Not deployment | "Design overview" |
 | three-layer-separation | Three-layer architecture (full) | Not deployment guide | "Design architecture" |
 
-Each image exists as `-en.svg` (English) and `.svg` (Japanese). Both must follow the same rules.
+Each image exists as `.svg` (English) and `.svg` (Japanese). Both must follow the same rules.
 
 ### Demo pages
 - Classification: `[illustrative]`
@@ -267,7 +267,7 @@ When a new expression is needed:
 |-----------|---------|------------|
 | EN Markdown | `kebab-case-en.md` or `kebab-case.md` | spaces, uppercase, `_en` |
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
-| SVG (conceptual) | `concept-name-en.svg` (EN) / `concept-name.svg` (JA) | `image1.svg`, `fig-01`, `-ja.svg` |
+| SVG (conceptual) | `concept-name.svg` (EN) / `concept-name.svg` (JA) | `image1.svg`, `fig-01`, `-ja.svg` |
 | Demo HTML | `demo/en/page.html`, `demo/ja/page.html` | `demo_en.html` |
 | Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
 
@@ -375,8 +375,8 @@ Before any commit:
 
 | Check | Rule |
 |-------|------|
-| Internal markdown links | All `[text](path)` must resolve to existing files |
-| Image references | All `![alt](path)` must point to files listed in Section 8 |
+| Internal markdown links | All internal relative links must resolve to existing files |
+| Image references | All image references must point to files listed in Section 8 |
 | EN↔JA cross-links | EN file links to JA equivalent must exist, and vice versa |
 | LICENSE | Must say MIT, consistent with CITATION.cff `license:` field |
 | CITATION.cff | `title`, `authors`, `date-released`, `license` must match repo reality |

@@ -22,7 +22,7 @@ Language: [English version](../../20-proof/README.md)
 
 ## 公開版 / 非公開版の範囲
 
-各成果の範囲分けの詳細は [成果一覧](../achievements/README.md) を参照（英語版テーブル、EN/JA両リンク付き）。なお、**15件すべてに本リポジトリ内の公開ページがあります**。下表の区分は「より深い詳細がどのティアにあるか」を示します。
+各成果の範囲分けの詳細は [成果一覧](../../20-proof/achievements/README.md) を参照（英語版テーブル、EN/JA両リンク付き）。なお、**15件すべてに本リポジトリ内の公開ページがあります**。下表の区分は「より深い詳細がどのティアにあるか」を示します。
 
 | レベル | 目的 | 含まれるもの |
 |--------|------|------------|
@@ -41,8 +41,8 @@ Language: [English version](../../20-proof/README.md)
 | ファイル | 内容 |
 |---------|------|
 | [achievements/](achievements/) | 各成果の詳細ドキュメント（日本語） |
-| [timeline-ja.md](../timeline-ja.md) | 開発の時系列事実（日本語） |
-| [metrics-ja.md](../metrics-ja.md) | 公開可能な定量データ（日本語） |
+| [timeline-ja.md](timeline-ja.md) | 開発の時系列事実（日本語） |
+| [metrics-ja.md](metrics-ja.md) | 公開可能な定量データ（日本語） |
 
 ---
 

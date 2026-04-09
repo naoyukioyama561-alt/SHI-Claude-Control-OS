@@ -38,7 +38,7 @@ This glossary defines terms as they are used **in this specific repository**. So
 
 ---
 
-[日本語版 / Japanese](GLOSSARY-ja.md)
+[日本語版 / Japanese](ja/GLOSSARY-ja.md)
 
 
 ---

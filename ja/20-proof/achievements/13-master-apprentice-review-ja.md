@@ -5,7 +5,7 @@ Language: [English version](../../../20-proof/achievements/13-master-apprentice-
 
 新しいAIセッションはルールを知っていますが、なぜそのルールが重要かを感じていません。師弟メカニズムは知識だけでなく、過去の失敗の重みを継承します。
 
-> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ## 何が観測されたか
 
@@ -32,7 +32,7 @@ Language: [English version](../../../20-proof/achievements/13-master-apprentice-
 
 > このページは**公開版の概要ページ**です。レビュー方法論と考え方のフレームワークをここで共有し、効果の定量データはPhase1で提供します。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

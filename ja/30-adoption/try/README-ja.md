@@ -3,16 +3,16 @@ Language: [English version](../../../30-adoption/try/README.md)
 
 ## 1. 制御OSを貼る（30秒）
 
-→ 効果の実証: [before-after-demo.md](before-after-demo.md)
+→ 効果の実証: [before-after-demo-ja.md](before-after-demo-ja.md)
 
 
 あなたのAIのシステムプロンプトまたはCLAUDE.mdに、該当ファイルの内容をコピペしてください。
 
 | AI | ファイル | 特に効くFM |
 |----|---------|-----------|
-| Claude Code / Claude | [control-os-claude.md](control-os-claude.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
-| GPT-4o / o3 / Custom GPT | [control-os-gpt.md](control-os-gpt.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
-| Microsoft Copilot | [control-os-copilot.md](control-os-copilot.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
+| Claude Code / Claude | [control-os-claude-ja.md](control-os-claude-ja.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
+| GPT-4o / o3 / Custom GPT | [control-os-gpt-ja.md](control-os-gpt-ja.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
+| Microsoft Copilot | [control-os-copilot-ja.md](control-os-copilot-ja.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
 
 ## 2. Before/Afterを自分で観測する（5分）
 
@@ -49,7 +49,7 @@ Language: [English version](../../../30-adoption/try/README.md)
 
 ## 3. どのFMが抑制されたか特定する（10分）
 
-差が出たら、[fm-40-cheatsheet.md](fm-40-cheatsheet.md) でFM番号を特定してください。
+差が出たら、[fm-40-cheatsheet-ja.md](fm-40-cheatsheet-ja.md) でFM番号を特定してください。
 
 あなたのAIで最も頻発するFMが分かれば、それがあなた固有の「制御すべき構造的弱点」です。
 

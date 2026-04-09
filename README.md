@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
-[日本語版 / Japanese](README-ja.md)
+[日本語版 / Japanese](ja/README-ja.md)
 
 ---
 
@@ -32,7 +32,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 | You return after time away. Context continuity is gone | Successor AI inherits judgment, not just rules |
 
 <p align="center">
-  <img src="images/diagrams/before-after-comparison-en.svg" alt="Before/After: AI behavior with and without structural governance" width="720">
+  <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: AI behavior with and without structural governance" width="720">
 </p>
 
 → [See a real case study](20-proof/public-case-01.md)
@@ -41,15 +41,15 @@ This repository exists for that moment — when you realize AI is useful but sti
 
 ## Try it right now (30 seconds)
 
-1. **Copy** the [Control OS](30-adoption/try/control-os-claude-en.md) into your AI's system prompt
-2. **Test** it with the [Before/After Demo](30-adoption/try/before-after-demo-en.md) (5 minutes)
+1. **Copy** the [Control OS](30-adoption/try/control-os-claude.md) into your AI's system prompt
+2. **Test** it with the [Before/After Demo](30-adoption/try/before-after-demo.md) (5 minutes)
 3. **Verify** claims in [PROVE-IT.md](PROVE-IT.md) (15 minutes)
 
 | Your AI | Control OS template | Time to test |
 |---------|-------------------|--------------|
-| Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude-en.md) | 30 sec |
-| ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-en.md) | 30 sec |
-| GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-en.md) | 30 sec |
+| Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude.md) | 30 sec |
+| ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt.md) | 30 sec |
+| GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot.md) | 30 sec |
 
 Full Japanese versions: [ja/30-adoption/try/](ja/30-adoption/try/README-ja.md)
 
@@ -123,6 +123,6 @@ Testing this repository requires no sign-in. A GitHub account is only needed if 
 
 **Disclaimer**: All effects described in this repository were observed in the author's environment. Results may vary depending on AI model, usage context, and configuration. Verify all claims in your own environment before drawing conclusions. This project provides a methodology, not guaranteed outcomes.
 
-**Language**: [日本語版はこちら / Japanese version](README-ja.md) · **Background**: [Why I built this](40-heritage/why-i-am-doing-this.md) · **Research**: [SSRN preprint](https://ssrn.com/abstract=6299258)
+**Language**: [日本語版はこちら / Japanese version](ja/README-ja.md) · **Background**: [Why I built this](40-heritage/why-i-am-doing-this.md) · **Research**: [SSRN preprint](https://ssrn.com/abstract=6299258)
 
 </sub>

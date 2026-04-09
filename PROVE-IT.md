@@ -30,8 +30,8 @@ For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md
 
 | # | Claim | Verification status | Where to verify |
 |---|-------|-------------------|-----------------|
-| 1 | AI failure modes are observable and classifiable | **Publicly usable** | [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet-en.md) -- test on your own AI |
-| 2 | Control OS suppresses common failure modes | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo-en.md) -- run the test yourself |
+| 1 | AI failure modes are observable and classifiable | **Publicly usable** | [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet.md) -- test on your own AI |
+| 2 | Control OS suppresses common failure modes | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo.md) -- run the test yourself |
 | 3 | 132 failure modes were classified [observed: single environment] | **Publicly inspectable** (40-item public taxonomy, FM-01 to FM-06 detailed) / **Privately evidenced** (full 132) | [01-failure-modes](10-framework/01-failure-modes.md) |
 | 4 | Three-layer separation improves monitoring quality | **Publicly inspectable** | [Three-layer design](10-framework/04-three-layer.md) |
 | 5 | External monitoring was associated with higher detection rates than self-monitoring [observed: single environment] | **Publicly inspectable** (rates published) / **Privately evidenced** (N-counts) | [Metrics](20-proof/metrics.md) |
@@ -81,6 +81,6 @@ If the answer to all three is yes, the methodology has value regardless of what 
 
 > See also: [SCOPE-MATRIX](SCOPE-MATRIX.md) | [START-HERE](START-HERE.md) | [Back to README](README.md)
 
-[日本語版 / Japanese](PROVE-IT-ja.md)
+[日本語版 / Japanese](ja/PROVE-IT-ja.md)
 
 *This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

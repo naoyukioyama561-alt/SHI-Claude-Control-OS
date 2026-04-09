@@ -5,7 +5,7 @@ AI quality degrades silently. By the time you notice, the damage is already in y
 
 > This document shows the **structural overview** of the quality system.
 > Detailed implementation requirements (REQ-xx) are not included in the public version.
-> *Bracketed labels such as `external monitoring hook` mark redacted internal names. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+> *Bracketed labels such as `external monitoring hook` mark redacted internal names. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 ---
 
@@ -106,7 +106,7 @@ Every completion report must include:
 | Contains MISQUOTE / declaration-only / false report | Excluded (contamination prevention) |
 | 5-set incomplete | Excluded |
 
-*Note: `external monitoring hook`, `private data store` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+*Note: `external monitoring hook`, `private data store` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 ---
 

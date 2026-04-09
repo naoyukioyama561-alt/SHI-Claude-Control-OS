@@ -30,7 +30,7 @@ Language: [English version](../../../20-proof/achievements/11-delegation-optimiz
 
 > このページは**公開版の概要ページ**です。委譲フレームワークと考え方の方法論をここで共有し、品質比較データはPhase1で提供します。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

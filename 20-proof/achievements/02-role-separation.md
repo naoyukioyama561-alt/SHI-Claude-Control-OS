@@ -29,11 +29,11 @@ When you separate them, each role becomes excellent at its specific function. Th
 
 This principle applies to any multi-AI system or human-AI collaboration.
 
-→ Full documentation: [`10-framework/04-three-layer.md`](../../../10-framework/04-three-layer.md)
+→ Full documentation: [`10-framework/04-three-layer.md`](../../10-framework/04-three-layer.md)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

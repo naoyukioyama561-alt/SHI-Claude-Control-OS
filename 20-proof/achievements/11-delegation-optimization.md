@@ -28,9 +28,9 @@ The 12-item specification acts as a "contract" between delegator and delegate, m
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

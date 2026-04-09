@@ -5,7 +5,7 @@ Language: [English version](../../10-framework/04-three-layer.md)
 
 監督・中継・作業 — 負荷を「量」ではなく「種類」で分離する構造。
 
-> *注: 本文書中の `[redacted]` は、安全な公開のために伏字化した内部サービス名やファイルパスです。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
+> *注: 本文書中の `[redacted]` は、安全な公開のために伏字化した内部サービス名やファイルパスです。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照。*
 
 ## 目次
 

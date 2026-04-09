@@ -5,7 +5,7 @@ If your AI degrades as conversations get longer, or forgets its own rules under 
 
 Supervisor / Relay / Worker — separating load by type, not volume.
 
-> *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+> *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 ## Table of Contents
 

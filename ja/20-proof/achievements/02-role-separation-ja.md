@@ -33,7 +33,7 @@ Language: [English version](../../../20-proof/achievements/02-role-separation.md
 
 > Phase1は詳細な役割表とインタラクションパターンを提供。Phase2は完全な運用ログを提供。書籍には理論整理・設計背景・再現手順を収録。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

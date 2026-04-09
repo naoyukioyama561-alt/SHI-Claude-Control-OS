@@ -29,11 +29,11 @@ Language: [English version](../SECURITY.md)
 - 明確な範囲の限定（AI統治のためであり、人間の監視のためではない）
 - PROVE-IT.md検証プロトコル（すべての主張に異議申し立て可能）
 
-[English version](SECURITY.md)
+[English version](../SECURITY.md)
 
 
 ---
 
-→ [READMEに戻る](../README-ja.md)
+→ [READMEに戻る](README-ja.md)
 ---
 *この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

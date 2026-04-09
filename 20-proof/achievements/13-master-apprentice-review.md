@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
 
-> *Note: `[apprentice review file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+> *Note: `[apprentice review file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ## What Was Observed
 
@@ -33,9 +33,9 @@ This is the AI equivalent of the Dunning-Kruger effect: a less experienced AI do
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

@@ -7,7 +7,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 A **crash auto-detection and 3-level restoration design** intended to prevent work loss when Claude Code crashes:
 
-*Note: `[recovery checkpoint file]`, `[behavior orientation file]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+*Note: `[recovery checkpoint file]`, `[behavior orientation file]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 - **Level 1 — [recovery checkpoint file]**: Lightweight file-based recovery that captures the essential state before crash
 - **Level 2 — [behavior orientation file]**: Automated next-session bootstrapping that restores operational context
@@ -29,9 +29,9 @@ The 3-level design follows a defense-in-depth principle: each level is independe
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

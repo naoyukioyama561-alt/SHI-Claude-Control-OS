@@ -5,7 +5,7 @@ Language: [English version](../../../20-proof/achievements/10-multi-cause-analys
 
 単発のデバッグでは見えにくい構造的パターンがあります。著者の環境では、複合要因分析により一回限りのレビューでは表面化しなかったパターンが検出されました。
 
-> *注: `[internal database table]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[internal database table]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ## 何が観測されたか
 
@@ -33,7 +33,7 @@ Language: [English version](../../../20-proof/achievements/10-multi-cause-analys
 
 > このページは**公開版の概要ページ**です。分析方法論と考え方のフレームワークをここで共有し、自動化実装の詳細はPhase1で提供します。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

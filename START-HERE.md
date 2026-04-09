@@ -12,8 +12,8 @@ This project proposes a **structural governance methodology** for AI assistants,
 | Component | What it does | Time to try |
 |-----------|-------------|-------------|
 | [Control OS](30-adoption/try/) | Paste into your AI's system prompt. Suppresses common failure modes. | 30 seconds |
-| [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet-en.md) | Identify which failure modes your AI triggers most | 10 minutes |
-| [Before/After Demo](30-adoption/try/before-after-demo-en.md) | See the difference with and without Control OS | 5 minutes |
+| [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet.md) | Identify which failure modes your AI triggers most | 10 minutes |
+| [Before/After Demo](30-adoption/try/before-after-demo.md) | See the difference with and without Control OS | 5 minutes |
 
 > **Terminology**: Three-layer (role split) ≠ 4+1 (quality stack) ≠ 5-layer (governance cycle). See [GLOSSARY.md](GLOSSARY.md) for definitions.
 
@@ -74,6 +74,6 @@ The 40 Failure Modes in this repository are a starting point. Observe your own A
 
 > Next: [Try it now](30-adoption/try/) | [Verify claims](PROVE-IT.md) | [Back to README](README.md)
 
-[日本語版 / Japanese](START-HERE-ja.md)
+[日本語版 / Japanese](ja/START-HERE-ja.md)
 
 *This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

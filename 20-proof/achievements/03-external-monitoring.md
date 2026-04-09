@@ -7,7 +7,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 A complete **external monitoring and meta-governance system** that breaks the dependency on AI self-reporting:
 
-*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 - **[infrastructure health monitor]**: Infrastructure-level monitoring that operates independently of the monitored AI
 - **[external monitoring hook]**: AI-level behavioral monitoring using separate AI instances
@@ -29,15 +29,15 @@ The critical design principle: **In the author's observed environment, using a s
 
 In this framework, AI systems that relied mainly on self-reporting showed a structural blind spot; readers should verify in their own environment.
 
-→ Full documentation: [`10-framework/04-three-layer.md`](../../../10-framework/04-three-layer.md)
+→ Full documentation: [`10-framework/04-three-layer.md`](../../10-framework/04-three-layer.md)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Three-layer separation](../../../images/diagrams/three-layer-separation-en.svg)
+![Three-layer separation](../../images/diagrams/three-layer-separation.svg)
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

@@ -28,7 +28,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
 
-[日本語版](CODE_OF_CONDUCT-ja.md)
+[日本語版](ja/CODE_OF_CONDUCT-ja.md)
 
 
 ---

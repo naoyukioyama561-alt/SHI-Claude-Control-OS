@@ -92,7 +92,7 @@ Language: [English version](../../20-proof/metrics.md)
 
 ---
 
-[English version](metrics.md)
+[English version](../../20-proof/metrics.md)
 
 
 ---

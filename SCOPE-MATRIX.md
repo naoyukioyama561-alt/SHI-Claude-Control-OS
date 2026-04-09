@@ -105,7 +105,7 @@ This repository invites you to:
 
 > See also: [PROVE-IT](PROVE-IT.md) | [START-HERE](START-HERE.md) | [Back to README](README.md)
 
-[日本語版](SCOPE-MATRIX-ja.md)
+[日本語版](ja/SCOPE-MATRIX-ja.md)
 
 
 *This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

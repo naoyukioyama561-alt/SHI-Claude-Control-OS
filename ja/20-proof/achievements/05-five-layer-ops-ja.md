@@ -33,7 +33,7 @@ Language: [English version](../../../20-proof/achievements/05-five-layer-ops.md)
 
 > Phase1は完全な5層図を提供。Phase2は全要件仕様とエスカレーションチェーンを提供。書籍には実装思想・検証設計・再現手順を収録。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

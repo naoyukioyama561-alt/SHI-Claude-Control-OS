@@ -28,7 +28,7 @@ AIコーディングアシスタントに「このPythonコードの問題をす
 
 著者の観測環境では [observed: single environment, single operator]、FM-09はClaude、GPT、Copilotのワークフローで繰り返し観測された。本リポジトリで再現可能な主張は、明示的スコープ宣言がBefore/Afterデモで省略行動を減らせるかどうかであり、読者は自身の環境で検証すべきである。
 
-[English version](public-case-01.md)
+[English version](../../20-proof/public-case-01.md)
 
 
 ---

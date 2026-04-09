@@ -15,7 +15,7 @@ Language: [English version](../../10-framework/03-incident-ledger.md)
 公開安全：
 - エンドポイント／絶対パス／識別子はすべて置換。
 
-> *注: `[external monitoring hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[external monitoring hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ---
 

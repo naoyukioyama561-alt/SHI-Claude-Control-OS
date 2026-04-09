@@ -2,7 +2,7 @@
 Language: [English version](../../50-boundary/Avoidance-OS.md)
 
 > この文書はAI行動回避フレームワークの**規範参照文書**です。
-> 「貼ってすぐ使う」実用版は [30-adoption/try/control-os-claude.md](../30-adoption/try/control-os-claude.md) を参照。
+> 「貼ってすぐ使う」実用版は [30-adoption/try/control-os-claude-ja.md](../30-adoption/try/control-os-claude-ja.md) を参照。
 
 ---
 
@@ -30,7 +30,7 @@ Language: [English version](../../50-boundary/Avoidance-OS.md)
 
 ## FM網羅性
 
-回避OSは公開されている40のFailure Modes全てに対処します。完全なリストは [30-adoption/try/fm-40-cheatsheet.md](../30-adoption/try/fm-40-cheatsheet.md) を参照。
+回避OSは公開されている40のFailure Modes全てに対処します。完全なリストは [30-adoption/try/fm-40-cheatsheet-ja.md](../30-adoption/try/fm-40-cheatsheet-ja.md) を参照。
 
 
 → [READMEに戻る](../README-ja.md)

@@ -5,7 +5,7 @@ Language: [English version](../README.md)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
-[English version](README.md)
+[English version](../README.md)
 
 ---
 
@@ -55,7 +55,7 @@ Language: [English version](../README.md)
 
 ### 動いている形を見る（公開安全な静的デモ・1分）
 
-**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](docs/dashboard.html)
+**[インタラクティブデモを開く（GitHub Pages）](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/ja/index.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/en/index.html) · [オフライン版](../docs/dashboard.html)
 
 *実環境とは完全に独立した静的ページです。表示データはすべてサンプルです。*
 
@@ -117,10 +117,10 @@ Language: [English version](../README.md)
 
 <sub>
 
-**ライセンス**: [MIT](LICENSE) — 自由に使用・改変・再配布できます。
+**ライセンス**: [MIT](../LICENSE) — 自由に使用・改変・再配布できます。
 
 **免責事項**: 本リポジトリに記載されたすべての効果は著者の環境で観察されたものです。AIモデル、利用コンテキスト、設定によって結果は異なる場合があります。結論を出す前に、すべての主張をご自身の環境で検証してください。本プロジェクトは方法論を提供するものであり、結果を保証するものではありません。
 
-**Language**: [English version](README.md) · **背景**: [なぜ作ったのか](40-heritage/why-i-am-doing-this-ja.md) · **研究**: [SSRNプレプリント](https://ssrn.com/abstract=6299258)
+**Language**: [English version](../README.md) · **背景**: [なぜ作ったのか](40-heritage/why-i-am-doing-this-ja.md) · **研究**: [SSRNプレプリント](https://ssrn.com/abstract=6299258)
 
 </sub>

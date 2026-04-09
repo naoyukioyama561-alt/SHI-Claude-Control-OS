@@ -16,11 +16,11 @@ Language: [English version](../CHANGELOG.md)
 - 悪用考慮事項付きSECURITY.md
 - Issues-firstワークフローのCONTRIBUTINGガイド（英/日）
 
-[English version](CHANGELOG.md)
+[English version](../CHANGELOG.md)
 
 
 ---
 
-→ [READMEに戻る](../README-ja.md)
+→ [READMEに戻る](README-ja.md)
 ---
 *この文書は [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS) プロジェクトの一部です。*

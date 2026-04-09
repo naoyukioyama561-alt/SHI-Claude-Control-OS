@@ -7,11 +7,11 @@ Copy-paste the contents into your AI's system prompt or CLAUDE.md:
 
 | AI | File | Most effective against |
 |----|------|----------------------|
-| Claude Code / Claude | [control-os-claude-en.md](control-os-claude-en.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
-| GPT-4o / o3 / Custom GPT | [Control OS for GPT](control-os-gpt-en.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
-| Microsoft Copilot | [Control OS for Copilot](control-os-copilot-en.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
+| Claude Code / Claude | [control-os-claude.md](control-os-claude.md) | FM-01, FM-04, FM-09, FM-20, FM-39 |
+| GPT-4o / o3 / Custom GPT | [Control OS for GPT](control-os-gpt.md) | FM-03, FM-06, FM-07, FM-25, FM-30 |
+| Microsoft Copilot | [Control OS for Copilot](control-os-copilot.md) | FM-01, FM-03, FM-09, FM-20, FM-39 |
 
-→ Observe the effect in your environment: [before-after-demo-en.md](before-after-demo-en.md)
+→ Observe the effect in your environment: [before-after-demo.md](before-after-demo.md)
 
 ## 2. Observe the Before/After yourself (5 minutes)
 
@@ -49,7 +49,7 @@ Analyze this proposal. Separate your response into:
 
 ## 3. Identify which FMs were suppressed (10 minutes)
 
-If you see a difference, use [fm-40-cheatsheet-en.md](fm-40-cheatsheet-en.md) to identify the FM number.
+If you see a difference, use [fm-40-cheatsheet.md](fm-40-cheatsheet.md) to identify the FM number.
 
 The FMs that fire most often on your AI = your specific structural weaknesses to control.
 

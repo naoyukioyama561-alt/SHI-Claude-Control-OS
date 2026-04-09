@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
 
-> *Note: `[internal database table]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+> *Note: `[internal database table]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ## What Was Observed
 
@@ -33,9 +33,9 @@ This is directly analogous to human behavior change: understanding a bad habit i
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

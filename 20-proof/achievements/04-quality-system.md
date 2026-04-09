@@ -34,13 +34,13 @@ The quality system was not designed theoretically — it **evolved through actua
 
 The most important insight: **quality is not a checklist — it is a multi-layer defense** where each layer has a structurally different detection mechanism. Self-monitoring catches obvious errors; structural hooks catch what self-monitoring misses; completion definitions catch what hooks miss; third-party verification catches systemic patterns.
 
-→ Full documentation: [`10-framework/05-quality-system.md`](../../../10-framework/05-quality-system.md)
+→ Full documentation: [`10-framework/05-quality-system.md`](../../10-framework/05-quality-system.md)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Quality system](../../../images/diagrams/quality-system-4plus1-en.svg)
+![Quality system](../../images/diagrams/quality-system-4plus1.svg)
 
 
 ---

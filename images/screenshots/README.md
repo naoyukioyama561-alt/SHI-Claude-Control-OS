@@ -10,6 +10,6 @@ For the actual monitoring system interface, see [docs/dashboard.html](../../docs
 
 ---
 
-→ [Back to README](../README.md)
+→ [Back to README](../../README.md)
 ---
 *This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*

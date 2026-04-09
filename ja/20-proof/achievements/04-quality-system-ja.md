@@ -3,7 +3,7 @@ Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
-> *注: `[internal quality hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[internal quality hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ## 何が観測されたか
 
@@ -40,7 +40,7 @@ Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 > Phase1はreason_code表と5セット検査の詳細を提供。Phase2は完全な[internal quality hook]を提供。書籍には実装思想・検証設計・再現手順を収録。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

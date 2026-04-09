@@ -3,7 +3,7 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
-> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ## 何が観測されたか
 
@@ -32,7 +32,7 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 > このページは**公開版の概要ページ**です。考え方の方法論と3層モデルをここで共有し、実装詳細はPhase1で提供します。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

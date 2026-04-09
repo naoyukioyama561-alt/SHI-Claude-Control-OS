@@ -29,7 +29,7 @@ We address these risks through:
 - Clear scope limitation (this is for AI governance, not human surveillance)
 - PROVE-IT.md verification protocol (all claims are challengeable)
 
-[日本語版](SECURITY-ja.md)
+[日本語版](ja/SECURITY-ja.md)
 
 
 ---

@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
-> *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md) for scope details.*
+> *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ## What Was Observed
 
@@ -30,15 +30,15 @@ The key realization: **AI doesn't just forget facts — it forgets pain**. When 
 
 This is the difference between a rule book and a teacher. A rule book tells you what to do; a teacher tells you what happens when you don't.
 
-→ Related: [`heritage/`](../../../40-heritage/)
+→ Related: [`heritage/`](../../40-heritage/)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Evidence: Hero image — heritage weight transfer](../../../20-proof/../images/diagrams/cc-heritage-inheritance-en.svg)
+![Evidence: Hero image — heritage weight transfer](../../20-proof/../images/diagrams/cc-heritage-inheritance.svg)
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

@@ -71,7 +71,7 @@ Language: [English version](../../20-proof/timeline.md)
 
 ---
 
-[English version](timeline.md)
+[English version](../../20-proof/timeline.md)
 
 
 ---

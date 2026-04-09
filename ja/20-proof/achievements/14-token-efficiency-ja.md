@@ -31,7 +31,7 @@ Language: [English version](../../../20-proof/achievements/14-token-efficiency.m
 
 > このページは**公開版の概要ページ**です。考え方の方法論をここで共有し、Before/Afterの実測データとより深い詳細はPhase2で提供します。
 
-> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../../SCOPE-MATRIX-ja.md) を参照。
+> **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 
 ---

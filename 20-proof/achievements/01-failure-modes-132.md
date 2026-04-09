@@ -30,15 +30,15 @@ The key structural shift was not in collecting more failure modes — it was in 
 
 This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in Phase 1/Phase 2.
 
-→ Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../../10-framework/01-failure-modes.md)
+→ Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../10-framework/01-failure-modes.md)
 
 ---
 
-> For implementation details and data, see [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Dashboard structure](../../../images/diagrams/dashboard-overview-en.svg)
+![Dashboard structure](../../images/diagrams/dashboard-overview.svg)
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---
