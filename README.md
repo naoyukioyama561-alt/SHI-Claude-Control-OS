@@ -3,7 +3,7 @@ Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 
 **Make AI work like a system, not a slot machine.**
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
 [日本語版 / Japanese](ja/README-ja.md)
 
