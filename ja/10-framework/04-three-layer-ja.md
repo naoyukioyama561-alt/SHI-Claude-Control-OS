@@ -123,25 +123,25 @@ AIが共通して抱える問題（2026年現在も未解決）：
 
 ### トークン効率化＝電力効率化
 
-トークン消費量の効率化は物理的な消費電力の軽減に直結する。
+設計上のフレームとして、トークン効率化は消費電力に関連しうるものとしてここで議論する。
 
 AIの電力消費のほとんど（80〜90%）は**推論（inference）**。
 1回のクエリで数Wh〜数十Whかかる（Claude Opusの場合、典型的なクエリで約4Wh前後）[illustrative scenario, not verified]。
 
 SHIアプローチ（SQL外部化＋[redacted]＋外部委譲最適化）で：
-- コンテキスト常駐データを大幅圧縮（65% = PostgreSQL外部化によるコンテキスト常駐データ削減率 [設計値]）
+- コンテキスト常駐データを大幅圧縮（65% = PostgreSQL外部化によるコンテキスト常駐データ削減率 [design target]）
 - CC自身が「自分で全部やらない」判断を自動化（委譲フロー）
 - 圧縮後も行動（WHY/HOW）が失われない
 
 → 著者の環境では、構造的な委譲と外部化の後に、一部のワークフローでトークン消費が大幅に減ることが観測されました。**ここでの「20分の1」は、本公開リポジトリで再現済みの公開ベンチマークではなく、設計目標を含む要約値として読むべきです。**
-（20x = 委譲最適化＋SQL外部化を合わせた全体効率改善倍率 [設計目標]）
+（20x = 委譲最適化＋SQL外部化を合わせた全体効率改善倍率 [design target]）
 
 物理電力に換算すると [illustrative scenario, not verified]：
 - 従来：1クエリ ≈ 4Wh [illustrative scenario, not verified]
-- SHI仕組み後：1クエリ ≈ 0.2Wh（20分の1）
+- SHI仕組み後：1クエリ ≈ 0.2Wh [illustrative scenario: not verified]（20分の1 [illustrative scenario: not verified]）
 
-20分の1効率化（全体効率改善倍率 [設計目標]）のインパクト：
-- **個人レベル**：Claude Codeの重度ユーザー（1日1,300Wh消費例）[illustrative scenario, not verified] → 65Wh/日に激減。電気代も1/20。
+20分の1効率化（全体効率改善倍率 [design target]）のインパクト：
+- **個人レベル**：Claude Codeの重度ユーザー（1日1,300Wh消費例）[illustrative scenario, not verified] → 65Wh/日 [illustrative scenario: not verified] に激減。電気代も1/20 [illustrative scenario: not verified]。
 - **データセンター規模**：AI推論全体の電力が2026〜2030年に数百TWh規模で増える予測 (rough industry estimate) [illustrative scenario, not verified]。大規模展開時にはエネルギー面で実質的な影響がありうるが、本リポジトリではその効果の検証済み予測は公開していない。
 - **環境影響**：CO2排出もほぼ比例して1/20になる計算 [illustrative extrapolation, not verified]。スケールの感覚を示すための試算であり、検証された予測ではない。
 

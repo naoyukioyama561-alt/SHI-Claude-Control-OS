@@ -120,12 +120,12 @@ The essence is completing an **OS layer intended to be portable across AI system
 
 ### Token Efficiency = Power Efficiency
 
-The token consumption efficiency improvement has a direct physical impact on power consumption.
+As a design framing, token-efficiency improvement is discussed here as potentially relevant to power consumption.
 
 AI power consumption is overwhelmingly (80-90%) in **inference** (rough industry estimate). A single query costs several Wh to tens of Wh (approximately 4Wh for a typical Claude Opus query) [illustrative scenario, not verified].
 
 The SHI approach (SQL externalization + [redacted] + external delegation optimization) is designed to enable:
-- Massive compression of context-resident data (65% context-resident data reduction via PostgreSQL externalization [design value])
+- Massive compression of context-resident data (65% context-resident data reduction via PostgreSQL externalization [design target])
 - Automated "don't do everything yourself" decisions (delegation flow)
 - WHY/HOW behavioral context preserved even after compression
 
@@ -134,10 +134,10 @@ In the author's environment, some workflows were observed to use substantially f
 
 Physical power equivalent [design target, illustrative scenario, not verified]:
 - Before: 1 query ≈ 4Wh [illustrative scenario, not verified]
-- After SHI: 1 query ≈ 0.2Wh (1/20th)
+- After SHI: 1 query ≈ 0.2Wh [illustrative scenario: not verified] (1/20th [illustrative scenario: not verified])
 
 Impact of 20x overall efficiency improvement factor [design target]:
-- **Individual level**: Heavy Claude Code user (1,300Wh/day example) [illustrative scenario, not verified] → 65Wh/day. Electricity cost also 1/20.
+- **Individual level**: Heavy Claude Code user (1,300Wh/day example) [illustrative scenario, not verified] → 65Wh/day [illustrative scenario: not verified]. Electricity cost also 1/20 [illustrative scenario: not verified].
 - **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario, not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, at larger deployment scales, efficiency gains could have material energy implications; this repository does not publish a verified projection for that effect.
 - **Environmental impact**: CO2 emissions would reduce proportionally [illustrative extrapolation from design target, not verified] — included here to show the potential scale of the approach, not as a verified projection.
 
