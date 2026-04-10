@@ -1,30 +1,30 @@
-# Public Expression Guide — 公開表現定義集
-Language: [日本語版はこちら / Japanese version](ja/PUBLIC-EXPRESSION-GUIDE-ja.md)
+# Public Expression Guide
 
-Version: 4.1 | Last updated: 2026-04-07
+Version: 5.0 | Last updated: 2026-04-10
 
-This document is the single source of truth for every expression used in this public repository.
+This document is the single source of truth for every expression used in the SHI-Claude-Control-OS public repository.
+All AIs (Claude Code, external reviewers) creating or reviewing repository content must follow this guide.
 
 ---
 
-## 0. Applicability Surface
+## 1. Applicability Surface
 
 This guide applies to **all externally visible expressions**, including:
 
 | Surface | Examples | Sections that apply |
 |---------|----------|-------------------|
-| Markdown body text (EN/JA) | README, achievements, framework docs | 1,2,3,4,5,6,7 |
-| Headings / titles (H1-H6) | Page titles, section headings | 1,3,5 (no brackets) |
-| Demo HTML (UI-visible text) | demo/*.html, ja/demo/*.html | 3,4,8 |
-| SVG embedded text | `<text>`, `<title>`, `<desc>`, legends | 2,3,8 |
-| alt text / ARIA labels | `alt=""`, `aria-label=""` | 3,4 |
-| HTML meta / OGP tags | `<title>`, `<meta og:title>`, `<meta description>` | 1,3,4 (SNS crop test) |
+| Markdown body text (EN/JA) | README, achievements, framework docs | 2,4,5,6,10,11 |
+| Headings / titles (H1-H6) | Page titles, section headings | 2,5,9 (no brackets) |
+| Demo HTML (UI-visible text) | demo/*.html, ja/demo/*.html | 5,6,12 |
+| SVG embedded text | `<text>`, `<title>`, `<desc>`, legends | 4,5,12 |
+| alt text / ARIA labels | `alt=""`, `aria-label=""` | 5,6 |
+| HTML meta / OGP tags | `<title>`, `<meta og:title>`, `<meta description>` | 2,5,6 (SNS crop test) |
 | File names / URL slugs | `01-failure-modes.md`, anchor IDs | Filename rules (below) |
-| Code block comments | `# comment text` | 3 (comments only, not code) |
-| Code block output examples | Fenced block sample output | 3 |
-| CITATION.cff fields | `abstract:`, `keywords:` | 1,3 |
-| Issue/PR templates | `.github/ISSUE_TEMPLATE/*.md` | 3,9 |
-| GitHub repo description | About field | 1 |
+| Code block comments | `# comment text` | 5 (comments only, not code) |
+| Code block output examples | Fenced block sample output | 5 |
+| CITATION.cff fields | `abstract:`, `keywords:` | 2,5 |
+| Issue/PR templates | `.github/ISSUE_TEMPLATE/*.md` | 5,15 |
+| GitHub repo description | About field | 2 |
 | Badges | shields.io URLs | Filename rules |
 
 **Not in scope**: Code logic itself (functional code, not comments).
@@ -33,7 +33,9 @@ This guide applies to **all externally visible expressions**, including:
 
 ---
 
-## 1. Project Identity
+---
+
+## 2. Project Identity
 
 | Item | Defined Expression | Prohibited | SNS-safe 1-line |
 |------|-------------------|------------|-----------------|
@@ -44,7 +46,50 @@ This guide applies to **all externally visible expressions**, including:
 
 ---
 
-## 2. Evidence Labels (Vocabulary Rules)
+---
+
+## 3. Entry-Surface Standard
+
+The repository must not rely on “the reader already knows why this matters.”
+
+Every primary entry surface must establish, in the first visible screen:
+
+1. **pain recognition** — what repeated failure or friction this repository addresses
+2. **identity clarity** — what this repository is, in plain language
+3. **safe first action** — what the reader can do now in low risk / low time
+4. **trust framing** — why the claims are scoped and how to verify them
+
+### Entry surfaces
+The following are treated as primary entry surfaces:
+- README opening screen
+- repository About text
+- social preview text (OGP / description)
+- top of deep-linked high-traffic docs
+- demo landing page first viewport
+
+### Minimum first-screen rule
+A first-time reader should be able to answer all of the following within one screen or three scrolls at most:
+
+- What problem is this about?
+- What is this?
+- Why should I trust the framing?
+- What can I try right now?
+
+If one of these is missing, the surface cannot exceed ○.
+
+### Prohibited entry-surface failures
+- opening with framework language before pain recognition
+- opening with architecture before relevance
+- opening with claims before scope
+- opening with CTA before trust framing
+- opening with internal terminology before plain-language identification
+
+
+      |## 4.6 Forwardability Without Hype|
+
+---
+
+## 4. Evidence Labels (Vocabulary Rules)
 
 Every number, claim, or result must carry exactly one **evidence class** and zero or more **qualifiers**. No unlabeled claims.
 
@@ -56,7 +101,7 @@ Every number, claim, or result must carry exactly one **evidence class** and zer
 | An architecture goal, not measured | `[design target]` | — |
 | An example or explanatory value | `[illustrative]` | — |
 | A hypothetical extrapolation | `[illustrative scenario]` | `not verified` |
-| None of the above | **Do not use.** Route to Section 10 (Review required) | — |
+| None of the above | **Do not use.** Route to Section 17 (Review required) | — |
 
 ### Canonical label format
 
@@ -70,7 +115,7 @@ Example: `[observed: single environment, N undisclosed]`
 
 Every claim-bearing sentence needs **both**:
 1. An **evidence label** (from this section) — attached to the number or claim
-2. A **tone marker** (from Section 3) — embedded in the sentence structure
+2. A **tone marker** (from Section 5) — embedded in the sentence structure
 
 Example: "In the author's environment **[tone marker: observed fact]**, detection rate was ~100% **[observed: single environment, N undisclosed]** **[evidence label]**."
 
@@ -93,7 +138,9 @@ Numbers not listed here: apply the general rule above.
 
 ---
 
-## 3. Meaning Rules (What may be claimed)
+---
+
+## 5. Meaning Rules (What may be claimed)
 
 ### Assertion Tone — 4 levels with mechanical markers
 
@@ -117,7 +164,9 @@ Numbers not listed here: apply the general rule above.
 
 ---
 
-## 4. Reception Rules (How readers will interpret)
+---
+
+## 6. Reception Rules (How readers will interpret)
 
 ### First-impression test
 For every page, answer: "If a skeptical engineer opens this page directly from a GitHub file browser (not via README), what is their first impression?"
@@ -142,7 +191,93 @@ For every file's opening 1-2 sentences: "If only this text is posted on X, does 
 
 ---
 
-## 5. Redaction Expressions
+---
+
+## 7. Recommendation & Resonance Rule
+
+This guide does **not** define ◎ as mere compliance.
+
+Compliance makes a page **eligible for public release**.
+Recommendation-level quality makes a page **worthy of being forwarded, cited, or shared**.
+
+A page, file, or repository is ◎-eligible only when it satisfies both:
+
+1. **Baseline trustworthiness** — safe, clear, scoped, non-misleading, OSS-acceptable
+2. **Reader-behavior impact** — makes a first-time reader want to do at least one of:
+   - try it now
+   - send it to a colleague
+   - report an observation
+   - challenge a claim constructively
+   - bookmark it as a credible reference
+
+### Important distinction
+- **○** = compliant, safe, understandable, reviewable
+- **◎** = ○ + behavior-changing, recommendation-worthy, screenshot-safe
+
+### Prohibited shortcuts to ◎
+The following do **not** count as recommendation value:
+- hype language
+- urgency theater
+- vague social proof
+- grandiosity
+- “trust me” rhetoric
+- bait-style numbers without scope
+- sensational phrasing designed to force sharing
+
+A file is not ◎ because it is loud.
+A file is ◎ when it is careful **and** people still want to share it.
+
+### Screenshot-safe principle
+A ◎-eligible surface must remain reputation-positive even when:
+- only the title is seen
+- only the first 1–2 sentences are quoted
+- only a cropped image is shared
+- only a deep page is opened directly
+
+If a cropped or isolated view becomes “technically correct but socially risky,” the file cannot be ◎.
+
+
+      |## 17. Rating Model & Baseline Compliance Gate|
+
+---
+
+## 8. Forwardability Without Hype
+
+A file or repository becomes ◎ not when it is merely polished, but when it creates a natural forwarding impulse **without requiring persuasion tricks**.
+
+### Definition
+“Forwardable” means:
+A careful reader feels comfortable sending the file to a colleague, team, or public audience because doing so does not create reputational risk.
+
+### Signals of true forwardability
+- the reader can explain it in one sentence without distortion
+- the file makes the reader look careful, not gullible
+- the opening reduces embarrassment risk if shared in public
+- the first action feels testable, not belief-based
+- the repository invites verification, not obedience
+
+### False-forwardability patterns (prohibited)
+- “must-read” tone
+- “everyone should see this” framing
+- emotionally manipulative urgency
+- authority theater
+- oversized headlines unsupported by scoped evidence
+- share-bait phrasing
+
+### Rule
+A repository that is technically compliant but socially awkward to forward is limited to ○.
+
+    3. Section 10 を差し替え強化
+
+現行の「paid tier / free tier 禁止」は良いのですが、
+*“売り込み感の禁止” をもっと直接書く*べきです。|
+review_instruction_v3.txt| でも OSS受容性と信頼阻害でここを強く見ています。
+
+      差し替え案: |## 6. Scope, Access Boundary & Non-Sales Language|
+
+---
+
+## 9. Redaction Expressions
 
 ### Classification
 
@@ -165,19 +300,38 @@ For every file's opening 1-2 sentences: "If only this text is posted on X, does 
 
 ---
 
-## 6. Scope & Phase Expressions
+---
 
-| Item | Defined Expression | Prohibited |
-|------|-------------------|------------|
-| This repository | Public repository | Free tier, free version |
-| Phase 1 / Phase 2 | Future open release phases | Paid tier, paid version |
-| Clarification note | "Phase 1 / Phase 2 = future open release phases, not paid tiers" | (omitting this near Phase references) |
-| Primary surface | "This repository is the primary evaluation surface" | "Free tier is sufficient" |
-| 有料/無料 | 公開版 / 非公開版 or Phase1/Phase2 | 有料版, 有料ティア, 無料版 |
+## 10. Scope, Access Boundary & Non-Sales Language
+
+This repository may describe public/private boundaries, release phases, or evaluation surfaces.
+It must never sound like a pricing funnel.
+
+| Item | Defined expression | Prohibited |
+|------|--------------------|------------|
+| public boundary | public repository / public release surface | free tier / free version |
+| non-public boundary | non-public implementation / private deployment / future open release phase | paid tier / paid version / premium |
+| phase explanation | "Phase 1 / Phase 2 = future open release phases, not pricing tiers" | ambiguous “tier” language |
+| evaluation surface | "This repository is the primary evaluation surface" | "free tier is enough" |
+| access note | "Some implementation details are intentionally not public" | “unlock”, “upgrade”, “premium access” |
+| contribution invitation | "validate", "report observation", "suggest improvement" | sales CTA wording |
+
+### Non-sales rule
+The repository must never create the impression that:
+- the public repo is a teaser for a paid offering
+- claims are withheld behind access language
+- readers are being funneled rather than invited to verify
+
+If a reader could plausibly say “this feels like a sales page,” the file cannot exceed ○.
+
+      |## 8.5 Demo First-Viewport Rule|
+
+現行は「デモに illustrative バナーを置く」まではありますが、
+◎を狙うなら *“初見の誤読防止 + 試したくなる導線”* の両立が必要です。
 
 ---
 
-## 7. EN/JA Interpretation Symmetry
+## 11. EN/JA Interpretation Symmetry
 
 **Rule: EN and JA must produce the same reader impression, not the same literal text.**
 
@@ -199,7 +353,9 @@ For every file's opening 1-2 sentences: "If only this text is posted on X, does 
 
 ---
 
-## 8. Image & Demo Definitions
+---
+
+## 12. Image & Demo Definitions
 
 Every image and demo page is a standalone public artifact.
 
@@ -234,7 +390,79 @@ Each image exists as `.svg` (English) and `.svg` (Japanese), or `.png` (EN/JA pa
 
 ---
 
-## 9. Contribution & Participation
+---
+
+## 13. Demo First-Viewport Rule
+
+Every demo landing surface must establish all of the following in the first viewport:
+
+1. this is a demo / illustrative surface
+2. what behavior or concept is being demonstrated
+3. what is sample vs what is verified elsewhere
+4. where to verify the real claim
+5. what the reader can explore safely
+
+### Minimum demo opening structure
+Order:
+
+1. Demo label
+2. Plain-language purpose
+3. Scope / illustrative notice
+4. Verification pointer
+5. Explore action
+
+### Example pattern
+- "Illustrative demo"
+- "Shows how the quality layers are organized"
+- "All values on this page are samples"
+- "For verified claims, see PROVE-IT.md"
+- "Try navigating the layers"
+
+### Rule
+A demo that is safe but inert may qualify for ○.
+A demo becomes ◎ only when the reader understands the boundary **and** still wants to interact with it.
+
+    5. 新設
+
+      |## 8.6 Image Share-Safety Rule|
+
+---
+
+## 14. Image Share-Safety Rule
+
+Every image intended for public view must be safe under detached circulation.
+
+Detached circulation means:
+- pasted into chat without caption
+- reposted on SNS with only one line of context
+- cropped to headline + one number
+- embedded into slides without surrounding explanation
+
+### For ○
+- image does not overclaim
+- image has required caption metadata in Section 12 table
+- image does not expose hidden implementation or sensitive detail
+
+### For ◎
+- image remains trust-positive even when detached
+- image increases curiosity without causing interpretive risk
+- image is visually legible, semantically scoped, and citation-aligned
+
+If an image is accurate only when read with surrounding prose, it cannot be ◎.
+
+    6. 新設
+
+      |## 9.5 Participation Without Code Rule|
+
+|review_instruction_v3.txt| の OSS受容性で重要なのは、
+「標準ファイルがある」だけでなく、*“コードを書けなくても参加したい” と感
+じるか*です。
+
+これを guide 本体に入れます。
+
+---
+
+## 15. Contribution & Participation
 
 | Item | Defined Expression | Prohibited |
 |------|-------------------|------------|
@@ -245,7 +473,43 @@ Each image exists as `.svg` (English) and `.svg` (Japanese), or `.png` (EN/JA pa
 
 ---
 
-## 10. Exception Management
+---
+
+## 16. Participation Without Code Rule
+
+This repository must not imply that contribution is limited to code.
+
+### For ○
+The repository must explicitly permit non-code contribution paths such as:
+- reporting observations
+- testing claims in another environment
+- improving wording or translations
+- identifying ambiguity or overstatement
+- challenging a claim with evidence
+
+### For ◎
+The repository must make at least one non-code path feel legitimate and desirable.
+
+A reader should be able to think:
+- "I can help validate this"
+- "I can report what happened in my environment"
+- "I can contribute without pretending expertise I do not have"
+
+If non-code participation exists only as a footnote and does not feel real, the repo cannot be ◎.
+
+    7. 新設
+
+      |## 16.5 Deep-Page Cold-Open Rule|
+
+ここはかなり重要です。
+|review_instruction_v3.txt| では「どのページを開いても『ちゃんとしてい
+る』以外の感想が出ない」が◎条件です。
+
+化されていません。そこを追加します。
+
+---
+
+## 17. Exception Management
 
 | Classification | Rule | Process |
 |----------------|------|---------|
@@ -262,7 +526,9 @@ When a new expression is needed:
 
 ---
 
-## 11. Filename & Slug Rules
+---
+
+## 18. Filename & Slug Rules
 
 | File type | Pattern | Prohibited |
 |-----------|---------|------------|
@@ -270,13 +536,15 @@ When a new expression is needed:
 | JA Markdown | `kebab-case-ja.md` | `_jp`, `_japanese` |
 | SVG (conceptual) | `concept-name.svg` (EN in `/images/diagrams/`) / `concept-name-ja.svg` (JA in `/ja/images/diagrams/`) | `image1.svg`, `fig-01` |
 | Demo HTML | `demo/page.html`, `ja/demo/page.html` | `demo_en.html` |
-| Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 1 |
+| Anchor IDs / slugs | lowercase-kebab | prohibited terms from Section 2 |
 
 Filenames must not contain prohibited terms from any section (e.g., `free-tier-quickstart.md` is prohibited).
 
 ---
 
-## 12. Code Block Applicability
+---
+
+## 19. Code Block Applicability
 
 | Content | This guide applies? | Notes |
 |---------|-------------------|-------|
@@ -287,10 +555,12 @@ Filenames must not contain prohibited terms from any section (e.g., `free-tier-q
 
 ---
 
-## 13. SVG Internal Text & Accessibility Rules
+---
+
+## 20. SVG Internal Text & Accessibility Rules
 
 ### SVG embedded text
-All `<text>`, `<title>`, `<desc>` elements inside SVG files must follow Section 2 (labels) and Section 3 (tone) rules, same as body text.
+All `<text>`, `<title>`, `<desc>` elements inside SVG files must follow Section 4 (labels) and Section 5 (tone) rules, same as body text.
 
 ### alt text / ARIA labels
 
@@ -302,21 +572,25 @@ All `<text>`, `<title>`, `<desc>` elements inside SVG files must follow Section 
 | Decorative image | `alt=""` | Content description (causes confusion) |
 
 ### HTML meta / OGP tags
-All `<title>`, `<meta name="description">`, `<meta property="og:title">`, `<meta property="og:description">` must pass Section 3 (tone) and Section 4 (SNS crop test).
+All `<title>`, `<meta name="description">`, `<meta property="og:title">`, `<meta property="og:description">` must pass Section 5 (tone) and Section 6 (SNS crop test).
 
 ---
 
-## 14. Image Addition Meta-rule
+---
+
+## 21. Image Addition Meta-rule
 
 When adding a new image or SVG:
-1. **Must** add a row to Section 8's image table (PR and image commit together)
+1. **Must** add a row to Section 12's image table (PR and image commit together)
 2. Required columns: File name | Shows | Does NOT show | Required caption if cropped
-3. Images classified as `[illustrative]` follow Section 8 demo rules
-4. **Committing an image without updating Section 8 is prohibited**
+3. Images classified as `[illustrative]` follow Section 12 demo rules
+4. **Committing an image without updating Section 12 is prohibited**
 
 ---
 
-## 15. Guide Version Management
+---
+
+## 22. Guide Version Management
 
 | Change type | Version bump | Process |
 |-------------|-------------|---------|
@@ -331,7 +605,9 @@ When adding a new image or SVG:
 
 ---
 
-## 16. EN/JA Parity Review Unit
+---
+
+## 23. EN/JA Parity Review Unit
 
 Parity is checked at these units:
 
@@ -347,80 +623,282 @@ Parity is checked at these units:
 
 ---
 
-## 17. Compliance Checklist
+---
 
-Before any commit:
+## 24. Deep-Page Cold-Open Rule
 
-- [ ] Every number has a label per Section 2 general rule
-- [ ] No brackets in titles, UI text, or first-impression zone (Section 5)
-- [ ] No "paid tier" / "有料" / "free tier" (Section 6)
-- [ ] No universal assertions; tone markers present (Section 3)
-- [ ] Evidence labels + tone markers both present for claim sentences (Section 2 composition rule)
-- [ ] EN/JA impression symmetry verified per Section 16 units
-- [ ] Every image registered in Section 8 (Section 14 meta-rule)
-- [ ] All SVG `<text>` elements pass Section 2+3 rules (Section 13)
-- [ ] All alt/title/aria text passes Section 3 rules (Section 13)
-- [ ] Demo pages have illustrative banners in first viewport
-- [ ] No prohibited terms in filenames (Section 11)
-- [ ] Code comments checked for Section 3 violations (Section 12)
-- [ ] HTML meta/OGP tags pass SNS crop test (Section 13)
-- [ ] New expressions checked against Section 10
-- [ ] All internal links resolve (no broken links)
-- [ ] LICENSE, CITATION.cff, badges, and GitHub About description are consistent with Section 1
-- [ ] No TODO, placeholder, "coming soon", or draft markers in public files
-- [ ] Badge text follows Section 1 and Section 6 (no "Free tier" in badge labels)
+Any page that may be opened directly from search, file browser, citation, or social link must be understandable without README context.
+
+### Cold-open minimum
+Within the opening block of a deep page, the reader must be able to infer:
+
+1. what this page is about
+2. whether it is conceptual / measured / illustrative
+3. what larger repository context it belongs to
+4. how strong the page's claims are
+
+### Deep-page opening failures
+- opening with internal shorthand
+- opening with numbers before labels
+- opening with unresolved redaction artifacts
+- opening with conclusions before scope
+- opening with a tone stronger than the repository entry surface
+
+### Rule
+A repository whose README is ◎ but whose deep pages still require prior context is capped at ○.
+
+      |## 18.6 Repository-Level Override Rule|
+
+「READMEだけ強くて深部が雑なのに◎になる」事故を防げます。
 
 ---
 
-## 17.5. Link, Asset & Metadata Integrity
+## 25. Rating Model & Baseline Compliance Gate
+
+This guide uses **three ratings**:
+
+- **△** = baseline not met
+- **○** = baseline met
+- **◎** = ○ + resonance gate met
+
+### Rating definitions
+
+| Rating | Meaning | Release implication |
+|--------|---------|---------------------|
+| △ | One or more mandatory baseline conditions are violated | Not ready for final public evaluation |
+| ○ | All baseline conditions are satisfied. Safe, clear, scoped, professionally acceptable | Public-safe and review-passable |
+| ◎ | All baseline conditions satisfied **and** recommendation-worthy: changes reader behavior without hype | Public-safe and high-impact |
+
+### Non-negotiable rule
+**◎ must never be awarded for compliance alone.** Passing the checklist means **○**, not ◎.
+
+### Tie-break rule
+When unsure between ○ and ◎, assign **○**. Soft ◎ is considered a review failure.
+
+### Baseline compliance checklist (○ gate)
+
+Before any commit:
+
+- [ ] Every number has a label per Section 4 general rule
+- [ ] No brackets in titles, UI text, or first-impression zone (Section 9)
+- [ ] No "paid tier" / "有料" / "free tier" (Section 10)
+- [ ] No universal assertions; tone markers present (Section 5)
+- [ ] Evidence labels + tone markers both present for claim sentences (Section 4 composition rule)
+- [ ] EN/JA impression symmetry verified per Section 23 units
+- [ ] Every image registered in Section 12 (Section 21 meta-rule)
+- [ ] All SVG `<text>` elements pass Section 2+3 rules (Section 20)
+- [ ] All alt/title/aria text passes Section 5 rules (Section 20)
+- [ ] Demo pages have illustrative banners in first viewport
+- [ ] No prohibited terms in filenames (Section 18)
+- [ ] Code comments checked for Section 5 violations (Section 19)
+- [ ] HTML meta/OGP tags pass SNS crop test (Section 20)
+- [ ] New expressions checked against Section 17
+- [ ] All internal links resolve (no broken links)
+- [ ] LICENSE, CITATION.cff, badges, and GitHub About description are consistent with Section 2
+- [ ] No TODO, placeholder, "coming soon", or draft markers in public files
+- [ ] Badge text follows Section 2 and Section 10 (no "Free tier" in badge labels)
+
+---
+
+---
+
+## 26. Link, Asset & Metadata Integrity
 
 | Check | Rule |
 |-------|------|
 | Internal markdown links | All internal relative links must resolve to existing files |
-| Image references | All image references must point to files listed in Section 8 |
+| Image references | All image references must point to files listed in Section 12 |
 | EN↔JA cross-links | EN file links to JA equivalent must exist, and vice versa |
 | LICENSE | Must say MIT, consistent with CITATION.cff `license:` field |
 | CITATION.cff | `title`, `authors`, `date-released`, `license` must match repo reality |
-| GitHub repo description | Must follow Section 1 (methodology, not product) |
-| Badge text | Shields.io URLs must not contain prohibited terms from Section 6 |
+| GitHub repo description | Must follow Section 2 (methodology, not product) |
+| Badge text | Shields.io URLs must not contain prohibited terms from Section 10 |
 | Placeholder artifacts | No `TODO`, `FIXME`, `coming soon`, `placeholder`, `draft` in any public file |
 
 ---
 
-## 18. External AI Review Procedure
+---
+
+## 27. Resonance Gate (◎ gate)
+
+A file/repo may be rated ◎ only if it already qualifies for ○ **and** passes the following item-specific resonance conditions.
+
+### 5 items and their two-level criteria
+
+| Item | ○ baseline (must all pass) | ◎ resonance (must all pass) |
+|------|-----------------------------|------------------------------|
+| 初見3秒理解 | Identity is clear, pain is visible, what-this-is is stated, try-it path exists | A first-time reader feels immediate self-relevance, the first action feels low-risk and worth trying, and the opening is strong enough that the reader may want to forward it to a peer |
+| 信頼阻害要因ゼロ | No fatal blockers: no broken links, no unsafe disclosure, no unexplained strong claims, no sales smell, no visible residue | Deep pages can be opened cold without hesitation; the reader never pauses at “what is this?” / “is this a sales page?” / “is this exaggerated?” |
+| 公開安全性 | No sensitive information is exposed | Safety is visibly designed: redaction discipline, demo disclaimers, security framing, and public/private boundary handling are legible to the reader |
+| OSS受容性 | Standard OSS documents exist and contribution paths are present | The repo makes readers feel “I can participate even without code” or “I want to report an observation / validate this claim” |
+| 誤読耐性 | Labels, scope, and tone controls are present | Any isolated title, opening sentence, quoted number, or cropped image still preserves or improves the author’s credibility |
+
+### Additional rules for ◎
+
+A ◎ rating requires all of the following repository-level conditions:
+
+1. **No trust debt hidden in deep pages**  
+   ◎ is invalid if the entry pages are strong but deep pages still contain residue, ambiguity, or overshooting language.
+
+2. **No screenshot fragility**  
+   ◎ is invalid if a strong number, image, or claim becomes socially risky when isolated.
+
+3. **No recommendation friction**  
+   ◎ is invalid if a reader understands the repo but would hesitate to send it to a colleague because it still feels rough, over-claimed, or internally named.
+
+4. **No hype substitution**  
+   ◎ is invalid if the “shareability” is created by sensational wording rather than precise, scoped, trustworthy expression.
+
+### Practical interpretation
+- **○** = “There is no serious problem.”
+- **◎** = “There is no serious problem, and I would feel good sending this to someone.”
+
+The gap is not technical correctness.
+The gap is whether the work changes reader behavior **without lowering trust**.
+
+
+---
+
+## 28. External AI Review Procedure
 
 When sending this repository for external AI review:
 
 1. **Include this file (PUBLIC-EXPRESSION-GUIDE.md) in the zip**
-2. **Instruction to reviewer**: "Read PUBLIC-EXPRESSION-GUIDE.md first. It is the single source of truth. Judge each of the 5 items (初見3秒理解, 信頼阻害要因ゼロ, 公開安全性, OSS受容性, 誤読耐性) as ◎ or ○ based solely on whether this guide's conditions are met."
-3. **◎**: All conditions in this guide are satisfied
-4. **○**: One or more conditions in this guide are violated. Reviewer must cite the Section number, condition, file path, and line
-5. **Additional proposals**: Reviewer may suggest improvements beyond this guide's scope, but these do not affect ◎/○ judgment
-6. **Prohibited**: Judging ○ for reasons not defined in this guide
+2. **Instruction to reviewer**:  
+   "Read PUBLIC-EXPRESSION-GUIDE.md first. It is the single source of truth. Judge each of the 5 items (初見3秒理解, 信頼阻害要因ゼロ, 公開安全性, OSS受容性, 誤読耐性) as △, ○, or ◎ based solely on this guide."
 
-### 5 Items and their governing sections
+### 18.1 Rating rules for reviewers
 
-| Item | Primary sections | ◎ condition (all must pass) |
-|------|-----------------|-------------|
-| 初見3秒理解 | 1, 4 | (a) README H1 states project identity per Section 1 (b) Pain statement within first 15 lines (before any framework explanation) (c) "What this is" within first 20 lines (d) "Try it" section with time estimate within first 3 scrolls (e) Interactive demo link within first 3 scrolls |
-| 信頼阻害要因ゼロ | 3, 4, 5, 6, 7 | (a) Zero bracket notation in titles/UI per Section 5 (b) Every page with brackets has a Note: explanation (c) Zero Section 6 prohibited terms (d) EN/JA parity per Section 16 (e) Zero broken internal links |
-| 公開安全性 | 0, 5, 8, 13 | (a) Zero IP/email/token/password in all files per Section 0 surfaces (b) SECURITY.md explains safety design (c) All images registered in Section 8 (d) Demo banners present in first viewport |
-| OSS受容性 | 1, 6, 9 | (a) LICENSE/CONTRIBUTING/CODE_OF_CONDUCT/SECURITY/CITATION exist (b) CONTRIBUTING states non-code contribution welcome (c) Issue templates provide observation/challenge paths (d) Zero Section 6 prohibited terms in entry documents |
-| 誤読耐性 | 2, 3, 4, 7, 13 | (a) Every number has evidence label per Section 2 (b) Every assertion has tone marker per Section 3 (c) Zero Section 3 prohibited patterns (d) EN/JA impression parity per Section 16 (e) SVG text passes Section 2+3 |
+- **△**: One or more ○ baseline conditions are violated
+- **○**: All ○ baseline conditions are satisfied, but ◎ resonance is not fully satisfied
+- **◎**: All ○ baseline conditions and all ◎ resonance conditions are satisfied
 
-### Review output template
+### 18.2 Critical reviewer rules
 
-For each item, output:
-```
-## [Item name]: ◎ or ○
-Conditions checked: (a)✅ (b)✅ (c)✅ (d)✗ (e)✅
-If ○: Section X, condition (d) violated at [file:line]: "quoted text"
-Proposed fix: [修正案]
-```
+- Do **not** award ◎ for compliance alone
+- Do **not** downgrade ○ to △ for reasons outside this guide
+- Do **not** upgrade ○ to ◎ because the repo “feels good overall” without satisfying the resonance conditions
+- When unsure between ○ and ◎, assign **○**
+- A soft or charitable ◎ is considered invalid
+
+### 18.3 Required output structure
+
+For each item, reviewers must output:
+
+```text
+## [Item name]: △ / ○ / ◎
+○ conditions checked: (a)✅ (b)✅ (c)✅ (d)✅ ...
+◎ conditions checked: (r1)✅ (r2)✗ (r3)✅ ...
+If △: cite the violated ○ condition, file path, and line
+If ○: cite the missing ◎ condition(s), file path(s), and line(s) where the gap is visible
+If ◎: cite the concrete file/path evidence that makes it recommendation-worthy, not merely compliant
+Proposed fix: [specific text/path-level fix]
+Priority: P0 / P1 / P2
+
+      18.4 Meaning of each outcome
+
+  *
+
+    *△* = not yet publicly reliable enough
+
+  *
+
+    *○* = publicly reliable and standards-compliant
+
+  *
+
+    *◎* = publicly reliable, standards-compliant, and recommendation-worthy
+
+      18.5 Additional proposals
+
+Reviewers may add suggestions beyond the current guide, but those must
+appear in a separate section called *Additional proposals* and must not
+affect the △/○/◎ rating unless this guide explicitly defines them.
+
+      18.6 Five items and their governing sections
+
+| Item | Primary sections | ○ baseline | ◎ resonance |
+|------|-----------------|------------|-------------|
+| 初見3秒理解 | 2, 3, 6, 7, 27 | Clear identity + pain + try path | Immediate relevance + try desire + forwardability |
+| 信頼阻害要因ゼロ | 5, 6, 9, 10, 11, 27 | No fatal blockers | No hesitation anywhere, including deep pages |
+| 公開安全性 | 1, 9, 12, 20, 27 | No leakage | Safety design is visible as design |
+| OSS受容性 | 2, 10, 15, 27 | Standard OSS acceptability | Participation desire is induced |
+| 誤読耐性 | 4, 5, 6, 11, 20, 27 | Proper labels and scope | Cropped/quoted fragments remain reputation-positive |
 
 ---
 
-## 19. Pilot Application
+## 29. Repository-Level Override Rule
+
+A repository-level ◎ requires consistency, not isolated excellence.
+
+Even if some entry files are ◎-eligible, the overall repository must not be rated ◎ when any of the following remain:
+
+- repeated trust debt in deep pages
+- EN/JA asymmetry that changes claim strength
+- cropped-image fragility
+- demo pages that are safe but misleading in isolation
+- contribution language that exists formally but not credibly
+- unresolved residue that makes forwarding risky
+
+### Override rule
+If any one of the five review items is only ○ at repository level, the repository overall cannot be ◎.
+
+### Practical meaning
+A few excellent pages do not make a ◎ repository.
+A ◎ repository is consistently recommendable.
+
+    9. |review_instruction_v3.txt| 側も少しだけ修正した方が良い箇所
+
+いまの |review_instruction_v3.txt| はかなり良いのですが、
+|PUBLIC-EXPRESSION-GUIDE.md| を正本に引き上げるなら、レビュー指示書は*判
+定定義の競合元*ではなく*運用手順書*に寄せた方が安定します。
+つまり、定義は guide、本ファイルは reviewer 向け実行手順、という役割分離
+です。
+
+      修正した方が良い文言
+
+        現行
+
+    ◎/○の判定は、セクション3の定義に基づいて行う。定義が判定の軸
+    定義 = 判定の床（これを満たせば◎）…
+
+ここは、今後の新設方針と少しずれます。
+|これを満たせば◎| ではなく、*これを満たせば○、さらに resonance gate を満
+たして◎* に変えるべきです。
+
+      差し替え案
+
+---
+
+## 30. Anti-gaming Rule
+
+This guide is intentionally harder to “game.”
+
+A repository must not be rated ◎ by relying on:
+- inflated adjectives
+- emotionally manipulative headings
+- unexplained bold numbers
+- performative professionalism
+- aesthetic polish without interpretive safety
+- recommendation pressure (“share this”, “must read”, etc.)
+
+A repository earns ◎ only when recommendation value emerges from:
+- clarity
+- trust
+- scoped evidence
+- safe cropping behavior
+- legitimate reader usefulness
+
+  この修正で何が変わるか
+
+この差し替え後は、現行のように
+*「規約を守ったから◎」ではなく、「規約を守ったので○、さらに人に勧めたく
+なる設計までできて初めて◎」* になります。
+その結果、|PUBLIC-EXPRESSION-GUIDE.md| 側にも |
+
+---
+
+## 31. Pilot Application
 
 Before applying to all 190 files:
 1. Apply to 5 representative files (README, 1 achievement EN, 1 achievement JA, 1 demo, 1 framework doc)
@@ -434,3 +912,5 @@ Before applying to all 190 files:
 → [Back to README](README.md)
 ---
 *This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*
+
+---
