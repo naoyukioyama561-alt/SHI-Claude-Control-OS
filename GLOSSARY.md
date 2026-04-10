@@ -22,8 +22,8 @@ This glossary defines terms as they are used **in this specific repository**. So
 | Label | Meaning |
 |-------|---------|
 | `[observed: single environment, single operator, N undisclosed]` | Measured in the author's operating environment. Not a public benchmark. Sample size is withheld. |
-| `[design target: not a public benchmark]` | Intended architecture outcome. Not measured or independently reproduced. |
-| `[illustrative example: not measured]` | Explanatory scenario for conceptual understanding. Not data. |
+| `[design target]` | Intended architecture outcome. Not measured or independently reproduced. Not a public benchmark. |
+| `[illustrative]` | Explanatory scenario for conceptual understanding. Not data. |
 | `[non-public evidence: public summary only]` | Detailed implementation or measurement is intentionally withheld from the public version. |
 | `[publicly inspectable in this repo]` | You can verify this directly from files in this repository. |
 

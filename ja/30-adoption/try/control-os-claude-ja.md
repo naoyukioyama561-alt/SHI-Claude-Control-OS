@@ -20,7 +20,7 @@ Language: [English version](../../../30-adoption/try/control-os-claude.md)
 <details>
 <summary><strong>Full Version（著者環境向け — 参考・改変用）</strong></summary>
 
-> ⚠️ **以下は著者固有のツールチェーンに最適化されています。** 自分のワークフローに合うものを採用し、合わないものは無視してください。（トークン最大97%削減（著者環境での観測値）[observed: single environment, N not disclosed]）
+> ⚠️ **以下は著者固有のツールチェーンに最適化されています。** 自分のワークフローに合うものを採用し、合わないものは無視してください。（トークン最大97%削減（著者環境での観測値）[observed: single environment, N undisclosed]）
 
 **SHI理論準拠**  
 構造で問題を発火させないための制御OS
