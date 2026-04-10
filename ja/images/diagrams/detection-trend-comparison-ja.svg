@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Segoe UI, Arial, sans-serif">
-  <desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: 単一環境] です。ご自身の環境で検証してください。</desc>
+  <desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: single environment] です。ご自身の環境で検証してください。</desc>
   <defs>
     <linearGradient id="before-grad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ef4444" stop-opacity="0.3"/>
@@ -15,7 +15,7 @@
 
   <text x="360" y="32" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="600">検知推移 — 構造制御の導入前後</text>
   <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">著者の環境での観測</text>
-  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション [observed: 単一環境]、クラッシュ0回 [observed: 単一環境]。</text>
+  <text x="360" y="56" text-anchor="middle" fill="#94a3b8" font-size="11">著者の環境での観測。22日間の継続セッション [observed: single environment]、クラッシュ0回 [observed: single environment]。</text>
 
   <line x1="80" y1="70" x2="80" y2="340" stroke="#334155" stroke-width="1"/>
   <text x="75" y="78" text-anchor="end" fill="#64748b" font-size="10">10K</text>
@@ -87,5 +87,5 @@
   <rect x="400" y="385" width="12" height="12" fill="#22c55e" fill-opacity="0.7" rx="2"/>
   <text x="418" y="395" fill="#94a3b8" font-size="10">After: 少量・安定・自己管理</text>
 
-  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、構造制御導入後にメッセージ数が約95%減少 [observed: 単一環境]。</text>
+  <text x="360" y="412" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、構造制御導入後にメッセージ数が約95%減少 [observed: single environment]。</text>
 </svg>

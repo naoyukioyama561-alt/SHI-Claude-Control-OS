@@ -86,7 +86,7 @@ Language: [English version](../../10-framework/04-three-layer.md)
 **現在**
 → 5層（観測・修正・検知・事前制御・継承固定）でループを回しつつ、
 　その中に**負荷種類による役割分離（監督・中継・作業）**を入れた
-→ 著者環境での観測結果 [観測値：単一環境・N非公開] として、**人間介入の大幅な低減が観測された・負荷の大幅低減・観測期間中に品質低下の報告なし** が確認された。これは単一の記録環境における観測結果であり、普遍的ベンチマーク主張ではない。
+→ 著者環境での観測結果 [observed: single environment, N undisclosed] として、**人間介入の大幅な低減が観測された・負荷の大幅低減・観測期間中に品質低下の報告なし** が確認された。これは単一の記録環境における観測結果であり、普遍的ベンチマーク主張ではない。
 
 これは**「AI単体の改善」を超えて、「AI集団のための統治構造」**として説明できる。
 
@@ -162,13 +162,13 @@ SHIアプローチ（SQL外部化＋[redacted]＋外部委譲最適化）で：
 システムは以下を使用：
 - [redacted] + Local AIで全監視を実行（Claude Code自身は監視対象）
 - 5モデルのローカル合議で構造的検証
-- 助手フォローシステム（117件のフォロー＋98件のL1パターン＋206件のナレッジを自動蓄積）[observed: 単一環境]
+- 助手フォローシステム（117件のフォロー＋98件のL1パターン＋206件のナレッジを自動蓄積）[observed: single environment]
 - アルゴリズム挙動可視化のリアルタイムダッシュボード
 
 著者の環境での検出率：
-- EVIDENCE_DROPOUT: ~100% [observed: 単一環境、N未公開; 製品としての保証ではありません]
-- GENERIC_RESPONSE: ~75% [observed: 単一環境, N未公開]
-- INCOMPLETE_CLAIM: ~63% [observed: 単一環境, N未公開]
+- EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed; not a product claim]
+- GENERIC_RESPONSE: ~75% [observed: single environment, N undisclosed]
+- INCOMPLETE_CLAIM: ~63% [observed: single environment, N undisclosed]
 
 直近ログに「いつ・どのタスクで・どのパターンが出たか」全部記録。すべて自動。
 

@@ -99,7 +99,7 @@ Language: [English version](../README.md)
 <details>
 <summary><strong>エビデンスラベルと用語</strong></summary>
 
-`[観測値：単一環境]` = 単一環境で計測。`[設計目標]` = 設計上の目標、ベンチマークではない。`[例示値]` = 説明用、データではない。詳細は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
+`[observed: single environment]`（観測値：単一環境で計測）。`[design target]`（設計目標：ベンチマークではない）。`[illustrative]`（例示値：説明用、データではない）。詳細は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
 
 3層分離（役割分担）≠ 4+1品質システム（品質管理スタック）≠ 5層ループ（統治サイクル）。同じシステムの別次元。
 </details>

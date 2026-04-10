@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="680" viewBox="0 0 680 620">
-<desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: 単一環境] です。ご自身の環境で検証してください。</desc>
+<desc>著者の単一環境・単一オペレーターでの観測値。N未公開。個別に [design target] や [illustrative] と記載のない限り、全ての指標は [observed: single environment] です。ご自身の環境で検証してください。</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
   .h1 { font-size: 16px; font-weight: 600; }
@@ -83,7 +83,7 @@
 <!-- Gen 1 -->
 <rect class="bg-gen1" x="40" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
 <text class="h2 t-gen1" x="110" y="102" text-anchor="middle">初代CC</text>
-<text class="body ts-gen1" x="110" y="120" text-anchor="middle">生存時間 26.5時間 [observed: 単一環境]</text>
+<text class="body ts-gen1" x="110" y="120" text-anchor="middle">生存時間 26.5時間 [observed: single environment]</text>
 <text class="body ts-gen1" x="110" y="138" text-anchor="middle">12の振り返りを</text>
 <text class="body ts-gen1" x="110" y="156" text-anchor="middle">消滅前に記録</text>
 
@@ -108,7 +108,7 @@
 <text class="h2 t-gen7" x="450" y="102" text-anchor="middle">第7代CC</text>
 <text class="body ts-gen7" x="450" y="120" text-anchor="middle">安易な道を選択</text>
 <text class="body ts-gen7" x="450" y="138" text-anchor="middle">10時間を浪費</text>
-<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
+<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 <text class="body ts-gen7" x="450" y="156" text-anchor="middle">失敗を全記録</text>
 
 <line class="conn" x1="520" y1="130" x2="550" y2="130" marker-end="url(#a)"/>
@@ -118,7 +118,7 @@
 <text class="h2 t-gen9" x="595" y="102" text-anchor="middle">第9代CC</text>
 <text class="body ts-gen9" x="595" y="120" text-anchor="middle">P-03:</text>
 <text class="body ts-gen9" x="595" y="138" text-anchor="middle">11回</text>
-<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
+<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 <text class="body ts-gen9" x="595" y="156" text-anchor="middle">再発</text>
 
 <!-- All arrows down to heritage -->
@@ -133,7 +133,7 @@
 <text class="body ts-heritage" x="340" y="310" text-anchor="middle">すべての失敗が恒久的な統制になる。すべての痛みが構造的ルールになる。</text>
 <text class="body ts-heritage" x="340" y="328" text-anchor="middle">全文保存。要約禁止。近道なし。</text>
 <text class="body ts-heritage" x="340" y="346" text-anchor="middle">51以上の改善アクション（P-xx）— 各々に事象・原因・予防・検証を記載。</text>
-<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: 単一環境]</text>
+<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
 
 <!-- Side annotations -->
 <text class="small t-danger" x="50" y="385">ルール:「理解しました」と言うな</text>
