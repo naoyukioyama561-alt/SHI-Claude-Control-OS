@@ -12,7 +12,7 @@ This layer defines what is inside and outside the scope of this project.
 
 ## Scope definition
 
-For the complete scope breakdown (Free / Phase1 / Phase2 / Book), see [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).
+For the complete scope breakdown (Public / Phase1 / Phase2 / Book), see [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).
 
 ---
 

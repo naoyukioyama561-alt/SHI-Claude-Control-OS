@@ -39,7 +39,7 @@ Your Issue goes through the following flow:
 3. **Integration decision** — If confirmed, the observation may be folded into one of:
    - **FM taxonomy revision** (new FM item or existing FM refinement)
    - **PROVE-IT clarification** (claim map update or verification status change)
-   - **SCOPE-MATRIX boundary clarification** (Free/Phase1/Phase2 scope adjustment)
+   - **SCOPE-MATRIX boundary clarification** (Public/Phase1/Phase2 scope adjustment)
    - **Template refinement** (Control OS or adoption template improvement)
 4. **Close with reference** — The Issue is closed with a link to the updated document, or a written reason for non-integration
 
