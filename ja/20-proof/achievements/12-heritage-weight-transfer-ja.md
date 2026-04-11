@@ -34,7 +34,7 @@ Language: [English version](../../../20-proof/achievements/12-heritage-weight-tr
 
 ---
 
-> Phase1は師弟レビュープロセスのサンプル会話を提供。Phase2は全ログと教育自動化メカニズムを提供。書籍には理論整理・設計背景・再現手順を収録。
+> Phase1は師弟レビュープロセスのサンプル会話を提供。Phase2は全ログと教育自動化メカニズムを提供。
 
 ![実証画像: 規範重み継承](../../images/diagrams/cc-heritage-inheritance-ja.svg)
 

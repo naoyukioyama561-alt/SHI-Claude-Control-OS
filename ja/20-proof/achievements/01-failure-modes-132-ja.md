@@ -1,4 +1,4 @@
-# 成果No.1: Failure Modes体系 -- 40件 → 132件
+# 成果No.1: Failure Modes体系の拡張
 Language: [English version](../../../20-proof/achievements/01-failure-modes-132.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
@@ -22,8 +22,6 @@ Language: [English version](../../../20-proof/achievements/01-failure-modes-132.
 - P-74〜P-80の追加：虚偽報告、責任転嫁、思い込み結論、要約脱落、行動内面化失敗
 - これらはAIが**自身のメタ反省失敗を構造的に記録**した事例として、著者の環境で観測された
 
-## 実証画像
-
 ## 考え方のポイント
 
 > 以下は著者の観測環境で観測された傾向を示します：
@@ -36,7 +34,7 @@ Language: [English version](../../../20-proof/achievements/01-failure-modes-132.
 
 ---
 
-> Phase1は60件の詳細を提供。Phase2は全132件の原因/防止策/検証チェーン全てを提供。書籍には理論整理・再現手順・設計背景を収録。
+> 公開版では初期公開範囲を提供し、全件詳細は将来の公開フェーズで段階的に提供予定。
 
 ![ダッシュボード構造](../../images/diagrams/dashboard-overview-ja.svg)
 

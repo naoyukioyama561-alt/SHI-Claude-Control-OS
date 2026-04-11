@@ -31,7 +31,7 @@ Language: [English version](../../../20-proof/achievements/05-five-layer-ops.md)
 
 ---
 
-> Phase1は完全な5層図を提供。Phase2は全要件仕様とエスカレーションチェーンを提供。書籍には実装思想・検証設計・再現手順を収録。
+> Phase1は完全な5層図を提供。Phase2は全要件仕様とエスカレーションチェーンを提供。
 
 ![実証画像: 5層運用構造](../../images/diagrams/mini-quality-layers-ja.svg)
 

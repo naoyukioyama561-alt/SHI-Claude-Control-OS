@@ -10,7 +10,7 @@ Supervisor / Relay / Worker — separating load by type, not volume.
 ## Table of Contents
 
 1. [Three-Layer Separation](#1-three-layer-separation-load-type-separation) — load-type separation across Supervisor, Relay, and Worker roles
-2. [All AIs Benefit](#2-all-ais-benefit-model-independent-design) — model-independent design and token efficiency
+2. [Cross-Model Design](#2-cross-model-design-intended-portability) — model-independent design and token efficiency
 3. [Separate-AI Monitoring](#3-separate-ai-monitoring-design-philosophy) — why a structurally separate monitor is recommended
 
 ---
@@ -47,7 +47,7 @@ The solution separated load by **type**:
 - Things that must not stop go to "Relay"
 - Things requiring hands-on work go to "Worker"
 
-This allows **each CC/AI to operate only in its strongest cognitive mode**, structurally eliminating the root cause of degradation.
+This allows **each CC/AI to operate only in its strongest cognitive mode**, designed to structurally address the root cause of degradation.
 
 ### Specific Effects by Layer
 
@@ -90,9 +90,9 @@ In the author's environment, this functioned as a **governance structure coordin
 
 ---
 
-## 2. All AIs Benefit (Model-Independent Design)
+## 2. Cross-Model Design (Intended Portability)
 
-### Why This Works for Every AI
+### Why This Is Designed for Multiple AI Systems
 
 SHI theory does not "make a specific model stronger." It **"structurally supplements AI's structural weaknesses from the outside."**
 
@@ -107,6 +107,8 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 
 ### Benefit Level by AI Type
 
+Benefit levels below reflect the author's subjective assessment based on observed behavior in a single environment [observed: single environment, single operator].
+
 | AI Type | Benefit Level | Primary Effect (Where It Hits Hardest) |
 |---------|---------------|----------------------------------------|
 | **Claude** | Maximum | Pull-model limitations fully bypassed. In the observed environment, downgrade impact appeared materially smaller |
@@ -114,7 +116,7 @@ The mechanisms (monitoring precision + complete recording + instant recovery + b
 | **Gemini** | High | Long-session stability + external monitoring quality stabilization |
 | **Llama / Grok / Local models** | Medium-High | Crash recovery and normative inheritance are especially powerful for local operation |
 
-Claude showed the maximum effect, but **other AI systems applying similar structures may see comparable improvements**.
+Claude showed the maximum effect, but **other AI systems applying similar structures may see comparable improvements**. Validate applicability in your own environment.
 
 The essence is completing an **OS layer intended to be portable across AI systems — validate in each environment** designed to enable "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
 

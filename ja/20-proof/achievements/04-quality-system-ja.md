@@ -38,7 +38,7 @@ Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 ---
 
-> Phase1はreason_code表と5セット検査の詳細を提供。Phase2は完全な[internal quality hook]を提供。書籍には実装思想・検証設計・再現手順を収録。
+> Phase1はreason_code表と5セット検査の詳細を提供。Phase2は完全な[internal quality hook]を提供。
 
 ![品質システム](../../images/diagrams/quality-system-4plus1-ja.svg)
 

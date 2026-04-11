@@ -24,7 +24,7 @@ Additional components:
 
 - Quality cannot be maintained by any single layer — it requires **cascading verification** where each layer catches what the previous misses
 - The reason_code system transforms vague quality complaints into **actionable, trackable categories**
-- The 5-set inspection makes "done" objectively verifiable, eliminating the common failure of "I think it's done" without evidence
+- The 5-set inspection makes "done" objectively verifiable, designed to prevent the common failure of "I think it's done" without evidence
 
 ## Key Insight (考え方のポイント)
 

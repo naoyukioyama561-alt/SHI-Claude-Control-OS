@@ -1,4 +1,4 @@
-# Achievement No.1: Failure Modes Taxonomy — 40 → 132 Items
+# Achievement No.1: Failure Modes Taxonomy Expansion
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/01-failure-modes-132-ja.md)
 
 ![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
