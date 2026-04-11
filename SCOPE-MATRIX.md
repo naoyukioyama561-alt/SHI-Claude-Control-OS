@@ -8,7 +8,7 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 | **Public (GitHub)** | Public verification surface | "Does this methodology work? Try it and see." |
 | **Phase1** | Skeleton -- how to think about building it | "Here's how we designed it, step by step." |
 | **Phase2** | Full -- how to observe structure | "Here's everything, with structural observation methodology." |
-| **Book** | Systematic treatment via SHI theory | "The evolution from failure to governance, told as a 7-chapter journey." |
+| **Book** | Systematic treatment via SHI theory | "The evolution from failure to governance, told as a 7 [design target]-chapter journey." |
 
 > **Clarification**: Phase 1, Phase 2, and Book are planned future public releases — not paid tiers. No payment is required to access this repository. When Phase 1 becomes available, it will be announced in [CHANGELOG.md](CHANGELOG.md).
 
@@ -18,12 +18,12 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 
 | Category | Public (GitHub) | Phase1 | Phase2 | Book |
 |----------|--------------|--------|--------|------|
-| **Failure Modes** | 40-item public taxonomy (FM-01 to FM-06 detailed on page, FM-07 onward summarized) | 60 items with event/cause/prevention | All 132 + cause/prevention/effectiveness | All 132 + evidence screenshots + evolution |
-| **Design documents** | Methodology and thinking only | 10 key design files | All files (md/pdf/txt) | Narrative treatment, no raw files |
+| **Failure Modes** | 40 [observed: single environment]-item public taxonomy (FM-01 to FM-06 detailed on page, FM-07 onward summarized) | 60 [design target] items with event/cause/prevention | All 132 [observed: single environment] + cause/prevention/effectiveness | All 132 [observed: single environment] + evidence screenshots + evolution |
+| **Design documents** | Methodology and thinking only | 10 [design target] key design files | All files (md/pdf/txt) | Narrative treatment, no raw files |
 | **Images** | 28 SVG diagrams (14 en/ja pairs) | Key images with annotations | All originals with appropriate masking | Conceptual diagrams + explanations |
 | **Code/commands** | Abstracted pseudocode only | Pseudocode + methodology | Pseudocode + structural observation | No code; design narrative |
 | **Heritage** | Structure overview + philosophy | Sample conversations | Full logs + education automation | Theory + full evidence |
-| **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full internal quality system (600+ lines) | Full implementation + test design |
+| **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full internal quality system (600+ [design target] lines) | Full implementation + test design |
 | **Quantitative data** | Design values (65%, 20x) | N-counts, detection rates | Full measured data | Selected data with commentary |
 
 ---
@@ -54,9 +54,9 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 
 **Role**: Show how the system was designed, beyond what is needed for public evaluation.
 
-Includes: 10 design documents + FM 60 items + 5-layer/3-layer diagrams + sample conversations + reason_code table + representative images with annotations + N-counts and detection rates.
+Includes: 10 [design target] design documents + FM 60 [design target] items + 5-layer/3-layer diagrams + sample conversations + reason_code table + representative images with annotations + N-counts and detection rates.
 
-Does NOT include: Full 132 FM items, full source code, full operational logs, reproduction keys.
+Does NOT include: Full 132 [observed: single environment] FM items, full source code, full operational logs, reproduction keys.
 
 ## Phase 2: Non-public reference material (Full)
 
@@ -64,7 +64,7 @@ Does NOT include: Full 132 FM items, full source code, full operational logs, re
 
 **Role**: Document the full evidence base and maintenance methodology, beyond what is needed for public evaluation.
 
-Includes: All 132 FM items + all design files + all images + full quality system (600+ lines) + verification logs + source excerpts + structural observation methodology + full generational logs.
+Includes: All 132 [observed: single environment] FM items + all design files + all images + full quality system (600+ [design target] lines) + verification logs + source excerpts + structural observation methodology + full generational logs.
 
 Does NOT include: Reproduction keys (paths, API keys, credentials), personal information, full source code for production deployment.
 
@@ -72,11 +72,11 @@ Phase 1 and Phase 2 are described here only to clarify the public boundary. The 
 
 ## Book: Systematic Treatment
 
-**Focus**: SHI theory for AI governance. 7-chapter systematic treatment.
+**Focus**: SHI theory for AI governance. 7 [design target]-chapter systematic treatment.
 
 **Role**: Narrative coherence, theoretical framework, reproduction procedure, conceptual diagrams.
 
-The book is "a medium that turns a bundle of design documents into a readable record of evolution." 7 chapters cover: Problem Discovery, Complete Memory, External Monitoring, 5-Layer Operations, Quality System, Evidence Collection, SHI Theory in Practice. Includes reproduction procedures (without specific keys) for readers to build similar systems.
+The book is "a medium that turns a bundle of design documents into a readable record of evolution." 7 [design target] chapters cover: Problem Discovery, Complete Memory, External Monitoring, 5-Layer Operations, Quality System, Evidence Collection, SHI Theory in Practice. Includes reproduction procedures (without specific keys) for readers to build similar systems.
 
 Does NOT include: Actual code or scripts, reproduction keys, raw operational data, personal information. Designed as a stand-alone work.
 
