@@ -24,8 +24,9 @@ This glossary defines terms as they are used **in this specific repository**. So
 | `[observed: single environment, single operator, N undisclosed]` | Measured in the author's operating environment. Not a public benchmark. Sample size is withheld. |
 | `[design target]` | Intended architecture outcome. Not measured or independently reproduced. Not a public benchmark. |
 | `[illustrative]` | Explanatory scenario for conceptual understanding. Not data. |
-| `[non-public evidence: public summary only]` | Detailed implementation or measurement is intentionally withheld from the public version. |
-| `[publicly inspectable in this repo]` | You can verify this directly from files in this repository. |
+| `[illustrative scenario: not verified]` | Hypothetical extrapolation. Not verified. |
+| *(Access boundary, not evidence class)*: "non-public evidence: public summary only" | Detailed implementation or measurement is intentionally withheld from the public version. |
+| *(Access boundary, not evidence class)*: "publicly inspectable in this repo" | You can verify this directly from files in this repository. |
 
 ## Frequently Confused Terms
 

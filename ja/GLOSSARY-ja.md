@@ -24,8 +24,9 @@ Language: [English version](../GLOSSARY.md)
 | `[observed: single environment, single operator, N undisclosed]` | 著者の運用環境で計測。公開ベンチマークではない。サンプル数は非公開 |
 | `[design target]`（設計目標） | 設計上の目標値。実測・独立再現されていない |
 | `[illustrative]`（例示値） | 概念理解のための説明シナリオ。データではない |
-| `[non-public evidence: public summary only]（非公開版で詳細開示：公開版は要約のみ）` | 詳細な実装・計測は公開版では非公開 |
-| `[publicly inspectable in this repo]（本リポジトリ内で公開検証可能）` | リポジトリ内のファイルで直接検証できる |
+| `[illustrative scenario: not verified]`（例示シナリオ：未検証） | 仮説的推定。未検証 |
+| *（アクセス境界、evidence classではない）*: "non-public evidence: public summary only" | 詳細な実装・計測は公開版では非公開 |
+| *（アクセス境界、evidence classではない）*: "publicly inspectable in this repo" | リポジトリ内のファイルで直接検証できる |
 
 ## よく混同される用語
 
