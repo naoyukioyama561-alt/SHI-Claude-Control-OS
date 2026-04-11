@@ -21,7 +21,7 @@
 <!-- Case List -->
 <div id="tab-cases">
 <div class="card">
-<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>All Categories</option><option>Recovery</option><option>Incident patterns</option><option>Config change</option><option>Ops improvement</option><option>Quality issue</option></select><input type="text" placeholder="Search..." style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234</span></div>
+<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>All Categories</option><option>Recovery</option><option>Incident patterns</option><option>Config change</option><option>Ops improvement</option><option>Quality issue</option></select><input type="text" style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234</span></div>
 <table><thead><tr><th>#</th><th>Categories</th><th>Title</th><th>Severity</th><th>Registered</th></tr></thead>
 <tbody>
 <tr><td style="color:#64748b">234</td><td><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">quality issue</span></td><td style="color:#fff">Backup runaway 188GB - No size limit check</td><td style="color:#f87171">critical</td><td style="color:#64748b">04/05</td></tr>
@@ -38,11 +38,11 @@
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">New Case Registration</h3>
 <div class="form-row"><label>Categories</label><select><option>Recovery</option><option>Incident patterns</option><option>Config change</option><option>Ops improvement</option><option>Quality issue</option></select></div>
-<div class="form-row"><label>Title</label><input type="text" placeholder="Enter case title"></div>
+<div class="form-row"><label>Title</label><input type="text"></div>
 <div class="form-row"><label>Severity</label><select><option>critical</option><option>high</option><option>medium</option><option>low</option></select></div>
-<div class="form-row"><label>Content</label><textarea placeholder="Describe case details..."></textarea></div>
-<div class="form-row"><label>Keywords</label><input type="text" placeholder="Comma-separated keywords"></div>
-<div class="form-row"><label>Related P-ID</label><input type="text" placeholder="P-03, P-29 etc."></div>
+<div class="form-row"><label>Content</label><textarea></textarea></div>
+<div class="form-row"><label>Keywords</label><input type="text"></div>
+<div class="form-row"><label>Related P-ID</label><input type="text"></div>
 <div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-b" onclick="alert('Case registered (demo)')">Register</button><button class="btn btn-s">Clear</button></div>
 </div>
 </div>
@@ -52,7 +52,7 @@
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">Gate Check Simulation</h3>
 <p style="font-size:12px;color:#94a3b8;margin-bottom:12px">Enter text, then simulate L1-L4 gate-level check results.</p>
-<textarea id="gateInput" placeholder="Enter text to check... Example: "Verified all files", "Same as last time so skip"">Already verified previously so skip this time</textarea>
+<textarea id="gateInput"Verified all files", "Same as last time so skip"">Already verified previously so skip this time</textarea>
 <button class="btn btn-b" style="margin-top:8px" onclick="runGate()">Run Check</button>
 <div id="gateResult" style="margin-top:12px">
 <div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(239,68,68,.15);color:#f87171;padding:4px 12px;border-radius:4px;font-size:13px">L1: REJECT</span><span style="color:#94a3b8;font-size:12px">Pattern P-03 "Scope Reduction" matched (Keywords: skip, omit)</span></div>

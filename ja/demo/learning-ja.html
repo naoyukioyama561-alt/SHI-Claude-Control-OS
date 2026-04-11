@@ -21,7 +21,7 @@
 <!-- ケース一覧 -->
 <div id="tab-cases">
 <div class="card">
-<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>全カテゴリ</option><option>復旧手順</option><option>障害パターン</option><option>設定変更</option><option>運用改善</option><option>品質問題</option></select><input type="text" placeholder="検索..." style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234件</span></div>
+<div style="display:flex;gap:8px;margin-bottom:12px"><select style="width:160px"><option>全カテゴリ</option><option>復旧手順</option><option>障害パターン</option><option>設定変更</option><option>運用改善</option><option>品質問題</option></select><input type="text" style="width:200px"><span style="font-size:12px;color:#64748b;align-self:center;margin-left:auto">234件</span></div>
 <table><thead><tr><th>#</th><th>カテゴリ</th><th>タイトル</th><th>重要度</th><th>登録日</th></tr></thead>
 <tbody>
 <tr><td style="color:#64748b">234</td><td><span class="tag" style="background:rgba(239,68,68,.15);color:#f87171">品質問題</span></td><td style="color:#fff">backup暴走188GB - サイズ上限チェック不在</td><td style="color:#f87171">critical</td><td style="color:#64748b">04/05</td></tr>
@@ -38,11 +38,11 @@
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">新規ケース登録</h3>
 <div class="form-row"><label>カテゴリ</label><select><option>復旧手順</option><option>障害パターン</option><option>設定変更</option><option>運用改善</option><option>品質問題</option></select></div>
-<div class="form-row"><label>タイトル</label><input type="text" placeholder="ケースのタイトルを入力"></div>
+<div class="form-row"><label>タイトル</label><input type="text"></div>
 <div class="form-row"><label>重要度</label><select><option>critical</option><option>high</option><option>medium</option><option>low</option></select></div>
-<div class="form-row"><label>内容</label><textarea placeholder="ケースの詳細を記述..."></textarea></div>
-<div class="form-row"><label>キーワード</label><input type="text" placeholder="カンマ区切りでキーワード"></div>
-<div class="form-row"><label>関連P-ID</label><input type="text" placeholder="P-03, P-29 など"></div>
+<div class="form-row"><label>内容</label><textarea></textarea></div>
+<div class="form-row"><label>キーワード</label><input type="text"></div>
+<div class="form-row"><label>関連P-ID</label><input type="text"></div>
 <div style="display:flex;gap:8px;margin-top:12px"><button class="btn btn-b" onclick="alert('ケースを登録しました (デモ)')">登録</button><button class="btn btn-s">クリア</button></div>
 </div>
 </div>
@@ -52,7 +52,7 @@
 <div class="panel">
 <h3 style="color:#fff;font-size:14px;margin-bottom:12px">ゲート判定シミュレーション</h3>
 <p style="font-size:12px;color:#94a3b8;margin-bottom:12px">テキストを入力すると、L1〜L4の各ゲートでの判定結果をシミュレーションします。</p>
-<textarea id="gateInput" placeholder="判定したいテキストを入力... 例: 「全ファイルを確認した」「前回と同じだから省略」">前回確認済みだから今回はスキップ</textarea>
+<textarea id="gateInput">前回確認済みだから今回はスキップ</textarea>
 <button class="btn btn-b" style="margin-top:8px" onclick="runGate()">判定実行</button>
 <div id="gateResult" style="margin-top:12px">
 <div style="display:flex;gap:12px;margin-bottom:8px"><span style="background:rgba(239,68,68,.15);color:#f87171;padding:4px 12px;border-radius:4px;font-size:13px">L1: REJECT</span><span style="color:#94a3b8;font-size:12px">パターンP-03「スコープ縮小」に一致 (キーワード: スキップ, 省略)</span></div>
