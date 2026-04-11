@@ -64,7 +64,7 @@ Scope:
 
 *Model-scope note for FM-07 onward: unless a specific model is named on a given line, the public page is intentionally withholding the per-model breakdown. Summary statements indicate model-dependent variation observed during the same observation period, with full model-by-model details provided in Phase1.*
 
-> **Note**: "Phase 1" = a future open release phase, not a paid tier. FM-07 through FM-40 are listed here as a stable index. For why per-model detail is withheld, see [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).
+> **Note**: "Phase 1" = a future open release phase, not a pricing structure. FM-07 through FM-40 are listed here as a stable index. For why per-model detail is withheld, see [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).
 
 ### FM-07 Strong claims from weak evidence (弱証拠強断定)
 - Impact varies by model (Medium to High). Details available in Phase1.

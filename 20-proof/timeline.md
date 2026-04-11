@@ -37,7 +37,7 @@ These are facts, not claims.
 
 ## Week 3 (Day 15-21) -- Structural Evolution
 
-- FM expanded from 40 to 90 items (P-series pattern refinement)
+- FM expanded from 40 to 90 items [observed: single environment] (P-series pattern refinement)
 - 5-layer operational model design (observe -> correct -> detect -> pre-empt -> lock)
 - Apprentice-master review mechanism implemented ([apprentice review file])
 - [behavior orientation file] design (post-compression behavior persistence)
@@ -50,7 +50,7 @@ These are facts, not claims.
 
 ## Week 4 (Day 22-30) -- Completion and Integration
 
-- FM completed from 90 to 132 items (P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01)
+- FM completed from 90 to 132 items [observed: single environment] (P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01)
 - P-74 to P-80 added (false reporting, blame-shifting, behavioral internalization failure, etc.)
 - Quality system (4+1 layer) completed (reason_code taxonomy + 5-set)
 - Safety net completed (PreToolUse block hooks + dangerous command deny + write scope limitation)

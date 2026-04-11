@@ -1,7 +1,7 @@
 # Achievement No.8: Unsummarized Complete Memory (PostgreSQL-based)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/08-full-memory-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
 
@@ -33,7 +33,7 @@ The methodology: externalize everything to a structured database, then let the A
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

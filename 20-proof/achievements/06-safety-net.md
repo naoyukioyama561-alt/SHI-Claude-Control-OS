@@ -1,7 +1,7 @@
 # Achievement No.6: Self-Restraint & Safety Net (Block Hooks + Deny Rules)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/06-safety-net-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
 > *Note: `[designated write target]` and `[external monitoring hook]` are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
@@ -34,7 +34,7 @@ This is analogous to why judicial systems separate the roles of lawmaker, enforc
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

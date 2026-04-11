@@ -37,7 +37,7 @@ Language: [English version](../../20-proof/timeline.md)
 
 ## Week 3（15〜21日目）— 構造的進化
 
-- FMを40項目から90項目に拡張（Pシリーズパターンの精緻化）
+- FMを40項目から90項目に拡張 [observed: single environment]（Pシリーズパターンの精緻化）
 - 5層運用モデルを設計（観測→修正→検知→事前制御→固定）
 - 師弟レビュー機構を実装（[apprentice review file]）
 - [behavior orientation file]設計（圧縮後行動永続化）
@@ -50,7 +50,7 @@ Language: [English version](../../20-proof/timeline.md)
 
 ## Week 4（22〜30日目）— 完成と統合
 
-- FMを90項目から132項目に完成（Pシリーズ90 + ALGOシリーズ40 + ALGO-FW + QUAL-01）
+- FMを90項目から132項目に完成 [observed: single environment]（Pシリーズ90 + ALGOシリーズ40 + ALGO-FW + QUAL-01）
 - P-74〜P-80を追加（虚偽報告、責任転嫁、行動内面化の失敗等）
 - 品質システム（4+1層）完成（reason_code体系 + 5セット）
 - 安全網完成（PreToolUseブロックフック + 危険コマンドdeny + 書き込み範囲制限）

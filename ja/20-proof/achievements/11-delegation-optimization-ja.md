@@ -1,7 +1,7 @@
 # 成果No.11: 外部委譲最適化（D1〜D3＋委任精密化ルール）
 Language: [English version](../../../20-proof/achievements/11-delegation-optimization.md)
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 委譲ルールが存在しない環境では、ルーティンタスクに不必要な高性能AIを使うことになりがちです。コストだけの問題ではなく、質のミスマッチでもあります。
 

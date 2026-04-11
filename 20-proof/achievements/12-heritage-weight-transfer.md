@@ -1,7 +1,7 @@
 # Achievement No.12: Normative Weight Inheritance — Senior CC as Teacher
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/12-heritage-weight-transfer-ja.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
@@ -38,7 +38,7 @@ This is the difference between a rule book and a teacher. A rule book tells you 
 
 ![Evidence: Hero image — heritage weight transfer](../../20-proof/../images/diagrams/cc-heritage-inheritance.svg)
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

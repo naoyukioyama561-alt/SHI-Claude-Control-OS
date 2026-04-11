@@ -1,7 +1,7 @@
 # 成果No.13: 師弟レビュー機構
 Language: [English version](../../../20-proof/achievements/13-master-apprentice-review.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
 
 新しいAIセッションはルールを知っていますが、なぜそのルールが重要かを感じていません。師弟メカニズムは知識だけでなく、過去の失敗の重みを継承します。
 

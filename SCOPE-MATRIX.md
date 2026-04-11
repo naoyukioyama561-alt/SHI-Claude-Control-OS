@@ -10,7 +10,7 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 | **Phase2** | Full -- how to observe structure | "Here's everything, with structural observation methodology." |
 | **Book** | Systematic treatment via SHI theory | "The evolution from failure to governance, told as a 7 [design target]-chapter journey." |
 
-> **Clarification**: Phase 1, Phase 2, and Book are planned future public releases — not paid tiers. No payment is required to access this repository. When Phase 1 becomes available, it will be announced in [CHANGELOG.md](CHANGELOG.md).
+> **Clarification**: Phase 1, Phase 2, and Book are planned future public releases — not pricing structures. No payment is required to access this repository. When Phase 1 becomes available, it will be announced in [CHANGELOG.md](CHANGELOG.md).
 
 ---
 

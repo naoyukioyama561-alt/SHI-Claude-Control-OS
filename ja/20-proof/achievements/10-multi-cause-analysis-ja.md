@@ -1,7 +1,7 @@
 # 成果No.10: 複合要因自動解析（なぜなぜ5段＋非公開インシデント蓄積基盤）
 Language: [English version](../../../20-proof/achievements/10-multi-cause-analysis.md)
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 単発のデバッグでは見えにくい構造的パターンがあります。著者の環境では、複合要因分析により一回限りのレビューでは表面化しなかったパターンが検出されました。
 

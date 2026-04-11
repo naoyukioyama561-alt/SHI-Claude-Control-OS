@@ -17,7 +17,7 @@ SHI theory consists of three propositions and one axiom.
 - **Proposition P3**: Judgment fires based on constraint alignment even with large information gaps
 - **Axiom P1**: The observer is a label for a structural variable, not a causal agent
 
-These were inductively derived from the specific phenomenon of non-directive hubs within organizations, and externally verified through two empirical papers: Paper 3 (N=27 historical cases; cited from external research) and Paper 4 (N=17 carrier polymorphism cases; cited from external research).
+These were inductively derived from the specific phenomenon of non-directive hubs within organizations, and externally verified through two empirical papers: Paper 3, which examined 27 historical cases (cited from external research), and Paper 4, which analyzed 17 carrier polymorphism cases (cited from external research).
 
 (Source: Paper 1, Part 1, Abstract)
 
@@ -46,7 +46,7 @@ The most important theoretical finding across Papers 3 and 4:
 
 **A conscious reasoning agent is not required for alignment firing.**
 
-High-level alignment firing (OPC≥20) was confirmed even in non-personal carriers such as AlphaZero, TCP/IP, and the pointed arch of Gothic architecture (N=5 cases; cited from external research).
+High-level alignment firing (OPC≥20) was confirmed even in non-personal carriers such as AlphaZero, TCP/IP, and the pointed arch of Gothic architecture — five cases in total (cited from external research).
 
 This finding repositions SHI theory as **"a theory describing the operational mode of intelligence without thought."**
 

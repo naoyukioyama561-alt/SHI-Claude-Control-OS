@@ -1,7 +1,7 @@
 # Achievement No.2: Three-Layer Role Separation (Supervisor / Relay / Worker)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/02-role-separation-ja.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
 
 ## What Was Observed
 

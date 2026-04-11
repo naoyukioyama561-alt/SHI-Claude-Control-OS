@@ -3,7 +3,7 @@ Language: [English version](../../../20-proof/achievements/14-token-efficiency.m
 
 > **これは理論上の設計目標であり、計測結果ではありません。** 20倍という数字はアーキテクチャ上の目標です。実測データはPhase 2で公開予定です。
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## 何が観測されたか
 

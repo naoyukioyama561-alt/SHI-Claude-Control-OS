@@ -1,7 +1,7 @@
 # Achievement No.1: Failure Modes Taxonomy — 40 → 132 Items
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/01-failure-modes-132-ja.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Free](https://img.shields.io/badge/availability-Free-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
 
 ## What Was Observed
 
@@ -38,7 +38,7 @@ This methodology is intended to be portable across AI systems, but applicability
 
 ![Dashboard structure](../../images/diagrams/dashboard-overview.svg)
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

@@ -3,7 +3,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 > **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal. Measured data will be published in Phase 2.
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 ## What Was Observed
 
@@ -35,7 +35,7 @@ The methodology: categorize every operation by its actual capability requirement
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---

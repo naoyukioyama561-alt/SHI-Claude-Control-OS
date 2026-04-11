@@ -1,7 +1,7 @@
 # 成果No.8: 要約なし完全記憶（PostgreSQLベース）
 Language: [English version](../../../20-proof/achievements/08-full-memory.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
 
 著者の環境では、この設計によりセッションを超えた記憶の永続化が観測されました [observed: single environment, single operator]。
 

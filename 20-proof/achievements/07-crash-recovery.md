@@ -1,7 +1,7 @@
 # Achievement No.7: Crash Recovery — Auto-Detection + 3-Level Restoration
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/07-crash-recovery-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Free (summary)](https://img.shields.io/badge/availability-Free%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
 
 ## What Was Observed
 
@@ -31,7 +31,7 @@ The 3-level design follows a defense-in-depth principle: each level is independe
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-> **Note**: Phase 1 / Phase 2 = future open release phases, not paid tiers. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
+> **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
 
 ---
