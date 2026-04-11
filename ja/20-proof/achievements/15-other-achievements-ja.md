@@ -10,7 +10,7 @@ Language: [English version](../../../20-proof/achievements/15-other-achievements
 主要14項目を支える**重要な補助的成果**の集合：
 
 ### n8nダッシュボード・監視基盤
-- **n8n-AIダッシュボード**: 基本メトリクス117件、学習エントリ、Docker（12コンテナ）の包括的監視
+- **n8n-AIダッシュボード**: 基本メトリクス117件 [observed: single environment]、学習エントリ、Docker（12コンテナ [observed: single environment]）の包括的監視
 - **Claude自動送信Monitor**: 自動タスク監視（バックログ追跡、進捗可視化）
 - **ヘルスチェック閾値（R1〜R4）**: 多段アラートシステム
 

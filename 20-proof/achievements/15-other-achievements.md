@@ -10,7 +10,7 @@ The 14 achievements above depend on supporting systems. This page is a public su
 A collection of **significant supporting achievements** that underpin the main 14 items:
 
 ### n8n Dashboard & Monitoring Infrastructure
-- **n8n-AI Dashboard**: Comprehensive monitoring with basic metrics (117 items), learning entries, Docker (12 containers)
+- **n8n-AI Dashboard**: Comprehensive monitoring with basic metrics (117 items [observed: single environment]), learning entries, Docker (12 containers [observed: single environment])
 - **Claude Auto-Send Monitor**: Automated task monitoring (backlog tracking, progress visualization)
 - **DB/Storage growth tracking**: Partition usage rates, table-level record counts, growth trends
 - **Health check thresholds (R1-R4)**: Multi-level alerting system
@@ -26,9 +26,9 @@ A collection of **significant supporting achievements** that underpin the main 1
 - **Theoretical framework**: Foundation for the entire governance approach
 
 ### Task Management & Operational Logs
-- **[notification system]**: design proposals + SQL query integration
+- **Notification system**: design proposals + SQL query integration
 - **Task completion reporting**: Structured reports with rule compliance self-verification
-- **[external supervisor process]**: execution flow via API Gateway
+- **External supervisor process**: execution flow via API Gateway
 - **Session history tracking**: Context compression events, 2-hour rule violations
 - **Knowledge injection checklists**: Phase-based subtask expansion (Phase 1-10)
 
