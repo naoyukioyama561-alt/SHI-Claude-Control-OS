@@ -84,9 +84,6 @@ If one of these is missing, the surface cannot exceed ○.
 - opening with CTA before trust framing
 - opening with internal terminology before plain-language identification
 
-
-      |## 4.6 Forwardability Without Hype|
-
 ---
 
 ## 4. Evidence Labels (Vocabulary Rules)
@@ -237,8 +234,6 @@ A ◎-eligible surface must remain reputation-positive even when:
 If a cropped or isolated view becomes “technically correct but socially risky,” the file cannot be ◎.
 
 
-      |## 17. Rating Model & Baseline Compliance Gate|
-
 ---
 
 ## 8. Forwardability Without Hype
@@ -266,14 +261,6 @@ A careful reader feels comfortable sending the file to a colleague, team, or pub
 
 ### Rule
 A repository that is technically compliant but socially awkward to forward is limited to ○.
-
-    3. Section 10 を差し替え強化
-
-現行の「paid tier / free tier 禁止」は良いのですが、
-*“売り込み感の禁止” をもっと直接書く*べきです。|
-review_instruction_v3.txt| でも OSS受容性と信頼阻害でここを強く見ています。
-
-      差し替え案: |## 6. Scope, Access Boundary & Non-Sales Language|
 
 ---
 
@@ -323,11 +310,6 @@ The repository must never create the impression that:
 - readers are being funneled rather than invited to verify
 
 If a reader could plausibly say “this feels like a sales page,” the file cannot exceed ○.
-
-      |## 8.5 Demo First-Viewport Rule|
-
-現行は「デモに illustrative バナーを置く」まではありますが、
-◎を狙うなら *“初見の誤読防止 + 試したくなる導線”* の両立が必要です。
 
 ---
 
@@ -422,10 +404,6 @@ Order:
 A demo that is safe but inert may qualify for ○.
 A demo becomes ◎ only when the reader understands the boundary **and** still wants to interact with it.
 
-    5. 新設
-
-      |## 8.6 Image Share-Safety Rule|
-
 ---
 
 ## 14. Image Share-Safety Rule
@@ -449,16 +427,6 @@ Detached circulation means:
 - image is visually legible, semantically scoped, and citation-aligned
 
 If an image is accurate only when read with surrounding prose, it cannot be ◎.
-
-    6. 新設
-
-      |## 9.5 Participation Without Code Rule|
-
-|review_instruction_v3.txt| の OSS受容性で重要なのは、
-「標準ファイルがある」だけでなく、*“コードを書けなくても参加したい” と感
-じるか*です。
-
-これを guide 本体に入れます。
 
 ---
 
@@ -496,16 +464,6 @@ A reader should be able to think:
 - "I can contribute without pretending expertise I do not have"
 
 If non-code participation exists only as a footnote and does not feel real, the repo cannot be ◎.
-
-    7. 新設
-
-      |## 16.5 Deep-Page Cold-Open Rule|
-
-ここはかなり重要です。
-|review_instruction_v3.txt| では「どのページを開いても『ちゃんとしてい
-る』以外の感想が出ない」が◎条件です。
-
-化されていません。そこを追加します。
 
 ---
 
@@ -646,10 +604,6 @@ Within the opening block of a deep page, the reader must be able to infer:
 
 ### Rule
 A repository whose README is ◎ but whose deep pages still require prior context is capped at ○.
-
-      |## 18.6 Repository-Level Override Rule|
-
-「READMEだけ強くて深部が雑なのに◎になる」事故を防げます。
 
 ---
 
@@ -794,28 +748,19 @@ If ○: cite the missing ◎ condition(s), file path(s), and line(s) where the g
 If ◎: cite the concrete file/path evidence that makes it recommendation-worthy, not merely compliant
 Proposed fix: [specific text/path-level fix]
 Priority: P0 / P1 / P2
+```
 
-      18.4 Meaning of each outcome
+### 28.4 Meaning of each outcome
 
-  *
+- **△** = not yet publicly reliable enough
+- **○** = publicly reliable and standards-compliant
+- **◎** = publicly reliable, standards-compliant, and recommendation-worthy
 
-    *△* = not yet publicly reliable enough
+### 28.5 Additional proposals
 
-  *
+Reviewers may add suggestions beyond the current guide, but those must appear in a separate section called *Additional proposals* and must not affect the △/○/◎ rating unless this guide explicitly defines them.
 
-    *○* = publicly reliable and standards-compliant
-
-  *
-
-    *◎* = publicly reliable, standards-compliant, and recommendation-worthy
-
-      18.5 Additional proposals
-
-Reviewers may add suggestions beyond the current guide, but those must
-appear in a separate section called *Additional proposals* and must not
-affect the △/○/◎ rating unless this guide explicitly defines them.
-
-      18.6 Five items and their governing sections
+### 28.6 Five items and their governing sections
 
 | Item | Primary sections | ○ baseline | ◎ resonance |
 |------|-----------------|------------|-------------|
@@ -847,27 +792,6 @@ If any one of the five review items is only ○ at repository level, the reposit
 A few excellent pages do not make a ◎ repository.
 A ◎ repository is consistently recommendable.
 
-    9. |review_instruction_v3.txt| 側も少しだけ修正した方が良い箇所
-
-いまの |review_instruction_v3.txt| はかなり良いのですが、
-|PUBLIC-EXPRESSION-GUIDE.md| を正本に引き上げるなら、レビュー指示書は*判
-定定義の競合元*ではなく*運用手順書*に寄せた方が安定します。
-つまり、定義は guide、本ファイルは reviewer 向け実行手順、という役割分離
-です。
-
-      修正した方が良い文言
-
-        現行
-
-    ◎/○の判定は、セクション3の定義に基づいて行う。定義が判定の軸
-    定義 = 判定の床（これを満たせば◎）…
-
-ここは、今後の新設方針と少しずれます。
-|これを満たせば◎| ではなく、*これを満たせば○、さらに resonance gate を満
-たして◎* に変えるべきです。
-
-      差し替え案
-
 ---
 
 ## 30. Anti-gaming Rule
@@ -888,13 +812,6 @@ A repository earns ◎ only when recommendation value emerges from:
 - scoped evidence
 - safe cropping behavior
 - legitimate reader usefulness
-
-  この修正で何が変わるか
-
-この差し替え後は、現行のように
-*「規約を守ったから◎」ではなく、「規約を守ったので○、さらに人に勧めたく
-なる設計までできて初めて◎」* になります。
-その結果、|PUBLIC-EXPRESSION-GUIDE.md| 側にも |
 
 ---
 
