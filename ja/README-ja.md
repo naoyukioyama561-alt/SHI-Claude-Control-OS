@@ -3,15 +3,13 @@ Language: [English version](../README.md)
 
 **AIをスロットマシンではなく、システムとして動かす。**
 
-[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
-
-[English version](../README.md)
-
 ---
 
 *昨日AIにコードレビューを頼んだ。今日も同じミスをする。ルールを説明し直す。「理解しました」と言って、1時間後に破る。*
 
 **心当たりはありませんか？**
+
+[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
 このリポジトリは、そんな瞬間のために存在します——AIは便利だけど、まだ脆くて、すぐ忘れて、あなたが全部覚えていないと回らない、と気づいた瞬間のために。
 
@@ -22,6 +20,8 @@ Language: [English version](../README.md)
 ---
 
 ## 導入後に何が変わるか
+
+単一の記録環境で観測されたパターン例です。普遍的な約束ではありません。
 
 | Before | After |
 |--------|-------|

@@ -38,7 +38,7 @@ If it works for you, the methodology is validated. If it does not, I want to kno
 
 A systematic attempt to answer: **What happens when you treat AI failure patterns as observable, classifiable, and structurally preventable phenomena?**
 
-The answer, as observed in this project: you can build a governance system where the AI's quality improves over time rather than resetting every session. Where failures become permanent controls rather than forgotten incidents. Where "pain" is inherited structurally, not lost to context compression.
+The answer, as observed in this project: this project suggests a governance direction in which AI quality may improve over time rather than resetting every session. Where failures become permanent controls rather than forgotten incidents. Where "pain" is inherited structurally, not lost to context compression.
 
 Whether this approach scales beyond a single practitioner's environment is an open question. This repository exists to let others test it.
 

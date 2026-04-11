@@ -6,6 +6,8 @@ labels: challenge
 assignees: ''
 ---
 
+Every claim in this repository is designed to be challengeable. If something feels overstated, unsupported, or contradicted by your experience, this is the right place.
+
 ## Which Claim
 <!-- Link to the specific file and line, or quote the claim -->
 

@@ -3,15 +3,13 @@ Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 
 **Make AI work like a system, not a slot machine.**
 
-[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
-
-[日本語版 / Japanese](ja/README-ja.md)
-
 ---
 
 *You asked your AI to review code yesterday. Today it makes the same mistake. You explain the rule again. It says "understood" — and breaks it an hour later.*
 
 **Sound familiar?**
+
+[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
 This repository exists for that moment — when you realize AI is useful but still too fragile, too forgetful, and too dependent on you remembering everything.
 
@@ -22,6 +20,8 @@ This repository exists for that moment — when you realize AI is useful but sti
 ---
 
 ## What changes after adoption
+
+Illustrative outcome patterns observed in one documented environment — not universal promises.
 
 | Before | After |
 |--------|-------|

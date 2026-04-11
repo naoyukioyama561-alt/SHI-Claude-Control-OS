@@ -52,11 +52,13 @@ Your observation directly improves the methodology for everyone who uses it.
 
 Methodology core content is author-curated for the canonical version, but validation work is collaborative by design. Documentation fixes, translation improvements, broken-link fixes, and public-safe demo polish are welcome as Pull Requests.
 
-## What We Do Not Accept
+## Content Change Process
 
-- **Pull Requests for content changes**: This is a methodology repository with specific design decisions. Content changes require alignment with the overall structural design. Please propose changes via Issue instead — the author integrates verified improvements.
-- **Automated translation corrections**: Translation quality is managed as part of the en/ja mirror process.
-- **Feature requests for software**: This repository does not contain executable software.
+Methodology content is author-curated to maintain structural coherence. To propose a content change, open an Issue describing the structural improvement — the author integrates confirmed improvements with attribution.
+
+- **Content changes**: Please propose via Issue first. The author reviews and integrates verified improvements.
+- **Translation corrections**: Translation quality is managed as part of the EN/JA mirror process. Report translation issues via Issue.
+- **Software features**: This repository does not contain executable software.
 
 ## Developer Notes
 

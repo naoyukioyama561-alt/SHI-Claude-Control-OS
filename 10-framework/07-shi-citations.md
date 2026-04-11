@@ -1,6 +1,8 @@
 # SHI Theory Citation Collection
 Language: [日本語版はこちら / Japanese version](../ja/10-framework/07-shi-citations-ja.md)
 
+SHI theory is the academic foundation behind this repository's structural approach. The following excerpts are from the author's published SSRN preprint.
+
 Why do the same structural controls work in some environments but not others? SHI theory provides a framework for understanding when and why alignment fires — and when it does not. If you have applied the Control OS and want to understand the structural conditions behind it, start here.
 
 > Source: SHI Theory Series (Paper 1-4), SSRN 6299258, March 2026
