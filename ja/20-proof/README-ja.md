@@ -26,10 +26,10 @@ Language: [English version](../../20-proof/README.md)
 
 | レベル | 目的 | 含まれるもの |
 |--------|------|------------|
-| **公開版** | 体験＋方法論 | 30-adoption/try/の制御OS＋10-framework/の構造解説＋FM40件 [observed: single environment] 概要＋15件 [observed: single environment] の公開成果ページ（6件詳細＋9件概要）＋代表SVG図 |
+| **公開版** | 体験＋方法論 | 30-adoption/try/の制御OS＋10-framework/の構造解説＋FM40件 [observed: single environment] 概要＋15件 [observed: single environment] の公開成果ページ（6件 [observed: single environment] 詳細＋9件 [observed: single environment] 概要）＋代表SVG図 |
 | **Phase1** | 作り方の考え方 | 設計書10件 [observed: single environment]＋FM60件 [observed: single environment] 詳細＋図＋サンプル会話＋reason_code表 |
 | **Phase2** | 構造観測の方法 | 全ファイル＋全画像＋FM132件 [observed: single environment] 全＋実証ログ＋ソース抜粋 |
-| **書籍** | SHI理論でのAI統治 | 全7章＋再現手順（具体的な鍵は一切なし） |
+| **書籍** | SHI理論でのAI統治 | 全7章 [observed: single environment]＋再現手順（具体的な鍵は一切なし） |
 
 > **Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。** 15件すべての成果ページは今すぐ本リポジトリで公開されています。
 

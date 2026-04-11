@@ -125,8 +125,7 @@ AIが共通して抱える問題（2026年現在も未解決）：
 
 設計上のフレームとして、トークン効率化は消費電力に関連しうるものとしてここで議論する。
 
-AIの電力消費のほとんど（80〜90% [illustrative scenario: not verified]）は**推論（inference）**。
-1回のクエリで数Wh〜数十Whかかる（Claude Opusの場合、典型的なクエリで約4Wh前後）[illustrative scenario: not verified]。
+例示的なフレームとして、AIの電力消費は主に推論（inference）に集中する（概算的な業界推計: 80〜90% [illustrative scenario: not verified]）とここでは議論する。1回のクエリで数Wh〜数十Whかかる（Claude Opusの場合、典型的なクエリで約4Wh前後）[illustrative scenario: not verified]。
 
 SHIアプローチ（SQL外部化＋[redacted]＋外部委譲最適化）で：
 - コンテキスト常駐データを大幅圧縮（65% = PostgreSQL外部化によるコンテキスト常駐データ削減率 [design target]）
