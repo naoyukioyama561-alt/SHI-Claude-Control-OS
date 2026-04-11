@@ -143,7 +143,7 @@ SHIアプローチ（SQL外部化＋[redacted]＋外部委譲最適化）で：
 20分の1効率化（全体効率改善倍率 [design target]）のインパクト：
 - **個人レベル**：Claude Codeの重度ユーザー（1日1,300Wh消費例）[illustrative scenario: not verified] → 65Wh/日 [illustrative scenario: not verified] に激減。電気代も1/20 [illustrative scenario: not verified]。
 - **データセンター規模**：AI推論全体の電力が2026〜2030年に数百TWh規模で増える予測 (rough industry estimate) [illustrative scenario: not verified]。大規模展開時にはエネルギー面で実質的な影響がありうるが、本リポジトリではその効果の検証済み予測は公開していない。
-- **環境影響**：CO2排出もほぼ比例して1/20になる計算 [illustrative extrapolation, not verified]。スケールの感覚を示すための試算であり、検証された予測ではない。
+- **環境影響**：CO2排出もほぼ比例して1/20になる計算 [illustrative scenario: not verified]。スケールの感覚を示すための試算であり、検証された予測ではない。
 
 「トークン効率化＝電力効率化」という視点は、本リポジトリでは実務上の評価フレームとして提示しているものであり、**包括的な先行研究調査を主張するものではありません**。
 
