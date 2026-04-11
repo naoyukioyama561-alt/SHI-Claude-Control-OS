@@ -116,5 +116,5 @@
 <line x1="40" y1="564" x2="640" y2="564" stroke="#334155" stroke-width="0.5"/>
 <text class="h2" fill="#e2e8f0" x="340" y="588" text-anchor="middle">コピペで試せます → try/control-os-claude.md</text>
 <text class="small" fill="#64748b" x="340" y="606" text-anchor="middle">Claude / GPT / Copilot 3AI対応。貼る前と後で同じプロンプトを投げてみてください。</text>
-
+<text fill="#475569" font-size="8" x="340" y="616" text-anchor="middle">単一の記録環境で観測 — PROVE-IT-ja.mdで検証</text>
 </svg>

@@ -116,5 +116,5 @@
 <line x1="40" y1="564" x2="640" y2="564" stroke="#334155" stroke-width="0.5"/>
 <text class="h2" fill="#e2e8f0" x="340" y="588" text-anchor="middle">Copy-paste to try → try/control-os-claude-en.md</text>
 <text class="small" fill="#64748b" x="340" y="606" text-anchor="middle">Claude / GPT / Copilot. Try the same prompt before and after.</text>
-
+<text fill="#475569" font-size="8" x="340" y="616" text-anchor="middle">Observed in one documented environment — verify in PROVE-IT.md</text>
 </svg>
