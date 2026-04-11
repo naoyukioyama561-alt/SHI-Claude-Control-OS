@@ -3,7 +3,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 > **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal. Measured data will be published in Phase 2.
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 ## What Was Observed
 

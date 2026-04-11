@@ -1,7 +1,7 @@
 # Achievement No.6: Self-Restraint & Safety Net (Block Hooks + Deny Rules)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/06-safety-net-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 > *Note: `[designated write target]` and `[external monitoring hook]` are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 

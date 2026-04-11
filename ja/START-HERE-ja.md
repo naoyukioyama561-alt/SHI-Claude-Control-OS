@@ -7,7 +7,7 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 ## 一つの答え
 
-本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提案する。約1か月の集中的な観察 [observed: single environment, single operator] と132 [observed: single environment] の分類された失敗モード（件数の詳細は本公開リポジトリの範囲外。[metrics-ja.md](20-proof/metrics-ja.md) を参照）をもとに整理したものである。
+本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提案する。単一の記録環境で約1か月の集中的な観察と132の分類された失敗モード（件数の詳細は本公開リポジトリの範囲外。[metrics-ja.md](20-proof/metrics-ja.md) を参照）をもとに整理したものである。
 
 | コンポーネント | 何をするか | 所要時間 |
 |-----------|-------------|-------------|
@@ -19,10 +19,10 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 ## 本公開リポジトリで得られるもの
 
-- Claude、GPT、Copilotにまたがる**40の失敗モード** [observed: single environment]の分類
+- Claude、GPT、Copilotにまたがる**40の失敗モード**の分類（単一環境で観測）
 - 3つのAIモデル用の**Control OSテンプレート**（コピペ対応）
 - Control OSがなぜ機能するかを説明する**フレームワーク文書**
-- **15 [observed: single environment] 件の文書化された成果**（6 [observed: single environment] 件の詳細公開ページ + 9 [observed: single environment] 件の公開概要ページ、すべてエビデンス境界を明示。[実証レベルの定義と証拠](20-proof/README-ja.md) を参照）
+- **15件の文書化された成果**（6件の詳細公開ページ + 9件の概要ページ、すべてエビデンス境界を明示。[実証レベルの定義と証拠](20-proof/README-ja.md) を参照）
 - **Before/Afterデモンストレーション**
 - あなたの環境用の**移植テンプレート**
 

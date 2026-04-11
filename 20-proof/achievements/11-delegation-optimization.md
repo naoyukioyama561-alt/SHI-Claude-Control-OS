@@ -1,7 +1,7 @@
 # Achievement No.11: External Delegation Optimization (D1-D3 + Precision Rules)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/11-delegation-optimization-ja.md)
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 6/10](https://img.shields.io/badge/difficulty-6%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 When delegation rules are absent, routine tasks often run on higher-cost models than necessary. This page describes the observed design pattern and its public evidence boundary.
 

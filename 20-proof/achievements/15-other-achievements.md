@@ -1,7 +1,7 @@
 # Achievement No.15: Other Key Achievements
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/15-other-achievements-ja.md)
 
-![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 The 14 achievements above depend on supporting systems. This page is a public summary of those supporting structures, with deeper implementation detail intentionally outside the repository.
 

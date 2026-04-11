@@ -1,7 +1,7 @@
 # Achievement No.5: Operational Structure Expansion — 3 → 5 Layers
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/05-five-layer-ops-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## What Was Observed
 

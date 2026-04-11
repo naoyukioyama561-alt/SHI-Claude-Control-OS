@@ -1,7 +1,7 @@
 # Achievement No.1: Failure Modes Taxonomy Expansion
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/01-failure-modes-132-ja.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## What Was Observed
 
@@ -28,7 +28,7 @@ This is not a bulk template — it is a structural decomposition of each individ
 
 The key structural shift was not in collecting more failure modes — it was in **changing the observation granularity**. Instead of treating failures as categories, each failure was treated as an individual structural event with its own cause chain.
 
-This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; the full 132 with detailed cause/prevention/verification are available in Phase 1/Phase 2.
+This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; full details are in future open release phases (see SCOPE-MATRIX.md).
 
 → Full Failure Modes documentation: [`10-framework/01-failure-modes.md`](../../10-framework/01-failure-modes.md)
 

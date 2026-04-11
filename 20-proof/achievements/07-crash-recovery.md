@@ -1,7 +1,7 @@
 # Achievement No.7: Crash Recovery — Auto-Detection + 3-Level Restoration
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/07-crash-recovery-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 ## What Was Observed
 

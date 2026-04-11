@@ -1,7 +1,7 @@
 # 成果No.1: Failure Modes体系の拡張
 Language: [English version](../../../20-proof/achievements/01-failure-modes-132.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## 何が観測されたか
 
@@ -28,7 +28,7 @@ Language: [English version](../../../20-proof/achievements/01-failure-modes-132.
 
 構造的な転換点は失敗モードをもっと集めたことではなく、**観測の粒度を変えた**こと。失敗をカテゴリとして扱うのではなく、個別の構造的事象として、それぞれ独自の原因チェーンを持つものとして扱った。
 
-この方法論は多くのAIシステムへ移植可能な形を目指していますが、適用可否は各環境で検証してください。最初の40パターンは公開版として提供中。全132件の詳細な原因/防止策/検証はPhase1/Phase2で提供。
+この方法論は多くのAIシステムへ移植可能な形を目指していますが、適用可否は各環境で検証してください。最初の40パターンは公開版として提供中。全件の詳細は将来の公開フェーズで提供予定（SCOPE-MATRIX-ja.md 参照）。
 
 → Failure Modes詳細ドキュメント: [`10-framework/01-failure-modes-ja.md`](../../10-framework/01-failure-modes-ja.md)
 

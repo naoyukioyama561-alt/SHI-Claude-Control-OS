@@ -1,7 +1,7 @@
 # Achievement No.4: Quality System (4+1 Layer Architecture)
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/04-quality-system-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## What Was Observed
 

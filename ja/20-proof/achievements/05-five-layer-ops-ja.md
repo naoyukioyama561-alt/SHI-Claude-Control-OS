@@ -1,7 +1,7 @@
 # 成果No.5: 運用構造拡張 -- 3層 → 5層
 Language: [English version](../../../20-proof/achievements/05-five-layer-ops.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## 何が観測されたか
 
@@ -31,7 +31,7 @@ Language: [English version](../../../20-proof/achievements/05-five-layer-ops.md)
 
 ---
 
-> Phase1は完全な5層図を提供。Phase2は全要件仕様とエスカレーションチェーンを提供。
+> 詳細は将来の公開フェーズで提供予定。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 ![実証画像: 5層運用構造](../../images/diagrams/mini-quality-layers-ja.svg)
 

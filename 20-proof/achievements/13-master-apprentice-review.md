@@ -1,7 +1,7 @@
 # Achievement No.13: Apprentice-Master Review Mechanism
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/13-master-apprentice-review-ja.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
 A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
 

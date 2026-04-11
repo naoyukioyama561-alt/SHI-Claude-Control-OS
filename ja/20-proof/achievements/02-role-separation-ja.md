@@ -1,7 +1,7 @@
 # 成果No.2: 役割分離3層（監督・中継・作業）
 Language: [English version](../../../20-proof/achievements/02-role-separation.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 4/10](https://img.shields.io/badge/difficulty-4%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 ## 何が観測されたか
 
@@ -31,7 +31,7 @@ Language: [English version](../../../20-proof/achievements/02-role-separation.md
 
 ---
 
-> Phase1は詳細な役割表とインタラクションパターンを提供。Phase2は完全な運用ログを提供。
+> 詳細は将来の公開フェーズで提供予定。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 

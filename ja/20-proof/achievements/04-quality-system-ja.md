@@ -1,7 +1,7 @@
 # 成果No.4: 品質システム（4+1層アーキテクチャ）
 Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
-![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 5/10](https://img.shields.io/badge/difficulty-5%2F10-informational)
+![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 > *注: `[internal quality hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
@@ -38,7 +38,7 @@ Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 ---
 
-> Phase1はreason_code表と5セット検査の詳細を提供。Phase2は完全な[internal quality hook]を提供。
+> 詳細は将来の公開フェーズで提供予定。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 ![品質システム](../../images/diagrams/quality-system-4plus1-ja.svg)
 

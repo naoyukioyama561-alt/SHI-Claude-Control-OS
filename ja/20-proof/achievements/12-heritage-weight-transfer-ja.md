@@ -1,7 +1,7 @@
 # 成果No.12: 規範重み継承 -- 初代CCが教師
 Language: [English version](../../../20-proof/achievements/12-heritage-weight-transfer.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 新しいAIセッションを開始するたびに、前任者の学びはリセットされます。著者の環境では、この設計により行動継承がセッション間で構造的に永続化されました [observed: single environment, single operator]。
 
@@ -34,7 +34,7 @@ Language: [English version](../../../20-proof/achievements/12-heritage-weight-tr
 
 ---
 
-> Phase1は師弟レビュープロセスのサンプル会話を提供。Phase2は全ログと教育自動化メカニズムを提供。
+> 詳細は将来の公開フェーズで提供予定。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
 ![実証画像: 規範重み継承](../../images/diagrams/cc-heritage-inheritance-ja.svg)
 

@@ -38,9 +38,9 @@ Illustrative outcome patterns observed in one documented environment — not uni
 → [See a real case study](20-proof/public-case-01.md)
 
 <p align="center">
-  <img src="images/overview-infographic-en.png" alt="System overview: three-layer separation and five-layer quality management — conceptual [illustrative]" width="800">
+  <img src="images/overview-infographic-en.png" alt="System overview: three-layer separation and five-layer quality management — conceptual diagram" width="800">
 </p>
-<sub>Conceptual overview [illustrative] — verify with PROVE-IT.md. Observed values are single-environment.</sub>
+<sub>Conceptual overview — illustrative. Verify with PROVE-IT.md. Observed values are from a single environment.</sub>
 
 ---
 

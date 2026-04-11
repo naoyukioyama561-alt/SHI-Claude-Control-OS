@@ -1,7 +1,7 @@
 # Achievement No.12: Normative Weight Inheritance — Senior CC as Teacher
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/12-heritage-weight-transfer-ja.md)
 
-![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue) ![Difficulty 7/10](https://img.shields.io/badge/difficulty-7%2F10-informational)
+![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 
 Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
@@ -9,7 +9,7 @@ Every time you start a new AI session, your predecessor's lessons reset. In the 
 
 ## What Was Observed
 
-A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis available in Phase 1:
+A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis is outside this public repository:
 
 - **[behavior orientation file]**: Personality and normative structure files that encode behavioral patterns
 - **Pain inheritance**: The Senior CC's accumulated experience of "what hurts" is structurally preserved
