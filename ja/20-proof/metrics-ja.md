@@ -34,7 +34,7 @@ Language: [English version](../../20-proof/metrics.md)
 | 指標 | 値 | 注記 |
 |------|---|------|
 | 外部監視フック検知パターン | 3種類以上 [observed: single environment] | EVIDENCE_DROPOUT, GENERIC_RESPONSE, INCOMPLETE_CLAIM |
-| EVIDENCE_DROPOUT検出率 | ~100% [observed: single environment, N undisclosed; not a product claim] | 著者の管理環境でのパターンマッチングによる観測値であり、汎化ベンチマークではありません。N数は非公開。 |
+| EVIDENCE_DROPOUT検出率 | ~100% [observed: single environment, N undisclosed] | 著者の管理環境でのパターンマッチングによる観測値であり、汎化ベンチマークや製品主張ではありません。N数は非公開。 |
 | GENERIC_RESPONSE検出率 | ~75% [observed: single environment, N undisclosed] | 著者環境での観測値。N数は公開版では非公開。 |
 | INCOMPLETE_CLAIM検出率 | ~63% [observed: single environment, N undisclosed] | 著者環境での観測値。N数は公開版では非公開。 |
 | 強制レビュー間隔 | 2時間 [observed: single environment] | 外部監視フックが外部から強制 |

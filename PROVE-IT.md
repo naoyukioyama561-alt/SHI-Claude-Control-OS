@@ -39,7 +39,7 @@ For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md
 | 7 | 4+1 layer quality system reduces quality failures | **Publicly inspectable** | [Quality system](10-framework/05-quality-system.md) |
 | 8 | SHI theory provides a foundation for AI governance | **Conceptual only** | [Research comparison](10-framework/06-research-comparison.md) |
 
-This is an 8-umbrella-claim map covering the [15 achievements](20-proof/achievements/README.md). Claim 1 → Achievements 1, 10; Claim 2 → Achievement 2; Claim 3 → Achievement 1; Claim 4 → Achievements 2, 3; Claim 5 → Achievement 3; Claim 6 → Achievements 9, 12; Claim 7 → Achievement 4; Claim 8 → Achievement 5.
+This is an 8-umbrella-claim map covering the [15 [observed: single environment] achievements](20-proof/achievements/README.md). Claim 1 → Achievements 1, 10; Claim 2 → Achievement 2; Claim 3 → Achievement 1; Claim 4 → Achievements 2, 3; Claim 5 → Achievement 3; Claim 6 → Achievements 9, 12; Claim 7 → Achievement 4; Claim 8 → Achievement 5.
 
 ---
 

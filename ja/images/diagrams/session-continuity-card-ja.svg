@@ -16,30 +16,25 @@
   <!-- Row 1 -->
   <rect x="20" y="90" width="150" height="72" fill="#1e293b" rx="8"/>
   <text x="95" y="112" text-anchor="middle" fill="#94a3b8" font-size="10">観測期間</text>
-  <text x="95" y="132" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600">22日間</text>
-  <text x="95" y="142" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="95" y="132" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="600">22日間 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
   <text x="95" y="152" text-anchor="middle" fill="#64748b" font-size="9">2026-03-07 〜 03-29</text>
 
   <rect x="180" y="90" width="150" height="72" fill="#1e293b" rx="8"/>
   <text x="255" y="112" text-anchor="middle" fill="#94a3b8" font-size="10">クラッシュ</text>
-  <text x="255" y="136" text-anchor="middle" fill="#22c55e" font-size="20" font-weight="700">0回</text>
-  <text x="255" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="255" y="136" text-anchor="middle" fill="#22c55e" font-size="20" font-weight="700">0回 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <rect x="340" y="90" width="150" height="72" fill="#1e293b" rx="8"/>
   <text x="415" y="112" text-anchor="middle" fill="#94a3b8" font-size="10">活動日数</text>
-  <text x="415" y="136" text-anchor="middle" fill="#e2e8f0" font-size="20" font-weight="600">12日</text>
-  <text x="415" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="415" y="136" text-anchor="middle" fill="#e2e8f0" font-size="20" font-weight="600">12日 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <rect x="500" y="90" width="160" height="72" fill="#1e293b" rx="8"/>
   <text x="580" y="112" text-anchor="middle" fill="#94a3b8" font-size="10">総メッセージ</text>
-  <text x="580" y="136" text-anchor="middle" fill="#e2e8f0" font-size="20" font-weight="600">22,557</text>
-  <text x="580" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="580" y="136" text-anchor="middle" fill="#e2e8f0" font-size="20" font-weight="600">22,557 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <!-- Row 2 -->
   <rect x="20" y="174" width="210" height="72" fill="#1e293b" rx="8"/>
   <text x="125" y="196" text-anchor="middle" fill="#94a3b8" font-size="10">jsonlサイズ（セッション全体）</text>
-  <text x="125" y="220" text-anchor="middle" fill="#f97316" font-size="18" font-weight="600">170 MB</text>
-  <text x="125" y="230" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="125" y="220" text-anchor="middle" fill="#f97316" font-size="18" font-weight="600">170 MB <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
   <text x="125" y="240" text-anchor="middle" fill="#64748b" font-size="9">38,388行</text>
 
   <rect x="240" y="174" width="60" height="72" fill="none"/>
@@ -47,8 +42,7 @@
 
   <rect x="310" y="174" width="210" height="72" fill="#1e293b" rx="8"/>
   <text x="415" y="196" text-anchor="middle" fill="#94a3b8" font-size="10">DB外部化後（observed）</text>
-  <text x="415" y="220" text-anchor="middle" fill="#22c55e" font-size="18" font-weight="600">5.7 MB</text>
-  <text x="415" y="230" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="415" y="220" text-anchor="middle" fill="#22c55e" font-size="18" font-weight="600">5.7 MB <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
   <text x="415" y="240" text-anchor="middle" fill="#64748b" font-size="9">22,557行の構造化データ</text>
 
   <rect x="530" y="174" width="130" height="72" fill="#22c55e" fill-opacity="0.1" rx="8" stroke="#22c55e" stroke-width="1"/>

@@ -5,6 +5,8 @@ Why do the same structural controls work in some environments but not others? SH
 
 > Source: SHI Theory Series (Paper 1-4), SSRN 6299258, March 2026
 > This document contains only the citation excerpts necessary for GitHub publication, not the full paper text.
+>
+> **Note**: N-counts and case counts in this section (e.g., 27, 17, 5) are from cited external academic papers, not from the author's operational environment. They do not carry evidence labels because they are third-party citations, not author observations.
 
 ---
 

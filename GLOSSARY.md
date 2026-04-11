@@ -25,8 +25,13 @@ This glossary defines terms as they are used **in this specific repository**. So
 | `[design target]` | Intended architecture outcome. Not measured or independently reproduced. Not a public benchmark. |
 | `[illustrative]` | Explanatory scenario for conceptual understanding. Not data. |
 | `[illustrative scenario: not verified]` | Hypothetical extrapolation. Not verified. |
-| *(Access boundary, not evidence class)*: "non-public evidence: public summary only" | Detailed implementation or measurement is intentionally withheld from the public version. |
-| *(Access boundary, not evidence class)*: "publicly inspectable in this repo" | You can verify this directly from files in this repository. |
+
+### Access Boundary Descriptors (not evidence labels)
+
+The following phrases describe **where information lives**, not how it was measured. They are not evidence labels and do not appear in square brackets.
+
+- **"non-public evidence: public summary only"** — Detailed implementation or measurement is intentionally withheld from the public version.
+- **"publicly inspectable in this repo"** — You can verify this directly from files in this repository.
 
 ## Frequently Confused Terms
 

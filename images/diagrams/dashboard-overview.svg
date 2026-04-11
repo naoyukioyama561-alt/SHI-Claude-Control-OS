@@ -40,18 +40,15 @@
 
   <rect x="332" y="52" width="145" height="68" fill="#1e293b" rx="8"/>
   <text x="404" y="72" text-anchor="middle" fill="#94a3b8" font-size="10">Failure Modes</text>
-  <text x="404" y="98" text-anchor="middle" fill="#e2e8f0" font-size="24" font-weight="700">132</text>
-  <text x="404" y="110" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="404" y="98" text-anchor="middle" fill="#e2e8f0" font-size="24" font-weight="700">132 <tspan font-size="8" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <rect x="488" y="52" width="145" height="68" fill="#1e293b" rx="8"/>
   <text x="560" y="72" text-anchor="middle" fill="#94a3b8" font-size="10">Uptime</text>
-  <text x="560" y="98" text-anchor="middle" fill="#22c55e" font-size="24" font-weight="700">22 days</text>
-  <text x="560" y="110" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="560" y="98" text-anchor="middle" fill="#22c55e" font-size="24" font-weight="700">22 days <tspan font-size="8" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <rect x="644" y="52" width="145" height="68" fill="#1e293b" rx="8"/>
   <text x="716" y="72" text-anchor="middle" fill="#94a3b8" font-size="10">Crashes</text>
-  <text x="716" y="98" text-anchor="middle" fill="#22c55e" font-size="24" font-weight="700">0</text>
-  <text x="716" y="110" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="716" y="98" text-anchor="middle" fill="#22c55e" font-size="24" font-weight="700">0 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <rect x="176" y="132" width="300" height="160" fill="#1e293b" rx="8"/>
   <text x="326" y="154" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="500">Three-Layer Separation Status</text>
@@ -95,25 +92,20 @@
   <text x="482" y="324" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="500">PostgreSQL Live Data Statistics (observed)</text>
 
   <text x="220" y="350" fill="#94a3b8" font-size="10">Conversations</text>
-  <text x="220" y="366" fill="#e2e8f0" font-size="13" font-weight="600">50,831</text>
-  <text x="220" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="220" y="366" fill="#e2e8f0" font-size="13" font-weight="600">50,831 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
   <text x="220" y="390" fill="#475569" font-size="8">(cc01: 28,274 + win: 22,557)</text>
 
   <text x="350" y="350" fill="#94a3b8" font-size="10">Behavior Log</text>
-  <text x="350" y="366" fill="#e2e8f0" font-size="13" font-weight="600">11,265</text>
-  <text x="350" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="350" y="366" fill="#e2e8f0" font-size="13" font-weight="600">11,265 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <text x="480" y="350" fill="#94a3b8" font-size="10">User Directives</text>
-  <text x="480" y="366" fill="#e2e8f0" font-size="13" font-weight="600">2,891</text>
-  <text x="480" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="480" y="366" fill="#e2e8f0" font-size="13" font-weight="600">2,891 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <text x="610" y="350" fill="#94a3b8" font-size="10">Audit Log</text>
-  <text x="610" y="366" fill="#e2e8f0" font-size="13" font-weight="600">8,397</text>
-  <text x="610" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="610" y="366" fill="#e2e8f0" font-size="13" font-weight="600">8,397 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <text x="740" y="350" fill="#94a3b8" font-size="10">Knowledge</text>
-  <text x="740" y="366" fill="#e2e8f0" font-size="13" font-weight="600">293</text>
-  <text x="740" y="378" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="740" y="366" fill="#e2e8f0" font-size="13" font-weight="600">293 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
   <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">In the author's environment, 29 pages returned 200 OK [observed: single environment], 13 containers were running [observed: single environment], and all data was persisted in PostgreSQL [observed: single environment].</text>
   <text x="482" y="426" text-anchor="middle" fill="#475569" font-size="9">This is not a screenshot. It is a structural SVG with real observed values from the running system.</text>

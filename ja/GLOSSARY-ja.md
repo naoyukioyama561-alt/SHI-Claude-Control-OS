@@ -25,8 +25,13 @@ Language: [English version](../GLOSSARY.md)
 | `[design target]`（設計目標） | 設計上の目標値。実測・独立再現されていない |
 | `[illustrative]`（例示値） | 概念理解のための説明シナリオ。データではない |
 | `[illustrative scenario: not verified]`（例示シナリオ：未検証） | 仮説的推定。未検証 |
-| *（アクセス境界、evidence classではない）*: "non-public evidence: public summary only" | 詳細な実装・計測は公開版では非公開 |
-| *（アクセス境界、evidence classではない）*: "publicly inspectable in this repo" | リポジトリ内のファイルで直接検証できる |
+
+### アクセス境界記述子（エビデンスラベルではない）
+
+以下のフレーズは**情報がどこにあるか**を示すものであり、計測方法を示すものではありません。エビデンスラベルではなく、角括弧内には記載しません。
+
+- **"non-public evidence: public summary only"** — 詳細な実装・計測は公開版では非公開。
+- **"publicly inspectable in this repo"** — リポジトリ内のファイルで直接検証できる。
 
 ## よく混同される用語
 

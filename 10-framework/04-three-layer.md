@@ -122,7 +122,7 @@ The essence is completing an **OS layer intended to be portable across AI system
 
 As a design framing, token-efficiency improvement is discussed here as potentially relevant to power consumption.
 
-As an illustrative framing, AI power consumption is discussed here as being largely concentrated (rough industry estimate: 80-90%) in **inference**. A single query costs several Wh to tens of Wh (approximately 4Wh for a typical Claude Opus query) [illustrative scenario: not verified].
+As an illustrative framing, AI power consumption is discussed here as being largely concentrated (rough industry estimate: 80-90% [illustrative scenario: not verified]) in **inference**. A single query costs several Wh to tens of Wh (approximately 4Wh for a typical Claude Opus query) [illustrative scenario: not verified].
 
 The SHI approach (SQL externalization + [redacted] + external delegation optimization) is designed to enable:
 - Massive compression of context-resident data (65% context-resident data reduction via PostgreSQL externalization [design target])
@@ -132,7 +132,7 @@ The SHI approach (SQL externalization + [redacted] + external delegation optimiz
 In the author's environment, some workflows were observed to use substantially fewer tokens after structural delegation and externalization; **"20x" should be read here as a design target / illustrative upper-bound summary, not as a public benchmark reproduced in this repository**.
 (20x = overall efficiency improvement factor [design target], combining delegation optimization and SQL externalization.)
 
-Physical power equivalent [design target; illustrative scenario: not verified]:
+Physical power equivalent [illustrative scenario: not verified]:
 - Before: 1 query ≈ 4Wh [illustrative scenario: not verified]
 - After SHI: 1 query ≈ 0.2Wh [illustrative scenario: not verified] (1/20th [illustrative scenario: not verified])
 
@@ -162,7 +162,7 @@ The system uses:
 - Real-time dashboard for algorithmic behavior visualization
 
 Detection rates [observed: single environment]:
-- EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed; not a product claim]
+- EVIDENCE_DROPOUT: ~100% [observed: single environment, N undisclosed]
 - GENERIC_RESPONSE: ~75% [observed: single environment, N undisclosed]
 - INCOMPLETE_CLAIM: ~63% [observed: single environment, N undisclosed]
 

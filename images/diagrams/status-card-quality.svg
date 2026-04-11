@@ -6,8 +6,7 @@
   <text x="80" y="54" text-anchor="middle" fill="#94a3b8" font-size="9">4+1 Layers</text>
   <text x="80" y="74" text-anchor="middle" fill="#22c55e" font-size="18" font-weight="700">ACTIVE</text>
   <text x="240" y="54" text-anchor="middle" fill="#94a3b8" font-size="9">reason_codes</text>
-  <text x="240" y="74" text-anchor="middle" fill="#e2e8f0" font-size="18" font-weight="700">30</text>
-  <text x="240" y="84" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+  <text x="240" y="74" text-anchor="middle" fill="#e2e8f0" font-size="18" font-weight="700">30 <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
   <line x1="16" y1="90" x2="304" y2="90" stroke="#334155" stroke-width="0.5"/>
   <text x="24" y="110" fill="#94a3b8" font-size="9">Mandatory 5-set inspection</text>
   <text x="290" y="110" text-anchor="end" fill="#22c55e" font-size="10">ENFORCED</text>

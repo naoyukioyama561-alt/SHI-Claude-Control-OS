@@ -37,9 +37,9 @@ For per-item scope breakdown, see [achievements/README.md](achievements/README.m
 
 | Level | Purpose | Includes |
 |-------|---------|----------|
-| **Public** | Experience + methodology | 40-item public FM taxonomy + 15 public achievement pages (6 full + 9 summary) + structural explanations in 10-framework/ + representative SVG diagrams |
-| **Phase1** | How to think about building it | 10 design documents + FM 60 items detailed + diagrams + sample conversations + reason_code table |
-| **Phase2** | How to observe structure | All files + all images + all 132 FM items + verification logs + source excerpts |
+| **Public** | Experience + methodology | 40-item [observed: single environment] public FM taxonomy + 15 [observed: single environment] public achievement pages (6 full + 9 summary) + structural explanations in 10-framework/ + representative SVG diagrams |
+| **Phase1** | How to think about building it | 10 [observed: single environment] design documents + FM 60 [observed: single environment] items detailed + diagrams + sample conversations + reason_code table |
+| **Phase2** | How to observe structure | All files + all images + all 132 [observed: single environment] FM items + verification logs + source excerpts |
 | **Book** | AI governance via SHI theory | All 7 chapters + reproduction procedures (no concrete keys) |
 
 Phase1 / Phase2 are listed here only to clarify scope boundaries. The public repository is intended to stand on its own for trial, challenge, and adaptation.

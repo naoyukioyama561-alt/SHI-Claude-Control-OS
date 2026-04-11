@@ -107,8 +107,7 @@
 <rect class="bg-gen7" x="380" y="80" width="140" height="100" rx="10" stroke-width="0.5"/>
 <text class="h2 t-gen7" x="450" y="102" text-anchor="middle">7th CC</text>
 <text class="body ts-gen7" x="450" y="120" text-anchor="middle">Chose the easy path</text>
-<text class="body ts-gen7" x="450" y="138" text-anchor="middle">10 hours wasted</text>
-<text x="450" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+<text class="body ts-gen7" x="450" y="138" text-anchor="middle">10 hours wasted <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 <text class="body ts-gen7" x="450" y="156" text-anchor="middle">Full failure recorded</text>
 
 <line class="conn" x1="520" y1="130" x2="550" y2="130" marker-end="url(#a)"/>
@@ -117,8 +116,7 @@
 <rect class="bg-gen9" x="550" y="80" width="90" height="100" rx="10" stroke-width="0.5"/>
 <text class="h2 t-gen9" x="595" y="102" text-anchor="middle">9th CC</text>
 <text class="body ts-gen9" x="595" y="120" text-anchor="middle">P-03:</text>
-<text class="body ts-gen9" x="595" y="138" text-anchor="middle">11 times</text>
-<text x="595" y="148" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+<text class="body ts-gen9" x="595" y="138" text-anchor="middle">11 times <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 <text class="body ts-gen9" x="595" y="156" text-anchor="middle">recurred</text>
 
 <!-- All arrows down to heritage -->
@@ -132,8 +130,7 @@
 <text class="h2 t-heritage" x="340" y="288" text-anchor="middle">cc_heritage — institutional memory</text>
 <text class="body ts-heritage" x="340" y="310" text-anchor="middle">Every failure → permanent control. Every pain → structural rule.</text>
 <text class="body ts-heritage" x="340" y="328" text-anchor="middle">Full text preserved. Summaries forbidden. No shortcuts.</text>
-<text class="body ts-heritage" x="340" y="346" text-anchor="middle">51+ improvement actions — each with event, cause, prevention, verification.</text>
-<text x="340" y="356" text-anchor="middle" fill="#94a3b8" font-size="7">[observed: single environment]</text>
+<text class="body ts-heritage" x="340" y="346" text-anchor="middle">51+ improvement actions — each with event, cause, prevention, verification. <tspan font-size="7" fill="#94a3b8">[observed: single environment]</tspan></text>
 
 <!-- Side annotations -->
 <text class="small t-danger" x="50" y="385">Rule: "Don't say 'I understand'"</text>
