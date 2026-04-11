@@ -41,6 +41,8 @@ No internal paths, endpoints, or personal information is included.
 
 **Why N-counts are not published**: Operational frequency could reveal internal system activity patterns.
 
+**How to quote these numbers responsibly**: always include the evidence label and the observation scope.
+
 ## Quality System
 
 | Metric | Value | Notes |

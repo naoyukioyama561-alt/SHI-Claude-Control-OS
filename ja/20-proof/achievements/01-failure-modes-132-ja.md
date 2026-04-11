@@ -5,6 +5,8 @@ Language: [English version](../../../20-proof/achievements/01-failure-modes-132.
 
 ## 何が観測されたか
 
+AIの繰り返し失敗を、孤立したバグではなく構造的インシデントとして扱うべき理由を知りたい場合は、このページから始めてください。
+
 著者の運用環境において、初期40件のFailure Modes分類を**132件** [observed: single environment, single operator]に拡大（P系90 + ALGO系40 + ALGO-FW + QUAL-01）。各項目を個別に分解：
 
 - **具体的事象**（何が起きたか）

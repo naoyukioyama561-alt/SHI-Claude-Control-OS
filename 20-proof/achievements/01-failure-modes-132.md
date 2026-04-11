@@ -5,6 +5,8 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ## What Was Observed
 
+If you need one page that shows why repeated AI mistakes should be treated as structured incidents rather than isolated bugs, start here.
+
 In the author's operational environment, the initial 40-item Failure Modes Taxonomy was expanded to **132 items** [observed: single environment, single operator] (P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01). Each item is individually decomposed into:
 
 - **Specific event** (what happened)

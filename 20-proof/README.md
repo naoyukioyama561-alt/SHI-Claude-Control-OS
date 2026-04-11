@@ -13,7 +13,7 @@ Availability labels below indicate **where the deeper detail lives**, not whethe
 | Level B | Design philosophy is public, but quantitative data is provided outside this public repository | You can verify the approach. "How well does it actually work?" is outside this public repository |
 | Level C | Concept and partial evidence images only. Detailed design and quantitative data are outside this public repository | You can judge conceptual validity only |
 
-This page is a reader-facing map of what can be publicly verified from this repository.
+This page is a reader-facing map of what can be publicly verified from this repository. Start here if you want one page that tells you what is already testable, what is inspectable, and what is intentionally out of scope.
 
 ### ★5 (3 items): No.1, No.2, No.12
 

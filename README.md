@@ -31,6 +31,8 @@ Illustrative outcome patterns observed in one documented environment — not uni
 | Quality degrades silently as context grows | 4+1 layer quality system maintains standards |
 | You return after time away. Context continuity is gone | Successor AI inherits judgment, not just rules |
 
+Share-safe summary: observed transformation patterns in one documented environment — verify details in [PROVE-IT.md](PROVE-IT.md).
+
 <p align="center">
   <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: AI behavior with and without structural governance" width="720">
 </p>

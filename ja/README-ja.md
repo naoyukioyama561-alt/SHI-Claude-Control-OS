@@ -31,6 +31,8 @@ Language: [English version](../README.md)
 | プレッシャー下で品質が静かに劣化 | 4+1層品質システムが基準を維持 |
 | しばらく離れて戻ると、文脈の継続性が失われている | 後継AIがルールだけでなく判断を継承 |
 
+共有時の要約: 単一の記録環境で観測された変化パターン — 詳細は [PROVE-IT-ja.md](PROVE-IT-ja.md) で検証。
+
 <p align="center">
   <img src="images/diagrams/before-after-comparison-ja.svg" alt="Before/After: 構造的ガバナンスの有無によるAI行動の違い" width="720">
 </p>
