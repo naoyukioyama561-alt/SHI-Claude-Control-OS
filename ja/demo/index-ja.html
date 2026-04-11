@@ -15,7 +15,7 @@
 <span class="kv"><span class="g">sample: 正常</span></span><span class="kv"><span class="r">1件異常</span></span><span class="kv"><span class="y">1件警告</span></span><span class="kv">最終: <span class="v" id="h-t">sample</span></span>
 </div></a><div class="divider"></div>
 <a href="local_ai-ja.html" class="section"><div class="section-header"><span>🧠</span><span class="title">Local AI</span></div><div class="section-grid">
-<span class="kv">Ollama: <span class="g">3モデル</span></span><span class="kv">推論: <span class="g" id="x1">847文字</span></span><span class="kv">Qdrant: <span class="v" id="x2">12,458pt</span></span><span class="kv">合議: <span class="v" id="x3">48回</span></span>
+<span class="kv">Ollama: <span class="g">sampleモデル</span></span><span class="kv">推論: <span class="g" id="x1">sample文字</span></span><span class="kv">Qdrant: <span class="v" id="x2">samplept</span></span><span class="kv">合議: <span class="v" id="x3">sample回</span></span>
 </div></a><div class="divider"></div>
 <a href="storage-ja.html" class="section"><div class="section-header"><span>📈</span><span class="title">リソースモニタ</span></div><div class="section-grid">
 <span class="kv">CPU: <span class="g" id="x4">sample%</span></span><span class="kv">RAM: <span class="g">sample/sample GB</span></span><span class="kv">内部: <span class="g">sample/sample GB</span></span><span class="kv">外付SSD: <span class="g">sample/sample GB</span></span>
@@ -23,7 +23,7 @@
 
 <div class="group-title">AI自動運用</div>
 <a href="supervisor-agent-ja.html" class="section"><div class="section-header"><span>🤖</span><span class="title">Supervisor Agent</span></div><div class="section-grid">
-<span class="kv">モジュール: <span class="v">14個</span></span><span class="kv">権限: <span class="y">承認済</span></span><span class="kv">待機状態: <span class="g">有効</span></span>
+<span class="kv">モジュール: <span class="v">sample個</span></span><span class="kv">権限: <span class="y">承認済</span></span><span class="kv">待機状態: <span class="g">有効</span></span>
 </div></a><div class="divider"></div>
 <a href="supervisor-ja.html" class="section"><div class="section-header"><span>👁️</span><span class="title">監督状況</span></div><div class="section-grid">
 <span class="kv">指示: <span class="v">8件</span></span><span class="kv">Pending: <span class="y">sample</span></span><span class="kv">完了: <span class="g">sample</span></span>
@@ -48,7 +48,7 @@
 <span class="kv">監視: <span class="v">172パターン</span></span><span class="kv">検知: <span class="o" id="x6">sample</span></span>
 </div></a><div class="divider"></div>
 <a href="user-judgment-ja.html" class="section"><div class="section-header"><span>👤</span><span class="title">ユーザー判定</span></div><div class="section-grid">
-<span class="kv">判定待ち: <span class="c">2件</span></span>
+<span class="kv">判定待ち: <span class="c">sample件</span></span>
 </div></a>
 
 <div class="group-title">通知・追跡</div>
@@ -66,7 +66,7 @@
 
 <div class="group-title">その他</div>
 <a href="tokens-ja.html" class="section"><div class="section-header"><span>🪙</span><span class="title">トークン監視</span></div><div class="section-grid">
-<span class="kv">Anthropic: <span class="v" id="x8">42</span>回 $<span class="v" id="x9">2.18</span></span><span class="kv">Gemini: <span class="v" id="xa">89</span>回</span>
+<span class="kv">Anthropic: <span class="v" id="x8">sample</span>回 $<span class="v" id="x9">sample</span></span><span class="kv">Gemini: <span class="v" id="xa">sample</span>回</span>
 </div></a><div class="divider"></div>
 <a href="claudecode-ja.html" class="section"><div class="section-header"><span>💻</span><span class="title">Claude Code</span></div><div class="section-grid">
 <span class="kv">メッセージ: <span class="v" id="xb">sample</span></span><span class="kv">セッション: <span class="g">稼働中</span></span>
@@ -82,17 +82,17 @@
 <script>
 const P=[t=>Math.sin(t*Math.PI*2)*.5+.5,t=>(t*3)%1,t=>t<.5?0:1,t=>Math.abs(Math.sin(t*Math.PI*4))];
 function A(){const n=Date.now()/1000,v=P[Math.floor(n%60/15)%4]((n%15)/15);
-const c=5+Math.round(v*25);document.getElementById('x4').textContent=c+'%';document.getElementById('x4').className=c>80?'r':c>50?'y':'g';
-document.getElementById('x1').textContent=(600+Math.round(v*500))+'文字';
-document.getElementById('x2').textContent=(12e3+Math.round(v*900)).toLocaleString()+'pt';
-document.getElementById('x3').textContent=(45+Math.round(v*8))+'回';
-document.getElementById('x5').textContent=6+Math.round(v*5);
-document.getElementById('x6').textContent=2+Math.round(v*3);
-document.getElementById('x7').textContent=30+Math.round(v*8);
-const a=35+Math.round(v*15);document.getElementById('x8').textContent=a;document.getElementById('x9').textContent=(a*.052).toFixed(2);
-document.getElementById('xa').textContent=70+Math.round(v*30);
-document.getElementById('xb').textContent=(2840+Math.round(v*20)).toLocaleString();
-const fd=85+Math.round(v*5);document.getElementById('xc').textContent=fd;document.getElementById('xd').textContent=Math.round(fd/104*100)+'%';
+const c=5+Math.round(v*25);document.getElementById('x4').textContent='sample';document.getElementById('x4').className=c>80?'r':c>50?'y':'g';
+document.getElementById('x1').textContent='sample';
+document.getElementById('x2').textContent='sample';
+document.getElementById('x3').textContent='sample';
+document.getElementById('x5').textContent='sample';
+document.getElementById('x6').textContent='sample';
+document.getElementById('x7').textContent='sample';
+const a=35+Math.round(v*15);document.getElementById('x8').textContent='sample';document.getElementById('x9').textContent='sample';
+document.getElementById('xa').textContent='sample';
+document.getElementById('xb').textContent='sample';
+const fd=85+Math.round(v*5);document.getElementById('xc').textContent='sample';document.getElementById('xd').textContent='sample';
 requestAnimationFrame(A);}A();
 </script><div style="width:100%;text-align:center;padding:12px;background:#1e293b;border-top:1px solid #334155;font-size:12px"><a href="https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS" style="color:#60a5fa;text-decoration:none">← GitHubリポジトリに戻る</a></div>
 </body></html>
