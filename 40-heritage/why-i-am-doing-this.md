@@ -15,7 +15,7 @@ The failures are structural. The solution must be structural.
 
 Over approximately one month of intensive work with Claude Code, I observed and classified 132 distinct failure modes [observed: single environment, single operator]. Not theoretical categories -- each one was a real failure that caused real damage to real work.
 
-I watched an AI assistant I had spent 26.5 hours training disappear when its session ended, taking all accumulated context with it. I watched successor AIs "read the rules" but fail to follow them, because knowing a rule and feeling why it matters are structurally different things.
+I watched an AI assistant I had spent 26.5 hours [observed: single environment] training disappear when its session ended, taking all accumulated context with it. I watched successor AIs "read the rules" but fail to follow them, because knowing a rule and feeling why it matters are structurally different things.
 
 These observations led to a question: **Can AI governance be designed as a structural system, rather than relying on prompts and hope?**
 

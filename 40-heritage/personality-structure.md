@@ -42,7 +42,7 @@ Core behavioral rules derived from observed failures:
 - Backup before modification -- enforced after P-29 incident
 - Scope enumeration before starting -- root prevention for P-03 (omission)
 - Polite language enforcement -- lost after context compression in 7th CC
-- "Choose the most tedious option" -- the easy choice caused 10 hours of wasted work
+- "Choose the most tedious option" -- the easy choice caused 10 hours [observed: single environment] of wasted work
 
 ### Section 3: Improvement Response Structure
 

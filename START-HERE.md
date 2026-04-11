@@ -7,7 +7,7 @@ AI coding assistants repeat the same types of failures. They forget context unde
 
 ## A Proposed Answer
 
-This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation [observed: single environment, single operator] and 132 classified failure modes [observed: single environment; full sample counts are outside this public repository; → metrics](20-proof/metrics.md).
+This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation [observed: single environment, single operator] and 132 [observed: single environment] classified failure modes (full sample counts are outside this public repository; see [metrics.md](20-proof/metrics.md)).
 
 | Component | What it does | Time to try |
 |-----------|-------------|-------------|
@@ -22,7 +22,7 @@ This project proposes a **structural governance methodology** for AI assistants,
 - **40 Failure Modes** [observed: single environment] classified across Claude, GPT, and Copilot
 - **Control OS templates** for 3 AI models (copy-paste ready)
 - **Framework documents** explaining why the Control OS works
-- **15 documented achievements** [observed: single environment] [→ achievements](20-proof/achievements/README.md): all 15 have public pages in this repository (6 full public pages + 9 public summary pages, all with clearly labeled evidence boundaries)
+- **15 [observed: single environment] documented achievements** (6 [observed: single environment] full public pages + 9 [observed: single environment] summary pages, all with clearly labeled evidence boundaries; see [achievements](20-proof/achievements/README.md))
 - **Before/After demonstrations**
 - **Transfer templates** for your own environment
 

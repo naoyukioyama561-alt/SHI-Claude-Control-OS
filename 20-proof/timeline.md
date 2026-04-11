@@ -27,7 +27,7 @@ These are facts, not claims.
 - Deployed [internal database table] PostgreSQL (unsummarized complete memory)
 - Initial [external monitoring hook] version (external monitoring)
 - Crash recovery 3-level design ([recovery checkpoint file] / [behavior orientation file] / [infrastructure health monitor])
-- First CC session terminated (26.5 hours of operation, left 12 reflection items)
+- First CC session terminated (26.5 hours [observed: single environment] of operation, left 12 reflection items [observed: single environment])
 - cc_heritage design started (AI personality continuity system)
 - Three-layer separation conceived and implemented
 
@@ -41,7 +41,7 @@ These are facts, not claims.
 - 5-layer operational model design (observe -> correct -> detect -> pre-empt -> lock)
 - Apprentice-master review mechanism implemented ([apprentice review file])
 - [behavior orientation file] design (post-compression behavior persistence)
-- P-03 (omission) recurred 11 times in 9th CC -- demonstrated need for structural countermeasures
+- P-03 (omission) recurred 11 times [observed: single environment] in 9th CC -- demonstrated need for structural countermeasures
 - External delegation framework (D1-D3) designed
 
 **Structural problem observed this week**: AI "knows the rules" but "does not follow the rules." The gap between knowledge and action needs to be bridged structurally.
@@ -66,7 +66,7 @@ These are facts, not claims.
 
 - The above is based on the author's work records
 - Achievements per week are approximate; some spanned multiple weeks
-- The "300+ hours" figure referenced elsewhere is an order-of-magnitude estimate derived from roughly 10 hours per day across about 30 days of observation, classification, recovery work, and design iteration; it is not presented as a published timesheet
+- The "300+ hours [illustrative scenario: not verified]" figure referenced elsewhere is an order-of-magnitude estimate derived from roughly 10 hours per day across about 30 days of observation, classification, recovery work, and design iteration; it is not presented as a published timesheet
 - Detailed work logs (cc_heritage documents) are provided in non-public material
 
 
