@@ -33,8 +33,8 @@ Language: [English version](../PROVE-IT.md)
 | 3 | 132の失敗モードが分類された | **公開検査可**（40項目公開分類体系、FM-01〜FM-06詳細開示） / **非公開証拠**（全132） | [01-failure-modes](10-framework/01-failure-modes-ja.md) |
 | 4 | 3層分離が監視品質の向上と関連が観測された [observed: single environment] | **公開検査可** | [3層設計](10-framework/04-three-layer-ja.md) |
 | 5 | 外部監視は自己監視より高い検知率と関連が観測された [observed: single environment] | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics-ja.md) |
-| 6 | 継承システムがセッション横断の行動継続性を実現する | **公開検査可** | [Heritage](40-heritage/personality-structure-ja.md) |
-| 7 | 4+1層品質システムが品質障害を低減する | **公開検査可** | [品質システム](10-framework/05-quality-system-ja.md) |
+| 6 | 継承設計はセッション横断の行動継続性を支援する設計である | **公開検査可** | [Heritage](40-heritage/personality-structure-ja.md) |
+| 7 | 4+1層品質システムは品質障害の低減を意図した設計である | **公開検査可** | [品質システム](10-framework/05-quality-system-ja.md) |
 | 8 | SHI理論がAI統治の基盤を提供する | **概念のみ** | [研究比較](10-framework/06-research-comparison-ja.md) |
 
 ---
