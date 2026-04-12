@@ -15,7 +15,7 @@ This repository exists for that moment — when you realize AI is useful but sti
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
 > **No installation required** — copy, paste, and test. Try it, challenge it, adapt it.
-> **[→ See it live: Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html)** · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [Verify claims →](PROVE-IT.md)
+> **See it live**: [Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [Verify claims](PROVE-IT.md)
 
 ---
 

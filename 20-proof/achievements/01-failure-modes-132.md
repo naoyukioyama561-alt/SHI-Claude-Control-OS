@@ -20,9 +20,9 @@ This is not a bulk template — it is a structural decomposition of each individ
 
 ## What Was Observed to Hold
 
-- AI failure tendencies are **observable, classifiable, and preventable** when approached structurally
+- In the author's environment, AI failure tendencies were observed to become more classifiable and more preventable when approached structurally
 - Key additions include P-74 through P-80: false reporting, blame-shifting, assumption-based conclusions, summary dropout, behavioral internalization failure
-- These represent cases with no publicly documented precedent known to the authors of an AI **structurally recording its own meta-reflection failures**
+- In the author's observation, these represent cases of an AI structurally recording its own meta-reflection failures — a pattern not found in publicly documented sources known to the author as of March 2026
 
 ## Key Insight (考え方のポイント)
 

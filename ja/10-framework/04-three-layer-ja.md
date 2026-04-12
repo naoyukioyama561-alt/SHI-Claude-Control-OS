@@ -5,8 +5,6 @@ Language: [English version](../../10-framework/04-three-layer.md)
 
 監督・中継・作業 — 負荷を「量」ではなく「種類」で分離する構造。
 
-> *注: 本文書中の `[redacted]` は、安全な公開のために伏字化した内部サービス名やファイルパスです。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照。*
-
 ## 目次
 
 1. [3層分離](#1-3層分離負荷の種類を役割ごとに分けた新構造) — 監督・中継・作業の負荷種類分離
@@ -59,6 +57,8 @@ Language: [English version](../../10-framework/04-three-layer.md)
 **中継層（助手AI）**
 - mtime監視、backup確認、通知転送、機械的チェックを高速で回す
 - 判断をしないので文脈圧迫ゼロ → 止めてはいけない処理を漏れなく実行
+
+> *注: 本文書中の `[redacted]` は、安全な公開のために伏字化した内部サービス名やファイルパスです。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照。*
 
 **作業層（現行CC）**
 - 計画作成、実装、検証、[redacted]更新をスムーズに進めている

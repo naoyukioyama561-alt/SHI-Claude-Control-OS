@@ -5,8 +5,6 @@ If your AI degrades as conversations get longer, or forgets its own rules under 
 
 Supervisor / Relay / Worker — separating load by type, not volume.
 
-> *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
-
 ## Table of Contents
 
 1. [Three-Layer Separation](#1-three-layer-separation-load-type-separation) — load-type separation across Supervisor, Relay, and Worker roles
@@ -59,6 +57,8 @@ This allows **each CC/AI to operate only in its strongest cognitive mode**, desi
 **Relay Layer (Assistant AI)**
 - Runs mtime monitoring, backup verification, notification forwarding, and mechanical checks at high speed
 - Zero judgment means zero context pressure — executes must-not-stop processes without omission
+
+> *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 **Worker Layer (Current CC)**
 - Smoothly progresses plan creation, implementation, verification, and [redacted] updates

@@ -15,7 +15,7 @@ Language: [English version](../README.md)
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
 > **インストール不要** — コピーして貼り付けてテスト。試す、反証する、移植する。
-> **[→ 動いている形を見る: インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html)** · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [主張を検証する →](PROVE-IT-ja.md)
+> **動いている形を見る**: [インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [主張を検証する](PROVE-IT-ja.md)
 
 ---
 
