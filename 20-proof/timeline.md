@@ -5,7 +5,7 @@ Observation period: late 2025 -- March 2026. Observation and documentation proce
 
 A chronological record of what was observed when, over approximately one month.
 
-> *Bracketed labels such as `[internal database table]` mark redacted internal names. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).*
+> *Bracketed labels such as `[private data store]` mark redacted internal names. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md).*
 These are facts, not claims.
 
 ---
@@ -24,7 +24,7 @@ These are facts, not claims.
 
 ## Week 2 (Day 8-14) -- Foundation Building
 
-- Deployed internal database table PostgreSQL (unsummarized complete memory)
+- Deployed private data store PostgreSQL (unsummarized complete memory)
 - Initial external monitoring hook version (external monitoring)
 - Crash recovery 3-level design (recovery checkpoint file / behavior orientation file / infrastructure health monitor)
 - First CC session terminated (26.5 hours [observed: single environment] of operation, left 12 reflection items [observed: single environment])

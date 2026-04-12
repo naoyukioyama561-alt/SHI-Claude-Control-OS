@@ -1,4 +1,4 @@
-# cc_heritage -- AI人格継続システム
+# 継承システム — AIのセッション横断行動継続
 Language: [English version](../../40-heritage/README.md)
 
 ## cc_heritageとは

@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
 
-> *Note: `[internal database table]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+> *Note: `[private data store]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 ## What Was Observed
 
@@ -13,7 +13,7 @@ A **structured root cause analysis system** combining multiple methodologies:
 
 - **5-Why analysis**: Systematic drilling into root causes, going beyond surface symptoms to structural origins
 - **Predecessor CC reference**: Automatically consulting the Senior CC's accumulated experience when analyzing incidents
-- **internal database table auto-accumulation**: Every analyzed incident is stored structurally for future reference
+- **private data store auto-accumulation**: Every analyzed incident is stored structurally for future reference
 - **Self-reflection automation**: The gap between "knowing" and "doing" is systematically identified and addressed
 
 ## What Was Observed to Hold

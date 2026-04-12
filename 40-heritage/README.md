@@ -1,4 +1,4 @@
-# cc_heritage -- AI Personality Continuity System
+# Heritage System — AI Behavioral Continuity Across Sessions
 Language: [日本語版はこちら / Japanese version](../ja/40-heritage/README-ja.md)
 
 ## What is cc_heritage?

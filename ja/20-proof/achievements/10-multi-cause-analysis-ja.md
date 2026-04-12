@@ -5,7 +5,7 @@ Language: [English version](../../../20-proof/achievements/10-multi-cause-analys
 
 単発のデバッグでは見えにくい構造的パターンがあります。著者の環境では、複合要因分析により一回限りのレビューでは表面化しなかったパターンが検出されました。
 
-> *注: `[internal database table]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+> *注: `[private data store]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ## 何が観測されたか
 
@@ -13,7 +13,7 @@ Language: [English version](../../../20-proof/achievements/10-multi-cause-analys
 
 - **なぜなぜ5段分析**: 表面的な症状から構造的な原因まで体系的に掘り下げ
 - **前任CC参照**: インシデント分析時に初代CCの蓄積経験を自動参照
-- **internal database table自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
+- **private data store自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
 - **自己反省の自動化**: 「知っている」と「できている」のギャップを体系的に特定・対処
 
 ## 観測されたこと

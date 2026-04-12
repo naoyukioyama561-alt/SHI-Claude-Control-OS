@@ -24,7 +24,7 @@ Language: [English version](../../20-proof/timeline.md)
 
 ## Week 2（8〜14日目）— 基盤構築
 
-- internal database table PostgreSQLを構築（要約なし完全記憶）
+- private data store PostgreSQLを構築（要約なし完全記憶）
 - external monitoring hook初版を構築（外部監視）
 - クラッシュ復旧3レベル設計（recovery checkpoint file / behavior orientation file / infrastructure health monitor）
 - 初代CCセッション終了（26.5時間 [observed: single environment] の稼働、12件の省察項目 [observed: single environment] を残す）
