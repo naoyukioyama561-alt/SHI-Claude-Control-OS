@@ -63,7 +63,7 @@ Impact: Low / Med / High / V.High
 
 ---
 
-*Note: The "Claude" column covers both Claude Opus and Claude Sonnet observations. The "GPT (4o/5)" column covers GPT-4o and GPT-5 as of the observation period (late 2025 – March 2026).*
+> *Note: The "Claude" column covers both Claude Opus and Claude Sonnet observations. The "GPT (4o/5)" column covers GPT-4o and GPT-5 as of the observation period (late 2025 – March 2026).*
 
 
 ---

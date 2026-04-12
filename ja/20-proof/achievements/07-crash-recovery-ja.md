@@ -7,7 +7,7 @@ Language: [English version](../../../20-proof/achievements/07-crash-recovery.md)
 
 著者の環境で観測された、Claude Codeクラッシュ時の作業継続を支援する**クラッシュ自動検知＋3レベル復元設計**：
 
-*注: `[recovery checkpoint file]`、`[behavior orientation file]` 等は安全な公開のため墨消し済み。スコープ詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
+> *注: `[recovery checkpoint file]`、`[behavior orientation file]` 等は安全な公開のため墨消し済み。スコープ詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
 
 - **Level 1 -- recovery checkpoint file**: クラッシュ前の本質的な状態をキャプチャする軽量ファイルベース復旧
 - **Level 2 -- behavior orientation file**: 運用コンテキストを復元する次セッション自動ブートストラップ
