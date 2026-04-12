@@ -50,7 +50,7 @@
   <text x="595" y="222" text-anchor="middle" fill="#22c55e" font-size="22" font-weight="700">97% [observed: single environment]</text>
 
   <!-- Session ID -->
-  <text x="340" y="272" text-anchor="middle" fill="#475569" font-size="9">session: 0a78cdcd-f5a2-4ad1-83d0-ace8257f48bf</text>
+  <text x="340" y="272" text-anchor="middle" fill="#475569" font-size="9">単一の記録環境で観測 [observed: single environment]</text>
 
   <!-- Footer -->
   <text x="340" y="292" text-anchor="middle" fill="#64748b" font-size="10">著者の環境では、PostgreSQL外部化によりコンテキスト常駐データが97%削減 [observed: single environment]。</text>

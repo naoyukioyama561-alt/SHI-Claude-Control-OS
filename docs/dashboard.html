@@ -168,7 +168,7 @@ function updateLayers() {
   document.getElementById('judgmentVal').textContent = j;
   document.getElementById('monitorVal').textContent = m;
 
-  const workerLoad = 100; // execution is always 100%
+  const workerLoad = 100; // execution base load (illustrative)
   const totalOnWorker = j + m + workerLoad;
   const contextPressure = Math.min(100, Math.round((j + m) / 2));
   const qualityScore = Math.max(0, 100 - contextPressure);
