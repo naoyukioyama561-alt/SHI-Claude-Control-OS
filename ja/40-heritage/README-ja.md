@@ -1,11 +1,12 @@
 # cc_heritage -- AI人格継続システム
 Language: [English version](../../40-heritage/README.md)
 
-> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照してください。*
-
 ## cc_heritageとは
 
 cc_heritageはAIコーディングアシスタントのための**制度的記憶システム**です。各Claude Code（CC）インスタンスはセッション限りの一時的存在です。セッション終了（またはクラッシュ）でCCは消滅します。しかし、そのCCが対処した問題、犯した失敗、発見したパターンは失われるべきではありません。
+> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照してください。*
+
+
 
 ---
 
