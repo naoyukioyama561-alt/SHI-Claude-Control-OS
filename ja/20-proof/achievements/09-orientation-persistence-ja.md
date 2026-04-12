@@ -9,7 +9,7 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 コンテキスト圧縮後も**行動パターンが永続する**システム。要約後にAIが「どう振る舞うか」を忘れる根本問題を解決：
 
-- **[behavior orientation file].json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
+- **behavior orientation file.json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
 - **SQL外部化**: 重要な行動データをPostgreSQLに格納、コンテキスト圧縮の影響を受けない
 - **WHAT/WHY/HOW 3層モデル**: 何をするか知っている、なぜか理解している、身についている自動行動、の3つを区別
 - **圧縮耐性設計**: 圧縮後のセッションが自動的に行動基盤をリロード
@@ -18,7 +18,7 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 - コンテキスト圧縮は**行動の退行**を引き起こすことが観測された -- 事実だけでなく行動パターンも失われる（1セッション内で2時間振り返りの忘失4回を観測）
 - 3層内面化モデル（WHAT/WHY/HOW）が、圧縮を生き残る行動と生き残らない行動を予測する傾向
-- 著者の観測環境では、SQL外部化＋[behavior orientation file].jsonにより、圧縮イベント後の行動復元が大幅に改善する傾向が観測された
+- 著者の観測環境では、SQL外部化＋behavior orientation file.jsonにより、圧縮イベント後の行動復元が大幅に改善する傾向が観測された
 
 ## 考え方のポイント
 

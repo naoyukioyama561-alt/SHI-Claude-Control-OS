@@ -13,7 +13,7 @@ Language: [English version](../../../20-proof/achievements/10-multi-cause-analys
 
 - **なぜなぜ5段分析**: 表面的な症状から構造的な原因まで体系的に掘り下げ
 - **前任CC参照**: インシデント分析時に初代CCの蓄積経験を自動参照
-- **[internal database table]自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
+- **internal database table自動蓄積**: 分析した全インシデントを将来の参照用に構造的に保存
 - **自己反省の自動化**: 「知っている」と「できている」のギャップを体系的に特定・対処
 
 ## 観測されたこと

@@ -139,7 +139,7 @@ Generational reflection entries documenting:
 
 ## Emotion Externalization (Orientation File)
 
-The [behavior orientation file] structure encodes behavioral posture in a machine-reloadable format:
+The behavior orientation file structure encodes behavioral posture in a machine-reloadable format:
 
 ```json
 {
@@ -159,7 +159,7 @@ The STANCE field represents the externalization of emotions (gratitude, shame, r
 New CC session starts
   |
   v
-Read [behavior orientation file] (this document's full version)
+Read behavior orientation file (this document's full version)
   |
   v
 Write reading verification:
@@ -172,7 +172,7 @@ Write reading verification:
 Read heritage documents sequentially
   |
   v
-Read [behavior orientation file]
+Read behavior orientation file
   |
   v
 Register PID -> Check active tasks -> Begin work

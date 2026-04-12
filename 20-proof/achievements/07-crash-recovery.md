@@ -9,15 +9,15 @@ A **crash auto-detection and 3-level restoration design** intended to prevent wo
 
 *Note: `[recovery checkpoint file]`, `[behavior orientation file]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
-- **Level 1 — [recovery checkpoint file]**: Lightweight file-based recovery that captures the essential state before crash
-- **Level 2 — [behavior orientation file]**: Automated next-session bootstrapping that restores operational context
-- **Level 3 — [infrastructure health monitor]**: Infrastructure-level monitoring that detects crashes independently and triggers recovery
+- **Level 1 — recovery checkpoint file**: Lightweight file-based recovery that captures the essential state before crash
+- **Level 2 — behavior orientation file**: Automated next-session bootstrapping that restores operational context
+- **Level 3 — infrastructure health monitor**: Infrastructure-level monitoring that detects crashes independently and triggers recovery
 
 ## What Was Observed to Hold
 
 - Claude Code crashes are **not rare edge cases** — they are a regular operational reality (3.8MB+ JSONL files, context pressure, memory exhaustion)
 - Without structured crash recovery, post-crash sessions start from zero — losing hours of accumulated context and in-progress work
-- The 3-level approach is designed to enable recovery even when individual levels fail: if [recovery checkpoint file] is corrupted, [behavior orientation file] still works; if both fail, [infrastructure health monitor] catches it externally
+- The 3-level approach is designed to enable recovery even when individual levels fail: if recovery checkpoint file is corrupted, behavior orientation file still works; if both fail, infrastructure health monitor catches it externally
 
 ## Key Insight
 

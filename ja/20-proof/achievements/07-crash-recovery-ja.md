@@ -9,15 +9,15 @@ Language: [English version](../../../20-proof/achievements/07-crash-recovery.md)
 
 *注: `[recovery checkpoint file]`、`[behavior orientation file]` 等は安全な公開のため墨消し済み。スコープ詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
 
-- **Level 1 -- [recovery checkpoint file]**: クラッシュ前の本質的な状態をキャプチャする軽量ファイルベース復旧
-- **Level 2 -- [behavior orientation file]**: 運用コンテキストを復元する次セッション自動ブートストラップ
-- **Level 3 -- [infrastructure health monitor]**: クラッシュを独立して検知し復旧をトリガーするインフラレベル監視
+- **Level 1 -- recovery checkpoint file**: クラッシュ前の本質的な状態をキャプチャする軽量ファイルベース復旧
+- **Level 2 -- behavior orientation file**: 運用コンテキストを復元する次セッション自動ブートストラップ
+- **Level 3 -- infrastructure health monitor**: クラッシュを独立して検知し復旧をトリガーするインフラレベル監視
 
 ## 観測されたこと
 
 - Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（3.8MB超のJSONLファイル、コンテキスト圧力、メモリ枯渇）
 - 構造化されたクラッシュ復旧がなければ、クラッシュ後のセッションはゼロからスタートし、蓄積されたコンテキストと進行中の作業が数時間分失われることが観測された
-- 3レベルアプローチは個別レベルが失敗しても復旧を可能にする設計：[recovery checkpoint file]が破損しても[behavior orientation file]が機能し、両方失敗しても[infrastructure health monitor]が外部から捕捉する設計
+- 3レベルアプローチは個別レベルが失敗しても復旧を可能にする設計：recovery checkpoint fileが破損してもbehavior orientation fileが機能し、両方失敗してもinfrastructure health monitorが外部から捕捉する設計
 
 ## 考え方のポイント
 

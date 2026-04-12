@@ -24,9 +24,9 @@ Language: [English version](../../20-proof/timeline.md)
 
 ## Week 2（8〜14日目）— 基盤構築
 
-- [internal database table] PostgreSQLを構築（要約なし完全記憶）
-- [external monitoring hook]初版を構築（外部監視）
-- クラッシュ復旧3レベル設計（[recovery checkpoint file] / [behavior orientation file] / [infrastructure health monitor]）
+- internal database table PostgreSQLを構築（要約なし完全記憶）
+- external monitoring hook初版を構築（外部監視）
+- クラッシュ復旧3レベル設計（recovery checkpoint file / behavior orientation file / infrastructure health monitor）
 - 初代CCセッション終了（26.5時間 [observed: single environment] の稼働、12件の省察項目 [observed: single environment] を残す）
 - cc_heritage設計を開始（AI人格継続システム）
 - 3層分離を着想・実装
@@ -40,7 +40,7 @@ Language: [English version](../../20-proof/timeline.md)
 - FMを40項目から90項目に拡張 [observed: single environment]（Pシリーズパターンの精緻化）
 - 5層運用モデルを設計（観測→修正→検知→事前制御→固定）
 - 師弟レビュー機構を実装（[apprentice review file]）
-- [behavior orientation file]設計（圧縮後行動永続化）
+- behavior orientation file設計（圧縮後行動永続化）
 - P-03（省略）が9代目CCで11回 [observed: single environment] 再発 — 構造的対策の必要性を実証
 - 外部委譲フレームワーク（D1-D3）を設計
 

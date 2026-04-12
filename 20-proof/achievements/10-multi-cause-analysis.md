@@ -13,7 +13,7 @@ A **structured root cause analysis system** combining multiple methodologies:
 
 - **5-Why analysis**: Systematic drilling into root causes, going beyond surface symptoms to structural origins
 - **Predecessor CC reference**: Automatically consulting the Senior CC's accumulated experience when analyzing incidents
-- **[internal database table] auto-accumulation**: Every analyzed incident is stored structurally for future reference
+- **internal database table auto-accumulation**: Every analyzed incident is stored structurally for future reference
 - **Self-reflection automation**: The gap between "knowing" and "doing" is systematically identified and addressed
 
 ## What Was Observed to Hold
