@@ -29,13 +29,13 @@ Language: [English version](../PROVE-IT.md)
 | # | 主張 | 検証ステータス | 検証先 |
 |---|-------|-------------------|-----------------|
 | 1 | AIの失敗モードは観察・分類可能である | **公開利用可** | [FM-40チートシート](30-adoption/try/fm-40-cheatsheet-ja.md) -- 自分のAIでテスト |
-| 2 | Control OSはよくある失敗モードを抑制する | **公開利用可** | [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md) -- 自分でテスト実行 |
+| 2 | Control OSはよくある失敗モードの低減を意図した設計である。ご自身の環境で検証してください | **公開利用可** | [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md) -- 自分でテスト実行 |
 | 3 | 132の失敗モードが分類された | **公開検査可**（40項目公開分類体系、FM-01〜FM-06詳細開示） / **非公開証拠**（全132） | [01-failure-modes](10-framework/01-failure-modes-ja.md) |
 | 4 | 3層分離が監視品質の向上と関連が観測された [observed: single environment] | **公開検査可** | [3層設計](10-framework/04-three-layer-ja.md) |
 | 5 | 外部監視は自己監視より高い検知率と関連が観測された [observed: single environment] | **公開検査可**（検知率公開） / **非公開証拠**（N数） | [メトリクス](20-proof/metrics-ja.md) |
 | 6 | 継承設計はセッション横断の行動継続性を支援する設計である | **公開検査可** | [Heritage](40-heritage/personality-structure-ja.md) |
 | 7 | 4+1層品質システムは品質障害の低減を意図した設計である | **公開検査可** | [品質システム](10-framework/05-quality-system-ja.md) |
-| 8 | SHI理論がAI統治の基盤を提供する | **概念のみ** | [研究比較](10-framework/06-research-comparison-ja.md) |
+| 8 | SHI理論はAI統治の概念的基盤を提案するものである | **概念のみ** | [研究比較](10-framework/06-research-comparison-ja.md) |
 
 ---
 

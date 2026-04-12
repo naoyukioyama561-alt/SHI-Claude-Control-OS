@@ -3,11 +3,12 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
-> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
-
 ## 何が観測されたか
 
 コンテキスト圧縮後も**行動パターンが永続する**ことを目指すシステム。要約後にAIが「どう振る舞うか」を忘れる根本問題に対処する設計：
+> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+
+
 
 - **behavior orientation file.json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
 - **SQL外部化**: 重要な行動データをPostgreSQLに格納、コンテキスト圧縮の影響を受けない

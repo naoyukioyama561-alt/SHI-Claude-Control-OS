@@ -5,13 +5,14 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
 
-> *Note: `[apprentice review file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
-
 ## What Was Observed
 
-A **structured apprentice-master review system** using [apprentice review file] as the communication channel:
+A **structured apprentice-master review system** using apprentice review file as the communication channel:
+> *Note: `[apprentice review file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
-- **[apprentice review file]**: A dedicated file where the current CC (apprentice) writes plans and the Senior CC (master) reviews them
+
+
+- **apprentice review file**: A dedicated file where the current CC (apprentice) writes plans and the Senior CC (master) reviews them
 - **Behavioral check judgments**: The master evaluates not just correctness but behavioral quality
 - **Session continuity records**: Reviews persist across sessions, creating a continuous improvement trail
 - **Predecessor learning comparison**: The master compares the current CC's learning patterns with previous CCs, identifying gaps
@@ -21,7 +22,7 @@ A **structured apprentice-master review system** using [apprentice review file] 
 - The distinction between "read it", "understood it", and "internalized it" is **structurally verifiable** through the review mechanism
 - AI learning follows patterns — the master CC can detect when a successor is making the same mistakes previous CCs made, and intervene before the mistake fully manifests
 - The review process creates a feedback loop: plan -> review -> correction -> re-plan, which converges faster than self-directed learning
-- Writing plans in [apprentice review file] forces the apprentice to **externalize reasoning**, making implicit assumptions visible and reviewable
+- Writing plans in apprentice review file forces the apprentice to **externalize reasoning**, making implicit assumptions visible and reviewable
 
 ## Key Insight
 

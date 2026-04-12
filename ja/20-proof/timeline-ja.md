@@ -39,7 +39,7 @@ Language: [English version](../../20-proof/timeline.md)
 
 - FMを40項目から90項目に拡張 [observed: single environment]（Pシリーズパターンの精緻化）
 - 5層運用モデルを設計（観測→修正→検知→事前制御→固定）
-- 師弟レビュー機構を実装（[apprentice review file]）
+- 師弟レビュー機構を実装（apprentice review file）
 - behavior orientation file設計（圧縮後行動永続化）
 - P-03（省略）が9代目CCで11回 [observed: single environment] 再発 — 構造的対策の必要性を実証
 - 外部委譲フレームワーク（D1-D3）を設計

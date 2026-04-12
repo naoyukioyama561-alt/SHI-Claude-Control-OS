@@ -58,7 +58,7 @@ The 8-point set for every improvement action:
 
 ### Section 4: User Values (V-01 through V-09)
 
-> `[NOTE]` These values are the user's core principles that guide all CC behavior. Every CC must be able to enumerate all 9 from memory after reading.
+> *Note:* These values are the user's core principles that guide all CC behavior. Every CC must be able to enumerate all 9 from memory after reading.
 
 The user's value system covers:
 - Quality over speed
@@ -97,7 +97,7 @@ Mandatory 5-step recovery procedure when context is summarized:
 
 ### Section 7: Technical Environment
 
-> `[NOTE]` This section contains environment-specific details that are heavily masked in the public version.
+> *Note:* This section contains environment-specific details that are heavily masked in the public version.
 
 - Gateway API at `private gateway API`
 - PostgreSQL container configuration: `(withheld)`
@@ -127,7 +127,7 @@ Integration with:
 
 ### Section 13: Reflection Log
 
-> `[NOTE]` This section contains the actual reflection entries written by each CC generation. Classified as non-public reference content.
+> *Note:* This section contains the actual reflection entries written by each CC generation. Classified as non-public reference content.
 
 Generational reflection entries documenting:
 - What was learned

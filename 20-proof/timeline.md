@@ -39,7 +39,7 @@ These are facts, not claims.
 
 - FM expanded from 40 to 90 items [observed: single environment] (P-series pattern refinement)
 - 5-layer operational model design (observe -> correct -> detect -> pre-empt -> lock)
-- Apprentice-master review mechanism implemented ([apprentice review file])
+- Apprentice-master review mechanism implemented (apprentice review file)
 - behavior orientation file design (post-compression behavior persistence)
 - P-03 (omission) recurred 11 times [observed: single environment] in 9th CC -- demonstrated need for structural countermeasures
 - External delegation framework (D1-D3) designed

@@ -3,11 +3,12 @@ Language: [English version](../../../20-proof/achievements/06-safety-net.md)
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
-> *注: `[designated write target]`、`[external monitoring hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
-
 ## 何が観測されたか
 
 AIが危険な操作を実行することを防ぐ**多層安全システム**：
+> *注: `[designated write target]`、`[external monitoring hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+
+
 
 - **PreToolUseブロックフック**: 危険なツール呼び出しを実行前にインターセプト・ブロック
 - **危険コマンドdeny**: rm、mv、cpその他の破壊的コマンドの完全拒否

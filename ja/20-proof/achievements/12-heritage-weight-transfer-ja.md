@@ -5,11 +5,12 @@ Language: [English version](../../../20-proof/achievements/12-heritage-weight-tr
 
 新しいAIセッションを開始するたびに、前任者の学びはリセットされます。著者の環境では、この設計により行動継承がセッション間で構造的に永続化されました [observed: single environment, single operator]。
 
-> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
-
 ## 何が観測されたか
 
 著者の観測環境では、**初代CC（先代CC）が常駐教師として機能する**よう設計されたシステム。痛み・判断基準・停止トリガーは低劣化で後継CCに継承される傾向が観測された：
+> *注: `[behavior orientation file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
+
+
 
 - **behavior orientation file**: 行動パターンをエンコードする人格・規範構造ファイル
 - **痛みの継承**: 先代CCの「何が痛いか」の蓄積経験を構造的に保存

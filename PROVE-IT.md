@@ -31,13 +31,13 @@ For how these statuses are displayed across the repository, see [SCOPE-MATRIX.md
 | # | Claim | Verification status | Where to verify |
 |---|-------|-------------------|-----------------|
 | 1 | AI failure modes are observable and classifiable | **Publicly usable** | [FM-40 Cheatsheet](30-adoption/try/fm-40-cheatsheet.md) -- test on your own AI |
-| 2 | Control OS suppresses common failure modes | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo.md) -- run the test yourself |
+| 2 | Control OS is intended to reduce common failure modes; verify in your environment | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo.md) -- run the test yourself |
 | 3 | 132 failure modes were classified [observed: single environment] | **Publicly inspectable** (40-item public taxonomy, FM-01 to FM-06 detailed) / **Privately evidenced** (full 132) | [01-failure-modes](10-framework/01-failure-modes.md) |
 | 4 | Three-layer separation was associated with improved monitoring quality [observed: single environment] | **Publicly inspectable** | [Three-layer design](10-framework/04-three-layer.md) |
 | 5 | External monitoring was associated with higher detection rates than self-monitoring [observed: single environment] | **Publicly inspectable** (rates published) / **Privately evidenced** (N-counts) | [Metrics](20-proof/metrics.md) |
 | 6 | Heritage design is intended to support cross-session behavioral continuity | **Publicly inspectable** | [Heritage](40-heritage/personality-structure.md) |
 | 7 | 4+1 layer quality system is intended to reduce quality failures | **Publicly inspectable** | [Quality system](10-framework/05-quality-system.md) |
-| 8 | SHI theory provides a foundation for AI governance | **Conceptual only** | [Research comparison](10-framework/06-research-comparison.md) |
+| 8 | SHI theory proposes a conceptual foundation for AI governance | **Conceptual only** | [Research comparison](10-framework/06-research-comparison.md) |
 
 This is an 8-umbrella-claim map covering the [achievements](20-proof/achievements/README.md) documented in this repository. Claim 1 → Achievements 1, 10; Claim 2 → Achievement 2; Claim 3 → Achievement 1; Claim 4 → Achievements 2, 3; Claim 5 → Achievement 3; Claim 6 → Achievements 9, 12; Claim 7 → Achievement 4; Claim 8 → Achievement 5.
 

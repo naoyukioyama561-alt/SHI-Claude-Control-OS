@@ -3,11 +3,12 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
-> *Note: `[designated write target]` and `[external monitoring hook]` are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
-
 ## What Was Observed
 
 A **multi-layer safety system** designed to block dangerous operations before execution:
+> *Note: `[designated write target]` and `[external monitoring hook]` are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+
+
 
 - **PreToolUse block hooks**: Intercept and block dangerous tool invocations before they execute
 - **Dangerous command deny**: Complete denial of rm, mv, cp, and other destructive commands

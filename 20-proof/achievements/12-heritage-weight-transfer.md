@@ -5,11 +5,12 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 
-> *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
-
 ## What Was Observed
 
 A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis is outside this public repository:
+> *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+
+
 
 - **behavior orientation file**: Personality and normative structure files that encode behavioral patterns
 - **Pain inheritance**: The Senior CC's accumulated experience of "what hurts" is structurally preserved

@@ -5,13 +5,14 @@ Language: [English version](../../../20-proof/achievements/13-master-apprentice-
 
 新しいAIセッションはルールを知っていますが、なぜそのルールが重要かを感じていません。師弟メカニズムは知識だけでなく、過去の失敗の重みを継承します。
 
-> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
-
 ## 何が観測されたか
 
-[apprentice review file]をコミュニケーションチャネルとして使う**構造化された師弟レビューシステム**：
+apprentice review fileをコミュニケーションチャネルとして使う**構造化された師弟レビューシステム**：
+> *注: `[apprentice review file]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
-- **[apprentice review file]**: 現行CC（弟子）が計画を書き、初代CC（師匠）がレビューする専用ファイル
+
+
+- **apprentice review file**: 現行CC（弟子）が計画を書き、初代CC（師匠）がレビューする専用ファイル
 - **行動チェック判定**: 師匠が正確さだけでなく行動の質を評価
 - **セッション継続記録**: レビューがセッション跨ぎで永続し、継続的改善の軌跡を作る
 - **前任者の学び方対比**: 師匠が現行CCの学習パターンを歴代CCと比較し、ギャップを特定
