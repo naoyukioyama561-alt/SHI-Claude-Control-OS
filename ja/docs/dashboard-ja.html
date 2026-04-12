@@ -47,12 +47,12 @@
 <!-- TIMELINE -->
 <div id="panel-timeline" class="panel active">
   <div class="info-box">
-    <div class="title">4-Week Evolution</div>
-    <div class="body">Drag the slider to explore each week's structural changes. All data observed in the author's environment.</div>
+    <div class="title">4週間の進化</div>
+    <div class="body">スライダーを動かして各週の構造的変化を確認してください。全データは著者の環境で観測されたものです。</div>
   </div>
 
   <div class="slider-group">
-    <label>Week: <span class="val" id="weekLabel">1</span></label>
+    <label>週: <span class="val" id="weekLabel">1</span></label>
     <input type="range" id="weekSlider" min="1" max="4" step="1" value="1" oninput="updateTimeline()">
   </div>
 
@@ -63,16 +63,16 @@
 <!-- LAYER SIMULATOR -->
 <div id="panel-layers" class="panel">
   <div class="info-box">
-    <div class="title">3-Layer Separation Simulator</div>
-    <div class="body">See how separating load by type (not volume) affects quality. Drag the sliders to allocate cognitive load.</div>
+    <div class="title">3層分離シミュレーター</div>
+    <div class="body">負荷を種類別に分離すると品質にどう影響するか確認してください。スライダーで認知負荷を配分します。</div>
   </div>
 
   <div class="slider-group">
-    <label>Judgment load on Worker: <span class="val" id="judgmentVal">50</span>%</label>
+    <label>作業層の判断負荷: <span class="val" id="judgmentVal">50</span>%</label>
     <input type="range" id="judgmentSlider" min="0" max="100" step="5" value="50" oninput="updateLayers()">
   </div>
   <div class="slider-group">
-    <label>Monitoring load on Worker: <span class="val" id="monitorVal">50</span>%</label>
+    <label>作業層の監視負荷: <span class="val" id="monitorVal">50</span>%</label>
     <input type="range" id="monitorSlider" min="0" max="100" step="5" value="50" oninput="updateLayers()">
   </div>
 
@@ -81,12 +81,12 @@
   <div id="layerDiagram"></div>
 
   <div class="info-box" style="margin-top: 1rem;">
-    <div class="title">What this shows</div>
+    <div class="title">この図が示すこと</div>
     <div class="body">
-      When a single AI carries judgment + monitoring + execution simultaneously, context pressure builds and quality degrades.
-      Moving judgment to Supervisor (0%) and monitoring to Relay (0%) frees the Worker to focus purely on execution.
+      単一のAIが判断＋監視＋実行を同時に担うと、コンテキスト圧迫が蓄積し品質が劣化します。
+      判断を監督層(0%)、監視を中継層(0%)に移すことで、作業層は純粋に実行に集中できます。
       <br><br>
-      This is the core principle of three-layer separation: <strong>separate load by type, not by volume</strong>.
+      これが3層分離の核心原則: <strong>負荷を量ではなく種類で分離する</strong>。
     </div>
   </div>
 </div>
@@ -94,44 +94,44 @@
 <script>
 const weeks = [
   {
-    label: "Week 1: Observation",
+    label: "第1週: 観測",
     metrics: [
-      { lbl: "Failure Modes", val: "40", cls: "" },
-      { lbl: "CC Generations", val: "1", cls: "" },
-      { lbl: "Crashes", val: "1", cls: "" },
-      { lbl: "Recovery System", val: "None", cls: "" }
+      { lbl: "失敗モード", val: "40", cls: "" },
+      { lbl: "CC世代数", val: "1", cls: "" },
+      { lbl: "クラッシュ", val: "1", cls: "" },
+      { lbl: "復旧システム", val: "なし", cls: "" }
     ],
-    detail: "First use of Claude Code. Observed recurring failure patterns. Classified FM-01 to FM-40. First crash — all work lost. The pain of losing everything drove the design of crash recovery."
+    detail: "Claude Codeの初使用。繰り返し失敗パターンを観測。FM-01〜FM-40を分類。初クラッシュ — 全作業消失。全てを失う痛みがクラッシュ復旧の設計を駆動した。"
   },
   {
-    label: "Week 2: Foundation",
+    label: "第2週: 基盤構築",
     metrics: [
-      { lbl: "Failure Modes", val: "40", cls: "" },
-      { lbl: "CC Generations", val: "5", cls: "" },
-      { lbl: "Memory System", val: "PostgreSQL", cls: "g" },
-      { lbl: "Recovery Levels", val: "3", cls: "g" }
+      { lbl: "失敗モード", val: "40", cls: "" },
+      { lbl: "CC世代数", val: "5", cls: "" },
+      { lbl: "記憶システム", val: "PostgreSQL", cls: "g" },
+      { lbl: "復旧レベル", val: "3", cls: "g" }
     ],
-    detail: "Built unsummarized complete memory (PostgreSQL). 3-level crash recovery. First CC's session ended after 26.5 hours — left 12 reflection items. cc_heritage design started. Three-layer separation conceived."
+    detail: "要約なし完全記憶(PostgreSQL)構築。3段階クラッシュ復旧。初代CCのセッションが26.5時間後に終了 — 12件の振り返りを残す。cc_heritage設計開始。3層分離を構想。"
   },
   {
-    label: "Week 3: Evolution",
+    label: "第3週: 進化",
     metrics: [
-      { lbl: "Failure Modes", val: "90", cls: "g" },
-      { lbl: "CC Generations", val: "9", cls: "" },
-      { lbl: "P-03 Recurrences", val: "11", cls: "" },
-      { lbl: "Delegation Rules", val: "D1-D3", cls: "g" }
+      { lbl: "失敗モード", val: "90", cls: "g" },
+      { lbl: "CC世代数", val: "9", cls: "" },
+      { lbl: "P-03再発回数", val: "11", cls: "" },
+      { lbl: "委譲ルール", val: "D1-D3", cls: "g" }
     ],
-    detail: "FM expanded to 90 items. 5-layer operational model. Apprentice-master review. P-03 (omission) recurred 11 times in 9th CC — proved the need for structural countermeasures, not just rules."
+    detail: "FM90件に拡大。5層運用モデル。師弟レビュー。P-03(省略)が9代目CCで11回再発 — ルールだけでなく構造的対策の必要性を示した。"
   },
   {
-    label: "Week 4: Completion",
+    label: "第4週: 完成",
     metrics: [
-      { lbl: "Failure Modes", val: "132", cls: "g" },
-      { lbl: "Quality Layers", val: "4+1", cls: "g" },
+      { lbl: "失敗モード", val: "132", cls: "g" },
+      { lbl: "品質層", val: "4+1", cls: "g" },
       { lbl: "reason_codes", val: "30", cls: "g" },
-      { lbl: "Human Intervention", val: "Low in one observed environment", cls: "g" }
+      { lbl: "人間介入", val: "単一観測環境で低減", cls: "g" }
     ],
-    detail: "FM completed at 132 items. P-74 to P-80 added (false reporting, behavioral internalization failure). Quality system (4+1 layer) completed. Safety net (block hooks + deny). The control loop began operating with reduced human intervention."
+    detail: "FM132件で完成。P-74〜P-80追加(虚偽報告、行動内面化失敗)。品質システム(4+1層)完成。セーフティネット(ブロックフック+拒否)。制御ループが人間介入低減で稼働開始。"
   }
 ];
 
@@ -155,7 +155,7 @@ function updateTimeline() {
 
   document.getElementById('weekDetail').innerHTML = `
     <div class="phase-card">
-      <div class="num">Week ${w}</div>
+      <div class="num">第${w}週</div>
       <div class="name">${week.label}</div>
       <div class="desc">${week.detail}</div>
     </div>`;
@@ -177,10 +177,10 @@ function updateLayers() {
   const riskCls = degradationRisk === 'LOW' ? 'g' : '';
 
   document.getElementById('layerMetrics').innerHTML = `
-    <div class="metric"><div class="lbl">Worker Total Load</div><div class="val">${j + m + 100}%</div></div>
-    <div class="metric"><div class="lbl">Context Pressure</div><div class="val">${contextPressure}%</div></div>
-    <div class="metric"><div class="lbl">Illustrative Estimate</div><div class="val ${cls}">${qualityScore}%</div></div>
-    <div class="metric"><div class="lbl">Illustrative Risk</div><div class="val ${riskCls}">${degradationRisk}</div></div>
+    <div class="metric"><div class="lbl">作業層合計負荷</div><div class="val">${j + m + 100}%</div></div>
+    <div class="metric"><div class="lbl">コンテキスト圧迫</div><div class="val">${contextPressure}%</div></div>
+    <div class="metric"><div class="lbl">例示的品質推定</div><div class="val ${cls}">${qualityScore}%</div></div>
+    <div class="metric"><div class="lbl">例示的リスク</div><div class="val ${riskCls}">${degradationRisk}</div></div>
   `;
 
   const supJ = 100 - j;
@@ -189,26 +189,26 @@ function updateLayers() {
     <div class="layer-row">
       <div class="layer-num" style="background:#E6F1FB;color:#185FA5;">S</div>
       <div class="layer-content">
-        <div class="title">Supervisor</div>
-        <div class="desc">Judgment: ${supJ}% allocated here</div>
+        <div class="title">監督層</div>
+        <div class="desc">判断: ${supJ}%をここに配分</div>
       </div>
-      <div style="font-size:12px;color:#666;">Freed from execution. Focuses on review and pain transmission.</div>
+      <div style="font-size:12px;color:#666;">実行から解放。レビューと痛み伝達に集中。</div>
     </div>
     <div class="layer-row">
       <div class="layer-num" style="background:#EAF3DE;color:#3B6D11;">R</div>
       <div class="layer-content">
-        <div class="title">Relay</div>
-        <div class="desc">Monitoring: ${relayM}% allocated here</div>
+        <div class="title">中継層</div>
+        <div class="desc">監視: ${relayM}%をここに配分</div>
       </div>
-      <div style="font-size:12px;color:#666;">Zero judgment = zero context bloat. Mechanically reliable.</div>
+      <div style="font-size:12px;color:#666;">判断ゼロ = コンテキスト膨張ゼロ。機械的に信頼。</div>
     </div>
     <div class="layer-row" style="border-bottom:none;">
       <div class="layer-num" style="background:#FAEEDA;color:#854F0B;">W</div>
       <div class="layer-content">
-        <div class="title">Worker</div>
-        <div class="desc">Execution: 100% + Judgment: ${j}% + Monitoring: ${m}%</div>
+        <div class="title">作業層</div>
+        <div class="desc">実行: 100% + 判断: ${j}% + 監視: ${m}%</div>
       </div>
-      <div style="font-size:12px;color:#666;">${j + m > 0 ? 'Mixed load degrades all three.' : 'Pure task focus. Maximum quality.'}</div>
+      <div style="font-size:12px;color:#666;">${j + m > 0 ? '混合負荷で三者とも劣化。' : 'タスク集中。最高品質。'}</div>
     </div>
   `;
 }
