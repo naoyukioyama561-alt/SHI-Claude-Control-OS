@@ -7,13 +7,13 @@ AIコーディングアシスタントは同じ種類の失敗を繰り返す。
 
 ## 一つの答え
 
-本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提案する。単一の記録環境での約1か月の集中的な観察から得た大規模な失敗モード分類体系（詳細件数は本公開リポジトリの範囲外。[metrics-ja.md](20-proof/metrics-ja.md) を参照）をもとに整理したものである。
+本プロジェクトは、AIアシスタントのための**構造的統治方法論**を提案する。単一の記録環境 [observed: single environment] での約1か月の観察から得た失敗モード分類体系（詳細件数は本公開リポジトリの範囲外。[metrics-ja.md](20-proof/metrics-ja.md) を参照）をもとに整理したものである。
 
 | コンポーネント | 何をするか | 所要時間 |
 |-----------|-------------|-------------|
-| [Control OS](30-adoption/try/) | AIのシステムプロンプトに貼り付ける。よくある失敗モードを抑制する。 | 30秒 |
-| [FM-40チートシート](30-adoption/try/fm-40-cheatsheet-ja.md) | あなたのAIがどの失敗モードを最も多く発生させるか特定する | 10分 |
-| [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md) | Control OSあり・なしの違いを確認する | 5分 |
+| [Control OS](30-adoption/try/) | AIのシステムプロンプトに貼り付けて、繰り返し失敗が減るか検証する。 | 30秒 |
+| [FM-40チートシート](30-adoption/try/fm-40-cheatsheet-ja.md) | あなたのAIがどの失敗モードを最も多く発生させるか特定する。 | 10分 |
+| [Before/Afterデモ](30-adoption/try/before-after-demo-ja.md) | Before/After比較を見て、ご自身の環境で違いを検証する。 | 5分 |
 
 > **用語**: 3層分離（役割分担）≠ 4+1（品質管理）≠ 5層ループ（統治サイクル）。定義は [GLOSSARY-ja.md](GLOSSARY-ja.md) を参照。
 

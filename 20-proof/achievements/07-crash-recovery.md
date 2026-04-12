@@ -15,7 +15,7 @@ A **crash auto-detection and 3-level restoration design** intended to prevent wo
 
 ## What Was Observed to Hold
 
-- Claude Code crashes are **not rare edge cases** — they are a regular operational reality (3.8MB+ JSONL files, context pressure, memory exhaustion)
+- Claude Code crashes are **not rare edge cases** — they are a regular operational reality (large JSONL files, context pressure, memory exhaustion) [observed: single environment]
 - Without structured crash recovery, post-crash sessions start from zero — losing hours of accumulated context and in-progress work
 - The 3-level approach is designed to enable recovery even when individual levels fail: if recovery checkpoint file is corrupted, behavior orientation file still works; if both fail, infrastructure health monitor catches it externally
 

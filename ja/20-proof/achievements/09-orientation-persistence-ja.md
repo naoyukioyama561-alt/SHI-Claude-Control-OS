@@ -7,7 +7,7 @@ Language: [English version](../../../20-proof/achievements/09-orientation-persis
 
 ## 何が観測されたか
 
-コンテキスト圧縮後も**行動パターンが永続する**システム。要約後にAIが「どう振る舞うか」を忘れる根本問題を解決：
+コンテキスト圧縮後も**行動パターンが永続する**ことを目指すシステム。要約後にAIが「どう振る舞うか」を忘れる根本問題に対処する設計：
 
 - **behavior orientation file.json**: WHY（目的）、HOW（方法）、STANCE（行動姿勢）をエンコード -- 行動内面化の3層
 - **SQL外部化**: 重要な行動データをPostgreSQLに格納、コンテキスト圧縮の影響を受けない
