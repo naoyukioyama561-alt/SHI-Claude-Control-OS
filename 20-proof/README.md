@@ -15,7 +15,7 @@ Availability labels below indicate **where the deeper detail lives**, not whethe
 
 This page is a reader-facing map of what can be publicly verified from this repository. Start here if you want one page that tells you what is already testable, what is inspectable, and what is intentionally out of scope.
 
-### ★5 (3 items): No.1, No.2, No.12
+### Highest verifiability (★5): No.1, No.2, No.12
 
 These three can be understood and applied to your own AI using only the public repository.
 
@@ -25,11 +25,11 @@ These three can be understood and applied to your own AI using only the public r
 
 > Note: No.12 (Heritage Weight Transfer) is rated ★5 because the complete cc_heritage design is publicly available for replication, though quantitative effect measurements are outside this public repository.
 
-### ★4 (8 items): No.3, 4, 5, 6, 7, 8, 9, 13
+### High verifiability (★4): No.3, 4, 5, 6, 7, 8, 9, 13
 
 Design philosophy is understandable, but quantitative data is provided outside this public repository.
 
-### ★3 (4 items): No.10, 11, 14, 15
+### Concept-level verifiability (★3): No.10, 11, 14, 15
 
 Concept is public, but both detailed design and quantitative data are outside this public repository.
 

@@ -20,7 +20,7 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 |----------|--------------|--------|--------|------|
 | **Failure Modes** | 40 [observed: single environment]-item public taxonomy (FM-01 to FM-06 detailed on page, FM-07 onward summarized) | 60 [design target] items with event/cause/prevention | All 132 [observed: single environment] + cause/prevention/effectiveness | All 132 [observed: single environment] + evidence screenshots + evolution |
 | **Design documents** | Methodology and thinking only | 10 [design target] key design files | All files (md/pdf/txt) | Narrative treatment, no raw files |
-| **Images** | 28 SVG diagrams (14 en/ja pairs) | Key images with annotations | All originals with appropriate masking | Conceptual diagrams + explanations |
+| **Images** | SVG conceptual diagrams (EN/JA pairs) | Key images with annotations | All originals with appropriate masking | Conceptual diagrams + explanations |
 | **Code/commands** | Abstracted pseudocode only | Pseudocode + methodology | Pseudocode + structural observation | No code; design narrative |
 | **Heritage** | Structure overview + philosophy | Sample conversations | Full logs + education automation | Theory + full evidence |
 | **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full internal quality system (600+ [design target] lines) | Full implementation + test design |
