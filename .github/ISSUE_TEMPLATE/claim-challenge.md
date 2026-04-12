@@ -1,7 +1,7 @@
 ---
 name: Challenge a Claim
 about: Dispute or question a specific claim in this repository
-title: "[Challenge] "
+title: "Challenge: "
 labels: challenge
 assignees: ''
 ---

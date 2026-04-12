@@ -1,7 +1,7 @@
 ---
 name: Observation Report
 about: Report what you observed when applying the methodology
-title: "[Observation] "
+title: "Observation: "
 labels: observation
 assignees: ''
 ---
