@@ -7,7 +7,7 @@ AI coding assistants repeat the same types of failures. They forget context unde
 
 ## A Proposed Answer
 
-This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation in one documented environment, with 132 classified failure modes (full sample counts are outside this public repository; see [metrics.md](20-proof/metrics.md)).
+This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation in one documented environment, with over a hundred classified failure modes (full counts and details are outside this public repository; see [metrics.md](20-proof/metrics.md)).
 
 | Component | What it does | Time to try |
 |-----------|-------------|-------------|

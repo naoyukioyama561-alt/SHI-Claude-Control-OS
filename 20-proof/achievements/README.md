@@ -1,7 +1,7 @@
-# Achievement Index -- All 15 Documented Results
+# Achievement Index — Documented Results
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/README-ja.md)
 
-This repository documents 15 [observed: single environment] achievement pages (6 [observed: single environment] full + 9 [observed: single environment] summary), and **all 15 have public pages in this repository** with clearly labeled evidence boundaries.
+This repository documents achievement pages observed in one environment (full and summary pages), and **all have public pages in this repository** with clearly labeled evidence boundaries.
 
 Items are ordered by understanding difficulty (easiest first).
 
