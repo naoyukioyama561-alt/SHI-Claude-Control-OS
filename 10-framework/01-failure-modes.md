@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../ja/10-framework/01-fa
 > **Scope**: All behavior ratings (Low/Medium/High) are observations from a single environment, single operator. They are not benchmarks. Treat them as testable hypotheses.
 
 
-Claude vs ChatGPT — observable failure patterns, using a shared 40-item index.
+Claude vs ChatGPT — observable failure patterns, using a shared FM index.
 
 > **Quick start**: If you want the big picture first, read FM-01 through FM-10. These cover the most commonly observed patterns across all AI models. The remaining FM-11 through FM-40 provide deeper structural coverage.
 
@@ -18,7 +18,7 @@ Scope:
 - Model tendencies are described as **observable behaviors** (what you see).
 - Controls are defined in `02-control-os.md`.
 
-> **Note on the 132-item evolution**: The FM taxonomy presented here (40 items) serves as an entry-level map of LLM structural limitations — a distributable patch set for known failure patterns. The full 132-item version represents a deeper structural decomposition produced through operational observation. See the "Evolution" section below.
+> **Note on the FM taxonomy evolution**: The FM taxonomy presented here serves as an entry-level map of LLM structural limitations — a distributable patch set for known failure patterns. A more comprehensive version [observed: single environment] represents a deeper structural decomposition produced through operational observation. See the "Evolution" section below.
 
 ---
 

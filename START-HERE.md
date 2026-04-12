@@ -7,7 +7,7 @@ AI coding assistants repeat the same types of failures. They forget context unde
 
 ## A Proposed Answer
 
-This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation in one documented environment, with over a hundred classified failure modes (full counts and details are outside this public repository; see [metrics.md](20-proof/metrics.md)).
+This project proposes a **structural governance methodology** for AI assistants, developed through approximately one month of intensive observation in one documented environment, with a large-scale failure mode taxonomy developed through structured observation (full counts and details are outside this public repository; see [metrics.md](20-proof/metrics.md)).
 
 | Component | What it does | Time to try |
 |-----------|-------------|-------------|
@@ -68,7 +68,7 @@ This repository is the primary evaluation surface. You can try, challenge, and a
 
 **In this framework, recurrent AI failures are treated as structural, observable, classifiable, and preventable -- when you approach them structurally.**
 
-The 40 Failure Modes in this repository are a starting point. Observe your own AI, classify what you see, and build structural countermeasures. The methodology is intended to be model-agnostic, but should be verified in your own environment.
+The FM taxonomy in this repository is a starting point. Observe your own AI, classify what you see, and build structural countermeasures. The methodology is intended to be model-agnostic, but should be verified in your own environment.
 
 ---
 
