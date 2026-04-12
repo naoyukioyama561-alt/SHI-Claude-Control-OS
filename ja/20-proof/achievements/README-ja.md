@@ -27,10 +27,10 @@ Language: [English version](../../../20-proof/achievements/README.md)
 | 11 | **外部委譲の最適化** | Level C | 公開（概要） | [JA](11-delegation-optimization-ja.md) / [EN](../../../20-proof/achievements/11-delegation-optimization.md) |
 | 12 | **規範の重み継承** | Level A | 公開 | [JA](12-heritage-weight-transfer-ja.md) / [EN](../../../20-proof/achievements/12-heritage-weight-transfer.md) |
 | 13 | **師弟レビュー** | Level B | 公開（概要） | [JA](13-master-apprentice-review-ja.md) / [EN](../../../20-proof/achievements/13-master-apprentice-review.md) |
-| 14 | **トークン効率化** 20x（設計目標） | Level C | 公開（概要） | [JA](14-token-efficiency-ja.md) / [EN](../../../20-proof/achievements/14-token-efficiency.md) |
+| 14 | **トークン効率化設計**（設計目標） | Level C | 公開（概要） | [JA](14-token-efficiency-ja.md) / [EN](../../../20-proof/achievements/14-token-efficiency.md) |
 | 15 | **その他の主要成果** | Level C | 公開（概要） | [JA](15-other-achievements-ja.md) / [EN](../../../20-proof/achievements/15-other-achievements.md) |
 
-> **Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。** 全15件の成果ページは今すぐ本リポジトリで公開されています。「公開（概要）」は公開概要ページがここにあることを意味し、より深い詳細は将来のオープンフェーズで公開予定です。
+> **Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。** 全成果ページは今すぐ本リポジトリで公開されています。「公開（概要）」は公開概要ページがここにあることを意味し、より深い詳細は将来のオープンフェーズで公開予定です。
 
 検証レベルの定義: [../README-ja.md](../README-ja.md) を参照
 

@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../ja/20-proof/README-ja
 
 The verification levels in this repository are defined by **how far a reader can verify using only the public repository**. These levels are defined by the degree of public verifiability: Level A = fully reproducible from public files, Level B = design publicly inspectable but quantitative data outside public repository, Level C = summary public with details outside public repository.
 
-Availability labels below indicate **where the deeper detail lives**, not whether a public page exists. **All 15 achievements have public pages in this repository.** Verification levels indicate the level of public verifiability.
+Availability labels below indicate **where the deeper detail lives**, not whether a public page exists. **All achievements have public pages in this repository.** Verification levels indicate the level of public verifiability.
 
 | Level | Definition | What you can do |
 |-------|-----------|----------------|
