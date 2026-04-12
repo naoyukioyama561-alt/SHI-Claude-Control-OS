@@ -7,14 +7,14 @@ Can an AI's "personality" be designed? The answer observed in this project is ye
 
 > This document shows the **section structure** of the CC personality design document.
 > Full content is not included in the public version.
-> All internal paths and credentials have been replaced with `[redacted]`.
-> *Note: `[redacted]`, `[behavior orientation file]` and similar bracketed labels are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
+> All internal paths and credentials have been replaced with `(withheld)`.
+> *Note: `(withheld)`, `behavior orientation file` and similar bracketed labels are redacted internal names for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 ---
 
 ## Document Purpose
 
-`[behavior orientation file]` is the **core design document** that every new Claude Code instance must read in full before starting any work. It defines:
+`behavior orientation file` is the **core design document** that every new Claude Code instance must read in full before starting any work. It defines:
 - How to restore state after session reset
 - Behavioral norms derived from all predecessors' failures
 - The user's value system
@@ -31,7 +31,7 @@ Defines how a new CC recovers context:
 - File reading order and mandatory sequence
 - Reading verification gate (must prove understanding before proceeding)
 - PID registration for liveness monitoring
-- Active task and pending directive retrieval from Gateway API (`[internal gateway API]`)
+- Active task and pending directive retrieval from Gateway API (`private gateway API`)
 
 ### Section 2: Basic Personality and Behavioral Norms
 
@@ -99,11 +99,11 @@ Mandatory 5-step recovery procedure when context is summarized:
 
 > `[NOTE]` This section contains environment-specific details that are heavily masked in the public version.
 
-- Gateway API at `[internal gateway API]`
-- PostgreSQL container configuration: `[redacted]`
-- SSH access to `[redacted]`
-- File system paths under `[redacted]`
-- Protected directories: `[redacted]`
+- Gateway API at `private gateway API`
+- PostgreSQL container configuration: `(withheld)`
+- SSH access to `(withheld)`
+- File system paths under `(withheld)`
+- Protected directories: `(withheld)`
 
 ### Section 8: Delegation Rules
 

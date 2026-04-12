@@ -7,14 +7,14 @@ AIの「性格」は設計可能か？このプロジェクトで観測された
 
 > この文書はCC人格設計文書の**セクション構成**を示します。
 > 全文は公開版に含まれません。
-> 全ての内部パスと認証情報は `[redacted]` に置換済みです。
-> *注: `[redacted]`、`[behavior orientation file]` 等は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照してください。*
+> 全ての内部パスと認証情報は `(withheld)` に置換済みです。
+> *注: `(withheld)`、`behavior orientation file` 等は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../SCOPE-MATRIX-ja.md) を参照してください。*
 
 ---
 
 ## 文書の目的
 
-`[behavior orientation file]` は全ての新しいClaude Codeインスタンスが作業開始前に全文読了すべき**コア設計文書**。定義するもの：
+`behavior orientation file` は全ての新しいClaude Codeインスタンスが作業開始前に全文読了すべき**コア設計文書**。定義するもの：
 - セッションリセット後の状態回復方法
 - 全前任者の失敗から導出された行動規範
 - ユーザーの価値体系
@@ -31,7 +31,7 @@ AIの「性格」は設計可能か？このプロジェクトで観測された
 - ファイル読了順序と必須シーケンス
 - 読了検証ゲート（理解を証明してから先に進む）
 - 生存監視用PID登録
-- Gateway API（`[internal gateway API]`）からのアクティブタスクと保留指示の取得
+- Gateway API（`private gateway API`）からのアクティブタスクと保留指示の取得
 
 ### セクション2: 基本人格と行動規範
 
@@ -99,11 +99,11 @@ AIの「性格」は設計可能か？このプロジェクトで観測された
 
 > `[NOTE]` このセクションは環境固有の詳細を含み、公開版では大幅にマスキング済み。
 
-- Gateway API: `[internal gateway API]`
-- PostgreSQLコンテナ設定: `[redacted]`
-- SSHアクセス: `[redacted]`
-- ファイルシステムパス: `[redacted]`
-- 保護ディレクトリ: `[redacted]`
+- Gateway API: `private gateway API`
+- PostgreSQLコンテナ設定: `(withheld)`
+- SSHアクセス: `(withheld)`
+- ファイルシステムパス: `(withheld)`
+- 保護ディレクトリ: `(withheld)`
 
 ### セクション8: 委譲ルール
 

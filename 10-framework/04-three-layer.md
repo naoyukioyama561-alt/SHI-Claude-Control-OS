@@ -61,7 +61,7 @@ This allows **each CC/AI to operate only in its strongest cognitive mode**, desi
 > *Note: `[redacted]` labels in this document mark internal service names or file paths withheld for safe public release. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
 
 **Worker Layer (Current CC)**
-- Smoothly progresses plan creation, implementation, verification, and (internal name withheld) updates
+- Smoothly progresses plan creation, implementation, verification, and configuration file updates
 - Block hooks are designed so that "work cannot proceed even if ignored" — escape routes are structurally closed
 
 ### Overall Impact
@@ -103,7 +103,7 @@ Problems shared by all AIs (still unresolved as of 2026):
 - External monitoring is weak; must rely on self-reporting
 - Normative weight does not transfer to the next instance
 
-The mechanisms (monitoring precision + complete recording + instant recovery + behavioral internalization via (internal name withheld) + external delegation optimization) address several recurring structural obstacles across the models observed in this project.
+The mechanisms (monitoring precision + complete recording + instant recovery + behavioral internalization via a private configuration system + external delegation optimization) address several recurring structural obstacles across the models observed in this project.
 
 ### Benefit Level by AI Type
 
@@ -126,7 +126,7 @@ As a design framing, token-efficiency improvement is discussed here as potential
 
 As an illustrative framing, AI power consumption is discussed here as being largely concentrated (rough industry estimate: 80-90% [illustrative scenario: not verified]) in **inference**. A single query costs several Wh to tens of Wh (approximately 4Wh for a typical Claude Opus query) [illustrative scenario: not verified].
 
-The SHI approach (SQL externalization + (internal name withheld) + external delegation optimization) is designed to enable:
+The SHI approach (SQL externalization + private behavioral configuration + external delegation optimization) is designed to enable:
 - Massive compression of context-resident data (65% context-resident data reduction via PostgreSQL externalization [design target])
 - Automated "don't do everything yourself" decisions (delegation flow)
 - WHY/HOW behavioral context preserved even after compression
@@ -158,7 +158,7 @@ This is not "having the AI test its own weaknesses." The critical insight: **the
 ### Architecture
 
 The system uses:
-- (internal name withheld) + Local AI for all monitoring (Claude Code itself is the monitored target)
+- Private monitoring service + Local AI for all monitoring (Claude Code itself is the monitored target)
 - 5-model local consensus for structural verification
 - Assistant follow-up system (117 follow-ups + 98 L1 patterns + 206 knowledge items auto-accumulated) [observed: single environment]
 - Real-time dashboard for algorithmic behavior visualization
@@ -201,8 +201,8 @@ A two-stage system was added to automatically review and set rules, accounting f
 Even new patterns require minimal intervention. The system has logic for automatic detection and implementation of countermeasures for obvious mistakes. The intervention rate continues to decrease as the system matures.
 
 Related files:
-- (internal name withheld) — User's quality methodology (gap-to-ideal response, structural observation, minimum 3 confirmations, next-day re-check)
-- (internal name withheld) — CC judgment error patterns (P-01 onward), case-based, user values/thought patterns, implicit understandings
+- Quality methodology reference — User's quality methodology (gap-to-ideal response, structural observation, minimum 3 confirmations, next-day re-check)
+- Judgment pattern reference — CC judgment error patterns (P-01 onward), case-based, user values/thought patterns, implicit understandings
 
 
 ---
