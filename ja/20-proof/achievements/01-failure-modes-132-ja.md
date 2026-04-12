@@ -38,7 +38,7 @@ AIの繰り返し失敗を、孤立したバグではなく構造的インシデ
 
 > 公開版では初期公開範囲を提供し、全件詳細は将来の公開フェーズで段階的に提供予定。
 
-![ダッシュボード構造](../../images/diagrams/dashboard-overview-ja.svg)
+![ダッシュボードレイアウト概念図 — 例示、全値はサンプル](../../images/diagrams/dashboard-overview-ja.svg)
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 

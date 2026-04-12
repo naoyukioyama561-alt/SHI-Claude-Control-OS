@@ -40,7 +40,7 @@ The most important insight: **quality is not a checklist — it is a multi-layer
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Quality system](../../images/diagrams/quality-system-4plus1.svg)
+![Diagram showing 4+1 quality system architecture — conceptual design](../../images/diagrams/quality-system-4plus1.svg)
 
 
 ---

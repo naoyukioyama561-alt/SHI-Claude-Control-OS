@@ -35,7 +35,7 @@ In this framework, AI systems that relied mainly on self-reporting showed a stru
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Three-layer separation](../../images/diagrams/three-layer-separation.svg)
+![Diagram showing three-layer separation architecture — conceptual design](../../images/diagrams/three-layer-separation.svg)
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 

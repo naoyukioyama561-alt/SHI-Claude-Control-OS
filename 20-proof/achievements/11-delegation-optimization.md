@@ -18,11 +18,11 @@ A **structured delegation framework** with three delegation levels and 12 mandat
 
 - Unstructured delegation leads to **scope creep, permission violations, and quality degradation** — the delegated AI does "too much" or "too little" without precise boundaries
 - In the author's observed environment, the 12-item mandatory specification reduced delegation ambiguity and helped prevent recurrent delegation failures [observed: single environment, single operator]
-- In the author.s observed environment, delegation to lower-capability tiers was associated with lower token use. The 20x figure remains a design target, not a reproduced benchmark
+- In the author.s observed environment, delegation to lower-capability levels was associated with lower token use. The 20x figure remains a design target, not a reproduced benchmark
 
 ## Key Insight
 
-The key realization: **in the author's observed environment, delegation was not about offloading work — it was about matching task type to AI capability tier**. When a routine monitoring task was delegated to a lightweight AI instead of using a full-capability AI, this was associated with not just token savings but also quality improvements, as the lightweight AI was less likely to over-interpret or add unnecessary complexity.
+The key realization: **in the author's observed environment, delegation was not about offloading work — it was about matching task type to AI capability level**. When a routine monitoring task was delegated to a lightweight AI instead of using a full-capability AI, this was associated with not just token savings but also quality improvements, as the lightweight AI was less likely to over-interpret or add unnecessary complexity.
 
 The 12-item specification acts as a "contract" between delegator and delegate, making the delegation boundary explicit and verifiable.
 

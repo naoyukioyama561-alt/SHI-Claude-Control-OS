@@ -33,7 +33,7 @@ Verification level definitions: see [../README.md](../README.md)
 
 ---
 
-See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for detailed tier breakdown.
+See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for detailed scope breakdown.
 
 ---
 

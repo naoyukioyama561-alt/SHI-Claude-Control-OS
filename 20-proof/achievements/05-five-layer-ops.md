@@ -35,7 +35,7 @@ Think of it as: you can teach an AI to be better, but unless you **lock** that i
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Evidence: Hero image — 5-layer operations](../../20-proof/../images/diagrams/mini-quality-layers.svg)
+![Diagram showing quality layer overview — conceptual design](../../20-proof/../images/diagrams/mini-quality-layers.svg)
 
 
 ---

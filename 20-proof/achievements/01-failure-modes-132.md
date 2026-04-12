@@ -38,7 +38,7 @@ This methodology is intended to be portable across AI systems, but applicability
 
 > For implementation details and data, see [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 
-![Dashboard structure](../../images/diagrams/dashboard-overview.svg)
+![Diagram showing dashboard layout concept — illustrative, all values are samples](../../images/diagrams/dashboard-overview.svg)
 
 > **Note**: Phase 1 / Phase 2 = future open release phases, not pricing structures. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md).
 

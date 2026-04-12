@@ -18,8 +18,8 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ## What Was Observed to Hold
 
-- In the observed environment, many AI operations ran equally well on standard-capability models — higher-tier models were concentrated in complex multi-step reasoning tasks
-- Structured analysis reveals that MAX-tier dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
+- In the observed environment, many AI operations ran equally well on standard-capability models — higher-capability models were concentrated in complex multi-step reasoning tasks
+- Structured analysis reveals that MAX-level dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
 - In the author's observed environment, SQL externalization was associated with significant token reduction by moving large data structures out of context
 - The 20x figure is a design target; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption
 
@@ -29,7 +29,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 The core insight: **token efficiency is not about doing less — it is about matching resource consumption to task complexity**. Most AI deployments use maximum-capability models for every task, which is like using a truck to deliver a letter.
 
-The methodology: categorize every operation by its actual capability requirements, then route each to the minimum-sufficient tier. The result is dramatic cost reduction without observed quality degradation on appropriately-routed tasks.
+The methodology: categorize every operation by its actual capability requirements, then route each to the minimum-sufficient level. The result is dramatic cost reduction without observed quality degradation on appropriately-routed tasks.
 
 ---
 
