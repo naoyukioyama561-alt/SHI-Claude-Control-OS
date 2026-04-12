@@ -96,7 +96,7 @@ In the author's environment, this functioned as a **governance structure coordin
 
 SHI theory does not "make a specific model stronger." It **"structurally supplements AI's structural weaknesses from the outside."**
 
-Problems shared by all AIs (still unresolved as of 2026):
+Problems commonly observed across AI systems (still unresolved as of 2026):
 - Cannot maintain unsummarized complete memory
 - Memory is lost on crash/session disconnect
 - Behavioral context (WHY/HOW) is lost under compression
@@ -140,7 +140,7 @@ Physical power equivalent [illustrative scenario: not verified]:
 
 Impact of 20x overall efficiency improvement factor [design target]:
 - **Individual level**: Heavy Claude Code user (1,300Wh/day example) [illustrative scenario: not verified] → 65Wh/day [illustrative scenario: not verified]. Electricity cost also 1/20 [illustrative scenario: not verified].
-- **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario: not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads to all AI, at larger deployment scales, efficiency gains could have material energy implications; this repository does not publish a verified projection for that effect.
+- **Data center scale**: AI inference power is projected to reach hundreds of TWh by 2026-2030 (rough industry estimate) [illustrative scenario: not verified]. If 20x (overall efficiency improvement factor [design target]) efficiency spreads widely across AI systems, at larger deployment scales, efficiency gains could have material energy implications; this repository does not publish a verified projection for that effect.
 - **Environmental impact**: CO2 emissions would reduce proportionally [illustrative scenario: not verified] — included here to show the potential scale of the approach, not as a verified projection.
 
 The "token efficiency = power efficiency" perspective is offered here as a practical framing for evaluation; this repository does **not** claim a comprehensive literature survey.

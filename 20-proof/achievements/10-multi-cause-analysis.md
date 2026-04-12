@@ -21,7 +21,7 @@ A **structured root cause analysis system** combining multiple methodologies:
 - AI failure analysis typically stops at surface symptoms — "I made an error" instead of "the structural condition that caused this error is X, and it will recur under conditions Y and Z"
 - The 5-Why method, combined with predecessor CC knowledge, reveals **compound causes** that single-session analysis cannot detect
 - Self-evaluation exposed critical gaps: the difference between "I know the rule" and "I consistently follow the rule" (verified across 5 evaluation dimensions)
-- Automated incident knowledge accumulation creates an **institutional memory** that improves analysis quality over time
+- Automated incident knowledge accumulation creates an **institutional memory** designed to improve analysis quality over time
 
 ## Key Insight
 

@@ -7,7 +7,7 @@ Language: [日本語版はこちら / Japanese version](../ja/10-framework/01-fa
 
 Claude vs ChatGPT — observable failure patterns, using a shared FM index.
 
-> **Quick start**: If you want the big picture first, read FM-01 through FM-10. These cover the most commonly observed patterns across all AI models. The remaining FM-11 through FM-40 provide deeper structural coverage.
+> **Quick start**: If you want the big picture first, read FM-01 through FM-10. These cover the most commonly observed patterns across the observed AI models. The remaining FM-11 through FM-40 provide deeper structural coverage.
 
 This document defines **FM-01..FM-40** as a stable index.
 - The **Japanese name** is the canonical key (stable across languages/tools).
