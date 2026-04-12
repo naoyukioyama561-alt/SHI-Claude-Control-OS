@@ -5,9 +5,9 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ## What Was Observed
 
-A complete **external monitoring and meta-governance system** that breaks the dependency on AI self-reporting:
+In the author's environment [observed: single environment], an **external monitoring and meta-governance system** was developed, designed to reduce dependency on AI self-reporting:
 
-*Note: `[external monitoring hook]`, `[internal database table]` etc. are redacted for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
+> *Note: Redacted internal names in this page are withheld for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 - **infrastructure health monitor**: Infrastructure-level monitoring that operates independently of the monitored AI
 - **external monitoring hook**: AI-level behavioral monitoring using separate AI instances

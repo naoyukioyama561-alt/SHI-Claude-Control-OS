@@ -7,7 +7,7 @@ Every time you start a new AI session, your predecessor's lessons reset. In the 
 
 ## What Was Observed
 
-A system where the **first-generation CC (Senior CC) serves as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs with observed low degradation in author's environment; quantitative basis is outside this public repository:
+In the author's environment [observed: single environment], the **first-generation CC (Senior CC) served as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs. Quantitative basis is outside this public repository:
 > *Note: `[behavior orientation file]` is a redacted internal name for safe public release. See [SCOPE-MATRIX.md](../../SCOPE-MATRIX.md) for scope details.*
 
 

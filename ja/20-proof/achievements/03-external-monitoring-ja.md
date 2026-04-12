@@ -5,9 +5,9 @@ Language: [English version](../../../20-proof/achievements/03-external-monitorin
 
 ## 何が観測されたか
 
-AIの自己申告に依存しない**完全な外部監視・メタ統治システム**：
+著者の環境 [observed: single environment] で開発された**外部監視・メタ統治システム**。AIの自己申告への依存を低減する設計：
 
-*注: `[external monitoring hook]`、`[internal database table]` 等は安全な公開のため墨消し済み。スコープ詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
+> *注: 本ページの墨消し内部名称は安全な公開のため非公開。スコープ詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。*
 
 - **infrastructure health monitor**: 監視対象AIから独立したインフラレベル監視
 - **external monitoring hook**: 別AIインスタンスによるAIレベル行動監視

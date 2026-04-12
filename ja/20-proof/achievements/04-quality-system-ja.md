@@ -5,7 +5,7 @@ Language: [English version](../../../20-proof/achievements/04-quality-system.md)
 
 ## 何が観測されたか
 
-**4+1層アーキテクチャ**に基づく品質システム：
+著者の環境 [observed: single environment] で構築された**4+1層アーキテクチャ**に基づく品質システム：
 > *注: `[internal quality hook]` は安全な公開のため墨消しした内部名称です。詳細は [SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照してください。*
 
 

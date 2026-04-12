@@ -5,7 +5,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ## What Was Observed
 
-A comprehensive **quality system** built on a 4+1 layer architecture:
+In the author's environment [observed: single environment], a **quality system** was built on a 4+1 layer architecture:
 
 | Layer | Name | Responsibility |
 |-------|------|---------------|
