@@ -81,7 +81,7 @@ No internal paths, endpoints, or personal information is included.
 | CC generation count and operational time | Same |
 | Detection pattern names and rates | Approach effectiveness visible but not implementation |
 | reason_code list | Quality design thinking is visible |
-| Design values (65% reduction, 20x, etc.) | Theoretical expectations, not actual measurements |
+| Design values (65% [design target] reduction, 20x [design target], etc.) | Theoretical expectations, not actual measurements |
 
 | Not published | Reason |
 |--------------|--------|

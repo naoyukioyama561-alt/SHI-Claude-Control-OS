@@ -24,7 +24,7 @@ Language: [日本語版はこちら / Japanese version](ja/SCOPE-MATRIX-ja.md)
 | **Code/commands** | Abstracted pseudocode only | Pseudocode + methodology | Pseudocode + structural observation | No code; design narrative |
 | **Heritage** | Structure overview + philosophy | Sample conversations | Full logs + education automation | Theory + full evidence |
 | **Quality system** | reason_code taxonomy + 5-set overview | reason_code table + 5-set details | Full internal quality system (600+ [design target] lines) | Full implementation + test design |
-| **Quantitative data** | Design values (65%, 20x) | N-counts, detection rates | Full measured data | Selected data with commentary |
+| **Quantitative data** | Design values (65% [design target], 20x [design target]) | N-counts, detection rates | Full measured data | Selected data with commentary |
 
 ---
 
