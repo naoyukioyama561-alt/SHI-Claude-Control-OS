@@ -555,7 +555,6 @@
 ./20-proof/achievements/13-master-apprentice-review.md:46:*This document is part of [SHI-Claude-Control-OS](https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS).*
 ./20-proof/achievements/13-master-apprentice-review.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 ./20-proof/achievements/14-token-efficiency.md:10:**Design target**: A 20x [design target] reduction in token consumption while maintaining or improving operational quality.
-./20-proof/achievements/14-token-efficiency.md:12:**Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
 ./20-proof/achievements/14-token-efficiency.md:1:# Achievement No.14: Token Efficiency Design — 20x as an architecture target
 ./20-proof/achievements/14-token-efficiency.md:24:- The 20x figure is a design target; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption
 ./20-proof/achievements/14-token-efficiency.md:2:Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/14-token-efficiency-ja.md)
@@ -3757,7 +3756,6 @@
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:12:- **Level 1 -- recovery checkpoint file**: クラッシュ前の本質的な状態をキャプチャする軽量ファイルベース復旧
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:13:- **Level 2 -- behavior orientation file**: 運用コンテキストを復元する次セッション自動ブートストラップ
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:14:- **Level 3 -- infrastructure health monitor**: クラッシュを独立して検知し復旧をトリガーするインフラレベル監視
-./ja/20-proof/achievements/07-crash-recovery-ja.md:18:- Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（3.8MB超のJSONLファイル、コンテキスト圧力、メモリ枯渇）
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:1:# 成果No.7: クラッシュ対策 -- 自動検知＋3レベル復元
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:20:- 3レベルアプローチは個別レベルが失敗しても復旧を可能にする設計：recovery checkpoint fileが破損してもbehavior orientation fileが機能し、両方失敗してもinfrastructure health monitorが外部から捕捉する設計
 ./ja/20-proof/achievements/07-crash-recovery-ja.md:28:3レベル設計は多層防御の原則に従う：各レベルが独立しているため、単一障害点で復旧が妨げられない。

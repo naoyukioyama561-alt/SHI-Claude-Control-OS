@@ -1,7 +1,6 @@
 # Heritage設計文書 -- 構造概要（公開版）
 Language: [English version](../../40-heritage/personality-structure.md)
 
-![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
 
 AIの「性格」は設計可能か？このプロジェクトで観測された答えはYes — ただし方法は直感に反します。行動をプログラミングするのではなく、過去の失敗の痛みを構造的にエンコードし、セッションを超えて永続化させます。
 

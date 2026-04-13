@@ -351,7 +351,6 @@
 ./20-proof/achievements/13-master-apprentice-review.md -> apprentice
 ./20-proof/achievements/13-master-apprentice-review.md -> master
 ./20-proof/achievements/14-token-efficiency.md -> summary
-./20-proof/achievements/14-token-efficiency.md -> single environment, not a public benchmark
 ./20-proof/achievements/14-token-efficiency.md -> complex multi-step reasoning, cross-session state management
 ./20-proof/achievements/15-other-achievements.md -> summary
 ./20-proof/achievements/15-other-achievements.md -> 117 items [observed: single environment]

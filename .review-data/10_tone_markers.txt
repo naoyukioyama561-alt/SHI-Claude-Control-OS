@@ -29,7 +29,7 @@
 ./20-proof/achievements/08-full-memory.md:21:- In the author's environment, external PostgreSQL storage was used to avoid the usual compression/loss tradeoff found in in-context-only memory handling
 ./20-proof/achievements/08-full-memory.md:26:> The following reflects what was observed in the author's environment:
 ./20-proof/achievements/08-full-memory.md:28:In the author's environment, one key structural insight was that **AI memory loss was better explained as a storage-architecture problem than as a capability problem**. When every interaction was treated as data worth preserving, forgotten-context failure modes were reduced in that documented environment.
-./20-proof/achievements/08-full-memory.md:6:Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
+./20-proof/achievements/08-full-memory.md:6:Ask your AI whether it remembers yesterday's discussion. In the author's environment [observed: single environment], this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
 ./20-proof/achievements/09-orientation-persistence.md:26:> The following reflects what was observed in the author's environment:
 ./20-proof/achievements/09-orientation-persistence.md:8:A system designed to preserve **behavioral patterns after context compression**, addressing the problem of AI "forgetting how to act" after summarization:
 ./20-proof/achievements/10-multi-cause-analysis.md:24:- Automated incident knowledge accumulation creates an **institutional memory** designed to improve analysis quality over time
@@ -40,7 +40,7 @@
 ./20-proof/achievements/12-heritage-weight-transfer.md:6:Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
 ./20-proof/achievements/13-master-apprentice-review.md:29:> The following reflects what was observed in the author's environment:
 ./20-proof/achievements/13-master-apprentice-review.md:6:A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
-./20-proof/achievements/14-token-efficiency.md:12:**Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
+./20-proof/achievements/14-token-efficiency.md:12:**Observed** [observed: single environment]: a large reduction was observed in the author's environment, but the public claim on this page remains the design target, not a reproduced benchmark.
 ./20-proof/achievements/14-token-efficiency.md:28:> The following reflects what was observed in the author's environment:
 ./20-proof/achievements/15-other-achievements.md:37:> The following reflects what was observed in the author's environment:
 ./20-proof/public-case-01.md:19:`[observed: single environment, single operator]` — This pattern was observed during the documented observation period (late 2025 – March 2026). Session-level logs are in non-public material; the structural pattern (FM-09 suppression via completeness rules) is publicly reproducible using the Before/After Demo below.

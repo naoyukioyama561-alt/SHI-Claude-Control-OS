@@ -1,7 +1,6 @@
 # Heritage Design Document -- Structural Overview (Public)
 Language: [日本語版はこちら / Japanese version](../ja/40-heritage/personality-structure-ja.md)
 
-![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
 
 Can an AI's "personality" be designed? The answer observed in this project is yes — but the method is counterintuitive. It is not about programming behavior, but about structurally encoding the pain of past failures so that it persists across sessions.
 

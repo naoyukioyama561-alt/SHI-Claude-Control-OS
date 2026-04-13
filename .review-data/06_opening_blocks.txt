@@ -775,7 +775,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
-Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
+Ask your AI whether it remembers yesterday's discussion. In the author's environment [observed: single environment], this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
 
 ## What Was Observed
 
@@ -833,7 +833,7 @@ A system designed to preserve **behavioral patterns after context compression**,
 
 - Context compression causes **behavioral regression** — the AI loses not just facts but behavioral patterns (in the author's environment, 4 instances [observed: single environment] of 2-hour review forgetting were recorded within a single session)
 - The 3-layer internalization model (WHAT/WHY/HOW) correctly predicts which behaviors survive compression and which don't
-- In the author's observed environment, SQL externalization + behavior orientation file.json together were associated with **near-complete behavioral restoration** after compression events
+- In the author's observed environment, SQL externalization + behavior orientation file.json together were associated with **substantial behavioral restoration** after compression events
 
 ## Key Insight
 
@@ -1033,7 +1033,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 **Design target**: A 20x [design target] reduction in token consumption while maintaining or improving operational quality.
 
-**Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
+**Observed** [observed: single environment]: a large reduction was observed in the author's environment, but the public claim on this page remains the design target, not a reproduced benchmark.
 
 - **Capability-tier analysis**: Evaluation of which operations require higher-capability models vs. which can run on standard models
 - **Category-based dependency analysis**: Each operational category assessed for MAX-dependency level and impact
@@ -3970,7 +3970,7 @@ Language: [English version](../../../20-proof/achievements/07-crash-recovery.md)
 
 ## 観測されたこと
 
-- Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（3.8MB超のJSONLファイル、コンテキスト圧力、メモリ枯渇）
+- Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（大規模なJSONLファイル、コンテキスト圧力、メモリ枯渇）[observed: single environment]
 - 構造化されたクラッシュ復旧がなければ、クラッシュ後のセッションはゼロからスタートし、蓄積されたコンテキストと進行中の作業が数時間分失われることが観測された
 - 3レベルアプローチは個別レベルが失敗しても復旧を可能にする設計：recovery checkpoint fileが破損してもbehavior orientation fileが機能し、両方失敗してもinfrastructure health monitorが外部から捕捉する設計
 

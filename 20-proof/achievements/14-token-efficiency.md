@@ -21,7 +21,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 - In the observed environment, many AI operations ran equally well on standard-capability models — higher-capability models were concentrated in complex multi-step reasoning tasks
 - Structured analysis reveals that MAX-level dependency is concentrated in a small number of operation types (complex multi-step reasoning, cross-session state management)
 - In the author's observed environment, SQL externalization was associated with significant token reduction by moving large data structures out of context
-- The 20x figure is a design target; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption
+- The 20x [design target] figure is an architecture goal; if validated in a comparable environment, it would imply reduced computational cost and potentially lower power consumption
 
 ## Key Insight
 
