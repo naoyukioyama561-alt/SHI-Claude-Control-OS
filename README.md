@@ -34,13 +34,13 @@ Illustrative outcome patterns observed in one documented environment — not uni
 Share-safe summary: observed transformation patterns in one documented environment — verify details in [PROVE-IT.md](PROVE-IT.md).
 
 <p align="center">
-  <img src="images/diagrams/before-after-comparison.svg" alt="Before/After: AI behavior with and without structural governance" width="720">
+  <img src="images/diagrams/before-after-comparison.svg" alt="Diagram showing before/after AI behavior comparison — conceptual, verify with PROVE-IT.md" width="720">
 </p>
 
 → [See a real case study](20-proof/public-case-01.md)
 
 <p align="center">
-  <img src="images/overview-infographic-en.png" alt="System overview: three-layer separation and five-layer quality management — conceptual diagram" width="800">
+  <img src="images/overview-infographic-en.png" alt="Diagram showing three-layer separation and five-layer quality management — conceptual, verify with PROVE-IT.md" width="800">
 </p>
 <sub>Conceptual overview — illustrative. Verify with PROVE-IT.md. Observed values are from a single environment.</sub>
 

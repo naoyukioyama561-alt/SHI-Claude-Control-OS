@@ -34,13 +34,13 @@ Language: [English version](../README.md)
 共有時の要約: 単一の記録環境で観測された変化パターン — 詳細は [PROVE-IT-ja.md](PROVE-IT-ja.md) で検証。
 
 <p align="center">
-  <img src="images/diagrams/before-after-comparison-ja.svg" alt="Before/After: 構造的ガバナンスの有無によるAI行動の違い" width="720">
+  <img src="images/diagrams/before-after-comparison-ja.svg" alt="Before/After AI行動比較の概念図 — PROVE-IT-ja.mdで検証" width="720">
 </p>
 
 → [実例を見る](20-proof/public-case-01-ja.md)
 
 <p align="center">
-  <img src="images/overview-infographic-ja.png" alt="システム概要: 3層分離と5層品質管理 — 概念図" width="800">
+  <img src="images/overview-infographic-ja.png" alt="3層分離と5層品質管理の概念図 — PROVE-IT-ja.mdで検証" width="800">
 </p>
 <sub>概念図（例示）— PROVE-IT-ja.mdで検証してください。観測値は単一環境のものです。</sub>
 
