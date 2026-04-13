@@ -54,5 +54,5 @@ contact:
     url: "https://github.com/naoyukioyama561-alt/SHI-Claude-Control-OS/issues"
 
 ===== BADGES =====
-./ja/README-ja.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
-./README.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+./ja/README-ja.md:12:![Prototype](https://img.shields.io/badge/status-prototype-orange.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+./README.md:12:![Prototype](https://img.shields.io/badge/status-prototype-orange.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)

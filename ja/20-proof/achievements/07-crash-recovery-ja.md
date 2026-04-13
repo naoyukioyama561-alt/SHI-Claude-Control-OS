@@ -15,7 +15,7 @@ Language: [English version](../../../20-proof/achievements/07-crash-recovery.md)
 
 ## 観測されたこと
 
-- Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（3.8MB超のJSONLファイル、コンテキスト圧力、メモリ枯渇）
+- Claude Codeのクラッシュは**稀なエッジケースではない** -- 通常の運用上の現実（大規模なJSONLファイル、コンテキスト圧力、メモリ枯渇）[observed: single environment]
 - 構造化されたクラッシュ復旧がなければ、クラッシュ後のセッションはゼロからスタートし、蓄積されたコンテキストと進行中の作業が数時間分失われることが観測された
 - 3レベルアプローチは個別レベルが失敗しても復旧を可能にする設計：recovery checkpoint fileが破損してもbehavior orientation fileが機能し、両方失敗してもinfrastructure health monitorが外部から捕捉する設計
 

@@ -3,7 +3,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 
-Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
+Ask your AI whether it remembers yesterday's discussion. In the author's environment [observed: single environment], this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
 
 ## What Was Observed
 

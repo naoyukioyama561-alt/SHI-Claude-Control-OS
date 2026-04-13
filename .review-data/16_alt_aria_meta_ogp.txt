@@ -19,7 +19,7 @@
 ./20-proof/achievements/14-token-efficiency.md:6:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 ./20-proof/achievements/15-other-achievements.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 ./40-heritage/personality-structure.md:4:![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
-./README.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+./README.md:12:![Prototype](https://img.shields.io/badge/status-prototype-orange.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 ./ja/20-proof/achievements/01-failure-modes-132-ja.md:41:![ダッシュボードレイアウト概念図 — 例示、全値はサンプル](../../images/diagrams/dashboard-overview-ja.svg)
 ./ja/20-proof/achievements/01-failure-modes-132-ja.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
 ./ja/20-proof/achievements/02-role-separation-ja.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
@@ -41,7 +41,7 @@
 ./ja/20-proof/achievements/14-token-efficiency-ja.md:6:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 ./ja/20-proof/achievements/15-other-achievements-ja.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 ./ja/40-heritage/personality-structure-ja.md:4:![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
-./ja/README-ja.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+./ja/README-ja.md:12:![Prototype](https://img.shields.io/badge/status-prototype-orange.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 demo/claudecode.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Claude Code - SHI-Claude-Control-OS (Illustrative Demo)</title>
 demo/claudecode.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
 demo/design-verify.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Design Verify - SHI-Claude-Control-OS (Illustrative Demo)</title>
