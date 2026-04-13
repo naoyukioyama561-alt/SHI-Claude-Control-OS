@@ -65,7 +65,7 @@
 <div id="panel-layers" class="panel">
   <div class="info-box">
     <div class="title">3-Layer Separation Simulator</div>
-    <div class="body">See how separating load by type (not volume) affects quality. Drag the sliders to allocate cognitive load.</div>
+    <div class="body">See how separating load by type (not volume) affects quality in this illustrative model. Drag the sliders to allocate cognitive load.</div>
   </div>
 
   <div class="slider-group">
@@ -84,7 +84,7 @@
   <div class="info-box" style="margin-top: 1rem;">
     <div class="title">What this shows</div>
     <div class="body">
-      When a single AI carries judgment + monitoring + execution simultaneously, context pressure builds and quality degrades.
+      In this illustrative model, when a single AI carries judgment + monitoring + execution simultaneously, context pressure builds and quality may degrade.
       Moving judgment to Supervisor (0%) and monitoring to Relay (0%) frees the Worker to focus purely on execution.
       <br><br>
       This is the core principle of three-layer separation: <strong>separate load by type, not by volume</strong>.
@@ -102,7 +102,7 @@ const weeks = [
       { lbl: "Crashes", val: "1", cls: "" },
       { lbl: "Recovery System", val: "None", cls: "" }
     ],
-    detail: "First use of Claude Code. Observed recurring failure patterns. Classified FM-01 to FM-40. First crash — all work lost. The pain of losing everything drove the design of crash recovery."
+    detail: "All numbers on this page are from the author's single observed environment [observed: single environment]. First use of Claude Code. Observed recurring failure patterns. Classified FM-01 to FM-40. First crash — all work lost. The pain of losing everything drove the design of crash recovery."
   },
   {
     label: "Week 2: Foundation",
@@ -112,7 +112,7 @@ const weeks = [
       { lbl: "Memory System", val: "PostgreSQL", cls: "g" },
       { lbl: "Recovery Levels", val: "3", cls: "g" }
     ],
-    detail: "Built unsummarized complete memory (PostgreSQL). 3-level crash recovery. First CC's session ended after 26.5 hours — left 12 reflection items. cc_heritage design started. Three-layer separation conceived."
+    detail: "Built unsummarized complete memory (PostgreSQL) in the author's observed environment [observed: single environment]. 3-level crash recovery. First CC's session ended after 26.5 hours — left 12 reflection items. cc_heritage design started. Three-layer separation conceived."
   },
   {
     label: "Week 3: Evolution",
@@ -122,7 +122,7 @@ const weeks = [
       { lbl: "P-03 Recurrences", val: "11", cls: "" },
       { lbl: "Delegation Rules", val: "D1-D3", cls: "g" }
     ],
-    detail: "FM expanded to 90 items. 5-layer operational model. Apprentice-master review. P-03 (omission) recurred 11 times in 9th CC — proved the need for structural countermeasures, not just rules."
+    detail: "FM expanded to 90 items in the author's observed environment [observed: single environment]. 5-layer operational model. Apprentice-master review. P-03 (omission) recurred 11 times in 9th CC — this pattern drove the need for structural countermeasures, not just rules."
   },
   {
     label: "Week 4: Completion",
@@ -132,7 +132,7 @@ const weeks = [
       { lbl: "reason_codes", val: "30", cls: "g" },
       { lbl: "Human Intervention", val: "Low in one observed environment", cls: "g" }
     ],
-    detail: "FM completed at 132 items. P-74 to P-80 added (false reporting, behavioral internalization failure). Quality system (4+1 layer) completed. Safety net (block hooks + deny). The control loop began operating with reduced human intervention."
+    detail: "FM completed at 132 items [observed: single environment]. P-74 to P-80 added (false reporting, behavioral internalization failure). Quality system (4+1 layer) completed. Safety net (block hooks + deny). The control loop began operating with reduced human intervention in the author's environment."
   }
 ];
 
@@ -178,8 +178,8 @@ function updateLayers() {
   const riskCls = degradationRisk === 'LOW' ? 'g' : '';
 
   document.getElementById('layerMetrics').innerHTML = `
-    <div class="metric"><div class="lbl">Worker Total Load</div><div class="val">${j + m + 100}%</div></div>
-    <div class="metric"><div class="lbl">Context Pressure</div><div class="val">${contextPressure}%</div></div>
+    <div class="metric"><div class="lbl">Illustrative Worker Load</div><div class="val">${j + m + 100}%</div></div>
+    <div class="metric"><div class="lbl">Illustrative Context Pressure</div><div class="val">${contextPressure}%</div></div>
     <div class="metric"><div class="lbl">Illustrative Estimate</div><div class="val ${cls}">${qualityScore}%</div></div>
     <div class="metric"><div class="lbl">Illustrative Risk</div><div class="val ${riskCls}">${degradationRisk}</div></div>
   `;
@@ -193,7 +193,7 @@ function updateLayers() {
         <div class="title">Supervisor</div>
         <div class="desc">Judgment: ${supJ}% allocated here</div>
       </div>
-      <div style="font-size:12px;color:#666;">Freed from execution. Focuses on review and pain transmission.</div>
+      <div style="font-size:12px;color:#666;">Freed from execution in this model. Focuses on review and pain transmission.</div>
     </div>
     <div class="layer-row">
       <div class="layer-num" style="background:#EAF3DE;color:#3B6D11;">R</div>
@@ -201,7 +201,7 @@ function updateLayers() {
         <div class="title">Relay</div>
         <div class="desc">Monitoring: ${relayM}% allocated here</div>
       </div>
-      <div style="font-size:12px;color:#666;">Zero judgment = zero context bloat. Mechanically reliable.</div>
+      <div style="font-size:12px;color:#666;">In this model, zero judgment = zero context bloat.</div>
     </div>
     <div class="layer-row" style="border-bottom:none;">
       <div class="layer-num" style="background:#FAEEDA;color:#854F0B;">W</div>
@@ -209,7 +209,7 @@ function updateLayers() {
         <div class="title">Worker</div>
         <div class="desc">Execution: 100% + Judgment: ${j}% + Monitoring: ${m}%</div>
       </div>
-      <div style="font-size:12px;color:#666;">${j + m > 0 ? 'Mixed load degrades all three.' : 'Pure task focus. Maximum quality.'}</div>
+      <div style="font-size:12px;color:#666;">${j + m > 0 ? 'In this model, mixed load may degrade all three.' : 'Pure task focus in this model.'}</div>
     </div>
   `;
 }

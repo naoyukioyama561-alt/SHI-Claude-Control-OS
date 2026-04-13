@@ -1,7 +1,8 @@
 # Failure Modes Taxonomy (Claude vs ChatGPT)
 Language: [日本語版はこちら / Japanese version](../ja/10-framework/01-failure-modes-ja.md)
 
-> **Observation period**: late 2025 – March 2026. All model names refer to versions available during this period.
+> **What this page is**: A taxonomy of observable AI failure patterns, classified from a single operator's environment. Part of the [SHI-Claude-Control-OS](../README.md) framework documentation.
+> **Observation period**: late 2025 – March 2026. All model names refer to versions available during this period. Model behavior may differ in other versions or environments.
 > **Scope**: All behavior ratings (Low/Medium/High) are observations from a single environment, single operator. They are not benchmarks. Treat them as testable hypotheses.
 
 
@@ -257,7 +258,7 @@ In our observation, these represent **documented cases of an AI structurally rec
 ### Value of the 132-Item Version
 
 1. **Addresses territory not yet covered by the research community**
-   Other AI research (Mem0, Zep, LangMem, Letta, etc.) lists only dozens of general Failure Modes. The 132-item version has each event individually structured with: specific case, root cause, prevention measure, and effectiveness verification. P-74 through P-80 are, to our observation, cases with no publicly documented precedent known to the authors of AI structurally recording its own meta-reflection.
+   Other AI research (Mem0, Zep, LangMem, Letta, etc.) lists only dozens of general Failure Modes. The 132-item version [observed: single environment] has each event individually structured with: specific case, root cause, prevention measure, and effectiveness verification. P-74 through P-80 are, to our observation, cases with no publicly documented precedent known to the authors of AI structurally recording its own meta-reflection.
 
 2. **Evidence of "knowledge → behavioral internalization"**
    The evolution from 40 to 132 items is not treated here as universal proof. In the author's single observed environment [observed: single environment, single operator], it functions as an operational indicator that CC moved from "bulk-avoidance templates" to **self-dissecting individual events → verbalizing causes → spontaneously designing prevention measures**. This is a documented local observation, not an externally benchmarked claim about AI systems in general.

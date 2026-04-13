@@ -1,7 +1,7 @@
 # Achievement No.14: Token Efficiency Design — 20x as an architecture target
 Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achievements/14-token-efficiency-ja.md)
 
-> **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal. Measured data will be published in Phase 2.
+> **This is a theoretical design target, not a measured result.** The 20x figure represents an architectural goal [design target]. Measured data will be published in Phase 2.
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 

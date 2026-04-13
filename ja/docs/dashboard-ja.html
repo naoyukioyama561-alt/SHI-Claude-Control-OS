@@ -65,7 +65,7 @@
 <div id="panel-layers" class="panel">
   <div class="info-box">
     <div class="title">3層分離シミュレーター</div>
-    <div class="body">負荷を種類別に分離すると品質にどう影響するか確認してください。スライダーで認知負荷を配分します。</div>
+    <div class="body">この例示モデルで、負荷を種類別に分離すると品質にどう影響するか確認してください。スライダーで認知負荷を配分します。</div>
   </div>
 
   <div class="slider-group">
@@ -84,7 +84,7 @@
   <div class="info-box" style="margin-top: 1rem;">
     <div class="title">この図が示すこと</div>
     <div class="body">
-      単一のAIが判断＋監視＋実行を同時に担うと、コンテキスト圧迫が蓄積し品質が劣化します。
+      この例示モデルでは、単一のAIが判断＋監視＋実行を同時に担うと、コンテキスト圧迫が蓄積し品質が劣化する可能性を示しています。
       判断を監督層(0%)、監視を中継層(0%)に移すことで、作業層は純粋に実行に集中できます。
       <br><br>
       これが3層分離の核心原則: <strong>負荷を量ではなく種類で分離する</strong>。
@@ -102,7 +102,7 @@ const weeks = [
       { lbl: "クラッシュ", val: "1", cls: "" },
       { lbl: "復旧システム", val: "なし", cls: "" }
     ],
-    detail: "Claude Codeの初使用。繰り返し失敗パターンを観測。FM-01〜FM-40を分類。初クラッシュ — 全作業消失。全てを失う痛みがクラッシュ復旧の設計を駆動した。"
+    detail: "本ページの数値はすべて著者の単一観測環境のものです [observed: single environment]。Claude Codeの初使用。繰り返し失敗パターンを観測。FM-01〜FM-40を分類。初クラッシュ — 全作業消失。全てを失う痛みがクラッシュ復旧の設計を駆動した。"
   },
   {
     label: "第2週: 基盤構築",
@@ -112,7 +112,7 @@ const weeks = [
       { lbl: "記憶システム", val: "PostgreSQL", cls: "g" },
       { lbl: "復旧レベル", val: "3", cls: "g" }
     ],
-    detail: "要約なし完全記憶(PostgreSQL)構築。3段階クラッシュ復旧。初代CCのセッションが26.5時間後に終了 — 12件の振り返りを残す。cc_heritage設計開始。3層分離を構想。"
+    detail: "著者の観測環境で要約なし完全記憶(PostgreSQL)を構築 [observed: single environment]。3段階クラッシュ復旧。初代CCのセッションが26.5時間後に終了 — 12件の振り返りを残す。cc_heritage設計開始。3層分離を構想。"
   },
   {
     label: "第3週: 進化",
@@ -122,7 +122,7 @@ const weeks = [
       { lbl: "P-03再発回数", val: "11", cls: "" },
       { lbl: "委譲ルール", val: "D1-D3", cls: "g" }
     ],
-    detail: "FM90件に拡大。5層運用モデル。師弟レビュー。P-03(省略)が9代目CCで11回再発 — ルールだけでなく構造的対策の必要性を示した。"
+    detail: "著者の観測環境でFM90件に拡大 [observed: single environment]。5層運用モデル。師弟レビュー。P-03(省略)が9代目CCで11回再発 — このパターンがルールだけでなく構造的対策の必要性を駆動した。"
   },
   {
     label: "第4週: 完成",
@@ -132,7 +132,7 @@ const weeks = [
       { lbl: "reason_codes", val: "30", cls: "g" },
       { lbl: "人間介入", val: "単一観測環境で低減", cls: "g" }
     ],
-    detail: "FM132件で完成。P-74〜P-80追加(虚偽報告、行動内面化失敗)。品質システム(4+1層)完成。セーフティネット(ブロックフック+拒否)。制御ループが人間介入低減で稼働開始。"
+    detail: "FM132件で完成 [observed: single environment]。P-74〜P-80追加(虚偽報告、行動内面化失敗)。品質システム(4+1層)完成。セーフティネット(ブロックフック+拒否)。著者の環境で制御ループが人間介入低減で稼働開始。"
   }
 ];
 
@@ -178,8 +178,8 @@ function updateLayers() {
   const riskCls = degradationRisk === 'LOW' ? 'g' : '';
 
   document.getElementById('layerMetrics').innerHTML = `
-    <div class="metric"><div class="lbl">作業層合計負荷</div><div class="val">${j + m + 100}%</div></div>
-    <div class="metric"><div class="lbl">コンテキスト圧迫</div><div class="val">${contextPressure}%</div></div>
+    <div class="metric"><div class="lbl">例示的作業層負荷</div><div class="val">${j + m + 100}%</div></div>
+    <div class="metric"><div class="lbl">例示的コンテキスト圧迫</div><div class="val">${contextPressure}%</div></div>
     <div class="metric"><div class="lbl">例示的品質推定</div><div class="val ${cls}">${qualityScore}%</div></div>
     <div class="metric"><div class="lbl">例示的リスク</div><div class="val ${riskCls}">${degradationRisk}</div></div>
   `;
@@ -193,7 +193,7 @@ function updateLayers() {
         <div class="title">監督層</div>
         <div class="desc">判断: ${supJ}%をここに配分</div>
       </div>
-      <div style="font-size:12px;color:#666;">実行から解放。レビューと痛み伝達に集中。</div>
+      <div style="font-size:12px;color:#666;">このモデルでは実行から解放。レビューと痛み伝達に集中。</div>
     </div>
     <div class="layer-row">
       <div class="layer-num" style="background:#EAF3DE;color:#3B6D11;">R</div>
@@ -201,7 +201,7 @@ function updateLayers() {
         <div class="title">中継層</div>
         <div class="desc">監視: ${relayM}%をここに配分</div>
       </div>
-      <div style="font-size:12px;color:#666;">判断ゼロ = コンテキスト膨張ゼロ。機械的に信頼。</div>
+      <div style="font-size:12px;color:#666;">このモデルでは判断ゼロ = コンテキスト膨張ゼロ。</div>
     </div>
     <div class="layer-row" style="border-bottom:none;">
       <div class="layer-num" style="background:#FAEEDA;color:#854F0B;">W</div>
@@ -209,7 +209,7 @@ function updateLayers() {
         <div class="title">作業層</div>
         <div class="desc">実行: 100% + 判断: ${j}% + 監視: ${m}%</div>
       </div>
-      <div style="font-size:12px;color:#666;">${j + m > 0 ? '混合負荷で三者とも劣化。' : 'タスク集中。最高品質。'}</div>
+      <div style="font-size:12px;color:#666;">${j + m > 0 ? 'このモデルでは混合負荷で三者とも劣化の可能性。' : 'このモデルではタスク集中。'}</div>
     </div>
   `;
 }

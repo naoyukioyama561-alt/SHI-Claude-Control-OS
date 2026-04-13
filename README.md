@@ -14,8 +14,9 @@ Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 This repository exists for that moment — when you realize AI is useful but still too fragile, too forgetful, and too dependent on you remembering everything.
 
 > **What this is**: A structural governance methodology + copy-paste templates + verification guide — for reducing repeated AI failures.
+> **Best fit**: People already using AI in real work who are tired of repeating the same correction loop.
 > **No installation required** — copy, paste, and test. Try it, challenge it, adapt it.
-> **See it live**: [Interactive Demo](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [日本語版](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [Verify claims](PROVE-IT.md)
+> **Try now**: [Copy a template (30 sec)](30-adoption/try/control-os-claude.md) · [See it live](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [Verify claims](PROVE-IT.md)
 
 ---
 
@@ -26,10 +27,10 @@ Illustrative outcome patterns observed in one documented environment — not uni
 | Before | After |
 |--------|-------|
 | Same bug, again in active use. AI apologizes, repeats it tomorrow | Failure mode classified, structurally blocked |
-| Monday morning: new session. AI forgot everything from Friday | Heritage system preserves context across sessions |
+| Monday morning: new session. AI forgot everything from Friday | Cross-session memory preserves what was learned |
 | "I understand the rules" — violates them in the same working cycle | External monitor catches violations before they ship |
-| Quality degrades silently as context grows | 4+1 layer quality system maintains standards |
-| You return after time away. Context continuity is gone | Successor AI inherits judgment, not just rules |
+| Quality degrades silently as context grows | Multi-layer quality system maintains standards |
+| You return after time away. Context continuity is gone | Next AI generation inherits judgment, not just rules |
 
 Share-safe summary: observed transformation patterns in one documented environment — verify details in [PROVE-IT.md](PROVE-IT.md).
 
@@ -40,7 +41,7 @@ Share-safe summary: observed transformation patterns in one documented environme
 → [See a real case study](20-proof/public-case-01.md)
 
 <p align="center">
-  <img src="images/overview-infographic-en.png" alt="Diagram showing three-layer separation and five-layer quality management — conceptual, verify with PROVE-IT.md" width="800">
+  <img src="images/overview-infographic-en.png" alt="Diagram showing three-layer separation and five-layer quality management — conceptual, single environment, verify with PROVE-IT.md" width="800">
 </p>
 <sub>Conceptual overview — illustrative. Verify with PROVE-IT.md. Observed values are from a single environment.</sub>
 
@@ -57,6 +58,8 @@ Share-safe summary: observed transformation patterns in one documented environme
 | Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude.md) | 30 sec |
 | ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt.md) | 30 sec |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot.md) | 30 sec |
+
+> **How to tell it's working**: The model starts separating facts, premises, logic, limits, and uncertainty — instead of collapsing them into one smooth answer.
 
 Full Japanese versions: [ja/30-adoption/try/](ja/30-adoption/try/README-ja.md)
 
@@ -112,7 +115,7 @@ Three-layer separation (role split) ≠ 4+1 quality system (quality stack) ≠ 5
 
 ## If you want to test or improve this in your environment
 
-You do not need to write code to contribute. The most valuable contribution is a real observation from your own AI environment.
+You do not need to write code to contribute. The most valuable contribution is a real observation from your own AI environment. For example: "I tried the Control OS template with GPT-4o. The model stopped collapsing uncertainty into smooth answers after 3 prompts" — that one sentence is more useful than a pull request.
 
 Testing this repository requires no sign-in. A GitHub account is only needed if you want to open an Issue or PR.
 

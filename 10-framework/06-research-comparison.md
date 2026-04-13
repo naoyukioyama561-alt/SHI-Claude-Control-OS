@@ -48,7 +48,7 @@ Core propositions of SHI theory:
 Relationship to this repository:
 - Three-layer separation, external monitoring, and quality system are implementations of P1 (alignment firing without authority)
 - cc_heritage generational inheritance is an implementation of P2 (self-replication of alignment frames)
-- The expansion from FM-40 to 132 items is a practical demonstration of P3 (judgment firing under information gaps)
+- The expansion from FM-40 to 132 items [observed: single environment] is a practical demonstration of P3 (judgment firing under information gaps)
 
 Paper: [SSRN 6299258](https://ssrn.com/abstract=6299258)
 

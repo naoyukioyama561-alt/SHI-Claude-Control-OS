@@ -14,8 +14,9 @@ Language: [English version](../README.md)
 このリポジトリは、そんな瞬間のために存在します——AIは便利だけど、まだ脆くて、すぐ忘れて、あなたが全部覚えていないと回らない、と気づいた瞬間のために。
 
 > **これは何か**: 構造的ガバナンス手法 + コピペ用テンプレート + 検証ガイド——AIの繰り返し失敗を減らすためのもの。
+> **最も向いている人**: 実務でAIを使っていて、同じ修正ループの反復に疲れている人。
 > **インストール不要** — コピーして貼り付けてテスト。試す、反証する、移植する。
-> **動いている形を見る**: [インタラクティブデモ](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [English](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/demo/index.html) · [主張を検証する](PROVE-IT-ja.md)
+> **今すぐ試す**: [テンプレートをコピー（30秒）](30-adoption/try/control-os-claude-ja.md) · [デモを見る](https://naoyukioyama561-alt.github.io/SHI-Claude-Control-OS/ja/demo/index-ja.html) · [主張を検証する](PROVE-IT-ja.md)
 
 ---
 
@@ -26,10 +27,10 @@ Language: [English version](../README.md)
 | Before | After |
 |--------|-------|
 | 同じバグ、また発生。AIは謝る。明日また同じことをする | 失敗モードとして分類され、構造的にブロック |
-| 月曜朝：新セッション。金曜の積み上げがゼロ | 継承システムが「痛み」をセッションを超えて保持 |
+| 月曜朝：新セッション。金曜の積み上げがゼロ | 前のセッションで学んだことが次でも維持される |
 | 「ルールを理解しました」——同じ作業サイクル内で違反 | 外部モニターがリリース前に違反を検知 |
-| プレッシャー下で品質が静かに劣化 | 4+1層品質システムが基準を維持 |
-| しばらく離れて戻ると、文脈の継続性が失われている | 後継AIがルールだけでなく判断を継承 |
+| プレッシャー下で品質が静かに劣化 | 多層品質システムが基準を維持 |
+| しばらく離れて戻ると、文脈の継続性が失われている | 次世代AIがルールだけでなく判断を継承 |
 
 共有時の要約: 単一の記録環境で観測された変化パターン — 詳細は [PROVE-IT-ja.md](PROVE-IT-ja.md) で検証。
 
@@ -40,7 +41,7 @@ Language: [English version](../README.md)
 → [実例を見る](20-proof/public-case-01-ja.md)
 
 <p align="center">
-  <img src="images/overview-infographic-ja.png" alt="3層分離と5層品質管理の概念図 — PROVE-IT-ja.mdで検証" width="800">
+  <img src="images/overview-infographic-ja.png" alt="3層分離と5層品質管理の概念図 — 単一環境、PROVE-IT-ja.mdで検証" width="800">
 </p>
 <sub>概念図（例示）— PROVE-IT-ja.mdで検証してください。観測値は単一環境のものです。</sub>
 
@@ -57,6 +58,8 @@ Language: [English version](../README.md)
 | Claude Code / Claude | [control-os-claude](30-adoption/try/control-os-claude-ja.md) | 30秒 |
 | ChatGPT | [Control OS for GPT](30-adoption/try/control-os-gpt-ja.md) | 30秒 |
 | GitHub Copilot | [Control OS for Copilot](30-adoption/try/control-os-copilot-ja.md) | 30秒 |
+
+> **効いている目安**: モデルが事実・前提・論理・限界・不確実性を、ひとまとめの"それっぽい答え"ではなく分けて扱い始めること。
 
 ---
 
@@ -110,7 +113,7 @@ Language: [English version](../README.md)
 
 ## 自分の環境で試す・改善するなら
 
-コードを書かなくても貢献できます。いちばん価値が高いのは、あなたのAI環境で実際に何が起きたかという観測です。
+コードを書かなくても貢献できます。いちばん価値が高いのは、あなたのAI環境で実際に何が起きたかという観測です。例えば「GPT-4oでControl OSテンプレートを試したら、3回目のプロンプトからモデルが不確実性をぼかさなくなった」——この一文はプルリクエストより価値があります。
 
 このリポジトリを試すだけならサインインは不要です。Issue や PR を出すときだけ GitHub アカウントが必要です。
 

@@ -1,7 +1,7 @@
-# 成果No.14: トークン効率化設計 — 20分の1はアーキテクチャ目標
+# 成果No.14: トークン効率化設計 — 20倍はアーキテクチャ目標
 Language: [English version](../../../20-proof/achievements/14-token-efficiency.md)
 
-> **これは理論上の設計目標であり、計測結果ではありません。** 20倍という数字はアーキテクチャ上の目標です。実測データはPhase 2で公開予定です。
+> **これは理論上の設計目標であり、計測結果ではありません。** 20倍という数字はアーキテクチャ上の目標 [design target] です。実測データはPhase 2で公開予定です。
 
 ![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
 

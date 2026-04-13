@@ -37,7 +37,7 @@ Language: [English version](../../../20-proof/achievements/12-heritage-weight-tr
 
 > 詳細は将来の公開フェーズで提供予定。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 
-![実証画像: 規範重み継承](../../images/diagrams/cc-heritage-inheritance-ja.svg)
+![概念図: 規範重み継承](../../images/diagrams/cc-heritage-inheritance-ja.svg)
 
 > **注記**: Phase 1 / Phase 2 は将来の公開フェーズであり、価格帯ではありません。[SCOPE-MATRIX-ja.md](../../SCOPE-MATRIX-ja.md) を参照。
 

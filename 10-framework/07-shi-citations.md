@@ -63,7 +63,7 @@ This finding repositions SHI theory as **"a theory describing the operational mo
 |----------------------|----------------------------------|
 | P1 (Alignment firing without authority) | Three-layer separation, external monitoring, quality system |
 | P2 (Self-replication of alignment frames) | cc_heritage generational inheritance |
-| P3 (Judgment firing under information gaps) | Expansion process from FM-40 to 132 items |
+| P3 (Judgment firing under information gaps) | Expansion process from FM-40 to 132 items [observed: single environment] |
 | Structural margin observation | The process itself of observing structural displacement to design the Control OS |
 
 ---

@@ -283,6 +283,9 @@ A repository that is technically compliant but socially awkward to forward is li
 | Behavior orientation file | Orientation File | "behavior orientation file" |
 | Apprentice review file | (omit from title) | "apprentice review file" |
 | Monitoring service | External monitoring | "external monitoring hook" |
+| Write-scope target directory | designated write target | "designated write target" |
+| Recovery state file | recovery checkpoint file | "recovery checkpoint file" |
+| Quality enforcement hook | internal quality hook | "internal quality hook" |
 | Internal paths/scripts | (omit from title) | "(omitted for public release)" |
 
 ---
