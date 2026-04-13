@@ -9,7 +9,7 @@ Language: [日本語版はこちら / Japanese version](ja/README-ja.md)
 
 **Sound familiar?**
 
-[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+![Prototype](https://img.shields.io/badge/status-prototype-orange.svg) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
 
 This repository exists for that moment — when you realize AI is useful but still too fragile, too forgetful, and too dependent on you remembering everything.
 

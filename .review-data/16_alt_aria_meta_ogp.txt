@@ -1,0 +1,128 @@
+./20-proof/achievements/01-failure-modes-132.md:41:![Diagram showing dashboard layout concept — illustrative, all values are samples](../../images/diagrams/dashboard-overview.svg)
+./20-proof/achievements/01-failure-modes-132.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/02-role-separation.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/03-external-monitoring.md:38:![Diagram showing three-layer separation architecture — conceptual design](../../images/diagrams/three-layer-separation.svg)
+./20-proof/achievements/03-external-monitoring.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/04-quality-system.md:43:![Diagram showing 4+1 quality system architecture — conceptual design](../../images/diagrams/quality-system-4plus1.svg)
+./20-proof/achievements/04-quality-system.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/05-five-layer-ops.md:38:![Diagram showing quality layer overview — conceptual design](../../20-proof/../images/diagrams/mini-quality-layers.svg)
+./20-proof/achievements/05-five-layer-ops.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/06-safety-net.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/07-crash-recovery.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/08-full-memory.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/09-orientation-persistence.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/10-multi-cause-analysis.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/11-delegation-optimization.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/12-heritage-weight-transfer.md:40:![Diagram showing heritage inheritance concept — conceptual design](../../20-proof/../images/diagrams/cc-heritage-inheritance.svg)
+./20-proof/achievements/12-heritage-weight-transfer.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./20-proof/achievements/13-master-apprentice-review.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/14-token-efficiency.md:6:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./20-proof/achievements/15-other-achievements.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./40-heritage/personality-structure.md:4:![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
+./README.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+./ja/20-proof/achievements/01-failure-modes-132-ja.md:41:![ダッシュボードレイアウト概念図 — 例示、全値はサンプル](../../images/diagrams/dashboard-overview-ja.svg)
+./ja/20-proof/achievements/01-failure-modes-132-ja.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/02-role-separation-ja.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/03-external-monitoring-ja.md:38:![3層分離アーキテクチャ概念図](../../images/diagrams/three-layer-separation-ja.svg)
+./ja/20-proof/achievements/03-external-monitoring-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/04-quality-system-ja.md:44:![4+1品質システムアーキテクチャ概念図](../../images/diagrams/quality-system-4plus1-ja.svg)
+./ja/20-proof/achievements/04-quality-system-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/05-five-layer-ops-ja.md:36:![実証画像: 5層運用構造](../../images/diagrams/mini-quality-layers-ja.svg)
+./ja/20-proof/achievements/05-five-layer-ops-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/06-safety-net-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/07-crash-recovery-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/08-full-memory-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/09-orientation-persistence-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/10-multi-cause-analysis-ja.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/11-delegation-optimization-ja.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/12-heritage-weight-transfer-ja.md:40:![実証画像: 規範重み継承](../../images/diagrams/cc-heritage-inheritance-ja.svg)
+./ja/20-proof/achievements/12-heritage-weight-transfer-ja.md:4:![★★★★★](https://img.shields.io/badge/evidence-★★★★★-brightgreen) ![Public](https://img.shields.io/badge/availability-Public-blue)
+./ja/20-proof/achievements/13-master-apprentice-review-ja.md:4:![★★★★](https://img.shields.io/badge/evidence-★★★★-green) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/14-token-efficiency-ja.md:6:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/20-proof/achievements/15-other-achievements-ja.md:4:![★★★](https://img.shields.io/badge/evidence-★★★-yellow) ![Public (summary)](https://img.shields.io/badge/availability-Public%20%28summary%29-blue)
+./ja/40-heritage/personality-structure-ja.md:4:![Difficulty 8/10](https://img.shields.io/badge/difficulty-8%2F10-red)
+./ja/README-ja.md:12:[![Prototype](https://img.shields.io/badge/status-prototype-orange.svg)]() [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![SSRN Preprint](https://img.shields.io/badge/SSRN-6299258-blue.svg)](https://ssrn.com/abstract=6299258)
+demo/claudecode.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Claude Code - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/claudecode.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/design-verify.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Design Verify - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/design-verify.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/execute.html:6:<title>Execute - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/execute.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/features.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Features - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/features.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/glossary.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Glossary - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/glossary.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/health.html:6:<title>Health Check - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/health.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/index.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/index.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/learning.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Learning - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/learning.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/local_ai.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Local AI - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/local_ai.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/localai-check.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>LocalAI Check - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/localai-check.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/notifications.html:6:<title>Notifications - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/notifications.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/pipeline.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Pipeline - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/pipeline.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/quality.html:6:<title>Quality Check - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/quality.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/storage.html:6:<title>Resource Monitor - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/storage.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/supervisor-agent.html:6:<title>Supervisor Agent - SHI-Claude-Control-OS Dashboard (Illustrative Demo)</title>
+demo/supervisor-agent.html:7:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/supervisor.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Supervisor - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/supervisor.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/tasks.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Task Progress - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/tasks.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/tokens.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Token Monitor - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/tokens.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+demo/user-judgment.html:1:<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>User Judgment - SHI-Claude-Control-OS (Illustrative Demo)</title>
+demo/user-judgment.html:2:<meta name="description" content="Illustrative dashboard demo for SHI-Claude-Control-OS methodology. All values shown are samples, not measured benchmarks.">
+docs/dashboard.html:5:<title>SHI-Claude-Control-OS — Static Evidence Reader (Illustrative)</title>
+docs/dashboard.html:6:<meta name="description" content="SHI-Claude-Control-OS static evidence reader. Interactive illustrative exploration of observed values and design targets.">
+docs/index.html:6:<title>SHI-Claude-Control-OS — Static Evidence Reader (Illustrative)</title>
+docs/index.html:7:<meta name="description" content="SHI-Claude-Control-OS static evidence reader. Illustrative data exploration for the structural governance methodology.">
+ja/demo/claudecode-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Claude Code - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/claudecode-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/design-verify-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>設計照合 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/design-verify-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/execute-ja.html:6:<title>実行指示 - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/execute-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/features-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>機能一覧 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/features-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/glossary-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>用語管理 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/glossary-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/health-ja.html:6:<title>ヘルスチェック - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/health-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/index-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/index-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/learning-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>学習管理 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/learning-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/local_ai-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Local AI - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/local_ai-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/localai-check-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>LocalAI Check - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/localai-check-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/notifications-ja.html:6:<title>通知管理 - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/notifications-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/pipeline-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>パイプライン - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/pipeline-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/quality-ja.html:6:<title>品質チェック - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/quality-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/storage-ja.html:6:<title>リソースモニタ - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/storage-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/supervisor-agent-ja.html:6:<title>Supervisor Agent - SHI-Claude-Control-OS Dashboard (例示デモ)</title>
+ja/demo/supervisor-agent-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/supervisor-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>監督状況 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/supervisor-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/tasks-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>タスク進捗 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/tasks-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/tokens-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>トークン監視 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/tokens-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/demo/user-judgment-ja.html:1:<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>ユーザー判定 - SHI-Claude-Control-OS (例示デモ)</title>
+ja/demo/user-judgment-ja.html:2:<meta name="description" content="SHI-Claude-Control-OS方法論の例示的ダッシュボードデモ。表示される全ての値はサンプルであり、計測ベンチマークではありません。">
+ja/docs/dashboard-ja.html:5:<title>SHI-Claude-Control-OS — 静的証拠リーダー（例示）</title>
+ja/docs/dashboard-ja.html:6:<meta name="description" content="SHI-Claude-Control-OS 静的証拠リーダー。観測値と設計目標のインタラクティブ例示探索。">
+ja/docs/index-ja.html:6:<title>SHI-Claude-Control-OS — 静的証拠リーダー（例示）</title>
+ja/docs/index-ja.html:7:<meta name="description" content="SHI-Claude-Control-OS 静的証拠リーダー。構造的ガバナンス方法論の例示的データ探索。">

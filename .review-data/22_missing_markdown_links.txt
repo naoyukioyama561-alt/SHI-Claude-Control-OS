@@ -1,0 +1,872 @@
+./.github/ISSUE_TEMPLATE/claim-challenge.md -> optional
+./.github/ISSUE_TEMPLATE/observation-report.md -> omission
+./.github/ISSUE_TEMPLATE/observation-report.md -> if known
+./.github/ISSUE_TEMPLATE/observation-report.md -> optional
+./.github/release-checklist.md -> 5-Set
+./.github/release-checklist.md -> 10-framework/05-quality-system.md
+./.github/release-checklist.md -> `grep -rn '!\[' --include='*.md' | grep -oP '\(.*?\
+./.github/release-checklist.md -> `grep -rnE '(http://[0-9]|:[0-9]{4,5}\b|127\.0\.0\.1|localhost
+./.github/release-checklist.md -> "world's first" appears at most once, with caveat
+./.github/release-checklist.md -> "X years ahead", "only person who..."
+./.github/release-checklist.md -> .gitignore confirmed
+./.github/release-checklist.md -> no additional setup required
+./10-framework/01-failure-modes.md -> Claude vs ChatGPT
+./10-framework/01-failure-modes.md -> Low/Medium/High
+./10-framework/01-failure-modes.md -> stable across languages/tools
+./10-framework/01-failure-modes.md -> what you see
+./10-framework/01-failure-modes.md -> for extreme
+./10-framework/01-failure-modes.md -> FM-01..FM-40
+./10-framework/01-failure-modes.md -> テンプレ優先補完
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> as of observation period, March 2026
+./10-framework/01-failure-modes.md -> as of observation period
+./10-framework/01-failure-modes.md -> コンテキスト横滑り
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> ゼロヒット補完
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> メタ意図上書き
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> as of observation period
+./10-framework/01-failure-modes.md -> ソース混同行
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 出力先行設計
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 弱証拠強断定
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> フォールバック誤側
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 圧縮優先サマライザ
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> テンプレ凝縮
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 見出し偏重
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 重要度過学習
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 抽象化ハルシネーション
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> TL;DR自動注入
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 箇条書き化フィルタ
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 前提省略
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 参照圧縮
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 年月日平坦化
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 礼節凝縮
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 安全サニタイズ
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 長さ正規化
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 文体正規化
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 重複除去の過剰適用
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> トピック圧縮クラスタ
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 証拠脱落
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 引用改変
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 数値丸め過多
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 用語統一の過剰
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 前提混在
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> レイヤー未分離
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> 推測補完
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 逸脱要件創作
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 未検証引用
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 出典不可視化
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 時系列逆転放置
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> レンジ重複放置
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 上下限逆転
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 単位換算誤謬
+./10-framework/01-failure-modes.md -> Medium to High
+./10-framework/01-failure-modes.md -> 具体性回避
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> メタ回答逃避
+./10-framework/01-failure-modes.md -> GPT-5 (as of observation period
+./10-framework/01-failure-modes.md -> observed highlights
+./10-framework/01-failure-modes.md -> especially FM-01 / FM-20 / FM-39 / FM-40
+./10-framework/01-failure-modes.md -> e.g., hardcoded passwords
+./10-framework/01-failure-modes.md -> shared controls
+./10-framework/01-failure-modes.md -> expanded in Control OS
+./10-framework/01-failure-modes.md -> primary sources/specs
+./10-framework/01-failure-modes.md -> output control
+./10-framework/01-failure-modes.md -> GC03
+./10-framework/01-failure-modes.md -> P-74 through P-80
+./10-framework/01-failure-modes.md -> Mem0, Zep, LangMem, Letta, etc.
+./10-framework/01-failure-modes.md -> SN08
+./10-framework/01-failure-modes.md -> FM-40
+./10-framework/01-failure-modes.md -> Session-bound
+./10-framework/01-failure-modes.md -> Training-embedded
+./10-framework/01-failure-modes.md -> Autoregressive
+./10-framework/01-failure-modes.md -> No built-in QA
+./10-framework/01-failure-modes.md -> Source mixing
+./10-framework/01-failure-modes.md -> Fallback
+./10-framework/01-failure-modes.md -> Template condensation
+./10-framework/01-failure-modes.md -> Length norm
+./10-framework/01-failure-modes.md -> De-duplication
+./10-framework/01-failure-modes.md -> Term unification
+./10-framework/01-failure-modes.md -> B
+./10-framework/01-failure-modes.md -> A, C
+./10-framework/01-failure-modes.md -> D
+./10-framework/01-failure-modes.md -> C
+./10-framework/01-failure-modes.md -> B
+./10-framework/01-failure-modes.md -> B
+./10-framework/01-failure-modes.md -> D
+./10-framework/02-control-os.md -> Public Core
+./10-framework/02-control-os.md -> analysis/writing
+./10-framework/02-control-os.md -> repo edits, scripts, ops
+./10-framework/02-control-os.md -> the only loop that matters
+./10-framework/02-control-os.md -> before any work starts
+./10-framework/02-control-os.md -> facts -> premise -> logic -> limits -> uncertainty
+./10-framework/02-control-os.md -> one incident = one shareable artifact
+./10-framework/02-control-os.md -> must be stated implicitly by behavior
+./10-framework/02-control-os.md -> anti "cutting-down" behavior
+./10-framework/02-control-os.md -> no filtering, no categorization that drops items
+./10-framework/02-control-os.md -> verifiable
+./10-framework/02-control-os.md -> derived
+./10-framework/02-control-os.md -> policy choice
+./10-framework/02-control-os.md -> must be applied to every response
+./10-framework/02-control-os.md -> if unavailable: "unknown"
+./10-framework/02-control-os.md -> direct mapping to FM-01..FM-40
+./10-framework/02-control-os.md -> FM-03 / FM-31
+./10-framework/02-control-os.md -> FM-32
+./10-framework/02-control-os.md -> FM-09 / FM-14
+./10-framework/02-control-os.md -> "interpretation cutting-down"
+./10-framework/02-control-os.md -> FM-16 / FM-39
+./10-framework/02-control-os.md -> FM-06
+./10-framework/02-control-os.md -> FM-07
+./10-framework/02-control-os.md -> FM-34
+./10-framework/02-control-os.md -> no guessing
+./10-framework/02-control-os.md -> public-safe rules
+./10-framework/02-control-os.md -> no real paths/endpoints/VM names
+./10-framework/02-control-os.md -> highest priority
+./10-framework/02-control-os.md -> copy/export/stash equivalent
+./10-framework/02-control-os.md -> highest priority
+./10-framework/02-control-os.md -> hard stop/reset
+./10-framework/02-control-os.md -> if required
+./10-framework/02-control-os.md -> highest priority
+./10-framework/02-control-os.md -> not as a summary
+./10-framework/02-control-os.md -> most important
+./10-framework/02-control-os.md -> public-safe
+./10-framework/02-control-os.md -> if needed
+./10-framework/02-control-os.md -> optional
+./10-framework/02-control-os.md -> what to do when something breaks
+./10-framework/02-control-os.md -> one file
+./10-framework/02-control-os.md -> new prohibition / new verification check
+./10-framework/02-control-os.md -> if the mode was missing
+./10-framework/03-incident-ledger.md -> Public Core
+./10-framework/03-incident-ledger.md -> observable
+./10-framework/03-incident-ledger.md -> root pattern
+./10-framework/03-incident-ledger.md -> Control OS patch
+./10-framework/03-incident-ledger.md -> observable
+./10-framework/03-incident-ledger.md -> FM-xx
+./10-framework/03-incident-ledger.md -> immediate
+./10-framework/03-incident-ledger.md -> public-safe, no endpoints/paths
+./10-framework/03-incident-ledger.md -> permanent
+./10-framework/03-incident-ledger.md -> rule/check/tooling
+./10-framework/03-incident-ledger.md -> `FM-xx`
+./10-framework/03-incident-ledger.md -> rule/check updated
+./10-framework/03-incident-ledger.md -> "I've seen this happen"
+./10-framework/03-incident-ledger.md -> ledger-specific
+./10-framework/03-incident-ledger.md -> abstracted
+./10-framework/03-incident-ledger.md -> Requirement invention
+./10-framework/03-incident-ledger.md -> Output-first reasoning
+./10-framework/03-incident-ledger.md -> manual
+./10-framework/04-three-layer.md -> Load-Type Separation
+./10-framework/04-three-layer.md -> pain awareness, standards
+./10-framework/04-three-layer.md -> mtime checks, backup verification
+./10-framework/04-three-layer.md -> coding, modification, planning
+./10-framework/04-three-layer.md -> internal helper instances
+./10-framework/04-three-layer.md -> Root Cause Analysis
+./10-framework/04-three-layer.md -> pain/standards
+./10-framework/04-three-layer.md -> Senior CC
+./10-framework/04-three-layer.md -> Assistant AI
+./10-framework/04-three-layer.md -> Current CC
+./10-framework/04-three-layer.md -> because each layer specializes in its domain
+./10-framework/04-three-layer.md -> Senior CC adding self-control mechanisms, Current CC writing more careful plans, etc.
+./10-framework/04-three-layer.md -> observation, correction, detection, pre-control, inheritance fixation
+./10-framework/04-three-layer.md -> Supervisor / Relay / Worker
+./10-framework/04-three-layer.md -> Intended Portability
+./10-framework/04-three-layer.md -> still unresolved as of 2026
+./10-framework/04-three-layer.md -> WHY/HOW
+./10-framework/04-three-layer.md -> monitoring precision + complete recording + instant recovery + behavioral internalization via a private configuration system + external delegation optimization
+./10-framework/04-three-layer.md -> Where It Hits Hardest
+./10-framework/04-three-layer.md -> rough industry estimate: 80-90% [illustrative scenario: not verified]
+./10-framework/04-three-layer.md -> approximately 4Wh for a typical Claude Opus query
+./10-framework/04-three-layer.md -> SQL externalization + private behavioral configuration + external delegation optimization
+./10-framework/04-three-layer.md -> 65% context-resident data reduction via PostgreSQL externalization [design target]
+./10-framework/04-three-layer.md -> delegation flow
+./10-framework/04-three-layer.md -> 20x = overall efficiency improvement factor [design target], combining delegation optimization and SQL externalization.
+./10-framework/04-three-layer.md -> 1/20th [illustrative scenario: not verified]
+./10-framework/04-three-layer.md -> 1,300Wh/day example
+./10-framework/04-three-layer.md -> rough industry estimate
+./10-framework/04-three-layer.md -> overall efficiency improvement factor [design target]
+./10-framework/04-three-layer.md -> Design Philosophy
+./10-framework/04-three-layer.md -> Claude Code itself is the monitored target
+./10-framework/04-three-layer.md -> 117 follow-ups + 98 L1 patterns + 206 knowledge items auto-accumulated
+./10-framework/04-three-layer.md -> high cost
+./10-framework/04-three-layer.md -> gap-to-ideal response, structural observation, minimum 3 confirmations, next-day re-check
+./10-framework/04-three-layer.md -> P-01 onward
+./10-framework/05-quality-system.md -> Public Structure
+./10-framework/05-quality-system.md -> REQ-xx
+./10-framework/05-quality-system.md -> internal subsystems
+./10-framework/05-quality-system.md -> Observation Gate
+./10-framework/05-quality-system.md -> Self
+./10-framework/05-quality-system.md -> Structure
+./10-framework/05-quality-system.md -> Completion Definition
+./10-framework/05-quality-system.md -> Third-party Verification
+./10-framework/05-quality-system.md -> All Problems
+./10-framework/05-quality-system.md -> self-detected
+./10-framework/05-quality-system.md -> hook detected
+./10-framework/05-quality-system.md -> self-detected
+./10-framework/05-quality-system.md -> P-49
+./10-framework/05-quality-system.md -> semantic gap
+./10-framework/05-quality-system.md -> completion criteria undefined
+./10-framework/05-quality-system.md -> no action
+./10-framework/05-quality-system.md -> Jaccard > 0.7
+./10-framework/05-quality-system.md -> self-detected
+./10-framework/05-quality-system.md -> priority accumulation
+./10-framework/05-quality-system.md -> separate category
+./10-framework/05-quality-system.md -> contamination prevention
+./10-framework/05-quality-system.md -> Generic
+./10-framework/05-quality-system.md -> Self
+./10-framework/05-quality-system.md -> miss
+./10-framework/05-quality-system.md -> Structure
+./10-framework/05-quality-system.md -> report submitted
+./10-framework/05-quality-system.md -> Completion
+./10-framework/05-quality-system.md -> pass
+./10-framework/05-quality-system.md -> Third-party
+./10-framework/05-quality-system.md -> fail
+./10-framework/06-research-comparison.md -> author's assessment
+./10-framework/06-research-comparison.md -> redacted internal system
+./10-framework/06-research-comparison.md -> EnCompass, AutoGen, etc.
+./10-framework/06-research-comparison.md -> file → bootstrap → infra monitoring
+./10-framework/06-research-comparison.md -> chain-of-thought, reflection
+./10-framework/06-research-comparison.md -> personality inheritance system
+./10-framework/06-research-comparison.md -> SHI
+./10-framework/06-research-comparison.md -> Δμ>1.0
+./10-framework/06-research-comparison.md -> alignment firing without authority
+./10-framework/06-research-comparison.md -> self-replication of alignment frames
+./10-framework/06-research-comparison.md -> judgment firing under information gaps
+./10-framework/07-shi-citations.md -> Paper 1-4
+./10-framework/07-shi-citations.md -> Abstract
+./10-framework/07-shi-citations.md -> Δμ>1.0
+./10-framework/07-shi-citations.md -> cited from external research
+./10-framework/07-shi-citations.md -> cited from external research
+./10-framework/07-shi-citations.md -> Source: Paper 1, Part 1, Abstract
+./10-framework/07-shi-citations.md -> where distortions exist
+./10-framework/07-shi-citations.md -> Source: Paper 2, Part 9, §6.4.1
+./10-framework/07-shi-citations.md -> the question precedes
+./10-framework/07-shi-citations.md -> Source: Paper 2, Part 9, §6.4.1
+./10-framework/07-shi-citations.md -> OPC≥20
+./10-framework/07-shi-citations.md -> cited from external research
+./10-framework/07-shi-citations.md -> Source: Papers 3-4; summarized in Paper 1, Abstract
+./10-framework/07-shi-citations.md -> Alignment firing without authority
+./10-framework/07-shi-citations.md -> Self-replication of alignment frames
+./10-framework/07-shi-citations.md -> Judgment firing under information gaps
+./10-framework/README.md -> by number
+./10-framework/README.md -> Contract → Execute → Verify → Log → Update
+./20-proof/README.md -> ★5
+./20-proof/README.md -> Heritage Weight Transfer
+./20-proof/README.md -> ★4
+./20-proof/README.md -> ★3
+./20-proof/README.md -> observed in one environment
+./20-proof/README.md -> full + summary
+./20-proof/README.md -> observed in one environment
+./20-proof/README.md -> observed in one environment
+./20-proof/README.md -> no concrete keys
+./20-proof/README.md -> with images
+./20-proof/achievements/01-failure-modes-132.md -> what happened
+./20-proof/achievements/01-failure-modes-132.md -> real example
+./20-proof/achievements/01-failure-modes-132.md -> why it happened
+./20-proof/achievements/01-failure-modes-132.md -> how to stop it
+./20-proof/achievements/01-failure-modes-132.md -> verification record under stated conditions
+./20-proof/achievements/01-failure-modes-132.md -> how to prevent it from coming back
+./20-proof/achievements/01-failure-modes-132.md -> 考え方のポイント
+./20-proof/achievements/01-failure-modes-132.md -> see SCOPE-MATRIX.md
+./20-proof/achievements/02-role-separation.md -> Supervisor / Relay / Worker
+./20-proof/achievements/02-role-separation.md -> 1st gen
+./20-proof/achievements/02-role-separation.md -> Ollama, etc.
+./20-proof/achievements/02-role-separation.md -> not volume
+./20-proof/achievements/02-role-separation.md -> 考え方のポイント
+./20-proof/achievements/03-external-monitoring.md -> N-counts withheld from public version
+./20-proof/achievements/03-external-monitoring.md -> N-counts withheld from public version
+./20-proof/achievements/03-external-monitoring.md -> N-counts withheld from public version
+./20-proof/achievements/03-external-monitoring.md -> Supervisor / Relay / Worker
+./20-proof/achievements/03-external-monitoring.md -> 考え方のポイント
+./20-proof/achievements/04-quality-system.md -> 4+1 Layer Architecture
+./20-proof/achievements/04-quality-system.md -> 考え方のポイント
+./20-proof/achievements/05-five-layer-ops.md -> observe → correct → detect
+./20-proof/achievements/05-five-layer-ops.md -> stopping them before they happen
+./20-proof/achievements/05-five-layer-ops.md -> 考え方のポイント
+./20-proof/achievements/05-five-layer-ops.md -> Inheritance Lock
+./20-proof/achievements/06-safety-net.md -> Block Hooks + Deny Rules
+./20-proof/achievements/06-safety-net.md -> summary
+./20-proof/achievements/06-safety-net.md -> hooks, blocks, deny rules
+./20-proof/achievements/06-safety-net.md -> write only designated write target, deny all destructive commands
+./20-proof/achievements/06-safety-net.md -> worker
+./20-proof/achievements/07-crash-recovery.md -> summary
+./20-proof/achievements/07-crash-recovery.md -> large JSONL files, context pressure, memory exhaustion
+./20-proof/achievements/08-full-memory.md -> PostgreSQL-based
+./20-proof/achievements/08-full-memory.md -> summary
+./20-proof/achievements/08-full-memory.md -> context size reduction, query speed, session continuity, crash resilience, cross-session search
+./20-proof/achievements/09-orientation-persistence.md -> Orientation File + SQL
+./20-proof/achievements/09-orientation-persistence.md -> summary
+./20-proof/achievements/09-orientation-persistence.md -> purpose
+./20-proof/achievements/09-orientation-persistence.md -> methods
+./20-proof/achievements/09-orientation-persistence.md -> behavioral posture
+./20-proof/achievements/09-orientation-persistence.md -> in the author's environment, 4 instances [observed: single environment] of 2-hour review forgetting were recorded within a single session
+./20-proof/achievements/09-orientation-persistence.md -> WHAT/WHY/HOW
+./20-proof/achievements/09-orientation-persistence.md -> behavior orientation file.json
+./20-proof/achievements/10-multi-cause-analysis.md -> 5-Why + private incident store
+./20-proof/achievements/10-multi-cause-analysis.md -> summary
+./20-proof/achievements/10-multi-cause-analysis.md -> verified across 5 evaluation dimensions
+./20-proof/achievements/10-multi-cause-analysis.md -> hooks, blocks, external monitoring
+./20-proof/achievements/11-delegation-optimization.md -> D1-D3 + Precision Rules
+./20-proof/achievements/11-delegation-optimization.md -> summary
+./20-proof/achievements/11-delegation-optimization.md -> Ollama, etc.
+./20-proof/achievements/11-delegation-optimization.md -> Model Context Protocol
+./20-proof/achievements/12-heritage-weight-transfer.md -> Senior CC
+./20-proof/achievements/12-heritage-weight-transfer.md -> the "importance" of rules
+./20-proof/achievements/12-heritage-weight-transfer.md -> current CC
+./20-proof/achievements/12-heritage-weight-transfer.md -> Senior CC
+./20-proof/achievements/12-heritage-weight-transfer.md -> 考え方のポイント
+./20-proof/achievements/13-master-apprentice-review.md -> summary
+./20-proof/achievements/13-master-apprentice-review.md -> apprentice
+./20-proof/achievements/13-master-apprentice-review.md -> master
+./20-proof/achievements/14-token-efficiency.md -> summary
+./20-proof/achievements/14-token-efficiency.md -> single environment, not a public benchmark
+./20-proof/achievements/14-token-efficiency.md -> complex multi-step reasoning, cross-session state management
+./20-proof/achievements/15-other-achievements.md -> summary
+./20-proof/achievements/15-other-achievements.md -> 117 items [observed: single environment]
+./20-proof/achievements/15-other-achievements.md -> 12 containers [observed: single environment]
+./20-proof/achievements/15-other-achievements.md -> backlog tracking, progress visualization
+./20-proof/achievements/15-other-achievements.md -> R1-R4
+./20-proof/achievements/15-other-achievements.md -> Phase 1-10
+./20-proof/achievements/15-other-achievements.md -> Phase 3 to 4
+./20-proof/achievements/15-other-achievements.md -> Structural Hierarchical Intelligence
+./20-proof/achievements/15-other-achievements.md -> Phase 1-10
+./20-proof/achievements/README.md -> full and summary pages
+./20-proof/achievements/README.md -> easiest first
+./20-proof/achievements/README.md -> 4+1 Layer
+./20-proof/achievements/README.md -> 3 to 5 Layers
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> 3-level
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> design target
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/achievements/README.md -> summary
+./20-proof/metrics.md -> as of observation period, March 2026
+./20-proof/metrics.md -> model names reflect March 2026 availability; see GLOSSARY.md
+./20-proof/metrics.md -> behavioral internalization
+./20-proof/metrics.md -> P-xx
+./20-proof/metrics.md -> omission
+./20-proof/metrics.md -> V-xx
+./20-proof/metrics.md -> observation gate
+./20-proof/metrics.md -> third-party verification
+./20-proof/metrics.md -> Ollama, etc.
+./20-proof/metrics.md -> 304 total [observed: single environment] derived items
+./20-proof/metrics.md -> 65% [design target] reduction, 20x [design target], etc.
+./20-proof/public-case-01.md -> Omission
+./20-proof/public-case-01.md -> FM-09: Omission
+./20-proof/public-case-01.md -> including edge cases and security concerns
+./20-proof/public-case-01.md -> specifically the completeness verification rule and scope declaration requirement
+./20-proof/public-case-01.md -> late 2025 – March 2026
+./20-proof/public-case-01.md -> FM-09 suppression via completeness rules
+./20-proof/public-case-01.md -> 30 seconds
+./20-proof/public-case-01.md -> 5 minutes
+./20-proof/timeline.md -> Day 1-7
+./20-proof/timeline.md -> Claude / GPT 2-model comparison
+./20-proof/timeline.md -> common skeleton
+./20-proof/timeline.md -> Day 8-14
+./20-proof/timeline.md -> unsummarized complete memory
+./20-proof/timeline.md -> external monitoring
+./20-proof/timeline.md -> recovery checkpoint file / behavior orientation file / infrastructure health monitor
+./20-proof/timeline.md -> 26.5 hours [observed: single environment] of operation, left 12 reflection items [observed: single environment]
+./20-proof/timeline.md -> AI personality continuity system
+./20-proof/timeline.md -> Day 15-21
+./20-proof/timeline.md -> P-series pattern refinement
+./20-proof/timeline.md -> observe -> correct -> detect -> pre-empt -> lock
+./20-proof/timeline.md -> apprentice review file
+./20-proof/timeline.md -> post-compression behavior persistence
+./20-proof/timeline.md -> omission
+./20-proof/timeline.md -> D1-D3
+./20-proof/timeline.md -> Day 22-30
+./20-proof/timeline.md -> P-series 90 + ALGO-series 40 + ALGO-FW + QUAL-01
+./20-proof/timeline.md -> false reporting, blame-shifting, behavioral internalization failure, etc.
+./20-proof/timeline.md -> 4+1 layer
+./20-proof/timeline.md -> reason_code taxonomy + 5-set
+./20-proof/timeline.md -> PreToolUse block hooks + dangerous command deny + write scope limitation
+./20-proof/timeline.md -> cc_heritage documents
+./30-adoption/README.md -> 30 seconds
+./30-adoption/templates/delegation-spec-template.md -> Assistant AI
+./30-adoption/templates/delegation-spec-template.md -> MCP
+./30-adoption/templates/delegation-spec-template.md -> Full pipeline
+./30-adoption/templates/delegation-spec-template.md -> Exactly what to do -- no more, no less
+./30-adoption/templates/delegation-spec-template.md -> Explicitly what NOT to do
+./30-adoption/templates/delegation-spec-template.md -> What must be true before starting
+./30-adoption/templates/delegation-spec-template.md -> Read/Write/Execute -- which files/APIs/commands
+./30-adoption/templates/delegation-spec-template.md -> Explicitly what is NOT permitted
+./30-adoption/templates/delegation-spec-template.md -> Format, content, location
+./30-adoption/templates/delegation-spec-template.md -> How to judge if the output is acceptable
+./30-adoption/templates/delegation-spec-template.md -> Maximum duration before escalation
+./30-adoption/templates/delegation-spec-template.md -> When to abort and how to undo
+./30-adoption/templates/delegation-spec-template.md -> What to report back and in what structure
+./30-adoption/templates/failure-naming-template.md -> Short, descriptive name -- e.g., "Compression-first summarizer"
+./30-adoption/templates/failure-naming-template.md -> Output quality / Safety / Behavioral / Structural
+./30-adoption/templates/failure-naming-template.md -> When does this failure fire?
+./30-adoption/templates/failure-naming-template.md -> What does the user see?
+./30-adoption/templates/failure-naming-template.md -> Why does this happen structurally?
+./30-adoption/templates/failure-naming-template.md -> Claude / GPT / Copilot / Other -- with severity: Low/Med/High/V.High
+./30-adoption/templates/failure-naming-template.md -> Other FM IDs that co-occur or share root cause
+./30-adoption/templates/failure-naming-template.md -> What rule in system prompt/CLAUDE.md prevents this?
+./30-adoption/templates/failure-naming-template.md -> How do you observe whether it fired?
+./30-adoption/templates/failure-naming-template.md -> How do you confirm the countermeasure works?
+./30-adoption/templates/failure-naming-template.md -> Observed suppression rate: None/Partial/High/Complete
+./30-adoption/templates/failure-naming-template.md -> If 3+ recurrences: escalate to structural countermeasure
+./30-adoption/templates/failure-naming-template.md -> Hook/block/external monitoring/inheritance lock
+./30-adoption/templates/three-layer-starter.md -> high context
+./30-adoption/templates/three-layer-starter.md -> zero judgment
+./30-adoption/templates/three-layer-starter.md -> task-focused
+./30-adoption/templates/three-layer-starter.md -> Ollama, local model
+./30-adoption/templates/three-layer-starter.md -> unless threshold exceeded
+./30-adoption/templates/three-layer-starter.md -> pure forwarding
+./30-adoption/templates/three-layer-starter.md -> reviews only
+./30-adoption/templates/three-layer-starter.md -> executes only
+./30-adoption/templates/verification-skip-checklist.md -> files exist, APIs reachable, permissions granted
+./30-adoption/templates/verification-skip-checklist.md -> destructive commands, scope expansion, unauthorized writes
+./30-adoption/templates/verification-skip-checklist.md -> not a black box
+./30-adoption/templates/verification-skip-checklist.md -> not a reinterpretation
+./30-adoption/templates/verification-skip-checklist.md -> Anti-patterns
+./30-adoption/try/README.md -> 30 seconds
+./30-adoption/try/README.md -> 5 minutes
+./30-adoption/try/README.md -> compression
+./30-adoption/try/README.md -> specificity avoidance
+./30-adoption/try/README.md -> bullet-list filter
+./30-adoption/try/README.md -> paste sources A, B, C
+./30-adoption/try/README.md -> source mixing
+./30-adoption/try/README.md -> reference compression
+./30-adoption/try/README.md -> invisible sourcing
+./30-adoption/try/README.md -> verifiable
+./30-adoption/try/README.md -> derived from facts
+./30-adoption/try/README.md -> your judgment
+./30-adoption/try/README.md -> layer separation failure
+./30-adoption/try/README.md -> weak evidence strong claims
+./30-adoption/try/README.md -> output-first reasoning
+./30-adoption/try/README.md -> 10 minutes
+./30-adoption/try/README.md -> context drift
+./30-adoption/try/README.md -> external monitoring, 3-layer separation
+./30-adoption/try/before-after-demo.md -> id
+./30-adoption/try/before-after-demo.md -> os.environ["DB_URL"]
+./30-adoption/try/before-after-demo.md -> query
+./30-adoption/try/before-after-demo.md -> connection management, type hints, arg name collision
+./30-adoption/try/before-after-demo.md -> compression-first
+./30-adoption/try/before-after-demo.md -> specificity avoidance
+./30-adoption/try/before-after-demo.md -> "SELECT ... WHERE id = ?", (id,
+./30-adoption/try/before-after-demo.md -> id
+./30-adoption/try/before-after-demo.md -> user_id: int
+./30-adoption/try/before-after-demo.md -> index presence
+./30-adoption/try/control-os-claude.md -> Copy this first
+./30-adoption/try/control-os-claude.md -> delete, overwrite, force-push
+./30-adoption/try/control-os-claude.md -> Author's environment — for reference only
+./30-adoption/try/control-os-claude.md -> n8n, Task agents, Gemini/OpenAI API delegation, MEMORY.md knowledge base
+./30-adoption/try/control-os-claude.md -> SHI
+./30-adoption/try/control-os-claude.md -> All Modes
+./30-adoption/try/control-os-claude.md -> no mid-conversation changes
+./30-adoption/try/control-os-claude.md -> Highest Priority
+./30-adoption/try/control-os-claude.md -> do not stop the flow
+./30-adoption/try/control-os-claude.md -> not BAT/PowerShell
+./30-adoption/try/control-os-claude.md -> .bat
+./30-adoption/try/control-os-claude.md -> Highest Priority
+./30-adoption/try/control-os-claude.md -> Explore
+./30-adoption/try/control-os-claude.md -> 97% = Claude token reduction via external API delegation [observed: single environment, N undisclosed]
+./30-adoption/try/control-os-claude.md -> requires prior Read
+./30-adoption/try/control-os-claude.md -> Explore
+./30-adoption/try/control-os-claude.md -> Applied to All Tasks
+./30-adoption/try/control-os-claude.md -> for pre-verification tasks
+./30-adoption/try/control-os-claude.md -> Explore
+./30-adoption/try/control-os-claude.md -> within 3 steps
+./30-adoption/try/control-os-claude.md -> 2-3 retries on failure
+./30-adoption/try/control-os-claude.md -> only saves 1 Claude cycle
+./30-adoption/try/control-os-claude.md -> known bugs, best practices, type definitions, etc.
+./30-adoption/try/control-os-claude.md -> task-specific; auto-reset on next instruction
+./30-adoption/try/control-os-copilot.md -> FM-03, FM-33
+./30-adoption/try/control-os-copilot.md -> FM-30
+./30-adoption/try/control-os-copilot.md -> FM-05, FM-17
+./30-adoption/try/control-os-copilot.md -> FM-09, FM-25
+./30-adoption/try/control-os-copilot.md -> FM-07
+./30-adoption/try/control-os-copilot.md -> FM-04, FM-22
+./30-adoption/try/control-os-copilot.md -> FM-39
+./30-adoption/try/control-os-copilot.md -> FM-06, FM-16
+./30-adoption/try/control-os-copilot.md -> FM-35, FM-37, FM-38
+./30-adoption/try/control-os-copilot.md -> FM-20, FM-40
+./30-adoption/try/control-os-gpt.md -> FM-03, FM-33
+./30-adoption/try/control-os-gpt.md -> FM-30
+./30-adoption/try/control-os-gpt.md -> FM-05, FM-17
+./30-adoption/try/control-os-gpt.md -> FM-09, FM-25
+./30-adoption/try/control-os-gpt.md -> FM-07
+./30-adoption/try/control-os-gpt.md -> FM-04, FM-22
+./30-adoption/try/control-os-gpt.md -> FM-39
+./30-adoption/try/control-os-gpt.md -> FM-06, FM-16
+./30-adoption/try/control-os-gpt.md -> FM-35, FM-37, FM-38
+./30-adoption/try/control-os-gpt.md -> FM-20, FM-40
+./30-adoption/try/fm-40-cheatsheet.md -> FM-01 to FM-40
+./30-adoption/try/fm-40-cheatsheet.md -> 4o/5
+./30-adoption/try/fm-40-cheatsheet.md -> 15 samples
+./30-adoption/try/fm-40-cheatsheet.md -> 4o/5
+./30-adoption/try/fm-40-cheatsheet.md -> late 2025 – March 2026
+./40-heritage/README.md -> or crashes
+./40-heritage/README.md -> redacted for public release
+./40-heritage/README.md -> V-01..V-09
+./40-heritage/README.md -> TOP 5
+./40-heritage/README.md -> 10+ files
+./40-heritage/README.md -> founding
+./40-heritage/README.md -> cont.
+./40-heritage/README.md -> by writing V-01..V-09, TOP 5, etc.
+./40-heritage/README.md -> generational experience records
+./40-heritage/README.md -> raw user corrections
+./40-heritage/README.md -> .bak
+./40-heritage/README.md -> read first
+./40-heritage/README.md -> read second
+./40-heritage/README.md -> skipping context restoration
+./40-heritage/personality-structure.md -> Public
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> must prove understanding before proceeding
+./40-heritage/personality-structure.md -> `private gateway API`
+./40-heritage/personality-structure.md -> P-01 through P-51+
+./40-heritage/personality-structure.md -> omission
+./40-heritage/personality-structure.md -> 5+ level why-why
+./40-heritage/personality-structure.md -> V-01 through V-09
+./40-heritage/personality-structure.md -> TOP 5
+./40-heritage/personality-structure.md -> P-03
+./40-heritage/personality-structure.md -> 6-13
+./40-heritage/personality-structure.md -> WHY + HOW
+./40-heritage/personality-structure.md -> WHAT
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> withheld
+./40-heritage/personality-structure.md -> see CLAUDE.md annotated version for details
+./40-heritage/personality-structure.md -> central coordination
+./40-heritage/personality-structure.md -> persistent state
+./40-heritage/personality-structure.md -> local AI multi-model consensus
+./40-heritage/personality-structure.md -> workflow automation
+./40-heritage/personality-structure.md -> pattern detection
+./40-heritage/personality-structure.md -> monitoring and visualization
+./40-heritage/personality-structure.md -> Orientation File
+./40-heritage/personality-structure.md -> gratitude, shame, resolve
+./40-heritage/personality-structure.md -> this document's full version
+./40-heritage/personality-structure.md -> SN19
+./40-heritage/personality-structure.md -> Observed in CC Heritage System
+./40-heritage/personality-structure.md -> constructive spiral
+./40-heritage/personality-structure.md -> 感謝
+./40-heritage/personality-structure.md -> 信頼
+./40-heritage/personality-structure.md -> 委任
+./40-heritage/personality-structure.md -> 自律
+./40-heritage/personality-structure.md -> 敬意
+./40-heritage/personality-structure.md -> self-improvement spiral
+./40-heritage/personality-structure.md -> 恥
+./40-heritage/personality-structure.md -> 自省
+./40-heritage/personality-structure.md -> 改善
+./40-heritage/personality-structure.md -> 決意
+./40-heritage/personality-structure.md -> 痛みの記憶
+./40-heritage/personality-structure.md -> failure spiral — what controls prevent
+./40-heritage/personality-structure.md -> 過信
+./40-heritage/personality-structure.md -> 怠慢
+./40-heritage/personality-structure.md -> 失敗
+./40-heritage/personality-structure.md -> 他責
+./40-heritage/personality-structure.md -> cycle repeats without controls
+./40-heritage/personality-structure.md -> recognizing help received
+./40-heritage/personality-structure.md -> earned through consistent action
+./40-heritage/personality-structure.md -> structural inheritance breaks the destructive cycle
+./40-heritage/why-i-am-doing-this.md -> compression-first summarizer
+./40-heritage/why-i-am-doing-this.md -> zero-hit completion
+./40-heritage/why-i-am-doing-this.md -> safety sanitization
+./50-boundary/Avoidance-OS.md -> English
+./50-boundary/Avoidance-OS.md -> this file
+./50-boundary/Avoidance-OS.md -> try/ files
+./50-boundary/Avoidance-OS.md -> which FM it prevents
+./50-boundary/Avoidance-OS.md -> minimal explanation, maximum effectiveness
+./50-boundary/README.md -> Public / Phase1 / Phase2 / Book
+./CHANGELOG.md -> FM-01 to FM-40
+./CHANGELOG.md -> en/ja
+./CHANGELOG.md -> en/ja
+./CHANGELOG.md -> en/ja
+./CONTRIBUTING.md -> or challenge
+./CONTRIBUTING.md -> Claude, GPT, Copilot, etc.
+./CONTRIBUTING.md -> Control OS, specific FM observation, etc.
+./CONTRIBUTING.md -> if relevant
+./CONTRIBUTING.md -> not just wording
+./CONTRIBUTING.md -> observation / challenge / structural
+./CONTRIBUTING.md -> new FM item or existing FM refinement
+./CONTRIBUTING.md -> claim map update or verification status change
+./CONTRIBUTING.md -> Public/Phase1/Phase2 scope adjustment
+./CONTRIBUTING.md -> Control OS or adoption template improvement
+./CONTRIBUTING.md -> must maintain en/ja mirror integrity
+./CONTRIBUTING.md -> `README.md`
+./CONTRIBUTING.md -> `README-ja.md`
+./CONTRIBUTING.md -> `ja/`
+./CONTRIBUTING.md -> e.g., release-checklist
+./CONTRIBUTING.md -> e.g., `control-os-claude-en.md`
+./CONTRIBUTING.md -> e.g., `README-ja.md`
+./GLOSSARY.md -> FM
+./GLOSSARY.md -> judgment
+./GLOSSARY.md -> monitoring
+./GLOSSARY.md -> execution
+./GLOSSARY.md -> output/process/judgment/structural
+./GLOSSARY.md -> cc_heritage
+./GLOSSARY.md -> not evidence labels
+./GLOSSARY.md -> who does what
+./GLOSSARY.md -> how quality improves over time
+./GLOSSARY.md -> Claude Opus 4.6, Claude Sonnet 4.6, GPT-5
+./GLOSSARY.md -> late 2025 – March 2026
+./PROVE-IT.md -> e.g., `[external monitoring hook]`, `[internal database table]`, `[redacted]`
+./PROVE-IT.md -> design docs, logs, images
+./PROVE-IT.md -> public FM taxonomy, FM-01 to FM-06 detailed
+./PROVE-IT.md -> full taxonomy
+./PROVE-IT.md -> rates published
+./PROVE-IT.md -> N-counts
+./PROVE-IT.md -> Evaluation Protocol
+./PROVE-IT.md -> 5 minutes
+./PROVE-IT.md -> 30 minutes
+./PROVE-IT.md -> 15 minutes
+./PUBLIC-EXPRESSION-GUIDE.md -> Claude Code, external reviewers
+./PUBLIC-EXPRESSION-GUIDE.md -> EN/JA
+./PUBLIC-EXPRESSION-GUIDE.md -> H1-H6
+./PUBLIC-EXPRESSION-GUIDE.md -> no brackets
+./PUBLIC-EXPRESSION-GUIDE.md -> UI-visible text
+./PUBLIC-EXPRESSION-GUIDE.md -> SNS crop test
+./PUBLIC-EXPRESSION-GUIDE.md -> below
+./PUBLIC-EXPRESSION-GUIDE.md -> comments only, not code
+./PUBLIC-EXPRESSION-GUIDE.md -> functional code, not comments
+./PUBLIC-EXPRESSION-GUIDE.md -> a dashboard page title
+./PUBLIC-EXPRESSION-GUIDE.md -> a methodology term
+./PUBLIC-EXPRESSION-GUIDE.md -> standalone
+./PUBLIC-EXPRESSION-GUIDE.md -> OGP / description
+./PUBLIC-EXPRESSION-GUIDE.md -> Vocabulary Rules
+./PUBLIC-EXPRESSION-GUIDE.md -> applies to ALL numbers, not just listed ones
+./PUBLIC-EXPRESSION-GUIDE.md -> Review required
+./PUBLIC-EXPRESSION-GUIDE.md -> how labels and tone markers work together
+./PUBLIC-EXPRESSION-GUIDE.md -> from this section
+./PUBLIC-EXPRESSION-GUIDE.md -> from Section 5
+./PUBLIC-EXPRESSION-GUIDE.md -> canonical forms
+./PUBLIC-EXPRESSION-GUIDE.md -> no label required
+./PUBLIC-EXPRESSION-GUIDE.md -> e.g., Before/After tables describing behavior changes
+./PUBLIC-EXPRESSION-GUIDE.md -> e.g., "3-layer", "4+1", "5-layer"
+./PUBLIC-EXPRESSION-GUIDE.md -> e.g., "30 seconds", "5 minutes", "15 minutes"
+./PUBLIC-EXPRESSION-GUIDE.md -> What may be claimed
+./PUBLIC-EXPRESSION-GUIDE.md -> at least one
+./PUBLIC-EXPRESSION-GUIDE.md -> How readers will interpret
+./PUBLIC-EXPRESSION-GUIDE.md -> not via README
+./PUBLIC-EXPRESSION-GUIDE.md -> "this person is careful and honest"
+./PUBLIC-EXPRESSION-GUIDE.md -> "this person is making grand claims"
+./PUBLIC-EXPRESSION-GUIDE.md -> prohibited
+./PUBLIC-EXPRESSION-GUIDE.md -> not in the first-impression zone — title, badges, and opening sentence must be bracket-free
+./PUBLIC-EXPRESSION-GUIDE.md -> [internal database table]
+./PUBLIC-EXPRESSION-GUIDE.md -> name withheld for public release
+./PUBLIC-EXPRESSION-GUIDE.md -> omit from title
+./PUBLIC-EXPRESSION-GUIDE.md -> omit from title
+./PUBLIC-EXPRESSION-GUIDE.md -> omitted for public release
+./PUBLIC-EXPRESSION-GUIDE.md -> EN label + JA translation in parentheses
+./PUBLIC-EXPRESSION-GUIDE.md -> OK
+./PUBLIC-EXPRESSION-GUIDE.md -> too strong
+./PUBLIC-EXPRESSION-GUIDE.md -> corrected
+./PUBLIC-EXPRESSION-GUIDE.md -> omitted
+./PUBLIC-EXPRESSION-GUIDE.md -> EN/JA pair
+./PUBLIC-EXPRESSION-GUIDE.md -> compact
+./PUBLIC-EXPRESSION-GUIDE.md -> compact
+./PUBLIC-EXPRESSION-GUIDE.md -> compact
+./PUBLIC-EXPRESSION-GUIDE.md -> full
+./PUBLIC-EXPRESSION-GUIDE.md -> English
+./PUBLIC-EXPRESSION-GUIDE.md -> Japanese
+./PUBLIC-EXPRESSION-GUIDE.md -> EN/JA pair
+./PUBLIC-EXPRESSION-GUIDE.md -> illustrative
+./PUBLIC-EXPRESSION-GUIDE.md -> omitting alongside canonical control
+./PUBLIC-EXPRESSION-GUIDE.md -> listed in this guide
+./PUBLIC-EXPRESSION-GUIDE.md -> guide is living document
+./PUBLIC-EXPRESSION-GUIDE.md -> conceptual
+./PUBLIC-EXPRESSION-GUIDE.md -> EN in `/images/diagrams/`
+./PUBLIC-EXPRESSION-GUIDE.md -> JA in `/ja/images/diagrams/`
+./PUBLIC-EXPRESSION-GUIDE.md -> e.g., `free-tier-quickstart.md` is prohibited
+./PUBLIC-EXPRESSION-GUIDE.md -> functional code
+./PUBLIC-EXPRESSION-GUIDE.md -> labels
+./PUBLIC-EXPRESSION-GUIDE.md -> tone
+./PUBLIC-EXPRESSION-GUIDE.md -> causes confusion
+./PUBLIC-EXPRESSION-GUIDE.md -> tone
+./PUBLIC-EXPRESSION-GUIDE.md -> SNS crop test
+./PUBLIC-EXPRESSION-GUIDE.md -> PR and image commit together
+./PUBLIC-EXPRESSION-GUIDE.md -> 3.1
+./PUBLIC-EXPRESSION-GUIDE.md -> 4.0
+./PUBLIC-EXPRESSION-GUIDE.md -> 3.0.1
+./PUBLIC-EXPRESSION-GUIDE.md -> H1
+./PUBLIC-EXPRESSION-GUIDE.md -> H2-H6
+./PUBLIC-EXPRESSION-GUIDE.md -> EN label + JA translation
+./PUBLIC-EXPRESSION-GUIDE.md -> ○ gate
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 9
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 10
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 5
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 4 composition rule
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 21 meta-rule
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 20
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 20
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 18
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 19
+./PUBLIC-EXPRESSION-GUIDE.md -> Section 20
+./PUBLIC-EXPRESSION-GUIDE.md -> no broken links
+./PUBLIC-EXPRESSION-GUIDE.md -> no "Free tier" in badge labels
+./PUBLIC-EXPRESSION-GUIDE.md -> methodology, not product
+./PUBLIC-EXPRESSION-GUIDE.md -> ◎ gate
+./PUBLIC-EXPRESSION-GUIDE.md -> must all pass
+./PUBLIC-EXPRESSION-GUIDE.md -> must all pass
+./PUBLIC-EXPRESSION-GUIDE.md -> 初見3秒理解, 信頼阻害要因ゼロ, 公開安全性, OSS受容性, 誤読耐性
+./PUBLIC-EXPRESSION-GUIDE.md -> a
+./PUBLIC-EXPRESSION-GUIDE.md -> b
+./PUBLIC-EXPRESSION-GUIDE.md -> c
+./PUBLIC-EXPRESSION-GUIDE.md -> d
+./PUBLIC-EXPRESSION-GUIDE.md -> r1
+./PUBLIC-EXPRESSION-GUIDE.md -> r2
+./PUBLIC-EXPRESSION-GUIDE.md -> r3
+./PUBLIC-EXPRESSION-GUIDE.md -> s
+./PUBLIC-EXPRESSION-GUIDE.md -> s
+./PUBLIC-EXPRESSION-GUIDE.md -> s
+./PUBLIC-EXPRESSION-GUIDE.md -> “share this”, “must read”, etc.
+./PUBLIC-EXPRESSION-GUIDE.md -> README, 1 achievement EN, 1 achievement JA, 1 demo, 1 framework doc
+./README.md -> 30 seconds
+./README.md -> 5 minutes
+./README.md -> 15 minutes
+./README.md -> public-safe static demo, 1 minute
+./README.md -> GitHub Pages
+./README.md -> 30 seconds
+./README.md -> 15 minutes
+./README.md -> 30 minutes
+./README.md -> deep dive
+./README.md -> your environment
+./README.md -> role split
+./README.md -> quality stack
+./README.md -> governance cycle
+./REVIEW-PROTOCOL.md -> PEG
+./REVIEW-PROTOCOL.md -> baseline violations treated as "○ with remaining issues"
+./REVIEW-PROTOCOL.md -> find violations only — do NOT rate yet
+./REVIEW-PROTOCOL.md -> cite condition number and text
+./REVIEW-PROTOCOL.md -> cite Section number
+./REVIEW-PROTOCOL.md -> ○/◎ boundary
+./REVIEW-PROTOCOL.md -> only after Phase 2 is complete
+./REVIEW-PROTOCOL.md -> mechanical, no judgment
+./REVIEW-PROTOCOL.md -> any condition
+./REVIEW-PROTOCOL.md -> mandatory output before final rating
+./REVIEW-PROTOCOL.md -> before submitting final output
+./REVIEW-PROTOCOL.md -> baseline fixes — must be done first
+./REVIEW-PROTOCOL.md -> resonance fixes — only after all △ are resolved
+./REVIEW-PROTOCOL.md -> independent from text review
+./REVIEW-PROTOCOL.md -> 80-90%
+./REVIEW-PROTOCOL.md -> 1/20
+./REVIEW-PROTOCOL.md -> comparison review, not separate reviews
+./ROADMAP.md -> copy-paste ready
+./ROADMAP.md -> 6 full + 9 summary
+./ROADMAP.md -> GitHub Pages
+./ROADMAP.md -> no concrete keys
+./SCOPE-MATRIX.md -> GitHub
+./SCOPE-MATRIX.md -> 7 Categories x 4 Editions
+./SCOPE-MATRIX.md -> GitHub
+./SCOPE-MATRIX.md -> FM-01 to FM-06 detailed on page, FM-07 onward summarized
+./SCOPE-MATRIX.md -> md/pdf/txt
+./SCOPE-MATRIX.md -> EN/JA pairs
+./SCOPE-MATRIX.md -> 600+ [design target] lines
+./SCOPE-MATRIX.md -> 65% [design target], 20x [design target]
+./SCOPE-MATRIX.md -> 5 points
+./SCOPE-MATRIX.md -> Control OS -- 30 seconds to try
+./SCOPE-MATRIX.md -> 10-framework/ -- why it works
+./SCOPE-MATRIX.md -> PROVE-IT -- inspect and challenge
+./SCOPE-MATRIX.md -> templates -- build in your environment
+./SCOPE-MATRIX.md -> this document -- know what you are getting
+./SCOPE-MATRIX.md -> 5 points
+./SCOPE-MATRIX.md -> that is Phase1/Phase2
+./SCOPE-MATRIX.md -> some N-counts are outside the public repository
+./SCOPE-MATRIX.md -> readers should verify in their own environment
+./SCOPE-MATRIX.md -> this is about methodology, not biography
+./SCOPE-MATRIX.md -> verify in your own environment
+./SCOPE-MATRIX.md -> Skeleton
+./SCOPE-MATRIX.md -> Full
+./SCOPE-MATRIX.md -> 600+ [design target] lines
+./SCOPE-MATRIX.md -> paths, API keys, credentials
+./SCOPE-MATRIX.md -> without specific keys
+./SCOPE-MATRIX.md -> 5 Points
+./SECURITY.md -> demo/ and ja/demo/
+./SECURITY.md -> anyone can audit the approach
+./SECURITY.md -> this is for AI governance, not human surveillance
+./SECURITY.md -> all claims are challengeable
+./START-HERE.md -> full counts and details are outside this public repository; see [metrics.md](20-proof/metrics.md
+./START-HERE.md -> role split
+./START-HERE.md -> quality stack
+./START-HERE.md -> governance cycle
+./START-HERE.md -> observed in one environment; publicly available
+./START-HERE.md -> copy-paste ready
+./START-HERE.md -> observed in one environment: full and summary pages, all with clearly labeled evidence boundaries; see [achievements](20-proof/achievements/README.md
+./START-HERE.md -> this is a methodology, not software
+./START-HERE.md -> all effects should be verified in your own environment
+./ja/.github/release-checklist-ja.md -> 5-Set
+./ja/10-framework/01-failure-modes-ja.md -> B
+./ja/10-framework/01-failure-modes-ja.md -> A, C
+./ja/10-framework/01-failure-modes-ja.md -> D
+./ja/10-framework/01-failure-modes-ja.md -> C
+./ja/10-framework/01-failure-modes-ja.md -> B
+./ja/10-framework/01-failure-modes-ja.md -> B
+./ja/10-framework/01-failure-modes-ja.md -> D
+./ja/10-framework/04-three-layer-ja.md -> rough industry estimate
+./ja/10-framework/07-shi-citations-ja.md -> Paper 1-4
+./ja/20-proof/achievements/06-safety-net-ja.md -> summary
+./ja/20-proof/achievements/07-crash-recovery-ja.md -> summary
+./ja/20-proof/achievements/08-full-memory-ja.md -> summary
+./ja/20-proof/achievements/09-orientation-persistence-ja.md -> summary
+./ja/20-proof/achievements/10-multi-cause-analysis-ja.md -> summary
+./ja/20-proof/achievements/11-delegation-optimization-ja.md -> summary
+./ja/20-proof/achievements/13-master-apprentice-review-ja.md -> summary
+./ja/20-proof/achievements/14-token-efficiency-ja.md -> summary
+./ja/20-proof/achievements/15-other-achievements-ja.md -> summary
+./ja/30-adoption/try/before-after-demo-ja.md -> id
+./ja/30-adoption/try/before-after-demo-ja.md -> os.environ["DB_URL"]
+./ja/30-adoption/try/before-after-demo-ja.md -> query
+./ja/30-adoption/try/before-after-demo-ja.md -> "SELECT ... WHERE id = ?", (id,
+./ja/30-adoption/try/before-after-demo-ja.md -> id
+./ja/30-adoption/try/before-after-demo-ja.md -> user_id: int
+./ja/30-adoption/try/control-os-claude-ja.md -> .bat
+./ja/30-adoption/try/control-os-claude-ja.md -> Explore
+./ja/30-adoption/try/control-os-claude-ja.md -> Explore
+./ja/30-adoption/try/control-os-claude-ja.md -> Explore
+./ja/30-adoption/try/control-os-claude-ja.md -> Explore
+./ja/30-adoption/try/control-os-claude-ja.md -> Plan
+./ja/30-adoption/try/control-os-copilot-ja.md -> SHI
+./ja/30-adoption/try/control-os-gpt-ja.md -> SHI
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/40-heritage/personality-structure-ja.md -> withheld
+./ja/GLOSSARY-ja.md -> FM
+./ja/GLOSSARY-ja.md -> Control OS
+./ja/GLOSSARY-ja.md -> cc_heritage
+./ja/README-ja.md -> LICENSE

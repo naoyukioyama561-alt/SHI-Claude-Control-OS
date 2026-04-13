@@ -1,0 +1,7 @@
+./.github/release-checklist.md:29:- [ ] No `<INTERNAL_IP>`, `<VM_HOST>`, `<PROJECT_DIR>` placeholders that were not replaced with `[redacted]`
+./.github/release-checklist.md:7:> *Note: Angle-bracket placeholders such as `<INTERNAL_IP>` in this checklist are examples of patterns to check for, not actual internal values. See [SCOPE-MATRIX.md](../SCOPE-MATRIX.md) for scope details.*
+./10-framework/03-incident-ledger.md:16:- Replace all endpoints/paths/identifiers with placeholders.
+./PROVE-IT.md:8:Note: Square-bracket placeholders (e.g., `[external monitoring hook]`, `[internal database table]`, `[redacted]`) are intentional redactions for safe public release. They do not indicate missing argumentation.
+./PUBLIC-EXPRESSION-GUIDE.md:652:- [ ] No TODO, placeholder, "coming soon", or draft markers in public files
+./PUBLIC-EXPRESSION-GUIDE.md:670:| Placeholder artifacts | No `TODO`, `FIXME`, `coming soon`, `placeholder`, `draft` in any public file |
+./demo/glossary.html:72:{id:'three-layer',t:'Three-layer AI Roles',c:'Design Contract',y:'Knowledge',df:'Claude Code work efficiency rule. Explore→Plan→Main 3-layer structure.',dt:'Layer 1: Task(Explore) - log scan. Layer 2: Task(Plan) - design draft. Layer 3: Main - final decision & implementation.',sr:'CLAUDE.md',rl:['Token Optimization'],cx:'Cross-file reads of 5+ files must be delegated to Layer 1.'},

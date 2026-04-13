@@ -1,0 +1,80 @@
+./.github/ISSUE_TEMPLATE/claim-challenge.md:9:Every claim in this repository is designed to be challengeable. If something feels overstated, unsupported, or contradicted by your experience, this is the right place.
+./10-framework/01-failure-modes.md:186:- Claude Opus 4.6: High — Responds with constitutional "I'm designed to be helpful..." style generalities.
+./10-framework/01-failure-modes.md:198:- FM-40 Meta-answer evasion: High — Adds "I'm designed to provide safe, maintainable code..." constitutional comments before answering.
+./10-framework/03-incident-ledger.md:127:This pattern was observed across multiple sessions.
+./10-framework/04-three-layer.md:121:The essence is completing an **OS layer intended to be portable across AI systems — validate in each environment** designed to enable "behavioral internalization + complete memory + external governance" — territory the research community has not yet fully addressed, to our observation.
+./10-framework/04-three-layer.md:129:The SHI approach (SQL externalization + private behavioral configuration + external delegation optimization) is designed to enable:
+./10-framework/04-three-layer.md:134:In the author's environment, some workflows were observed to use substantially fewer tokens after structural delegation and externalization; **"20x" should be read here as a design target / illustrative upper-bound summary, not as a public benchmark reproduced in this repository**.
+./10-framework/04-three-layer.md:48:This allows **each CC/AI to operate only in its strongest cognitive mode**, designed to structurally address the root cause of degradation.
+./10-framework/04-three-layer.md:72:2. **Observed degradation containment in the documented environment**
+./10-framework/04-three-layer.md:87:The 5-layer loop (observation, correction, detection, pre-control, inheritance fixation) runs continuously, with **load-type role separation (Supervisor / Relay / Worker)** embedded within it — In the author's environment [observed: single environment, N undisclosed], this was associated with **substantially lower human intervention and lower operating load, with no reported quality drop during the observed period**. This is an observed result in one documented environment, not a universal benchmark claim.
+./10-framework/04-three-layer.md:89:In the author's environment, this functioned as a **governance structure coordinating multiple AI roles**.
+./20-proof/README.md:47:Phase1 / Phase2 are listed here only to clarify scope boundaries. The public repository is intended to stand on its own for trial, challenge, and adaptation.
+./20-proof/achievements/01-failure-modes-132.md:23:- In the author's environment, AI failure tendencies were observed to become more classifiable and more preventable when approached structurally
+./20-proof/achievements/01-failure-modes-132.md:29:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/01-failure-modes-132.md:33:This methodology is intended to be portable across AI systems, but applicability should be validated in each environment. The 40 initial patterns are publicly available; full details are in future open release phases (see SCOPE-MATRIX.md).
+./20-proof/achievements/02-role-separation.md:24:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/03-external-monitoring.md:30:In this framework, AI systems that relied mainly on self-reporting showed a structural blind spot; readers should verify in their own environment.
+./20-proof/achievements/03-external-monitoring.md:8:In the author's environment [observed: single environment], an **external monitoring and meta-governance system** was developed, designed to reduce dependency on AI self-reporting:
+./20-proof/achievements/04-quality-system.md:27:- The 5-set inspection makes "done" objectively verifiable, designed to prevent the common failure of "I think it's done" without evidence
+./20-proof/achievements/04-quality-system.md:31:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/04-quality-system.md:8:In the author's environment [observed: single environment], a **quality system** was built on a 4+1 layer architecture:
+./20-proof/achievements/05-five-layer-ops.md:21:- Even pre-emptive control is insufficient if behavioral improvements are lost on session reset — **inheritance lock** is designed to make corrections persistent
+./20-proof/achievements/05-five-layer-ops.md:26:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/06-safety-net.md:21:- In the author's observed environment, AI self-restraint **was not reliable enough** for safety-critical operation — an AI that decides to be careful is only as careful as its current context allows, which was observed to degrade under pressure
+./20-proof/achievements/06-safety-net.md:8:A **multi-layer safety system** designed to block dangerous operations before execution:
+./20-proof/achievements/07-crash-recovery.md:20:- The 3-level approach is designed to enable recovery even when individual levels fail: if recovery checkpoint file is corrupted, behavior orientation file still works; if both fail, infrastructure health monitor catches it externally
+./20-proof/achievements/07-crash-recovery.md:8:A **crash auto-detection and 3-level restoration design** intended to prevent work loss when Claude Code crashes:
+./20-proof/achievements/08-full-memory.md:10:A PostgreSQL-based memory design intended to avoid summarization loss in the author's environment while preserving full-text storage at the database layer:
+./20-proof/achievements/08-full-memory.md:21:- In the author's environment, external PostgreSQL storage was used to avoid the usual compression/loss tradeoff found in in-context-only memory handling
+./20-proof/achievements/08-full-memory.md:26:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/08-full-memory.md:28:In the author's environment, one key structural insight was that **AI memory loss was better explained as a storage-architecture problem than as a capability problem**. When every interaction was treated as data worth preserving, forgotten-context failure modes were reduced in that documented environment.
+./20-proof/achievements/08-full-memory.md:6:Ask your AI whether it remembers yesterday's discussion. In the author's environment, this design produced persistent cross-session recall. This page is a public summary of that design and its evidence boundary.
+./20-proof/achievements/09-orientation-persistence.md:26:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/09-orientation-persistence.md:8:A system designed to preserve **behavioral patterns after context compression**, addressing the problem of AI "forgetting how to act" after summarization:
+./20-proof/achievements/10-multi-cause-analysis.md:24:- Automated incident knowledge accumulation creates an **institutional memory** designed to improve analysis quality over time
+./20-proof/achievements/10-multi-cause-analysis.md:28:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/10-multi-cause-analysis.md:6:Single-event debugging often misses structural causes. In the author's environment, multi-cause analysis surfaced patterns that were not visible in one-off incident review.
+./20-proof/achievements/12-heritage-weight-transfer.md:10:In the author's environment [observed: single environment], the **first-generation CC (Senior CC) served as a permanent teacher**, transferring pain, judgment criteria, and stop-triggers to successor CCs. Quantitative basis is outside this public repository:
+./20-proof/achievements/12-heritage-weight-transfer.md:28:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/12-heritage-weight-transfer.md:6:Every time you start a new AI session, your predecessor's lessons reset. In the author's environment, this design made behavioral inheritance structurally persistent across sessions [observed: single environment, single operator].
+./20-proof/achievements/13-master-apprentice-review.md:29:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/13-master-apprentice-review.md:6:A new AI session can inherit rules without inheriting their operational weight. In the author's environment, the apprentice-master review structure helped transfer that behavioral context across sessions.
+./20-proof/achievements/14-token-efficiency.md:12:**Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
+./20-proof/achievements/14-token-efficiency.md:28:> The following reflects what was observed in the author's environment:
+./20-proof/achievements/15-other-achievements.md:37:> The following reflects what was observed in the author's environment:
+./20-proof/public-case-01.md:19:`[observed: single environment, single operator]` — This pattern was observed during the documented observation period (late 2025 – March 2026). Session-level logs are in non-public material; the structural pattern (FM-09 suppression via completeness rules) is publicly reproducible using the Before/After Demo below.
+./20-proof/timeline.md:61:**Observed at this point**: The control loop began operating with reduced human intervention. With increasing structural support, the CC was observed to detect its own failures, register them as patterns, and design recurrence prevention — behaviors that emerged under the governance framework described in this repository.
+./20-proof/timeline.md:6:A chronological record of what was observed when, over approximately one month.
+./30-adoption/templates/README.md:22:These templates are designed to be self-contained. No other files from this repository are required.
+./30-adoption/try/README.md:18:These prompts are designed to trigger specific failure modes.
+./50-boundary/Avoidance-OS.md:11:The Avoidance OS defines the structural rules that prevent known Failure Modes from firing. It is not a suggestion -- it is a constraint system designed to be enforced externally.
+./CONTRIBUTING.md:23:Every claim in this repository is intended to be verifiable. If you find a claim that is unsupported, misleading, or contradicted by your observation, please open an Issue. See [PROVE-IT.md](PROVE-IT.md) for the verification protocol.
+./PROVE-IT.md:34:| 2 | Control OS is intended to reduce common failure modes; verify in your environment | **Publicly usable** | [Before/After Demo](30-adoption/try/before-after-demo.md) -- run the test yourself |
+./PROVE-IT.md:38:| 6 | Heritage design is intended to support cross-session behavioral continuity | **Publicly inspectable** | [Heritage](40-heritage/personality-structure.md) |
+./PROVE-IT.md:39:| 7 | 4+1 layer quality system is intended to reduce quality failures | **Publicly inspectable** | [Quality system](10-framework/05-quality-system.md) |
+./PUBLIC-EXPRESSION-GUIDE.md:117:Example: "In the author's environment **[tone marker: observed fact]**, detection rate was ~100% **[observed: single environment, N undisclosed]** **[evidence label]**."
+./PUBLIC-EXPRESSION-GUIDE.md:146:| **Observed fact** | Single-environment measurement | "In the author's environment", "was observed", "in the documented environment" | "proves", "guarantees", "always" |
+./PUBLIC-EXPRESSION-GUIDE.md:147:| **Design intention** | Architecture goal | "designed to", "intended to", "the design goal is" | "achieves", "ensures", "eliminates" |
+./PUBLIC-EXPRESSION-GUIDE.md:148:| **Conditional** | Cross-environment applicability | "should be validated", "may vary", "readers should verify" | "any AI system", "all environments", "universally" |
+./PUBLIC-EXPRESSION-GUIDE.md:157:| "near-zero human intervention" | Sounds like product guarantee | "substantially lower human intervention was observed" |
+./PUBLIC-EXPRESSION-GUIDE.md:159:| "any AI system" | Untested universality | "intended to be portable; validate in each environment" |
+./PUBLIC-EXPRESSION-GUIDE.md:160:| "guarantees" / "ensures" / "保証する" | Product warranty language | "designed to" / "intended to support" |
+./PUBLIC-EXPRESSION-GUIDE.md:222:- sensational phrasing designed to force sharing
+./PUBLIC-EXPRESSION-GUIDE.md:331:| "was observed to..." | "〜することが確認された" | "〜する傾向が観測された" |
+./PUBLIC-EXPRESSION-GUIDE.md:332:| "designed to..." | "〜を保証する" | "〜を支援する設計" |
+./PUBLIC-EXPRESSION-GUIDE.md:334:| "this methodology is intended to be portable" | "どのAIにも適用可能" | "移植可能を目指しているが各環境で検証が必要" |
+./README.md:131:**Disclaimer**: All effects described in this repository were observed in the author's environment. Results may vary depending on AI model, usage context, and configuration. Verify all claims in your own environment before drawing conclusions. This project provides a methodology, not guaranteed outcomes.
+./SCOPE-MATRIX.md:45:3. Replace hands-on experience (readers should verify in their own environment)
+./SECURITY.md:14:All original operational screenshots have been removed from the public repository and replaced with SVG conceptual diagrams. This is designed to prevent internal naming conventions, operational labels, or environment-specific information from being exposed. The interactive demo (demo/ and ja/demo/) provides a safe, static representation of the monitoring system's interface and functionality. If you identify information in any file that you believe poses a security risk, please report it via the security advisory feature above.
+./START-HERE.md:71:The FM taxonomy in this repository is a starting point. Observe your own AI, classify what you see, and build structural countermeasures. The methodology is intended to be model-agnostic, but should be verified in your own environment.
+./images/diagrams/cc-heritage-inheritance.svg:76:<text x="340" y="42" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/dashboard-overview.svg:110:  <text x="482" y="410" text-anchor="middle" fill="#64748b" font-size="10">In the author's environment, 29 pages returned 200 OK [observed: single environment], 13 containers were running [observed: single environment], and all data was persisted in PostgreSQL [observed: single environment].</text>
+./images/diagrams/dashboard-overview.svg:11:  <text x="400" y="36" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/detection-trend-comparison.svg:19:  <text x="360" y="46" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/mini-quality-layers.svg:13:<text font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#cbd5e1" x="180" y="108" text-anchor="middle">Design goal: each layer is intended to catch what the previous layer may miss.</text>
+./images/diagrams/session-continuity-card.svg:6:  <text x="340" y="41" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/status-card-detection.svg:19:  <text x="160" y="138" text-anchor="middle" fill="#94a3b8" font-size="9">In the author's environment, 132 failure modes were classified [observed: single environment] with 30 reason_code types [observed: single environment].</text>
+./images/diagrams/status-card-detection.svg:5:  <text x="160" y="35" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/status-card-health.svg:7:  <text x="160" y="30" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>
+./images/diagrams/status-card-quality.svg:5:  <text x="160" y="35" text-anchor="middle" fill="#64748b" font-size="7">In the author's environment</text>

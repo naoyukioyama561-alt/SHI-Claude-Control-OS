@@ -7,7 +7,7 @@ Language: [日本語版はこちら / Japanese version](../../ja/20-proof/achiev
 
 ## What Was Observed
 
-**Design target**: A 20x reduction in token consumption while maintaining or improving operational quality.
+**Design target**: A 20x [design target] reduction in token consumption while maintaining or improving operational quality.
 
 **Observed (single environment, not a public benchmark)**: large reduction was observed in the author's environment, but the public claim on this page remains the 20x design target, not a reproduced benchmark.
 
