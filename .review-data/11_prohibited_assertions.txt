@@ -1,9 +1,0 @@
-./PUBLIC-EXPRESSION-GUIDE.md:146:| **Observed fact** | Single-environment measurement | "In the author's environment", "was observed", "in the documented environment" | "proves", "guarantees", "always" |
-./PUBLIC-EXPRESSION-GUIDE.md:147:| **Design intention** | Architecture goal | "designed to", "intended to", "the design goal is" | "achieves", "ensures", "eliminates" |
-./PUBLIC-EXPRESSION-GUIDE.md:148:| **Conditional** | Cross-environment applicability | "should be validated", "may vary", "readers should verify" | "any AI system", "all environments", "universally" |
-./PUBLIC-EXPRESSION-GUIDE.md:155:| "fundamentally unreliable" | Universal claim from single observation | "was not reliable enough in the observed environment" |
-./PUBLIC-EXPRESSION-GUIDE.md:156:| "dramatically improved" | Unmeasured superlative | "substantially improved in the observed environment" |
-./PUBLIC-EXPRESSION-GUIDE.md:157:| "near-zero human intervention" | Sounds like product guarantee | "substantially lower human intervention was observed" |
-./PUBLIC-EXPRESSION-GUIDE.md:158:| "proof it works" | Implies universal proof | "verification record under stated conditions" |
-./PUBLIC-EXPRESSION-GUIDE.md:159:| "any AI system" | Untested universality | "intended to be portable; validate in each environment" |
-./PUBLIC-EXPRESSION-GUIDE.md:160:| "guarantees" / "ensures" / "保証する" | Product warranty language | "designed to" / "intended to support" |

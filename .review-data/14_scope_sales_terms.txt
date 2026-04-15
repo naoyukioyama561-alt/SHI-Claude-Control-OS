@@ -1,6 +1,0 @@
-./PUBLIC-EXPRESSION-GUIDE.md:299:| public boundary | public repository / public release surface | free tier / free version |
-./PUBLIC-EXPRESSION-GUIDE.md:300:| non-public boundary | non-public implementation / private deployment / future open release phase | paid tier / paid version / premium |
-./PUBLIC-EXPRESSION-GUIDE.md:302:| evaluation surface | "This repository is the primary evaluation surface" | "free tier is enough" |
-./PUBLIC-EXPRESSION-GUIDE.md:303:| access note | "Some implementation details are intentionally not public" | “unlock”, “upgrade”, “premium access” |
-./PUBLIC-EXPRESSION-GUIDE.md:638:- [ ] No "paid tier" / "有料" / "free tier" (Section 10)
-./PUBLIC-EXPRESSION-GUIDE.md:734:- Do **not** upgrade ○ to ◎ because the repo “feels good overall” without satisfying the resonance conditions
